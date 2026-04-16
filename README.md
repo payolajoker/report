@@ -1,6 +1,6 @@
-# report
+# 연구 보고 아카이브
 
-A personal archive for reports and investigation notes developed through LLM-assisted research.
+개인적으로 작성한 보고서와 조사 메모를 정리하는 저장소입니다. LLM 보조 리서치를 바탕으로 자료를 검토하고, 핵심 내용을 문서 형태로 축적합니다.
 
 ## Reports
 
