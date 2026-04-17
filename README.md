@@ -6,7 +6,51 @@
 
 ## 문서 간 관계
 
-<!-- 관계도: Task 2에서 삽입 -->
+```mermaid
+graph TD
+    subgraph Reports["공개 보고서"]
+        R1["1·2·3기 신도시"]
+        R2["위례선 트램"]
+        R3["동남부 연담화"]
+        R4["1963 서울 확장"]
+        R5["국가철도망 vs 도시철도망"]
+        R6["수도권 도시등급"]
+    end
+
+    subgraph Supplements["보조 자료"]
+        S1["도시등급 방법론"]
+        S2["도시등급 지표 레지스트리"]
+        S3["도시등급 Source anchors"]
+        S4["Run-1 결과"]
+        S5["철도 계획 링크 인덱스"]
+        S6["PIMAC 철도 조사 메모"]
+        S7["1963 원본 보고서"]
+    end
+
+    R1 -.하남교산 사례.-> R3
+    R1 -.성남·화성 평가.-> R6
+    R2 -.위례신도시 계획.-> R3
+    R3 -.동남권 행정기반.-> R4
+    R5 ==법적 배경==> R1
+    R5 ==법적 배경==> R2
+    R5 ==법적 배경==> R3
+
+    R6 --> S1
+    R6 --> S2
+    R6 --> S3
+    R6 --> S4
+
+    R5 --> S5
+    R5 --> S6
+    R2 -.PIMAC 예타.-> S6
+
+    R4 --> S7
+
+    classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
+    classDef supp fill:#fef3c7,stroke:#d97706,color:#000
+    class R1,R2,R3,R4,R5,R6 report
+    class S1,S2,S3,S4,S5,S6,S7 supp
+```
 
 ## 공개 보고서 (Reports)
 
