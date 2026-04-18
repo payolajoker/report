@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#f4f2ec"/>
+  <style>
+    .title { font: 700 40px 'Malgun Gothic', sans-serif; fill: #1f2f25; }
+    .sub { font: 500 20px 'Malgun Gothic', sans-serif; fill: #48594e; }
+    .hub { fill: #1f5442; }
+    .node { font: 700 28px 'Malgun Gothic', sans-serif; fill: #1f2f25; }
+    .small { font: 500 18px 'Malgun Gothic', sans-serif; fill: #405146; }
+    .arrow { stroke: #4c6156; stroke-width: 7; marker-end: url(#a); }
+    .coretext { font: 700 32px 'Malgun Gothic', sans-serif; fill: #ffffff; }
+  </style>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4c6156"/>
+    </marker>
+  </defs>
+  <text x="700" y="64" text-anchor="middle" class="title">영동대로 환승핵으로 수렴하는 서울 동남부 외연</text>
+  <text x="700" y="100" text-anchor="middle" class="sub">하남·위례·성남·남양주 축이 강남 업무지구와 만나는 중심 수렴 구조</text>
+  <rect x="500" y="290" width="400" height="180" rx="32" class="hub"/>
+  <text x="700" y="360" text-anchor="middle" class="coretext">영동대로</text>
+  <text x="700" y="404" text-anchor="middle" class="coretext">환승핵</text>
+  <text x="700" y="442" text-anchor="middle" class="sub" fill="#dde9e3">GTX · 위례신사선 · 2호선 · 9호선 · 버스 환승</text>
+  <line x1="260" y1="180" x2="540" y2="315" class="arrow"/>
+  <line x1="560" y1="120" x2="650" y2="290" class="arrow"/>
+  <line x1="840" y1="120" x2="760" y2="290" class="arrow"/>
+  <line x1="1140" y1="180" x2="860" y2="315" class="arrow"/>
+  <line x1="700" y1="620" x2="700" y2="470" class="arrow"/>
+  <g transform="translate(80,110)">
+    <rect width="270" height="120" rx="24" fill="#dae8f7" stroke="#698db7" stroke-width="4"/>
+    <text x="135" y="55" text-anchor="middle" class="node">하남 · 미사 · 교산</text>
+    <text x="135" y="88" text-anchor="middle" class="small">동남부 외연 주거·통근 축</text>
+  </g>
+  <g transform="translate(430,50)">
+    <rect width="270" height="120" rx="24" fill="#dcefdc" stroke="#78a071" stroke-width="4"/>
+    <text x="135" y="55" text-anchor="middle" class="node">위례</text>
+    <text x="135" y="88" text-anchor="middle" class="small">복정·남위례·마천 경계 결절</text>
+  </g>
+  <g transform="translate(700,50)">
+    <rect width="270" height="120" rx="24" fill="#f6eac8" stroke="#b69648" stroke-width="4"/>
+    <text x="135" y="55" text-anchor="middle" class="node">성남 · 판교</text>
+    <text x="135" y="88" text-anchor="middle" class="small">고차 업무·주거 기능 결합</text>
+  </g>
+  <g transform="translate(1050,110)">
+    <rect width="270" height="120" rx="24" fill="#eeddf5" stroke="#8b6ead" stroke-width="4"/>
+    <text x="135" y="55" text-anchor="middle" class="node">구리 · 남양주</text>
+    <text x="135" y="88" text-anchor="middle" class="small">동부 장거리 생활권 확장</text>
+  </g>
+  <g transform="translate(520,610)">
+    <rect width="360" height="120" rx="24" fill="#d8eee7" stroke="#5f9586" stroke-width="4"/>
+    <text x="180" y="55" text-anchor="middle" class="node">강남 업무지구 · 국제교류복합지구</text>
+    <text x="180" y="88" text-anchor="middle" class="small">연담화의 최종 수렴점이자 중심 기능핵</text>
+  </g>
+</svg>

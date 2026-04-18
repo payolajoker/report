@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <rect width="1500" height="760" fill="#f6f4ee"/>
+  <style>
+    .title { font: 700 40px 'Malgun Gothic', sans-serif; fill: #1f2f25; }
+    .head { font: 700 24px 'Malgun Gothic', sans-serif; fill: #ffffff; }
+    .cellh { font: 700 24px 'Malgun Gothic', sans-serif; fill: #203026; }
+    .cell { font: 500 20px 'Malgun Gothic', sans-serif; fill: #33443a; }
+  </style>
+  <text x="750" y="60" text-anchor="middle" class="title">하남 관련 사례를 하나로 보면 안 되는 이유</text>
+  <rect x="70" y="110" width="1360" height="72" fill="#234b3d" rx="18"/>
+  <text x="165" y="156" text-anchor="middle" class="head">사례</text>
+  <text x="430" y="156" text-anchor="middle" class="head">서울 접속 방향</text>
+  <text x="760" y="156" text-anchor="middle" class="head">교통 체계</text>
+  <text x="1125" y="156" text-anchor="middle" class="head">도시 성격</text>
+  <text x="1320" y="156" text-anchor="middle" class="head">핵심 해석</text>
+  <g>
+    <rect x="70" y="205" width="1360" height="92" fill="#dce8f8" rx="18"/>
+    <text x="165" y="260" text-anchor="middle" class="cellh">미사</text>
+    <text x="430" y="260" text-anchor="middle" class="cell">강동 상일동축</text>
+    <text x="760" y="260" text-anchor="middle" class="cell">하남선 기개통</text>
+    <text x="1125" y="260" text-anchor="middle" class="cell">성숙한 주거 확장지</text>
+    <text x="1320" y="260" text-anchor="middle" class="cell">이미 연결된 축</text>
+  </g>
+  <g>
+    <rect x="70" y="315" width="1360" height="92" fill="#f6dfd9" rx="18"/>
+    <text x="165" y="370" text-anchor="middle" class="cellh">감일</text>
+    <text x="430" y="370" text-anchor="middle" class="cell">송파 오금·거여·장지축</text>
+    <text x="760" y="370" text-anchor="middle" class="cell">송파하남선 계획</text>
+    <text x="1125" y="370" text-anchor="middle" class="cell">접경형 주거 확장지</text>
+    <text x="1320" y="370" text-anchor="middle" class="cell">경계 압력형 연담화</text>
+  </g>
+  <g>
+    <rect x="70" y="425" width="1360" height="92" fill="#dfeacc" rx="18"/>
+    <text x="165" y="480" text-anchor="middle" class="cellh">교산</text>
+    <text x="430" y="480" text-anchor="middle" class="cell">송파 오금역축</text>
+    <text x="760" y="480" text-anchor="middle" class="cell">송파하남선 계획</text>
+    <text x="1125" y="480" text-anchor="middle" class="cell">3기 신도시형 계획도시</text>
+    <text x="1320" y="480" text-anchor="middle" class="cell">독립 도시 골격 보유</text>
+  </g>
+  <g>
+    <rect x="70" y="535" width="1360" height="92" fill="#f5ebc8" rx="18"/>
+    <text x="165" y="590" text-anchor="middle" class="cellh">하남측 위례</text>
+    <text x="430" y="590" text-anchor="middle" class="cell">마천·장지 및 성남측 위례축</text>
+    <text x="760" y="590" text-anchor="middle" class="cell">트램·연장 요구·피더 버스</text>
+    <text x="1125" y="590" text-anchor="middle" class="cell">행정분절-생활권통합형</text>
+    <text x="1320" y="590" text-anchor="middle" class="cell">같은 생활권 내부 비대칭</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <rect width="1400" height="520" fill="#f5f4ef"/>
+  <style>
+    .title { font: 700 40px 'Malgun Gothic', sans-serif; fill: #223126; }
+    .sub { font: 500 20px 'Malgun Gothic', sans-serif; fill: #46584b; }
+    .node { font: 700 28px 'Malgun Gothic', sans-serif; fill: #1f2f26; }
+    .small { font: 500 18px 'Malgun Gothic', sans-serif; fill: #3d4f42; }
+    .arrow { stroke: #4a5d52; stroke-width: 7; marker-end: url(#a); }
+  </style>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4a5d52"/>
+    </marker>
+  </defs>
+  <text x="700" y="70" text-anchor="middle" class="title">강동-하남-구리·남양주 동부 확장 축</text>
+  <text x="700" y="106" text-anchor="middle" class="sub">서울 동남부 외연이 하남에서 끝나지 않고 동부 광역 생활권 벨트로 이어지는 구조</text>
+  <line x1="180" y1="270" x2="1220" y2="270" class="arrow"/>
+  <g transform="translate(70,190)">
+    <rect width="180" height="140" rx="24" fill="#dbe8f8" stroke="#7091ba" stroke-width="4"/>
+    <text x="90" y="64" text-anchor="middle" class="node">강동</text>
+    <text x="90" y="98" text-anchor="middle" class="small">서울 동측 접속 기점</text>
+  </g>
+  <g transform="translate(260,190)">
+    <rect width="180" height="140" rx="24" fill="#dcefdc" stroke="#7aa274" stroke-width="4"/>
+    <text x="90" y="64" text-anchor="middle" class="node">미사</text>
+    <text x="90" y="98" text-anchor="middle" class="small">하남선 기반 연결</text>
+  </g>
+  <g transform="translate(450,190)">
+    <rect width="180" height="140" rx="24" fill="#f7ead1" stroke="#b89443" stroke-width="4"/>
+    <text x="90" y="64" text-anchor="middle" class="node">하남 동부권</text>
+    <text x="90" y="98" text-anchor="middle" class="small">동부 매개 공간</text>
+  </g>
+  <g transform="translate(640,190)">
+    <rect width="180" height="140" rx="24" fill="#f5dada" stroke="#bf7878" stroke-width="4"/>
+    <text x="90" y="64" text-anchor="middle" class="node">구리</text>
+    <text x="90" y="98" text-anchor="middle" class="small">동부 외연 접속</text>
+  </g>
+  <g transform="translate(830,190)">
+    <rect width="180" height="140" rx="24" fill="#e5def7" stroke="#8b76b0" stroke-width="4"/>
+    <text x="90" y="64" text-anchor="middle" class="node">남양주 별내</text>
+    <text x="90" y="98" text-anchor="middle" class="small">다중 철도망 결절</text>
+  </g>
+  <g transform="translate(1020,190)">
+    <rect width="180" height="140" rx="24" fill="#dbeee9" stroke="#6d9d91" stroke-width="4"/>
+    <text x="90" y="64" text-anchor="middle" class="node">남양주 왕숙 · 진접</text>
+    <text x="90" y="98" text-anchor="middle" class="small">3기 신도시 · 북동 연장</text>
+  </g>
+</svg>

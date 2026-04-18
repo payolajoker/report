@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#f4f1ea"/>
+  <style>
+    .title { font: 700 42px 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; fill: #1e2d24; }
+    .subtitle { font: 500 20px 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; fill: #405246; }
+    .center { fill: #204b3a; }
+    .coreText { font: 700 30px 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; fill: #ffffff; }
+    .label { font: 700 28px 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; fill: #1e2d24; }
+    .small { font: 500 18px 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; fill: #314238; }
+    .nodeA { fill: #d7e8f5; stroke: #6b93b5; }
+    .nodeB { fill: #f9dfd6; stroke: #c67c63; }
+    .nodeC { fill: #dce9cb; stroke: #7d9d5b; }
+    .nodeD { fill: #f6e8bf; stroke: #b79d42; }
+    .nodeE { fill: #eadcf6; stroke: #8d6db0; }
+    .nodeF { fill: #d9efe9; stroke: #5d9484; }
+    .line { stroke: #53665a; stroke-width: 6; }
+  </style>
+  <text x="700" y="70" text-anchor="middle" class="title">서울 동남부 도시 연담화 6개 사례 축 개요</text>
+  <text x="700" y="108" text-anchor="middle" class="subtitle">보고서 본문에서 다루는 접속 방향, 철도 단계, 생활권 성격을 한 장으로 정리한 개념도</text>
+  <line x1="700" y1="430" x2="250" y2="220" class="line"/>
+  <line x1="700" y1="430" x2="520" y2="150" class="line"/>
+  <line x1="700" y1="430" x2="880" y2="150" class="line"/>
+  <line x1="700" y1="430" x2="1120" y2="250" class="line"/>
+  <line x1="700" y1="430" x2="1020" y2="700" class="line"/>
+  <line x1="700" y1="430" x2="350" y2="700" class="line"/>
+  <rect x="500" y="330" width="400" height="210" rx="32" class="center"/>
+  <text x="700" y="405" text-anchor="middle" class="coreText">서울 동남부</text>
+  <text x="700" y="448" text-anchor="middle" class="coreText">도시 연담화</text>
+  <text x="700" y="495" text-anchor="middle" class="subtitle" fill="#dfeae5">주택지 개발 + 광역철도·버스 + 광역계획 체계</text>
+  <rect x="70" y="120" width="320" height="150" rx="24" class="nodeA" stroke-width="4"/>
+  <text x="230" y="175" text-anchor="middle" class="label">A. 강동-미사-하남도심</text>
+  <text x="230" y="215" text-anchor="middle" class="small">강동 상일동 접속</text>
+  <text x="230" y="245" text-anchor="middle" class="small">하남선 기반의 이미 연결된 축</text>
+  <rect x="360" y="60" width="320" height="150" rx="24" class="nodeB" stroke-width="4"/>
+  <text x="520" y="115" text-anchor="middle" class="label">B. 송파-감일</text>
+  <text x="520" y="155" text-anchor="middle" class="small">오금·거여·장지 접경</text>
+  <text x="520" y="185" text-anchor="middle" class="small">경계 압력형 확장지</text>
+  <rect x="720" y="60" width="320" height="150" rx="24" class="nodeC" stroke-width="4"/>
+  <text x="880" y="115" text-anchor="middle" class="label">C. 송파-교산-하남도심</text>
+  <text x="880" y="155" text-anchor="middle" class="small">오금역 방향 계획축</text>
+  <text x="880" y="185" text-anchor="middle" class="small">대규모 3기 신도시형 확장</text>
+  <rect x="1000" y="170" width="330" height="150" rx="24" class="nodeD" stroke-width="4"/>
+  <text x="1165" y="225" text-anchor="middle" class="label">D. 거여·마천-위례-복정·남위례</text>
+  <text x="1165" y="265" text-anchor="middle" class="small">서울·성남·하남 다중 경계 결절</text>
+  <text x="1165" y="295" text-anchor="middle" class="small">행정분리-생활권통합형 사례</text>
+  <rect x="820" y="640" width="420" height="150" rx="24" class="nodeE" stroke-width="4"/>
+  <text x="1030" y="695" text-anchor="middle" class="label">E. 강동-하남-구리·남양주 동부 확장</text>
+  <text x="1030" y="735" text-anchor="middle" class="small">미사·하남 동측에서 별내·왕숙·진접으로 연장</text>
+  <text x="1030" y="765" text-anchor="middle" class="small">장거리 생활권 벨트</text>
+  <rect x="120" y="640" width="420" height="150" rx="24" class="nodeF" stroke-width="4"/>
+  <text x="330" y="695" text-anchor="middle" class="label">F. 강남 삼성·영동대로 환승핵</text>
+  <text x="330" y="735" text-anchor="middle" class="small">외연 축을 강남 중심 기능과 연결하는 수렴점</text>
+  <text x="330" y="765" text-anchor="middle" class="small">환승·업무 결절형 중심핵</text>
+</svg>
