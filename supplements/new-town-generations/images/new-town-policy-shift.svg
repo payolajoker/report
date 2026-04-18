@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+  <rect width="1500" height="720" fill="#f5f2ea"/>
+  <style>
+    .title { font: 700 42px 'Malgun Gothic', sans-serif; fill: #203027; }
+    .sub { font: 500 20px 'Malgun Gothic', sans-serif; fill: #4a5a50; }
+    .head { font: 700 28px 'Malgun Gothic', sans-serif; fill: #1f3026; }
+    .body { font: 500 20px 'Malgun Gothic', sans-serif; fill: #33443a; }
+    .arrow { stroke: #5c6e63; stroke-width: 8; marker-end: url(#a); }
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#5c6e63"/></marker></defs>
+  <text x="750" y="68" text-anchor="middle" class="title">1기·2기·3기 신도시의 정책 문제의식 변화</text>
+  <text x="750" y="104" text-anchor="middle" class="sub">공급 중심 외곽 신도시에서 광역교통과 자족기능을 결합한 수도권 재편 장치로의 이동</text>
+  <line x1="320" y1="360" x2="590" y2="360" class="arrow"/>
+  <line x1="910" y1="360" x2="1180" y2="360" class="arrow"/>
+  <g transform="translate(80,180)"><rect width="320" height="300" rx="30" fill="#dae7f6" stroke="#6f91b7" stroke-width="4"/><text x="160" y="64" text-anchor="middle" class="head">1기 신도시</text><text x="160" y="110" text-anchor="middle" class="body">서울 주택난 해소</text><text x="160" y="145" text-anchor="middle" class="body">과밀 분산</text><text x="160" y="200" text-anchor="middle" class="body">대규모 외곽 주거지 공급</text><text x="160" y="235" text-anchor="middle" class="body">교통과 자족성은 후속 과제</text><text x="160" y="270" text-anchor="middle" class="body">현재는 노후계획도시 정비 단계</text></g>
+  <g transform="translate(590,180)"><rect width="320" height="300" rx="30" fill="#dfeccc" stroke="#83a05b" stroke-width="4"/><text x="160" y="64" text-anchor="middle" class="head">2기 신도시</text><text x="160" y="110" text-anchor="middle" class="body">주택공급 지속</text><text x="160" y="145" text-anchor="middle" class="body">권역별 기능 분담</text><text x="160" y="200" text-anchor="middle" class="body">광역교통체계 구축</text><text x="160" y="235" text-anchor="middle" class="body">자족기능 보강</text><text x="160" y="270" text-anchor="middle" class="body">거점형 계획도시 지향</text></g>
+  <g transform="translate(1100,180)"><rect width="320" height="300" rx="30" fill="#f3e2c7" stroke="#b9934e" stroke-width="4"/><text x="160" y="64" text-anchor="middle" class="head">3기 신도시</text><text x="160" y="110" text-anchor="middle" class="body">서울 도심 30분대 접근</text><text x="160" y="145" text-anchor="middle" class="body">광역교통 선반영</text><text x="160" y="200" text-anchor="middle" class="body">자족용지·기업지원허브</text><text x="160" y="235" text-anchor="middle" class="body">일자리·주거 동시 설계</text><text x="160" y="270" text-anchor="middle" class="body">광역생활권 재편 목표</text></g>
+</svg>

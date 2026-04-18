@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <rect width="1500" height="760" fill="#f6f4ee"/>
+  <style>
+    .title { font: 700 40px 'Malgun Gothic', sans-serif; fill: #203027; }
+    .sub { font: 500 20px 'Malgun Gothic', sans-serif; fill: #4a5a50; }
+    .head { font: 700 24px 'Malgun Gothic', sans-serif; fill: #ffffff; }
+    .cellh { font: 700 24px 'Malgun Gothic', sans-serif; fill: #203027; }
+    .cell { font: 500 19px 'Malgun Gothic', sans-serif; fill: #33443a; }
+  </style>
+  <text x="750" y="62" text-anchor="middle" class="title">입지 전략·교통 전제·자족성의 세대별 이동</text>
+  <text x="750" y="98" text-anchor="middle" class="sub">신도시 세대 구분은 조성 시기보다 수도권을 조직하는 방식의 차이에 더 가깝다</text>
+  <rect x="70" y="130" width="1360" height="74" rx="18" fill="#234b3d"/>
+  <text x="180" y="176" text-anchor="middle" class="head">항목</text>
+  <text x="520" y="176" text-anchor="middle" class="head">1기</text>
+  <text x="845" y="176" text-anchor="middle" class="head">2기</text>
+  <text x="1185" y="176" text-anchor="middle" class="head">3기</text>
+  <g><rect x="70" y="225" width="1360" height="110" rx="18" fill="#dce8f8"/><text x="180" y="286" text-anchor="middle" class="cellh">입지 전략</text><text x="520" y="272" text-anchor="middle" class="cell">개발제한구역 외곽의</text><text x="520" y="302" text-anchor="middle" class="cell">대규모 주거지 조성</text><text x="845" y="272" text-anchor="middle" class="cell">권역별 거점과</text><text x="845" y="302" text-anchor="middle" class="cell">수요 대체형 배치</text><text x="1185" y="272" text-anchor="middle" class="cell">서울 인접지의</text><text x="1185" y="302" text-anchor="middle" class="cell">고밀·복합 입지</text></g>
+  <g><rect x="70" y="355" width="1360" height="110" rx="18" fill="#dfeccc"/><text x="180" y="416" text-anchor="middle" class="cellh">광역교통</text><text x="520" y="402" text-anchor="middle" class="cell">공급 이후</text><text x="520" y="432" text-anchor="middle" class="cell">후속 보완 성격</text><text x="845" y="402" text-anchor="middle" class="cell">도시철도·광역교통</text><text x="845" y="432" text-anchor="middle" class="cell">구축이 핵심 과제</text><text x="1185" y="402" text-anchor="middle" class="cell">서울 도심 30분대 접근을</text><text x="1185" y="432" text-anchor="middle" class="cell">초기 원칙으로 전면화</text></g>
+  <g><rect x="70" y="485" width="1360" height="110" rx="18" fill="#f3e2c7"/><text x="180" y="546" text-anchor="middle" class="cellh">자족성</text><text x="520" y="532" text-anchor="middle" class="cell">분당 등 일부 도시에서만</text><text x="520" y="562" text-anchor="middle" class="cell">상대적으로 강조</text><text x="845" y="532" text-anchor="middle" class="cell">권역별 기능 분담과</text><text x="845" y="562" text-anchor="middle" class="cell">자족기능 보강을 표방</text><text x="1185" y="532" text-anchor="middle" class="cell">자족용지·기업지원허브·</text><text x="1185" y="562" text-anchor="middle" class="cell">테크노밸리를 공식 원칙화</text></g>
+</svg>
