@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-위례선 트램 보고서용 지도 5종 생성
-1. wirye-context-map.png        - 위례신도시 광역 위치 (§3)
-2. wirye-full-route-map.png     - 12개 정류장 전체 노선 (§4)
-3. wirye-macheon-area.png       - 마천역 일대 근접 (§5-4)
-4. wirye-bokjeong-area.png      - 복정역 일대 근접 (§5-2)
-5. wirye-namwirye-area.png      - 남위례역 일대 근접 (§5-3)
+위례선 트램 보고서용 지도 5종 생성 (OSM Overpass/Nominatim 검증 좌표 사용)
+
+확정 좌표 출처:
+  마천역·복정역·남위례역 → Overpass API (railway=station)
+  덕수고·위례호수공원·위례중앙광장·위례역사공원 → Overpass API (노드)
+  중간 정류장 → 위례대로/위례북로 도로 중심축 기반 보간
 """
 
 from staticmap import StaticMap, Line, CircleMarker
@@ -30,64 +30,62 @@ def add_credit(img):
               fill="#444444", font=load_font(13))
     return img
 
-# ── 위례선 정류장 좌표 ────────────────────────────────────────────
+# ── OSM 검증 정류장 좌표 ──────────────────────────────────────────
+# (lat, lon, 이름, 환승)
 STOPS = [
-    # (lat,   lon,     이름,          환승)
-    (37.4915, 127.1435, "마천",        "5호선"),
-    (37.4875, 127.1465, "북위례",      ""),
-    (37.4840, 127.1490, "위례솔",      ""),
-    (37.4805, 127.1510, "덕수고등학교",""),
-    (37.4775, 127.1510, "위례호수공원",""),
-    (37.4745, 127.1498, "위례별",      ""),
-    (37.4718, 127.1470, "위례중앙광장","(장래 위례신사선)"),
-    (37.4690, 127.1405, "위례역사공원","분기점"),
-    # 지선
-    (37.4655, 127.1368, "위례트램스퀘어",""),
-    (37.4615, 127.1318, "남위례",      "8호선"),
-    # 본선
-    (37.4672, 127.1300, "위례스마트시티",""),
-    (37.4725, 127.1238, "복정",        "8호선·수인분당선"),
+    (37.494953, 127.152724, "마천",         "5호선"),          # Overpass 확정
+    (37.490100, 127.150600, "북위례",        ""),               # 위례북로 축 보간
+    (37.487000, 127.148200, "위례솔",        ""),               # 위례북로 남단 보간
+    (37.485322, 127.146259, "덕수고등학교",  ""),               # Overpass 확정
+    (37.480962, 127.143162, "위례호수공원",  ""),               # Overpass 확정
+    (37.479500, 127.148200, "위례별",        ""),               # 스타필드시티 인근 보간
+    (37.473586, 127.142168, "위례중앙광장",  "(장래 위례신사선)"), # Overpass 확정
+    (37.470567, 127.141962, "위례역사공원",  "분기점"),         # Overpass 확정
+    # 지선 (보라)
+    (37.466200, 127.139500, "위례트램스퀘어",""),               # 위례대로 축 보간
+    (37.462772, 127.139216, "남위례",        "8호선"),          # Overpass 확정
+    # 본선 계속 (파랑)
+    (37.470300, 127.132800, "위례스마트시티",""),               # 역사공원→복정 보간
+    (37.470577, 127.126713, "복정",          "8호선·수인분당선"), # Overpass 확정
 ]
 
-MAIN_LINE = [p(lat,lon) for lat,lon,*_ in STOPS[:8]] + [p(STOPS[10][0], STOPS[10][1]), p(STOPS[11][0], STOPS[11][1])]
-BRANCH_LINE = [p(STOPS[7][0], STOPS[7][1])] + [p(lat,lon) for lat,lon,*_ in STOPS[8:10]]
+# 본선: 마천→역사공원→위례스마트시티→복정
+MAIN_LINE = [p(lat,lon) for lat,lon,*_ in STOPS[:8]] \
+          + [p(STOPS[10][0], STOPS[10][1]), p(STOPS[11][0], STOPS[11][1])]
 
-MAIN_COLOR   = "#1565C0"   # 파랑  (본선)
-BRANCH_COLOR = "#7B1FA2"   # 보라  (지선)
-XFER_COLOR   = "#D32F2F"   # 빨강  (환승역)
-STOP_COLOR   = "#FFFFFF"   # 흰색  (일반역)
+# 지선: 역사공원→위례트램스퀘어→남위례
+BRANCH_LINE = [p(STOPS[7][0], STOPS[7][1])] \
+            + [p(lat,lon) for lat,lon,*_ in STOPS[8:10]]
+
+MAIN_COLOR   = "#1565C0"
+BRANCH_COLOR = "#7B1FA2"
+XFER_COLOR   = "#D32F2F"
 
 
 # ══════════════════════════════════════════════════════════
-# 1. 광역 위치 지도 (§3): 위례신도시가 서울·성남·하남 어디에 있나
+# 1. 광역 위치 지도 (§3)
 # ══════════════════════════════════════════════════════════
-print("1. 광역 위치 지도 생성 중…")
+print("1. 광역 위치 지도…")
 m = StaticMap(1200, 900, url_template=TILE)
 
-# 위례신도시 영역 박스를 라인으로 표시
+# 위례신도시 외곽 박스
 WIRYE_BOX = [
-    p(37.495, 127.118), p(37.495, 127.155),
-    p(37.457, 127.155), p(37.457, 127.118),
-    p(37.495, 127.118),
+    p(37.497, 127.118), p(37.497, 127.160),
+    p(37.458, 127.160), p(37.458, 127.118),
+    p(37.497, 127.118),
 ]
 m.add_line(Line(WIRYE_BOX, "#E65100", 3))
-
-# 위례선 전체 노선 (얇게)
 m.add_line(Line(MAIN_LINE,   MAIN_COLOR,   3))
 m.add_line(Line(BRANCH_LINE, BRANCH_COLOR, 3))
 
-# 주변 주요역 마커
-for lat, lon in [(37.4915, 127.1435), (37.4725, 127.1238), (37.4615, 127.1318)]:
-    m.add_marker(CircleMarker(p(lat, lon), "white", 14))
-    m.add_marker(CircleMarker(p(lat, lon), XFER_COLOR, 9))
+for lat, lon in [(37.494953,127.152724),(37.470577,127.126713),(37.462772,127.139216)]:
+    m.add_marker(CircleMarker(p(lat,lon), "white", 14))
+    m.add_marker(CircleMarker(p(lat,lon), XFER_COLOR, 9))
 
-img = m.render(zoom=13, center=[127.135, 37.490])
-
+img = m.render(zoom=13, center=[127.138, 37.480])
 draw = ImageDraw.Draw(img)
 f16 = load_font(16)
-f14 = load_font(14)
 
-# 범례
 bx, by = 18, 18
 draw.rectangle([bx,by,bx+320,by+110], fill=(255,255,255,220), outline="#AAAAAA")
 draw.rectangle([bx+10,by+12,bx+34,by+24], fill="#E65100")
@@ -97,146 +95,121 @@ draw.text((bx+42, by+36), "위례선 본선",        fill="#111", font=f16)
 draw.rectangle([bx+10,by+68,bx+34,by+78], fill=BRANCH_COLOR)
 draw.text((bx+42, by+64), "위례선 지선",        fill="#111", font=f16)
 
-# 행정구역 레이블
-for (lat,lon,label) in [
-    (37.510, 127.090, "서울 송파구"),
-    (37.455, 127.120, "경기 성남시"),
-    (37.460, 127.165, "경기 하남시"),
-]:
-    draw.text(p(0,0), "", fill="white", font=f14)   # dummy
-
 add_credit(img)
 img.save(f"{IMGDIR}/wirye-context-map.png")
-print(f"   저장: wirye-context-map.png ({img.width}×{img.height})")
+print(f"   저장 완료 ({img.width}×{img.height})")
 
 
 # ══════════════════════════════════════════════════════════
-# 2. 전체 노선도 (§4): 12개 정류장 모두 표시
+# 2. 전체 노선도 (§4)
 # ══════════════════════════════════════════════════════════
-print("2. 전체 노선 지도 생성 중…")
+print("2. 전체 노선 지도…")
 m = StaticMap(1200, 1000, url_template=TILE)
 m.add_line(Line(MAIN_LINE,   MAIN_COLOR,   5))
 m.add_line(Line(BRANCH_LINE, BRANCH_COLOR, 5))
 
 for lat, lon, name, xfer in STOPS:
     is_xfer = bool(xfer and xfer not in ("분기점",))
-    color = XFER_COLOR if is_xfer else "#1565C0"
-    m.add_marker(CircleMarker(p(lat, lon), "white", 16))
-    m.add_marker(CircleMarker(p(lat, lon), color, 11))
+    color = XFER_COLOR if is_xfer else MAIN_COLOR
+    m.add_marker(CircleMarker(p(lat,lon), "white", 16))
+    m.add_marker(CircleMarker(p(lat,lon), color, 11))
 
-img = m.render(zoom=15, center=[127.138, 37.477])
+img = m.render(zoom=14, center=[127.140, 37.479])
 draw = ImageDraw.Draw(img)
 f15 = load_font(15)
-f13 = load_font(13)
 
-# 범례
 bx, by = 18, 18
-draw.rectangle([bx,by,bx+320,by+145], fill=(255,255,255,220), outline="#AAAAAA")
+draw.rectangle([bx,by,bx+340,by+148], fill=(255,255,255,220), outline="#AAAAAA")
 draw.rectangle([bx+10,by+12,bx+34,by+24], fill=MAIN_COLOR)
-draw.text((bx+42, by+8),  "위례선 본선 (마천→복정)",     fill="#111", font=f15)
+draw.text((bx+42, by+8),  "위례선 본선 (마천→복정)",        fill="#111", font=f15)
 draw.rectangle([bx+10,by+42,bx+34,by+54], fill=BRANCH_COLOR)
-draw.text((bx+42, by+38), "위례선 지선 (역사공원→남위례)",fill="#111", font=f15)
-draw.ellipse([bx+14,by+72,bx+30,by+86],  fill="white", outline=XFER_COLOR, width=2)
-draw.ellipse([bx+17,by+75,bx+27,by+83],  fill=XFER_COLOR)
-draw.text((bx+42, by+69), "환승역 (5·8호선·수인분당선)", fill="#111", font=f15)
-draw.ellipse([bx+14,by+100,bx+30,by+114],fill="white", outline=MAIN_COLOR, width=2)
-draw.ellipse([bx+17,by+103,bx+27,by+111],fill=MAIN_COLOR)
-draw.text((bx+42, by+97), "일반 정류장",                 fill="#111", font=f15)
+draw.text((bx+42, by+38), "위례선 지선 (역사공원→남위례)",   fill="#111", font=f15)
+draw.ellipse([bx+14,by+73,bx+30,by+87],  fill="white", outline=XFER_COLOR, width=2)
+draw.ellipse([bx+17,by+76,bx+27,by+84],  fill=XFER_COLOR)
+draw.text((bx+42, by+70), "환승역 (5·8호선·수인분당선)",     fill="#111", font=f15)
+draw.ellipse([bx+14,by+102,bx+30,by+116],fill="white", outline=MAIN_COLOR, width=2)
+draw.ellipse([bx+17,by+105,bx+27,by+113],fill=MAIN_COLOR)
+draw.text((bx+42, by+99), "일반 정류장",                     fill="#111", font=f15)
 
 add_credit(img)
 img.save(f"{IMGDIR}/wirye-full-route-map.png")
-print(f"   저장: wirye-full-route-map.png ({img.width}×{img.height})")
+print(f"   저장 완료 ({img.width}×{img.height})")
 
 
 # ══════════════════════════════════════════════════════════
-# 3. 마천역 일대 근접 (§5-4)
+# 3. 마천역 근접 (§5-4)
 # ══════════════════════════════════════════════════════════
-print("3. 마천역 근접 지도 생성 중…")
+print("3. 마천역 근접 지도…")
 m = StaticMap(1000, 800, url_template=TILE)
+# 마천역→북위례 구간
+m.add_line(Line([p(37.494953,127.152724), p(37.490100,127.150600)], MAIN_COLOR, 6))
+m.add_marker(CircleMarker(p(37.494953,127.152724), "white", 22))
+m.add_marker(CircleMarker(p(37.494953,127.152724), XFER_COLOR, 15))
+m.add_marker(CircleMarker(p(37.490100,127.150600), "white", 14))
+m.add_marker(CircleMarker(p(37.490100,127.150600), MAIN_COLOR, 9))
 
-# 마천역에서 북위례까지 구간만 표시
-m.add_line(Line([p(37.4915,127.1435), p(37.4875,127.1465)], MAIN_COLOR, 6))
-
-# 마천역 마커 (크게)
-m.add_marker(CircleMarker(p(37.4915, 127.1435), "white", 22))
-m.add_marker(CircleMarker(p(37.4915, 127.1435), XFER_COLOR, 15))
-
-# 북위례 마커 (작게)
-m.add_marker(CircleMarker(p(37.4875, 127.1465), "white", 14))
-m.add_marker(CircleMarker(p(37.4875, 127.1465), MAIN_COLOR, 9))
-
-img = m.render(zoom=17, center=[127.143, 37.491])
+img = m.render(zoom=16, center=[127.151, 37.493])
 draw = ImageDraw.Draw(img)
-f17 = load_font(17)
-
-# 레이블 박스
 bx, by = 18, 18
-draw.rectangle([bx,by,bx+330,by+80], fill=(255,255,255,220), outline="#AAAAAA")
-draw.text((bx+12, by+10), "마천역 일대",            fill="#111", font=f17)
-draw.text((bx+12, by+38), "● 마천역 (5호선 환승)",  fill=XFER_COLOR, font=load_font(15))
-draw.text((bx+12, by+60), "● 위례선 남행 방향 →",   fill=MAIN_COLOR, font=load_font(15))
-
+draw.rectangle([bx,by,bx+320,by+80], fill=(255,255,255,220), outline="#AAAAAA")
+draw.text((bx+12, by+10), "마천역 일대",            fill="#111",    font=load_font(17))
+draw.text((bx+12, by+38), "● 마천역 (5호선 환승)",  fill=XFER_COLOR,font=load_font(15))
+draw.text((bx+12, by+60), "● 위례선 남서행 →",      fill=MAIN_COLOR,font=load_font(15))
 add_credit(img)
 img.save(f"{IMGDIR}/wirye-macheon-area.png")
-print(f"   저장: wirye-macheon-area.png ({img.width}×{img.height})")
+print(f"   저장 완료 ({img.width}×{img.height})")
 
 
 # ══════════════════════════════════════════════════════════
-# 4. 복정역 일대 근접 (§5-2)
+# 4. 복정역 근접 (§5-2)
 # ══════════════════════════════════════════════════════════
-print("4. 복정역 근접 지도 생성 중…")
+print("4. 복정역 근접 지도…")
 m = StaticMap(1000, 800, url_template=TILE)
-
 # 위례스마트시티→복정 구간
-m.add_line(Line([p(37.4672,127.1300), p(37.4725,127.1238)], MAIN_COLOR, 6))
+m.add_line(Line([p(37.470300,127.132800), p(37.470577,127.126713)], MAIN_COLOR, 6))
+m.add_marker(CircleMarker(p(37.470577,127.126713), "white", 22))
+m.add_marker(CircleMarker(p(37.470577,127.126713), XFER_COLOR, 15))
+m.add_marker(CircleMarker(p(37.470300,127.132800), "white", 14))
+m.add_marker(CircleMarker(p(37.470300,127.132800), MAIN_COLOR, 9))
 
-m.add_marker(CircleMarker(p(37.4725, 127.1238), "white", 22))
-m.add_marker(CircleMarker(p(37.4725, 127.1238), XFER_COLOR, 15))
-m.add_marker(CircleMarker(p(37.4672, 127.1300), "white", 14))
-m.add_marker(CircleMarker(p(37.4672, 127.1300), MAIN_COLOR, 9))
-
-img = m.render(zoom=17, center=[127.127, 37.473])
+img = m.render(zoom=16, center=[127.129, 37.471])
 draw = ImageDraw.Draw(img)
-
 bx, by = 18, 18
 draw.rectangle([bx,by,bx+370,by+80], fill=(255,255,255,220), outline="#AAAAAA")
-draw.text((bx+12, by+10), "복정역 일대",                         fill="#111",    font=load_font(17))
-draw.text((bx+12, by+38), "● 복정역 (8호선·수인분당선 환승)",    fill=XFER_COLOR,font=load_font(15))
-draw.text((bx+12, by+60), "← 위례스마트시티 방향",               fill=MAIN_COLOR,font=load_font(15))
-
+draw.text((bx+12, by+10), "복정역 일대",                      fill="#111",    font=load_font(17))
+draw.text((bx+12, by+38), "● 복정역 (8호선·수인분당선 환승)", fill=XFER_COLOR,font=load_font(15))
+draw.text((bx+12, by+60), "← 위례스마트시티 방향",            fill=MAIN_COLOR,font=load_font(15))
 add_credit(img)
 img.save(f"{IMGDIR}/wirye-bokjeong-area.png")
-print(f"   저장: wirye-bokjeong-area.png ({img.width}×{img.height})")
+print(f"   저장 완료 ({img.width}×{img.height})")
 
 
 # ══════════════════════════════════════════════════════════
-# 5. 남위례역 일대 근접 (§5-3)
+# 5. 남위례역 근접 (§5-3)
 # ══════════════════════════════════════════════════════════
-print("5. 남위례역 근접 지도 생성 중…")
+print("5. 남위례역 근접 지도…")
 m = StaticMap(1000, 800, url_template=TILE)
+# 위례역사공원→위례트램스퀘어→남위례
+m.add_line(Line([p(37.470567,127.141962),
+                 p(37.466200,127.139500),
+                 p(37.462772,127.139216)], BRANCH_COLOR, 6))
+m.add_marker(CircleMarker(p(37.462772,127.139216), "white", 22))
+m.add_marker(CircleMarker(p(37.462772,127.139216), XFER_COLOR, 15))
+m.add_marker(CircleMarker(p(37.466200,127.139500), "white", 14))
+m.add_marker(CircleMarker(p(37.466200,127.139500), BRANCH_COLOR, 9))
+m.add_marker(CircleMarker(p(37.470567,127.141962), "white", 14))
+m.add_marker(CircleMarker(p(37.470567,127.141962), "#888888", 9))
 
-# 위례트램스퀘어→남위례 지선
-m.add_line(Line([p(37.4690,127.1405), p(37.4655,127.1368), p(37.4615,127.1318)], BRANCH_COLOR, 6))
-
-m.add_marker(CircleMarker(p(37.4615, 127.1318), "white", 22))
-m.add_marker(CircleMarker(p(37.4615, 127.1318), XFER_COLOR, 15))
-m.add_marker(CircleMarker(p(37.4655, 127.1368), "white", 14))
-m.add_marker(CircleMarker(p(37.4655, 127.1368), BRANCH_COLOR, 9))
-m.add_marker(CircleMarker(p(37.4690, 127.1405), "white", 14))
-m.add_marker(CircleMarker(p(37.4690, 127.1405), "#888888", 9))
-
-img = m.render(zoom=17, center=[127.133, 37.463])
+img = m.render(zoom=16, center=[127.140, 37.466])
 draw = ImageDraw.Draw(img)
-
 bx, by = 18, 18
-draw.rectangle([bx,by,bx+370,by+98], fill=(255,255,255,220), outline="#AAAAAA")
+draw.rectangle([bx,by,bx+360,by+98], fill=(255,255,255,220), outline="#AAAAAA")
 draw.text((bx+12, by+10), "남위례역 일대",              fill="#111",       font=load_font(17))
 draw.text((bx+12, by+38), "● 남위례역 (8호선 환승)",    fill=XFER_COLOR,   font=load_font(15))
 draw.text((bx+12, by+60), "● 위례트램스퀘어",           fill=BRANCH_COLOR, font=load_font(15))
-draw.text((bx+12, by+80), "↑ 위례역사공원(분기) 방향",  fill="#555555",    font=load_font(14))
-
+draw.text((bx+12, by+80), "↑ 위례역사공원(분기점) 방향",fill="#555555",    font=load_font(14))
 add_credit(img)
 img.save(f"{IMGDIR}/wirye-namwirye-area.png")
-print(f"   저장: wirye-namwirye-area.png ({img.width}×{img.height})")
+print(f"   저장 완료 ({img.width}×{img.height})")
 
-print("\n완료.")
+print("\n전체 완료.")
