@@ -27,6 +27,10 @@ graph TD
         S7["1963 원본 보고서"]
     end
 
+    subgraph Books["원문 재구성 도서"]
+        B1["한국형 신도시 가이드라인 연구"]
+    end
+
     R1 -.하남교산 사례.-> R3
     R1 -.성남·화성 평가.-> R6
     R2 -.위례신도시 계획.-> R3
@@ -46,10 +50,16 @@ graph TD
 
     R4 --> S7
 
+    B1 -.신도시 계획 기준·사례 원문.-> R1
+    B1 -.교통·BRT·트램 맥락.-> R2
+    B1 -.도시 운영·경관 사례.-> R3
+
     classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
     classDef supp fill:#fef3c7,stroke:#d97706,color:#000
+    classDef book fill:#dcfce7,stroke:#16a34a,color:#000
     class R1,R2,R3,R4,R5,R6 report
     class S1,S2,S3,S4,S5,S6,S7 supp
+    class B1 book
 ```
 
 ## 공개 보고서 (Reports)
@@ -63,6 +73,20 @@ graph TD
 - [국가철도망 구축계획과 도시철도망 구축계획 비교](./국가철도망-구축계획과-도시철도망-구축계획-비교.md) - 두 법정계획의 제도적 차이
 - [수도권 도시등급 평가 보고서](./수도권-도시등급-평가-보고서.md) - 66개 기초지자체 상대 평가 (2026년 기준)
 - [1기 신도시 연구보고서](./1기-신도시-연구보고서.md) - 정책 배경, 공급 규모, 입주 시기, 교통축, 구조적 쟁점 정리
+
+## 원문 재구성 도서 (Books)
+
+PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 자료. OCR이 아니라 페이지 이미지 대조와 육안 검토를 바탕으로 장·절, 표, 그림 설명, 주요 수치 인덱스를 정리한다.
+
+### 한국형 신도시 가이드라인 연구 - [`books/korean-newtown-guideline/`](./books/korean-newtown-guideline/)
+
+신도시 계획 가이드라인, 기반시설, 스마트시티, 특화사례를 다룬 원문 자료를 섹션별 Markdown과 LLM 단일 번들로 정리했다.
+
+- [문서 인덱스](./books/korean-newtown-guideline/docs/korean-newtown-guideline/index.md) - 섹션별 목차와 페이지 범위
+- [주요 수치](./books/korean-newtown-guideline/docs/korean-newtown-guideline/stats.md) - 면적, 인구, 사업비, 시설 규모 등 선별 수치
+- [기계처리용 manifest](./books/korean-newtown-guideline/docs/korean-newtown-guideline/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/korean-newtown-guideline/dist/korean-newtown-guideline.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/korean-newtown-guideline/sources/OTKCRK170383.pdf) - Git LFS 관리
 
 ## 보조 자료 (Supplements)
 
