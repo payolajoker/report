@@ -1,0 +1,29 @@
+{
+  "id": "korean-newtown-guideline",
+  "title": "한국형 신도시 가이드라인 연구",
+  "source_pdf": "OTKCRK170383.pdf",
+  "source_path": "../sources/OTKCRK170383.pdf",
+  "pdf_pages": 303,
+  "language": "ko",
+  "status": "visual-reviewed",
+  "ocr_used": false,
+  "sections": [
+    {"id": "00", "file": "../docs/korean-newtown-guideline/00-overview.md", "page_range": "1, 4-12"},
+    {"id": "01", "file": "../docs/korean-newtown-guideline/01-introduction.md", "page_range": "27-40"},
+    {"id": "02", "file": "../docs/korean-newtown-guideline/02-new-town-guideline.md", "page_range": "40-69"},
+    {"id": "03-01", "file": "../docs/korean-newtown-guideline/03-01-land-use-plan.md", "page_range": "70-91"},
+    {"id": "03-02", "file": "../docs/korean-newtown-guideline/03-02-transportation-plan.md", "page_range": "92-115"},
+    {"id": "03-03", "file": "../docs/korean-newtown-guideline/03-03-green-space-plan.md", "page_range": "116-131"},
+    {"id": "03-04", "file": "../docs/korean-newtown-guideline/03-04-water-and-sanitation-plan.md", "page_range": "132-151"},
+    {"id": "03-05", "file": "../docs/korean-newtown-guideline/03-05-solid-waste-management-system.md", "page_range": "152-164"},
+    {"id": "03-06", "file": "../docs/korean-newtown-guideline/03-06-energy-plan.md", "page_range": "165-177"},
+    {"id": "03-07", "file": "../docs/korean-newtown-guideline/03-07-smart-city.md", "page_range": "178-197"},
+    {"id": "03-08", "file": "../docs/korean-newtown-guideline/03-08-public-facilities.md", "page_range": "198-218"},
+    {"id": "03-09", "file": "../docs/korean-newtown-guideline/03-09-cpted-solutions.md", "page_range": "219-244"},
+    {"id": "04-01", "file": "../docs/korean-newtown-guideline/04-01-new-towns-of-specific-purposes.md", "page_range": "246, 248-263"},
+    {"id": "04-02", "file": "../docs/korean-newtown-guideline/04-02-cities-with-smart-technologies.md", "page_range": "264-277"},
+    {"id": "04-03", "file": "../docs/korean-newtown-guideline/04-03-cities-of-management-strategies.md", "page_range": "278-286"},
+    {"id": "04-04", "file": "../docs/korean-newtown-guideline/04-04-cities-of-design-and-landscape.md", "page_range": "287-296"},
+    {"id": "references", "file": "../docs/korean-newtown-guideline/references.md", "page_range": "298-303"}
+  ]
+}

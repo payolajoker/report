@@ -1,0 +1,97 @@
+document:
+  id: korean-newtown-guideline
+  title: "한국형 신도시 가이드라인 연구"
+  source_pdf: OTKCRK170383.pdf
+  source_path: ../../sources/OTKCRK170383.pdf
+  pdf_pages: 303
+  language: ko
+  status: visual-reviewed
+  ocr_used: false
+  extraction_method: "manual visual reading; no OCR"
+
+sections:
+  - id: "00"
+    title: "표지·연구요약·목차"
+    file: 00-overview.md
+    page_range: "1, 4-12"
+    topics: [overview, research summary, table of contents]
+  - id: "01"
+    title: "Introduction"
+    file: 01-introduction.md
+    page_range: "27-40"
+    topics: [introduction, research background, methodology]
+  - id: "02"
+    title: "New Town Guideline"
+    file: 02-new-town-guideline.md
+    page_range: "40-69"
+    topics: [new town guideline, planning process, development framework]
+  - id: "03-01"
+    title: "Land Use Plan"
+    file: 03-01-land-use-plan.md
+    page_range: "70-91"
+    topics: [land use, density, urban structure]
+  - id: "03-02"
+    title: "Transportation Plan"
+    file: 03-02-transportation-plan.md
+    page_range: "92-115"
+    topics: [transportation, transit, road network]
+  - id: "03-03"
+    title: "Green Space Plan"
+    file: 03-03-green-space-plan.md
+    page_range: "116-131"
+    topics: [green space, parks, ecological network]
+  - id: "03-04"
+    title: "Water and Sanitation Plan"
+    file: 03-04-water-and-sanitation-plan.md
+    page_range: "132-151"
+    topics: [water supply, sanitation, sewerage]
+  - id: "03-05"
+    title: "Solid Waste Management System"
+    file: 03-05-solid-waste-management-system.md
+    page_range: "152-164"
+    topics: [solid waste, waste collection, resource circulation]
+  - id: "03-06"
+    title: "Energy Plan"
+    file: 03-06-energy-plan.md
+    page_range: "165-177"
+    topics: [energy, renewable energy, district energy]
+  - id: "03-07"
+    title: "Smart City"
+    file: 03-07-smart-city.md
+    page_range: "178-197"
+    topics: [smart city, u-city, urban services]
+  - id: "03-08"
+    title: "Public Facilities"
+    file: 03-08-public-facilities.md
+    page_range: "198-218"
+    topics: [public facilities, schools, community facilities]
+  - id: "03-09"
+    title: "CPTED Solutions"
+    file: 03-09-cpted-solutions.md
+    page_range: "219-244"
+    topics: [CPTED, safety, crime prevention]
+  - id: "04-01"
+    title: "New Towns of Specific Purposes"
+    file: 04-01-new-towns-of-specific-purposes.md
+    page_range: "246, 248-263"
+    topics: [specialized city, administrative city, innovation city, international city]
+  - id: "04-02"
+    title: "Cities with Smart Technologies"
+    file: 04-02-cities-with-smart-technologies.md
+    page_range: "264-277"
+    topics: [smart technologies, resource circulation, LID, water circulation]
+  - id: "04-03"
+    title: "Cities of Management Strategies"
+    file: 04-03-cities-of-management-strategies.md
+    page_range: "278-286"
+    topics: [management strategies, transfer center, BRT, community facilities]
+  - id: "04-04"
+    title: "Cities of Design and Landscape"
+    file: 04-04-cities-of-design-and-landscape.md
+    page_range: "287-296"
+    topics: [urban design, landscape, hanok village, transit mall]
+  - id: "references"
+    title: "참고문헌"
+    file: references.md
+    page_range: "298-303"
+    topics: [references, bibliography]
