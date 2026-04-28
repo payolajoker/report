@@ -29,6 +29,7 @@ graph TD
 
     subgraph Books["원문 재구성 도서"]
         B1["한국형 신도시 가이드라인 연구"]
+        B2["도시·공간 트렌드 2024"]
     end
 
     R1 -.하남교산 사례.-> R3
@@ -53,13 +54,16 @@ graph TD
     B1 -.신도시 계획 기준·사례 원문.-> R1
     B1 -.교통·BRT·트램 맥락.-> R2
     B1 -.도시 운영·경관 사례.-> R3
+    B2 -.서울메트로폴리탄·신도시 맥락.-> R1
+    B2 -.수도권 공간구조·연담화 맥락.-> R3
+    B2 -.도시 기능·위계 분석 맥락.-> R6
 
     classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
     classDef supp fill:#fef3c7,stroke:#d97706,color:#000
     classDef book fill:#dcfce7,stroke:#16a34a,color:#000
     class R1,R2,R3,R4,R5,R6 report
     class S1,S2,S3,S4,S5,S6,S7 supp
-    class B1 book
+    class B1,B2 book
 ```
 
 ## 공개 보고서 (Reports)
@@ -87,6 +91,17 @@ PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 
 - [기계처리용 manifest](./books/korean-newtown-guideline/docs/korean-newtown-guideline/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
 - [LLM 단일 번들](./books/korean-newtown-guideline/dist/korean-newtown-guideline.llm.md) - RAG/긴 컨텍스트 입력용 통합본
 - [원본 PDF](./books/korean-newtown-guideline/sources/OTKCRK170383.pdf) - Git LFS 관리
+
+### 도시·공간 트렌드 2024 : 서울메트로폴리탄을 중심으로 - [`books/city-space-trends-2024/`](./books/city-space-trends-2024/)
+
+서울·인천·경기를 서울메트로폴리탄으로 보고, 삶터·일터·놀터·돌봄터·링크 관점에서 2024년 도시·공간 트렌드와 LH사업 적용방안을 정리한 원문 자료다. OCR 없이 PDF 내장 텍스트층과 215쪽 전체 페이지 이미지를 대조해 완성본 Markdown으로 재구성했다.
+
+- [문서 인덱스](./books/city-space-trends-2024/docs/city-space-trends-2024/index.md) - 섹션별 목차와 페이지 범위
+- [주요 수치](./books/city-space-trends-2024/docs/city-space-trends-2024/stats.md) - 설문, 신도시 용지비율, 제도·공간 분석 수치
+- [기계처리용 manifest](./books/city-space-trends-2024/docs/city-space-trends-2024/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/city-space-trends-2024/dist/city-space-trends-2024.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/city-space-trends-2024/sources/OTKCRK240315.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/city-space-trends-2024/docs/city-space-trends-2024/assets/pages/) - PDF 1-215쪽 JPEG 보존본
 
 ## 보조 자료 (Supplements)
 
