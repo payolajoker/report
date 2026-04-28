@@ -8,6 +8,11 @@ books/city-space-trends-2024/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 books/city-space-trends-2024/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 books/city-space-trends-2024/**/*.png filter=lfs diff=lfs merge=lfs -text
 
+books/newtown-resident-life-evaluation/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+books/newtown-resident-life-evaluation/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+books/newtown-resident-life-evaluation/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+books/newtown-resident-life-evaluation/**/*.png filter=lfs diff=lfs merge=lfs -text
+
 *.md text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
