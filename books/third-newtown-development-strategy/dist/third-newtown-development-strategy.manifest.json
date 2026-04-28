@@ -1,0 +1,75 @@
+{
+  "book": {
+    "title": "3기 신도시 개발전략 및 계획기준 수립 연구",
+    "slug": "third-newtown-development-strategy",
+    "language": "ko",
+    "source_pdf": "sources/OTKCRK200194.pdf",
+    "page_count": 491,
+    "ocr_used": false,
+    "python_used": false,
+    "visual_review": true,
+    "embedded_text_extraction": true
+  },
+  "sections": [
+    {
+      "id": "00",
+      "title": "표지·판권·참여연구진·목차",
+      "file": "docs/third-newtown-development-strategy/00-front-matter.md",
+      "source_pages": "1-4, 13-28"
+    },
+    {
+      "id": "01",
+      "title": "연구요약",
+      "file": "docs/third-newtown-development-strategy/01-summary.md",
+      "source_pages": "5-12"
+    },
+    {
+      "id": "02",
+      "title": "제1장 서론",
+      "file": "docs/third-newtown-development-strategy/02-chapter-1-introduction.md",
+      "source_pages": "27-36"
+    },
+    {
+      "id": "03",
+      "title": "제2장 기존 신도시의 종합적 고찰",
+      "file": "docs/third-newtown-development-strategy/03-chapter-2-existing-newtowns-review.md",
+      "source_pages": "37-128"
+    },
+    {
+      "id": "04",
+      "title": "제3장 3기 신도시 추진현황 및 개발여건 분석",
+      "file": "docs/third-newtown-development-strategy/04-chapter-3-third-newtown-context.md",
+      "source_pages": "129-204"
+    },
+    {
+      "id": "05",
+      "title": "제4장 3기 신도시 개발목표와 전략",
+      "file": "docs/third-newtown-development-strategy/05-chapter-4-development-goals-strategy.md",
+      "source_pages": "205-228"
+    },
+    {
+      "id": "06",
+      "title": "제5장 3기 신도시 계획기준 수립",
+      "file": "docs/third-newtown-development-strategy/06-chapter-5-planning-standards.md",
+      "source_pages": "229-476"
+    },
+    {
+      "id": "07",
+      "title": "제6장 결론",
+      "file": "docs/third-newtown-development-strategy/07-chapter-6-conclusion.md",
+      "source_pages": "477-482"
+    },
+    {
+      "id": "08",
+      "title": "참고문헌",
+      "file": "docs/third-newtown-development-strategy/08-references.md",
+      "source_pages": "483-491"
+    }
+  ],
+  "assets": {
+    "page_images": "docs/third-newtown-development-strategy/assets/pages/pdf-page-001.jpg..pdf-page-491.jpg",
+    "text_layer": "docs/third-newtown-development-strategy/text-layer/",
+    "stats": "docs/third-newtown-development-strategy/stats.md",
+    "source_page_index": "docs/third-newtown-development-strategy/source-page-index.md"
+  }
+}

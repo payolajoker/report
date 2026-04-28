@@ -1,0 +1,90 @@
+book:
+  title: "도시·공간 트렌드 2024 : 서울메트로폴리탄을 중심으로"
+  slug: "city-space-trends-2024"
+  language: "ko"
+  source_pdf: "sources/OTKCRK240315.pdf"
+  publisher: "한국토지주택공사 토지주택연구원"
+  report_id: "연구관리 2024-003호"
+  authors:
+    - "김홍주"
+    - "임정민"
+    - "이상헌"
+    - "이승은"
+  pdf_pages: 215
+  processing_notes:
+    ocr_used: false
+    embedded_text_layer_used: true
+    visual_review: true
+    page_image_assets: 215
+    text_layer_archive: true
+    python_used_for_pdf_processing: false
+
+artifacts:
+  index: "docs/city-space-trends-2024/index.md"
+  stats: "docs/city-space-trends-2024/stats.md"
+  source_page_index: "docs/city-space-trends-2024/source-page-index.md"
+  llm_bundle: "dist/city-space-trends-2024.llm.md"
+  json_manifest: "dist/city-space-trends-2024.manifest.json"
+  text_layer_archive: "docs/city-space-trends-2024/text-layer/"
+
+sections:
+  - id: "00"
+    title: "표지·발간정보·목차"
+    file: "docs/city-space-trends-2024/00-front-matter.md"
+    source_pages: "1-4, 23-32"
+    printed_pages: "front matter"
+    tags: ["bibliography", "toc"]
+  - id: "01"
+    title: "연구요약"
+    file: "docs/city-space-trends-2024/01-summary.md"
+    source_pages: "5-21"
+    printed_pages: "i-xvii"
+    tags: ["summary", "regen", "lh"]
+  - id: "02"
+    title: "제1장 서론"
+    file: "docs/city-space-trends-2024/02-chapter-1-introduction.md"
+    source_pages: "33-42"
+    printed_pages: "1-10"
+    tags: ["introduction", "methodology", "literature"]
+  - id: "03"
+    title: "제2장 사회 및 도시성장 변화 고찰"
+    file: "docs/city-space-trends-2024/03-chapter-2-social-urban-growth.md"
+    source_pages: "43-60"
+    printed_pages: "11-28"
+    tags: ["urban-growth", "new-town", "metropolitan"]
+  - id: "04"
+    title: "제3장 도시·공간을 형성하는 제도기반 트렌드 변화와 LH"
+    file: "docs/city-space-trends-2024/04-chapter-3-institutional-trends-lh.md"
+    source_pages: "61-108"
+    printed_pages: "29-76"
+    tags: ["law", "planning", "lh", "institution"]
+  - id: "05"
+    title: "제4장 서울메트로폴리탄 도시·공간 트렌드 변화 분석"
+    file: "docs/city-space-trends-2024/05-chapter-4-seoul-metropolitan-trend-change.md"
+    source_pages: "109-148"
+    printed_pages: "77-116"
+    tags: ["seoul-metropolitan", "legal-plan", "architecture", "spatial-analysis"]
+  - id: "06"
+    title: "제5장 서울메트로폴리탄 도시·공간 트렌드 2024"
+    file: "docs/city-space-trends-2024/06-chapter-5-trends-2024.md"
+    source_pages: "149-174"
+    printed_pages: "117-142"
+    tags: ["trend-2024", "regen", "oneday-politan", "care-city"]
+  - id: "07"
+    title: "제6장 도시·공간 트렌드의 LH사업 적용방안"
+    file: "docs/city-space-trends-2024/07-chapter-6-lh-application.md"
+    source_pages: "175-200"
+    printed_pages: "143-168"
+    tags: ["lh", "application", "urban-development", "industrial-complex", "housing"]
+  - id: "08"
+    title: "제7장 결론"
+    file: "docs/city-space-trends-2024/08-chapter-7-conclusion.md"
+    source_pages: "201-206"
+    printed_pages: "169-174"
+    tags: ["conclusion"]
+  - id: "09"
+    title: "참고문헌 및 부록"
+    file: "docs/city-space-trends-2024/09-references-appendix.md"
+    source_pages: "207-215"
+    printed_pages: "175-183"
+    tags: ["references", "appendix"]

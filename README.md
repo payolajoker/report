@@ -27,6 +27,14 @@ graph TD
         S7["1963 원본 보고서"]
     end
 
+    subgraph Books["원문 재구성 도서"]
+        B1["한국형 신도시 가이드라인 연구"]
+        B2["도시·공간 트렌드 2024"]
+        B3["1·2기 신도시 주민의 삶"]
+        B4["3기 신도시 개발전략·계획기준"]
+        B5["1·2기 신도시 건설 영향"]
+    end
+
     R1 -.하남교산 사례.-> R3
     R1 -.성남·화성 평가.-> R6
     R2 -.위례신도시 계획.-> R3
@@ -46,10 +54,28 @@ graph TD
 
     R4 --> S7
 
+    B1 -.신도시 계획 기준·사례 원문.-> R1
+    B1 -.교통·BRT·트램 맥락.-> R2
+    B1 -.도시 운영·경관 사례.-> R3
+    B2 -.서울메트로폴리탄·신도시 맥락.-> R1
+    B2 -.수도권 공간구조·연담화 맥락.-> R3
+    B2 -.도시 기능·위계 분석 맥락.-> R6
+    B3 -.1·2기 신도시 주민만족·생활권 원문.-> R1
+    B3 -.분당·일산·동탄·운정 생활권.-> R3
+    B3 -.주거만족·도시기능 평가.-> R6
+    B4 -.3기 신도시 계획기준·전략 원문.-> R1
+    B4 -.교산·창릉 등 수도권 연계 맥락.-> R3
+    B4 -.자족·기반시설·도시기능 기준.-> R6
+    B5 -.1·2기 신도시 건설효과·주택시장 원문.-> R1
+    B5 -.광역 공간구조·생활권 변화.-> R3
+    B5 -.경제·생활기반 충족도 기준.-> R6
+
     classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
     classDef supp fill:#fef3c7,stroke:#d97706,color:#000
+    classDef book fill:#dcfce7,stroke:#16a34a,color:#000
     class R1,R2,R3,R4,R5,R6 report
     class S1,S2,S3,S4,S5,S6,S7 supp
+    class B1,B2,B3,B4,B5 book
 ```
 
 ## 공개 보고서 (Reports)
@@ -63,6 +89,64 @@ graph TD
 - [국가철도망 구축계획과 도시철도망 구축계획 비교](./국가철도망-구축계획과-도시철도망-구축계획-비교.md) - 두 법정계획의 제도적 차이
 - [수도권 도시등급 평가 보고서](./수도권-도시등급-평가-보고서.md) - 66개 기초지자체 상대 평가 (2026년 기준)
 - [1기 신도시 연구보고서](./1기-신도시-연구보고서.md) - 정책 배경, 공급 규모, 입주 시기, 교통축, 구조적 쟁점 정리
+
+## 원문 재구성 도서 (Books)
+
+PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 자료. OCR이 아니라 페이지 이미지 대조와 육안 검토를 바탕으로 장·절, 표, 그림 설명, 주요 수치 인덱스를 정리한다.
+
+### 한국형 신도시 가이드라인 연구 - [`books/korean-newtown-guideline/`](./books/korean-newtown-guideline/)
+
+신도시 계획 가이드라인, 기반시설, 스마트시티, 특화사례를 다룬 원문 자료를 섹션별 Markdown과 LLM 단일 번들로 정리했다.
+
+- [문서 인덱스](./books/korean-newtown-guideline/docs/korean-newtown-guideline/index.md) - 섹션별 목차와 페이지 범위
+- [주요 수치](./books/korean-newtown-guideline/docs/korean-newtown-guideline/stats.md) - 면적, 인구, 사업비, 시설 규모 등 선별 수치
+- [기계처리용 manifest](./books/korean-newtown-guideline/docs/korean-newtown-guideline/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/korean-newtown-guideline/dist/korean-newtown-guideline.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/korean-newtown-guideline/sources/OTKCRK170383.pdf) - Git LFS 관리
+
+### 도시·공간 트렌드 2024 : 서울메트로폴리탄을 중심으로 - [`books/city-space-trends-2024/`](./books/city-space-trends-2024/)
+
+서울·인천·경기를 서울메트로폴리탄으로 보고, 삶터·일터·놀터·돌봄터·링크 관점에서 2024년 도시·공간 트렌드와 LH사업 적용방안을 정리한 원문 자료다. OCR 없이 PDF 내장 텍스트층과 215쪽 전체 페이지 이미지를 대조해 완성본 Markdown으로 재구성했다.
+
+- [문서 인덱스](./books/city-space-trends-2024/docs/city-space-trends-2024/index.md) - 섹션별 목차와 페이지 범위
+- [주요 수치](./books/city-space-trends-2024/docs/city-space-trends-2024/stats.md) - 설문, 신도시 용지비율, 제도·공간 분석 수치
+- [기계처리용 manifest](./books/city-space-trends-2024/docs/city-space-trends-2024/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/city-space-trends-2024/dist/city-space-trends-2024.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/city-space-trends-2024/sources/OTKCRK240315.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/city-space-trends-2024/docs/city-space-trends-2024/assets/pages/) - PDF 1-215쪽 JPEG 보존본
+
+### 1·2기 신도시 종합평가 연구 (Ⅱ) - 신도시 주민의 삶 - [`books/newtown-resident-life-evaluation/`](./books/newtown-resident-life-evaluation/)
+
+분당·일산·동탄·운정 주민의 거주만족도, 이주특성, 통근·생활권, 랜드마크, 공동체 의식, 온라인 담론을 설문조사와 텍스트마이닝으로 분석한 원문 자료다. OCR 없이 PDF 내장 텍스트층과 243쪽 전체 페이지 이미지를 대조해 완성본 Markdown으로 재구성했다.
+
+- [문서 인덱스](./books/newtown-resident-life-evaluation/docs/newtown-resident-life-evaluation/index.md) - 섹션별 목차와 페이지 범위
+- [주요 수치](./books/newtown-resident-life-evaluation/docs/newtown-resident-life-evaluation/stats.md) - 설문 표본, 만족도, 통근·생활권, 텍스트마이닝 수치
+- [기계처리용 manifest](./books/newtown-resident-life-evaluation/docs/newtown-resident-life-evaluation/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/newtown-resident-life-evaluation/dist/newtown-resident-life-evaluation.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/newtown-resident-life-evaluation/sources/OTKCRK210996.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/newtown-resident-life-evaluation/docs/newtown-resident-life-evaluation/assets/pages/) - PDF 1-243쪽 JPEG 보존본
+
+### 1·2기 신도시 종합평가 연구 (Ⅰ) - 신도시 건설의 영향 - [`books/newtown-construction-impact-evaluation/`](./books/newtown-construction-impact-evaluation/)
+
+1·2기 신도시 건설이 수도권 공간구조, 주택시장, 개발 거버넌스, 생활 SOC, 경제·생활기반 충족도에 남긴 영향을 평가한 원문 자료다. OCR 없이 PDF 내장 텍스트층과 480쪽 전체 페이지 이미지를 대조해 완성본 Markdown으로 재구성했다.
+
+- [문서 인덱스](./books/newtown-construction-impact-evaluation/docs/newtown-construction-impact-evaluation/index.md) - 섹션별 목차와 페이지 범위
+- [주요 수치](./books/newtown-construction-impact-evaluation/docs/newtown-construction-impact-evaluation/stats.md) - 공급량, 계획달성률, 인구분산, 주택가격, 생활 SOC, 충족도 수치
+- [기계처리용 manifest](./books/newtown-construction-impact-evaluation/docs/newtown-construction-impact-evaluation/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/newtown-construction-impact-evaluation/dist/newtown-construction-impact-evaluation.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/newtown-construction-impact-evaluation/sources/OTKCRK210995.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/newtown-construction-impact-evaluation/docs/newtown-construction-impact-evaluation/assets/pages/) - PDF 1-480쪽 JPEG 보존본
+
+### 3기 신도시 개발전략 및 계획기준 수립 연구 - [`books/third-newtown-development-strategy/`](./books/third-newtown-development-strategy/)
+
+3기 신도시를 `공간혁신과 공생발전의 미래도시`로 정의하고, 남양주 왕숙·하남 교산·인천 계양·고양 창릉·부천 대장 등 대규모 공공주택지구의 개발전략과 계획기준을 정리한 원문 자료다. OCR 없이 PDF 내장 텍스트층과 491쪽 전체 페이지 이미지를 대조해 완성본 Markdown으로 재구성했다.
+
+- [문서 인덱스](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/index.md) - 섹션별 목차와 페이지 범위
+- [주요 수치](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/stats.md) - 지구 면적, 계획호수, 생활권, 주택, 교통, 기반시설 기준 수치
+- [기계처리용 manifest](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/third-newtown-development-strategy/dist/third-newtown-development-strategy.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/third-newtown-development-strategy/sources/OTKCRK200194.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/assets/pages/) - PDF 1-491쪽 JPEG 보존본
 
 ## 보조 자료 (Supplements)
 
