@@ -31,6 +31,7 @@ graph TD
         B1["한국형 신도시 가이드라인 연구"]
         B2["도시·공간 트렌드 2024"]
         B3["1·2기 신도시 주민의 삶"]
+        B4["3기 신도시 개발전략·계획기준"]
     end
 
     R1 -.하남교산 사례.-> R3
@@ -61,13 +62,16 @@ graph TD
     B3 -.1·2기 신도시 주민만족·생활권 원문.-> R1
     B3 -.분당·일산·동탄·운정 생활권.-> R3
     B3 -.주거만족·도시기능 평가.-> R6
+    B4 -.3기 신도시 계획기준·전략 원문.-> R1
+    B4 -.교산·창릉 등 수도권 연계 맥락.-> R3
+    B4 -.자족·기반시설·도시기능 기준.-> R6
 
     classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
     classDef supp fill:#fef3c7,stroke:#d97706,color:#000
     classDef book fill:#dcfce7,stroke:#16a34a,color:#000
     class R1,R2,R3,R4,R5,R6 report
     class S1,S2,S3,S4,S5,S6,S7 supp
-    class B1,B2,B3 book
+    class B1,B2,B3,B4 book
 ```
 
 ## 공개 보고서 (Reports)
@@ -117,6 +121,17 @@ PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 
 - [LLM 단일 번들](./books/newtown-resident-life-evaluation/dist/newtown-resident-life-evaluation.llm.md) - RAG/긴 컨텍스트 입력용 통합본
 - [원본 PDF](./books/newtown-resident-life-evaluation/sources/OTKCRK210996.pdf) - Git LFS 관리
 - [전체 페이지 이미지](./books/newtown-resident-life-evaluation/docs/newtown-resident-life-evaluation/assets/pages/) - PDF 1-243쪽 JPEG 보존본
+
+### 3기 신도시 개발전략 및 계획기준 수립 연구 - [`books/third-newtown-development-strategy/`](./books/third-newtown-development-strategy/)
+
+3기 신도시를 `공간혁신과 공생발전의 미래도시`로 정의하고, 남양주 왕숙·하남 교산·인천 계양·고양 창릉·부천 대장 등 대규모 공공주택지구의 개발전략과 계획기준을 정리한 원문 자료다. OCR 없이 PDF 내장 텍스트층과 491쪽 전체 페이지 이미지를 대조해 완성본 Markdown으로 재구성했다.
+
+- [문서 인덱스](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/index.md) - 섹션별 목차와 페이지 범위
+- [주요 수치](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/stats.md) - 지구 면적, 계획호수, 생활권, 주택, 교통, 기반시설 기준 수치
+- [기계처리용 manifest](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/manifest.yml) - 섹션 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/third-newtown-development-strategy/dist/third-newtown-development-strategy.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/third-newtown-development-strategy/sources/OTKCRK200194.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/assets/pages/) - PDF 1-491쪽 JPEG 보존본
 
 ## 보조 자료 (Supplements)
 
