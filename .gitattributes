@@ -18,6 +18,11 @@ books/third-newtown-development-strategy/**/*.jpg filter=lfs diff=lfs merge=lfs 
 books/third-newtown-development-strategy/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 books/third-newtown-development-strategy/**/*.png filter=lfs diff=lfs merge=lfs -text
 
+books/newtown-construction-impact-evaluation/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+books/newtown-construction-impact-evaluation/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+books/newtown-construction-impact-evaluation/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+books/newtown-construction-impact-evaluation/**/*.png filter=lfs diff=lfs merge=lfs -text
+
 *.md text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf

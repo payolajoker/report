@@ -1,0 +1,87 @@
+book:
+  title: "1·2기 신도시 종합평가 연구 (Ⅰ) - 신도시 건설의 영향 -"
+  slug: "newtown-construction-impact-evaluation"
+  language: "ko"
+  source_pdf: "sources/OTKCRK210995.pdf"
+  publisher: "한국토지주택공사 토지주택연구원"
+  report_id: "연구기획 2021-92호"
+  authors:
+    - "윤정중"
+    - "최상희"
+    - "최대식"
+    - "윤정란"
+    - "진규남"
+    - "권오준"
+    - "송태호"
+  pdf_pages: 480
+  processing_notes:
+    ocr_used: false
+    embedded_text_layer_used: true
+    visual_review: true
+    page_image_assets: 480
+    text_layer_archive: true
+    python_used_for_pdf_processing: false
+
+artifacts:
+  index: "docs/newtown-construction-impact-evaluation/index.md"
+  stats: "docs/newtown-construction-impact-evaluation/stats.md"
+  source_page_index: "docs/newtown-construction-impact-evaluation/source-page-index.md"
+  llm_bundle: "dist/newtown-construction-impact-evaluation.llm.md"
+  json_manifest: "dist/newtown-construction-impact-evaluation.manifest.json"
+  text_layer_archive: "docs/newtown-construction-impact-evaluation/text-layer/"
+
+sections:
+- id: "00"
+  title: "표지·발간정보·목차"
+  file: "docs/newtown-construction-impact-evaluation/00-front-matter.md"
+  source_pages: "1-4, 23-38"
+  printed_pages: "front matter, 차례 1-16"
+  tags: ["bibliography", "toc"]
+- id: "01"
+  title: "연구요약"
+  file: "docs/newtown-construction-impact-evaluation/01-summary.md"
+  source_pages: "5-22"
+  printed_pages: "연구요약 1-18"
+  tags: ["summary", "policy", "spatial-structure", "housing", "self-sufficiency"]
+- id: "02"
+  title: "제1장 연구이슈 및 문헌고찰"
+  file: "docs/newtown-construction-impact-evaluation/02-chapter-1-research-issues-literature.md"
+  source_pages: "39-62"
+  printed_pages: "3-24"
+  tags: ["research-issues", "literature", "methodology"]
+- id: "03"
+  title: "제2장 신도시 개발 및 거버넌스 평가"
+  file: "docs/newtown-construction-impact-evaluation/03-chapter-2-development-governance-evaluation.md"
+  source_pages: "63-232"
+  printed_pages: "27-193"
+  tags: ["development", "governance", "life-soc", "conflict", "planning"]
+- id: "04"
+  title: "제3장 광역적 도시공간구조 변화"
+  file: "docs/newtown-construction-impact-evaluation/04-chapter-3-metropolitan-spatial-structure.md"
+  source_pages: "233-326"
+  printed_pages: "197-287"
+  tags: ["spatial-structure", "population", "centrality", "employment"]
+- id: "05"
+  title: "제4장 신도시 주택공급의 주택시장 영향"
+  file: "docs/newtown-construction-impact-evaluation/05-chapter-4-housing-market-impact.md"
+  source_pages: "327-382"
+  printed_pages: "291-343"
+  tags: ["housing-market", "supply", "price", "panel-model"]
+- id: "06"
+  title: "제5장 신도시의 경제 및 생활기반 자족성"
+  file: "docs/newtown-construction-impact-evaluation/06-chapter-5-economic-living-fulfillment.md"
+  source_pages: "383-418"
+  printed_pages: "347-380"
+  tags: ["self-sufficiency", "fulfillment", "jobs", "local-economy"]
+- id: "07"
+  title: "부록: 광역적 도시공간구조 변화 세부 분석 결과"
+  file: "docs/newtown-construction-impact-evaluation/07-appendix-spatial-structure-details.md"
+  source_pages: "419-464"
+  printed_pages: "383-426"
+  tags: ["appendix", "spatial-structure", "detailed-results"]
+- id: "08"
+  title: "참고문헌"
+  file: "docs/newtown-construction-impact-evaluation/08-references.md"
+  source_pages: "465-480"
+  printed_pages: "427-442"
+  tags: ["references"]
