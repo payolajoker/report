@@ -1,0 +1,67 @@
+book:
+  title: "3기 신도시 개발전략 및 계획기준 수립 연구"
+  slug: "third-newtown-development-strategy"
+  language: "ko"
+  source_pdf: "sources/OTKCRK200194.pdf"
+  page_count: 491
+  processing_notes:
+    ocr_used: false
+    python_used: false
+    embedded_text_extraction: true
+    visual_review: true
+    page_images: "docs/third-newtown-development-strategy/assets/pages"
+    text_layer_archive: "docs/third-newtown-development-strategy/text-layer"
+    source_title_basis: "visible PDF title page and internal title"
+artifacts:
+  index: "docs/third-newtown-development-strategy/index.md"
+  stats: "docs/third-newtown-development-strategy/stats.md"
+  source_page_index: "docs/third-newtown-development-strategy/source-page-index.md"
+  llm_bundle: "dist/third-newtown-development-strategy.llm.md"
+  manifest_json: "dist/third-newtown-development-strategy.manifest.json"
+sections:
+  - id: "00"
+    title: "표지·판권·참여연구진·목차"
+    file: "docs/third-newtown-development-strategy/00-front-matter.md"
+    source_pages: "1-4, 13-28"
+    tags: ["metadata", "toc"]
+  - id: "01"
+    title: "연구요약"
+    file: "docs/third-newtown-development-strategy/01-summary.md"
+    source_pages: "5-12"
+    tags: ["summary", "vision", "planning-standards"]
+  - id: "02"
+    title: "제1장 서론"
+    file: "docs/third-newtown-development-strategy/02-chapter-1-introduction.md"
+    source_pages: "27-36"
+    tags: ["introduction", "scope", "method"]
+  - id: "03"
+    title: "제2장 기존 신도시의 종합적 고찰"
+    file: "docs/third-newtown-development-strategy/03-chapter-2-existing-newtowns-review.md"
+    source_pages: "37-128"
+    tags: ["first-newtown", "second-newtown", "review"]
+  - id: "04"
+    title: "제3장 3기 신도시 추진현황 및 개발여건 분석"
+    file: "docs/third-newtown-development-strategy/04-chapter-3-third-newtown-context.md"
+    source_pages: "129-204"
+    tags: ["third-newtown", "survey", "trend-analysis"]
+  - id: "05"
+    title: "제4장 3기 신도시 개발목표와 전략"
+    file: "docs/third-newtown-development-strategy/05-chapter-4-development-goals-strategy.md"
+    source_pages: "205-228"
+    tags: ["vision", "strategy", "symbiotic-city"]
+  - id: "06"
+    title: "제5장 3기 신도시 계획기준 수립"
+    file: "docs/third-newtown-development-strategy/06-chapter-5-planning-standards.md"
+    source_pages: "229-476"
+    tags: ["planning-standards", "housing", "transport", "infrastructure", "environment", "safety"]
+  - id: "07"
+    title: "제6장 결론"
+    file: "docs/third-newtown-development-strategy/07-chapter-6-conclusion.md"
+    source_pages: "477-482"
+    tags: ["conclusion", "future-tasks"]
+  - id: "08"
+    title: "참고문헌"
+    file: "docs/third-newtown-development-strategy/08-references.md"
+    source_pages: "483-491"
+    tags: ["references"]
+
