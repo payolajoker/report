@@ -15,6 +15,7 @@
 | `third-newtown-location-map.png` | 3기 신도시 위치도 | LH 3기 신도시 공식 누리집, 「3기 신도시 위치」 |
 | `suwon-hwaseong-fortress-map.png` | 수원 화성 지도 | Jpbarrass, Wikimedia Commons, public domain |
 | `industrial-newtown-plan-examples-1972.jpg` | 초기 울산·반월·창원 계획도 | KSP, 「경제발전경험모듈화사업: 한국형 신도시 개발」 |
+| `seongnam-gwangju-grand-complex-incident-1971.jpg` | 8·10 광주대단지 사건 현장 사진 | 성남시사편찬위원회, 「성남시사9: 부록1 사진으로 보고 자료로 읽는 성남」 |
 | `company-city-pilot-location-map.jpg` | 기업도시 시범사업 위치도 | KSP, 「경제발전경험모듈화사업: 한국형 신도시 개발」 |
 | `sejong-location-and-institutions.jpg` | 세종 위치와 주요 국가기관 | 「한국형 신도시 가이드라인 연구」 도판 변환본 |
 | `sejong-six-life-zones-land-use.jpg` | 세종 6개 생활권과 토지이용 | 「한국형 신도시 가이드라인 연구」 도판 변환본 |
