@@ -1,0 +1,514 @@
+collection:
+  title: "성남시사 50년사"
+  slug: "seongnam-city-history-50"
+  language: "ko"
+  source_board: "https://www.seongnam.go.kr/city/1001112/30566/bbsList.do"
+  processing_notes:
+    ocr_used: false
+    extraction: "embedded PDF text via pdftotext -layout"
+    visual_review: true
+    parallel_agents_used: true
+    shared_indexes_merged_by: "coordinator"
+volumes:
+  - volume: 0
+    title: "성남시사(Index)"
+    source_pdf: "sources/seongnam-history-50-index.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378694"
+    pages: 72
+    status: "source-downloaded"
+  - volume: 1
+    title: "제1권 성남의 자연환경"
+    source_pdf: "sources/seongnam-history-50-vol-01.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378693"
+    pages: 112
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-01-natural-environment.md"
+    llm_bundle: "dist/seongnam-history-50-vol-01.llm.md"
+    rendered_pages: 10
+  - volume: 2
+    title: "제2권 성남의 인구 및 성씨와 토지 이용의 변화"
+    source_pdf: "sources/seongnam-history-50-vol-02.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378692"
+    pages: 160
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-02-population-clans-landuse.md"
+    llm_bundle: "dist/seongnam-history-50-vol-02.llm.md"
+    rendered_pages: 41
+  - volume: 3
+    title: "제3권 옛 지도와 지리지로 보는 성남"
+    source_pdf: "sources/seongnam-history-50-vol-03.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378691"
+    pages: 120
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-03-old-maps-geographies-toponyms.md"
+    llm_bundle: "dist/seongnam-history-50-vol-03.llm.md"
+    rendered_pages: 50
+  - volume: 4
+    title: "제4권 성남의 교통로와 장시의 발달"
+    source_pdf: "sources/seongnam-history-50-vol-04.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378690"
+    pages: 152
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-04-transport-routes-markets.md"
+    llm_bundle: "dist/seongnam-history-50-vol-04.llm.md"
+    rendered_pages: 80
+  - volume: 5
+    title: "제5권 역사① 선사시대부터 고려시대까지의 성남"
+    source_pdf: "sources/seongnam-history-50-vol-05.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378689"
+    pages: 120
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-05-history-prehistory-to-goryeo.md"
+    llm_bundle: "dist/seongnam-history-50-vol-05.llm.md"
+    rendered_pages: 54
+    integration_note: "docs/seongnam-city-history-50/_work/vol-05-integration.md"
+  - volume: 6
+    title: "제6권 역사② 조선시대의 성남"
+    source_pdf: "sources/seongnam-history-50-vol-06.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378688"
+    pages: 112
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-06-joseon-era-seongnam.md"
+    llm_bundle: "dist/seongnam-history-50-vol-06.llm.md"
+    rendered_pages: 45
+    integration_note: "docs/seongnam-city-history-50/_work/vol-06-integration.md"
+  - volume: 7
+    title: "제7권 역사③ 성남의 의병 항쟁과 독립투쟁사"
+    source_pdf: "sources/seongnam-history-50-vol-07.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378687"
+    pages: 120
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-07-righteous-army-independence-struggle.md"
+    llm_bundle: "dist/seongnam-history-50-vol-07.llm.md"
+    rendered_pages: 40
+    integration_note: "docs/seongnam-city-history-50/_work/vol-07-integration.md"
+  - volume: 8
+    title: "제8권 역사④ 광주대단지와 8·10성남(광주대단지)항쟁"
+    source_pdf: "sources/seongnam-history-50-vol-08.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378686"
+    pages: 112
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-08-gwangju-daedanji-8-10-uprising.md"
+    llm_bundle: "dist/seongnam-history-50-vol-08.llm.md"
+    rendered_pages: 86
+    integration_note: "docs/seongnam-city-history-50/_work/vol-08-integration.md"
+  - volume: 9
+    title: "제9권 역사⑤ 성남시 승격과 도시개발 50년"
+    source_pdf: "sources/seongnam-history-50-vol-09.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378685"
+    pages: 136
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-09-cityhood-urban-development-50-years.md"
+    llm_bundle: "dist/seongnam-history-50-vol-09.llm.md"
+    rendered_pages: 103
+    integration_note: "docs/seongnam-city-history-50/_work/vol-09-integration.md"
+  - volume: 10
+    title: "제10권 성남 역사 인물 50선"
+    source_pdf: "sources/seongnam-history-50-vol-10.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378684"
+    pages: 144
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-10-historical-figures-50.md"
+    llm_bundle: "dist/seongnam-history-50-vol-10.llm.md"
+    rendered_pages: 107
+    integration_note: "docs/seongnam-city-history-50/_work/vol-10-integration.md"
+  - volume: 11
+    title: "제11권 성남의 문화유산"
+    source_pdf: "sources/seongnam-history-50-vol-11.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378683"
+    pages: 160
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-11-cultural-heritage.md"
+    llm_bundle: "dist/seongnam-history-50-vol-11.llm.md"
+    rendered_pages: 160
+    integration_note: "docs/seongnam-city-history-50/_work/vol-11-integration.md"
+  - volume: 12
+    title: "제12권 성남의 민속"
+    source_pdf: "sources/seongnam-history-50-vol-12.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378682"
+    pages: 128
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-12-folklore.md"
+    llm_bundle: "dist/seongnam-history-50-vol-12.llm.md"
+    rendered_pages: 57
+    integration_note: "docs/seongnam-city-history-50/_work/vol-12-integration.md"
+  - volume: 13
+    title: "제13권 성남시 선거와 지방자치 30년"
+    source_pdf: "sources/seongnam-history-50-vol-13.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378681"
+    pages: 160
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-13-elections-local-autonomy.md"
+    llm_bundle: "dist/seongnam-history-50-vol-13.llm.md"
+    rendered_pages: 119
+    integration_note: "docs/seongnam-city-history-50/_work/vol-13-integration.md"
+  - volume: 14
+    title: "제14권 성남시 자치행정과 지방재정"
+    source_pdf: "sources/seongnam-history-50-vol-14.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378680"
+    pages: 184
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-14-local-administration-finance.md"
+    llm_bundle: "dist/seongnam-history-50-vol-14.llm.md"
+    rendered_pages: 184
+    integration_note: "docs/seongnam-city-history-50/_work/vol-14-integration.md"
+  - volume: 15
+    title: "제15권 성남 지역 시민운동과 참여 자치"
+    source_pdf: "sources/seongnam-history-50-vol-15.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378679"
+    pages: 136
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-15-civic-movement-participatory-governance.md"
+    llm_bundle: "dist/seongnam-history-50-vol-15.llm.md"
+    rendered_pages: 90
+    integration_note: "docs/seongnam-city-history-50/_work/vol-15-integration.md"
+  - volume: 16
+    title: "제16권 성남시 경제와 산업"
+    source_pdf: "sources/seongnam-history-50-vol-16.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378678"
+    pages: 144
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-16-economy-industry.md"
+    llm_bundle: "dist/seongnam-history-50-vol-16.llm.md"
+    rendered_pages: 144
+    integration_note: "docs/seongnam-city-history-50/_work/vol-16-integration.md"
+  - volume: 17
+    title: "제17권 성남의 산업구조"
+    source_pdf: "sources/seongnam-history-50-vol-17.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378677"
+    pages: 160
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-17-industrial-structure.md"
+    llm_bundle: "dist/seongnam-history-50-vol-17.llm.md"
+    rendered_pages: 160
+    integration_note: "docs/seongnam-city-history-50/_work/vol-17-integration.md"
+  - volume: 18
+    title: "제18권 성남의 산업단지와 기업체"
+    source_pdf: "sources/seongnam-history-50-vol-18.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378676"
+    pages: 160
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-18-industrial-complexes-companies.md"
+    llm_bundle: "dist/seongnam-history-50-vol-18.llm.md"
+    rendered_pages: 160
+    integration_note: "docs/seongnam-city-history-50/_work/vol-18-integration.md"
+  - volume: 19
+    title: "제19권 성남 교육의 역사와 학교 교육"
+    source_pdf: "sources/seongnam-history-50-vol-19.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378675"
+    pages: 104
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-19-education-history-school-education.md"
+    llm_bundle: "dist/seongnam-history-50-vol-19.llm.md"
+    rendered_pages: 104
+    integration_note: "docs/seongnam-city-history-50/_work/vol-19-integration.md"
+  - volume: 20
+    title: "제20권 성남시 청소년의 삶과 문화"
+    source_pdf: "sources/seongnam-history-50-vol-20.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378673"
+    pages: 136
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-20-youth-life-culture.md"
+    llm_bundle: "dist/seongnam-history-50-vol-20.llm.md"
+    rendered_pages: 136
+    integration_note: "docs/seongnam-city-history-50/_work/vol-20-integration.md"
+  - volume: 21
+    title: "제21권 평생교육과 성남"
+    source_pdf: "sources/seongnam-history-50-vol-21.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378672"
+    pages: 136
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-21-lifelong-education-seongnam.md"
+    llm_bundle: "dist/seongnam-history-50-vol-21.llm.md"
+    rendered_pages: 136
+    integration_note: "docs/seongnam-city-history-50/_work/vol-21-integration.md"
+  - volume: 22
+    title: "제22권 성남의 문화와 예술"
+    source_pdf: "sources/seongnam-history-50-vol-22.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378671"
+    pages: 116
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-22-culture-and-arts.md"
+    llm_bundle: "dist/seongnam-history-50-vol-22.llm.md"
+    rendered_pages: 116
+    integration_note: "docs/seongnam-city-history-50/_work/vol-22-integration.md"
+  - volume: 23
+    title: "제23권 성남의 축제와 관광"
+    source_pdf: "sources/seongnam-history-50-vol-23.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378670"
+    pages: 160
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-23-festivals-tourism.md"
+    llm_bundle: "dist/seongnam-history-50-vol-23.llm.md"
+    rendered_pages: 160
+    integration_note: "docs/seongnam-city-history-50/_work/vol-23-integration.md"
+  - volume: 24
+    title: "제24권 성남 시민의 종교와 신앙생활"
+    source_pdf: "sources/seongnam-history-50-vol-24.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378669"
+    pages: 104
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-24-religion-faith-life.md"
+    llm_bundle: "dist/seongnam-history-50-vol-24.llm.md"
+    rendered_pages: 104
+    integration_note: "docs/seongnam-city-history-50/_work/vol-24-integration.md"
+  - volume: 25
+    title: "제25권 성남의 체육"
+    source_pdf: "sources/seongnam-history-50-vol-25.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378668"
+    pages: 120
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-25-sports.md"
+    llm_bundle: "dist/seongnam-history-50-vol-25.llm.md"
+    rendered_pages: 120
+    integration_note: "docs/seongnam-city-history-50/_work/vol-25-integration.md"
+  - volume: 26
+    title: "제26권 사회복지와 성남"
+    source_pdf: "sources/seongnam-history-50-vol-26.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378667"
+    pages: 106
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-26-social-welfare-seongnam.md"
+    llm_bundle: "dist/seongnam-history-50-vol-26.llm.md"
+    rendered_pages: 106
+    integration_note: "docs/seongnam-city-history-50/_work/vol-26-integration.md"
+  - volume: 27
+    title: "제27권 성남의 보건 의료와 정책"
+    source_pdf: "sources/seongnam-history-50-vol-27.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378666"
+    pages: 104
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-27-healthcare-policy.md"
+    llm_bundle: "dist/seongnam-history-50-vol-27.llm.md"
+    rendered_pages: 104
+    integration_note: "docs/seongnam-city-history-50/_work/vol-27-integration.md"
+  - volume: 28
+    title: "제28권 성남의 지역 언론과 매체"
+    source_pdf: "sources/seongnam-history-50-vol-28.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378665"
+    pages: 104
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-28-local-media-and-press.md"
+    llm_bundle: "dist/seongnam-history-50-vol-28.llm.md"
+    rendered_pages: 104
+    integration_note: "docs/seongnam-city-history-50/_work/vol-28-integration.md"
+  - volume: 29
+    title: "제29권 성남의 공간구조와 생활권"
+    source_pdf: "sources/seongnam-history-50-vol-29.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378664"
+    pages: 144
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-29-spatial-structure-living-areas.md"
+    llm_bundle: "dist/seongnam-history-50-vol-29.llm.md"
+    rendered_pages: 144
+    integration_note: "docs/seongnam-city-history-50/_work/vol-29-integration.md"
+  - volume: 30
+    title: "제30권 성남 본시가지 일대의 변천"
+    source_pdf: "sources/seongnam-history-50-vol-30.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378663"
+    pages: 136
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-30-main-city-area-transformation.md"
+    llm_bundle: "dist/seongnam-history-50-vol-30.llm.md"
+    rendered_pages: 136
+    integration_note: "docs/seongnam-city-history-50/_work/vol-30-integration.md"
+  - volume: 31
+    title: "제31권 상대원과 성남하이테크밸리 일대의 변천"
+    source_pdf: "sources/seongnam-history-50-vol-31.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378662"
+    pages: 112
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-31-sangdaewon-seongnam-high-tech-valley.md"
+    llm_bundle: "dist/seongnam-history-50-vol-31.llm.md"
+    rendered_pages: 112
+    integration_note: "docs/seongnam-city-history-50/_work/vol-31-integration.md"
+  - volume: 32
+    title: "제32권 여수동·도촌동·야탑동 일대의 변천"
+    source_pdf: "sources/seongnam-history-50-vol-32.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378661"
+    pages: 128
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-32-yeosu-dochon-yatap-area-transformation.md"
+    llm_bundle: "dist/seongnam-history-50-vol-32.llm.md"
+    rendered_pages: 128
+    integration_note: "docs/seongnam-city-history-50/_work/vol-32-integration.md"
+  - volume: 33
+    title: "제33권 1기 신도시 분당의 변천①"
+    source_pdf: "sources/seongnam-history-50-vol-33.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378659"
+    pages: 112
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-33-bundang-new-town-transition-1.md"
+    llm_bundle: "dist/seongnam-history-50-vol-33.llm.md"
+    rendered_pages: 112
+    integration_note: "docs/seongnam-city-history-50/_work/vol-33-integration.md"
+  - volume: 34
+    title: "제34권 1기 신도시 분당의 변천②"
+    source_pdf: "sources/seongnam-history-50-vol-34.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378657"
+    pages: 112
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-34-first-newtown-bundang-transition-2.md"
+    llm_bundle: "dist/seongnam-history-50-vol-34.llm.md"
+    rendered_pages: 112
+    integration_note: "docs/seongnam-city-history-50/_work/vol-34-integration.md"
+  - volume: 35
+    title: "제35권 판교 일대의 변천"
+    source_pdf: "sources/seongnam-history-50-vol-35.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378656"
+    pages: 152
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-35-pangyo-area-transformation.md"
+    llm_bundle: "dist/seongnam-history-50-vol-35.llm.md"
+    rendered_pages: 152
+    integration_note: "docs/seongnam-city-history-50/_work/vol-35-integration.md"
+  - volume: 36
+    title: "제36권 운중동·대장동 일대의 변천"
+    source_pdf: "sources/seongnam-history-50-vol-36.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378655"
+    pages: 112
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-36-unjung-daejang-area-transformation.md"
+    llm_bundle: "dist/seongnam-history-50-vol-36.llm.md"
+    rendered_pages: 112
+    integration_note: "docs/seongnam-city-history-50/_work/vol-36-integration.md"
+  - volume: 37
+    title: "제37권 위례신도시 일대의 변천"
+    source_pdf: "sources/seongnam-history-50-vol-37.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378654"
+    pages: 112
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-37-wirye-new-town-area-transformation.md"
+    llm_bundle: "dist/seongnam-history-50-vol-37.llm.md"
+    rendered_pages: 112
+    integration_note: "docs/seongnam-city-history-50/_work/vol-37-integration.md"
+  - volume: 38
+    title: "제38권 고등·신촌지구 일대의 변천"
+    source_pdf: "sources/seongnam-history-50-vol-38.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378653"
+    pages: 136
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-38-godeung-sinchon-district-transformation.md"
+    llm_bundle: "dist/seongnam-history-50-vol-38.llm.md"
+    rendered_pages: 136
+    integration_note: "docs/seongnam-city-history-50/_work/vol-38-integration.md"
+  - volume: 39
+    title: "제39권 성남 콘텐츠 50선"
+    source_pdf: "sources/seongnam-history-50-vol-39.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378652"
+    pages: 152
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-39-seongnam-content-50.md"
+    llm_bundle: "dist/seongnam-history-50-vol-39.llm.md"
+    rendered_pages: 152
+    integration_note: "docs/seongnam-city-history-50/_work/vol-39-integration.md"
+  - volume: 40
+    title: "제40권 토박이와 이주민의 성남살이"
+    source_pdf: "sources/seongnam-history-50-vol-40.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378651"
+    pages: 152
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-40-natives-migrants-seongnam-life.md"
+    llm_bundle: "dist/seongnam-history-50-vol-40.llm.md"
+    rendered_pages: 152
+    integration_note: "docs/seongnam-city-history-50/_work/vol-40-integration.md"
+  - volume: 41
+    title: "제41권 모란 상설시장과 민속5일장"
+    source_pdf: "sources/seongnam-history-50-vol-41.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378650"
+    pages: 120
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-41-moran-permanent-market-folk-five-day-market.md"
+    llm_bundle: "dist/seongnam-history-50-vol-41.llm.md"
+    rendered_pages: 120
+    integration_note: "docs/seongnam-city-history-50/_work/vol-41-integration.md"
+  - volume: 42
+    title: "제42권 성남의 전통 민속놀이"
+    source_pdf: "sources/seongnam-history-50-vol-42.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378649"
+    pages: 120
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-42-traditional-folk-games.md"
+    llm_bundle: "dist/seongnam-history-50-vol-42.llm.md"
+    rendered_pages: 120
+    integration_note: "docs/seongnam-city-history-50/_work/vol-42-integration.md"
+  - volume: 43
+    title: "제43권 판교 테크노컬처밸리"
+    source_pdf: "sources/seongnam-history-50-vol-43.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378648"
+    pages: 128
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-43-pangyo-techno-culture-valley.md"
+    llm_bundle: "dist/seongnam-history-50-vol-43.llm.md"
+    rendered_pages: 128
+    integration_note: "docs/seongnam-city-history-50/_work/vol-43-integration.md"
+  - volume: 44
+    title: "제44권 판교 게임·콘텐츠특구"
+    source_pdf: "sources/seongnam-history-50-vol-44.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378647"
+    pages: 104
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-44-pangyo-game-content-special-zone.md"
+    llm_bundle: "dist/seongnam-history-50-vol-44.llm.md"
+    rendered_pages: 104
+    integration_note: "docs/seongnam-city-history-50/_work/vol-44-integration.md"
+  - volume: 45
+    title: "제45권 성남 주택의 변화상과 특색 건축물"
+    source_pdf: "sources/seongnam-history-50-vol-45.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378646"
+    pages: 136
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-45-housing-change-distinctive-architecture.md"
+    llm_bundle: "dist/seongnam-history-50-vol-45.llm.md"
+    rendered_pages: 136
+    integration_note: "docs/seongnam-city-history-50/_work/vol-45-integration.md"
+  - volume: 46
+    title: "제46권 한 권으로 읽는 어린이 성남시사"
+    source_pdf: "sources/seongnam-history-50-vol-46.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378645"
+    pages: 136
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-46-childrens-seongnam-history.md"
+    llm_bundle: "dist/seongnam-history-50-vol-46.llm.md"
+    rendered_pages: 136
+    integration_note: "docs/seongnam-city-history-50/_work/vol-46-integration.md"
+  - volume: 47
+    title: "성남시사 50년사 제47권 한 권으로 읽는 청소년 성남시사"
+    source_pdf: "sources/seongnam-history-50-vol-47.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378644"
+    pages: 144
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-47-youth-seongnam-city-history.md"
+    llm_bundle: "dist/seongnam-history-50-vol-47.llm.md"
+    rendered_pages: 144
+    integration_note: "docs/seongnam-city-history-50/_work/vol-47-integration.md"
+  - volume: 48
+    title: "제48권 포토에세이, 성남 ALIGN"
+    source_pdf: "sources/seongnam-history-50-vol-48.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378643"
+    pages: 128
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-48-photo-essay-seongnam-align.md"
+    llm_bundle: "dist/seongnam-history-50-vol-48.llm.md"
+    rendered_pages: 128
+    integration_note: "docs/seongnam-city-history-50/_work/vol-48-integration.md"
+  - volume: 49
+    title: "제49권 자료로 보는 성남"
+    source_pdf: "sources/seongnam-history-50-vol-49.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378641"
+    pages: 144
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-49-data-for-seongnam.md"
+    llm_bundle: "dist/seongnam-history-50-vol-49.llm.md"
+    rendered_pages: 144
+    integration_note: "docs/seongnam-city-history-50/_work/vol-49-integration.md"
+  - volume: 50
+    title: "제50권 길라잡이 성남 사전(事典)"
+    source_pdf: "sources/seongnam-history-50-vol-50.pdf"
+    source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378640"
+    pages: 264
+    status: "text-layer-reviewed"
+    markdown: "docs/seongnam-city-history-50/vol-50-guidebook-seongnam-dictionary.md"
+    llm_bundle: "dist/seongnam-history-50-vol-50.llm.md"
+    rendered_pages: 264
+    integration_note: "docs/seongnam-city-history-50/_work/vol-50-integration.md"

@@ -1,0 +1,4101 @@
+---
+collection_title: "성남시사 50년사"
+book_title: "제33권 1기 신도시 분당의 변천①"
+manifest_title: "제33권 1기 신도시 분당의 변천①"
+slug: "seongnam-city-history-50"
+section_id: "vol-33"
+section_title: "1기 신도시 분당의 변천①"
+source_pdf: "../sources/seongnam-history-50-vol-33.pdf"
+source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378659"
+source_pages: "1-112"
+status: "text-layer-reviewed"
+ocr_used: false
+---
+
+
+# 제33권 1기 신도시 분당의 변천①
+
+## 변환 노트
+
+- 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
+- OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
+- 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
+- 분당신도시의 계획·인구·행정구역·공간구분·문화유산·노후 기반시설 쟁점이 함께 나오는 권차라서 1-112쪽 전체를 `assets/pages/`에 렌더링했다.
+- 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-33-integration.md`에 별도 정리했다.
+- 공식 다운로드 목록과 PDF 표지의 권명은 `제33권 1기 신도시 분당의 변천①`으로 일치한다.
+- 이 파일은 LLM 장문 입력을 위해 33권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
+
+## 권별 목차
+
+| Part | 원문 쪽 | 내용 |
+| --- | --- | --- |
+| 앞부분 | 1-4 | 표지, 권명, 권별 목차, 들어가며 |
+| 1 | 5-36 | 한국 역사 속의 분당 지역: 전통시대, 근현대, 인물, 문화유산, 지명 유래 |
+| 2 | 37-53 | 분당신도시의 탄생: 성남시 승격과 분당마을, 1기 신도시 개발, 개발 과정 발굴 유적 |
+| 3 | 54-83 | 분당 지역의 변화: 1990-2023년 변화, 공간·사회경제적 지역성, 분당중앙지구와 구미금곡지구 |
+| 4 | 84-100 | 분당 지역의 공원과 역사유적: 이매도시자연공원, 주요 묘역, 판교 유적과 판교박물관 |
+| 5 | 101-110 | 분당신도시의 변화와 미래: 2014-2024년 사건, 고도제한, 신분당선, 테크노파크, 판교테크노밸리 |
+| 참고문헌·판권 | 111-112 | 참고문헌, 집필자, 발행 정보 |
+
+## 핵심 연구 포인트
+
+- 33권은 분당신도시 1권차로, 분당을 단순한 주거 신도시가 아니라 선사 유적·전통 문중·일제기 독립운동·광주대단지 이후 성남 행정구역 변동 위에 놓인 복합 도시공간으로 설명한다.
+- 분당신도시의 탄생 장은 1989년 주택 200만 세대 건설계획, 수도권 주택난, 남단 녹지 개발, 39만 명 수용 규모, 9만 7,000세대 계획을 직접 연결한다.
+- 분당 개발 과정에서 고인돌, 적석총, 역원지, 봉수지, 사지, 묘역 등이 확인되었다는 서술은 신도시 개발과 매장문화재 보존의 긴장을 보여주는 핵심 자료다.
+- 1990년대 이후 분당은 성남시 인구의 절반 안팎을 차지하는 신시가지가 되었고, 본시가지와 신시가지의 공간 분절·사회경제적 격차를 설명하는 주요 사례로 활용할 수 있다.
+- 분당중앙지구와 구미금곡지구의 구분은 1기 신도시 내부에서도 중심업무·역세권·주거 밀집·도시연담·미개발 산지라는 서로 다른 공간 유형이 공존함을 보여준다.
+- 후반부의 정자교 사고, 고도제한 완화운동, 신분당선, 분당테크노파크, 판교테크노밸리는 노후 신도시 재생, 안전, 교통, 첨단산업 전환을 묶는 병합 후보이다.
+
+## 주요 표 정리
+
+### 분당신도시 건설 사업 개요
+
+- 원문 쪽: p.042
+
+| 항목 | 내용 |
+| --- | --- |
+| 개발 목적 | 대단위 주택지 조성으로 수도권의 주택난 해소 |
+| 위치 | 성남시 분당구 21개 동(서울 25㎞ 지점) |
+| 면적 | 1,963만 9,000㎡(19.639㎢=1,963.9ha=594만 800평) |
+| 수용 인구 | 39만 명(9만 7,000세대) |
+| 인구 밀도 | 198인/ha(1만㎡) |
+| 호수 밀도 | 49.7세대/ha(4인 1호 기준) |
+| 사업 기간 | 1989.8.30.-1996.12.31.(7년 4개월) |
+| 사업 시행자 | 한국토지공사(현 한국토지주택공사) |
+
+### 성남시 도시공간의 구분 중 분당 관련 구역
+
+- 원문 쪽: p.069
+
+| 중지역 | 소지역 | 법정동·행정동 |
+| --- | --- | --- |
+| 분당지구 | 분당중앙지구 | 야탑동, 이매동, 율동, 서현동, 수내동, 분당동, 정자동 |
+| 분당지구 | 구미금곡지구 | 구미동, 궁내동, 금곡동, 동원동 |
+| 판교대장지구 | 판교지구 | 백현동, 판교동, 삼평동, 운중동 |
+| 판교대장지구 | 대장지구 | 대장동, 하산운동, 석운동 |
+
+### 분당의 행정동과 법정동
+
+- 원문 쪽: p.083
+
+| 항목 | 내용 |
+| --- | --- |
+| 분당동 | 분당동 |
+| 수내1동·수내2동·수내3동 | 수내동 |
+| 정자동·정자1동·정자2동·정자3동 | 정자동 |
+| 서현1동 | 서현동, 율동 |
+| 서현2동 | 서현동 |
+| 이매1동·이매2동 | 이매동 |
+| 야탑1동·야탑2동·야탑3동 | 야탑동 |
+| 금곡동 | 금곡동, 궁내동 |
+| 구미동 | 구미동 |
+| 구미1동 | 동원동, 구미동 |
+| 판교동 | 판교동 |
+| 삼평동 | 삼평동 |
+| 백현동 | 백현동 |
+| 운중동 | 운중동, 대장동, 석운동, 하산운동 |
+
+## 주요 통계와 수치
+
+| 원문 쪽 | 수치 | 활용 포인트 |
+| --- | --- | --- |
+| 004 | 2024년 12월 기준 성남시는 3개 구 50개 동, 약 93만 명 규모이며 분당구 거주 인구는 약 47만 명 | 분당구가 성남 도시 규모에서 차지하는 비중 |
+| 006-007 | 18.18㎢(550만 평) 지역에서 116기의 고인돌과 8기의 적석총이 확인되었고, 개발 관련 발굴조사로 총 171기의 고인돌이 조사됨 | 분당신도시 개발 이전 선사·청동기 유적 밀도 |
+| 010 | 남한산성에 입성한 항일 의병은 2,000여 명 규모 | 광주·성남 지역 한말 의병운동 배경 |
+| 011-013 | 1919년 남한산성 만세 시위 참여 200여 명, 돌마·낙생면 시위는 판교리 낙생면사무소 앞에서 1,000여 명 규모로 확대 | 분당권 3·1운동과 독립운동 연결 |
+| 015 | 1968년 성남출장소 994가구 6,008명, 대왕면 1,097가구 6,382명, 돌마면 1,058가구 6,124명, 낙생면 1,107가구 7,205명 | 광주대단지 전후 성남 남부 농촌지역의 기준선 |
+| 016 | 1969년 성남출장소 인구는 2,321가구 1만 5,778명으로 1968년 대비 162.62% 증가 | 철거민 이주와 시가지 구역 급성장 |
+| 016 | 1970년 성남 지역 총가구 1만 7,943가구, 시가지 구역 1만 4,104가구, 비시가지 구역 3,844가구 | 광주대단지 조성 직후 가구 구성 |
+| 016 | 1971년 성남 지역 총인구는 3만 3,987가구 16만 59명, 시가지 구역은 2만 8,891가구 12만 2,939명 | 8·10성남 항쟁 직전 도시 팽창 |
+| 017-018 | 1980년 태평3동은 0.34㎢에 4만 4,197명, 판교는 8.98㎢에 602명 | 본시가지 고밀과 분당·판교 농촌성의 대비 |
+| 018 | 2022년 분당구는 22개 행정동과 18개 법정동, 운중동 3만 3,560명·서현1동 3만 1,488명·정자1동 3만 562명·구미동 3만 243명 | 최근 분당구 행정동 인구 상위권 |
+| 019 | 2010년 『성남인물지』 수록 인물 본관은 57개, 성남 지역 세거지는 270여 개 | 분당·성남 문중 네트워크와 집성촌 연구 |
+| 028 | 청주한씨 청연공파 묘역은 16세기 초부터 18세기 초까지 6대에 걸쳐 조성 | 분당권 조선시대 묘역 문화유산 |
+| 038 | 2023년 기준 분당구는 성남시 전체 면적의 절반 정도, 47만여 명, 18개 법정동과 22개 행정동으로 구성 | 분당구 행정·공간 규모 |
+| 039 | 1968년 중부면 인구 약 6,000명에서 1971년 15만여 명으로 급증 | 광주대단지 조성과 성남 승격의 배경 |
+| 039 | 1972년 성남시 총면적 128.513㎢, 법정리 37개 리, 조례상 189개 리, 자연부락 231개, 1,198개 반 | 시 승격 직전 행정 규모 |
+| 040 | 1989년 분당은 전체 면적의 32.3%를 주거 용지로 두고 9만 7,500세대, 39만 명 수용을 계획 | 1기 신도시 분당의 계획 인구와 토지 배분 |
+| 041-042 | 초기 목표 인구 42만 명은 산지와 개발가능지 부족 때문에 39만 명으로 축소 | 분당신도시 계획 조정 과정 |
+| 042 | 단독주택 3% 내외(2,800-3,000세대), 연립주택 7-8%(7,000-8,000세대), 아파트 90% 내외(8만 6,000-8만 9,000세대) | 주택 유형별 배분 계획 |
+| 042 | 1989년 11월부터 10차에 걸쳐 총 4만 6,362세대 공급: 임대 1만 3,053세대, 국민주택 1만 9,349세대, 국민주택 초과 8,946세대 | 분당신도시 초기 주택 공급 실적 |
+| 042 | 개발 면적 1,963만 9,000㎡(19.639㎢·594만 800평), 수용 인구 39만 명(9만 7,000세대), 사업 기간 1989.8.30.-1996.12.31. | 분당신도시 건설사업 개요 |
+| 044-045 | 분당 개발 지표조사 결과 지석묘 116기, 적석총 8기, 묘역 6기, 역원지 1개, 봉수지 1개, 사지 2개, 사당 1동, 정자 1동, 민가 2동, 보호수 9기 확인 | 개발 과정 매장문화재 조사 성과 |
+| 045-046 | 분당동 지석묘군은 당초 19기 조사 계획에서 22기 조사로 확대, 야탑동 적석총군은 8기·동서 42m·남북 20m 범위 | 분당 개발 유적 세부 사례 |
+| 054-055 | 1989년 4월 정부는 분당지구 540만 평에 주택 10만 5,000호와 인구 42만 명의 신도시 계획 발표 | 분당신도시 발표 당시 규모 |
+| 055 | 개발 전 분당 지역은 4,706세대 1만 5,423명이 거주하던 교외 농촌 공간 | 신도시 전환 전 지역 상태 |
+| 055 | 성남시 인구는 1990년 54만 764명, 1992년 64만 5,793명, 1994년 80만 명, 1996년 90만 명 돌파, 1999년 92만 1,204명 | 분당 입주 이후 성남 인구 성장 |
+| 055-056 | 1999년 본시가지 수정구·중원구 53만 1,119명, 분당구 39만 85명 | 신시가지가 도시 전체에서 차지하는 인구 비중 |
+| 057 | 2001년 분당신도시 역세권 약 81만 평이 벤처기업육성촉진지구로 지정, 야탑동 약 5만 평 분당테크노파크와 정자동 약 10만 평 분당벤처타운 조성 | 분당의 첨단산업 전환 |
+| 059 | 2023년 분당구는 면적 69.77㎢, 19만 2,848세대, 인구 47만 1,154명, 22개 행정동, 723개 통, 4,372개 반 | 현재 분당구 행정·인구 규모 |
+| 059 | 성남 전체 인구 91만 9,747명 중 분당구 거주자는 47만 2,957명으로 51.4% | 분당구의 성남 내 인구 지배력 |
+| 060 | 분당구는 91개 교육기관과 134개 공원을 확보 | 분당 생활 인프라 규모 |
+| 063-065 | 7개 사회경제 속성이 성남시 도시공간 구성의 84.5%를 설명하며, 제2속성 16.1%, 제3속성 14.8%, 제4속성 11.9%, 제6속성 5.1%, 제7속성 3.5% | 도시공간 인자분석 기반 지역 유형화 |
+| 068 | 제1유동패턴은 설명량 24.79%의 분당권, 제6유동패턴 4.03% 수내이매권, 제7유동패턴 3.45% 구미권 | 성남 통행권 속 분당 생활권 |
+| 069-070 | 분당지구는 분당중앙지구와 구미금곡지구로 구분되며, 분당중앙지구는 7개 법정동과 15개 행정동 | 분당 내부 공간 구분 |
+| 070 | 분당중앙지구는 19.6㎢ 부지에 인구 39만 명 수용을 목표로 조성된 분당신도시 중심 지역 | 분당중앙지구의 규모와 위상 |
+| 076 | 2024년 5월 22일 정부 발표에 따라 분당신도시 8,000가구가 1기 신도시 재건축 선도지구로 지정 | 노후 1기 신도시 재건축 이슈 |
+| 079 | 동원동 성남낙생공공주택지구는 2019년 12월부터 택지 조성 사업 시작, 2028년 186세대 입주 예정 | 분당 남서부 미개발지의 공공주택 전환 |
+| 085 | 이매도시자연공원은 1999.8.20. 개장, 예산 345억 1,600만 원, 총면적 263만 7,316㎡, 공원 조성 면적 34만 6,558㎡ | 율동공원 조성 규모 |
+| 085 | 율동공원 번지점프장 높이 45m, 호수 분수대 최고 높이 103m | 공원 시설 규모 |
+| 099-100 | 판교박물관은 한성백제 돌방무덤 9기, 고구려 돌방무덤 2기 등 총 23기의 유적과 200여 점의 유물을 보유; 판교 출토 유물 총 6,237점 중 일부 전시 | 판교 개발 유적 보존·전시 |
+| 104 | 2023.4.5. 정자교 보행로 붕괴로 사망 1명·부상 1명, 탄천 24개 다리 점검, 수내교·불정교·금곡교·궁내교 4곳 E등급, D·E등급 17개 교량 보도부 통제·재시공 결정 | 노후 신도시 기반시설 안전 |
+| 105 | 2002년 고도제한 완화안으로 건축물 높이 제한이 12m에서 45m로 완화되어 4층 이내 제한이 15층까지 가능해짐 | 서울공항 고도제한과 성남 도시개발 |
+| 105 | 2009년 제2롯데월드 건축 허가 이후 성남 700여 시민단체와 2만 명 시민이 고도제한 완화 요구 집회 | 고도제한 완화운동 |
+| 105-106 | 신분당선은 광교역-신사역 16개 역 노선이며 2011년 강남-정자, 2016년 정자-광교, 2018년 미금역, 2022년 강남-신사 구간이 개통 | 분당-강남 광역철도 연결 |
+| 107-108 | 판교테크노밸리는 2004년 20만 평(66만 1,157.025㎡) 특별계획구역 지정, 연구지원 용지 11만 7,651㎡와 주차장 용지 2만 1,716㎡ 구성 | 판교테크노밸리 계획 규모 |
+| 110 | 분당구 학교는 초등학교 38개교, 중학교 25개교, 고등학교 24개교로 언급되며 초고령화와 인구 절벽이 지속가능성 문제로 제기됨 | 노후 신도시의 인구구조와 교육 인프라 |
+
+## 주요 도표·사진 페이지
+
+33권은 전체 쪽을 렌더링했다. 아래 표는 공용 `figures`와 `source-page-index` 병합 때 우선 반영할 고가치 페이지다.
+
+| 파일 | 원문 쪽 | 내용 | 유형 |
+| --- | --- | --- | --- |
+| [vol-33-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-33-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-002.jpg) | 2 | 권별 목차 1: Part 1·2 구성 | toc |
+| [vol-33-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-003.jpg) | 3 | 권별 목차 2: Part 3·4·5 구성 | toc |
+| [vol-33-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-004.jpg) | 4 | 들어가며: 탄천, 판교테크노밸리, 신분당선·경강선·GTX 계획 서술 | intro |
+| [vol-33-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-011.jpg) | 11 | 1900년 당시 남한산성 전경 | historic-photo |
+| [vol-33-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-012.jpg) | 12 | 율동공원 성남 3·1만세운동기념탑 | memorial-photo |
+| [vol-33-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-013.jpg) | 13 | 돌마면 3·1운동 지도자 한백봉 사진 | person-photo |
+| [vol-33-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-014.jpg) | 14 | 신간회 광주지부와 8·10성남 항쟁 사진 | historic-photo |
+| [vol-33-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-015.jpg) | 15 | 1970년 성남대로 사진 | historic-photo |
+| [vol-33-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-017.jpg) | 17 | 1990년 분당 개발 반대 시위 사진 | development-conflict |
+| [vol-33-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-018.jpg) | 18 | 분당 단일학군 시행 시위 사진 | education-conflict |
+| [vol-33-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-026.jpg) | 26 | 율동공원 한순회 묘역 | heritage-photo |
+| [vol-33-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-029.jpg) | 29 | 청주한씨 문정공파 묘역 신도비 | heritage-photo |
+| [vol-33-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-030.jpg) | 30 | 한산이씨 묘역과 전주이씨 태안군파 묘역 설명 | heritage-photo |
+| [vol-33-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-031.jpg) | 31 | 수내동 가옥 사진과 구조 설명 | heritage-photo |
+| [vol-33-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-038.jpg) | 38 | 분당 지명 유래와 성남 지도형 도판 | map |
+| [vol-33-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-042.jpg) | 42 | 분당신도시 건설 사업 개요 표 | planning-table |
+| [vol-33-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-043.jpg) | 43 | 분당구청 전경과 분당 행정동 분동 과정 | administration-photo |
+| [vol-33-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-044.jpg) | 44 | 분당신도시 개발 과정 발굴 유적 개관 | archaeology |
+| [vol-33-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-045.jpg) | 45 | 분당동 지석묘군·야탑동 적석총군 설명 | archaeology |
+| [vol-33-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-054.jpg) | 54 | 1989년 분당지구 개발계획과 개발 전 교외 공간 설명 | planning-history |
+| [vol-33-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-056.jpg) | 56 | 분당구 보건소 전경과 공간 분절 서술 | facility-photo |
+| [vol-33-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-058.jpg) | 58 | 분당서울대학교병원 전경과 2000년대 문화복지 시설 서술 | facility-photo |
+| [vol-33-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-059.jpg) | 59 | 2023년 분당구 인구·행정 현황과 한국학중앙연구원 표지석 | statistics-photo |
+| [vol-33-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-060.jpg) | 60 | 한국학중앙연구원 본관과 분당 교통·교육·공원 인프라 서술 | institution-photo |
+| [vol-33-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-061.jpg) | 61 | 성남 도시공간 설정안과 분당 중심 생활권 서술 | planning-analysis |
+| [vol-33-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-063.jpg) | 63 | 사회경제적 속성 기반 분당 지역 구분 | spatial-analysis |
+| [vol-33-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-069.jpg) | 69 | 성남시 도시공간의 구분 표 | spatial-table |
+| [vol-33-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-070.jpg) | 70 | 분당중앙지구의 법정동·행정동 범위와 19.6㎢·39만 명 계획 서술 | district-analysis |
+| [vol-33-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-076.jpg) | 76 | 분당중앙지구 키워드와 재건축 선도지구 서술 | renewal-issue |
+| [vol-33-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-077.jpg) | 77 | 구미동·구미1동·금곡동 행정복지센터 사진 | administration-photo |
+| [vol-33-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-081.jpg) | 81 | 동막천과 공원화·지하화된 분당수서로 사진 | landscape-photo |
+| [vol-33-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-083.jpg) | 83 | 분당의 행정동과 법정동 표 | administration-table |
+| [vol-33-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-085.jpg) | 85 | 이매도시자연공원·율동공원 시설과 규모 설명 | park |
+| [vol-33-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-086.jpg) | 86 | 율동공원 책테마파크 사진 | park-photo |
+| [vol-33-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-087.jpg) | 87 | 율동공원 분당호 풍차와 전경 | park-photo |
+| [vol-33-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-089.jpg) | 89 | 이수 묘역과 정희사 사진 | heritage-photo |
+| [vol-33-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-090.jpg) | 90 | 이경석 선생 묘역 사진 | heritage-photo |
+| [vol-33-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-091.jpg) | 91 | 이경석 묘역의 망주석과 문인석 사진 | heritage-photo |
+| [vol-33-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-092.jpg) | 92 | 풍산군 이종린 묘역 설명 | heritage |
+| [vol-33-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-095.jpg) | 95 | 판교 백제·고구려 고분군 설명 | archaeology |
+| [vol-33-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-098.jpg) | 98 | 판교 통일신라~고려 고분군과 판교 생활유적군 설명 | archaeology-photo |
+| [vol-33-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-099.jpg) | 99 | 판교 생활유적군 아궁이 유적과 판교박물관 설명 | archaeology-photo |
+| [vol-33-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-100.jpg) | 100 | 판교박물관 내부 백제·고구려 고분군 사진 | museum-photo |
+| [vol-33-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-102.jpg) | 102 | 2014-2023 분당 주요 변화 연표 시작 | chronology |
+| [vol-33-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-104.jpg) | 104 | 정자교 보행로 사고와 탄천 교량 안전진단 서술 | infrastructure-safety |
+| [vol-33-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-105.jpg) | 105 | 제3차 고도제한 완화 주민설명회와 신분당선 서술 | policy-photo |
+| [vol-33-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-106.jpg) | 106 | 분당테크노파크 사진과 벤처산업벨트 서술 | industry-photo |
+| [vol-33-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-108.jpg) | 108 | 판교테크노밸리 글로벌 R&D센터 사진 | industry-photo |
+| [vol-33-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-111.jpg) | 111 | 참고문헌 | bibliography |
+| [vol-33-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-112.jpg) | 112 | 판권과 집필자 | colophon |
+
+## 원문 페이지 이미지 인덱스
+
+| 원문 쪽 | 이미지 | 추출 텍스트 첫머리 |
+| --- | --- | --- |
+| 001 | [vol-33-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-001.jpg) | 발 간 등 록 번 호 71-3780000-100093-14 성남시사 50년사 50 Years of Seongnam City History 성남시 |
+| 002 | [vol-33-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-002.jpg) | 1 PART CONTENTS 한국 역사 속의 분당 지역 1. 전통시대 분당의 특징 \| 6 1) 고대 \| 6 2) 중세 \| 8 2. 근현대사 속의 |
+| 003 | [vol-33-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-003.jpg) | 4 PART 분당 지역의 공원과 역사유적 1. 분당의 공원-이매도시자연공원 \| 85 2. 분당의 역사유적 \| 88 1) 이수 선생 묘(李睟先生墓 |
+| 004 | [vol-33-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-004.jpg) | 들어가며 탄천(炭川)은 용인 석성산(石城山)에서 발원하여 성남시의 낙생(樂生)·대왕(大旺)·돌 마(突馬)의 3개 면을 거쳐 서울 송파구의 삼전도 |
+| 005 | [vol-33-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-005.jpg) | 한국 역사 속의 1 분당 지역 PART 1. 전통시대 분당의 특징 2. 근현대사 속의 분당 3. 분당 지역의 역사 인물 4. 분당 지역의 문화유 |
+| 006 | [vol-33-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-006.jpg) | 1 전통시대 분당의 특징 1) 고대 성남 지역은 알맞은 산림과 하천을 중심으로 신석기시대 최적의 주거 조건 을 갖추었다고 할 수 있다. 한강 유 |
+| 007 | [vol-33-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-007.jpg) | 새로 발견되어 학계에 보고되었다. 분당신도시 개발로 수백 기의 고인돌이 발견되어 택지 개발을 위하여 분당 중앙공원에 일부를 옮겨 놓아 보존하고  |
+| 008 | [vol-33-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-008.jpg) | 2) 중세 고려시대에는 5도 양계로 정해졌을 때 분당 지역은 양광도에 포함되었다. 고려 초기에 는 이 지역이 조금 소외되었던 것으로 추정된다.  |
+| 009 | [vol-33-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-009.jpg) | 동여도 속의 옛 분당 지역 지점으로의 역할을 하였고, 임진왜란이나 병자호란 당시 이 지역이 필수 통과 지점이었음 을 알 수 있다. 그만큼 교통  |
+| 010 | [vol-33-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-010.jpg) | 2 근현대사 속의 분당 1) 일제강점기 분당 일제가 무력으로 한반도를 점령한 한말에는 광주 일대는 항일 의병의 격전 지였다. 한말 의병은 대개  |
+| 011 | [vol-33-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-011.jpg) | 1900년 당시 남한산성 전경 이 ‘천지를 진동할 정도’였다고 한다. 그 후 광주 지역에서는 이익삼(李益三)·임문순(林文 淳)·남상목(南相穆)· |
+| 012 | [vol-33-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-012.jpg) | 율동공원 성남 3·1만세운동기념탑 일기 시작한 만세 시위운동은 중부면의 남한산성 일대와 돌마면(현 분당구) 일대, 낙생면, 대왕면 중심으로 전개 |
+| 013 | [vol-33-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-013.jpg) | 이어 오전 10시 분당리 장터 에 군중이 모이자, 한백봉 등 이 태극기를 들고 독립 만세 를 부르며 면내 각지를 돌며 시위를 벌였다. 시위대는  |
+| 014 | [vol-33-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-014.jpg) | 1927년 창립된 신간회 광주지부 제33권 1기 신도시 분당의 변천① 성남시사(50년사) 1971년 8·10성남(광주대단지)항쟁 14 |
+| 015 | [vol-33-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-015.jpg) | 설립 문제, 미신 타파와 회원 모집의 건, 회비 징수의 건 등을 논의하였다.7 신간회 광주지 회는 1930년 초까지 활동하다가 해산되었다. 2) |
+| 016 | [vol-33-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-016.jpg) | 나뉘었는데, 이때 시가지 구역이란 성남출장소 관할구역을, 비시가지 구역이란 촌락 지역 이었던 대왕면, 돌마면, 낙생면 지역을 일컬었다. 1969 |
+| 017 | [vol-33-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-017.jpg) | 이 형성되며, 종합시장 이나 제일시장의 주변 에 상가 형태의 주거지 가 형성되었다. 이에 비해 분당 지역 은 1980년대까지 도시 로 개발되지  |
+| 018 | [vol-33-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-018.jpg) | 분당 단일학군 시행 시위 명, 금곡동 343명이었다. 10여 년이 흐른 2022년 기준 분당구는 22개 행정동과 18개 법 정동으로 구성되었으며 |
+| 019 | [vol-33-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-019.jpg) | 3 분당 지역의 역사 인물 1) 세거 문중 2010년 성남문화원에서 편찬한 『성남인물지(城南人物誌)』에 수록된 인물 의 본관은 57개이다. 이들 |
+| 020 | [vol-33-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-020.jpg) | 서울시 강동구 둔촌동에 은거하고, 중원구 하대원동에 묘가 조성되면서 후손들이 상대원 동과 하대원동에 집성촌을 형성하였다. 광산김씨의 김약시(金若 |
+| 021 | [vol-33-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-021.jpg) | 인 조선 후기의 양반 가옥의 형태라 할 수 있다. 이러한 가옥의 형태는 수내동뿐만 아니고 금광동의 광산김씨 집성촌, 태평동과 수진동의 의령남씨  |
+| 022 | [vol-33-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-022.jpg) | 가 잠저(潛邸)에 있었는데 그의 어짊을 알고서 문종에게 아뢰기를, “한계희는 경학에 밝 고 행실이 독실하여, 당세에 견줄 만한 이가 없습니다.” |
+| 023 | [vol-33-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-023.jpg) | 1462년(세조 8)에 둘째 형 안선(安璿)과 함께 생원과 진사 시험 모두에 합격하고, 1466 년 왕이 강원도에 행차하여 시행한 고성별시문과( |
+| 024 | [vol-33-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-024.jpg) | 한효순은 3도의 수병 및 격군(格軍)11을 관리하고, 식량을 밤낮으로 조달하며, 병선과 기 계를 급히 수리하여 이순신이 왜적을 막는 데 큰 힘이 |
+| 025 | [vol-33-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-025.jpg) | ▣ 한명욱(韓明勗, 1567~1652) ○ 소재지 : 분당구 율동 산6-2 율동공원 내 본관은 청주, 자는 욱재(勗哉), 호는 율헌(栗軒),  |
+| 026 | [vol-33-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-026.jpg) | 율동공원 한순회 묘역 ▣ 한순회(韓順會, 1885~1961) ○ 소재지 : 분당구 율동 산2-1 율동공원 내 본관은 청주, 자는 보경(輔卿), |
+| 027 | [vol-33-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-027.jpg) | 4 분당 지역의 문화유산 ▣ 경헌 조몽정 묘역(敬軒曺夢禎墓域) ○ 지정번호 : 성남시 향토유산 제5호 ○ 소재지 : 분당구 서현동 산32 조몽 |
+| 028 | [vol-33-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-028.jpg) | ▣ 청주한씨 청연공파 묘역(淸州韓氏靑蓮公派墓域) ○ 지정번호 : 성남시 향토유산 제9호 ○ 소재지 : 분당구 율동 산9-1 청주한씨 청연공파 묘 |
+| 029 | [vol-33-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-029.jpg) | 청주한씨 문정공파 묘역 신도비(왼쪽부터 한계희 신도비, 한사문 신도비, 한사개 묘갈) 늬에 앞위로 일월문(日月文)이 양각된 관석을 갖추고 있다. |
+| 030 | [vol-33-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-030.jpg) | 한산이씨 묘역 ▣ 전주이씨 태안군파 묘역 ○ 소재지 : 분당구 정자동 산33-1(구 경기도 기념물 제118호) 조선 성종의 손자이자 무산군 이종 |
+| 031 | [vol-33-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-031.jpg) | ▣ 수내동 가옥(이택구 가옥) ○ 소재지 : 분당구 수내동 84(구 경기도 문화재자료 제78호) 수내동 가옥은 분당신도시 개발 전 이곳에 세거하 |
+| 032 | [vol-33-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-032.jpg) | 5 분당 지역의 지명 유래 ▣ 가실고개(추현, 秋峴) 분당구 분당동 297-3번지에서 79번지를 거쳐 광주시 신현동으로 넘어 다 니던 고개이다. |
+| 033 | [vol-33-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-033.jpg) | ▣ 금탄(金灘) 백제시대부터 불렸다는 탄천 중류의 또 다른 이름이다. 물이 맑고 고와서 물 중에 최고 라는 의미로 이름 지어졌다는 정자동과 금곡 |
+| 034 | [vol-33-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-034.jpg) | 되어 있어서 이곳에서 문수보살의 현신이 있었다고 하여 지성으로 간구득도(懇求得道)하 면 일곱 삼거리에서 왕생극락할 수 있는 길을 얻는다는 전설이 |
+| 035 | [vol-33-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-035.jpg) | 의 성령장천(聖靈長千)이라는 산말이 전해온다. 『정감록(鄭鑑錄)』에는 ‘영장산하 사십팔 대 장상지지 십승지지(靈長山下四十八代將相之地十勝之地)’라 |
+| 036 | [vol-33-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-036.jpg) | ▣ 탑(塔)골 분당구 야탑동 일대는 한성백제시대부터 불탑이 많아서 상탑마을, 중탑마을, 하탑마을 로 불렸던 곳이어서 통칭 탑골이라고 불렀던 지명 |
+| 037 | [vol-33-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-037.jpg) | 분당신도시의 2 탄생 PART 1. 성남시 승격과 분당마을 2. 1기 신도시 개발과 분당의 변화 3. 신도시 개발 과정 중 발굴된 유적 |
+| 038 | [vol-33-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-038.jpg) | 분당구는 성남시 전체 면적의 절반 정도에 달하는 행정구로서 2023년 기준 47만여 명에 이르는 인구 규모를 가지고, 18개의 법정동 및 22개 |
+| 039 | [vol-33-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-039.jpg) | 1 성남시 승격과 분당마을 1968년 5월 7일 서울시는 건설부로부터 광주군 중부면 일대에 서울시의 무 허가 건물 철거민들을 정착시키기 위한 이 |
+| 040 | [vol-33-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-040.jpg) | 1973년 7월 1일 경기도 성남출장소가 성남시로 승격하였다. 이때 성남시로 편입된 지 역은 광주군의 낙생면, 돌마면, 대왕면 전체와 중부면의  |
+| 041 | [vol-33-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-041.jpg) | 2 1기 신도시 개발과 분당의 변화 분당신도시 건설계획은 주택 공급 물량 부족과 부동산 투기 등으로 인한 수 도권의 주택 가격이 서울시 강남 지 |
+| 042 | [vol-33-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-042.jpg) | 배분 비율은 단독주택 3% 내외(2,800~3,000세대), 연립주택 7~8%(7,000~8,000세대), 아파트 90% 내외(8만 6,000~ |
+| 043 | [vol-33-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-043.jpg) | 1992년 5월 1일 시 조례 제 1192호와 제1193호에 의하여 분당동은 분당동·서현동·초림 동으로 분동되었으며, 법정동 간의 경계 일부가  |
+| 044 | [vol-33-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-044.jpg) | 3 신도시 개발 과정 중 발굴된 유적 1970년대 후반까지 광주군에서 분리된 신생 도시인 성남 지역에서는 고고학 적으로 주목을 끌 만한 발견이나 |
+| 045 | [vol-33-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-045.jpg) | 해 한양대학교에서 지표조사 후 서울시 내 여러 대학 합동으로 분당 개발 전 대규모 발굴 조사를 시행하였다. 지표조사 결과 얻어진 성과는 지석묘  |
+| 046 | [vol-33-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-046.jpg) | 아래에서 120×50×40㎝ 내외 규모의 석곽 시설이 발견된 것이 특징적이었다. 유구의 축 조 방법이나 분포 상태 등을 고려할 때 적석총은 인위 |
+| 047 | [vol-33-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-047.jpg) | 당 중앙공원으로 이전하였다. 정자동 지석묘군은 청동기시대 추정 지석묘군이었다. 분당신도시 개발 과정에서 건국 대학교 박물관에서 발굴 조사하였고  |
+| 048 | [vol-33-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-048.jpg) | 이 외에 분당신도시와 관련된 유적으로는 다음이 있다. 서현동의 백제 주거지는 2001 년 한국토지공사 토지박물관의 학술조사를 통해 발견되었다.  |
+| 049 | [vol-33-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-049.jpg) | 입지로 볼 때는 정자(亭子)일 가능성이 높아 보인다. 고문헌상으로 확인되는 바는 없다. 기우제단 터는 수내동 산1-2번지 분당 중앙공원 내의 영 |
+| 050 | [vol-33-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-050.jpg) | 있다.”고 하였으며, 『경기도읍지』의 『광주부읍지(廣州府邑誌)』(1842~1843)에는 “낙생 역은 주의 남쪽 40리에 있는 돌마면에 있다(樂生 |
+| 051 | [vol-33-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-051.jpg) | 선돌의 형태는 전면과 후면이 편평한 판석형이며, 상단부가 반원형을 이루고 있다. 재 질은 육안상 화강편마암류로 보이며, 규모는 높이 113㎝·폭 |
+| 052 | [vol-33-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-052.jpg) | 판교박물관 내부 백제와 고구려 고분군 (5·6호분)는 현지 보존하고 나머지 백제 고분 7기(1·2·3·4·7·8·9호분)와 고구려 고분 2기 ( |
+| 053 | [vol-33-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-053.jpg) | 분당 지역의 변화 3 PART 1. 신도시 조성기(1990~2000) 2. 신도시 조성 이후 10년(2000~2010) 3. 성년의 분당(201 |
+| 054 | [vol-33-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-054.jpg) | 1 신도시 조성기(1990~2000) 1971년 9월 13일 광주군 중부면의 6개 리와 대왕면, 낙생면, 돌마면을 합쳐 서 경기도 성남출장소가  |
+| 055 | [vol-33-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-055.jpg) | 년부터 시장, 군수의 건축 허가권이 제한되었던 돌마면과 낙생면 일대(경부고속도로 동 쪽)의 자연녹지 지역으로‘ 성남시 남단 녹지’ 또는 ‘남단  |
+| 056 | [vol-33-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-056.jpg) | 분당구 보건소 전경 위해 다른 도시에 자리하고 있던 공기업을 비롯해 대형 쇼핑몰을 비롯한 도시기반시설이 확충되었고, 이에 따라 분당신도시의 도시 |
+| 057 | [vol-33-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-057.jpg) | 2 신도시 조성 이후 10년 (2000~2010) 2001년 1월 1일 행정동 명칭이 분당동, 수내1동, 수내2동, 수내3동, 정자1동, 정자 |
+| 058 | [vol-33-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-058.jpg) | 분당벤처타운이 조성되었다. 2001년에는 성남시 여성문화 회관이 설치되었고, 2001 성남 시민 탄천 살리기 행사 개최, 사 회복지 기관 성남만 |
+| 059 | [vol-33-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-059.jpg) | 3 성년의 분당(2010~2023) 2023년 현재 분당구는 면적 69.77㎢, 19만 2,848세대, 인구 47만 1,154명(남자 22만 8 |
+| 060 | [vol-33-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-060.jpg) | NHN(주), 호스트웨이 분당센터 전자부품연구소 등이 자리 잡고 있다. 야탑동에는 분당 테크노파크가, 정자동에는 분당벤처타운이 조성되어 있다.  |
+| 061 | [vol-33-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-061.jpg) | 4 공간적 속성으로 본 분당의 지역성 2016년에 수립된 ‘성남시의 도시공간 설정안’에 따르면, 분당 중심 생활권은 하나의 독립된 권역으로 파악 |
+| 062 | [vol-33-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-062.jpg) | 의 생활권으로 재설정하고 지역 맞춤형 생활권 계획을 수립하였다. 이러한 설정이 갖는 특성은 우선 생활 서비스의 공간적 제공 범위를 비롯해 각 지 |
+| 063 | [vol-33-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-063.jpg) | 5 사회경제적 속성으로 본 분당의 지역 구분 21 도시공간에 내재하고 있는 사회경제적 속성으로 지역의 특성을 살피는 방 법이 있는데, 지리속성행 |
+| 064 | [vol-33-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-064.jpg) | 사자 수 규모가 탁월한 성격을 가진다. 이에 반해 다른 경제활동의 입지는 활발하게 이루 어지지 않았다. 사회적 속성에서는 아파트의 비중이 높으며 |
+| 065 | [vol-33-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-065.jpg) | 나타나고, 정자1동, 시흥동, 수내3동, 신촌동에서도 속성이 강한 편이다. 반대로 야탑2동, 은행2동, 금곡동, 산성동, 단대동, 야탑1동에서는 |
+| 066 | [vol-33-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-066.jpg) | 공존하는 점이지대23의 특징을 보이는 지역이다. 분당신도시의 남쪽 경계에 해당하는 구 미동과 북쪽 경계에 해당하는 야탑1동의 2개 동이 포함된다 |
+| 067 | [vol-33-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-067.jpg) | 신촌동 등 13개 행정동을 포함한다. 수도권 제1기 신도시로 개발된 분당신도시를 비롯해 주거환경 개선사업의 일환으로 공동주택이 건설된 본시가지의 |
+| 068 | [vol-33-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-068.jpg) | 개 통행권은 통행량의 집중도가 높고 공간 범위도 넓게 형성된 성남시의 대통행권 개념으 로 이해할 수 있으며, 도시화의 시기 및 간선도로 등에 의 |
+| 069 | [vol-33-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-069.jpg) | 6 도시공간으로서의 분당의 지역 구분 성남시를 하나의 대권역으로 할 때 분당 지역은 4개 중지역 가운데 하나이 고, 9개의 소지역 가운데 둘을  |
+| 070 | [vol-33-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-070.jpg) | 의 남단에서 용인시와 경계를 형성하며 일부 미개발지를 포함하는 구미금곡지구의 2개의 소지역으로 구분한다. 1) 분당신도시의 시작점 분당중앙지구  |
+| 071 | [vol-33-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-071.jpg) | 발이 쉽지 않은 지형 조건을 가진다. 탄천 변으로는 해발고도 100m 내외의 구릉지와 구릉 지 사이에 형성된 계곡을 따라 평지가 자리하였으며,  |
+| 072 | [vol-33-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-072.jpg) | 이었다. 동부의 산간에는 탄천 주변의 농경지에 농업용수를 공급하기 위해 분당저수지, 서현저 수지, 이매저수지 등이 축조되었으며, 분당저수지의 규 |
+| 073 | [vol-33-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-073.jpg) | 구가 조성되어 있다. 수인분당선의 야탑역, 서현역, 수내역, 정자역 등을 중심으로 하는 역세권을 기반으로 대규모 상업지역이 발달해 있으며, 이들 |
+| 074 | [vol-33-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-074.jpg) | 에서 도시철도를 이용하기에 매우 편리하다. 경강선 철도의 기점이자 신분당선이 통과하 는 판교역으로의 접근성도 양호하다. 이들 역을 중심으로 한  |
+| 075 | [vol-33-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-075.jpg) | 구의 비율이 높았던 지역에서는 노년 인구의 비율이 대체로 낮게 형성되었고 수내2동과 수내3동은 다른 지역과 달리 유소년 인구의 비율이 노년 인구 |
+| 076 | [vol-33-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-076.jpg) | 신시가지로 개발된 지역의 물리적 도시경관을 비롯해 인구 속성 및 경제활동의 입지에 따른 사회경제적 공간이 본시가지와 확연하게 차별화함에 따라 신 |
+| 077 | [vol-33-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-077.jpg) | 구미동 행정복지센터 구미1동 행정복지센터 금곡동 행정복지센터 part3 분당 지역의 변화 77 |
+| 078 | [vol-33-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-078.jpg) | 미1동으로 편제하였고, 나머지 법정동 구미동은 행정동 구미동으로 편제하였다. 법정동 금곡동과 궁내동은 시가화 구역이 넓지 않고 상주인구의 규모도 |
+| 079 | [vol-33-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-079.jpg) | 있어 시가지 개발이 활발하게 이루어지지 않았지만, 동막천과 합류하는 부근의 동쪽 하안 은 완만한 경사지와 농경지가 자리하고 있어 시가지로 개발되 |
+| 080 | [vol-33-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-080.jpg) | 구의 주변을 통과하는 고속교통로에는 경부고속도로, 용인서울고속도로, 분당-수서 간 도시고속화도로가 있다. 용인서울고속도로의 서분당 나들목까지는  |
+| 081 | [vol-33-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-081.jpg) | 동막천 공원화와 지하화가 된 분당수서로 part3 분당 지역의 변화 81 |
+| 082 | [vol-33-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-082.jpg) | 보건업 및 사회복지 서비스업은 대학병원을 비롯한 노인복지 주택, 실버타운 등과 연계되 어 고령 인구를 대상으로 하는 업종이 많은 특징이 있다.  |
+| 083 | [vol-33-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-083.jpg) | [구미금곡지구의 키워드] 분당신도시, 탄천, 동막천, 농경지, 임야, 전원 지역, 불곡산 생태공원, 용인과의 도시연담, 지구 내 도시공간 단절, |
+| 084 | [vol-33-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-084.jpg) | 분당 지역의 4 공원과 역사유적 PART 1. 분당의 공원-이매도시자연공원 2. 분당의 역사유적 |
+| 085 | [vol-33-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-085.jpg) | 1 분당의 공원-이매도시자연공원 분당구 율동 318번지 일원에 소재한다. 이매도시자연공원은 인공 호수(분당 저수지)를 포함하고 있는 공원이며,  |
+| 086 | [vol-33-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-086.jpg) | 율동공원 책 테마파크 86 제33권 1기 신도시 분당의 변천① 성남시사(50년사) |
+| 087 | [vol-33-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-087.jpg) | 율동공원 분당호 풍차 part4 분당 지역의 공원과 역사유적 87 율동공원 분당호 전경 |
+| 088 | [vol-33-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-088.jpg) | 2 분당의 역사유적 1) 이수 선생 묘(李睟先生墓) ○ 소재지 : 분당구 궁내동 산17-1(구 경기도 기념물 제54호) ○ 관리자 : 전주이씨  |
+| 089 | [vol-33-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-089.jpg) | 이수 묘역과 정희사 인증군부인정씨(昭德大夫兼五衛都摠府都摠管贈顯祿大夫龜川君之墓東萊縣夫人贈郡 夫人鄭氏)”의 비문을 새겼다. 후면의 갈제(碣題)는“유 |
+| 090 | [vol-33-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-090.jpg) | 2) 이경석 선생 묘(李景奭先生墓) ○ 소재지 : 분당구 석운동 산16-18(구 경기도 기념물 제84호) ○ 관리자 : 전주이씨 백헌상공 종회  |
+| 091 | [vol-33-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-091.jpg) | 문인석 1쌍 및 봉분 좌측에 묘비가 있다. 이들 석물 중 망주석은 8각으로 극히 화려하며 세호(細虎)가 양각되어 있다. 문인석은 금관조복(金冠朝 |
+| 092 | [vol-33-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-092.jpg) | 3) 풍산군 이종린 묘역(豊山君李宗麟墓域) ○ 소재지 : 분당구 하산운동 산41(구 경기도 문화재자료 제136호) ○ 관리자 : 전주이씨 풍산군 |
+| 093 | [vol-33-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-093.jpg) | 4) 연성군 이곤 묘비(延城君李坤墓碑) ○ 지정번호 : 성남시 향토유산 제6호 ○ 지정일 : 2004. 10. 25. ○ 소재지 : 분당구 판교 |
+| 094 | [vol-33-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-094.jpg) | 입석 연대는 공의 사후 35년이 지난 1559년(명종 14)이다. 이와 유사한 경기도 내의 사 례로 남양주 소재 변안열(邊安烈, 1334~139 |
+| 095 | [vol-33-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-095.jpg) | (세조 11) 신종군(新宗君)에 봉해졌다. 그의 5대손이 백헌 이경석이다. 묘역은 분당구 석운동 이경석 묘역 좌측의 나지막한 구릉에 동남향(東南 |
+| 096 | [vol-33-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-096.jpg) | 판교박물관 제33권 1기 신도시 분당의 변천① 판교박물관 고구려 1호 고분 판교박물관 백제 3호 돌방무덤 성남시사(50년사) 96 |
+| 097 | [vol-33-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-097.jpg) | 측에 있고, 변형 궁륭형(穹隆形) 천장26 등이 공통적인 특징으로 한성백제의 묘제 양식을 잘 갖추고 있다. 이 중 1호 석실분은 판교동 구릉의  |
+| 098 | [vol-33-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-098.jpg) | 판교 통일신라~고려 고분군 담장(곡장, 曲墻28) 시설 및 담장 동쪽의 석렬 유구로 형성되어 있다. 또한 삼평동, 사송동 의 석실묘 등 통일신라 |
+| 099 | [vol-33-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-099.jpg) | 판교 생활유적군 아궁이 유적 선시대의 기와, 도기 가마, 담장 건물지 등 총 5기를 판교 근린공원 내에 이전·복원하였다. 이 유적은 과거 성남  |
+| 100 | [vol-33-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-100.jpg) | 지상 1층 및 지하 1층으로 구성되어 있으며, 1층에는 상설전시실에 판교 출토 유물 총 6,237점 중 일부와 구석기시대의 석기와 신석기시대의  |
+| 101 | [vol-33-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-101.jpg) | 분당신도시의 5 변화와 미래 PART 1. 분당 지역의 최근 주요 변화(2014~2023) 2. 분당의 미래 part4 분당 지역의 공원과 역사 |
+| 102 | [vol-33-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-102.jpg) | 1 분당 지역의 최근 주요 변화 (2014~2023) 『성남시사』 40년사가 발간된 이후의 변화 양상을 살피면 대체로 다음과 같 은 연대기의 기 |
+| 103 | [vol-33-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-103.jpg) | 2016년 ○ 야탑동 공공실버복지관 건립 ○ 성남시, 범한프라자·미금현대벤처빌시장 전통상업보존구역 지정(서현동, 구미동) ○ 구미동 하얀마을 복 |
+| 104 | [vol-33-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-104.jpg) | 2022년 ○ 율동공원 책테마파크 도서관 개관 2023년 ○ 분당 정자교 보행로 사고 발생 (2023년 4월 5일, 폭우의 영향으로 탄천을 가로 |
+| 105 | [vol-33-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-105.jpg) | 제3차 고도제한 완화 주민설명회 28일 지역 인사 1,200명이 고도제한 철폐운동에 동참하였다. 2002년 1월 3일 12m에서 45m로 완화하 |
+| 106 | [vol-33-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-106.jpg) | ○ 2011년 10월 28일 강남역에서 정자역까지 1단계가 개통하였다. ○ 2016년 1월 30일 정자역에서 광교역까지 2단계가 개통하였다. ○ |
+| 107 | [vol-33-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-107.jpg) | 월할 뿐만 아니라 대기업과의 협력관계나 시너지 효과도 기대할 수 있다. 성남시에는 경 원대학교(현 가천대학교)와 동서울대학교, 신구대학교, 성남 |
+| 108 | [vol-33-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-108.jpg) | 판교테크노밸리 글로벌 R&D센터 육연구센터 등의 주요 시설이 있는 연구지원 용지 11만 7,651㎡, 주차장 용지 2만 1,716 ㎡로 구성되어 |
+| 109 | [vol-33-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-109.jpg) | 2 분당의 미래 신도시로 개발된 지역을 다수 포함하는 분당구는 경부고속도로를 기준으로 동쪽의 시가지 밀집 지역과 서쪽의 자연경관 보전 지역으로  |
+| 110 | [vol-33-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-110.jpg) | 지, 적석총군, 고려시대 건물지 등을 비롯하여 판교신도시 개발 과정에서 발굴된 문화유 적들이 다채롭다. 그럼에도 인구의 초고령화 현상은 피할 수 |
+| 111 | [vol-33-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-111.jpg) | 참 고 문 헌 ○ 단행본 경기도지편찬위원회,『경기도지(중)』, 1956. 권기흥,『성남시지』, 영림서관, 1982. 경기도,『지명유래집』, 19 |
+| 112 | [vol-33-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-33-page-112.jpg) | 성남시사 33 1기 신도시 분당의 변천① 발행일 2025년 12월 29일 발행처 성남시 시사편찬위원회 경기도 성남시 수정구 산성대로215번길 7 |
+
+## 원문 텍스트
+
+## 앞부분
+
+<!-- source: seongnam-history-50-vol-33.pdf p.001 -->
+### p.001
+
+발 간 등 록 번 호
+              71-3780000-100093-14                     성남시사
+                                                                                           50년사
+
+
+                                                       50 Years of Seongnam City History
+
+
+성남시 시사편찬위원회
+
+
+                       1기 신도시 분당의 변천①
+                       1989년 ‘남단 녹지’를 중심으로 분당신도시 건설계
+                       획이 발표되었고, 1991년 분당출장소가 분당구로 승
+                       격되었다. 2000년대는 백현동 일대를 중심으로 판교
+                       동, 금곡동, 야탑동 등에 신도시 사업이 추진되어 최
+                       첨단 과학기술단지인 테크노밸리가 조성되었다.
+
+<!-- source: seongnam-history-50-vol-33.pdf p.002 -->
+### p.002
+
+1
+              PART
+
+
+ CONTENTS
+            한국 역사 속의 분당 지역
+
+            1. 전통시대 분당의 특징 | 6
+            1) 고대 | 6
+            2) 중세 | 8
+
+
+            2. 근현대사 속의 분당 | 10
+            1) 일제강점기 분당 | 10
+            2) 해방 이후 분당 지역 | 15
+
+
+                                       2
+            3. 분당 지역의 역사 인물 | 19
+            1) 세거 문중 | 19
+            2) 역사 인물 | 21
+
+                                      PART
+            4. 분당 지역의 문화유산 | 27
+                                     분당신도시의 탄생
+            5. 분당 지역의 지명 유래 | 32
+                                     1. 성남시 승격과 분당마을 | 39
+
+                                     2. 1기 신도시 개발과 분당의 변화 | 41
+1기 신도시 분당의
+                                     3. 신도시 개발 과정 중 발굴된 유적 | 44
+변천①
+
+<!-- source: seongnam-history-50-vol-33.pdf p.003 -->
+### p.003
+
+4
+                  PART
+
+                분당 지역의 공원과 역사유적
+
+                1. 분당의 공원-이매도시자연공원 | 85
+
+                2. 분당의 역사유적 | 88
+                1) 이수 선생 묘(李睟先生墓) | 88
+                2) 이경석 선생 묘(李景奭先生墓) | 90
+                3) 풍산군 이종린 묘역(豊山君李宗麟墓域) | 92
+                4) 연성군 이곤 묘비(延城君李坤墓碑) | 93
+                5) 신종군 이효백 묘역(新宗君李孝伯墓域) | 94
+                6) 판교 백제·고구려 고분군 | 95
+                7) 판교 통일신라~고려 고분군 | 97
+
+
+  3
+                8) 판교 생활유적군 | 98
+                9) 판교박물관 | 99
+                                                 5
+                                                PART
+  PART
+                                               분당신도시의 변화와 미래
+분당 지역의 변화
+                                               1. 분당 지역의 최근 주요 변화
+1. 신도시 조성기(1990~2000) | 54                        (2014~2023) | 102
+
+
+2. 신도시 조성 이후 10년(2000~2010) | 57              2. 분당의 미래 | 109
+
+3. 성년의 분당(2010~2023) | 59
+
+4. 공간적 속성으로 본 분당의 지역성 | 61
+
+5. 사회경제적 속성으로 본 분당의 지역 구분 | 63
+
+6. 도시공간으로서의 분당의 지역 구분 | 69
+1) 분당신도시의 시작점 분당중앙지구 | 70
+2) 분당신도시 남단에서 용인과 연담하는 구미금곡지구 | 76
+
+<!-- source: seongnam-history-50-vol-33.pdf p.004 -->
+### p.004
+
+들어가며
+
+
+                          탄천(炭川)은 용인 석성산(石城山)에서 발원하여 성남시의 낙생(樂生)·대왕(大旺)·돌
+                      마(突馬)의 3개 면을 거쳐 서울 송파구의 삼전도(三田渡)를 경유해 한강에 유입된다. 요
+                      컨대 탄천은 분당 지역의 중앙을 남북으로 가르며 흐르는 젖줄이라는 것이다. 오늘날 탄
+                      천의 주류를 따라 경부고속도로와 분당-내곡 간 및 분당-수서 간 도시고속화도로가 펼쳐
+                      져 있으니, 탄천이 분당 지역은 물론 한국 미래 번영의 터전임은 명백한 사실이다.
+                          2003년 12월부터 분당구 백현동 일대를 중심으로 판교동, 금곡동, 야탑동 등에 신도시
+                      사업이 추진되어 최첨단 과학기술단지인 테크노밸리가 조성되었다. 분당구 정자동에 설
+                      치된 정자역에서 서울의 강남역까지 15분대에 이동할 수 있는 신분당선 전철이 운영되어
+                      판교역을 통과하고, 수원까지 연결되어 수도권 인구의 발이 되고 있다.
+                          2016년 9월에는 경강선 전철이 판교에서 여주까지 개통되었다. 뒤이어 2017년에는 성
+                      남-장호원 도로가 성남-안양고속도로와 연결되었으며, 수원역-부산, 목포 KTX가 개통
+                      되었다. 여전히 월곶-판교선(수도권 남부순환선) 판교역과 제2인천공항선 서판교역의 건
+                      설이 계획 중이고, 앞으로는 삼성-수서 GTX 판교역도 예정되어 있다.
+                          성남시는 2024년 12월 기준 3개 구 50개 동에 93만 명의 인구를 가진 거대도시로 발전
+                      했다. 그중 분당구에 거주하는 인구는 47만여 명에 달한다. 신도시의 형성과 변화 과정에
+                      는 긍정적인 측면도 있고 부정적인 측면 모두를 갖고 있다. 그 모든 것이 더해져 현재에
+                      이르렀다는 점에서 분당신도시의 변천 과정을 살펴보는 것은 여러 측면에서 의미가 있는
+                      일이다. 신도시의 형성과 변화 과정에 집중한 나머지 본 연구에서는 거리 풍경뿐만 아니
+                      라 시민단체 활동, 교통과 도로의 변화, 축제와 행사 같은 문화적 요소 등까지를 두루 살필
+
+
+제33권 1기 신도시 분당의 변천①
+                      수 없는 한계를 갖고 있다.
+                          이 글에서는 분당 지역의 역사와 지리적 특징에서부터 현재의 변화 양상까지 살펴볼 예
+                      정이다. 특히 2003년 분당신도시의 개발로 형성된 주택단지의 변화상과 학교 및 관공서,
+                      문화복지시설과 공원 등 공간의 특징 등을 자세하게 살펴볼 예정이다. 다만 1990년대 1기
+                      신도시 개발 당시의 법정동을 중심으로 하였으며, 2000년대 이후 개발된 판교 지구(백현
+                      동, 삼평동, 석운동, 운중동, 판교동, 하산운동)와 대장동은 다른 권에서 다루므로 여기에
+
+
+성남시사(50년사)
+                      서는 제외하였다.
+
+
+                      4
+
+## PART 1 한국 역사 속의 분당 지역
+
+<!-- source: seongnam-history-50-vol-33.pdf p.005 -->
+### p.005
+
+한국 역사 속의
+
+
+1
+분당 지역
+
+
+   PART
+
+
+           1. 전통시대 분당의 특징
+           2. 근현대사 속의 분당
+           3. 분당 지역의 역사 인물
+           4. 분당 지역의 문화유산
+           5. 분당 지역의 지명 유래
+
+<!-- source: seongnam-history-50-vol-33.pdf p.006 -->
+### p.006
+
+1 전통시대 분당의 특징
+
+
+                               1) 고대
+
+                               성남 지역은 알맞은 산림과 하천을 중심으로 신석기시대 최적의 주거 조건
+                           을 갖추었다고 할 수 있다. 한강 유역에서 주거를 시작해 바로 이곳으로 이주하
+                           여 농경사회로 옮겨갔을 것이다. 탄천 인근이 한강과 유사한 조건을 갖춘 만큼,
+                           성남 지역의 신석기시대 주거 환경은 암사동 선사 주거지와 유사한 형태였을
+                           것으로 추측된다.
+                               청동기시대는 북쪽의 압록강 유역에서 처음 시작되어 한강 유역까지 전파되
+                           었으리라 추정된다. 청동기시대에 들어서면서 집의 규모는 전보다 더욱 커졌
+                           다. 이런 집들이 넓은 지역에 군집을 이루고 있음으로 미루었을 때, 당대에는
+                           이미 상당한 규모의 취락이 출현하였음을 예상할 수 있다.
+
+
+제33권 1기 신도시 분당의 변천①
+                               이 시대의 대표적인 문화유산으로 고인돌이 있다. 성남 지역에서도 많은 고
+                           인돌이 발견되었다. 『분당지구 문화유적 종합학술조사 보고서』1에 의하면,
+                           18.18㎢(550만 평)에 달하는 지역에서 116기의 고인돌과 8기의 적석총 등이
+
+
+                           1   한양대학교 박물관·경기도, 『분당지구 문화유적 종합학술조사 보고서』, 1991.
+
+
+성남시사(50년사)
+
+                      6
+
+<!-- source: seongnam-history-50-vol-33.pdf p.007 -->
+### p.007
+
+새로 발견되어 학계에 보고되었다. 분당신도시 개발로 수백 기의 고인돌이 발견되어 택지
+개발을 위하여 분당 중앙공원에 일부를 옮겨 놓아 보존하고 있다. 이 외에도 분당신도시
+개발을 계기로 1990년부터 발굴 조사된 유적은 숭실대학교 박물관의 도촌동 고인돌 35
+기, 고려대학교 박물관의 야탑동 고인돌 20기, 경희대학교 고고미술사연구소의 야탑동 고
+인돌 18기, 성균관대학교 박물관의 야탑동 고인돌 21기, 명지대학교 박물관의 사송동 고
+인돌 23기, 한양대학교 박물관의 분당동 고인돌 22기, 서울대학교 박물관의 수내동 고인
+돌 21기, 건국대학교 박물관의 정자동 고인돌 11기 등 총 171기의 고인돌이 발굴 조사되
+었다. 분당 지역에서 고인돌이 많이 발견되었다는 것은 청동기시대 인구 밀집 지역이었음
+을 보여주는 증거로 보인다.
+    기존의 움집은 신석기시대의 반지하식 가옥을 거쳐 지상식 가옥으로 바뀌었다. 초기에
+는 움집을 세우는 데 주춧돌을 사용했던 흔적도 발견되었다. 움집 중앙에 위치하던 화덕
+은 한쪽 벽으로 이동했고, 저장 구덩이도 설치되었다. 공동체의 규모가 커진 만큼 사회 조
+직도 전보다 발달하고, 더욱 복잡해졌다. 공동체의 규모가 커짐에 따라 공동체 내의 혈연
+관계는 전보다 조금 더 멀어졌다. 친족 공동체에 기반을 두었던 유대 관계가 서서히 해체
+되고 사유재산제도가 출현하였다. 이 시대는 삼한시대 또는 삼국시대의 초기로 볼 수 있
+으며 지배계층과 피지배계층이 구분되는 시기였을 것이다.
+    본격적인 삼한시대는 고조선에서 남하한 유민들이 한반도의 중남부에 도달한 시점에
+시작된 것으로 보인다. 이들의 가져온 문물들로 인해 청동기 문화가 점차 철기 문화로 대
+체된 것이 2세기 무렵의 일이었다. 이 시기에 한성백제가 한강 유역에 정착한 것으로 추측
+된다. 백제의 도성이었던 위례에 가까웠던 만큼, 성남 지역은 백제의 수도권에 흡수되었
+을 가능성이 높다. 이후 백제가 웅진으로 천도하고, 고구려와 신라가 한강 유역을 지배하
+고 빼앗고 다시 지배하는 과정에서 성남 지역은 다소 소외되었을 가능성이 높다. 한성백
+제시대처럼 거주자도 많지 않았을 것이고 지배계층도 이 지역을 피하였을 것이다.
+    통일신라시대에는 한산주(漢山州)2의 중심 지역이었다. 광주가 한산주의 중심이니 이
+전보다는 중시되었을 듯하나, 도성이 가까이 있던 한성백제시대만큼 중시되지 않았을 것
+으로 보인다.
+
+
+                                                                                  part1 한국 역사 속의 분당 지역
+2   통일신라시대의 광역 행정구역인 9주 5소경의 한 주(州)이다. 중원경(현 충주)과 28개 군, 49개 현이 소속되어 있다. 직접 관할한
+    현은 2개이다. 주치(州治)는 한성(漢城) 근처인 지금의 경기도 하남시로 추정되고, 그 영역은 지금의 경기도, 황해도, 강원도 철원군
+    (김화 포함)·평강군·이천군, 충청북도 동북부(남한강 유역) 등을 포함했을 것으로 예상된다.
+
+
+                                                                             7
+
+<!-- source: seongnam-history-50-vol-33.pdf p.008 -->
+### p.008
+
+2) 중세
+
+                          고려시대에는 5도 양계로 정해졌을 때 분당 지역은 양광도에 포함되었다. 고려 초기에
+                      는 이 지역이 조금 소외되었던 것으로 추정된다. 고려 후기에는 양주 중심의 남경(南京)이
+                      되면서 중심이 강남에서 강북으로 옮겨졌을 것이다. 이 시기에 성남 지역은 평범한 지방
+                      농촌의 형태로 존재하였을 것이다. 많은 전란을 겪고, 남쪽으로 피할 때 거쳐 가는 교통의
+                      중심지로 변해 갔을 것이다.
+                          조선시대에는 도성에서 가까운 관계로 낙향하여 살거나 조상의 묘를 쓰고 주위에 후손
+                      이 대대로 거주하여 집성촌을 형성하였을 것으로 보인다. 성남 지역에 전주이씨 후손이
+                      많이 세거(世居)를 하는 것은 도성에 가까워 중앙과 소통하기가 쉽고, 그들이 사패지(賜
+                      牌地)3를 받거나 후손이 그 주위에 모여 살았기 때문이다. 왕이 부를 때에 몇 시간 내에 달
+                      려올 수 있는 곳이어야 되었고, 그 최적지 중의 하나가 성남 지역이라 할 수 있다.
+                          고려와 조선의 왕조 교체기 광주이씨 이집(李集), 평양조씨 조견(趙狷), 광산김씨 김약
+                      시(金若時)의 후손은 처음에는 관직을 거절하거나 은둔하였으나 이 지역에 세거하면서
+                      후손들이 과거에 급제하고 관계(官界)에 나아가 명문가를 이루었다. 전주이씨 신종군(新
+                      宗君) 이효백(李孝伯), 의령남씨 남경문(南景文), 청주한씨 한계희(韓繼禧)의 후손처럼
+                      선조의 묘가 있는 지역을 사패지로 받아 후손이 세거하여 집성촌을 이루고 있었다.
+                          분당구 정자동에 정자가 있었다던가, 서현동에 서당이 있어서 붙여진 이름으로 보아 일대
+                      가 양반 사족의 주거지였음을 알 수 있다. 한편 지금은 많이 변하여 형태를 알 수 없지만, 수
+                      진동과 태평동 일대의 의령남씨 세거지는 ‘남씨편’이라는 이름을 들을 정도로 의령남씨의
+                      집성촌을 이루었다. 이와 유사한 형태로 분당 지역 율동의 청주한씨, 고등동의 덕수이씨, 분
+                      당 중앙공원의 한산이씨, 판교의 연안이씨 등이 집성촌을 이루고 세거하였다. 이들은 도성
+                      이 가까우니 관직에 나아갔다가 은퇴하고 낙향하여 세거하였으며, 후손이 이와 같은 양상을
+
+
+제33권 1기 신도시 분당의 변천①
+                      반복하는 경우가 많았다. 따라서 근방은 양반들이 선호하는 세거지의 형태를 띠고 있다.
+                          또한 남쪽 교통로의 중심에 있었다. 양재역과 낙생역을 중심으로 역원이 발달하고, 천
+                      림산 봉수에서 보듯이 통신의 중심에 있었다. 따라서 전란이나 변란이 생기면 중간 통과
+
+
+                      3   조선시대 임금이 내려 준 논밭. 주로 외교와 국방 따위의 분야에서 나라에 큰 공을 세운 왕족이나 벼슬아치에게 내려 주었으며, 세습
+                          되는 토지와 안 되는 토지가 있었다.
+
+
+성남시사(50년사)
+
+                      8
+
+<!-- source: seongnam-history-50-vol-33.pdf p.009 -->
+### p.009
+
+동여도 속의 옛 분당 지역
+
+
+지점으로의 역할을 하였고, 임진왜란이나 병자호란 당시 이 지역이 필수 통과 지점이었음
+을 알 수 있다. 그만큼 교통 통신의 중심지로서 주민들도 이들 생활에서 벗어나기는 쉽지
+않았을 것이며, 이와 같은 형태가 조선 후기까지 계속되었던 것으로 보인다. 명성황후가
+임오군란 때 변을 당하여 충주 지방으로 피란을 갈 때 고등동 덕수이씨의 민가에 숨었다
+는 것은 이 지역이 남쪽으로 내려갈 때 거쳐야 하는 곳이었기 때문이다. 이 가옥이 보존되
+지 못한 것은 아쉬운 일이며, 지금도 덕수이씨들이 세거하고 있다.
+ 성남 지역은 조선 500여 년 동안 남쪽으로 가는 교통·통신의 중요한 위치에 있었다. 음
+식점과 주점·숙박 시설이 필요하였고 이에 종사하는 주민이 많이 거주하였다고 할 수 있
+다. 그러나 근대화의 소용돌이에 성남 지역은 교통 중심지에서 점차 소외되기 시작하였
+다. 경부선 철도가 부설되면서 열차가 지나가는 곳의 도시가 발달하기 시작한 것이다. 조
+선 초기만 해도 성남 지역을 포함한 광주목은 교육과 행정 체계에서 상위를 형성하였고,
+양난 이후 광주유수 또는 광주부윤으로 오늘날의 광역시와 맞먹는 위상이 있었다. 또 군
+사령부에 해당되는 수어청이 있어 도시의 격이 높았다. 갑오개혁으로 지방제도 개편 때에
+
+
+                                                     part1 한국 역사 속의 분당 지역
+광주군으로 강등되어 지방민들의 반발이 가장 심한 곳이 광주였다. 잠시 환원하였었지만,
+일제강점기에는 결국 광주군으로 격하되어 해방 이후까지 계속되었다.
+
+
+                                                 9
+
+<!-- source: seongnam-history-50-vol-33.pdf p.010 -->
+### p.010
+
+2 근현대사 속의 분당
+
+
+                            1) 일제강점기 분당
+
+                            일제가 무력으로 한반도를 점령한 한말에는 광주 일대는 항일 의병의 격전
+                           지였다. 한말 의병은 대개 1단계의 을미의병(1895. 10.~1896. 5.), 2단계 러일
+                           전쟁 와중에 봉기한 병오의병(1904~1906), 3단계 정미의병(1907. 8.~1910.)
+                           등 3시기로 나뉘는데, 광주 지역은 주로 1단계와 3단계에서 집중 나타난다.
+                            항일 경기 의병이 남한산성을 거점으로 항일투쟁을 벌인 시기는 명성황후가
+                           시해당한 1896년 10월 이후 김하락(金河洛)·구연영(具然英)·김태원(金泰元)
+                           등이 거병하여 이듬해 2월 남한산성에 입성할 무렵이다. 약 한 달 동안 남한산
+                           성에 입성한 2,000여 명의 의병들은 일본군과 관군의 무력 진압에도 승전하며
+                           거세게 저항하며 한성 탈환을 기획하였으나, 관군의 회유로 인해 성문이 열려
+
+
+제33권 1기 신도시 분당의 변천①
+                           함락당하였다.
+                            이후 1907년 8월 1일 헤이그밀사사건을 구실로 고종황제가 강제 퇴위당하
+                           고, 대한제국 군대도 해산되자 정미의병이 궐기하였다. 이어 일제는 본국에서
+                           증원군 파견을 요청하며 무력 진압에 나섰다. 남한산성에 파견된 일본군 부대
+                           는 8월 22일 무기 전부를 압수하고 탄약을 보관하는 화약고와 무기고를 폭파하
+                           였다. 일제는 남한산성 안의 모든 시설을 파괴하였는데, 당시 주민들은 폭발음
+
+
+성남시사(50년사)
+
+                      10
+
+<!-- source: seongnam-history-50-vol-33.pdf p.011 -->
+### p.011
+
+1900년 당시 남한산성 전경
+
+
+이 ‘천지를 진동할 정도’였다고 한다. 그 후 광주 지역에서는 이익삼(李益三)·임문순(林文
+淳)·남상목(南相穆)·윤치장(尹致章) 등이 경안(京安)과 판교, 과천, 낙생면 일대에서 항일
+투쟁을 전개하였다.
+  1910년 8월 29일 대한제국 국권을 강제 찬탈한 일본 제국주의는 조선총독부를 설치하
+였다. 조선총독부는 지방 통제를 강화하기 위해 1913년 12월 29일 총독부령 제111호로
+「도의 위치·관할 구역 변경 및 부·군의 명칭·위치·관할 구역 변경에 관한 규정」이 공포하
+였다. 종래의 12부 317군을 12부 220개 군으로 통폐합하여 전면 재편하여 전국 4,322개
+면은 2,517개 면으로 통폐합되었다. 1914년 행정구역 통폐합을 통해 광주군의 돌마면(突
+馬面)에는 여수리(麗水里), 야탑리(野塔里), 이매리(二梅里), 서현리(書峴里), 분당리(盆
+唐里), 정자리(亭子里), 율리(栗里), 수내리(藪內里), 하대원리(下大院里), 갈현리(葛峴
+里), 도촌리(島村里) 등 11개 리로 통합되었다.
+  일제의 가혹한 식민 탄압, 경제 수탈에 분노한 광주 민중들의 저항은 1919년 3월 전 민
+
+
+                                                         part1 한국 역사 속의 분당 지역
+족적 만세운동으로 분출되었다. 광주군의 3·1만세운동은 3월 26일 장날이던 중대면 송파
+일대에서 시작되어 저녁까지 진행되었다. 이어 3월 26일 새벽부터 광주와 성남 일대에서
+
+
+                                                    11
+
+<!-- source: seongnam-history-50-vol-33.pdf p.012 -->
+### p.012
+
+율동공원 성남 3·1만세운동기념탑
+
+
+                      일기 시작한 만세 시위운동은 중부면의 남한산성 일대와 돌마면(현 분당구) 일대, 낙생면,
+                      대왕면 중심으로 전개되었다. 중부면의 남한산성 만세 시위는 1919년 3월 26일 광주군 중
+                      부면 산성리에서 일어났다. 조선총독부 경무총감부와 조선 헌병대 사령부에서 남긴 기록
+                      인 『조선 소요사건 관계 서류』 중 1919년 4월의 「조선 소요사건 일람표」에 의하면, 광주
+                      군 중부면 남한산성 마을의 만세 시위에 참여한 인원은 200여 명으로 적혀 있다. 일제는
+                      관내 일본인들에게 “민심의 동요가 심하고 불안 상태가 있어” 폭행이 발생하면 각자 자위
+                      를 해야 한다고 결의할 정도였다.4
+                          돌마면 지역의 독립만세운동은 3월 27일 새벽부터 29일까지 3일간에 걸쳐 한백봉(韓
+                      百鳳)·한순회(韓順會)·남태희(南泰熙) 등을 중심으로 돌마면과 낙생면 주민의 합세로 전
+
+
+제33권 1기 신도시 분당의 변천①
+                      개되었다. 즉, 고종황제의 장례식에 참여하였던 두 사람이 전 낙생면장인 남태희와 연계
+                      해 거사를 계획하였다. 3월 27일 분당리 장날을 이용하여 시위운동을 준비하고 태극기를
+                      마련하는 등 준비를 마친 후 율리(栗里) 주민 50여 명을 인솔해 뒷산에서 봉화를 올렸다.
+
+
+                      4   朝鮮總督府 內秘補299 秘170號, 「경기도장관 조선총독부정무총감 보고」, 1919년 3월 27일「朝鮮騷擾事件一覽表(1919.4.10.)」, 『大
+                          正8年乃至同10年 朝鮮騷擾事件關係書類』  共7冊 其1, 1920.
+
+
+성남시사(50년사)
+
+                      12
+
+<!-- source: seongnam-history-50-vol-33.pdf p.013 -->
+### p.013
+
+이어 오전 10시 분당리 장터
+에 군중이 모이자, 한백봉 등
+이 태극기를 들고 독립 만세
+를 부르며 면내 각지를 돌며
+시위를 벌였다. 시위대는 낙
+생 면민들이 합세하여 오후에
+는 낙생면 판교리의 낙생면사
+무소 앞에 이르러 1,000여 명
+에 달하였다. 시위운동은 다
+                                돌마면 3·1운동 지도자 한백봉
+음날인 28일과 29일에도 계
+속 전개되었다.
+    이에 일본 경찰은 한백봉 등 십수 명을 체포하여 남한산성의 광주분견소로 이송하여 심
+한 고문을 가하였다. 한백봉은 경성지방법원 수원지청으로 이송된 후 서대문형무소로 이
+감되어 징역 1년형을 받았다. 증거 불충분으로 방면된 한순회는 천도교 광주교구장을 맡
+아 이천와 여주 등지의 연락 책임을 맡아 독립 자금을 모으는 한편 수감된 인사들의 가족
+을 지원하였다.
+    3·1독립만세운동 이후 광주 지역에서는 1927년 여름부터 민족연합단체인 신간회의 광
+주지회 설립을 논의하였다. 신간회 광주지회 설립은 1927년 5월 조선사회단체중앙협의회
+에서 ‘민족단일당론’이 대세를 장악하게 된 이후 급속하게 진행되었다. 『조선일보』 1927
+년 7월 10일 기사에서는 광주군에서 “유지 제씨의 발기로 조선 민중의 총역량을 집중하고
+조선 민족단 일당인 신간회 지회를 설치하고자 임시사무소를 송파중앙청년회 내에 설치
+하고” 회원을 모집하며 지회 설립 준비에 노력하고 있다고 보도하였다.5 참가자들의 면모
+를 살펴보면, 주로 돌마면 출신의 한순회(韓順會) 등 천도교 구파 세력과 산성리 출신의
+석혜환(石惠煥) 등 젊은 사회주의 성향의 지식인들에 의해 구성되었음을 알 수 있다.6
+    신간회 광주지회는 이듬해인 1928년 12월 20일 오후 3시 제3회 정기총회를 열어 지회
+장에 석혜환을, 부회장으로 한순회를 선출하였다. 이날 회의에서는 문맹 퇴치와 소비조합
+
+
+                                                                        part1 한국 역사 속의 분당 지역
+5   「廣州에서도 新幹支會發起」, 『조선일보』, 1927년 7월 10일.
+6   조성운, 「일제하 廣州지역의 신간회운동」, 『사학연구』 제100호, 한국사학회, 2010, 768~777쪽.
+
+
+                                                                   13
+
+<!-- source: seongnam-history-50-vol-33.pdf p.014 -->
+### p.014
+
+1927년 창립된 신간회 광주지부
+
+
+제33권 1기 신도시 분당의 변천①
+
+
+성남시사(50년사)
+                      1971년 8·10성남(광주대단지)항쟁
+
+
+                      14
+
+<!-- source: seongnam-history-50-vol-33.pdf p.015 -->
+### p.015
+
+설립 문제, 미신 타파와 회원 모집의 건, 회비 징수의 건 등을 논의하였다.7 신간회 광주지
+회는 1930년 초까지 활동하다가 해산되었다.
+
+
+    2) 해방 이후 분당 지역
+
+    성남 지역이 본격적으로 개발되기 전 성남 지역은 광주군 직할 성남출장소와 대왕면,
+돌마면, 낙생면으로 이루어져 있었다. 1968년 기준 행정구역별 가구 수 및 인구수를 보면,
+성남출장소 994가구 6,008명, 대왕면 1,097가구 6,382명, 돌마면 1,058가구 6,124명, 낙
+생면 1,107가구 7,205명이었다.
+    1969년부터 성남 지역에서는 광주대단지 주택 조성 사업이 실시되면서 본격적인 개발
+이 이루어졌다. 광주대단지 주택 조성 사업지구는 크게 시가지 구역과 비시가지 구역으로
+
+
+7   「廣州新幹會大會」, 『동아일보』, 1928년 12월 26일.
+
+
+                                                     1970년 성남대로
+
+
+                                                                  part1 한국 역사 속의 분당 지역
+
+
+                                                            15
+
+<!-- source: seongnam-history-50-vol-33.pdf p.016 -->
+### p.016
+
+나뉘었는데, 이때 시가지 구역이란 성남출장소 관할구역을, 비시가지 구역이란 촌락 지역
+                      이었던 대왕면, 돌마면, 낙생면 지역을 일컬었다.
+                       1969년 5월 2일 서울의 철거민 48가구 152명이 강제 이주한 것을 시작으로 광주군 직
+                      할 성남출장소 관내의 인구는 급격 증가하였다. 1968년 기준 6,008명이었던 성남출장소
+                      의 인구는 1969년에 1만 5,778명으로 약 2.5배 증가하였다. 좀 더 자세히 살펴보면, 1969
+                      년 기준 시가지 구역이었던 성남출장소의 인구는 2,321가구 1만 5,778명, 비시가지 구
+                      역이었던 대왕면, 돌마면, 낙생면의 인구는 3,416가구 2만 456명이었다. 이러한 인구는
+                      1968년과 비교할 때 시가지 구역의 경우 무려 162.62%가 증가한 것이었다. 다만 비시가
+                      지 구역의 인구는 약 0.5% 감소하였다.
+                       1970년에는 시가지 구역과 비시가지 구역을 합한 성남 지역의 총가구 수는 1만 7,943
+                      가구였다. 그중 시가지 구역이 1만 4,104가구, 비시가지 구역이 3,844가구를 차지하였다.
+                      1969~1970년 동안 성남 지역의 가구 수 증가율은 시가지 구역 376.01%, 비시가지 구역
+                      6.99%로 나타난다.
+                       1971년에 성남 지역의 총인구는 3만 3,987가구 16만 59명이었다. 1970년의 인구와 비
+                      교하면, 시가지 구역의 인구는 2만 8,891가구 12만 2,939명으로 약 78.34% 증가하였고,
+                      비시가지 구역은 5,096가구 2만 6,120명으로 약 19.36% 증가하였다.
+                       그러나 1971년 8월 10일 광주대단지 주택 사업지구의 주민 약 5만 명이 정부의 무계획
+                      적인 도시 정책과 졸속 행정에 반발하여 이른바 8·10성남(광주대단지)항쟁이 발생한 이
+                      후, 성남 지역의 인구 증가세는 크게 둔화되었다. 1972년 기준 시가지 구역의 인구는 2만
+                      9,799가구 13만 7,898명, 비시가지 구역의 인구는 5,530가구 2만 8,461명으로, 1971년에
+                      비하면 3.94%의 인구 증가에 그쳤다. 그리고 시가지 구역의 인구 증가율(3.95%)보다 비
+                      시가지 구역의 인구 증가율(8.96%)이 2배 이상 높았다.
+                       광주대단지 개발로 성남시가 형성되면서 대도시로 성장할 수 있는 계기가 마련되었다.
+
+
+제33권 1기 신도시 분당의 변천①
+                      1973년 7월 1일 성남시 승격 이후 인구는 1974년과 1975년 전년 대비 증가율이 19%를 상
+                      회하면서 급격한 증가 추세를 보였으나, 이후에는 평균 6.12%의 증가율을 나타냈다. 성남
+                      지역은 성남단지의 개발이 있기 전까지는 우리나라의 어느 농촌 지역과 마찬가지로 인구
+                      증가나 주거 형태의 변화가 거의 없었으나, 이후 개발이 진행되면서 도시 주거지가 형성되
+                      었다. 오늘의 수정구와 중원구의 주거 형태는 밀집한 단독주택의 시가지가 형성되었다. 구
+                      릉이 많은 지형으로 단대천 주변의 양쪽에 주거지가 형성되고 모란시장의 주변으로 시장
+
+
+성남시사(50년사)
+
+                      16
+
+<!-- source: seongnam-history-50-vol-33.pdf p.017 -->
+### p.017
+
+이 형성되며, 종합시장
+이나 제일시장의 주변
+에 상가 형태의 주거지
+가 형성되었다.
+ 이에 비해 분당 지역
+은 1980년대까지 도시
+로 개발되지 못하고 전
+형적인 농촌 지역이었
+다. 1980년 당시 개발
+로 인하여 사람이 밀집
+                 1990년 분당 개발 반대 시위
+한 도심인 태평3동은
+면적이 0.34㎢에 인구가 4만 4,197명인데 비해, 개발이 안 된 판교는 면적이 8.98㎢에 인
+구가 602명에 불과하였다. 1980년대까지 수정구와 중원구는 인구가 밀집해 있었지만, 분
+당구 일대는 여전히 농촌 그대로의 모습이었다.
+ 1990년대 분당신도시가 건설되면서 수도권에서 가장 주목받는 주거지가 되었다. 서울
+강남 아파트 단지의 또 다른 형태로 쾌적하고 살기 좋은 아파트 중심의 도시가 되었다. 또
+한 수도권 근접 지역이며 남부 지역으로의 진출이 수월한 장점은 IT산업의 중심권으로 부
+각하였다. 또한 영화와 문화예술의 중심에 있으며 중산층의 집중 유입으로 교육 환경이
+개선되고 서울 강남권 못지않은 교육 시설이 자리하게 되었다.
+ 처음 경부고속도로가 건설되었어도 요금소가 서울시 서초구 양재동에 있어 고속도로의
+효과를 볼 수 없었다. 하지만 1987년 분당구 궁내동으로 요금소를 이전한 후로 성남 지역
+은 아주 편리하게 경부고속도로 진입하게 되었다. 거기에 분당과 판교신도시가 건설되면
+서 쾌적한 도시 주거지로서 최고의 인기 도시로 탈바꿈하였다. 수도권 전철의 첫 주자로
+분당선이 건설되었고, 구시가지인 수정구·중원구의 주거지에는 서울지하철 8호선이 복정
+동에서 산성동, 신흥동, 수진동을 거쳐 모란역까지 건설되었다. 성남 지역이 도로 교통의
+중심지가 되면서 수도권 신도시 중 가장 선호하는 주거지가 되었다.
+ 2011년 기준 분당구는 21개의 행정동으로 구성되었다. 동별 인구수가 가장 많은 행정
+
+
+                                                                part1 한국 역사 속의 분당 지역
+동은 정자1동 5만 341명, 구미동 3만 4,254명, 야탑3동 3만 3,585명, 서현1동 3만 3,191
+명, 금곡동 3만 220명이었다. 외국인이 많이 거주하는 동은 정자1동 908명, 서현1동 400
+
+
+                                                          17
+
+<!-- source: seongnam-history-50-vol-33.pdf p.018 -->
+### p.018
+
+분당 단일학군 시행 시위
+
+
+                      명, 금곡동 343명이었다. 10여 년이 흐른 2022년 기준 분당구는 22개 행정동과 18개 법
+                      정동으로 구성되었으며, 산업과 지역의 발달에 따라 인구수의 상위를 차지하는 행정동에
+                      도 변화가 있었다. 인구가 가장 많은 행정동은 운중동, 서현1동, 정자1동, 구미동 순으로
+                      바뀌었다. 인구수를 보면 운중동은 3만 3,560명, 서현1동은 3만 1,488명, 정자1동은 3만
+                      562명, 구미동은 3만 243명이었다. 외국인이 많이 거주하는 동은 정자1동 468명, 백현동
+                      220명, 운중동 199명이었다.8 성남시에서 외국인의 절대 인구수가 많은 행정동은 수정구
+                      에 집중되어 있고, 분당구의 행정동은 외국인의 절대 인구수가 적은 편이었다.
+
+
+제33권 1기 신도시 분당의 변천①
+
+
+                      8   성남시, 『성남통계연보』, 2024, 56~63쪽.
+
+
+성남시사(50년사)
+
+                      18
+
+<!-- source: seongnam-history-50-vol-33.pdf p.019 -->
+### p.019
+
+3 분당 지역의 역사 인물
+
+
+  1) 세거 문중
+
+  2010년 성남문화원에서 편찬한 『성남인물지(城南人物誌)』에 수록된 인물
+ 의 본관은 57개이다. 이들은 수백 년 동안 성남 지역에 세거하면서 집성촌을 이
+ 루고 살았다. 세거지가 많은 성씨 열 곳을 열거하면, 전주이씨(28), 김해김씨
+ (15), 광주이씨(13), 남양홍씨(11), 밀양박씨(9), 경주이씨(8), 경주최씨(8), 순
+ 흥안씨, 문화류씨, 파평윤씨, 동래정씨(각 7) 순이며, 성남 지역에는 270여 개
+ 의 세거지가 있었다. 세거지 수로는 10위 안에 들지 않을 정도로 적지만 의령
+ 남씨는 태평동, 청주한씨는 율동, 한산이씨는 서현동과 분당 중앙공원 일대, 연
+ 안이씨는 판교 일대에 큰 집성촌을 이루고 있었다. 지금은 도시화 되면서 옛 자
+ 취를 찾아볼 수 없지만, 청주한씨, 한산이씨는 선산의 규모가 크고 위치가 도시
+ 주거지 외곽에 있어 원형을 갖추고 있다. 금광동의 광산김씨 집성촌은 일찍이
+ 도시 주거지로 바뀌면서 극소수의 원주민만 남고 외지인이 차지하였다.
+  성남 지역은 조선이 개국하면서 도성이 가까워 낙향하는 인물들이 거주하게
+ 되면서 세거지가 형성되는 경우가 많았다. 고려의 충신 중에 조선 건국에 동조
+
+
+                                                          part1 한국 역사 속의 분당 지역
+ 하지 않고 은둔하였던 인물이 많았다. 주로 개성이나 서울 한성에서 멀지 않은
+ 광주, 이천, 여주 등지에 은거하였다. 그중 광주이씨 둔촌 이집(李集)이 현재의
+
+
+                                                    19
+
+<!-- source: seongnam-history-50-vol-33.pdf p.020 -->
+### p.020
+
+서울시 강동구 둔촌동에 은거하고, 중원구 하대원동에 묘가 조성되면서 후손들이 상대원
+                      동과 하대원동에 집성촌을 형성하였다. 광산김씨의 김약시(金若時)는 중원구 음촌, 현재
+                      의 단대오거리에 은거하면서 후손들이 금광동·창곡동 일대에 세거하면서 광산김씨 문정
+                      공파 집성촌을 형성하였다. 평양조씨 조견(趙狷)은 청계산에 은거하였다가 양주 송산(현
+                      의정부시 민락동)에 살다가 죽어서는 중원구 여수동에 묻혔다. 성남에 세거한 후손은 많
+                      지 않고 경기도 일대와 충청남도로 이주하여 살았다.
+                       청주한씨는 분당구 율동 산2-1번지에 세종에서 성종대까지 이조판서, 좌찬성 등 고위
+                      관직을 역임하였던 문정공 한계희(韓繼禧)의 묘를 쓰고 이 일대를 사패지로 받아 후손들
+                      이 세거함으로써 ‘한씨촌’을 형성하였다. 지금은 개발이 되어 그 자취를 찾기 어렵다. 한
+                      계희의 아들 한사문, 한사개의 묘 등이 있어 성남시 향토유산 제9호로 지정되었다. 이 외
+                      에도 청주한씨는 율동, 도랫말(분당동), 벌터(백현동), 양짓말, 웃말(신촌동, 오야동) 등의
+                      세거지를 가지고 있다.
+                       한산이씨는 고려 말까지 충남 서천 한산의 향리로서 대대로 호장(戶長)을 이어온 토성
+                      이다. 고려 말 이곡(李穀)과 그의 아들 이색(李穡)에 이르러 중앙 관계에 진출하여 가문의
+                      위상을 높였다. 이색은 이성계 일파에 동조하지 않아 이들의 탄핵을 받아 유배와 방랑의
+                      길을 택하였다. 그러나 이색의 셋째 아들 이종선(李種善)은 권근(權近)의 사위로 강원도,
+                      풍해도, 충청도 관찰사를 역임하였고, 1438년에는 중추원사직에 올랐다.
+                       분당구 수내동에 있는 한산이씨 묘역은 세종대에 활약한 이색의 손자이자 이종선의 셋
+                      째 아들 이계전(李季甸)의 후손으로 시작된다. 이계전은 권근의 외손자이며 1427년(세종
+                      9) 친시 문과에 급제하여 집현전 학사가 되었고 1436년 왕명으로 김문 등과 『강목통감훈
+                      의(綱目通鑑訓義)』를 편찬하였다. 1452년 『세종실록』의 편찬에 착수하고 이조참판이 되
+                      었다. 이계전은 수양대군을 도와 계유정난의 정난공신 1등에 오르고 다시 세조 즉위에도
+                      공을 세워 좌익공신 2등에 올라 이후 성균대사성, 영중추원사 등을 역임하였다. 이장윤이
+
+
+제33권 1기 신도시 분당의 변천①
+                      죽자 손자 토정 이지함(李之函)이 영장산에 묘를 쓰고 후손이 세거하여 한산이씨 집성촌
+                      을 형성하였다. 수내동 산1-2번지 분당 중앙공원에 있는 한산이씨 묘역(구 경기도 기념물
+                      제116호)이 있다.
+                       한산이씨는 수내동, 오야동, 서현동(안골), 분당동 등 4개의 세거지를 갖고 있어 세거지
+                      수로는 많지 않지만 분당 중앙공원의 묘역에서 보듯이 아주 큰 집단으로 집성촌을 형성하
+                      고 있어 오늘의 분당 중심에서 번창하였음을 알 수 있다. 수내동 한산이씨 가옥은 전형적
+
+
+성남시사(50년사)
+
+                      20
+
+<!-- source: seongnam-history-50-vol-33.pdf p.021 -->
+### p.021
+
+인 조선 후기의 양반 가옥의 형태라 할 수 있다. 이러한 가옥의 형태는 수내동뿐만 아니고
+금광동의 광산김씨 집성촌, 태평동과 수진동의 의령남씨 집성촌, 궁내동 일대와 석운동의
+전주이씨 집성촌, 판교의 연안이씨 집성촌, 율동의 청주한씨 집성촌, 하대원동과 야탑동
+의 광주이씨 집성촌, 복정동의 진주강씨 집성촌, 신흥동의 동래정씨 집성촌, 고등동의 덕
+수이씨 집성촌에서 흔히 볼 수 있는 가옥이라 할 수 있다.
+    분당동의 샛당마루는 신창맹씨의 사패지로 신창군 맹석흠(孟碩欽)의 자손이 세거하였
+다. 맹석흠은 충청도병마절도사로 이시애의 난을 평정하여 적개공신 2등에 봉해졌고 분
+당동 일대를 사패지로 받아 맹씨의 세거지가 되었다. 이들 양반 거주지의 촌락은 위에서
+언급한 바와 같이 정승급 조상의 묘을 쓰고 주위에 후손이 살며 후손 중에서 영달한 인물
+이 나오면 세를 불리고 동족 마을을 형성하였다. 당상관(堂上官)9 이상의 인물이 살거나
+연관이 있으면 그곳은 양반 주거지로 격을 갖추었을 것이다. 서현동처럼 서당이 있고, 정
+자동처럼 정자를 갖추었다는 마을이 많이 있었다. 양반들이 정자를 짓고 풍류를 즐기면서
+서당에서 자제들을 가르쳐 과거에 응시하여 다음 세대를 기약하였다. 성남 지역은 양반들
+이 낙향하여 머물기에는 최적의 위치에 있었다.
+
+
+    2) 역사 인물
+
+    ▣ 한계희(韓繼禧, 1423~1482)
+
+     ○ 소재지 : 분당구 율동 산2-1
+
+
+    조선 전기 문신으로, 본관은 청주(淸州), 자는 자순(子順)이다. 할아버지는 개국공신이
+자 영의정을 지낸 한상경(韓尙敬)이고, 아버지는 관찰사를 지낸 한혜(韓惠)이다. 어려서
+부터 총민하기가 보통 사람과 달랐고, 취학하기에 이르자 부지런히 공부하여 게을리하지
+아니하고, 침식을 잊기까지 하여서, 마침내 경사에 박통하게 되었다. 과거에 급제하여 집
+현전에 들어가 정자(正字)가 되었다가, 여러 번 승진하여 수찬(修撰)이 되었다. 이때 세조
+
+
+                                                                                part1 한국 역사 속의 분당 지역
+9   당상관은 조선시대 정3품 상계(上階) 이상의 고위 관료를 지칭하며, 국정에 직접 참여하는 핵심 관료 집단이다. 이들은 조정 회의 시
+    '당(堂)'에 올라앉을 수 있는 권한을 가졌으며, 문관(동반)은 통정대부, 무관(서반)은 절충장군 이상의 품계를 가졌다.
+
+
+                                                                          21
+
+<!-- source: seongnam-history-50-vol-33.pdf p.022 -->
+### p.022
+
+가 잠저(潛邸)에 있었는데 그의 어짊을 알고서 문종에게 아뢰기를, “한계희는 경학에 밝
+                      고 행실이 독실하여, 당세에 견줄 만한 이가 없습니다.”라고 하였다.
+                       집현전에서 총 7년간을 봉직하였고, 1455년(세조 1)에는 『정관정요(貞觀政要)』에 주
+                      를 붙이라는 왕명을 받아 봉행하였으며, 『국조보감(國朝寶鑑)』 찬술에도 참여하여 세조
+                      가 안구마(鞍具馬)를 상으로 하사하였다. 1455년 세조가 왕위에 오르는 데 공헌하였기에
+                      1등 공신으로 책록되었다. 세조가 즉위하자, 덕종(德宗)이 세자가 되었을 때 스승으로 삼
+                      았고, 덕종이 승하한 후 예종이 세자가 되므로 다시 세자를 보필하는 직책을 맡았다. 부모
+                      상을 당하고, 1460년에 기복(起復)10하여 우승지에 제수되어 사양하였으나 허락을 얻지
+                      못하고, 다시 좌승지로 옮기었다가 곧 가선대부(嘉善大夫) 공조참판으로 승진하였다. 경
+                      국대전도감도제조(經國大典都監都提調)인 최항(崔恒)이「호전(戶典)」은 한계희가 없으
+                      면 불가하다고 진언하여 『경국대전』의 「호전」을 만드는 데 진력하였다.
+                       주요 업적으로는 『묘법연화경(妙法蓮華經)언해』 주관, 『잠서언해(蠶書諺解)』 찬술,
+                      『북정록(北征錄)』 교정, 『병장설(兵將說)』 주, 『동국병감』 등의 학문적 업적과 불경의 언
+                      해 등 다방면으로 공적을 남겼다. 성종이 왕위에 오르자 순성명량경제좌리공신(純誠明亮
+                      經濟佐理功臣) 2등에 책록되었고, 1478년에 의정부좌찬성에 제수되었다. 이때 이르러 병
+                      이 위독하니 서평군에 봉하였다. 1482년 8월 19일 60세에 죽었다. 묘소와 신도비(구 경기
+                      도 문화재자료 제84호)는 분당구 율동 산2-1번지에 있다.
+
+
+                       ▣ 안침(安琛, 1445~1515)
+
+                           ○ 소재지 : 분당구 율동 산28
+
+
+                       조선 전기의 문신으로, 본관은 순흥(順興), 자는 자진(子珍), 호는 죽창(竹窓)·죽계(竹
+                      溪)·죽재(竹齋), 시호는 공평(恭平)이다. 증조할아버지는 증 정헌대부 이조판서 안종약
+
+
+제33권 1기 신도시 분당의 변천①
+                      (安從約)이고, 할아버지는 증 가정대부 의정부좌참찬 안구(安玖)이며, 아버지는 추증 숭
+                      정대부 의정부좌찬성 안지귀(安知歸)이며, 어머니는 상주박씨 박이창(朴以昌)의 딸이고,
+                      부인은 광주이씨 이수철(李守哲)의 딸이다. 예조참의를 지낸 안호(安瑚)의 동생이다.
+
+
+                      10 부모 상중임에도 벼슬에 임명되는 것.
+
+
+성남시사(50년사)
+
+                      22
+
+<!-- source: seongnam-history-50-vol-33.pdf p.023 -->
+### p.023
+
+1462년(세조 8)에 둘째 형 안선(安璿)과 함께 생원과 진사 시험 모두에 합격하고, 1466
+년 왕이 강원도에 행차하여 시행한 고성별시문과(高城別試文科)에 2등으로 급제하여 벼
+슬길에 올랐다. 1469년(예종 1) 의정부사록으로 경연에 참여하였고 『세조실록』과 『예종
+실록』의 편찬에 참여하였다. 1506년(중종 1) 평안도관찰사, 1509년 지중추부사, 이듬해
+지돈령부사가 되었다가, 1514년 공조판서에 특채되었는데 바로 병사하였다.
+ 그는 성품이 단아하고 소탈하며 조용하였다. 그러므로 젊을 때부터 함께 교유하던 자들
+에게서 추앙받았고, 함께 어울려 노는 이는 모두 당시의 명사들이었다. 문장에서는 뜻이 잘
+전달되는 것을 숭상하였고, 명필로도 이름이 났다. 묘소는 분당구 율동 산28번지에 있다.
+
+
+ ▣ 한효순(韓孝純, 1543~1621)
+
+  ○ 소재지 : 분당구 서현동 산63-1
+
+
+ 조선 중기 문신으로, 본관은 청주, 자는 면숙(勉叔), 호는 월탄(月灘)이다. 할아버지는
+한승원(韓承元)이고, 아버지는 한여필(韓汝弼)이다. 한효순은 임진왜란이 발발하여 왜군
+이 조선에 상륙하여 파죽지세로 전 국토를 유린하여 나라의 운명이 풍전등화 같을 때 충
+무공 이순신(李舜臣) 장군이 해전에서 승리를 거두면서 적의 후방을 위협하게 되었는데,
+이순신의 군사 작전에 크게 기여한 숨은 공신이다.
+ 한효순은 전쟁이 터지자 영해에서 왜군을 격파하고 경상좌도관찰사에 승진하여 순찰사
+를 겸임해 안동을 중심으로 동해안 지역을 방비하며 군량 조달에 공을 세웠다. 한편 경상
+좌도 관찰사가 된 후로는 항상 자주색 도포를 입고 나팔을 울리며 감사의 위엄을 성대하
+게 베풀어, 각 고을에 주둔한 왜적이 성에 올라 가리키며 바라보아도 겁내는 기색이 없었
+다. 경상우도관찰사로 임명되어서는 경상좌도관찰사 김성일(金誠一)을 도왔으며, 이듬해
+가선대부로 승차되어 경상좌우합도관찰사로 임명되었다. 1594년(선조 27) 병조참의로 경
+성순검사 및 주사대장을 겸하여 화기를 주조하고 병서를 인쇄하는 일까지 관장하였다.
+ 1596년 자헌대부로 승차하여 삼도주사로 명령을 받고 적과 대치한 통제사 이순신 진영
+에서 필요한 전함의 제작 및 군수품을 보급하는 등 조선의 수군 업무 일체를 관할하였다.
+
+
+                                                         part1 한국 역사 속의 분당 지역
+
+
+                                                   23
+
+<!-- source: seongnam-history-50-vol-33.pdf p.024 -->
+### p.024
+
+한효순은 3도의 수병 및 격군(格軍)11을 관리하고, 식량을 밤낮으로 조달하며, 병선과 기
+                      계를 급히 수리하여 이순신이 왜적을 막는 데 큰 힘이 되었다.
+                       한효순은 왜란이 끝난 후인 1603년에 『신기비결(神器秘訣)』이라는 군사 전문 서적을
+                      편찬하였다 이 책은 대포에서 조총·천자총 등 18가지 종류의 각종 화기 제작과 사용에 필
+                      요한 연장 및 화약의 용량, 탄환의 종류와 용량, 화기 취급상의 주의 사항 및 여러 가지 병
+                      법 등을 첨부하였는데, 우리나라 유일의 화약 병기 사용법에 관한 병서(兵書)라고 할 수
+                      있다. 1621년(광해군 13) 11월에 79세로 졸하니 장헌(莊獻)이라고 증시되었다. 인조반정
+                      으로 대간들의 주청에 의해 관작이 추탈되었다가 1908년(순종 2)에 훈작과 시호가 회복
+                      되었으니, 공이 사망한 후 287년 만에야 명예가 회복된 것이다.
+
+
+                       ▣ 이경류(李慶流, 1564~1592)
+
+                           ○ 소재지 : 분당구 수내동 산1-2 분당 중앙공원 내
+
+
+                       조선 중기 문신으로, 본관은 한산(韓山), 자는 장원(長源), 호는 반금(伴琴)이다. 이색
+                      (李穡)의 8세손으로 할아버지는 이지숙(李之菽)이고, 아버지는 평난공신 이증(李增)이
+                      다. 이경류는 임진왜란 때 병조좌랑으로서 변기(邊璣)의 종사관으로 출병하여, 4월 1일
+                      조령 관문인 상주 전투에서 상주판관 권길(權吉)과 함께 순절하였다. 그가 타던 말이 주
+                      인의 피 묻은 옷과 유서를 물고 상주에서 수내동까지 500리 길을 달려와서야 비로소 그
+                      의 죽음을 알게 되었다. 말은 주인의 소식을 전한 뒤 3일 동안 아무것도 먹지 않고 울기
+                      만 하다가 죽고 말았는데, 이를 갸륵히 여겨 장사를 지내주어 그의 묘역 아래에는 말무덤
+                      이 있게 되었다. 이때 함께 전사한 윤섬(尹暹), 박지(朴篪) 등과 함께 순절삼종사관으로
+                      추앙받으며, 정3품 통훈대부 예문관직제학에 추증되었고 충신 정려를 받았다. 묘소는 분
+                      당구 수내동 산1-2번지 분당 중앙공원 내에 있다. 시신을 찾지 못하여 관복과 이불로 조
+
+
+제33권 1기 신도시 분당의 변천①
+                      성되었다.
+
+
+                      11 뱃사공의 일을 도와주는 사람.
+
+
+성남시사(50년사)
+
+                      24
+
+<!-- source: seongnam-history-50-vol-33.pdf p.025 -->
+### p.025
+
+▣ 한명욱(韓明勗, 1567~1652)
+
+  ○ 소재지 : 분당구 율동 산6-2 율동공원 내
+
+
+ 본관은 청주, 자는 욱재(勗哉), 호는 율헌(栗軒), 한석(韓碩)의 증손으로, 할아버지는 한
+지원(韓智源)이며, 아버지는 참판 한술(韓述)이고, 어머니는 이운(李韻)의 딸이다. 1612
+년(광해군 4) 증광시 문과에 급제, 사과(司果)에 제수되어 기사관(記事官)으로 『선조실
+록』의 편찬에 참여하였다. 1614년 예조좌랑이 되었고, 이듬해 정언을 거쳐 지평이 되었
+다. 이때 소북파의 영수 남이공(南以恭)을 탄핵하여 평산으로 유배 보내게 하였다. 1630
+년(인조 8) 동지사 겸 성절사로 명에 다녀왔다. 1642년 행호군이 되었고, 1646년에 자
+헌대부에 올라 지돈령부사가 되어 기로소에 들어갔다. 저서로는 할아버지 한지원(韓智
+源)과 한술(韓述), 한회(韓懷)의 삼부자의 시문을 모은 『삼체집(三體集)』을 편집하였다.
+1629년부터 1642년까지 14년간을 기록한 『기오수록(己午隨錄)』이 전한다. 묘는 분당구
+율동 산6-2번지에 있으며, 성남시 향토유산 제9호로 지정되었다.
+
+
+ ▣ 한백봉(韓百鳳, 1881~1950)
+
+  ○ 소재지 : 분당구 율동 산2-1 율동공원 내
+
+
+ 본관은 청주, 자는 성의(聖儀), 호는 송헌(松軒)·벽송(碧松), 한영회(韓榮會)의 셋째 아
+들이다. 1919년 2월 말 고종의 장례식에 참석차 상경하였다가 3·1운동에 참가하였고, 향
+리에서도 만세운동을 전개할 것을 결심하고 한순회(韓順會) 등 돌마면 내 유지들과 모의
+하였다. 3월 분당리 장날 만세운동을 주도하다가 체포되었다. 1990년 정부에서는 고인의
+공훈을 기리어 건국훈장 애족장을 추서하였다. 묘는 율동 산2-1번지로 율동공원 번지점
+프장 인근에 있다. 남서향하고 있고 원형 단독분으로 용미와 활개를 갖추고 있으나 묘비
+가 없어 묘를 찾기가 쉽지 않다.
+
+
+                                                       part1 한국 역사 속의 분당 지역
+
+
+                                                  25
+
+<!-- source: seongnam-history-50-vol-33.pdf p.026 -->
+### p.026
+
+율동공원 한순회 묘역
+
+
+                       ▣ 한순회(韓順會, 1885~1961)
+
+                           ○ 소재지 : 분당구 율동 산2-1 율동공원 내
+
+
+                       본관은 청주, 자는 보경(輔卿), 호는 제암(霽菴), 아버지는 한진기(韓鎭基)이다. 경기도
+                      평택 출신으로 광주군 돌마면 율리(현 분당구 율동)의 한영우에게 입양되었다. 어려서 한
+                      학을 수학하여 일찍이 칠경서(七經書)에 통달하였다. 천도교에 귀의하여 천도교 광주교
+                      구장을 지내면서 독립운동에 더욱 열중하였다. 후에 천도교 중앙총부 중앙위원과 봉도를
+                      역임하였고, 1927년 신간회 광주지회장으로 활동하였다. 천도교에서는 1936년부터 전국
+
+
+제33권 1기 신도시 분당의 변천①
+                      각지에서 일제의 패망을 기원함과 독립운동 자금으로 특별성금 모금이 비밀리에 진행하
+                      였다. 약 3년간 무인멸왜기도운동(戊寅滅倭祈禱運動)을 전개하던 중 1938년 황해도 사
+                      리원에서 일제 관헌에게 체포되었다. 서울로 압송되어 혹독한 고문을 당하고 70일간 옥고
+                      를 치렀다. 정부에서는 공훈을 인정하여 1993년에 대통령 표창을 수여하였다. 묘는 분당
+                      구 율동공원 산책로 옆에 있다.
+
+
+성남시사(50년사)
+
+                      26
+
+<!-- source: seongnam-history-50-vol-33.pdf p.027 -->
+### p.027
+
+4 분당 지역의 문화유산
+
+
+  ▣ 경헌 조몽정 묘역(敬軒曺夢禎墓域)
+
+    ○ 지정번호 : 성남시 향토유산 제5호
+    ○ 소재지 : 분당구 서현동 산32
+
+
+  조몽정(曺夢禎, 1535~1593)의 본관은 창녕(昌寧), 자는 응길(應吉), 호는
+ 경헌(敬軒), 호조좌랑 조언부(曺彦傅)의 아들이다. 11세에 부친상을 당하여 묘
+ 아래 재실을 짓고 시묘의 정성을 다하였다. 사후 아들 조탁(曺倬)의 원훈(元勳)
+ 으로 영의정에 증직되었다. 묘역은 분당구 서현동 일원의 나지막한 구릉 능선
+ 정상에 서향(西向)하고 있고, 묘는 원형 쌍분이다. 봉분 중앙에 상석·향로석과
+ 상석 좌우로 동자석·문인석 각 1쌍의 석물 및 신도비가 있다. 신도비는 봉분 좌
+ 측(서쪽)에 북향하여 있는데 방부원수(方趺圓首)형이다. 비신의 비문은 앞면
+ 에만 있으며, 상부의 전액은 증영의정조공(贈領議政趙公)이 글씨를 쓰고, 김
+ 상용(金尙容)이 전액을 하였다. 입석 연대는 공의 사후 22년이 지난 1615년(광
+ 해군 7)이다.
+
+
+                                                   part1 한국 역사 속의 분당 지역
+
+
+                                              27
+
+<!-- source: seongnam-history-50-vol-33.pdf p.028 -->
+### p.028
+
+▣ 청주한씨 청연공파 묘역(淸州韓氏靑蓮公派墓域)
+
+                           ○ 지정번호 : 성남시 향토유산 제9호
+                           ○ 소재지 : 분당구 율동 산9-1
+
+
+                       청주한씨 청연공파 묘역은 분당구 율동 일원에 있다. 묘역은 문정공 한계희(韓繼禧,
+                      1423~1482) 이래 청주한씨의 세장지이다. 청연공(靑蓮公) 한지원(韓智源, 1514~1561)을
+                      비롯한 아들 한술(韓述, 1541~1616)과 한회(韓懷, 1550~1621) 및 손자 한명욱(韓明勗,
+                      1567~1652), 증손자 한전(韓甸, 1609~1691), 5대손 한숙(韓肅, 1691~1708) 등을 포함한
+                      6대에 걸친 묘역으로 16세기 초부터 18세기 초까지 조성되었다. 묘의 형태에 있어서 차이
+                      는 있지만 조선시대의 전형적인 묘제 양식을 보여주고 있다. 대부분 부인과의 원형 쌍분이
+                      다. 특이하게 한명욱의 묘는 전 부인을 쌍분을 조성하여 합장하고, 쌍분의 중간 뒤로 또 하
+                      나의 봉분을 만들어 후부인(後夫人)을 부장하여 전체적으로 세 개의 봉분을 품자형으로 조
+                      성하였다. 또한 문인석의 조각 양식이 조성 시기별로 다양하게 확인되고 있다. 묘비의 경우
+                      보존 상태가 양호하고 독특한 서체로 쓰여 있어 금석학적 가치가 있다. 비의 형태상 대부분
+                      방부원수의 형태이지만, 한숙의 묘표는 비신 상부가 평옥개석(平屋蓋石)형이다.
+
+
+                       ▣ 청주한씨 문정공파 묘역 신도비
+
+                           ○ 지정번호 : 경기도 문화유산자료
+                           ○ 소재지 : 분당구 율동 산2-1
+
+
+                       문정공 한계희(韓繼禧, 1423∼1482)와 장남 한사문(韓斯文, 1446∼1507), 넷째 아들
+                      한사개(韓士介, 1453∼1521) 등의 신도비 및 묘갈이다. 한계희 신도비는 1483년(성종
+                      14)에 건립되었으며, 묘 하단 좌측에 위치하여 남서향하고 있다. 사각받침돌 위로 비신을
+
+
+제33권 1기 신도시 분당의 변천①
+                      세우고 머릿돌을 올린 모습으로, 조선 전기의 위패 형식을 하고 있다. 받침돌은 윗면에 높
+                      직한 연꽃무늬를 둘러 새겼으며, 머릿돌은 연꽃이 엎어져 있는 모양을 하고 있고, 꼭대기
+                      에는 꽃봉오리 모양의 돌이 솟아 머리장식을 하고 있다. 비문은 서거정이 짓고, 글씨는 안
+                      침이 썼다. 한사문 신도비는 묘 하단에 위치하여 서향하고 있다. 백색 화강암의 비좌와 백
+                      색 대리석의 비신 및 상부 연봉 장식을 갖춘 고깔형의 고려 형태이다. 한사개 묘갈은 묘
+                      하단에 위치하여 남서향하고 있다. 백색 화강암의 비좌와 백색 대리석의 비신 및 구름무
+
+
+성남시사(50년사)
+
+                      28
+
+<!-- source: seongnam-history-50-vol-33.pdf p.029 -->
+### p.029
+
+청주한씨 문정공파 묘역 신도비(왼쪽부터 한계희 신도비, 한사문 신도비, 한사개 묘갈)
+
+
+늬에 앞위로 일월문(日月文)이 양각된 관석을 갖추고 있다. 비좌는 네 면에 안상문(眼象
+文)과 상부에 복련문이 조각되어 있다.
+
+
+  ▣ 한산이씨 묘역
+
+    ○ 소재지 : 분당구 수내동 산1-2(구 경기도 기념물 제116호12)
+
+
+  조선 중종대의 문신 한산이씨 이장윤(李長潤, 1455∼1528) 집안의 세장 묘역이다. 묘
+역 아래에는 의간공(懿簡公) 이증(李增, 1525∼1600)의 부조묘(不祧廟)13가 건립되어 있
+으며, 분당 중앙공원 탄천 변의 비각에는 이증의 신도비(1715년 건립)와 김제군수 이정
+룡(李廷龍)의 신도비(1728년 건립)가 있다. 그 옆에는 병조좌랑 이경류(李慶流, 1564∼
+1592)의 충신정려문(忠臣旌閭門)과 한산이씨 삼세유사비(韓山李氏三世遺事碑)가 나란
+히 서 있다. 묘역 내에는 현풍현감 이확(李穫)의 사위인 홍수원(洪睟元)의 묘가 있다.
+
+
+                                                                                part1 한국 역사 속의 분당 지역
+12 2021년 11월 19일 시행된 문화재 「지정(등록)번호 삭제 및 문화재명 표기 방법 변경 고시」에 의해 문화재등록 번호가 삭제되었으
+   나, 중요성이 있어 이전의 문화재 번호를 병기하였다.
+13 부조묘는 나라에 큰 공을 세운 인물의 신주를 영원히 제사 지내도록 왕의 허락을 받아 세운 사당. 본래 4대 조상의 신주는 묘에 묻어
+   야 하지만, 불천지위(不遷之位)로 지정된 인물은 사당에 계속 모셔 제사를 지낼 수 있다.
+
+
+                                                                          29
+
+<!-- source: seongnam-history-50-vol-33.pdf p.030 -->
+### p.030
+
+한산이씨 묘역
+
+
+                       ▣ 전주이씨 태안군파 묘역
+
+                           ○ 소재지 : 분당구 정자동 산33-1(구 경기도 기념물 제118호)
+
+
+                       조선 성종의 손자이자 무산군 이종(李悰)의 아들인 태안군(泰安君) 이팽수(李彭壽,
+                      1520∼1592)와 아들 이강(李橿, 1551∼1585), 손자 이경인(李敬仁, 1575∼1642), 그리
+                      고 생몰년 미상의 이석명 등 4기의 묘소가 조성되어 있다. 이팽수의 묘는 부인 안산김씨
+                      와의 합장묘로 쌍분이다. 쌍분의 중앙 앞에 월두형(月頭形) 묘비, 상석, 향로석이 있고,
+                      상석 앞 좌우에는 문인석이 배열되어 있으며, 묘비는 1597년(선조 30)에 건립되었다. 이
+                      강의 묘는 뚜렷한 봉분의 흔적은 없으나, 묘표, 혼유석, 상석, 향로석이 있고, 상석 좌우
+
+
+제33권 1기 신도시 분당의 변천①
+                      에 망주석과 문인석 각 1쌍 등 다수의 석물을 갖추고 있다. 이경인의 묘는 단분으로 봉분
+                      앞에 묘비, 상석, 향로석이 있으며, 묘역 전방에는 좌우에 망주석과 문인석이 한 쌍 씩 배
+                      열되어 있다. 묘비는 1696년(숙종 22)에 건립되었고, 비문은 마모가 심하다. 묘의 석물은
+                      대부분 원래의 모습을 잘 갖추고 있으며 석물의 형태는 단순한 편이다.
+
+
+성남시사(50년사)
+
+                      30
+
+<!-- source: seongnam-history-50-vol-33.pdf p.031 -->
+### p.031
+
+▣ 수내동 가옥(이택구 가옥)
+
+    ○ 소재지 : 분당구 수내동 84(구 경기도 문화재자료 제78호)
+
+
+  수내동 가옥은 분당신도시 개발 전 이곳에 세거하였던 한산이씨의 살림집 중 한 채로
+이택구(李宅求)가 거주하였던 집이다. 이 가옥은 19세기 말의 건물로 보이는데, 부재가
+비교적 견실하고 치목(治木)14도 반듯하여 조선 후기 경기 지역 살림집의 모습을 잘 보여
+주고 있다. 바깥마당에 면한 ‘一’자형 문간채 뒤에 ‘ㄱ’자형 안채가 안마당을 둘러싸고 있
+어 전체적으로 ‘ㅁ’자형 배치를 이루고 있다.
+  안채는 10칸 규모의 초가로 1칸 반의 건넌방과 4칸 대청, 2칸 안방이 일렬로 배열되고
+안방 앞쪽에서 꺾여 1칸씩의 부엌과 광이 있다. 안방과 건넌방에는 받침이 설치되어 공간
+의 효용도가 높다. 낮은 자연석 기단 위에 네모 기둥이 세워져 있고, 그 위에 5량의 지붕
+가구가 짜올려 있으며, 문간채는 6칸 규모의 우진각 초가인데, 중앙에 대문이 있고 오른쪽
+에 온돌방이 있다.
+
+
+14 재목을 다듬고 손질한 것을 뜻한다.
+
+
+                                                 수내동 가옥
+
+
+                                                          part1 한국 역사 속의 분당 지역
+
+
+                                                 31
+
+<!-- source: seongnam-history-50-vol-33.pdf p.032 -->
+### p.032
+
+5 분당 지역의 지명 유래
+
+
+                            ▣ 가실고개(추현, 秋峴)
+                            분당구 분당동 297-3번지에서 79번지를 거쳐 광주시 신현동으로 넘어 다
+                           니던 고개이다. 삼국시대에 어느 나라 사람인지는 분명하게 전해오지 않고 있
+                           지만 가실(嘉實)과 설처녀(薛處女)의 전설이 있는 고개 이름이다. 현재 분당동
+                           열병합발전소 남쪽으로 옛날부터 전해오던 가실과 설처녀의 무덤 자리에 서낭
+                           당이 있었는데, 분당신도시 개발로 없어졌다. 이 근처에서 고인돌이 2개가 채
+                           집되었다.
+
+
+                            ▣ 금강사(金剛寺) 터
+                            분당구 율동 산165번지 일대에 있는 지명이다. 384년(백제 침류왕 1)에 불교
+                           가 들어온 후 다음 해에 왕의 명으로 열 명의 스님을 임명하였는데 그중 한 스
+
+
+제33권 1기 신도시 분당의 변천①
+                           님이 영장산 아래 절을 짓고 금강사라고 하였다. 금강이라는 용어는 쇠보다 강
+                           하다는 뜻으로 모든 사물은 부처님을 이길 수 없다는 뜻이라고 한다. 금강사에
+                           수많은 암자를 거느린 큰 절이었다고 하며 율동의 지명 중에도 불교 용어가 20
+                           여 곳에 달한다.
+
+
+성남시사(50년사)
+
+                      32
+
+<!-- source: seongnam-history-50-vol-33.pdf p.033 -->
+### p.033
+
+▣ 금탄(金灘)
+ 백제시대부터 불렸다는 탄천 중류의 또 다른 이름이다. 물이 맑고 고와서 물 중에 최고
+라는 의미로 이름 지어졌다는 정자동과 금곡동 앞을 흐르는 지금의 숯내 상류의 옛날 이
+름이다. 『세종실록』 1420년(세종 2) 3월 14일 기록에 “두 임금이 동정 앞벌에서 매사냥을
+구경하고 또 금탄에서 고기잡이를 구경하고”라는 기록과 같은 해 3월 24일 기록에 “동교
+에서 상왕을 만나 드디어 금탄에서 고기잡이를 구경하고”라는 기록에 등장하는 세종대왕
+과의 인연이 있는 여울이다.
+
+
+ ▣ 낙생역(樂生驛) 터
+ 분당구 수내동 227번지에서 362-1번지 일대의 자리하였던 역의 이름이다. 낙생이라는
+지명은 신라 진흥왕이 이 지역을 순회하고 영락장생지지(永樂長生之地)라고 하면서 영락
+에서 ‘낙’자와 장생에서 ‘생’자를 가져다가 낙생(樂生)이라고 부른 데서 기인한다. 그 이전
+에는 안업역(安業驛)이라 불렸다고 한다.
+
+
+ ▣ 명문 바위(명막암, 䳟邈岩)
+ 분당동 새말고개에 있는 바위 이름의 유래로 두 가지 이야기가 있다. 옛날 새말고개 중
+턱에 바위가 하나 있는데, 옛날 한 장수가 이 바위에 앉아 잠시 쉬어 갔는데 그 장수의 발
+자국이 새겨져 있다고 한다. 그래서 이 바위의 이름을 ‘명문바위’라고 불렀다 한다.
+ 새말고개는 ‘새마을고개’를 줄인 말이며, 일명 한양고개라고도 한다. 분당구 분당동 산
+11번지에서 시작하여 분당동 산13-1번지를 거쳐 경기도 광주시 신현동으로 연결된다.
+『성남지명총람』 발간을 위해 조사한 지명 유래에는 ‘명문바위’ 이름은 수집되지 않았고,
+분당동 산11번지 초입에서 명막(䳟邈)바위 전설이 조사되었다. 남방 민족이 숭배하는 초
+명새(鷦䳟鳥)가 날아와서 살다가 그만 돌아갈 시기를 놓쳐 바위가 되었다는 이야기였다.
+옛날 장사의 발자국이 있었다고 하는데 ‘명문바위’라는 이름은 확인되지 않았다. 한일 병
+탄 이전에 일본이 한국을 도둑 측량하고 1914년에 제작한 지도에 ‘명막암(䳟邈岩)’이라고
+표시하였다.
+
+
+                                                         part1 한국 역사 속의 분당 지역
+ ▣ 문수산(文殊山)
+ 분당구 율동 산73번지와 산74번지 일대에 솟아 있는 봉우리이다. 일곱 삼거리와 연결
+
+
+                                                    33
+
+<!-- source: seongnam-history-50-vol-33.pdf p.034 -->
+### p.034
+
+되어 있어서 이곳에서 문수보살의 현신이 있었다고 하여 지성으로 간구득도(懇求得道)하
+                      면 일곱 삼거리에서 왕생극락할 수 있는 길을 얻는다는 전설이 있는 산이다.
+
+
+                       ▣ 삼천병마(三千兵馬)골
+                       분당구 이매동 산62-2번지 일대의 야산과 404번지 일대의 넓은 들을 삼천병마골이라
+                      고 한다. 이 지역은 산이 감싸고돌아서 수천의 기마병을 숨겨놓을 수 있는 은폐지지라고
+                      하는데, 수내동 쪽에서 보면 감추어져 있어 보이지 않는 곳이다. 그로 인하여 돌마(突馬)
+                      라는 이름이 생겨났다고 전해진다. 조선 인조대의 신하인 이경석(李景奭) 신도비에 “광주
+                      돌마리(突馬里)에 장사하였다.”라고 기록되어 있다. 백제의 막강한 기마병(騎馬兵)들이
+                      서울시 송파에서 분당구 궁내동 또는 용인시 수지까지 이르는 훈련장에서 훈련하고 이곳
+                      에서 쉬었다는 곳이다.
+
+
+                       ▣ 성덕산(聖德山, 현 불곡산)
+                       분당구 정자동 산478번지와 산480번지 일대의 산을 성덕산이라고 부른다. 수정구 창곡
+                      동 태자궁에서 훈련할 때 영장산을 거쳐 문현산에서 성덕산으로 이어지는 코스에 따라 훈
+                      련하였다. 때에 따라서는 사냥하기도 하였는데, 이때 특별히 왕이 사냥에 동참하기도 하
+                      였다. 왕이 오시면 많은 군중이 왕의 건재함에 탄복하여 만세를 불렀는데 왕이 내리는 특
+                      별한 은전이 베풀어져 왕의 성덕이 영원하라는 뜻의 성덕영세(聖德永世)라는 산말을 지
+                      니고 있다. 분당신도시 개발 이후 불곡산(佛谷山)으로 명칭이 바뀌었다.
+
+
+                       ▣ 수기실(宿騎室)
+                       이매동 산69번지와 397번지에서 402번지 일대를 부르는 지명이다. 백제시대에 기마병
+                      들은 삼천병마골에서 쉬고, 장수들은 바로 위쪽인 수기실에서 훈련의 성과와 부족한 문제
+
+
+제33권 1기 신도시 분당의 변천①
+                      들을 정리하면서 쉬어가던 곳이었다.
+
+
+                       ▣ 영장산(靈長山)
+                       분당구 율동 산50번지와 야탑동 산71-1번지, 그리고 광주시 직동 경계에 414.3m의 산
+                      이다. 백제 온조왕이 건국 이후 수도를 하남위례성으로 옮기고 일대를 돌아본 결과 영장
+                      산이 아름다워 자주 사냥을 나왔다는 산인데 온조왕의 선정이 영원하게 하여 달라는 주문
+
+
+성남시사(50년사)
+
+                      34
+
+<!-- source: seongnam-history-50-vol-33.pdf p.035 -->
+### p.035
+
+의 성령장천(聖靈長千)이라는 산말이 전해온다. 『정감록(鄭鑑錄)』에는 ‘영장산하 사십팔
+대 장상지지 십승지지(靈長山下四十八代將相之地十勝之地)’라는 구절이 전해온다는 명
+당으로 소문난 산이다.
+
+
+ ▣ 일곱 삼거리
+ 분당구 율동 산76번지와 광주시 오포읍 신현리 산92번지, 광주시 목동 산72번지의 경
+계 지점에 있는 지명이다. 지성으로 빌면 하늘에 올라갈 수 있는 길 하나와 육간 지옥으로
+가는 여섯 갈래의 길이 있는데 모두 합쳐서 일곱 개의 길이 있다 하여 일곱 삼거리라고 불
+렀다.
+
+
+ ▣ 잇가실고개
+ 분당구 분당동의 한강 방어선 중에 사잇길이 있는 가실고개라는 뜻의 고개이다. 가실
+고개의 동쪽에 사잇길이 있었는데 고려 말의 두문동 72현인의 한사람으로 추앙되는 고려
+충신 김자수(金自粹)가 이곳에서 자결하였다고 한다.
+
+
+ ▣ 정자(亭子) 터
+ 분당구 정자동 478번지에서 480번지 일대의 지명이다. 백제시대부터 왕실 전용의 정자
+가 있었다고 전해오는 정자 터이다. 1413년(태종 13) 10월 10일과 1414년 9월 8일로 두
+번, 그리고 1420년(세종 2) 3월 14일에 한 번의 기록이 있는데 모두 광주 동정(東亭)으로
+기록되어 있다.
+
+
+ ▣ 천조산(天鳥山)
+ 분당구 율동 산 131번지와 산 20번지 사이에 솟아 있는 봉우리의 이름이다. 한성백제시
+대 이전부터 이곳에는 천조(天鳥)인 삼족오(三足烏)가 살았는데 천조산 아래에는 송장봉
+이 있어서 먹이를 구할 필요도 없이 잘살았다고 한다. 그래서인지 율동은 지세가 금오탁
+시혈(金烏啄屍穴), 즉 하늘의 제왕인 금빛 까마귀가 시신을 쪼는 자리라서 군주가 탄생하
+는 명당 혈처라 하여 이 동리에 사는 사람은 굶어 죽은 일이 없다고 전해온다.
+
+
+                                                           part1 한국 역사 속의 분당 지역
+
+
+                                                      35
+
+<!-- source: seongnam-history-50-vol-33.pdf p.036 -->
+### p.036
+
+▣ 탑(塔)골
+                       분당구 야탑동 일대는 한성백제시대부터 불탑이 많아서 상탑마을, 중탑마을, 하탑마을
+                      로 불렸던 곳이어서 통칭 탑골이라고 불렀던 지명이다. 전남 화순 운주사(雲住寺)와 비슷
+                      하게 탑이 많았다는 골짜기의 큰 마을이었다.
+
+
+                       ▣ 판교원(板橋院)
+                       분당구 판교동에 있었던 역원의 이름이다. 『고려사』에 보면, 조운흘(趙云仡)이 1380
+                      년(고려 우왕 6)에 판교와 사평(沙平)의 두 원(院)을 중창하였다는 기록이 있다. 또 조선
+                      1396년(태조 5) 3월 4일 기록에 자은종 도승통 종림(宗林)과 전 판사 윤안정(尹安鼎)이
+                      함께 판교원을 지었다고 하고, 같은 날에 좌정승 김사형(金士衡)의 진언으로 미두(米豆)
+                      와 염장(鹽醬)을 내렸다는 기록과 효녀 도리장(都里莊)을 포상하였다는 기록도 있으므로
+                      고려시대 이전에 만들어졌으나 폐지한 것을 조선 초기에 중창한 것으로 추정된다.
+
+
+                       ▣ 문중서당(門中書堂) 터
+                       율동 산2-1번지 동쪽에 청주한씨의 입향조(入鄕祖)인 한계희의 셋째 아들 한사신(韓
+                      士信)이 3년 시묘 후에 후학을 가르치기 위하여 세운 문중서당이 있었는데, 흥선대원군의
+                      서원 철폐령 때에 불타 없어지고 터만 남아 있다.
+
+
+                       ▣ 정전파(鄭戰破)
+                       분당구 백현동과 금곡동 사이에 있는 지명이다. 정금원(鄭金院)에서의 군사 훈련이 끝
+                      나면 이곳에서 훈련을 마치고 하삼도(下三道, 충청도·전라도·경상도)에서 올라온 군사들
+                      이 귀향하였다는 곳이다. 정금원 전투를 파한 곳이라는 의미의 지명이다.
+
+
+                       ▣ 파오달(波吾達)
+
+
+제33권 1기 신도시 분당의 변천①
+                       분당구 궁내동과 금곡동 일원의 들을 부르던 이름이다. 원래는 여행자의 숙박 시설인
+                      원(院)이 있던 곳이라는 설과 군사 집결지였다는 이야기가 있다. 『조선왕조실록』을 살펴
+                      보면, 전국에 수십여 곳이 파오달로 나온다. 『성종실록』 권12, 1471년(성종 2) 10월 12일
+                      에 ‘낙생역 앞들 파오달에서 머물렀다’라는 기록이 보인다. 파오달은 몽골식 천막을 일컫
+                      는 것이기도 하다.
+
+
+성남시사(50년사)
+
+                      36
+
+## PART 2 분당신도시의 탄생
+
+<!-- source: seongnam-history-50-vol-33.pdf p.037 -->
+### p.037
+
+분당신도시의
+
+
+2
+탄생
+
+
+    PART
+
+
+           1. 성남시 승격과 분당마을
+           2. 1기 신도시 개발과 분당의 변화
+           3. 신도시 개발 과정 중 발굴된 유적
+
+<!-- source: seongnam-history-50-vol-33.pdf p.038 -->
+### p.038
+
+분당구는 성남시 전체 면적의 절반 정도에 달하는 행정구로서 2023년 기준
+                      47만여 명에 이르는 인구 규모를 가지고, 18개의 법정동 및 22개의 행정동으로
+                      구성되어 있다.
+                       ‘분당’이라는 지명은 일제에 의하여 새로 만들어진 합성 지명으로, 전에는 분
+                      당이란 이름이 사용되지 않았다. 1914년 해정구역 통폐합 때, 이곳에 있었던
+                      분점리(盆店里, 동이점·장터)와 당우리(唐隅里, 안당모루·새당모루)를 합하고,
+                      두 마을의 머리글자를 따서 ‘분당(盆唐)’이라 하였다. 이는 합성 지명의 의의가
+                      갖는 ‘결합 지역 땅 이름의 보존적 합성’을 간과한 오류를 범한 것이다. 즉, ‘당
+                      우리(唐隅里)’의 ‘당(唐)’자는 본래 ‘집 당(堂)’자였는데 1906년에 ‘당나라 당
+                      (唐)’자로 바뀐 후 1914년에 ‘분당(盆唐)’이 되었으나 이전에는 ‘당우리(堂隅
+                      里)’로 확인되었다. 서울대학교 규장각한국학연구원 소장된 『경기도 광주군 양
+                      안』에도 ‘당우리(堂隅里)’로 표기되어 있다. ‘당(堂)’자가 들어간 지명은 불당
+                      (부처당, 미륵당), 산신당, 서낭당(성황당), 할미당, 각시당, 산제당, 기우제당,
+                      동제당, 칠성당, 천제당, 별신당, 사직당, 당산나무 등이 있었던 곳에 붙여지는
+                      데, 이곳 역시 당집이 있었던 곳을 ‘당골’이라 불렀으며 ‘당모루’도 그래서 생겨
+                      난 이름이다.
+
+
+                                                                      창곡동
+                                                                            양지동
+                                                   신촌동        복정동                 은행동
+
+                                                                                                                              야탑동
+                                                                       산성동
+                                                      오야동            단대동
+
+                                                                                                             삼평동
+                                                심곡동               수정구청   금광동
+                                                             태평동
+                                                                 신흥동
+                                                                     중앙동
+
+                                                                                                       판교동             이매동
+                                                             수진동           상대원동
+                                                                                              운중동             백현동
+                                                고등동 둔전동        성남동
+                                         수정구                                 중원구
+                                                                                                                                    율동
+                                                                   하대원동
+                                   상적동                          중원구청
+
+
+                                                                                                       분당구 수내동
+                                                            여수동
+
+                                                                                                하산운동                   분당구청
+                                                            성남구청                  갈현동
+                                                시흥동
+                                                                                        석운동                               서현동
+                                                                      도촌동
+                                       금토동            사송동
+
+
+제33권 1기 신도시 분당의 변천①
+                                                                     야탑동
+
+                                                                                                        궁내동
+                                                삼평동
+
+                                 운중동                           이매동                             대장동                            분당동
+                                                                                                                 정자동
+                                                판교동 백현동
+                                         하산운동                               율동
+
+                                                                                                           금곡동
+                                                            분당구청
+                                             분당구                                                     동원동
+                           석운동                                  서현동
+                                                            수내동
+                                             궁내동
+                                   대장동                                분당동
+                                                       정자동
+
+                                         동원동
+                                                금곡동
+                                                                                                                    구미동
+
+                                                         구미동
+
+
+                      분당구의 위치와 행정구역
+
+
+성남시사(50년사)
+
+                      38
+
+<!-- source: seongnam-history-50-vol-33.pdf p.039 -->
+### p.039
+
+1 성남시 승격과 분당마을
+
+
+  1968년 5월 7일 서울시는 건설부로부터 광주군 중부면 일대에 서울시의 무
+ 허가 건물 철거민들을 정착시키기 위한 이주 단지인 광주대단지 조성사업에
+ 대한 개발 인가를 받았다. 이듬해인 1969년 4월부터 공사를 착수하였고, 5월부
+ 터 철거민들의 대규모 집단이주를 시작하였다. 1968년 중부면의 인구는 대략
+ 6,000여 명 정도였는데, 1971년에는 15만여 명이 될 정도로 인구가 급증하였
+ 다. 그러나 도시적 기능과 생활 대책이 거의 없었기에 1971년 8월 10일 주민들
+ 이 집단으로 반발한 8·10성남(광주대단지)항쟁이 발생하게 되었다. 결국 이에
+ 대한 대책의 하나로 9월 13일 기존 광주군 성남출장소 관할의 6개 리와 돌마
+ 면, 낙생면, 대왕면 전 지역을 통합, 관할하는 경기도 직할 성남출장소로 승격
+ 시켜(경기도 조례 제470호) 현 수정구 신흥동에 출장소 사무실을 갖추었고, 광
+ 주대단지에 공업단지를 조성하기로 하였다. 그리고 10월 14일에 광주대단지의
+ 명칭을 성남단지로 개칭하였다.
+  시제 실시 전 1972년 기준 성남시의 총면적은 128.513㎢이며, 행정구역상 법
+ 정리는 37개 리, 조례상으로는 189개 리, 231개 자연부락, 1,198개 반이었다.
+ 이후 1973년 1월 1일 시제가 실시되면서 대왕면, 낙생면, 돌마면은 출장소로 개
+ 편되었으며, 시는 24개 행정동 및 41개 법정동으로 개편되었다. 태평동, 신흥
+
+
+                                                     part2 분당신도시의 탄생
+ 동, 중동, 성남동 등 옛 지명과 관계없는 새로운 동명은 이때 탄생하게 되었다.
+
+
+                                               39
+
+<!-- source: seongnam-history-50-vol-33.pdf p.040 -->
+### p.040
+
+1973년 7월 1일 경기도 성남출장소가 성남시로 승격하였다. 이때 성남시로 편입된 지
+                      역은 광주군의 낙생면, 돌마면, 대왕면 전체와 중부면의 6개 리(단대리, 탄리, 수진리, 상
+                      대원리, 복정리, 창곡리)였다. 대왕출장소와 낙생출장소 등 2개의 출장소에 태평동, 신흥
+                      동, 단대동, 은행동, 상대원동, 중동, 성남동, 수진동, 복정동, 신촌동, 고등동, 시흥동, 판교
+                      동, 운중동, 금곡동, 분당동, 이매동, 여수동 등 18개의 행정동으로 출발하였다. 1975년 3
+                      월 17일에는 돌마출장소가 신설되어 3개의 출장소 체제를 이루었다. 1979년 1월 1일 시
+                      조례 제306호에 의하여 상대원동이 상대원1동과 상대원2동으로 분동되어 3개 출장소 23
+                      개 동이 되었다.
+                       1981년 9월 1일 시 조례 제419호에 의하여 신흥2동이 신흥2동과 신흥3동으로 분동, 태
+                      평1동이 태평1동과 태평3동으로 분동, 단대2동이 단대2동과 단대3동으로 분동, 상대원1동
+                      이 상대원1동과 상대원3동으로 분동되어 3개 출장소 28개 동이 되었다. 1988년에는 수정
+                      출장소와 중원출장소를 설치하고, 기존의 돌마출장소, 대왕출장소, 낙생출장소는 폐지하였
+                      다. 이듬해인 1989년 수정출장소와 중원출장소를 각각 수정구와 중원구로 승격시켰다.
+                       성남시는 1989년 중앙정부의 주택 200만 세대 건설계획으로 또 한 번의 큰 변화를 겪
+                      게 된다. 서울의 택지 공급 부족으로 인한 아파트 가격의 폭등과 투기 열풍 등을 해결하기
+                      위해 수도권에 5개 신도시를 건설하게 되는데, 그 하나가 성남시 남단 녹지 지역에 건설된
+                      분당이었다. 1989년 신도시 개발 지역으로 지정된 분당은 구도시와 개발제한구역을 사이
+                      에 두고 위치하며, 전체 면적의 32.3%의 주거 용지에 9만 7,500세대, 39만 명을 수용하여
+                      서울시 강남 지역의 중산층과 서울시에 밀집되어 있는 상업 및 업무 기능의 일부를 이전
+                      시켜 인구 및 산업의 분산 효과를 노리며 계획되었다.
+                       1980년대 후반 서울시의 주택 문제는 심각하였다. 1986년 이후 무역수지의 호전으로
+                      유휴자금이 넘쳐 주택 수요가 급증하였다. 더욱이 1987년 5월 서울시의 올림픽 패밀리아
+                      파트 분양을 끝으로 중대형 아파트 공급이 사실상 중단되고 8학군 강남 지역에 대한 전세
+
+
+제33권 1기 신도시 분당의 변천①
+                      수요가 늘면서 아파트 가격이 폭등하였다. 이러한 주택 문제의 해결을 위해 1989년 4월
+                      신도시 개발계획이 발표되고, 1991년 9월 30일 첫 입주가 시작되면서 분당신도시가 출현
+                      하였다. 1991년 분당출장소를 설치하였다가 바로 분당구로 승격되었다.
+
+
+성남시사(50년사)
+
+                      40
+
+<!-- source: seongnam-history-50-vol-33.pdf p.041 -->
+### p.041
+
+2 1기 신도시 개발과 분당의 변화
+
+
+  분당신도시 건설계획은 주택 공급 물량 부족과 부동산 투기 등으로 인한 수
+ 도권의 주택 가격이 서울시 강남 지역의 중대형 아파트를 중심으로 폭등하고,
+ 이러한 추세가 지방으로 급격히 확산하기 시작하자, 1988년부터 정부가 추진
+ 해 오던 주택 200만 세대 건설계획에 따라 추진되었다. 1989년 4월 분당신도
+ 시 개발 사업 발표 당시는 서울의 주택난 해소를 위해 교외에 인구 42만 명 규
+ 모의 한적하고 안락한 주거 도시를 개발한다는 목표였다. 이때 과천시의 인구
+ 밀도를 기준으로 42만 명 수용을 계획하였으나, 분당의 경우 과천시에 비해 산
+ 지가 많고 개발 가능지의 비율이 부족하여, 39만 명으로 축소하였다. 또한 서울
+ 시의 베드타운형 도시가 예상되어 초기의 주거 도시 목표를 수정해야 하였다.
+ 따라서 적절한 산업을 유치하여 자족 기반을 확충하는 한편 시민의 여가 활동
+ 을 도시 내에서 수용할 수 있도록 다양한 시설의 유치도 계획하였다.
+  분당신도시의 주택과 도시기반시설은 5단계로 계획하였다. 1단계는 시범 단
+ 지와 택지 조성을 포함한 것으로 1991년에 완료되었고, 2~5단계는 주택 수요
+ 의 변동에 따라 신축적으로 조성하여 1992년에 완료하기로 설계되었다. 주택
+ 의 유형은 공동주택 위주로 하고 단독주택은 지형상 어쩔 수 없는 경우에만 포
+ 함시키기로 하였다. 공동주택은 아파트를 주로 하되 고소득층과 중산층의 기호
+
+
+                                                 part2 분당신도시의 탄생
+ 에 맞는 대형 연립주택과 서민층을 위한 소형 연립주택도 포함하였다. 유형별
+
+
+                                            41
+
+<!-- source: seongnam-history-50-vol-33.pdf p.042 -->
+### p.042
+
+배분 비율은 단독주택 3% 내외(2,800~3,000세대), 연립주택 7~8%(7,000~8,000세대),
+                      아파트 90% 내외(8만 6,000~8만 9,000세대)로 구성되었다. 아파트는 임대아파트, 국민
+                      주택(25.7평 이하), 국민주택 초과 분양 아파트 등으로 구분하였다. 1989년 11월에 4,630
+                      세대를 분양하기 시작한 주택은 10차에 걸쳐 총 4만 6,362세대가 공급되었다. 임대주택 1
+                      만 3,053세대, 국민주택 1만 9,349세대, 국민주택 초과 아파트 8,946세대이다.
+                       분당신도시 건설은 집단적 교외화(郊外化)의 특성을 보인다. 교외화는 일반적으로 중
+                      심 도시로부터 주변 지역으로 개인적 차원에서 점진적으로 진행되는 것이다. 그러나 분당
+                      신도시는 국가의 주도하에 수십만 명의 인구를 단기간에 교외로 끌어내는 방법을 취하였
+                      다. 분당은 서울의 주거 기능을 분담하기 위해 계획되었고, 독립적인 도시 기능을 수행할
+                      수 있는 하부구조를 갖추지 않은 상태로 서울의 대규모 교외 거주 지역으로 출발하였던
+                      것이다.
+
+
+                      분당신도시 건설 사업 개요
+
+                            개발 목적      대단위 주택지 조성으로 수도권의 주택난 해소
+                            위   치      성남시 분당구 21개 동(서울 25㎞ 지점)
+                            면   적      1,963만 9,000㎡(19.639㎢=1,963.9ha=594만 800평)
+                            수용 인구      39만 명(9만 7,000세대)
+                            인구 밀도      198인/ha(1만㎡)
+                            호수 밀도      49.7세대/ha(4인 1호 기준)
+                            사업 기간      1989. 8. 30.~1996. 12. 31.(7년 4개월)
+                            사업 시행자     한국토지공사(현 한국토지주택공사)
+
+
+                       1990년대에 분당신도시가 탄생하면서 모두 9차례의 행정구역 변화가 있었다. 1990년
+                      1월 1일 시 조례 제1014호에 의하여 태평2동이 태평2동과 태평4동으로 분동되어, 2개 구
+
+
+제33권 1기 신도시 분당의 변천①
+                      청 31개 동이 되었다.
+                       1991년 7월 1일 시 조례 제1134호와 제1153호에 의하여 분당출장소가 설치되었다. 또
+                      한 수정구 둔전동 일부는 중원구 성남동으로, 수정구 사송동 일부와 중원구 여수동 도촌
+                      동 일부를 분당구에 편입되어 2개 구청 1개 출장소 31개 동이 되었다. 1991년 9월 17일
+                      시 조례 제1152호에 의하여 분당출장소가 분당구청으로 승격되어 3개 구청 31개 동이 되
+                      었다.
+
+
+성남시사(50년사)
+
+                      42
+
+<!-- source: seongnam-history-50-vol-33.pdf p.043 -->
+### p.043
+
+1992년 5월 1일 시 조례 제
+1192호와 제1193호에 의하여
+분당동은 분당동·서현동·초림
+동으로 분동되었으며, 법정동
+간의 경계 일부가 조정되어 3
+개 구청 33개 동이 되었다.
+ 1993년 1월 20일 시 조례
+1253호에 의하여 분당동은 분
+당동·서당동·수내동으로 분동
+되고, 이매동은 이매동·매송
+동·하탑동으로 분동되어 4개       분당구청 전경(2023)
+
+동이 신설됨으로써 3개 구청
+37개 동이 되었다. 1993년 6월 5일 시 조례 제1272호에 의하여 분당동은 분당동과 내정
+동으로, 이매동은 이매동·중탑동·야탑동으로 분동되어 3개 동이 신설되고, 법정동 간의 경
+계가 조정되어 서현동 일부를 수내동으로, 정자동 일부를 수내동으로 편입하였고, 3개 구
+청 40개 동이 되었다.
+ 1994년 7월 1일 시 조례 제1323호에 의하여 법정동 간의 경계가 조정되었다. 서현동
+일부를 분당동으로, 수내동 일부를 정자동으로, 궁내동 일부를 수내동으로, 백현동 일부
+를 서현동으로 편입하였다.
+ 1995년 3월 6일 시 조례 제1360호에 의하여 내정동은 내정동과 정자동으로 분동되고,
+구미동 일부를 금곡동으로 금곡동 일부를 구미동으로 편입하였으며, 중원구 동원동 일부
+를 분당구 구미동으로 편입하여 법정동 간의 경계를 조정하였다. 3개 구청 41개 동이 되
+었다.
+ 1996년 1월 15일 시 조례 제1407호에 의하여 정자동은 정자동·불정동·신기동으로 분동
+되고, 금곡동은 금곡동·구미동으로 분동되어 3개 구청 44개 동이 되었다.
+ 2019년 10월 직제 개편으로 분당구청은 14과 65팀으로 편제되었으며, 2024년 1월 기
+준 직제 개편으로 14과 62팀으로 운영되고 있다.
+
+
+                                                        part2 분당신도시의 탄생
+
+
+                                                  43
+
+<!-- source: seongnam-history-50-vol-33.pdf p.044 -->
+### p.044
+
+3 신도시 개발 과정 중 발굴된 유적
+
+
+                            1970년대 후반까지 광주군에서 분리된 신생 도시인 성남 지역에서는 고고학
+                           적으로 주목을 끌 만한 발견이나 조사가 이루어지지 않았다. 1980년대 후반부
+                           터 1990년대 초반에 걸쳐 수도권 개발계획이 본격적으로 추진됨에 따라 고속
+                           도로 건설과 분당 지역에 대규모 택지개발이 이루어지면서 이 지역의 매장문
+                           화재에 대한 고고학적 조사가 비로소 시작되었다.
+                            1987년부터 판교-구리와 신갈-반월 간 고속도로 구간에 대한 조사를 통해
+                           삼평동 토기 산포지, 수진동 고인돌, 태평동 고인돌 등이 확인되어 발굴조사되
+                           었다. 1990년대에는 분당동 일대에 대한 대규모의 택지개발이 진행되면서 이
+                           지역에 대한 종합 학술조사가 진행되었다. 조사 결과 116기의 고인돌과 8기의
+                           적석총, 묘역, 역원지(驛院址), 봉수지, 절터 등이 새로 확인되어 학계에 보고
+                           되었고, 일부 유구는 분당 중앙공원 등지에 이전 복원되었다.
+
+
+제33권 1기 신도시 분당의 변천①
+                            2000년대 중반에 들어 성남시에서는 도촌동 택지개발과 판교지구의 택지개
+                           발 및 여수동 국민임대주택단지 조성사업, 위례신도시 조성사업 등 대규모의
+                           택지개발 사업이 연이어 시행되면서 다양한 유적이 확인되고 있다.
+                            첫째, 분당신도시의 유적을 살펴보자. 분당 지역이 택지개발 지구로 선정되
+                           면서 종합 학술조사가 시행되었는데, 그 결과 590만 평에 달하는 지역에서 많
+                           은 고인돌과 적석총 등이 새로 발견되었다. 이러한 대단위 지구를 발굴하기 위
+
+
+성남시사(50년사)
+
+                      44
+
+<!-- source: seongnam-history-50-vol-33.pdf p.045 -->
+### p.045
+
+해 한양대학교에서 지표조사 후 서울시 내 여러 대학 합동으로 분당 개발 전 대규모 발굴
+조사를 시행하였다. 지표조사 결과 얻어진 성과는 지석묘 116기, 적석총 8기, 묘역 6기, 역
+원지 1개, 봉수지 1개, 사지 2개, 사당 1동, 정자 1동, 민가 2동, 보호수 9기 등으로 조사되
+었다. 발굴조사 결과 지석묘로 추정되는 10기는 분당 중앙공원에 보관하고 있으며, 묘역
+4기·민가 1동· 보호수 9기는 기존 장소 및 기타 장소로 이전하여 보존 관리하고 있다.
+  분당동 지석묘군(支石墓群)은 분당동 337-2번지와 357-2번지 일대이다. 유적이 위치
+한 마을은 불곡산(312.9m) 동북쪽 능선의 형제봉(285.5m)과 청룡오리산(113m) 사이에
+길게 형성되어 있으며, 계단식 논과 뒷집머루골, 서낭당골, 가실고개길을 따라 이어져 있
+다. 조사 당시 크게 A와 B의 2개 군으로 나누어졌다. 당초 19기에 대한 조사를 계획하였
+으나, 발굴조사 과정에서 새롭게 추가된 것들까지 모두 22기에 대한 조사가 이루어졌다.
+2기에서 하부구조의 형태를 불완전하게나마 확인할 수 있었지만, 명확하지 않고 출토 유
+물이 없어 유적의 연대나 성격을 파악하지는 못하였다. 나머지는 모두 뚜렷한 하부구조가
+확인되지 않아 자연 암괴이거나 원래의 위치를 벗어난 것으로 판단되었다. 발굴조사 후
+분당동 357-2번지의 2기는 분당 중앙공원으로 이전 복원하였다.
+  야탑동 적석총군(積石塚群)은 삼국시대 적석총군으로 분당신도시 개발 과정에서 발굴
+조사되었는데, 발굴조사 후 모두 훼멸되었다. 야탑동 198-1번지 일대, 야탑천을 건너 윗
+탑골마을이 마주 보이고 동쪽으로는 야탑고등학교가 올려다보이는 위치에 있다. 이 지역
+은 높이 75m 내외 지역으로, 야탑천은 60m 정도였기 때문에 가장 낮은 곳은 수직 높이가
+15m 정도 되는 지점이었다. 적석총은 모두 8기였는데, 동서 42m, 남북 20m 정도의 범위
+내에 분포하고 있으며, 남북으로 12도 정도의 완만한 경사를 이루고 있다. 각각 5~6m 정
+도의 간격을 두고 동서 방향으로 2열을 이루며 분포하고 있었다. 발굴조사 결과 이 유적들
+은 지표 위에 막돌을 이용하여 분구(墳丘)15 형태로 쌓고 조잡하게 석곽을 만든 적석총으
+로 확인된다. 그러나 석곽 속에서 출토된 유물이 전혀 없고, 적석 유구 또한 교란이 심한
+상태였기 때문에 시대와 성격을 명확히 밝히지는 못하였다.
+  분구의 규모는 직경 4~5m 내외, 높이 1m 내외로서 대체로 20~30㎝ 정도의 막돌을 사
+용하여 쌓았다. 몇 기는 분구 중앙에 1m 내외의 큰 석재가 놓여 있고, 분구의 정상부 바로
+
+
+                                                            part2 분당신도시의 탄생
+15 인체를 안치한 매장 주체 부위에 이를 보호하기 위해 돌이나 흙을 쌓은 것을 말한다.
+
+
+                                                      45
+
+<!-- source: seongnam-history-50-vol-33.pdf p.046 -->
+### p.046
+
+아래에서 120×50×40㎝ 내외 규모의 석곽 시설이 발견된 것이 특징적이었다. 유구의 축
+                      조 방법이나 분포 상태 등을 고려할 때 적석총은 인위적으로 축조한 것이 확실하지만, 출
+                      토 유물 등 성격을 명확히 할 만한 물증 자료가 없는 상태이다.
+                        야탑동 지석묘군은 청동기시대 추정 지석묘군으로 분당신도시 개발 과정에서 조사되었
+                      는데, 발굴조사 후 모두 훼멸되었다. 야탑동 169-3번지·176번지·191-1번지·185번지 일
+                      대에 위치하는 A군과, 275번지·198-3번지·210번지의 B군, 그리고 C군이 있었다. A와 B
+                      군은 야탑동 상탑마을 일대의 산기슭과 논·밭 경작지 일대로, 양편으로는 높이 200~300m
+                      정도의 산지가 있고, 중앙부로는 계곡이 형성되어 있는 자연환경을 지니고 있다.
+                        A와 B군은 고려대학교 박물관, C군은 성균관대학교 박물관과 경희대학교 고고미술사
+                      연구소에서 발굴조사를 하였다. 조사 당시 크게 A·B·C군 등 3개 군으로 나누어졌으며, 이
+                      중 C군은 다시 2개 소로 분리되어 조사됨으로써 3개 군, 4개 소에서 조사되었다. A와 B군
+                      은 지표조사 결과에 따라 당초 16기가 조사될 예정이었으나 발굴조사 도중 지석묘의 상석
+                      으로 추정되는 석재들이 확인되어 모두 20기가 발굴조사 되었다.
+                        A와 B군 모두에서 지석묘의 하부구조는 확인되지 않았고, 상석 하부에서 개간 흔적과
+                      고하천이 흘렀던 흔적 등이 확인되었다. 출토 유물은 없었다. 하나의 C군에서는 모두 18
+                      기의 지석묘 조사가 이루어졌으나 하부구조가 확인된 것은 없었다. 모두 상석 하부에서
+                      교란된 층위가 확인됨으로써 지석묘와 관련이 없거나 후대의 인위적인 이동으로 결론지
+                      어졌다. 다만 주변 지역 조사에서 원삼국시대에 해당하는 유구(遺構)16가 확인되었는데,
+                      직경 76㎝ 정도의 매장 유구이다. 나뭇잎과 진흙층이 번갈아 깔려 있으며, 그 성격은 파악
+                      하기 어렵지만 매우 정교하고 주변에서 출토된 고배들이 소형이라는 점을 고려할 때 어떤
+                      특수한 의식과 관련되는 것으로 판단되었다.
+                        또다른 하나의 C군은 당초 16기가 조사 대상이었으나 발굴조사 과정에서 새롭게 5기가
+                      확인되어 모두 21기의 지석묘 발굴조사가 이루어졌다. 모두 지석묘의 하부구조로 볼 수
+
+
+제33권 1기 신도시 분당의 변천①
+                      있는 유구는 확인되지 않았으며, 심하게 교란된 상태를 보임에 따라 원래의 위치를 벗어
+                      난 것으로 판단되었다. 다만 주변 지역에서 초기 철기시대의 적갈색 연질 토기가 수습되
+                      어 이 지역 일대에 초기 철기시대의 유적 가능성이 확인되었다. 발굴조사 이후 일부는 분
+
+
+                      16 옛날 토목건축의 구조와 양식을 알 수 있는 실마리가 되는 자취.
+
+
+성남시사(50년사)
+
+                      46
+
+<!-- source: seongnam-history-50-vol-33.pdf p.047 -->
+### p.047
+
+당 중앙공원으로 이전하였다.
+ 정자동 지석묘군은 청동기시대 추정 지석묘군이었다. 분당신도시 개발 과정에서 건국
+대학교 박물관에서 발굴 조사하였고 조사 이후 훼멸되었다. 정자동 지석묘군은 정자동 82
+번지와 274번지 일대이다. 82번지 일대는 총 7기가 분포하고 있었는데, 유적의 북쪽으로
+는 판교에서 분당으로 들어가는 도로가 지나고 있었고, 남쪽으로는 높이 79m의 장작골
+산, 동쪽으로는 높이 63.2m의 낮은 구릉, 서쪽으로는 높이 74.2m의 낮은 구릉이 위치하
+여 지석묘군은 낮은 구릉의 중심지에 놓여 있었다. 274번지 일대의 B군 4기는 A군으로부
+터 남동쪽 1.2㎞ 지점으로 모두 논 경작지 가운데에 놓여 있었다. 조사 당시 크게 A와 B의
+2개 군으로 나누어졌으며, 모두 11기의 지석묘를 발굴조사하였다. 11기 모두 지석묘의 하
+부구조라고 볼 수 있는 것은 없었고, 출토 유물 또한 확인되지 않았다. 다만 2호와 5호 상
+석 부근에서 철제 칼 2점과 뱀머리형 연적 편 1점이 출토되었을 뿐이다.
+ 현재 분당구 수내동 산1-2번지 분당 중앙공원 한구석에 지석묘군이 있다. 이 지석묘들
+은 분당신도시 개발 과정에서 발굴 조사된 171기의 지석묘 중 일부이다. 이 171기의 지석
+묘는 발굴 조사 결과 대부분 자연 암괴(巖塊)17이거나 원래의 위치에서 벗어난 것들인 것
+으로 밝혀졌다. 다만 도촌동, 분당동 등지에서 지석묘의 하부구조 흔적이 확인되었으나
+심하게 교란되었고, 출토 유물 또한 약간의 무문토기 조각 등이 있어 부분적으로는 지석
+묘가 맞는 것으로 판단된다. 현재 분당 중앙공원에 놓인 지석묘들은 그중 대표적인 10기
+를 모아 지금의 위치로 이전한 것이다.
+ 이전하여 복원된 10기는 한양대학교 박물관에서 조사한 분당동 357-2번지의 190×
+152×53㎝ 규모를 가진 것과 200×126×60㎝ 규모를 가진 것 등 2기, 고려대학교 박물관
+에서 조사한 야탑동 191-1번지의 220×150×40㎝ 규모의 것과 250×140×30㎝ 규모의
+것 그리고 야탑동 185번지의 350×280×90㎝ 규모의 것 등 3기, 경희대학교 박물관에서
+조사한 야탑동 산30번지의 415×250×60㎝ 규모의 것 1기, 성균관대학교 박물관에서 조
+사한 야탑동 307번지의 210×170×30㎝ 규모의 것 1기, 숭실대학교 박물관에서 조사한
+도촌동 산83번지의 150×80×100㎝, 185×100×70㎝ 그리고 120×130×40㎝ 규모의
+것 등 3기로 구성되었다.
+
+
+                                                          part2 분당신도시의 탄생
+17 바위덩어리를 말한다.
+
+
+                                                    47
+
+<!-- source: seongnam-history-50-vol-33.pdf p.048 -->
+### p.048
+
+이 외에 분당신도시와 관련된 유적으로는 다음이 있다. 서현동의 백제 주거지는 2001
+                      년 한국토지공사 토지박물관의 학술조사를 통해 발견되었다. 이매사거리에서 동쪽의 이
+                      진봉(117.5m) 정상부에 있다. 행정구역상 서현동 산6번지와 이매동 산53-1번지에 걸쳐
+                      있다. 정상부는 북동-남서향으로 길쭉하게 경사가 완만한 평탄면을 이루고 있으며, 남쪽
+                      에 문화류씨의 묘 2기가 있다. 등산로 곳곳에서 경질 토기 편이 발견되었다.
+                        주거지가 노출된 곳은 정상부에서 북동쪽으로 약 20m 지점이다. 이곳에 체육 시설을
+                      설치하면서 약 99.2㎡ 정도의 평탄지가 조성되어 있다. 체육 시설을 설치하는 과정에서
+                      산 정상부 쪽에는 높이 3m 정도의 절단면이 노출되었는데, 이 절단면에 주거지 단면이 노
+                      출되어 있었다. 노출된 주거지는 3기인데, 가운데에 위치한 것이 가장 선명하게 보인다.
+                      주거지는 지표 아래 약 70㎝ 지점에 풍화 암반층을 파고 조성하였으며, 한쪽 면에는 주공
+                      (柱孔)18으로 보이는 직경 22㎝, 깊이 26㎝ 정도의 구덩이 단면이 보인다. 주거지 바닥선
+                      위에는 두께 5~15㎝ 정도의 목탄 포함층이 있으며, 위쪽은 적갈색의 점토가 쌓여 있다.
+                      현재 노출된 주거지 바닥 면의 길이는 약 3m이며, 수혈의 깊이는 30㎝ 정도이다. 유물은
+                      주거지 바닥 위에 쌓인 부식토 층에서 주로 발견되고 있는데, 경질 토기호가 주류를 이루
+                      고 있으며 적갈색이나 회갈색의 연질 토기도 보이며, 백제 고배 파편이 한 점 발견되어 유
+                      적의 성격과 편년 설정에 결정적인 증거를 제공해 주고 있다. 이 유적은 정상부의 완경사
+                      면을 따라가며 비교적 넓은 범위에 분포되어 있을 것으로 추정된다. 발견되는 유물의 양
+                      상이나 주거지의 양상 그리고 판교신도시 내에서 발굴조사된 한성백제시대 대규모 고분
+                      군 등의 양상을 통해 볼 때 한성백제시대의 성남 지역 문화상을 이해할 중요한 유적으로
+                      평가된다.
+                        고려시대 건물지(建物址)는 2001년 한국토지공사 토지박물관(현 토지주택박물관)의
+                      학술조사를 통해 발견되었다. 구 한국토지공사 사옥과 분당 이마트의 중간 지점에 있는
+                      불곡산 능선 말단부에 위치하는데, 정자동 259번지에 해당한다. 사방 10m가량의 평평한
+
+
+제33권 1기 신도시 분당의 변천①
+                      지대에 어골문이 찍혀 있는 고려시대 기와 파편과 경질 토기 파편이 산재하고 있었다. 이
+                      유물들을 근거로 고려시대로 추정할 수 있다. 건물지의 용도나 구조 또는 성격에 대해서
+                      는 발굴조사 등의 적극적인 조사를 통해서 규명이 가능할 것이라고 판단되나, 건물터의
+
+
+                      18 움집터의 바닥 같은 데에 기둥을 세우기 위하여 파 놓은 구멍.
+
+
+성남시사(50년사)
+
+                      48
+
+<!-- source: seongnam-history-50-vol-33.pdf p.049 -->
+### p.049
+
+입지로 볼 때는 정자(亭子)일 가능성이 높아 보인다. 고문헌상으로 확인되는 바는 없다.
+  기우제단 터는 수내동 산1-2번지 분당 중앙공원 내의 영장산 정상에 있었던 제단이다.
+예전에 숲 안과 역말 주민들이 날이 가물면 기우제를 지냈던 곳이라고 한다. 기우제는 산
+봉우리나 냇가, 연못 등지에 제단을 만들고, 그 일대를 신역으로 정하여 하늘에 제사를 지
+냈다. 지금은 그 흔적을 찾을 수 없으며, 대신 영장대(靈長臺)라고 이름 붙여진 팔각정과
+체육 시설이 들어서 있다.
+ 낙생역(樂生驛)은 김정호의 『대동지지(大東地志)』 「방여총지(方輿總志)」 고려 역도조
+(高麗 驛道條)에 의하면, 고려시대에 설치된 안업역(安業驛)이 조선 초기에 개칭된 것으
+로 추정된다. 도성의 양재역으로부터 천천현로(穿川峴路)를 지나 낙생역, 광주(廣州)→구
+흥(駒興), 용인(龍仁)→김령(金嶺), 용인(龍仁)→좌찬(佐贊), 죽산(竹山)→분행(分行), 죽
+산(竹山)→무극(無極), 음죽(陰竹)→강복(康福), 안성(安城)→가천(加川), 양성(陽城)→
+청호(菁好), 수원(水原)→장족(長足), 수원(水原)→동화(同化), 수원(水原)→해문역(海門
+驛), 남양로(南陽路)에 이르는 중요한 교통로에 위치한다.
+ 『신증동국여지승람』 광주목조에는 판교원(板橋院)과 같이 “주(州)의 남쪽 45리(里)에
+
+
+                                                        part2 분당신도시의 탄생
+낙생역(돌마역) 추정지
+
+
+                                                  49
+
+<!-- source: seongnam-history-50-vol-33.pdf p.050 -->
+### p.050
+
+있다.”고 하였으며, 『경기도읍지』의 『광주부읍지(廣州府邑誌)』(1842~1843)에는 “낙생
+                      역은 주의 남쪽 40리에 있는 돌마면에 있다(樂生驛在州南四十里突馬面)”라고 하였다.
+                      돌마면은 현재 분당신도시에 해당된다.
+                       낙생역은 조선 영조대에 편찬된 『여지도서(輿地圖書)』에 의하면, 돌마역(突馬驛)이라
+                      고 하였고, 당시에 말 5필, 역노비는 4명이 배치되었다. 돌마역의 위치에 대해서는 김기빈
+                      의 『분당의 땅이름 이야기』(1999)에서 돌마역은 수내동의 역말이라고 고증하였고, 너멋
+                      말(너머역말, 작은 역말)과 넘말고개(역말고개)를 설명하면서 너멋말은 지금의 수내동 푸
+                      른마을이 해당되고, 역말은 한산이씨 묘역 아래 숲 안에 있었던 마을이라고 하고 있다.
+                       즉, 낙생역(돌마역)은 지금의 분당 중앙공원과 수내동 푸른마을 주변이 옛 역터일 것이
+                      라고 추정하는 것이다. 분당 중앙공원 동쪽 남단에는 꽃마을 광장이 있는데, 이곳을 역말
+                      광장이라고 명명하고 있다.
+                       둘째, 판교신도시 및 대장지구 개발과 관련된 유적이 있다. 하산운동(下山雲洞) 추정
+                      지석묘군은 하산운동 107번지 뫼루니마을 뒤편의 완만한 경사지에 있다. 주변에 다양한
+                      크기의 화강편마암 암괴가 분포하는데, 형태가 장타원형을 이루고 있어 인위적인 조성 흔
+                      적이 엿보인다. 그러나 확실한 지석묘의 특징적인 구조는 확인하기 어렵다. 주변에서 청
+                      동기시대의 반월형 석도와 토기 파편 등이 발견되었다는 보고를 통해 볼 때 연관된 유적
+                      이 존재할 가능성이 있다.
+                       삼평동(三坪洞) 입석(立石, 선돌)은 2001년 한국토지공사 토지박물관(현 토지주택박
+                      물관)에서 실시한 지표조사에서 처음 위치가 확인되었다. 입석은 고인돌과 함께 우리나라
+                      청동기시대 거석문화의 일종으로 알려져 있다. 삼평동 입석은 성내미마을 안쪽의 도로변
+                      경작지에 남향하여 서 있었다. 이 유적의 주위로는 해발고도 100~150여m 내외의 야트막
+                      한 산지가 병풍처럼 둘러싸고 있으며, 선돌이 있는 경작지는 배후의 산지로부터 완만하게
+                      뻗어 내려온 능선의 말단부에 해당한다. 인근의 삼평동 야산 기슭에서 무문토기 파편 등
+
+
+제33권 1기 신도시 분당의 변천①
+                      이 발견된 예가 있어 청동기시대의 유적일 가능성이 높다.
+                       토지박물관에서 조사할 당시 채록한 주민의 말에 따르면, 20여 년 전 선돌이 있는 밭 가
+                      장자리의 실개천에 선돌을 걸쳐 놓고 다리로 사용하였는데 밭 주인이 거듭 화를 입어 무
+                      당을 불러 점을 쳤더니 이 돌을 원래 상태로 세우라 하여 다시 세워 두었다고 한다. 그리
+                      고 원래 놓여 있던 장소에 하수구가 생기면서 밭의 반대편 가장자리로 옮긴 것이라고 한
+                      다. 다시 말하면 최초 조사 당시 이미 원래의 위치와 지형을 잃어버린 것이다.
+
+
+성남시사(50년사)
+
+                      50
+
+<!-- source: seongnam-history-50-vol-33.pdf p.051 -->
+### p.051
+
+선돌의 형태는 전면과 후면이 편평한 판석형이며, 상단부가 반원형을 이루고 있다. 재
+질은 육안상 화강편마암류로 보이며, 규모는 높이 113㎝·폭 70㎝·두께 18㎝이다. 이러한
+판석형 입석은 충북 보은군 지산리와 진천군 월산리 등지에서 보고된 예가 있다. 비록 원
+위치를 잃었다고 하더라도 성남시에 이러한 선사 유적의 흔적이 있었던 사실은 중요한 의
+미가 있다. 이 유적은 판교신도시 건설 공사 과정에서 멸실되었으며, 주변에 대한 시굴조
+사 과정에서 직접적인 연관이 있는 유구나 구조물은 발견되지 않았다.
+ 판교신도시의 경우 택지개발 이전 대상 지역에 문화재가 매장 및 분포되어 있는지 확인
+하기 위해 2002년 문화재 지표조사를 실시하였는데, 조사 결과 총 24개 소에서 고고 유적
+이 확인되었다. 이들 유적에 대해 사업시행자인 LH와 경기도 및 성남시는 전문기관인 한
+국문화재보호재단(현 한국문화재재단), 고려문화재연구원 등에 의뢰하여 시굴조사를 착
+수하였으며, 그 결과를 바탕으로 2003년부터 2008년까지 발굴조사를 진행하였다.
+ 발굴조사 결과 구석기시대부터 전 시대에 걸친 유적과 유물 6,237점이 발견되었다. 이
+가운데 16구역(판교동)에서 모두 9기의 백제 횡혈식 석실분이 조사되었으며, 19구역(삼
+평동)에서도 2기의 횡혈식 석실분이 조사되었는데, 이는 한강 이남에서 보기 드문 고구
+려의 석실분이었다. 석실분의 보존 대책을 논의한 결과 문화재청에서는 백제 석실분 2기
+
+                                            판교박물관 전경
+
+
+                                                       part2 분당신도시의 탄생
+
+
+                                                 51
+
+<!-- source: seongnam-history-50-vol-33.pdf p.052 -->
+### p.052
+
+판교박물관 내부 백제와 고구려 고분군
+
+
+                      (5·6호분)는 현지 보존하고 나머지 백제 고분 7기(1·2·3·4·7·8·9호분)와 고구려 고분 2기
+                      (1·2호분)는 이전 복원할 것을 결정하였다. 이전된 석실분은 일반인들이 관람할 수 있도록
+                      복원하여 전시 및 교육 자료로 사용하고, 추후 연구자료로도 활용할 수 있도록 조치한 결
+                      과 판교박물관이 건립되었다.
+                       삼평동의 옹기요지(甕器窯址)는 삼평동 산2-12번지에 위치한 조선시대 가마터이다.
+                      판교 나들목과 독점마을의 뒤편 구릉 일대인데, 현재 뚜렷한 흔적은 보이지 않고 2001년
+
+
+제33권 1기 신도시 분당의 변천①
+                      한국토지공사 토지박물관(현 토지주택박물관)의 조사 당시 지표상에서 옹기 파편만 약간
+                      확인되는 정도였다. 독점마을은 일제강점기 때 동이점이라고 불리기도 하였으며, 당시부
+                      터 도기 가마가 운용되었던 것으로 알려져 있다. 그리고 근현대에도 옹기를 구워 생업을
+                      이어가는 사람들이 많이 모여 살았다. 지금은 독점마을이라는 지명에 그 흔적만 남아 있
+                      을 뿐이다.
+
+
+성남시사(50년사)
+
+                      52
+
+<!-- source: seongnam-history-50-vol-33.pdf p.053 -->
+### p.053
+
+분당 지역의 변화
+
+
+3
+     PART
+
+
+            1. 신도시 조성기(1990~2000)
+            2. 신도시 조성 이후 10년(2000~2010)
+            3. 성년의 분당(2010~2023)
+            4. 공간적 속성으로 본 분당의 지역성
+            5. 사회경제적 속성으로 본 분당의 지역 구분
+            6. 도시공간으로서의 분당의 지역 구분
+
+## PART 3 분당 지역의 변화
+
+<!-- source: seongnam-history-50-vol-33.pdf p.054 -->
+### p.054
+
+1 신도시 조성기(1990~2000)
+
+
+                            1971년 9월 13일 광주군 중부면의 6개 리와 대왕면, 낙생면, 돌마면을 합쳐
+                           서 경기도 성남출장소가 설치되었고, 1973년 7월 1일 성남시로 승격됨에 따라
+                           분당지구는 성남시 행정 관할의 일원이 되었다. 1988년 7월 1일 중원출장소 관
+                           할이었다가, 1989년 5월 1일 중원구로 승격됨에 따라 중원구 관할이 되었다.
+                           1989년 4월 27일에 발표된 분당신도시 개발계획에 의해 같은 해 6월 20일 분
+                           당지구 개발사업소가 설치되었다. 1991년 7월 1일 분당신도시 주민의 행정 편
+                           의를 위하여 분당출장소가 설치되었으며, 1991년 9월 17일에는 분당출장소가
+                           분당구로 승격되었다. 개청 당시 5개 동을 관할하고 있었으나, 법정동 간 경계
+                           조정과 행정동 분동 등의 행정구역 조정으로 13개 동으로, 다시 신설 또는 분동
+                           되어 분당동, 초림동, 내정동, 수내동, 신기동, 정자동, 불정동, 서현동, 서당동,
+                           이매동, 매송동, 야탑동, 하탑동, 중탑동, 판교동, 금곡동, 구미동, 운중동 등 18
+
+
+제33권 1기 신도시 분당의 변천①
+                           개 동이 되었다.
+                            1989년 4월 정부는 분당지구 일대 540만 평에 10만 5,000호의 주택과 도시
+                           시설을 갖춘 인구 42만 명의 신도시 건설계획을 발표하였다. 여기에 편입된 지
+                           역은 옛 광주군의 돌마면(분당, 정자, 수내, 서현, 이매, 여수, 율, 야탑, 도촌동
+                           등 9개 동), 낙생면(백현, 동원, 금곡, 삼평, 궁내, 구미동 등 6개 동), 대왕면의
+                           사송동, 그리고 용인군 수지면이었다. 오늘날 ‘분당’으로 불리는 지역은 1976
+
+
+성남시사(50년사)
+
+                      54
+
+<!-- source: seongnam-history-50-vol-33.pdf p.055 -->
+### p.055
+
+년부터 시장, 군수의 건축 허가권이 제한되었던 돌마면과 낙생면 일대(경부고속도로 동
+쪽)의 자연녹지 지역으로‘ 성남시 남단 녹지’ 또는 ‘남단 자연녹지’로 불려지던 곳이다. 개
+발 전 4,706세대 1만 5,423명이 거주하던 교외 공간으로 오이와 참외를 재배하던 지역이
+었다.
+ 또 당시 광주군에 편제되었던 경충대로(京忠大路)19 이남에서 동막천과 탄천이 합류하
+는 지점에 이르는 탄천 변의 농경지와 구릉지 일부가 분당신도시 개발 구역으로 지정되
+었다.
+ 분당신도시는 택지개발 계획에 의해 새로 건설된 신도시로 대규모 아파트촌을 이루고
+있어 주거 공간으로서의 성격이 강하다. 산업은 3차 산업이 주를 이루고 있다. 특히 그중
+에서도 도·소매업, 숙박 및 음식점업, 부동산 및 임대업, 교육, 서비스업 등의 비중이 상당
+히 높다.
+ 분당신도시는 1989년 12월 시범 단지 1차 분양 및 1991년 9월 30일의 첫 입주 이후
+성남시 인구의 반을 넘나들 정도로 비중이 커졌다. 분당신도시 입주가 시작되기 이전인
+1990년 성남시 인구는 14만 4,741세대 54만 764명이었고, 신도시 입주가 시작된 1991년
+말 시 인구는 16만 489세대 55만 8,262명으로 세대는 10.9%, 인구는 3.2% 증가하였다.
+1992년 인구는 3만 3,872세대 8만 7,531명으로 증가하였고, 시범 단지 서현동 8,766세대
+3만 276명, 분당동 5,178세대 1만 7,955명, 이매동 5,475세대 1만 8,325명, 판교동 1,783
+세대 5,841명, 금곡동 558세대 1,834명, 운중동 724세대 2,346명, 신설된 초림동 2,650세
+대 9,076명으로 분당신도시 인구는 2만 5,134세대 8만 5,653명이 되었다.
+ 1990년 54만 764명이었던 성남시 인구는 분당신도시 입주와 더불어 1992년 64만
+5,793명으로 60만 명을 넘어선 이후 1994년에 80만 명, 1996년 90만 명 돌파하였다. 분당
+신도시 입주가 거의 마무리된 1996년 이후 도시의 인구 증가 속도가 둔화하면서 1999년
+성남시 인구는 92만 1,204명을 기록하였다. 당시 본시가지인 수정구와 중원구의 인구는
+53만 1,119명이었지만 분당신도시가 자리한 분당구의 인구는 39만 85명으로, 신시가지
+의 인구가 도시 전체에서 차지하는 비중이 매우 커졌다.
+ 하지만 분당신도시의 자족 기능이 제대로 확보되지 못하였다. 이에 고용 기반 확충을
+
+
+                                                                            part3 분당 지역의 변화
+19 경기도 이천시 장호원읍 진암 교차로와 성남시 중원구 성남 나들목을 잇는 경기도의 도로이다. 전 구간이 국도 제3호선의 일부였으
+   나 OB맥주 이천공장 부근 삼거리에서 신선으로 이어진다. 경충산업도로, 경충국도라고 불리기도 하였다.
+
+
+                                                                      55
+
+<!-- source: seongnam-history-50-vol-33.pdf p.056 -->
+### p.056
+
+분당구 보건소 전경
+
+
+                      위해 다른 도시에 자리하고 있던 공기업을 비롯해 대형 쇼핑몰을 비롯한 도시기반시설이
+                      확충되었고, 이에 따라 분당신도시의 도시 기능이 점진적으로 강화되면서 분당신도시가
+                      성남의 도시 발전을 주도하는 상황으로 나아갔다.
+                       반면 탄천의 서쪽에 자리한 상적동, 금토동, 고등동, 시흥동, 석운동, 대장동 일대는 군
+                      사시설이 들어선 지역을 제외하면 대부분 산지와 농경지로 구성되어 농촌적 성격을 간직
+                      한 미개발지로 남았다. 또 서울에 거주하던 중산층이 분당신도시로 이주하고 성남시 남부
+                      에 신규의 도시공간이 형성됨에 따라 수정구와 중원구에 자리한 본시가지와 분당신도시
+
+
+제33권 1기 신도시 분당의 변천①
+                      는 같은 성남시 소속임에도 불구하고 서로 다른 성격을 가진 시가지로 발달하면서 공간의
+                      분절 현상이 가속화되었다.
+                       1992년 10월 12일 중원구 보건소에서 분당구 보건소를 분리하여 설치하였다. 1993년
+                      『성남시사(20년사)』가 간행되었고, 성남문화원 부설 향토문화연구소가 개소하였다.
+
+
+성남시사(50년사)
+
+                      56
+
+<!-- source: seongnam-history-50-vol-33.pdf p.057 -->
+### p.057
+
+2 신도시 조성 이후 10년
+  (2000~2010)
+
+
+   2001년 1월 1일 행정동 명칭이 분당동, 수내1동, 수내2동, 수내3동, 정자1동,
+  정자2동, 정자3동, 서현1동, 서현2동, 이매1동, 이매2동, 야탑1동, 야탑2동, 야
+  탑3동, 판교동, 금곡1동, 금곡2동, 구미동, 운중동 등으로 변경되었다. 2008년
+  9월 금곡1동과 금곡2동이 각각 금곡동과 구미동으로 변경되었다. 판교신도시
+  개발로 대규모 인구 유입이 예상되면서 2008년 12월 삼평동이 판교동에서 분
+  동하여 행정동이 되었고, 2009년 10월에는 행정동인 백현동이 설치되었다.
+   한편 2001~2005년 사이 분당선 전철 정자역, 미금역, 오리역 일대의 주상
+  복합 및 오피스텔 입주로 인한 인구 증가와 2008~2010년 판교신도시 입주로
+  인한 인구 증가는 주목할 만한 현상이다. 그러나 시가지의 확장이 성남시의 자
+  연적 성장에 따른 결과가 아니라 중앙정부가 추진한 신도시 개발계획에 의한
+  신시가지로 조성되었다는 점에서, 도시 내에서 이루어지는 토지이용, 경제활동
+  의 입지, 도시기반시설을 망라하는 도시공간의 성격이 서로 다른 속성을 지니
+  게 되었고, 이는 분절된 생활권 또는 도시공간을 창출하는 문제를 내포한다.
+   2001년에는 분당신도시 역세권 약 81만 평이 벤처기업육성촉진지구로 지정되
+  어, 이 지구에 다수의 민간 벤처빌딩 외에 SK텔레콤연구소, 삼성연구소, 포스데
+  이타 등의 대기업을 비롯해 GNG네트웍스 IDC센터, 전자부품연구원 등이 자리
+
+
+                                                      part3 분당 지역의 변화
+  잡았으며, 야탑동에는 약 5만 평의 분당테크노파크가, 정자동에는 약 10만 평의
+
+
+                                                 57
+
+<!-- source: seongnam-history-50-vol-33.pdf p.058 -->
+### p.058
+
+분당벤처타운이 조성되었다.
+                                                         2001년에는 성남시 여성문화
+                                                        회관이 설치되었고, 2001 성남
+                                                        시민 탄천 살리기 행사 개최, 사
+                                                        회복지 기관 성남만남지역자활
+                                                        센터 설립, 분당심포니오케스트
+                                                        라 설립, 성남 중앙도서관, 여성
+                                                        문화회관 개관, 성남시 중앙도
+                                                        서관(성남시 중앙문화정보센터)
+                                                        개관, 성남시 장애인예술제 등을
+                                                        개최하였다.
+                                                         2002년 2월에 성남 문화예술
+
+                      분당서울대학교병원 전경                      인들의 연합 단체인 한국민족예
+                                                        술인총연합 성남지부 설립, 3월
+                      18일 야탑동 탄천 변에 성남 제2종합운동장 건립, 4월 성남시립교향악단 설립, 7월 29일
+                      서현문화의집을 설립하였다. 2004년 12월 성남문화재단 설립, 2005년 9월 성남시립국악
+                      단 창립, 10월 성남시 지역사회복지협의체를 설립하였다.
+                       2008년에는 성남시지역청소년센터 개관, 성남 구미도서관 개관, 성남시 청소년 육성재
+                      단이 설립되었고, 12월 국가기록원 나라기록관이 개관하였다. 이로써 2000년대의 성남시
+                      는 문화예술 분야에서도 비약적인 발전을 이루어 사회복지와 더불어 문화복지의 선진화
+                      된 도시로 변모하였다.
+                       2003년 3월 1일 분당서울대학교병원 설립, 3월 3일 분당구에 독거노인과 치매노인을
+                      위한 ‘콜하우스제’ 시행, 7월에 주민 조례를 최초로 발의한 시민사회단체 연대조직인 성남
+
+
+제33권 1기 신도시 분당의 변천①
+                      시립병원설립운동본부가 설립되었다. 성남시 건강가정지원센터 설립(2006. 4), 노인 독감
+                      예방 접종 바우처제도 제정(2007. 3), 중원노인종합복지관이 설립(2008)되었다. 2009년
+                      6월부터는 최저 생계비 200% 미만의 저소득층 임산부와 영유아에게 일정 기간 영양 교육
+                      과 보충 식품을 지원해 주는 ‘영양 플러스 사업’을 시작하였고, 11월부터는 셋째 이상 출
+                      생아에게 순수 보장형 어린이 질병·상해 보험인 ‘성남 다자녀 사랑 안심보험’ 가입을 무료
+                      로 지원하였다.
+
+
+성남시사(50년사)
+
+                      58
+
+<!-- source: seongnam-history-50-vol-33.pdf p.059 -->
+### p.059
+
+3 성년의 분당(2010~2023)
+
+
+   2023년 현재 분당구는 면적 69.77㎢, 19만
+  2,848세대, 인구 47만 1,154명(남자 22만 8,331
+  명, 여자 24만 2,823명, 외국인 6,539명)이고,
+  22개 행정동, 723개 통, 4,372개 반으로 이루어
+  져 있다. 성남 도시 전체 인구(91만 9,747명)의
+  51.4%에 달하는 47만 2,957명이 분당구에 거주
+  한다. 수정구와 중원구에는 각각 23만 5,942명
+  과 21만 848명이 거주하고 있다. 따라서 분당구
+  의 인구 규모는 크다. 한편 정자동(102.9)을 제
+  외한 모든 지역에서 여자 인구가 남자 인구보다
+  많아 성비가 100에 미치지 못하였으며, 금곡동
+                                         한국학중앙연구원 표지석
+  (89.4), 정자2동(89.8), 정자1동(89.9), 구미1동
+  (90.3)과 같이 여초 현상이 두드러지는 지역이 많은 특징을 보인다.
+   분당구는 택지개발 계획에 의해 새로 건설된 신도시로 대규모 아파트촌
+  을 이루고 있어 주거 공간으로서의 성격이 강하다. 2001년 분당선 전철 역세
+  권을 축으로 벤처기업육성촉진 지구로 지정되어, 다수의 민간 벤처빌딩 외
+
+
+                                                             part3 분당 지역의 변화
+  에 SK C&C, (주)포스코 ICT 등의 대기업을 비롯해 삼성텔레스통신연구소,
+
+
+                                                        59
+
+<!-- source: seongnam-history-50-vol-33.pdf p.060 -->
+### p.060
+
+NHN(주), 호스트웨이 분당센터 전자부품연구소 등이 자리 잡고 있다. 야탑동에는 분당
+테크노파크가, 정자동에는 분당벤처타운이 조성되어 있다. 교통으로는 판교 나들목 판교
+분기점이 설치되어 경부고속도로와 판교-구리 간, 판교-평촌 간 수도권제1순환고속도로
+의 관문 역할을 하고 있고, 궁내동의 서울요금소 역시 서울로 드나드는 고속도로의 관문
+기능을 수행하고 있다. 분당-내곡 간 도시고속화도로, 분당-수서 간 도시고속화도로가
+관내 중심부를 통과하며, 국가지원지방도 제23호선, 국가지원지방도 제57호선과 다수의
+시도가 관내를 지나가고 있어 도로 교통망이 잘 발달하여 있다. 또한 분당선 전철 오리역,
+미금역, 정자역, 수내역, 서현역, 이매역, 야탑역 등과 신분당선 전철 판교역, 정자역이 입
+지해 있으며, 구시가지에 있는 모란역에서 서울지하철 8호선으로 환승이 가능하여 서울
+과 성남시 신시가지와 구시가지를 잇는 지하철 교통도 편리하다.
+ 연구기관으로는 한국의 전통과 문화를 연구하는 한국학중앙연구원과 현대 사회의 문제
+와 대안을 연구하는 현대사회연구소가 있다. 문화 시설로는 성남시 중앙도서관, 분당도서
+관, 구미도서관, 성남YMCA가 있으며, 탄천종합운동장이 있다. 아울러 91개의 교육기관
+과 134개의 공원을 확보하고 있다.
+
+
+한국학중앙연구원 본관
+
+<!-- source: seongnam-history-50-vol-33.pdf p.061 -->
+### p.061
+
+4 공간적 속성으로 본
+ 분당의 지역성
+
+
+  2016년에 수립된 ‘성남시의 도시공간 설정안’에 따르면, 분당 중심 생활권은
+ 하나의 독립된 권역으로 파악된다. 그 특징을 살펴보면 다음과 같다.
+  첫째, 1988년에 수립된 수도권 제1기 신도시 개발계획에 의해 조성된 분당
+ 신도시 전 지역을 포함하는 권역으로 시가지 개발의 시기가 오래된 본시가지
+ 와는 도시경관, 경제활동의 입지, 인구 속성 등이 뚜렷하게 구분되는 지역이다.
+  둘째, 시가지 개발이 이루어진 지 20년 이상의 시간이 지남에 따라 아파트를
+ 비롯한 주택단지의 노후화가 진행되었고 이를 해결하기 위한 리모델링 사업을
+ 추진한 지역이다.
+  셋째, 분당신도시를 남북으로 가로지르는 수인분당선의 정차 역을 중심으로
+ 하는 역세권이 형성됨에 따라, 역세권 중심의 행정, 문화, 상업, 업무 중심지로
+ 발전할 수 있는 복합 용도 개발을 통해 시가지의 자족 기능이 강화되고 있다.
+  이후 2020년에 제시된 ‘2035년 성남도시기본계획’에서는 판교신도시의 성
+ 장 잠재력을 고려하여 분당구에 분당과 판교 중심의 2개 권역을 설정하였다.
+ 하지만 도시 체계상 중심지 기능을 수행하는 도심이나 부도심 등의 장소 간 계
+ 층성을 고려하지 않고 수평적 개념으로 권역이 구상됨에 따라 중심지의 위상
+ 과 기능이 모호하게 설정되어 체계적인 권역 구분의 필요성이 대두되었다. 이
+ 에 성남시를 하나의 대생활권으로 설정하고 하위 지역을 북부 생활권, 중부 생
+
+
+                                                part3 분당 지역의 변화
+ 활권, 남부 생활권의 3개 중생활권으로 구분함으로써 미래지향적 소통 및 통합
+
+
+                                           61
+
+<!-- source: seongnam-history-50-vol-33.pdf p.062 -->
+### p.062
+
+의 생활권으로 재설정하고 지역 맞춤형 생활권 계획을 수립하였다.
+                       이러한 설정이 갖는 특성은 우선 생활 서비스의 공간적 제공 범위를 비롯해 각 지역의
+                      사회경제적 동질성 및 물리적 공간의 동질성을 고려하여 생활권을 설정한 것이다. 또한
+                      도시 기능의 입지에 따른 중심지, 고용 기능 확충, 주거 여건 개선, 교통 여건 개선, 생활
+                      기반 확충 및 자족성 강화, 지역 특화 전략 수립, 생활 인프라 확충 등을 통해 생활권별 여
+                      건 개선을 지향한다.
+                       이런 구분에서 분당 지역은 남부 생활권에 해당한다. 즉, 남부 생활권은 1990년대 들어
+                      본격적으로 개발된 수도권 제1기 신도시의 분당과 신규 개발지인 대장지구를 포함하는
+                      신시가지와 미개발지인 성남시 남서부 일부를 포함하는 범위이기 때문이다. 또한 분당신
+                      도시는 공동주택 단지들의 물리적 노후화가 진행되고 있으며 기존에 자리하고 있던 공기
+                      업의 이탈에 따라 지역 활력 요소의 발굴이 필요하다고 보인다. 한편 서울과 연계되는 철
+                      도 교통의 역세권을 중심으로 시가지가 발달하여 있는 특성이 있으며, 다른 지방으로 이
+                      전한 사업체의 이전적지(移轉籍地)20 및 유휴부지를 활용한 지역 경쟁력 강화가 필요하다
+                      고 적시하고 있다.
+                       또 2020년의 ‘성남 비전 2040 장기종합발전계획’에 따르,면 주거지를 중심으로 구성된
+                      본시가지와 신시가지, 경제활동이 집적한 산업단지와 상업지역으로 도시공간을 구분한다.
+                      주거지역은 수정-중원 본시가지, 분당신도시, 판교신도시 등으로 구성되는 3개의 중심 생
+                      활권과 위례신도시, 여수지구, 고등지구, 대장지구 등 4개의 소공간 권역으로 구분한다.
+                       이에 따르면 분당신도시는 수도권 신도시로 조성되어 입주 초기에는 주거지역으로서
+                      의 선호도가 높았지만, 기존 건축물의 노후화로 재건축 수요가 발생하고 있으며 개발 초
+                      기 신시가지의 이점이 상당 부분 감소한 지역이다. 이 지역은 분당 IT밸리가 조성되어 국
+                      내 IT산업을 대표하는 기업의 입지와 함께 분당신도시를 통과하는 철도 교통로를 따라 시
+                      가지 발달되어 있다. 거기에 지하철역을 중심으로 하는 역세권을 배경으로 삼은 상권들은
+
+
+제33권 1기 신도시 분당의 변천①
+                      여전히 성남의 대표적인 중심 상업지역에 해당한다.
+
+
+                      20 사업체가 실제로 이전한 주소 또는 새로운 사업장 위치를 말한다.
+
+
+성남시사(50년사)
+
+                      62
+
+<!-- source: seongnam-history-50-vol-33.pdf p.063 -->
+### p.063
+
+5 사회경제적 속성으로 본
+ 분당의 지역 구분                        21
+
+
+   도시공간에 내재하고 있는 사회경제적 속성으로 지역의 특성을 살피는 방
+ 법이 있는데, 지리속성행렬에 대한 인자분석을 통해 모두 7개의 유의미한 속
+ 성(공통 인자)이 도출되었으며, 이들 7개의 속성이 성남시 도시공간 구성의
+ 84.5%를 설명할 수 있다.
+   제1속성은 사회경제적 속성 가운데 인구 및 주택과 관련된 사회적 속성보다
+ 사업체 입지에 따른 경제적 속성의 상관성이 훨씬 강력하게 형성됨에 따라 상
+ 업업무 중심지의 속성으로 명명할 수 있다. 이 속성이 두드러진 지역은 서현1
+ 동, 정자1동, 야탑1동, 성남동, 위례동, 구미동, 수내1동 등 신시가지에 자리하
+ 거나 본시가지의 중심부에서 경제활동의 입지가 탁월한 곳이며, 속성이 약한
+ 지역은 신촌동, 은행1동, 고등동, 정자3동, 분당동 등 주거지로서의 성격이 강
+ 하거나 도시화의 수준이 상대적으로 미진한 외곽 지역이다.
+   제2속성은 전체 변동의 16.1%를 설명하며, 정보통신 및 생산자서비스 집적
+ 지의 특징을 가진다. 경제활동의 입지에서는 정보통신업, 사업시설 관리/사업
+ 지원 및 임대 서비스업, 전문/과학 및 기술 서비스업, 부동산업의 사업체와 종
+
+
+                                                                       part3 분당 지역의 변화
+ 21 제5절 사회경제적 속성으로 본 분당 지역과 유형화는 『성남시사(50년사)』 제29권 손승호의 ‘성남의 도시 공간구조
+    의 이해’(2025)를 참고하여 작성하였음을 밝힌다.
+
+
+                                                                 63
+
+<!-- source: seongnam-history-50-vol-33.pdf p.064 -->
+### p.064
+
+사자 수 규모가 탁월한 성격을 가진다. 이에 반해 다른 경제활동의 입지는 활발하게 이루
+                      어지지 않았다. 사회적 속성에서는 아파트의 비중이 높으며 노년 인구의 비중이 낮은 성
+                      향을 보이고 건축물의 연령도 상대적으로 낮은 특징을 가진다. 판교테크노밸리가 들어선
+                      삼평동에서 특징이 가장 두드러졌으며, 나머지 지역은 대체로 미약하다.
+                       제3속성은 전체 변동의 14.8%를 설명하며, 신규 공동주택 지역으로 특징지을 수 있는
+                      신시가지의 속성을 보유한다. 경제활동 관련해서는 교육서비스업의 입지가 두드러질 뿐
+                      나머지 업종의 입지는 활발하지 않다. 사회적 속성에서는 건축물의 연령이 낮은 특징을
+                      보이며 주택 유형은 아파트의 비중이 월등하게 높고 이 외 단독주택 및 다세대 주택의 비
+                      중은 매우 낮은 특징을 가진다. 인구 구성에서는 유소년 인구의 비중이 높고 노년 인구의
+                      비중과 청장년 인구의 비중이 상대적으로 낮은 특징을 가진다. 속성이 강하게 드러나는
+                      지역은 수내2동, 판교동, 위례동, 수내1동, 운중동, 도촌동, 이매2동, 정자1동, 야탑2동, 고
+                      등동, 백현동, 이매1동, 신흥2동 등 시가지 개발의 시기가 오래되지 않은 지역이다. 반면
+                      수진1동, 신흥3동, 태평1동, 신흥1동, 성남동, 상대원2동, 상대원3동, 복정동, 태평3동, 태
+                      평2동, 산성동, 중앙동 등 시가지 개발의 시기가 오래된 본시가지의 대부분 행정동에서는
+                      제3속성이 매우 미약하게 드러난다.
+                       제4속성은 전체 변동의 11.9%를 설명하며, 제조업 및 유통 단지의 특징이 강하게 형성
+                      되었다. 경제적 속성에서는 제조업 관련 사업체 수 및 종사자 수의 규모에서 강력한 상관
+                      관계가 형성되었으며, 뒤를 이어 운수 및 창고업의 사업체 수 와 종사자 수 규모가 큰 지
+                      역의 속성을 반영한다. 인구 및 주택 관련 속성에서는 뚜렷한 특징을 보이는 변수가 없으
+                      므로, 제4속성은 경제활동의 입지와 관련한 속성이 탁월하다. 성남일반산업단지가 입지
+                      한 상대원1동에서 가장 특징이 두드러지며, 분당테크노파크가 있는 야탑3동에서도 성격
+                      이 강하게 드러나는 속성이다.
+                       제5속성은 전체 변동의 5.6%를 설명하며, 고등교육기관의 입지를 보여주는 속성이다.
+
+
+제33권 1기 신도시 분당의 변천①
+                      경제활동의 입지에서는 교육서비스업의 사업체 수는 많지 않지만 종사자 수가 많은 특징
+                      을 보일 뿐, 다른 업종의 사업체 및 종사자 수는 탁월한 특징을 보이는 않는 속성이다. 주
+                      택 유형은 아파트에 비해 단독주택의 비중이 크게 형성되었으며, 건축물의 연령은 매우
+                      낮은 특징을 가진다. 인구 구성에서는 노년 인구의 비율이 특히 낮은 특징을 보이는 동시
+                      에, 성비가 높아 남자 인구의 비중이 크고 청장년 인구의 비중이 월등하게 높은 특징을 가
+                      진다. 고등교육기관(가천대학교와 동서울대학교)이 있는 복정동에서 성격이 가장 강하게
+
+
+성남시사(50년사)
+
+                      64
+
+<!-- source: seongnam-history-50-vol-33.pdf p.065 -->
+### p.065
+
+나타나고, 정자1동, 시흥동, 수내3동, 신촌동에서도 속성이 강한 편이다. 반대로 야탑2동,
+은행2동, 금곡동, 산성동, 단대동, 야탑1동에서는 속성이 약하게 표출된다.
+  제6속성은 전체 변동의 5.1%를 설명하며, 공동주택 중심의 인구 밀집 지역 속성을 가
+진다. 경제활동의 입지에서는 강력한 상관관계를 가지는 업종이 없으며, 운수 및 창고업
+의 사업체 수가 상대적으로 많은 특징이 있다. 주택 유형에서는 연립주택의 비중이 다소
+높은 가운데 인구 규모가 상대적으로 크게 형성된 인구 밀집 지역의 특징을 보인다. 위례
+동·야탑3동·은행2동·중앙동·운중동·도촌동·금광2동·성남동·금곡동 등지에서 이 속성이 강
+하게 나타나는 반면, 구미동·야탑1동·신촌동·수내2동·상대원2동·이매2동 등지에서는 속성
+이 매우 미약하게 드러난다.
+  제7속성은 전체 변동의 3.5%를 설명하며, 공공행정기관 밀집 지역의 속성이 강하게 드
+러난다. 경제활동 부문에서는 공공행정/국방 및 사회보장 행정에 종사하는 종사자 수의
+규모가 강력한 상관관계를 형성하였지만, 다른 업종에서는 특징이 강하게 드러나지 않는
+다. 주택 유형에서는 다세대 주택의 비중이 크지만 연립주택의 비중은 아주 작은 특징을
+가지며 단독주택의 비중도 낮게 형성되었다. 공공기관 및 행정기관이 자리한 정자1동·도
+촌동·수내1동·단대동·은행1동·신흥2동·은행2동 등지에서 성격이 강하게 드러나지만, 야탑
+3동·구미동·분당동·금곡동·운중동·구미1동 등지에서는 성격이 매우 미약하다.
+  이상의 7개 속성이 성남시의 도시공간을 구성하고 있는 주요 요소들이며, 이들 요소의
+중첩에 의한 7차원의 도시공간을 상정할 수 있다. 분당 지역에는 제2속성을 제외한 나머
+지 6개의 속성이 두루 나타난다. 손승호에 따르면,22 이러한 7개의 속성을 기반으로 비슷
+한 성격들로 공간을 묶는 9개의 유형화가 가능하다. 이에 따르면 분당 지역은 유형3, 유형
+4, 유형5, 유형6의 4가지 유형이 존재한다.
+  유형1은 제3속성(신규 공동주택 지역)의 특징이 가장 미약한 행정동으로 구성되는 전
+통적 주거 밀집 지역이고, 유형2는 제6속성(연립주택과 다세대 주택을 중심으로 한 인구
+밀집 지역)이 두드러지지만, 근래 들어 공동주택의 비중이 높아지는 행정동으로 구성된
+주거 환경 개선 지역이다.
+  유형3은 특정 속성의 영향력이 지배적으로 나타나지 않는 유형으로, 여러 가지 속성이
+
+
+                                                                  part3 분당 지역의 변화
+22 성남시사편찬위원회,  『성남시사』(50년사) 제29권, ‘성남의 도시 공간구조의 이해’, 2025.
+
+
+                                                             65
+
+<!-- source: seongnam-history-50-vol-33.pdf p.066 -->
+### p.066
+
+공존하는 점이지대23의 특징을 보이는 지역이다. 분당신도시의 남쪽 경계에 해당하는 구
+                      미동과 북쪽 경계에 해당하는 야탑1동의 2개 동이 포함된다. 야탑1동은 본시가지와 분당
+                      신도시 사이에 위치하고, 구미동은 분당신도시와 용인시의 경계부에 자리한 지역으로, 신
+                      시가지의 주변부 성격을 지니면서 신시가지와 기성 시가지 사이의 점이지대 성격을 보이
+                      는 동시에 상업업무 기능과 주거 기능이 혼재하는 성격을 가진다. 단독주택에 비해 아파
+                      트의 비중이 높은 지역이고 유소년 인구의 비율(10.4%)은 본시가지에 자리한 지역에 비
+                      해 높지만, 여타의 신시가지보다는 낮은 지역이다. 이와 함께 노년 인구의 비율(16.8%)은
+                      본시가지에 비해 낮지만, 신시가지에 비해 높은 수준이다.
+                       유형4는 제1속성(상업업무 중심지)이 강하게 반영된 행정동으로 구성되는 중심 업무지
+                      역으로 명명이 가능하다. 분당신도시에 위치한 수내1동, 정자1동, 서현1동 등 3개 행정동
+                      을 포함하며, 사회적 속성에 비해 경제적 속성에서 특징이 두드러지는 지역이다. 일부 업
+                      종(정보통신업, 운수 및 창고업, 제조업)을 제외한 대부분 업종에서 사업체 수와 종사자
+                      수의 규모가 큰 지역으로, 실질적인 성남시의 중심 업무지역이라 할 수 있다. 성남대로와
+                      수인분당선 철도가 통과하는 구간에 서현1동, 수내1동, 정자1동이 서로 접해 있으며, 분
+                      당구청, 분당경찰서, 분당소방서, 분당세무서 등의 공공행정기관을 비롯해 다양한 사업체
+                      가 도시철도역을 중심으로 강력한 역세권을 형성한 지역이다.
+                       성남대로의 동쪽으로는 아파트 위주의 주택 지역이 형성되어 있지만, 유형4는 주거지
+                      역으로서의 성격보다 상업업무 중심지로서의 성격이 강하다. 사회적 속성에서는 단독주
+                      택의 비중이 지극히 낮아 공동주택(아파트) 밀집 지역의 속성을 가지며, 분당신도시 개발
+                      사업으로 조성된 관계로 건축물의 평균 연령은 28년 내외의 시가지로 구성되었다. 유소년
+                      인구의 비율은 12% 내외로 본시가지에 비해 높은 수준이며 경제활동에 종사하는 청장년
+                      인구의 비율은 성남 시내 다른 지역에 비해 높은 특징을 가진다. 노년 인구의 비율은 14%
+                      에 미지치 못할 정도로 낮은 수준이다.
+
+
+제33권 1기 신도시 분당의 변천①
+                       유형5는 제3속성(신규 공동주택지의 성격이 강한 신시가지)이 가장 잘 드러나는 행정
+                      동으로 구성된 아파트 중심의 신규 개발 지역으로 명명할 수 있다. 수내2동, 수내3동, 정
+                      자동, 정자2동, 정자3동, 서현2동, 이매1동, 이매2동, 야탑2동, 금광1동, 백현동, 고등동,
+
+
+                      23 중간적인 현상을 나타내는 지역.
+
+
+성남시사(50년사)
+
+                      66
+
+<!-- source: seongnam-history-50-vol-33.pdf p.067 -->
+### p.067
+
+신촌동 등 13개 행정동을 포함한다. 수도권 제1기 신도시로 개발된 분당신도시를 비롯해
+주거환경 개선사업의 일환으로 공동주택이 건설된 본시가지의 일부 지역, 도시화 수준이
+상대적으로 낮은 지역을 대상으로 진행된 택지개발 사업이 진행된 지역 등을 포함하며 계
+획적인 시가지 건설이 진행되는 과정에서 규모가 큰 공동주택(아파트) 중심의 주택단지가
+입지한 지역이다. 고등동과 신촌동에서는 법정동별 지역 차가 있어, 모든 법정동이 유형5
+의 속성을 가지는 것으로 판단하기에는 무리가 따른다.
+  유형6은 제6속성(공동주택 중심의 인구 밀집 지역)이 반영된 행정동으로 구성되는 주
+거 기능 위주의 인구 밀집 지역으로 명명할 수 있다. 위례동, 분당동, 야탑3동, 금곡동, 구
+미1동, 판교동, 운중동 등 7개 행정동을 포함한다. 공동주택을 중심으로 거주 인구의 규모
+가 큰 주거지역으로서의 성격이 강한 반면, 공공행정기관 및 사업체의 입지가 미약해 업
+무 기능이 상대적으로 강하지 않은 지역이다. 2000년 이후에 개발된 시가지를 포함하는
+곳이 많으며 행정동별 인구 규모가 다른 유형의 행정동에 비해 큰 특징을 가진다. 행정동
+운중동에서는 법정동 운중동과 대장동이 유형6의 성격에 부합하지만 법정동 석운동과 하
+산운동은 성격을 달리한다.
+  유형7은 제5속성(고등교육기관의 입지)의 특징이 매우 강한 고등교육 지역이다. 유형8
+은 제4속성(제조업 및 유통단지)이 가장 강력하게 나타나는 행정동으로 구성되는 제조업
+지역이다. 성남일반산업단지와 하이테크밸리가 조성된 상대원1동으로만 구성된다. 유형9
+는 제2속성(정보통신 및 생산자서비스 집적)이 반영된 행정동으로 구성되는 첨단산업 발
+달 지역으로 명명이 가능하다. 판교신도시에 조성된 판교테크노밸리의 중심 지역으로 기
+능하는 삼평동으로만 구성된다.
+  또한 교통량과 내용을 기준으로 분석하여 총목적 통행을 살펴보면 고유치(固有値, eigen
+value)24가 1.0을 넘어 유의미하게 판별된 11개의 유동 패턴이 추출된다. 이 11개의 유동패
+턴이 가지는 누적 설명량은 84.28%로 높은 수준에 속한다. 분당 지역에는 주로 제1, 제6,
+제7, 제8, 제11의 유형들이 적용된다.
+  상위에 자리한 제1유동패턴부터 제3유동패턴까지가 전체 54.90%의 누적 설명량을 기
+록해 성남시 내부에서 이루어지는 공간 상호작용을 대표하는 통행권에 해당한다. 상위 3
+
+
+                                                                                part3 분당 지역의 변화
+24 선형 공간에서 영 벡터가 아닌 어떤 벡터에 선형 연산자를 작용시킨 결과가 그 벡터의 상수 배가 될 때의 바로 그 상수. 또는 같게 될
+   때의 그 정수.
+
+
+                                                                          67
+
+<!-- source: seongnam-history-50-vol-33.pdf p.068 -->
+### p.068
+
+개 통행권은 통행량의 집중도가 높고 공간 범위도 넓게 형성된 성남시의 대통행권 개념으
+                      로 이해할 수 있으며, 도시화의 시기 및 간선도로 등에 의해 성남 시민의 생활권이 분리된
+                      것을 확인할 수 있다.
+                       제1유동패턴은 개별 설명량이 24.79%에 달하는 성남시 제1의 통행권에 해당하며, 분
+                      당신도시에 자리한 지역을 중심으로 구성된 분당권을 형성한다. 주요 출발지에는 정자1
+                      동, 야탑1동, 수내1동, 서현1동, 삼평동, 금곡동, 분당동, 백현동, 구미1동, 구미동, 정자동,
+                      야탑3동 등지가 포함되었다. 주요 도착지로는 수내3동, 정자3동, 야탑2동, 정자2동, 이매
+                      1동, 정자동, 야탑3동, 삼평동, 판교동, 야탑1동, 구미동, 금곡동, 정자1동, 백현동, 분당동,
+                      서현1동, 수내1동, 운중동 등지가 포함되었다. 도시철도역을 중심으로 통행의 중심지가
+                      형성되었고, 역에 인접한 지역이 함께 연계된 통행권이다.
+                       제6유동패턴은 개별 설명량이 4.03%이며, 분당신도시에 자리한 지역이 주요 출발지와
+                      주요 도착지를 이루는 수내이매권이다. 주요 출발지에는 백현동, 판교동, 분당동, 수내2동
+                      등지가 포함되고, 주요 도착지로는 수내2동, 이매2동, 금광1동이 포함된다.
+                       제7유동패턴은 개별 설명량이 3.45%이며, 분당신도시의 서남부에 자리한 지역이 주요
+                      출발지와 주요 도착지로 구성되는 구미권이다. 주요 출발지는 구미동, 판교동, 삼평동, 구
+                      미1동, 정자1동, 수내1동, 서현2동 등이 있다. 주요 도착지는 구미1동, 서현2동, 운중동,
+                      수내1동, 구미동 등지로 구성된다.
+                       제8유동패턴은 개별 설명량이 3.41%를 기록하였으며, 분당신도시의 일부 지역과 본시
+                      가지의 일부 지역 및 도시 서북부의 도농복합 지역의 성격을 가지는 지역이 연결된 수진
+                      권이다. 주요 출발지에는 수진2동, 복정동, 신흥2동, 야탑1동, 수내1동, 삼평동 등지가 포
+                      함된다. 주요 도착지로는 수진1동, 서현1동, 산성동, 신촌동, 태평1동, 태평2동, 고등동이
+                      추출되었다.
+                       제11유동패턴은 개별 설명량이 2.47%이고, 본시가지와 분당 신시가지의 일부 지역이
+
+
+제33권 1기 신도시 분당의 변천①
+                      연결된 이매권이다. 주요 출발지에는 도촌동, 복정동, 삼평동, 이매1동, 야탑1동, 정자동,
+                      서현2동, 수내2동, 태평3동 등지가 포함되고, 주요 도착지로는 이매2동이 포함된다.
+
+
+성남시사(50년사)
+
+                      68
+
+<!-- source: seongnam-history-50-vol-33.pdf p.069 -->
+### p.069
+
+6 도시공간으로서의 분당의 지역 구분
+
+
+   성남시를 하나의 대권역으로 할 때 분당 지역은 4개 중지역 가운데 하나이
+ 고, 9개의 소지역 가운데 둘을 포함한다. 다음 표에서 자세하게 설명한다.
+
+
+ 성남시 도시공간의 구분
+
+   대지역      중지역          소지역                   법정동(행정동)
+                                   신촌동, 오야동, 심곡동, 둔전동, 고등동, 상적동,
+                       고등신촌지구
+          고등위례지구                   사송동, 시흥동, 금토동
+                        위례지구       창곡동, 복정동
+                                   태평동, 신흥동, 수진동, 단대동, 산성동, 양지동,
+                       원도심지구
+                                   은행동, 금광동, 중앙동 성남동, 상대원동, 하대원동
+          수진중원지구
+                        신흥지구       신흥동(신흥2동)
+   성남시
+                       여수도촌지구      여수동, 도촌동, 갈현동
+                       분당중앙지구      야탑동, 이매동, 율동, 서현동, 수내동, 분당동, 정자동
+            분당지구
+                       구미금곡지구      구미동, 궁내동, 금곡동, 동원동
+                        판교지구       백현동, 판교동, 삼평동, 운중동
+          판교대장지구
+                        대장지구       대장동, 하산운동, 석운동
+  출처 : 성남시사편찬위원회, 『성남시사(50년사)』 제29권, ‘성남의 도시공간구조의 이해’, 2025.
+
+
+   이에 따르면 분당지구는 분당 신시가지가 최초로 조성되었고 주거 기능 및
+
+
+                                                                        part3 분당 지역의 변화
+ 상업업무 기능이 강력한 서현동을 중심으로 하는 분당중앙지구와 분당신도시
+
+
+                                                                   69
+
+<!-- source: seongnam-history-50-vol-33.pdf p.070 -->
+### p.070
+
+의 남단에서 용인시와 경계를 형성하며 일부 미개발지를 포함하는 구미금곡지구의 2개의
+                      소지역으로 구분한다.
+
+
+                       1) 분당신도시의 시작점 분당중앙지구
+
+                       해당 법정동(행정동)은 야탑동(야탑1동, 야탑2동, 야탑3동), 이매동(이매1동, 이매2동),
+                      서현동(서현1동, 서현2동), 율동(서현1동), 수내동(수내1동, 수내2동, 수내3동), 분당동(분
+                      당동), 정자동 (정자동, 정자1동, 정자2동, 정자3동) 등 7개 법정동과 15개 행정동이다.
+                       1989년 4월에 발표된 수도권 제1기 신도시 개발계획에 의해 19.6㎢의 부지에 인구 39
+                      만 명을 수용할 수 있도록 대규모로 조성된 분당신도시의 중심을 형성하는 지역이다. 서
+                      울의 인구 및 주택 문제를 해결하기 위해 계획된 당시의 신도시 가운데 가장 규모가 컸으
+                      며, 한국형 신도시의 새로운 모델로 자리매김하고자 분당신도시 입주가 본격화하기 이전
+                      인 1991년 서현1동에 시범 단지가 조성되었으며, 정자3동에는 주택전시관과 주택공원(분
+                      당주택공원)이 조성되었던 분당신도시의 시발점이 되었던 지역이다.
+                       아파트 중심의 신시가지가 개발되면서 많은 인구가 유입된 결과 인구 밀집 지역으로 발
+                      전하게 되었으며, 그에 따라 기존의 자연 마을을 중심으로 경계가 설정되었던 하나의 법
+                      정동이 확대된 행정수요에 대응하기 위해 다수의 행정동으로 분동되었다. 성남시의 본시
+                      가지에 비해 본격적인 도시화의 시기가 늦으며, 분당신도시 내에서는 시범 단지가 조성되
+                      고 교통 결절점의 기능이 강하였던 서현동 일대에서 시가지가 상대적으로 빠른 시기에 조
+                      성되었고, 남쪽으로 향할수록 시가지 조성 시기가 다소 늦은 특징을 보인다.
+                       분당신도시는 경기도 광주시와 성남시의 경계를 이루는 영장산에서 남쪽으로 뻗어내
+                      려 불곡산으로 이어지는 산줄기의 서사면과 성남시를 남북 방향으로 관통하는 탄천의 사
+
+
+제33권 1기 신도시 분당의 변천①
+                      이에 조성된 신시가지이다. 분당중앙지구의 서쪽은 탄천과 분당-수서 간 도시고속화도로
+                      를 기준으로 수도권 제2기 신도시로 개발된 판교신도시와 나뉘고, 북쪽은 여수천을 기준
+                      으로 성남시청이 자리하고 있는 여수도촌지구와 경계가 설정된다. 탄천 서쪽은 경부고속
+                      도로가 분당신도시의 남부에 자리한 구미금곡지구와 경계를 형성한다. 시가지 동쪽의 산
+                      지는 최고 해발고도 400m를 넘는 봉우리로 이루어져 있으며, 탄천이 흐르는 주변 지역의
+                      해발고도 30~40m 내외로 낮지만, 동부의 산지는 경사도가 비교적 큰 편이어서 시가지 개
+
+
+성남시사(50년사)
+
+                      70
+
+<!-- source: seongnam-history-50-vol-33.pdf p.071 -->
+### p.071
+
+발이 쉽지 않은 지형 조건을 가진다. 탄천 변으로는 해발고도 100m 내외의 구릉지와 구릉
+지 사이에 형성된 계곡을 따라 평지가 자리하였으며, 이들 구릉지 및 평지를 대상으로 신
+도시가 조성되었다.
+ 탄천의 상류부에서는 하천의 동쪽에 비해 서쪽에 농경지로 이용되던 평지가 많았으며,
+본시가지 방향으로 이동하면 하천의 동쪽과 서쪽 하안에 모두 넓은 농경지가 분포하였
+다. 분당신도시의 북단에 자리한 야탑동 일대에서는 탄천이 도시 서쪽의 산지에서 흘러오
+는 운중천과 합류하는 지점에 넓은 농경지가 형성되어 있었고 남쪽에서는 탄천이 분당신
+도시의 동쪽에서 흘러오는 분당천과 합류하는 지점에 넓은 농경지가 자리하였다. 분당중
+앙지구는 탄천 동쪽에 있는 일부 구릉지를 평탄화하고 농경지를 시가지로 개발할 수 있는
+유리한 지형적 조건을 갖추었던 지역이다.
+ 1970년대 성남시가 비약적으로 성장하는 과정에서 드러난 인구문제 및 과밀화를 억제
+하기 위해 본시가지 남단의 여수동, 도촌동, 갈현동을 따라 1976년 설정되었던 남단 녹지
+가 본시가지의 수평적 팽창을 막아주었기에 분당신도시의 북쪽 끝 지점인 야탑동은 건축
+물의 신축과 같은 개발 행위가 금지되지 않았던 지역이다. 남단 녹지는 본시가지의 팽창
+을 억제하기 위해 일련의 개발 행위를 금지하는 개발제한구역과 같은 성격을 지니는 구역
+
+
+                                                     part3 분당 지역의 변화
+탄천종합운동장 전경
+
+
+                                                71
+
+<!-- source: seongnam-history-50-vol-33.pdf p.072 -->
+### p.072
+
+이었다.
+                       동부의 산간에는 탄천 주변의 농경지에 농업용수를 공급하기 위해 분당저수지, 서현저
+                      수지, 이매저수지 등이 축조되었으며, 분당저수지의 규모가 가장 컸다. 분당저수지에서
+                      분당천이 발원하고 서현저수지에서 황토골천이 발원한다. 이매저수지는 신도시 개발 과
+                      정에서 사라졌다. 시가지 동쪽의 산지가 미개발 상태로 유지됨에 따라 대체로 임야가 잘
+                      보존되어 있으며 시가화 구역과 비시가화 구역이 경관상 뚜렷하게 구분된다. 시가지가 동
+                      쪽의 산지와 연결되는 지역에서는 농경지로 이용되거나 개발이 이루어지지 않은 미개발
+                      상태의 토지이용이 지배적으로 나타난다.
+                       율동(서현1동)과 서현동(서현2동)에는 농경지로 이용되는 토지가 많으며, 율동은 도시
+                      적 토지이용의 비중이 지구 내에서 가장 낮은 지역으로 동 전체 면적의 75%가 임야로 둘
+                      러싸여 있다. 율동의 매지봉 남쪽 사면에 자리한 국군의무사령부 및 국군수도병원를 비롯
+                      한 군부대는 임야의 지목을 전환하거나 도시개발에 제한을 가하는 요소이다. 산지 사이에
+                      형성된 골짜기를 따라서는 새마을천과 중간말천 등의 소하천이 서쪽의 시가지 방향으로
+                      흘러 내려오면서 그 주변에 농경지를 발달시켰고 서현저수지의 남쪽에는 시가지와 새마
+                      을로 사이에 넓은 농경지가 남아 있어 주말농장으로 이용되고 있다.
+                       시가지의 밀집도가 높은 수내동과 정자동은 농경지가 거의 존재하지 않아 농경지와 임
+                      야의 비중이 16% 내외에 불과한 반면, 대지·도로·학교 용지·공원의 비중이 65%를 상회할
+                      정도로 도시화의 수준이 높은 지역이다. 시가지 개발의 시기가 오래되면서 건축물의 평균
+                      연령은 27년을 상회하였으며 점진적으로 노후 건축물이 증가하는 추세이다.
+                       주택 공급을 목적으로 신도시 개발 사업이 진행된 결과 많은 인구를 수용할 수 있는 공
+                      동주택을 중심으로 주거 단지가 조성되었고, 주거 단지와 별도로 상업 시설 및 공공업무
+                      시설 등이 분리된 공간에 입지함으로써 토지이용의 지역 분화가 뚜렷하게 이루어졌다. 분
+                      당중앙지구로 구분된 지역의 주택 유형은 아파트가 전체 주택의 76.6%를 차지하고 단독
+
+
+제33권 1기 신도시 분당의 변천①
+                      주택의 비중은 17.1%로 성남시 전체의 주택 유형과는 큰 차이가 있다. 이 외에 연립주택
+                      과 다세대 주택이 일부 건축되었다.
+                       수내1동, 수내2동, 정자1동, 정자2동, 이매2동은 단독주택이 전혀 개발되지 않은 순수
+                      아파트 밀집 지역으로 조성되었고, 분당동, 수내3동, 정자1동, 정자3동 등지는 단독주택의
+                      비율이 30%를 넘어서면서 아파트와 단독주택이 혼재하는 지역이다. 아파트 단지 내의 상
+                      가와는 별도로 주상복합건물이 많은 정자동, 수내3동 등지에 상업 시설이 집적한 상업지
+
+
+성남시사(50년사)
+
+                      72
+
+<!-- source: seongnam-history-50-vol-33.pdf p.073 -->
+### p.073
+
+구가 조성되어 있다.
+ 수인분당선의 야탑역, 서현역, 수내역, 정자역 등을 중심으로 하는 역세권을 기반으로
+대규모 상업지역이 발달해 있으며, 이들 역 주변에는 업무 기능의 입지도 활발하게 이루
+어져 있다. 도시철도역을 중심으로 상업업무 기능 및 공공기관 등이 밀집해 있는 관계로
+역세권 내에서 상업 기능과 업무 기능이 매우 발달해 있지만, 경강선과 수인분당선이 만
+나는 이매역 일대에는 주거 기능이 훨씬 탁월하게 발달한 차이점이 있다.
+ 수인분당선의 서현역에서 수내역에 이르는 구간에는 분당구청, 분당소방서, 분당세무
+서, 분당우체국, 경기도성남교육지원청, 국민건강보험공단 성남남부지사 등의 공공기관
+을 비롯해 연구기관, 병원, 금융기관, 백화점, 숙박업소, 오피스텔, 음식점 등이 집적해 있
+다. 이에 따라 성남대로와 탄천의 사이에 자리한 서현1동과 수내1동의 역세권은 분당구의
+공간 범위를 넘어 성남시의 중심지 기능을 수행하면서 주변에 자리한 용인, 광주, 등지에
+대해서도 중심성을 강화시키고 있다.
+ 고속도로, 도시고속화도로, 도시철도, 광역버스 등의 교통망이 잘 발달해 있고 주변 지
+역과의 공간 상호작용이 원활하여, 성남시 전 지역을 넘어 인접한 도시까지 영향권 확대
+한다. 경부고속도로와 수도권제1순환고속도로에는 판교 나들목을 통해 빠르게 접근할 수
+있으며, 남쪽의 일반지방도 제334호선을 이용해 서판교 나들목을 통과하면 용인서울고속
+도로에 진입이 가능하다. 분당신도시 내에서 분당-수서 간 도시고속화도로가 경부고속도
+로와 평행하게 남북으로 개설되어 있어, 이를 이용해 분당-내곡 간 도시고속화도로로 진
+입이 가능하므로 서울 방면으로의 교통 접근성도 양호하다.
+ 시가지 중앙부를 관통하는 성남대로와 돌마로를 통해 본시가지로의 접근성이 향상되었
+으며, 시가지를 동서로 통과하는 국가지원지방도 제57호선(서현로)을 이용해 판교 나들
+목과 경기도 광주시 방면으로의 교통 여건이 양호하다. 성남대로와 미금로는 남쪽의 용인
+시 방면으로 연결되는 간선도로의 역할을 수행한다. 이 외에 시가지 내부를 연결하는 정
+자일로, 황새울로, 내정로, 불정로, 정자로, 느티로, 백현로, 수내로, 분당로, 새마을로, 판
+교로, 야탑로, 장미로, 양현로, 여수울로 등이 직교형의 간선 도로망을 구축하고 있다.
+ 도시철도로는 광역급행철도인 GTX-A를 비롯해 신분당선, 수인분당선, 경강선 등이
+사방으로 뻗어 있는 교통 요충지이다. GTX-A와 경강선이 만나는 성남역, 신분당선과 수
+인분당선이 교차하는 정자역, 경강선과 수인분당선이 만나는 이매역 등이 주요 환승역으
+
+
+                                                        part3 분당 지역의 변화
+로 기능하고, 이와 별도로 수인분당선에 수내역, 서현역, 야탑역이 설치되어 있어 지구 내
+
+
+                                                   73
+
+<!-- source: seongnam-history-50-vol-33.pdf p.074 -->
+### p.074
+
+에서 도시철도를 이용하기에 매우 편리하다. 경강선 철도의 기점이자 신분당선이 통과하
+                      는 판교역으로의 접근성도 양호하다. 이들 역을 중심으로 한 역세권이 상업업무의 중심지
+                      로 성장하였지만, 분당중앙지구의 동쪽에 자리한 시가지는 도시철도역으로의 도보 접근
+                      성이 다소 불리한 지역을 포함한다.
+                       시가지의 노후화가 진행됨에 따라 2006년부터 인구 규모가 감소하고 있다. 1990년대
+                      성남시 인구 증가를 견인하였던 지역이 분당신도시이지만, 분당신도시 거주자들의 주변
+                      지역을 향한 이주가 본격화하면서 성남시의 인구는 2005년 이후 감소하기 시작하였는데,
+                      여기에는 분당신도시 거주자의 인구 감소가 가장 큰 요인으로 작용하였다.
+                       분당구의 인구는 2005년까지 증가 추세를 지속해 왔지만, 2006년부터 감소하다가 다시
+                      2009년부터 증가 경향으로 전환되었다. 2009년부터 분당구의 인구가 증가한 이유는 서판
+                      교에 해당하는 운중동에서의 도시개발에 기인하는 것이며, 이 시기에도 분당신도시의 인
+                      구는 지속적으로 감소하였다. 분당중앙지구의 인구 규모는 2005년 이후 2023년에 이르기
+                      까지 꾸준히 감소하고 있다. 특히 야탑3동, 분당동, 정자2동, 이매1동 등지에서 인구 감소
+                      현상이 두드러지게 나타났다. 분당중앙지구의 인구 감소에는 출산율의 하락과 같은 요소
+                      도 있지만, 주변 지구에 조성된 판교신도시 및 대장지구는 물론 용인시의 수지지구와 같
+                      은 신규의 도시공간과 대비되는 노후 주택의 문제점도 원인으로 작용한다.
+                       인구 감소는 주로 30대와 40대의 젊은 연령층에서 이루어짐에 따라 그들의 2세에 해당
+                      하는 10대 이하의 청소년과 유소년 인구 감소가 동반되었지만, 50대 이상의 연령층에서
+                      는 모두 인구가 증가하였다. 이는 지구 내 평균 연령의 상승 및 고령화의 진행으로 이어
+                      졌으며 대부분 지역에서 노년 인구의 비율이 유소년 인구의 비율보다 높게 형성되었다.
+                      2023년 기준 유소년 인구의 비율은 대부분 행정동에서 12% 내외를 기록하였지만, 수내2
+                      동(20.5%)과 수내3동(14.9%)은 상대적으로 높은 값을 기록하였다. 그러나 이들 두 지역
+                      에서도 10~14세 연령층의 인구 규모와 0~9세에 해당하는 연령층의 인구 규모 격차가 심
+
+
+제33권 1기 신도시 분당의 변천①
+                      화함에 따라 조만간 유소년 인구의 비중은 10%대 초반 수준으로 감소할 것으로 전망된
+                      다. 지구 전체적으로 유소년은 연령대가 낮아질수록 인구가 감소하고 있어 앞으로 유소년
+                      인구의 비율은 빠른 속도로 축소될 것으로 예상된다.
+                       노년 인구의 비율은 대체로 15% 내외를 기록하였지만, 야탑동을 구성하는 3개의 행정
+                      동과 정자2동(18.4%)에서는 모두 18%를 상회하였으며. 특히 야탑2동의 노년 인구 비율
+                      은 20.4%를 기록해, 성남의 본시가지에 자리한 지역과 비슷한 수준을 보인다. 유소년 인
+
+
+성남시사(50년사)
+
+                      74
+
+<!-- source: seongnam-history-50-vol-33.pdf p.075 -->
+### p.075
+
+구의 비율이 높았던 지역에서는 노년 인구의 비율이 대체로 낮게 형성되었고 수내2동과
+수내3동은 다른 지역과 달리 유소년 인구의 비율이 노년 인구의 비율보다 높게 형성되었
+다. 연령대별 인구 구성에서는 대체로 50대의 인구 비율이 가장 높고 그 뒤를 이어 40대
+연령층의 비율이 높게 나타난다.
+ 도매 및 소매업을 비롯해 정보통신업, 교육서비스업, 보건업 및 사회복지 서비스업, 전
+문/과학 및 기술 서비스업 등을 중심으로 1차 산업을 제외한 대부분 업종에 걸쳐 경제활
+동의 입지가 활발하다. 분당중앙지구에 입지한 경제활동은 도시철도역을 중심으로 역세
+권이 강하게 형성된 서현1동, 정자1동, 수내1동, 야탑1동, 야탑3동에 집중적으로 분포한
+다. 특히 서현1동은 성남시 전체에서 상대원1동에 이어 사업체 수가 두 번째로 많은 지역
+이고 종사자 수는 삼평동과 상대원1동에 이어 세 번째로 많은 상업업무의 중심지로 기능
+한다. 서현1동과 더불어 정자1동은 사업체 수와 종사자 수 규모가 성남시에서 각각 5위와
+4위에 해당하는 지역이다.
+ 사업체와 종사자 수 기준으로 도매 및 소매업의 입지가 가장 활발하며, 도매 및 소매업
+은 중심 상업지구를 형성하는 서현1동과 수내동을 중심으로 야탑1동과 정자1동에 많은 사
+업체가 집중해 있다. 정보통신업은 사업체 수는 많지 않지만, 종사자 수가 매우 많은 업종
+으로, 업체당 평균 종사자 수는 약 15명에 달한다. 이동통신업체, 포털사이트, 온라인 게임
+업체 등이 입주해 있는 정자1동, 서현1동, 수내1동을 중심으로 대한민국의 대표적인 IT기
+업이 특정 지역에 집중하지 않고 도로를 따라 길게 늘어선 분당 IT밸리를 형성하고 있는데,
+판교테크노밸리가 조성되면서 분당 IT밸리에 진입하는 벤처기업도 증가하고 있다.
+ 대형 의료기관과 중소형 의료시설, 노인복지시설 등의 보건업 및 사회복지 서비스업은
+서현1동과 야탑1동을 중심으로 입지하고 있다. 상업업무 지역과 주거지역이 공간적으로
+분리되도록 시가지가 계획되어 있어서, 주거지역으로서의 성격이 강한 수내2동, 수내3동,
+정자2동, 서현2동, 이매2동, 분당동, 야탑2동은 상대적으로 경제활동의 입지가 활발하지
+않다.
+ 수도권 제1기 신도시 개발계획에 의해 조성된 분당신도시에 포함되는 분당중앙지구는
+성남시의 도시공간을 외연적으로 확장시키는 동시에 성남시의 도시 기능을 확충할 수 있
+는 기반을 제공해 주었으며, 본시가지 중심으로 형성되었던 도시공간이 본시가지와 신시
+가지로 재구조화하는 과정에서 중심지 기능을 강화하면서 성남시의 새로운 중심 시가지
+
+
+                                                      part3 분당 지역의 변화
+로 성장하였지만 도시공간의 통합 및 도시시설의 노후 문제는 해결해야 할 과제이다.
+
+
+                                                 75
+
+<!-- source: seongnam-history-50-vol-33.pdf p.076 -->
+### p.076
+
+신시가지로 개발된 지역의 물리적 도시경관을 비롯해 인구 속성 및 경제활동의 입지에
+                      따른 사회경제적 공간이 본시가지와 확연하게 차별화함에 따라 신시가지와 본시가지는
+                      물과 기름 같은 존재로 인식되기도 하였으며, 한때 분당신도시의 분리 독립을 통한 분당
+                      시 설치를 주장하는 요구가 제기될 정도로 본시가지와 신시가지는 공간적 통합을 달성하
+                      기가 쉽지 않지만, 도시의 건전한 성장을 위한 사회적 통합을 추구해야 할 필요가 있다.
+                       분당신도시의 도시개발 역사가 30년을 넘으면서 노후 공간의 문제가 대두되었고, 주택
+                      단지에 대해서는 재건축에 대한 논의가 활발하게 전개되고 있다. 2024년 5월 22일 1기 신
+                      도시 재건축에 대한 정부 발표에 따라, 분당신도시의 8,000가구가 1기 신도시 재건축 선
+                      도지구로 지정되어 신규의 도시공간을 재탄생할 수 있게 되었다.
+
+
+                           [분당중앙지구의 키워드]
+
+                           분당신도시, 시범 단지, 탄천, 분당천, 농경지, 구릉지, 분당저수지, 임야, 중심업무 지역, 역세권,
+
+                           인구 감소, 재건축 선도지구, 경부고속도로, 수도권제1순환고속도로, 분당-수서 간 도시고속화도
+
+                           로, 분당-내곡 간 도시고속화도로, 국가지원지방도 제57호선, GTX-A, 신분당선, 수인분당선, 경
+
+                           강선, 분당 IT밸리, 분당테크노파크, 분당 중앙공원 등
+
+
+                       2) 분당신도시 남단에서 용인과 연담하는 구미금곡지구
+
+                       해당 법정동(행정동)은 구미동(구미동, 구미1동), 동원동(구미1동), 금곡동, 궁내동(이
+                      상 금곡동) 등 4개 법정동과 3개 행정동으로 구성된다. 분당신도시 개발계획에 의해 조성
+                      된 시가지가 탄천 주변에 형성되어 있는 동시에 동쪽과 서쪽은 시가지 개발이 뚜렷하게
+                      이루어지지 않은 비도시적 성격을 지닌 지역이 미개발 상태로 남아 있어 도시적 성격과
+
+
+제33권 1기 신도시 분당의 변천①
+                      농촌적 성격이 공존하는 지역이다.
+                       도시화의 진행과 더불어 시가화 구역이 확장함에 따라 기존 법정동을 분리하여 신규의
+                      행정동을 설치하기도 하였고, 도시화의 진행이 미진한 지역은 법정동을 통합하여 행정동
+                      을 설치한 결과 법정동과 행정동이 완벽하게 일치하지 않는 모습을 보인다.
+                       법정동 동원동은 동막천을 끼고 용인시와 경계를 이루는 지역이며, 동쪽에는 분당신도
+                      시에 포함된 법정동 구미동의 규모가 확장함에 따라 동원동과 구미동의 일부를 행정동 구
+
+
+성남시사(50년사)
+
+                      76
+
+<!-- source: seongnam-history-50-vol-33.pdf p.077 -->
+### p.077
+
+구미동 행정복지센터
+
+
+ 구미1동 행정복지센터
+
+
+ 금곡동 행정복지센터
+
+
+               part3 분당 지역의 변화
+
+         77
+
+<!-- source: seongnam-history-50-vol-33.pdf p.078 -->
+### p.078
+
+미1동으로 편제하였고, 나머지 법정동 구미동은 행정동 구미동으로 편제하였다. 법정동
+                      금곡동과 궁내동은 시가화 구역이 넓지 않고 상주인구의 규모도 크지 않은 관계로 하나의
+                      행정동(금곡동)에서 관할한다. 하나의 행정동이 다수의 법정동을 관할하고 있음은 상주인
+                      구의 규모가 크지 않아 행정 수요가 크지 않은 비시가화 구역이 많다는 사실을 의미한다.
+                       구미금곡지구는 남쪽에 위치한 용인시의 수지지구와 죽전지구 개발사업이 완료됨에 따
+                      라 성남의 시가지와 용인의 시가지가 모두 연결되는 도시연담(都市連擔)25 현상이 잘 나
+                      타나는 지구로 변모하였다. 특히 경부고속도로의 동쪽에서 성남시와 용인시의 도시 경계
+                      가 동막천에 의해 형성되지 않고 그 남쪽의 분당수서로를 기준으로 형성됨에 따라 두 도
+                      시공간의 연계가 더욱 강화되고 있다. 성남시의 남단에서 용인시 수지구와 경계를 이루
+                      는 지역으로, 경부고속도로와 탄천의 사이에 개발된 분당신도시에 의해 도시화가 진행되
+                      었으며, 본격적인 시가지 개발은 1995년을 전후한 시기로, 북쪽에 자리한 분당중앙지구에
+                      비해 다소 늦은 시기에 개발이 이루어진 신시가지이다. 경부고속도로 서쪽에서 태봉산의
+                      동사면에 이르는 구역은 개발이 활발하게 이루어지지 않고 비도시적 성격이 여전히 남아
+                      있는 전원 지역으로 변모하고 있으며, 시가지의 토지이용은 밀집도가 낮은 건물로 이루어
+                      져 있다.
+                       구미금곡지구의 서쪽에서 태봉산-운재산에 이르는 산줄기에 의해 분리된 궁내동, 금곡
+                      동, 동원동은 분당신도시 개발이 완료된 이후에도 도시화의 진행이 미진하였는데, 그 이
+                      유로는 경부고속도로와 분당-수서 간 도시고속화도로가 시가지의 연속성을 저해하면서
+                      도시공간을 단절시키는 작용을 하였기 때문이다. 경부고속도로의 서쪽이 동쪽의 분당신
+                      도시 개발 지역과 직접적으로 연결될 수 있는 교통로의 발달이 미약한 것도 경부고속도로
+                      의 동쪽과 서쪽이 행정구역상으로는 통합되어 있지만 분리되고 차별적인 공간으로 전환
+                      시키는 요인으로 작용한다.
+                       탄천 변에 형성된 넓은 농경지에 개발된 시가지로서 탄천과 동막천이 합류하는 오리뜰
+
+
+제33권 1기 신도시 분당의 변천①
+                      일대는 하천의 충적작용에 의해 형성된 넓은 농경지가 있었으며, 하류부에는 탄천의 서쪽
+                      하안에 농경지가 잘 발달해 있던 지역이다. 탄천의 동쪽 하안은 불곡산에서 효종산을 지
+                      나 불곡산 생태공원에 이르기까지 해발고도 300m 내외의 경사가 급한 산지로 이루어져
+
+
+                      25 중심도시의 확산에 따라 인접 중소도시가 병합되어 하나의 거대도시권이 형성되는 것을 말한다.
+
+
+성남시사(50년사)
+
+                      78
+
+<!-- source: seongnam-history-50-vol-33.pdf p.079 -->
+### p.079
+
+있어 시가지 개발이 활발하게 이루어지지 않았지만, 동막천과 합류하는 부근의 동쪽 하안
+은 완만한 경사지와 농경지가 자리하고 있어 시가지로 개발되었다.
+ 경부고속도로의 서쪽으로도 해발고도가 최고 300m에 달하는 산줄기가 자리하고 있으
+며, 궁내동과 금곡동에는 서쪽의 산줄기에 의해 형성된 골짜기가 발달해 있고 골짜기 사
+이로는 소하천이 흘러 탄천 변의 농경지를 지나 탄천에 합류하면서 주민들의 생활용수 및
+농업용수를 공급한다. 신시가지 개발이 이루어지지 않은 경부고속도로의 서쪽 지역은 여
+전히 농경지가 남아 있으며 점진적으로 주택 및 상업 시설이 입지하고 있지만 아직까지도
+농촌의 성격이 훨씬 강한 지역성을 보인다. 동막천으로 합류하는 하천은 산지의 남쪽 사
+면을 따라 흘러 내렸으며, 낙생저수지 북쪽에 있던 낙생유원지 일대에 형성된 계곡을 따
+라 넓은 농경지가 분포하는데, 이곳 동원동은 성남낙생공공주택지구로 지정되어 2019년
+12월부터 택지 조성 사업이 시작되었다. 2028년에 186세대가 입주할 예정이다.
+ 탄천 변의 시가지 밀집 지역과 미개발지가 많은 산지로 양분되는 토지이용도 과제에 속
+한다. 밀집 시가지가 들어선 구미동(법정동)은 농경지가 거의 남아 있지 않은 지역으로 대
+지와 도로, 공원 등의 토지이용이 지배적으로 이루어지며 불곡산 생태공원을 중심으로 임
+야가 보전되어 있다. 구미동은 주택단지가 들어선 구역, 대규모의 상업 시설이 들어선 구
+역, 상가 및 공공업무시설이 들어선 구역 등으로 구분되어 있어 토지이용의 지역 분화가
+뚜렷하게 나타난다. 미금역과 오리역을 중심으로 하는 역세권에 상업 시설이 밀집해 있으
+며, 이로부터 멀어질수록 주택 지역의 속성이 강해진다. 주택 유형은 금곡동(행정동)과 구
+미동(행정동)에서 아파트가 80%를 상회하고 단독주택에 비해 연립주택의 비중이 조금
+높게 형성되지만, 구미1동은 아파트의 비중이 67%로 낮게 형성되어 단독주택과 연립주
+택의 비중이 각각 13%와 16%를 차지한다. 건축물의 평균 연령은 구미동이 27년, 궁내동
+이 21년, 금곡동이 24년으로 분당중앙지구에 비해 시가지 개발 시기가 늦어 아직 노후도
+가 심각한 수준은 아니다.
+ 같은 산줄기에 자리한 금곡동, 궁내동, 동원동은 농경지를 비롯해 임야가 차지하는 비
+중이 높은 데 반해 도시적 토지이용의 비중은 상대적으로 낮은 수준이다. 경부고속도로의
+동쪽에서 분당-수서 간 도시고속화도로, 돌마로, 금곡로에 둘러싸인 금곡동은 미금역 주
+변의 상업업무 지역과 나머지 아파트 밀집 지역으로 구성되어 있어, 같은 금곡동 내에서
+도 도시화의 차이와 도시경관의 차이가 현저하다.
+
+
+                                                      part3 분당 지역의 변화
+ 고속도로, 고속화도로, 도시철도 등의 발달로 교통 여건은 매우 편리하다. 구미금곡지
+
+
+                                                 79
+
+<!-- source: seongnam-history-50-vol-33.pdf p.080 -->
+### p.080
+
+구의 주변을 통과하는 고속교통로에는 경부고속도로, 용인서울고속도로, 분당-수서 간
+                      도시고속화도로가 있다. 용인서울고속도로의 서분당 나들목까지는 동원동을 따라 일반지
+                      방도 제334호선을 통해 쉽고 빠르게 접근할 수 있지만, 경부고속도로 판교 나들목으로는
+                      분당신도시를 관통해야 하므로 다소 불리한 편이다. 분당-수서 간 도시고속화도로는 시
+                      가지의 서쪽을 통과하므로 진출입이 편리하다. 경부고속도로의 서쪽으로는 국가지원지방
+                      도 제23호선이 나란히 남북 방향으로 연결되고 금곡 나들목에서 일반지방도 제334호선
+                      과 교차하면서 경부고속도로 판교 나들목 방면과 용인시 수지구 방면을 연결해 준다. 이
+                      외에 시가지를 통과하는 간선도로에는 성남대로, 미금로, 미금일로, 무지개로, 구미로, 금
+                      곡로, 돌마로, 정자일로 등이 개설되어 있으며, 성남대로와 돌마로를 이용해 분당신도시
+                      및 성남 본시가지 방면으로 연결되는 교통망이 형성되어 있다.
+                       용인시 수지구 죽전동과는 하나로마트 성남점의 남쪽을 통과하는 분당수서로가 경계를
+                      형성하지만, 그 동쪽에서는 폭이 좁은 소로를 사이에 두고 성남시와 용인시의 경계가 형
+                      성될 정도로, 시가화 구역으로 구성된 구미금곡지구와 용인시의 경계 구분은 모호하기도
+                      하다. 도시철도는 신분당선과 수인분당선이 통과하며, 이 두 노선은 미금역에서 교차한
+                      다. 동막천 남쪽의 시가지에서는 수인분당선의 오리역이 구미동에 설치되어 있고 신분당
+                      선의 동천역이 용인시 동천동에 분리되어 설치되어 있지만, 두 역 사이의 거리가 600m 정
+                      도에 불과하고 두 도시의 시가지가 서로 붙어 있는 관계로 두 역은 서로 보완관계를 형성
+                      한다.
+                       또한 인구적 측면에서 보면 유소년 인구와 청장년 인구가 감소하고 노년 인구가 증가
+                      하면서 전체적으로 인구 감소 현상을 보인다. 유소년 인구의 비율이 10% 내외로 축소되
+                      었지만, 노년 인구의 비율은 15%를 상회하는 고령사회이다. 특히 노인주택과 실버타운이
+                      자리한 금곡동과 구미동의 노년 인구 비율은 모두 19%를 초과한다. 유소년 인구는 연령
+                      대가 낮아질수록 인구 규모가 감소하고, 청장년층의 인구감소보다 빠른 속도로 유소년 인
+
+
+제33권 1기 신도시 분당의 변천①
+                      구의 감소 현상이 진행 중이다. 연령대별 인구 구성에서는 50대가 가장 큰 비중을 차지하
+                      고 그 뒤를 이어 40대, 30대, 60대의 순으로 분포한다. 평균 연령은 구미동 43.4세, 금곡동
+                      43.9세, 구미1동 41.2세를 기록해 구미1동을 제외한 구미동과 금곡동은 성남시 평균 연령
+                      과 비슷한 수준이다.
+                       보건업 및 사회복지 서비스업이 가장 활발한 경제활동이며, 정보통신업과 전문/과학 및
+                      기술 서비스업, 부동산업 등을 중심으로 도매 및 소매업과 운수 및 창고업이 발달하였다.
+
+
+성남시사(50년사)
+
+                      80
+
+<!-- source: seongnam-history-50-vol-33.pdf p.081 -->
+### p.081
+
+동막천
+
+공원화와 지하화가 된 분당수서로
+
+
+                         part3 분당 지역의 변화
+
+                    81
+
+<!-- source: seongnam-history-50-vol-33.pdf p.082 -->
+### p.082
+
+보건업 및 사회복지 서비스업은 대학병원을 비롯한 노인복지 주택, 실버타운 등과 연계되
+                      어 고령 인구를 대상으로 하는 업종이 많은 특징이 있다.
+                       이동통신업체의 인터넷 데이터 센터(IDC)를 비롯한 정보통신업의 규모도 큰 편이고,
+                      상업업무 지역을 중심으로 도매 및 소매업, 숙박 및 음식점업 등이 자리하고 있으며, 구미
+                      동에는 부동산업과 사업시설 관리 및 임대 서비스업의 입지도 두드러진다. 도시 외곽에서
+                      넓은 부지를 확보하기 용이한 이점을 활용해 운수업과 창고업의 입지 또한 활발하다.
+                       행정동 구미동은 경제활동의 밀집 지역으로 기능하고 도시철도역을 중심으로 경제활동
+                      이 집적해 있다. 미금역과 오리역은 주변에 대형 아울렛과 대형 할인마트를 비롯한 다양
+                      한 상업 시설을 필두로 성남우편집중국, 한국토지주택공사 경기남부지역본부, 한국장애
+                      인고용공단 경기동부지사 등의 공공기관, 금융기관, 의료기관, 문화예술시설 등이 밀집해
+                      있어, 구미금곡지구의 중심지 기능을 수행하는 구심점 역할을 한다. 오리역 일대는 동막
+                      천 남쪽에 설치된 버스회사의 차고지와 택배 물류센터 등이 있어, 인접한 용인시의 동천
+                      역 서남쪽에 형성된 물류센터와 더불어 교통물류의 허브 기능도 수행한다.
+                       성남시의 가장 남단에 자리한 구미금곡지구는 분당신도시 개발 계획에 의해 조성된 시
+                      가지로 조성된 지역과 자연 상태의 임야 및 자연 마을 일부가 남아 있는 농촌적 성격을 가
+                      지는 지역이 혼합되어 있지만, 도시화 구역과 비도시화 구역은 도로를 기준으로 명확하게
+                      구분되어 있다. 고속도로 및 도시고속화도로가 남북 방향으로 통과하면서 시가지가 동서
+                      로 분리되어 있어서 사람이나 자동차의 통행이 원활하게 이루어지지 못하고 고속도로를
+                      기준으로 서로 다른 공간적 특징을 보이고 있다. 앞으로도 고속도로를 기준으로 생활권
+                      및 도시공간의 차별적 성장이 지속될 것으로 전망된다. 그렇지만 시가화 구역과 비시가화
+                      구역을 하나의 행정동으로 편성함에 따라 행정동 단위에서는 도농복합 형태의 도시 지역
+                      으로 보이지만 법정동 단위로 살펴보면 밀집 시가지로 구성된 지역과 그렇지 않은 지역이
+                      명확하게 구분된다.
+
+
+제33권 1기 신도시 분당의 변천①
+                       한편 성남시와 용인시의 점이지대의 성격을 지니는 지역성을 기반으로 용인과 성남의
+                      기능적 연결 관계를 강화하는 지역으로 변모할 가능성도 있다. 또 동막천과 임야를 끼고
+                      있는 동원동(구미1동)의 미개발지를 활용한 도시개발 사업을 통해 인접한 대장동과 더불
+                      어 성남시 남단의 도시화를 선도하는 프런티어(frontier)의 역할을 기대할 수 있다.
+
+
+성남시사(50년사)
+
+                      82
+
+<!-- source: seongnam-history-50-vol-33.pdf p.083 -->
+### p.083
+
+[구미금곡지구의 키워드]
+
+       분당신도시, 탄천, 동막천, 농경지, 임야, 전원 지역, 불곡산 생태공원, 용인과의 도시연담, 지구 내
+
+       도시공간 단절, 낙생공공주택지구, 역세권, 인구 감소, 도시화의 프론티어, 경부고속도로, 용인서
+
+       울고속도로, 분당-수서 간 도시고속화도로, 일반지방도 제334호선, 국가지원지방도 제23호선,
+
+       신분당선, 수인분당선, 교통물류 허브 등
+
+
+분당의 행정동과 법정동
+
+             행정동                                           법정동
+
+             분당동                   분당동(盆唐洞)
+
+      수내1동, 수내2동, 수내3동             수내동(藪內洞)
+
+   정자동, 정자1동, 정자2동, 정자3동           정자동(亭子洞)
+
+            서현1동                   서현동(書峴洞), 율동(栗洞)
+
+            서현2동                   서현동(書峴洞)
+
+         이매1동, 이매2동                이매동(二梅洞)
+
+      야탑1동, 야탑2동, 야탑3동             야탑동(野塔洞)
+
+             금곡동                   금곡동(金谷洞), 궁내동(宮內洞)
+
+             구미동                   구미동(九美洞)
+
+            구미1동                   동원동(東遠洞), 구미동(九美洞)
+
+             판교동                   판교동(板橋洞, Pangyo-dong)
+
+             삼평동                   삼평동(三坪洞)
+
+             백현동                   백현동(柏峴洞)
+
+             운중동                   운중동(雲中洞), 대장동(大庄洞), 석운동(石雲洞), 하산운동(下山雲洞)
+출처 : 공공데이터 포털(https://www.data.go.kr), 「경기도 성남시 행정구역 현황」, 2023년 5월 31일.
+
+
+                                                                                   part3 분당 지역의 변화
+
+                                                                              83
+
+## PART 4 분당 지역의 공원과 역사유적
+
+<!-- source: seongnam-history-50-vol-33.pdf p.084 -->
+### p.084
+
+분당 지역의
+
+
+4
+공원과 역사유적
+
+
+     PART
+
+
+            1. 분당의 공원-이매도시자연공원
+            2. 분당의 역사유적
+
+<!-- source: seongnam-history-50-vol-33.pdf p.085 -->
+### p.085
+
+1 분당의 공원-이매도시자연공원
+
+
+  분당구 율동 318번지 일원에 소재한다. 이매도시자연공원은 인공 호수(분당
+ 저수지)를 포함하고 있는 공원이며, 흔히 ‘율동공원’으로도 불린다. 영장산 남
+ 서쪽 자락에 있다. 1999년 8월 20일에 개장하였고, 예산 345억 1,600만 원을
+ 들여 1996년 12월 26일 착공하여 1999년 8월 30일 준공하였다. 총면적은 263
+ 만 7,316㎡에 달하며, 그중 34만 6,558㎡가 공원으로 조성되어 있다.
+  공원 내에는 광장(5개 소), 호수(1개 소), 잔디광장(4개 소), 배드민턴장(1개
+ 소), 번지점프장(1개 소), 분수대(1기), 수변 데크(1개 소) 등이 설치되어 있다.
+  1999년 8월 개장한 높이 45m의 번지점프장이 있어 텔레비전 오락 프로그램
+ 에 종종 등장한다. 번지점프장 북측에는 책테마파크와 2007년 9월 개장한 야
+ 외 조각 전시장이 있다. 책테마파크 왼쪽으로는 조선 초기의 문신 한계희 신도
+ 비 등이 있는 청주한씨 문정공파 묘역이 있다. 호수 중앙부에 설치된 분수대는
+ 최고 높이 103m까지 물줄기가 솟는다. 수변 데크는 전시회 등의 장소로 이용
+ 된다. 공원과 문정로를 사이에 두고 율동생태학습원 등이 자리 잡고 있다.
+
+
+                                                      part4 분당 지역의 공원과 역사유적
+
+
+                                                85
+
+<!-- source: seongnam-history-50-vol-33.pdf p.086 -->
+### p.086
+
+율동공원 책 테마파크
+                                           86
+              제33권 1기 신도시 분당의 변천①   성남시사(50년사)
+
+<!-- source: seongnam-history-50-vol-33.pdf p.087 -->
+### p.087
+
+율동공원 분당호 풍차
+
+
+                   part4 분당 지역의 공원과 역사유적
+
+
+              87
+율동공원 분당호 전경
+
+<!-- source: seongnam-history-50-vol-33.pdf p.088 -->
+### p.088
+
+2 분당의 역사유적
+
+
+                            1) 이수 선생 묘(李睟先生墓)
+
+                             ○ 소재지 : 분당구 궁내동 산17-1(구 경기도 기념물 제54호)
+
+                             ○ 관리자 : 전주이씨 덕양군파 종회
+
+
+                            이수(李睟, 1569~1645)의 본관은 전주(全州), 자는 명원(明遠), 시호(諡號)
+                           는 충숙공(忠肅公)으로, 인조대의 종친(宗親)이다. 아버지는 풍산군(豊山君)
+                           이종린(李宗麟)이다. 1613년(광해군 5) 귀천군(龜川君)이 되었다. 1624년(인
+                           조 2) 이괄(李适)의 난과 정묘호란 때 인조를 호종하여 두터운 신임을 받았다.
+                           소덕대부(昭德大夫)에 올라 오위도총부(五衛都摠府) 도총관(都摠管)을 역임
+                           하였다.
+
+
+제33권 1기 신도시 분당의 변천①
+                            묘는 분당구 궁내동 윗말 선영에 아들인 봉래군(蓬萊君) 이형윤(李炯胤) 묘
+                           아래에 동향하여 있는데 역장(逆葬)이다. 부인 증군부인 정씨와 쌍분(雙墳)으
+                           로 봉분 아래에는 호석을 팔각으로 둘렀다. 봉분 중앙에 묘갈·혼유석·상석·향로
+                           석과 상석 좌우에 망주석·문인석이 1쌍씩 배치되어 있다.
+                            묘갈은 방부원수(方趺圓首)형으로 비좌에는 복연과 당초문이 있다. 비신 앞
+                           면에 종 2열로“소덕대부겸오위도총부도총관증현록대부귀천군지묘 동래현부
+
+
+성남시사(50년사)
+
+                      88
+
+<!-- source: seongnam-history-50-vol-33.pdf p.089 -->
+### p.089
+
+이수 묘역과 정희사
+
+
+인증군부인정씨(昭德大夫兼五衛都摠府都摠管贈顯祿大夫龜川君之墓東萊縣夫人贈郡
+夫人鄭氏)”의 비문을 새겼다. 후면의 갈제(碣題)는“유명조선국소덕대부귀천군겸오위도
+총부 증현록대부 시충숙공묘갈명 병서(有明朝鮮國昭德大夫龜川君兼五衛都摠府贈顯
+祿大夫諡忠肅公墓碣銘幷序)”이다. 전면을 제외한 3면의 비문은 김집(金集)이 지은 것을
+송준길(宋浚吉)이 써서 기록하였다. 입석 연대는 1645년(인조 23)이다.
+ 신도비는 묘역 아래 사당인 정희사(靖僖祠) 경내에 있다. 방부개석(方趺蓋石)형으로
+방형의 비좌는 상, 하로 나누어 안상(眼象)을 화려하게 조각하였다. 현손인 이시징(李蓍
+徵)이 이재(李縡)에게 비문을 받았으나 곧바로 건립하지 못하다가, 1897년(광무 1)에 10
+세손 부호군(副護軍) 이승휘(李承徽)가 비신의 앞뒤에 글씨를 쓰고, 9세손 지중추부사 이
+태현(李泰鉉)이 전액(篆額)을 올려 완공하였다. 비문의 말미에는 12세손 이장섭(李章燮)
+이 건립 과정을 서술한 추기(追記)를 새겨 놓았다.
+
+
+                                                       part4 분당 지역의 공원과 역사유적
+
+
+                                                 89
+
+<!-- source: seongnam-history-50-vol-33.pdf p.090 -->
+### p.090
+
+2) 이경석 선생 묘(李景奭先生墓)
+
+                           ○ 소재지 : 분당구 석운동 산16-18(구 경기도 기념물 제84호)
+
+                           ○ 관리자 : 전주이씨 백헌상공 종회
+
+
+                       이경석(李景奭, 1595~1671)은 조선 후기의 문신으로, 본관은 전주, 자는 상보(尙輔),
+                      호는 백헌(白軒), 시호는 문충(文忠)이다. 1636년(인조 14) 병자호란 때 인조를 남한산성
+                      으로 호종하고, 이듬해 삼전도비(三田渡碑)의 비문을 찬진(撰進)하였다. 1642년 김상헌
+                      과 함께 척화신(斥和臣)으로 청의 심양에 잡혀갔다가 돌아왔다. 1649년(효종 즉위)에 영
+                      의정에 올라 효종의 북벌정책에 참여하였다. 관직에서 물러난 후 성남의 판교로 옮겨 살
+                      다가, 지금의 석운동에서 만년을 보냈다. 구례 방산서원(方山書院)에 제향되었다. 저서로
+                      는 『백헌집(白軒集)』 등 유집 50여 권이 있다.
+                       묘는 분당구 석운동 소로와 인접한 나지막한 구릉에 남향하여 있는데, 부인 전주류씨와
+                      의 원형 합장 단분이다. 봉분 중앙에 혼유석·상석·향로석·장명등과 상석 좌우에 망주석과
+
+
+제33권 1기 신도시 분당의 변천①
+
+
+                      이경석 선생 묘역
+
+
+성남시사(50년사)
+
+                      90
+
+<!-- source: seongnam-history-50-vol-33.pdf p.091 -->
+### p.091
+
+문인석 1쌍 및 봉분 좌측에 묘비가 있다. 이들 석물 중 망주석은 8각으로 극히 화려하며
+세호(細虎)가 양각되어 있다. 문인석은 금관조복(金冠朝服)형으로 이목구비가 뚜렷하다.
+턱은 양손을 깍지 끼어 마주 잡은 홀(笏)에 괴고 있다.
+ 묘비는 봉분의 좌측(동쪽)에 남향하고 있는데 방부원수(方趺圓首)형이다. 비신은 백색
+대리석제로 예서체(隷書體)의 비문이 4면에 있다. 앞면에 종 3열로 “유명조선국영 의정
+문충공백헌이선생경석묘 정경부인전주류씨부좌(有明朝鮮國領議政文忠公白軒李先生
+景奭墓貞敬夫人全州柳氏祔左)”의 비문을 새겼다. 비문은 현손인 이광회(李匡會)가 찬
+하고 이광사(李匡師)가 썼다. 건립 연도는 공의 사후 80년이 지난 1751년(영조 27)이다.
+ 신도비는 묘역 입구에 신․구 2기가 나란히 동향하여 방부개석(方趺蓋石)형이 있다. 비
+신 상부의 제액(題額)은 “영의정시문충공신도비명(領議政諡文忠公神道碑銘)”이다. 비
+문은 박세당(朴世堂)이 찬하고, 이광사가 쓰고 전액을 하여 1754년에 세웠다.
+
+
+                                                         part4 분당 지역의 공원과 역사유적
+이경석 묘역의 망무석과 문인석
+
+
+                                                    91
+
+<!-- source: seongnam-history-50-vol-33.pdf p.092 -->
+### p.092
+
+3) 풍산군 이종린 묘역(豊山君李宗麟墓域)
+
+                           ○ 소재지 : 분당구 하산운동 산41(구 경기도 문화재자료 제136호)
+                           ○ 관리자 : 전주이씨 풍산군파 종회
+
+
+                       이종린(李宗麟, 1538~1611)의 본관은 전주, 자는 경인(景仁), 중종의 손자이며, 덕양
+                      군 이기(李岐)의 장남이다. 1581년 덕양군 사후 정경(正卿)의 품계에 오르고, 임진왜란 때
+                      어가(御駕)를 호종하였다. 1607년(선조 40) 종1품 가덕대부(嘉德大夫)에 제수되고, 1610
+                      년(광해군 2)에는 소덕대부(昭德大夫)에 올라 왕실 종친부의 일을 관장하였다.
+                       묘역은 큰 받침돌을 바닥에 깔고 그 위에 8매의 호석을 둘렀으며, 문인석에도 칠량관
+                      (七梁冠)을 씌우는 등 제왕의 예에 따라 매장한 특징이 있다.
+
+
+제33권 1기 신도시 분당의 변천①
+
+
+                      이종린 묘역
+
+
+성남시사(50년사)
+
+                      92
+
+<!-- source: seongnam-history-50-vol-33.pdf p.093 -->
+### p.093
+
+4) 연성군 이곤 묘비(延城君李坤墓碑)
+
+   ○ 지정번호 : 성남시 향토유산 제6호
+   ○ 지정일 : 2004. 10. 25.
+   ○ 소재지 : 분당구 판교동 산25-1
+
+   ○ 관리자 : 연안이씨 연성군파 종회
+
+ 이곤(李坤, 1462~1524)은 조선 초기의 문신으로, 자는 자정(子靜), 호는 녹창(綠窓)이
+다. 1492년(성종 23) 문과에 급제한 후 중종반정 때 정국공신(靖國功臣) 4등에 녹훈되고
+연성군(延城君)에 봉해졌다.
+ 묘비는 이곤의 묘 우측에 동남향하여 세워져 있는데 방부운수(方趺雲首)형이다. 비신
+의 비문은 전후 2면에 있으며, 앞면에 종 6열로 “증자헌대부예조판서겸지경연춘추관의금
+부사 연성군행분의정국공신통정대부장예원판결사이공지묘 정부인문화류씨부좌(贈資憲
+大夫禮曹判書兼知經筵春秋館義禁府事延城君行奮義靖國功臣通政大夫掌隷院判決事
+李公之墓貞夫人文化柳氏祔左)”라고 새겼다.
+ 운수의 앞면에는 구름과 파도문 및 직경 17.5㎝의 큰 원 속에 날개를 활짝 펴고 서 있는 삼
+족오(三足烏)를 조각하였다. 개석에 조문(鳥文)이 있는 묘비로는 성남 지역에서 유일하다.
+
+
+                                                         part4 분당 지역의 공원과 역사유적
+연성군 이곤 묘역
+
+
+                                                   93
+
+<!-- source: seongnam-history-50-vol-33.pdf p.094 -->
+### p.094
+
+입석 연대는 공의 사후 35년이 지난 1559년(명종 14)이다. 이와 유사한 경기도 내의 사
+                      례로 남양주 소재 변안열(邊安烈, 1334~1390) 묘표(1571년 입석)가 있는데, 이것은 앞에
+                      직경 33㎝의 달을 상징하는 반원 속에 토끼가 방아 찧는 모습을, 뒷면에는 해 속에 삼족오
+                      가 나는 모습을 조각하였다.
+
+
+                        5) 신종군 이효백 묘역(新宗君李孝伯墓域)
+
+                           ○ 지정번호 : 성남시 향토유산 제8호
+                           ○ 지정일 : 2008. 9. 17.
+                           ○ 소재지 : 분당구 석운동 산16
+
+                           ○ 관리자 : 전주이씨 덕천군파 신종군 종회
+
+                       이효백(李孝伯, 1433-1487)의 본관은 전주, 자는 희삼(希參). 시호는 공간(恭簡)이다.
+                      조선 정종의 제10 왕자 덕천군(德泉君) 이후생(李厚生)의 아들이며, 어머니는 이종무(李
+                      從茂) 장군의 딸이다. 효성이 지극하여 효백(孝伯)이라고 하였다. 궁술(弓術)이 비상하여
+                      세조의 특명으로 당상관(堂上官)에 올랐다. 그 뒤 정의대부(正義大夫)에 오르고, 1467년
+
+
+제33권 1기 신도시 분당의 변천①
+
+
+                      신종군 이효백 묘역
+
+
+성남시사(50년사)
+
+                      94
+
+<!-- source: seongnam-history-50-vol-33.pdf p.095 -->
+### p.095
+
+(세조 11) 신종군(新宗君)에 봉해졌다. 그의 5대손이 백헌 이경석이다.
+ 묘역은 분당구 석운동 이경석 묘역 좌측의 나지막한 구릉에 동남향(東南向)하고 있다.
+묘는 부인 예안최씨 묘와 원형의 쌍분으로 용미와 활개를 갖추고 있다. 봉분 중앙에 혼유
+석, 상석, 향로석, 장명등과 상석 좌우에 8각 망주석, 문인석 각 한 쌍 등 다수의 석물을 갖
+추었다. 이 중 문인석은 복두공복(幞頭公服)에 안면 계란형이며 코는 크고 뭉툭한데 일자
+의 입은 형태만 있다. 양손으로 짧은 홀(笏)을 마주 잡고 있으나 손가락의 표현이 없다.
+ 묘표는 쌍분 중앙과 좌측에 2기가 세워져 있는데, 이 중 쌍분 중앙에 있는 원래의 묘표
+는 방부하엽(方趺荷葉)형이다. 비신의 비문은 전후 2면에 있는데, 앞면에 종 2열로 “승헌
+대부신종군시공간공효백지묘 예안현최씨지묘(承憲大夫新宗君諡恭簡公孝伯之墓禮安
+縣崔氏之墓)”라고 새겼는데, 뒷면은 마멸이 심하여 알아볼 수 없다. 입석 연대는 공의 사
+후 17년이 지난 1504년(연산군 10)이다.
+ 봉분 좌측의 새 묘표는 방부개석(方趺蓋石)형이며, 입석 연대는 공의 장후(葬後) 452
+년(1939)이다. 묘소에서 6편으로 된 청화백자 묘지석이 발견되었는데, 1편은 분실되고 5
+편은 경기도박물관에 보관되어 있다.
+
+
+ 6) 판교 백제·고구려 고분군
+
+   ○ 지정번호 : 성남시 향토유산 제11호
+   ○ 지정일 : 2012. 12. 21.
+   ○ 소재지 : 분당구 판교동 499
+   ○ 관리자 : 성남시
+
+
+ 판교신도시 개발 시 분당구 판교동, 삼평동에서 각각 발굴조사되었다. 조사 후 고분군
+은 판교동 판교박물관 내에 이전·복원하여 전시하고 있다. 고분은 한성백제 석실분(石室
+墳) 9기, 고구려 석실분 2기 등 총 11기이다. 조성 시기는 4세기 후반에서 5세기 후반으로
+
+
+                                                         part4 분당 지역의 공원과 역사유적
+추정된다. 이 중 판교동에서 발견된 한성백제 석실분 9기는 입구인 연도(羨道, 널길)가 우
+
+
+                                                    95
+
+<!-- source: seongnam-history-50-vol-33.pdf p.096 -->
+### p.096
+
+판교박물관
+
+
+제33권 1기 신도시 분당의 변천①
+
+
+                      판교박물관 고구려 1호 고분   판교박물관 백제 3호 돌방무덤
+
+
+성남시사(50년사)
+
+                      96
+
+<!-- source: seongnam-history-50-vol-33.pdf p.097 -->
+### p.097
+
+측에 있고, 변형 궁륭형(穹隆形) 천장26 등이 공통적인 특징으로 한성백제의 묘제 양식을
+잘 갖추고 있다. 이 중 1호 석실분은 판교동 구릉의 정상부와 인접한 곳에서 확인된 평면
+‘ㄱ’자형이다. 무덤구덩이는 풍화된 암반층을 파고 뚫어 조성하였다. 천정과 돌방 상부는
+대부분 파괴되어 없어지고, 돌방 일부와 널길(연도)만이 남아 있다. 유물은 청동제 장신구
+와 짧은 목 항아리·소형 항아리·접시 등의 토기류, 그리고 관을 만들거나 장식하는 데 사용
+되었던 관못이 다수 출토되었다.
+  반면 삼평동에서 발굴된 고구려 석실분 2기는 축조 방식이 고구려의 전통적인 모줄임
+천장27 양식과 쌍실분(雙室墳)으로 구성되었다. 이 중 1호 석실분은 판교에서 확인된 석실
+분 중 유일하게 두 개의 석실이 붙어 있는 쌍실분이다. 축조는 경사면을 ‘ㄴ’자처럼 파고
+돌로 무덤의 벽과 천정을 쌓았다. 벽을 쌓으면서 동시에 벽의 바깥 부분을 흙으로 층층이
+쌓으면서 메워 벽이 무너지지 않도록 하였다. 2호 석실분 역시 축조는 1호 석실분과 같다.
+한성백제 석실분과 달리 유물은 출토되지 않았다.
+
+
+  7) 판교 통일신라~고려 고분군
+
+    ○ 지정번호 : 성남시 향토유산 제12호
+    ○ 지정일 : 2012. 12. 21.
+    ○ 소재지 : 분당구 백현동 423
+    ○ 관리자 : 성남시
+
+  판교신도시 개발 때 백현동, 삼평동, 사송동 일원에서 발굴조사되었다. 조사 후 고분군
+은 분당구 백현동 낙생대공원으로 이전·복원되었다. 수량은 통일신라~고려시대의 석곽묘
+(石槨墓) 2기, 석실묘(石室墓) 2기, 토광묘(土壙墓) 1기이다. 고분의 형태는 앞트기식 돌
+방무덤(橫口式石室墓), 앞트기식 돌덧널무덤(橫口式石槨墓), 구덩식돌덧널무덤(竪穴式
+石槨墓) 등으로 다양하다. 백현동 고려시대 토광묘는 중앙의 토광묘와 이를 둘러싼 방형
+
+
+                                                                                part4 분당 지역의 공원과 역사유적
+26 궁륭형은 활등이나 반달처럼 굽은 모양의 형상을 의미하는 한자어로, 주로 건축이나 구조물에서 곡선 형태의 천장이나 아치 구조를
+   지칭할 때 사용한다.
+27 무덤의 네 벽 위에서 1~2단 안쪽으로 비스듬히 괴어 올린 후, 네 귀에서 세모의 굄돌을 걸치는 식으로 모를 줄여 가며 올리는 천장을
+   말한다.
+
+
+                                                                          97
+
+<!-- source: seongnam-history-50-vol-33.pdf p.098 -->
+### p.098
+
+판교 통일신라~고려 고분군
+
+
+                      담장(곡장, 曲墻28) 시설 및 담장 동쪽의 석렬 유구로 형성되어 있다. 또한 삼평동, 사송동
+                      의 석실묘 등 통일신라기 유적군은 중원구 도촌동과 여수동, 남한산성의 신라 유적들과
+                      비교하여 삼국통일기 한반도 내 성남 지역의 중세 고분 문화를 이해하는 좋은 자료이다.
+
+
+                        8) 판교 생활유적군
+
+                           ○ 지정번호 : 성남시 향토유산 제13호
+                           ○ 지정일 : 2012. 12. 21.
+                           ○ 소재지 : 분당구 판교동 553
+
+
+제33권 1기 신도시 분당의 변천①
+                           ○ 관리자 : 성남시
+
+                        판교신도시 개발 시 발굴조사되었고, 조사 후 한성백제 집터와 부뚜막 및 통일신라~조
+
+
+                      28 능, 원, 묘 따위의 무덤 뒤에 둘러쌓은 나지막한 담.
+
+
+성남시사(50년사)
+
+                      98
+
+<!-- source: seongnam-history-50-vol-33.pdf p.099 -->
+### p.099
+
+판교 생활유적군 아궁이 유적
+
+
+선시대의 기와, 도기 가마, 담장 건물지 등 총 5기를 판교 근린공원 내에 이전·복원하였다.
+이 유적은 과거 성남 지역에 거주하였던 사람들의 주거 및 식생활과 경제활동 이외 민간
+신앙도 알 수 있는 유적이다.
+
+
+  9) 판교박물관
+
+ 성남 지역의 삼국시대 유적 및 유물을 전시한 박물관으로 판교 개발 당시 발굴된 한성
+백제 돌방무덤 9기와 고구려 돌방무덤 2기의 보존·활용을 위해 건립하였다. 한성백제 유
+적 9기와 고구려의 석실분 2기 등 총 23기의 유적과 200여 점의 유물을 보유하고 있다.
+ 판교지구에서 많은 유적이 발견되자 판교박물관을 포함한 판교역사공원 조성계획을
+세워 2008년 4월에 승인이 이루어졌다. 2011년에 백제 석실분 9기, 고구려 석실분 2기
+
+
+                                                       part4 분당 지역의 공원과 역사유적
+에 대한 이전·복원 작업을 하였으며, 2012년 4월 판교역사공원이 준공되고 4월 30일 판
+교박물관 사용이 승인되면서 2011년 11월에서 2013년 3월까지 유물과 유적을 제작, 설
+치하였다.
+
+
+                                                  99
+
+<!-- source: seongnam-history-50-vol-33.pdf p.100 -->
+### p.100
+
+지상 1층 및 지하 1층으로 구성되어 있으며, 1층에는 상설전시실에 판교 출토 유물 총
+6,237점 중 일부와 구석기시대의 석기와 신석기시대의 토기, 삼국시대 토기와 장신구, 고
+려청자, 불상 금동소탑 등의 불교 유물도 전시하고 있다. 그 밖에도 조선시대 가마나 무덤
+에서 출토된 자기 등이 전시되어 있으며, 지하 1층에는 백제·고구려 돌방무덤이 전시되어
+있다. 고구려 돌방무덤은 한강 이남에서는 보기 드문 고구려 양식이다.
+
+
+판교박물관 내부 백제·고구려 고분군
+
+
+100
+
+## PART 5 분당신도시의 변화와 미래
+
+<!-- source: seongnam-history-50-vol-33.pdf p.101 -->
+### p.101
+
+분당신도시의
+
+
+5
+변화와 미래
+
+
+    PART
+
+
+           1. 분당 지역의 최근 주요 변화(2014~2023)
+           2. 분당의 미래
+
+
+                                           part4 분당 지역의 공원과 역사유적
+
+
+                                    101
+
+<!-- source: seongnam-history-50-vol-33.pdf p.102 -->
+### p.102
+
+1 분당 지역의 최근 주요 변화
+                            (2014~2023)
+
+
+                             『성남시사』 40년사가 발간된 이후의 변화 양상을 살피면 대체로 다음과 같
+                            은 연대기의 기록이 가능하다. 나름대로 발전의 모습이기는 하지만 코로나가
+                            창궐하던 팬데믹 시절에는 주춤한 상태를 경험하였다. 한편 시민의 안전을 환
+                            기하는 차원에서 2023년 정자교 보행로 사건도 살펴보겠다.
+
+
+                             2014년
+
+                              ○ 성남도시개발공사 공식 출범식 거행
+                              ○ 콘텐츠코리아 랩 판교 2호점 개소(삼평동)
+                              ○ 성남시사편찬위원회, 『성남시사』 (40년사) 발간
+                              ○ 대장동, 제1공단 결합 도시개발구역 개발계획 고지
+
+
+제33권 1기 신도시 분당의 변천①
+                             2015년
+
+                              ○ 분당구 정자1동에서 정자동을 분동
+                              ○ 성남시, 중앙정부의 분당 올림픽스포츠센터 매각 반대 성명 발표
+
+
+성남시사(50년사)
+
+                      102
+
+<!-- source: seongnam-history-50-vol-33.pdf p.103 -->
+### p.103
+
+2016년
+
+ ○  야탑동 공공실버복지관 건립
+ ○ 성남시, 범한프라자·미금현대벤처빌시장 전통상업보존구역 지정(서현동, 구미동)
+ ○ 구미동 하얀마을 복지회관 개관
+ ○ 판교종합사회복지관 개관
+ ○ 판교에서 출발해 광주와 이천, 여주시를 연결하는 경강선 개통
+
+
+2017년
+
+ ○ 여수지구-돌마로(수정·중원-분당 간 10.86㎞) 연결 도로 개통
+ ○ 야탑동 목련공공실버복지관 개관
+ ○ 판교노인종합복지관 개관
+ ○ 성남시 주민센터 명칭 ‘행정복지센터’로 변경
+
+
+2018년
+
+ ○ 분당 신해철거리 조성(수내동)
+ ○ 신분당선 미금역 개통
+ ○ 성남 발달장애인 직업적응 훈련시설 ‘우리꿈터’ 개소(정자동)
+
+
+2019년
+
+ ○ 서현도서관 개관
+
+
+2021년
+
+ ○ 성남게임힐링센터 개소(정자동)
+ ○ 분당동 행정복지센터 신축
+ ○ 판교대장초등학교 및 판교대장중학교(통합 운영) 개교
+
+
+                                                      part5 분당신도시의 변화와 미래
+
+
+                                                103
+
+<!-- source: seongnam-history-50-vol-33.pdf p.104 -->
+### p.104
+
+2022년
+
+                        ○ 율동공원 책테마파크 도서관 개관
+
+
+                       2023년
+
+                        ○ 분당 정자교 보행로 사고 발생
+
+
+                       (2023년 4월 5일, 폭우의 영향으로 탄천을 가로지르는 정자교의 보행로 구간 일부가 붕
+                      괴되어 사망자 1명과 부상자 1명이 발생하였다. 이후 정자교, 불정교, 수내교의 결함이 발
+                      견되어 모두 폐쇄되었고, 분당 탄천 다리들의 총체적 부실시공 가능성 제기되었다. 성남
+                      시는 탄천의 24개 다리에 대한 점검을 실시하였다. 정밀 안전진단 결과 불량 수준인 E등
+                      급을 받은 수내교, 불정교, 금곡교, 궁내교 4곳의 보행로를 철거 후 재시공, D와 E등급을
+                      받은 17개 교량의 보도부를 순차적으로 통제 및 전면 재시공하기를 결정하였다.)
+
+                        ○ 수내2동 행정복지센터 개청
+                        ○ 분당 서현역 흉기 난동 사건 발생
+
+
+                       2024년
+
+                        ○ 금곡공원 국민체육센터 개관
+
+
+                       [제3차 고도제한 완화운동]
+
+                       한편 수도권에 속한 성남시는 군사 시설과 관련한 규제로 인한 불편을 겪어왔다. 그중
+                      진행형에 속하는 고도제한 완화운동에 대해 살펴보고자 한다.
+
+
+제33권 1기 신도시 분당의 변천①
+                       고도제한은 1970년 대통령 전용기와 군용기 이착륙장으로 건설한 공군기지인 서울공
+                      항(수정구 둔전동)으로 인해 성남시의 건축 고도가 12m 제한에서 비롯되었다. 이에 지표
+                      면에서 45m 이내까지 건축물이나 구조물을 설치 가능하도록 하자는 제안과 시민운동이
+                      지속되었다.
+                       1999년 10월 시민과 사회단체는 성남시 고도제한 해제를 위한 범시민대책위원회 구성
+                      하여, 2000년 3월 4일 태평동 성남시청 외환은행 앞에서 시민 서명운동을 시작으로 4월
+
+
+성남시사(50년사)
+
+                      104
+
+<!-- source: seongnam-history-50-vol-33.pdf p.105 -->
+### p.105
+
+제3차 고도제한 완화 주민설명회
+
+
+28일 지역 인사 1,200명이 고도제한 철폐운동에 동참하였다.
+ 2002년 1월 3일 12m에서 45m로 완화하는 국방부 고도제한 완화안이 발표되어, 2002
+년 7월 31일 국회 본회의 통과하였다. 이에 4층 이내로 제한되던 건축물 높이가 15층까지
+가능해졌다.
+ 2009년 3월 제2롯데월드 건축 허가로 고도제한 문제가 재점화되어 2009년 4월 23일
+성남 지역 700여 개 시민단체와 2만 명의 시민이 탄천에 집결해 제2롯데월드 건립 허가
+규탄 및 고도제한 완화를 요구하였다. 그 결과 2010년에 일부 지역을 제외한 제2차 고도
+제한 완화 조치가 이루어졌다. 이후 2023년 6월 24일 고도제한 완전 해결 촉구 시민문화
+제를 개최하면서 2024년 현재 제3차 고도제한 완화운동이 진행 중이다.
+
+
+ [신분당선]
+
+ 신분당선은 경기도 수원시 광교역에서 출발하여 성남시를 거쳐 서울시 강남구 신사역
+까지 16개 역을 통과하는 수도권 전철 노선이다. 서울과 분당을 잇는 고속화도로가 만성
+
+
+                                                        part5 분당신도시의 변화와 미래
+정체에 시달리게 되자, 국토교통부가 서울과 분당을 잇는 신분당선 건설을 주도하여 정부
+주관 민간 투자 사업으로 추진하였다.
+
+
+                                                  105
+
+<!-- source: seongnam-history-50-vol-33.pdf p.106 -->
+### p.106
+
+○ 2011년 10월 28일 강남역에서 정자역까지 1단계가 개통하였다.
+                         ○ 2016년 1월 30일   정자역에서 광교역까지 2단계가 개통하였다.
+                         ○ 2018년 4월 28일   신분당선 구간인 정자역과 동천역 사이에 미금역이 설치되었다.
+                         ○ 2022년 5월 28일   강남역에서 신사역까지 연장철도가 3단계로 개통하였다.
+
+
+                       [분당 테크노파크]
+
+                       경기도 성남시 분당구 야탑동 일원에 있는 첨단 IT기업 및 벤처기업 아파트형 공장이
+                      다. 첨단산업도시, 디자인 도시를 지향하는 성남시는 다양한 최적의 입지 조건과 시의 적
+                      극적인 벤처기업 육성책에 힘입어 신흥 벤처밸리로 두각을 나타내고 있다. 분당테크노파
+                      크는 성남 구시가지의 제2, 3산업단지의 성남벤처빌딩과 분당, 판교벤처밸리와 함께 성남
+                      시의 첨단 벤처산업벨트의 한 축을 이루고 있다.
+                       분당테크노파크가 가지고 있는 장점은 우선 입지 조건에 힘입은 바 크다. 임대료가 비
+                      교적 저렴하고(테헤란로의 50% 수준), 거주 환경과 교통이 편리하고 다수의 대기업 연구
+                      소와 KT본사, SKT연구소, GNG네트웍스 IDC센터 등이 입주해 있어서 통신 인프라가 탁
+
+
+                      분당테크노파크
+
+
+제33권 1기 신도시 분당의 변천①
+
+
+성남시사(50년사)
+
+                      106
+
+<!-- source: seongnam-history-50-vol-33.pdf p.107 -->
+### p.107
+
+월할 뿐만 아니라 대기업과의 협력관계나 시너지 효과도 기대할 수 있다. 성남시에는 경
+원대학교(현 가천대학교)와 동서울대학교, 신구대학교, 성남기능대학(현 한국폴리텍Ｉ대
+학 성남캠퍼스), 서울보건대학(현 을지대학교 성남캠퍼스) 등이 있어서 산·학·관 협동을
+하기에도 유리하다. 성남시는 이 집적지구에 입주한 기업에 대해 취득세, 등록세, 지방세,
+재산세 등 기타 특별세금 혜택을 주고 있다. 또한 성남시는 전국 기초자치단체 중 최초로
+산·학·연·관을 주도적으로 수행하는 성남산업진흥재단(현 성남산업진흥원)을 출범시키고
+이를 통하여 첨단 벤처기업 및 유망 중소기업들에 대한 각종 실무적 지원 및 재정 지원을
+하고 있다.
+  과거 단순한 위성도시에서 이제 첨단산업도시로의 발전을 모색하고 있는 성남시는 분
+당테크노파크, 분당벤처밸리 조성 사업 등을 통해서 정보통신부가 추진하고 있는 코리아
+IT벨트 프로젝트의 핵심 도시로서의 위상을 확보해 가고 있다.
+
+
+  [판교테크노밸리 글로벌 R&D센터]
+  판교테크노밸리는 R(Research), P(People), I(Information), T(Trade)가 집적된 글로벌
+IT·BT·CT·NT29 중심의 글로벌 융복합 R＆D 허브로서 기술혁신, 전문인력 양성, 고용 창
+출, 국제 비즈니스 경쟁력 강화 등 국가의 신성장 동력을 확보하고자 조성된 경기도의 대
+표적 혁신 클러스터이다.
+  경기도에서 2004년 9월 ‘판교테크노밸리 기본계획’을 수립, 12월 판교테크노밸리 20만
+평(66만 1,157.025㎡)을 특별계획구역으로 지정하며 판교신도시 실시 계획을 승인하였
+다. 2010년 3월 판교테크노밸리 글로벌 R＆D센터 기공식을 가졌고, 2013년까지 총 5조
+2,705억 원(부지 1조 4,046억 원, 건축비 3조 8,659억 원)을 들여 시설을 완공하였다.
+  판교테크노밸리는 IT, BT, CT, NT 및 첨단융합기술연구시설과 첨단인프라시설, 연구
+지원시설 등으로 나뉘어 있다. 용지 규모는 총 45만 4,964㎡로 글로벌 R＆D 등을 초청하
+여 유치하는 초청연구 용지가 4만 8,417㎡이고, 연구 집적 시설·연구개발 시설·산학공동
+연구센터 등의 시설이 있는 일반연구 용지가 26만 7,450㎡, 금융·비즈니스·서비스·정보교
+류 지원시설· 게스트 하우스·기숙사·연구시설·첨단산업 관련 전문대학원, 직업훈련소, 교
+
+
+                                                                                                           part5 분당신도시의 변화와 미래
+29 IT(정보기술, Information Technology), BT(생명공학기술, Bio Technology), CT(문화콘텐츠기술,  Cultural Technology), NT(나
+   노기술, Nano Technology).
+
+
+                                                                                                  107
+
+<!-- source: seongnam-history-50-vol-33.pdf p.108 -->
+### p.108
+
+판교테크노밸리 글로벌 R&D센터
+
+
+                      육연구센터 등의 주요 시설이 있는 연구지원 용지 11만 7,651㎡, 주차장 용지 2만 1,716
+                      ㎡로 구성되어 있다.
+
+
+제33권 1기 신도시 분당의 변천①
+
+
+성남시사(50년사)
+
+                      108
+
+<!-- source: seongnam-history-50-vol-33.pdf p.109 -->
+### p.109
+
+2 분당의 미래
+
+
+  신도시로 개발된 지역을 다수 포함하는 분당구는 경부고속도로를 기준으로
+ 동쪽의 시가지 밀집 지역과 서쪽의 자연경관 보전 지역으로 구분된다. 시가
+ 지 밀집 지역은 탄천의 서쪽에 개발된 판교신도시와 신도시 개발의 역사가 비
+ 교적 오래된 분당신도시로 구분되고, 자연경관이 잘 보전되고 있는 지역은 개
+ 발제한구역을 포함하는 산줄기에 의해 분당신도시 및 판교신도시와 분리되어
+ 있다.
+  분당신도시의 남단에서 탄천을 끼고 있는 구미동과 미금역 일대는 경부고속
+ 도로 서쪽의 산줄기와 연결된 공간이다. 시가지 개발이 활발하지 않은 대장동,
+ 석운동, 하산운동 등은 판교신도시와 산줄기를 사이에 두고 분리되어 있지만,
+ 도로가 개설되면서 판교신도시와의 연결 관계가 개선되었으며 대장동에 조성
+ 된 공동주택 및 중학교의 이름으로 ‘판교’ 또는 ‘판교대장’이라는 명칭이 사용
+ 되는 만큼 대장동 일대는 지역의 성격과 장소성, 주민들의 장소 인식 등이 판교
+ 화하면서 판교 신시가지와 연계된 공간으로 변모할 것으로 전망된다.
+  분당구에서 문화재로 지정되지 않은 문화유산은 분묘가 다수를 차지하고 있
+ 다. 특히 궁내동에는 조선 왕실의 묘가 많이 분포되어 있으며, 석운동에는 전주
+
+
+                                                part5 분당신도시의 변화와 미래
+ 이씨 묘역이 있으며, 사우, 임금의 어태가 묻힌 태봉 등도 있다. 분당신도시 건
+ 설 과정에 조사된 선사 유적지인 가마터, 지석묘군, 옹기요지, 입석, 백제 주거
+
+
+                                          109
+
+<!-- source: seongnam-history-50-vol-33.pdf p.110 -->
+### p.110
+
+지, 적석총군, 고려시대 건물지 등을 비롯하여 판교신도시 개발 과정에서 발굴된 문화유
+                      적들이 다채롭다.
+                       그럼에도 인구의 초고령화 현상은 피할 수 없는 현실이 되었다. 천당 아래 분당이라는
+                      평가와 자부심이 있는 반면, 인구 절벽으로 인한 초등학교 폐교 현상 등은 당면한 절박한
+                      위기에 속한다. 총 38개 교의 초등학교, 총 25개 교의 중학교 그리고 총 24개 교의 고등학
+                      교의 지속가능성은 낙관적인 전망이 어렵다. 또한 서현역, 정자역, 미금역을 중심으로 하
+                      는 중심 상권의 발전 역시 낙관하기 쉽지 않다.
+                        2003년 12월부터 분당구 백현동 일대를 중심으로 판교동, 금곡동, 야탑동 등에 신도
+                      시 사업이 추진되어 최첨단 과학기술단지인 테크노밸리가 조성되었다. 분당구 정자동에
+                      설치된 정자역에서 서울시 강남역까지 15분대에 이동할 수 있는 신분당선이 운영되어 판
+                      교역을 통과하고 수원까지 개통되어 수도권 인구의 발이 되고 있다. 또한 2016년 9월 경
+                      강선 전철이 판교에서 여주까지 개통되었고, 2017년에는 성남-장호원 도로가 성남-안양
+                      고속도로와 연결, 개통되었으며, 수원역-부산 KTX가 개통되었다. 앞으로도 월곶-판교선
+                      (수도권 남부순환선) 판교역과 제2인천공항선 서판교역이 계획 중이고, 삼성-수서 GTX
+                      판교역도 예정되어 있다.
+                       성남시는 2024년 12월 현재 3개 구, 50개 동에 93만 명의 인구를 가진 거대도시로 발전
+                      하였고, 분당구 인구는 47만여 명에 이르고 있다. 분당 지역은 학군도 좋고 부모들의 교육
+                      열이 높은 지역이다. 특히 판교를 필두로 대한민국의 대기업들의 본사들이 대거 자리 잡
+                      아 주요 업무지구를 형성하였으며, 젊은 세대들과 부유층의 유입이 계속 이어지고 있다.
+                      IT 등 첨단산업 일자리가 집중되어 분당 인근에서 일하는 젊은 층이 많은 데다가 인근 경
+                      기 남부 일대가 워낙 젊은 지역이다 보니, 2025년 기준 노령화지수는 120.7로(성남시 평
+                      균 155.5) 서울 평균(204)은 물론이고 서울에서 노령화지수가 가장 낮은 서초구(136.4)보
+                      다도 낮다. 그래서 고령화 문제에서 국내에서는 상대적으로 전망이 양호한 지역이다. 그
+
+
+제33권 1기 신도시 분당의 변천①
+                      만큼 미래 발전 가능성이 높은 지역이라 할 수 있겠다.
+
+
+성남시사(50년사)
+
+                      110
+
+## 참고문헌·판권
+
+<!-- source: seongnam-history-50-vol-33.pdf p.111 -->
+### p.111
+
+참
+고
+문
+헌
+    ○ 단행본
+
+     경기도지편찬위원회,『경기도지(중)』, 1956.
+     권기흥,『성남시지』, 영림서관, 1982.
+     경기도,『지명유래집』, 1987.
+     성남시,『성남분당지구 문화유적』7집, 1989.
+     한양대학교 박물관,『분당지구 문화유적 종합 학술조사보고서』, 1991.
+     이완재,『한국사에 비춘 ‘성남 지역’의 역사』, 민족문화사, 1993.
+     한국토지공사,『분당신도시개발사』, 1997.
+     김기빈,『분당의 땅이름 이야기』, 한국토지공사 토지박물관, 1999.
+     남한산성을사랑하는모임,『광주·성남 지역의 지명자료집』, 1998.
+     성남문화원,『성남의 마을신앙과 가정신앙-성남시 민간신앙 조사보고서』, 2001.
+     성남문화원,『성남의 역사와 문화유산』, 2001.
+     한국토지공사 토지박물관·성남시,『성남시의 역사와 문화유적』, 2001.
+     성남문화원,『성남 금석문대관』, 2003.
+     성남시사편찬위원회,『성남시사(30년사)』2권, 2004.
+     성남문화원,『복정·태평마을지』, 2005.
+     성남문화원,『성남문화유적』, 2005.
+     성남문화원,『내고장 성남』, 2006.
+     성남문화원,『돌마마을지(상)』, 2007.
+     성남문화원,『돌마마을지(하)』, 2008.
+     성남문화원,『낙생마을지』, 2009.
+     성남문화원,『판교마을지』, 2009.
+     성남문화원,『성남인물지-광복이전 편』, 2010.
+     성남문화원,『성남옛이야기』, 2010.
+     성남문화원,『남한산성일대 독립운동사자료집』, 2013.
+     성남시사편찬위원회,『성남시사(40년사)』, 2014.
+     성남시 시사편찬위원회,『성남시사』(50년사), 제29권, 2025.
+
+
+    ○ 인터넷 사이트
+
+     공공데이터포털(https://www.data.go.kr)
+     디지털누리집성남문화대전(http://seongnam.grandculture.net)
+     비전성남(https://snvision.seongnam.go.kr)
+
+<!-- source: seongnam-history-50-vol-33.pdf p.112 -->
+### p.112
+
+성남시사 33
+1기 신도시 분당의 변천①
+
+발행일
+2025년 12월 29일
+발행처
+성남시 시사편찬위원회
+경기도 성남시 수정구 산성대로215번길 7(신흥동)
+031-756-1082 / snsisa50th@naver.com
+집필
+강정훈｜위례역사문화연구소 이사
+김명섭｜단국대학교 동양학연구원 초빙교수
+
+디자인·인쇄
+홍익문화사
+서울시 중구 수표로 23
+02-2274-8110 / www.hongeeg.com
+
+
+ⓒ성남시(성남시 시사편찬위원회)

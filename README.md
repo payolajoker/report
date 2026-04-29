@@ -35,6 +35,7 @@ graph TD
         B3["1·2기 신도시 주민의 삶"]
         B4["3기 신도시 개발전략·계획기준"]
         B5["1·2기 신도시 건설 영향"]
+        B6["성남시사 50년사"]
     end
 
     R1 -.하남교산 사례.-> R3
@@ -80,13 +81,17 @@ graph TD
     B5 -.1·2기 평가.-> R7
     B5 -.광역 공간구조·생활권 변화.-> R3
     B5 -.경제·생활기반 충족도 기준.-> R6
+    B6 -.광주대단지·성남 도시사 원문.-> R7
+    B6 -.분당·판교·위례 지역사.-> R1
+    B6 -.성남·동남권 공간 변천.-> R3
+    B6 -.성남 도시기능·공간구조 원문.-> R6
 
     classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
     classDef supp fill:#fef3c7,stroke:#d97706,color:#000
     classDef book fill:#dcfce7,stroke:#16a34a,color:#000
     class R1,R2,R3,R4,R5,R6,R7 report
     class S1,S2,S3,S4,S5,S6,S7,S8 supp
-    class B1,B2,B3,B4,B5 book
+    class B1,B2,B3,B4,B5,B6 book
 ```
 
 ## 공개 보고서 (Reports)
@@ -159,6 +164,78 @@ PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 
 - [LLM 단일 번들](./books/third-newtown-development-strategy/dist/third-newtown-development-strategy.llm.md) - RAG/긴 컨텍스트 입력용 통합본
 - [원본 PDF](./books/third-newtown-development-strategy/sources/OTKCRK200194.pdf) - Git LFS 관리
 - [전체 페이지 이미지](./books/third-newtown-development-strategy/docs/third-newtown-development-strategy/assets/pages/) - PDF 1-491쪽 JPEG 보존본
+
+### 성남시사 50년사 - [`books/seongnam-city-history-50/`](./books/seongnam-city-history-50/)
+
+성남시 공식 `성남시사(50년사)` 게시판의 Index 및 제1-50권 PDF를 내려받아 권별 Markdown, 도판 이미지, 수치·지명 색인, LLM 단일 번들로 재구성한 원문 아카이브다. 성남·분당·판교·위례, 광주대단지, 서울 동남권 연담화, 신도시 전후 지명층을 분석할 때 1차 근거로 쓴다.
+
+- 처리 완료: 제1-50권 Markdown 50개 / LLM 번들 50개
+- 렌더링 페이지 이미지: 5,864개
+- OCR 사용: 없음. PDF 내장 텍스트층과 페이지 이미지 대조 기반
+- 병렬 처리: 권별 보조 에이전트 초안과 통합 메모를 사용하고, 공통 색인은 coordinator가 병합
+
+- [문서 인덱스](./books/seongnam-city-history-50/docs/seongnam-city-history-50/index.md) - 전체 50권 처리 상태와 권별 산출물
+- [주요 수치](./books/seongnam-city-history-50/docs/seongnam-city-history-50/stats.md) - 권별 핵심 수치와 통합 메모 기반 병합 후보
+- [도판 색인](./books/seongnam-city-history-50/docs/seongnam-city-history-50/figures.md) - 권별 렌더링 이미지와 주요 도판 후보
+- [지도·지명 색인](./books/seongnam-city-history-50/docs/seongnam-city-history-50/toponyms.md) - 고지도 계통, 행정 지리, 핵심 지명
+- [교통로·장시 색인](./books/seongnam-city-history-50/docs/seongnam-city-history-50/transport-markets.md) - 역로, 고속도로, 철도, 터미널, 시장권
+- [source-page-index](./books/seongnam-city-history-50/docs/seongnam-city-history-50/source-page-index.md) - 권별 원문 쪽 범위와 감사 링크
+- [기계처리용 manifest](./books/seongnam-city-history-50/docs/seongnam-city-history-50/manifest.yml) - PDF 목록, 권별 상태, 주제 태그
+- [컬렉션 manifest](./books/seongnam-city-history-50/dist/seongnam-city-history-50.manifest.json) - RAG/배치 처리용 통합 메타데이터
+- [원본 PDF 묶음](./books/seongnam-city-history-50/sources/) - Index 및 제1-50권, Git LFS 관리
+
+| 권 | 제목 | 상태 | 산출물 |
+|---:|---|---|---|
+| 1 | 성남의 자연환경 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-01-natural-environment.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-01.llm.md) |
+| 2 | 성남의 인구 및 성씨와 토지 이용의 변화 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-02-population-clans-landuse.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-02.llm.md) |
+| 3 | 옛 지도와 지리지로 보는 성남 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-03-old-maps-geographies-toponyms.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-03.llm.md) |
+| 4 | 성남의 교통로와 장시의 발달 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-04-transport-routes-markets.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-04.llm.md) |
+| 5 | 역사① 선사시대부터 고려시대까지의 성남 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-05-history-prehistory-to-goryeo.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-05.llm.md) |
+| 6 | 역사② 조선시대의 성남 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-06-joseon-era-seongnam.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-06.llm.md) |
+| 7 | 역사③ 성남의 의병 항쟁과 독립투쟁사 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-07-righteous-army-independence-struggle.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-07.llm.md) |
+| 8 | 역사④ 광주대단지와 8·10성남(광주대단지)항쟁 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-08-gwangju-daedanji-8-10-uprising.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-08.llm.md) |
+| 9 | 역사⑤ 성남시 승격과 도시개발 50년 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-09-cityhood-urban-development-50-years.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-09.llm.md) |
+| 10 | 성남 역사 인물 50선 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-10-historical-figures-50.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-10.llm.md) |
+| 11 | 성남의 문화유산 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-11-cultural-heritage.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-11.llm.md) |
+| 12 | 성남의 민속 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-12-folklore.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-12.llm.md) |
+| 13 | 성남시 선거와 지방자치 30년 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-13-elections-local-autonomy.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-13.llm.md) |
+| 14 | 성남시 자치행정과 지방재정 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-14-local-administration-finance.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-14.llm.md) |
+| 15 | 성남 지역 시민운동과 참여 자치 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-15-civic-movement-participatory-governance.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-15.llm.md) |
+| 16 | 성남시 경제와 산업 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-16-economy-industry.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-16.llm.md) |
+| 17 | 성남의 산업구조 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-17-industrial-structure.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-17.llm.md) |
+| 18 | 성남의 산업단지와 기업체 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-18-industrial-complexes-companies.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-18.llm.md) |
+| 19 | 성남 교육의 역사와 학교 교육 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-19-education-history-school-education.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-19.llm.md) |
+| 20 | 성남시 청소년의 삶과 문화 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-20-youth-life-culture.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-20.llm.md) |
+| 21 | 평생교육과 성남 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-21-lifelong-education-seongnam.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-21.llm.md) |
+| 22 | 성남의 문화와 예술 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-22-culture-and-arts.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-22.llm.md) |
+| 23 | 성남의 축제와 관광 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-23-festivals-tourism.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-23.llm.md) |
+| 24 | 성남 시민의 종교와 신앙생활 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-24-religion-faith-life.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-24.llm.md) |
+| 25 | 성남의 체육 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-25-sports.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-25.llm.md) |
+| 26 | 사회복지와 성남 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-26-social-welfare-seongnam.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-26.llm.md) |
+| 27 | 성남의 보건 의료와 정책 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-27-healthcare-policy.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-27.llm.md) |
+| 28 | 성남의 지역 언론과 매체 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-28-local-media-and-press.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-28.llm.md) |
+| 29 | 성남의 공간구조와 생활권 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-29-spatial-structure-living-areas.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-29.llm.md) |
+| 30 | 성남 본시가지 일대의 변천 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-30-main-city-area-transformation.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-30.llm.md) |
+| 31 | 상대원과 성남하이테크밸리 일대의 변천 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-31-sangdaewon-seongnam-high-tech-valley.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-31.llm.md) |
+| 32 | 여수동·도촌동·야탑동 일대의 변천 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-32-yeosu-dochon-yatap-area-transformation.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-32.llm.md) |
+| 33 | 1기 신도시 분당의 변천① | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-33-bundang-new-town-transition-1.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-33.llm.md) |
+| 34 | 1기 신도시 분당의 변천② | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-34-first-newtown-bundang-transition-2.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-34.llm.md) |
+| 35 | 판교 일대의 변천 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-35-pangyo-area-transformation.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-35.llm.md) |
+| 36 | 운중동·대장동 일대의 변천 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-36-unjung-daejang-area-transformation.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-36.llm.md) |
+| 37 | 위례신도시 일대의 변천 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-37-wirye-new-town-area-transformation.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-37.llm.md) |
+| 38 | 고등·신촌지구 일대의 변천 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-38-godeung-sinchon-district-transformation.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-38.llm.md) |
+| 39 | 성남 콘텐츠 50선 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-39-seongnam-content-50.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-39.llm.md) |
+| 40 | 토박이와 이주민의 성남살이 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-40-natives-migrants-seongnam-life.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-40.llm.md) |
+| 41 | 모란 상설시장과 민속5일장 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-41-moran-permanent-market-folk-five-day-market.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-41.llm.md) |
+| 42 | 성남의 전통 민속놀이 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-42-traditional-folk-games.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-42.llm.md) |
+| 43 | 판교 테크노컬처밸리 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-43-pangyo-techno-culture-valley.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-43.llm.md) |
+| 44 | 판교 게임·콘텐츠특구 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-44-pangyo-game-content-special-zone.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-44.llm.md) |
+| 45 | 성남 주택의 변화상과 특색 건축물 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-45-housing-change-distinctive-architecture.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-45.llm.md) |
+| 46 | 한 권으로 읽는 어린이 성남시사 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-46-childrens-seongnam-history.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-46.llm.md) |
+| 47 | 성남시사 50년사 제47권 한 권으로 읽는 청소년 성남시사 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-47-youth-seongnam-city-history.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-47.llm.md) |
+| 48 | 포토에세이, 성남 ALIGN | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-48-photo-essay-seongnam-align.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-48.llm.md) |
+| 49 | 자료로 보는 성남 | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-49-data-for-seongnam.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-49.llm.md) |
+| 50 | 길라잡이 성남 사전(事典) | text-layer-reviewed | [Markdown](./books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-50-guidebook-seongnam-dictionary.md) / [LLM](./books/seongnam-city-history-50/dist/seongnam-history-50-vol-50.llm.md) |
 
 ## 보조 자료 (Supplements)
 
