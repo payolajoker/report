@@ -37,6 +37,7 @@ graph TD
         B5["1·2기 신도시 건설 영향"]
         B6["성남시사 50년사"]
         B7["평촌신도시 개발사"]
+        B8["분당신도시 개발사"]
     end
 
     R1 -.하남교산 사례.-> R3
@@ -89,13 +90,16 @@ graph TD
     B7 -.1기 신도시 사업시행 원문.-> R1
     B7 -.평촌·안양권 개발·교통·기반시설 맥락.-> R3
     B7 -.주택공급·자족기능·도시기능 기준.-> R6
+    B8 -.1기 신도시 사업시행 원문.-> R1
+    B8 -.분당·성남권 개발·교통·기반시설 맥락.-> R3
+    B8 -.주택공급·자족기능·도시기능 기준.-> R6
 
     classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
     classDef supp fill:#fef3c7,stroke:#d97706,color:#000
     classDef book fill:#dcfce7,stroke:#16a34a,color:#000
     class R1,R2,R3,R4,R5,R6,R7 report
     class S1,S2,S3,S4,S5,S6,S7,S8 supp
-    class B1,B2,B3,B4,B5,B6,B7 book
+    class B1,B2,B3,B4,B5,B6,B7,B8 book
 ```
 
 ## 공개 보고서 (Reports)
@@ -251,6 +255,17 @@ PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 
 - [LLM 단일 번들](./books/pyeongchon-newtown-development-history/dist/pyeongchon-newtown-development-history.llm.md) - RAG/긴 컨텍스트 입력용 통합본
 - [원본 PDF](./books/pyeongchon-newtown-development-history/sources/OTKLEC010215.pdf) - Git LFS 관리
 - [전체 페이지 이미지](./books/pyeongchon-newtown-development-history/docs/pyeongchon-newtown-development-history/assets/pages/) - PDF 1-693쪽 JPEG 보존본
+
+### 분당신도시 개발사 - [`books/bundang-newtown-development-history/`](./books/bundang-newtown-development-history/)
+
+분당신도시의 계획·보상·개발·용지공급·주택건설·기반시설·사업준공·평가·추진일지를 다룬 원문 자료다. 스캔본 1,094쪽을 OCR 없이 페이지 이미지 육안 판독으로 전사하고, 표·사진·도표·주요 통계를 GitHub/LLM용 구조로 정리했다.
+
+- [문서 인덱스](./books/bundang-newtown-development-history/docs/bundang-newtown-development-history/index.md) - 배치별 목차와 페이지 범위
+- [주요 수치](./books/bundang-newtown-development-history/docs/bundang-newtown-development-history/stats.md) - 면적, 인구, 세대, 밀도, 사업비, 토지이용 등 선별 수치
+- [기계처리용 manifest](./books/bundang-newtown-development-history/docs/bundang-newtown-development-history/manifest.yml) - 배치 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/bundang-newtown-development-history/dist/bundang-newtown-development-history.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/bundang-newtown-development-history/sources/OTKLEC010078.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/bundang-newtown-development-history/docs/bundang-newtown-development-history/assets/pages/) - PDF 1-1,094쪽 JPEG 보존본
 
 ## 보조 자료 (Supplements)
 
