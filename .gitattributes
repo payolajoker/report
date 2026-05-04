@@ -38,6 +38,11 @@ books/bundang-newtown-development-history/**/*.jpg filter=lfs diff=lfs merge=lfs
 books/bundang-newtown-development-history/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 books/bundang-newtown-development-history/**/*.png filter=lfs diff=lfs merge=lfs -text
 
+books/pangyo-newtown-master-plan-design-book/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+books/pangyo-newtown-master-plan-design-book/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+books/pangyo-newtown-master-plan-design-book/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+books/pangyo-newtown-master-plan-design-book/**/*.png filter=lfs diff=lfs merge=lfs -text
+
 *.md text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf

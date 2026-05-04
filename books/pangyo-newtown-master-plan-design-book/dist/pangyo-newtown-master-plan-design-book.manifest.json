@@ -1,0 +1,362 @@
+{
+  "book": {
+    "title": "판교신도시 마스터 플랜 및 디자인 총람",
+    "slug": "pangyo-newtown-master-plan-design-book",
+    "language": "ko",
+    "source_pdf": "sources/OTKNTC070432.pdf",
+    "pdf_pages": 331,
+    "ocr_used": false,
+    "visual_review": true,
+    "created_at": "2026-05-04"
+  },
+  "artifacts": {
+    "index": "docs/pangyo-newtown-master-plan-design-book/index.md",
+    "manifest": "docs/pangyo-newtown-master-plan-design-book/manifest.yml",
+    "source_page_index": "docs/pangyo-newtown-master-plan-design-book/source-page-index.md",
+    "stats": "docs/pangyo-newtown-master-plan-design-book/stats.md",
+    "llm_bundle": "dist/pangyo-newtown-master-plan-design-book.llm.md",
+    "page_images": "docs/pangyo-newtown-master-plan-design-book/assets/pages/pdf-page-001.jpg..pdf-page-331.jpg"
+  },
+  "sections": [
+    {
+      "id": "batch-001",
+      "title": "Front Matter And 판교신도시 개요 Opener",
+      "h1": "Front Matter And 판교신도시 개요 Opener",
+      "source_pages": "001-010",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-001-pages-001-010.md",
+      "local_file": "transcription/batch-001-pages-001-010.md",
+      "basename": "batch-001-pages-001-010.md",
+      "line_count": 238
+    },
+    {
+      "id": "batch-002",
+      "title": "01 판교신도시 개요: 사업의 개요와 개발방향",
+      "h1": "01 판교신도시 개요: 사업의 개요와 개발방향",
+      "source_pages": "011-020",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-002-pages-011-020.md",
+      "local_file": "transcription/batch-002-pages-011-020.md",
+      "basename": "batch-002-pages-011-020.md",
+      "line_count": 441
+    },
+    {
+      "id": "batch-003",
+      "title": "판교신도시 개요: 기반계획 및 신개념 도입",
+      "h1": "판교신도시 개요: 기반계획 및 신개념 도입",
+      "source_pages": "021-030",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-003-pages-021-030.md",
+      "local_file": "transcription/batch-003-pages-021-030.md",
+      "basename": "batch-003-pages-021-030.md",
+      "line_count": 352
+    },
+    {
+      "id": "batch-004",
+      "title": "판교신도시 개요 / 동판교 마스터 플랜",
+      "h1": "판교신도시 개요 / 동판교 마스터 플랜",
+      "source_pages": "031-040",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-004-pages-031-040.md",
+      "local_file": "transcription/batch-004-pages-031-040.md",
+      "basename": "batch-004-pages-031-040.md",
+      "line_count": 280
+    },
+    {
+      "id": "batch-005",
+      "title": "동판교 마스터 플랜: 개요 및 종합배치도, 지구영역/경관계획",
+      "h1": "동판교 마스터 플랜: 개요 및 종합배치도, 지구영역/경관계획",
+      "source_pages": "041-050",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-005-pages-041-050.md",
+      "local_file": "transcription/batch-005-pages-041-050.md",
+      "basename": "batch-005-pages-041-050.md",
+      "line_count": 326
+    },
+    {
+      "id": "batch-006",
+      "title": "동판교 마스터 플랜 종료 및 판교신도시 건축계획안 시작",
+      "h1": "동판교 마스터 플랜 종료 및 판교신도시 건축계획안 시작",
+      "source_pages": "051-060",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-006-pages-051-060.md",
+      "local_file": "transcription/batch-006-pages-051-060.md",
+      "basename": "batch-006-pages-051-060.md",
+      "line_count": 324
+    },
+    {
+      "id": "batch-007",
+      "title": "PDF pp.061-070 - 현상설계 프로젝트: A18-1 및 A5-1/A5-2 Blocks",
+      "h1": "PDF pp.061-070 - 현상설계 프로젝트: A18-1 및 A5-1/A5-2 Blocks",
+      "source_pages": "061-070",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-007-pages-061-070.md",
+      "local_file": "transcription/batch-007-pages-061-070.md",
+      "basename": "batch-007-pages-061-070.md",
+      "line_count": 240
+    },
+    {
+      "id": "batch-008",
+      "title": "현상설계 프로젝트: A5-1,A5-2 Block / A22-1,A22-2,A23-1 Block",
+      "h1": "현상설계 프로젝트: A5-1,A5-2 Block / A22-1,A22-2,A23-1 Block",
+      "source_pages": "071-080",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-008-pages-071-080.md",
+      "local_file": "transcription/batch-008-pages-071-080.md",
+      "basename": "batch-008-pages-071-080.md",
+      "line_count": 210
+    },
+    {
+      "id": "batch-009",
+      "title": "현상설계 프로젝트: A22-1/A22-2/A23-1 Block 및 A17-1 Block",
+      "h1": "현상설계 프로젝트: A22-1/A22-2/A23-1 Block 및 A17-1 Block",
+      "source_pages": "081-090",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-009-pages-081-090.md",
+      "local_file": "transcription/batch-009-pages-081-090.md",
+      "basename": "batch-009-pages-081-090.md",
+      "line_count": 251
+    },
+    {
+      "id": "batch-010",
+      "title": "PDF pages 091-100: A17-1 Block and 성남판교 휴먼시아 단위세대/인테리어",
+      "h1": "PDF pages 091-100: A17-1 Block and 성남판교 휴먼시아 단위세대/인테리어",
+      "source_pages": "091-100",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-010-pages-091-100.md",
+      "local_file": "transcription/batch-010-pages-091-100.md",
+      "basename": "batch-010-pages-091-100.md",
+      "line_count": 273
+    },
+    {
+      "id": "batch-011",
+      "title": "성남판교 휴먼시아 84㎡ 주택형 및 A19-1,A20-1,A21-2 Block",
+      "h1": "성남판교 휴먼시아 84㎡ 주택형 및 A19-1,A20-1,A21-2 Block",
+      "source_pages": "101-110",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-011-pages-101-110.md",
+      "local_file": "transcription/batch-011-pages-101-110.md",
+      "basename": "batch-011-pages-101-110.md",
+      "line_count": 235
+    },
+    {
+      "id": "batch-012",
+      "title": "A19-1,A20-1,A21-2 Block",
+      "h1": "A19-1,A20-1,A21-2 Block",
+      "source_pages": "111-120",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-012-pages-111-120.md",
+      "local_file": "transcription/batch-012-pages-111-120.md",
+      "basename": "batch-012-pages-111-120.md",
+      "line_count": 241
+    },
+    {
+      "id": "batch-013",
+      "title": "A2-2 Block / A8-1 Block 성남판교 휴먼시아",
+      "h1": "A2-2 Block / A8-1 Block 성남판교 휴먼시아",
+      "source_pages": "121-130",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-013-pages-121-130.md",
+      "local_file": "transcription/batch-013-pages-121-130.md",
+      "basename": "batch-013-pages-121-130.md",
+      "line_count": 228
+    },
+    {
+      "id": "batch-014",
+      "title": "A8-1 Block completion, B3-1 Block, and B6-1 Block opening",
+      "h1": "A8-1 Block Completion, B3-1 Block, And B6-1 Block Opening",
+      "source_pages": "131-140",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-014-pages-131-140.md",
+      "local_file": "transcription/batch-014-pages-131-140.md",
+      "basename": "batch-014-pages-131-140.md",
+      "line_count": 283
+    },
+    {
+      "id": "batch-015",
+      "title": "B6-1 Block / 단위세대 특화방안",
+      "h1": "B6-1 Block / 단위세대 특화방안",
+      "source_pages": "141-150",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-015-pages-141-150.md",
+      "local_file": "transcription/batch-015-pages-141-150.md",
+      "basename": "batch-015-pages-141-150.md",
+      "line_count": 306
+    },
+    {
+      "id": "batch-016",
+      "title": "성남판교 휴먼시아 - 주민커뮤니티 시설계획 및 단위세대계획/인테리어",
+      "h1": "성남판교 휴먼시아 - 주민커뮤니티 시설계획 및 단위세대계획/인테리어",
+      "source_pages": "151-160",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-016-pages-151-160.md",
+      "local_file": "transcription/batch-016-pages-151-160.md",
+      "basename": "batch-016-pages-151-160.md",
+      "line_count": 284
+    },
+    {
+      "id": "batch-017",
+      "title": "성남판교 휴먼시아 단위세대/인테리어 및 A17-2,A18-2 Block",
+      "h1": "성남판교 휴먼시아 단위세대/인테리어 및 A17-2,A18-2 Block",
+      "source_pages": "161-170",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-017-pages-161-170.md",
+      "local_file": "transcription/batch-017-pages-161-170.md",
+      "basename": "batch-017-pages-161-170.md",
+      "line_count": 267
+    },
+    {
+      "id": "batch-018",
+      "title": "PDF Pages 171-180: A18-2BL, A24-1 Block, A25-1 Block",
+      "h1": "PDF Pages 171-180: A18-2BL, A24-1 Block, A25-1 Block",
+      "source_pages": "171-180",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-018-pages-171-180.md",
+      "local_file": "transcription/batch-018-pages-171-180.md",
+      "basename": "batch-018-pages-171-180.md",
+      "line_count": 265
+    },
+    {
+      "id": "batch-019",
+      "title": "국제설계경기 프로젝트 도입 및 B5-1BL",
+      "h1": "국제설계경기 프로젝트 도입 및 B5-1BL",
+      "source_pages": "181-190",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-019-pages-181-190.md",
+      "local_file": "transcription/batch-019-pages-181-190.md",
+      "basename": "batch-019-pages-181-190.md",
+      "line_count": 393
+    },
+    {
+      "id": "batch-020",
+      "title": "국제설계경기 프로젝트: B5-1 Block / B5-2 Block",
+      "h1": "국제설계경기 프로젝트: B5-1 Block / B5-2 Block",
+      "source_pages": "191-200",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-020-pages-191-200.md",
+      "local_file": "transcription/batch-020-pages-191-200.md",
+      "basename": "batch-020-pages-191-200.md",
+      "line_count": 186
+    },
+    {
+      "id": "batch-021",
+      "title": "국제설계경기 프로젝트: B5 Blocks And B5-2 Block Plans",
+      "h1": "국제설계경기 프로젝트: B5 Blocks And B5-2 Block Plans",
+      "source_pages": "201-210",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-021-pages-201-210.md",
+      "local_file": "transcription/batch-021-pages-201-210.md",
+      "basename": "batch-021-pages-201-210.md",
+      "line_count": 316
+    },
+    {
+      "id": "batch-022",
+      "title": "B5-3 Block - 국제설계경기 프로젝트",
+      "h1": "B5-3 Block - 국제설계경기 프로젝트",
+      "source_pages": "211-220",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-022-pages-211-220.md",
+      "local_file": "transcription/batch-022-pages-211-220.md",
+      "basename": "batch-022-pages-211-220.md",
+      "line_count": 222
+    },
+    {
+      "id": "batch-023",
+      "title": "국제설계경기 프로젝트 종료 및 턴키 프로젝트 시작",
+      "h1": "국제설계경기 프로젝트 종료 및 턴키 프로젝트 시작",
+      "source_pages": "221-230",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-023-pages-221-230.md",
+      "local_file": "transcription/batch-023-pages-221-230.md",
+      "basename": "batch-023-pages-221-230.md",
+      "line_count": 452
+    },
+    {
+      "id": "batch-024",
+      "title": "턴키 프로젝트: A21-1 Block / 판교휴먼시아 어울림 (1공구)",
+      "h1": "턴키 프로젝트: A21-1 Block / 판교휴먼시아 어울림 (1공구)",
+      "source_pages": "231-240",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-024-pages-231-240.md",
+      "local_file": "transcription/batch-024-pages-231-240.md",
+      "basename": "batch-024-pages-231-240.md",
+      "line_count": 304
+    },
+    {
+      "id": "batch-025",
+      "title": "PDF pp.241-250 - 턴키 프로젝트: A26,27-1 Block",
+      "h1": "PDF pp.241-250 - 턴키 프로젝트: A26,27-1 Block",
+      "source_pages": "241-250",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-025-pages-241-250.md",
+      "local_file": "transcription/batch-025-pages-241-250.md",
+      "basename": "batch-025-pages-241-250.md",
+      "line_count": 212
+    },
+    {
+      "id": "batch-026",
+      "title": "A26,27-1 Block 및 A13-1,A14-1,B2-1 Block",
+      "h1": "A26,27-1 Block 및 A13-1,A14-1,B2-1 Block",
+      "source_pages": "251-260",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-026-pages-251-260.md",
+      "local_file": "transcription/batch-026-pages-251-260.md",
+      "basename": "batch-026-pages-251-260.md",
+      "line_count": 300
+    },
+    {
+      "id": "batch-027",
+      "title": "판교신도시 건축계획안 - A13-1, A14-1, B2-1 Block",
+      "h1": "판교신도시 건축계획안 - A13-1, A14-1, B2-1 Block",
+      "source_pages": "261-270",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-027-pages-261-270.md",
+      "local_file": "transcription/batch-027-pages-261-270.md",
+      "basename": "batch-027-pages-261-270.md",
+      "line_count": 214
+    },
+    {
+      "id": "batch-028",
+      "title": "턴키 프로젝트 - 판교휴먼시아 힐스테이트/푸르지오 블록계획 및 단위평면",
+      "h1": "턴키 프로젝트 - 판교휴먼시아 힐스테이트/푸르지오 블록계획 및 단위평면",
+      "source_pages": "271-280",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-028-pages-271-280.md",
+      "local_file": "transcription/batch-028-pages-271-280.md",
+      "basename": "batch-028-pages-271-280.md",
+      "line_count": 323
+    },
+    {
+      "id": "batch-029",
+      "title": "판교휴먼시아 푸르지오 (4공구): A9-1, A9-2, A10-1, B4-1 Block",
+      "h1": "판교휴먼시아 푸르지오 (4공구): A9-1, A9-2, A10-1, B4-1 Block",
+      "source_pages": "281-290",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-029-pages-281-290.md",
+      "local_file": "transcription/batch-029-pages-281-290.md",
+      "basename": "batch-029-pages-281-290.md",
+      "line_count": 348
+    },
+    {
+      "id": "batch-030",
+      "title": "PDF pages 291-300: 판교휴먼시아 푸르지오 4공구 and 데시앙 5공구",
+      "h1": "PDF pages 291-300: 판교휴먼시아 푸르지오 4공구 and 데시앙 5공구",
+      "source_pages": "291-300",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-030-pages-291-300.md",
+      "local_file": "transcription/batch-030-pages-291-300.md",
+      "basename": "batch-030-pages-291-300.md",
+      "line_count": 293
+    },
+    {
+      "id": "batch-031",
+      "title": "A6-1 Block, 판교휴먼시아 데시앙 및 A7-2/6공구 프로젝트",
+      "h1": "A6-1 Block, 판교휴먼시아 데시앙 및 A7-2/6공구 프로젝트",
+      "source_pages": "301-310",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-031-pages-301-310.md",
+      "local_file": "transcription/batch-031-pages-301-310.md",
+      "basename": "batch-031-pages-301-310.md",
+      "line_count": 292
+    },
+    {
+      "id": "batch-032",
+      "title": "A7-2 Block / 판교휴먼시아 아너스빌",
+      "h1": "A7-2 Block / 판교휴먼시아 아너스빌",
+      "source_pages": "311-320",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-032-pages-311-320.md",
+      "local_file": "transcription/batch-032-pages-311-320.md",
+      "basename": "batch-032-pages-311-320.md",
+      "line_count": 293
+    },
+    {
+      "id": "batch-033",
+      "title": "민간사업 프로젝트 and 판교신도시 개발 현황",
+      "h1": "민간사업 프로젝트 And 판교신도시 개발 현황",
+      "source_pages": "321-330",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-033-pages-321-330.md",
+      "local_file": "transcription/batch-033-pages-321-330.md",
+      "basename": "batch-033-pages-321-330.md",
+      "line_count": 360
+    },
+    {
+      "id": "batch-034",
+      "title": "판권 및 발행 정보",
+      "h1": "판권 및 발행 정보",
+      "source_pages": "331-331",
+      "file": "docs/pangyo-newtown-master-plan-design-book/transcription/batch-034-pages-331-331.md",
+      "local_file": "transcription/batch-034-pages-331-331.md",
+      "basename": "batch-034-pages-331-331.md",
+      "line_count": 50
+    }
+  ]
+}

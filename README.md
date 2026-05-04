@@ -38,6 +38,7 @@ graph TD
         B6["성남시사 50년사"]
         B7["평촌신도시 개발사"]
         B8["분당신도시 개발사"]
+        B9["판교신도시 마스터 플랜·디자인"]
     end
 
     R1 -.하남교산 사례.-> R3
@@ -95,13 +96,17 @@ graph TD
     B8 -.분당 시행·기반시설 근거.-> R7
     B8 -.분당·성남권 개발·교통·기반시설 맥락.-> R3
     B8 -.주택공급·자족기능·도시기능 기준.-> R6
+    B9 -.판교 개발·건축계획 원문.-> R1
+    B9 -.성남·판교 지역사.-> R7
+    B9 -.동남권 공간·주거단지 맥락.-> R3
+    B9 -.주거단지·도시기능 기준.-> R6
 
     classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
     classDef supp fill:#fef3c7,stroke:#d97706,color:#000
     classDef book fill:#dcfce7,stroke:#16a34a,color:#000
     class R1,R2,R3,R4,R5,R6,R7 report
     class S1,S2,S3,S4,S5,S6,S7,S8 supp
-    class B1,B2,B3,B4,B5,B6,B7,B8 book
+    class B1,B2,B3,B4,B5,B6,B7,B8,B9 book
 ```
 
 ## 공개 보고서 (Reports)
@@ -268,6 +273,17 @@ PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 
 - [LLM 단일 번들](./books/bundang-newtown-development-history/dist/bundang-newtown-development-history.llm.md) - RAG/긴 컨텍스트 입력용 통합본
 - [원본 PDF](./books/bundang-newtown-development-history/sources/OTKLEC010078.pdf) - Git LFS 관리
 - [전체 페이지 이미지](./books/bundang-newtown-development-history/docs/bundang-newtown-development-history/assets/pages/) - PDF 1-1,094쪽 JPEG 보존본
+
+### 판교신도시 마스터 플랜 및 디자인 총람 - [`books/pangyo-newtown-master-plan-design-book/`](./books/pangyo-newtown-master-plan-design-book/)
+
+판교신도시의 개요, 동판교 마스터 플랜, 주거단지 건축계획안, 현상설계·국제설계경기·턴키·민간사업 프로젝트, 개발 현황을 다룬 원문 자료다. 이미지 PDF 331쪽을 OCR 없이 페이지 이미지 육안 판독으로 정리하고, 단지별 수치·도면·주택형·배치계획을 GitHub/LLM용 구조로 재구성했다.
+
+- [문서 인덱스](./books/pangyo-newtown-master-plan-design-book/docs/pangyo-newtown-master-plan-design-book/index.md) - 배치별 목차와 페이지 범위
+- [주요 수치](./books/pangyo-newtown-master-plan-design-book/docs/pangyo-newtown-master-plan-design-book/stats.md) - 사업 개요, 토지이용, 블록별 세대수·평형·건축계획 수치
+- [기계처리용 manifest](./books/pangyo-newtown-master-plan-design-book/docs/pangyo-newtown-master-plan-design-book/manifest.yml) - 배치 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/pangyo-newtown-master-plan-design-book/dist/pangyo-newtown-master-plan-design-book.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/pangyo-newtown-master-plan-design-book/sources/OTKNTC070432.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/pangyo-newtown-master-plan-design-book/docs/pangyo-newtown-master-plan-design-book/assets/pages/) - PDF 1-331쪽 JPEG 보존본
 
 ## 보조 자료 (Supplements)
 
