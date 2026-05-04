@@ -39,6 +39,7 @@ graph TD
         B7["평촌신도시 개발사"]
         B8["분당신도시 개발사"]
         B9["판교신도시 마스터 플랜·디자인"]
+        B10["일산신도시 개발사"]
     end
 
     R1 -.하남교산 사례.-> R3
@@ -100,13 +101,17 @@ graph TD
     B9 -.성남·판교 지역사.-> R7
     B9 -.동남권 공간·주거단지 맥락.-> R3
     B9 -.주거단지·도시기능 기준.-> R6
+    B10 -.1기 신도시 사업시행 원문.-> R1
+    B10 -.일산 시행·기반시설 근거.-> R7
+    B10 -.일산·고양권 개발·교통·기반시설 맥락.-> R3
+    B10 -.주택공급·자족기능·도시기능 기준.-> R6
 
     classDef report fill:#e1f5ff,stroke:#0284c7,color:#000
     classDef supp fill:#fef3c7,stroke:#d97706,color:#000
     classDef book fill:#dcfce7,stroke:#16a34a,color:#000
     class R1,R2,R3,R4,R5,R6,R7 report
     class S1,S2,S3,S4,S5,S6,S7,S8 supp
-    class B1,B2,B3,B4,B5,B6,B7,B8,B9 book
+    class B1,B2,B3,B4,B5,B6,B7,B8,B9,B10 book
 ```
 
 ## 공개 보고서 (Reports)
@@ -284,6 +289,17 @@ PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 
 - [LLM 단일 번들](./books/pangyo-newtown-master-plan-design-book/dist/pangyo-newtown-master-plan-design-book.llm.md) - RAG/긴 컨텍스트 입력용 통합본
 - [원본 PDF](./books/pangyo-newtown-master-plan-design-book/sources/OTKNTC070432.pdf) - Git LFS 관리
 - [전체 페이지 이미지](./books/pangyo-newtown-master-plan-design-book/docs/pangyo-newtown-master-plan-design-book/assets/pages/) - PDF 1-331쪽 JPEG 보존본
+
+### 일산신도시 개발사 - [`books/ilsan-newtown-development-history/`](./books/ilsan-newtown-development-history/)
+
+일산신도시의 계획·보상·개발·용지공급·주택건설·기반시설·호수공원·문화유적·사업준공·평가·추진일지를 다룬 원문 자료다. 스캔본 927쪽을 OCR 없이 페이지 이미지 육안 판독으로 전사하고, 표·사진·도표·주요 통계를 GitHub/LLM용 구조로 정리했다.
+
+- [문서 인덱스](./books/ilsan-newtown-development-history/docs/ilsan-newtown-development-history/index.md) - 배치별 목차와 페이지 범위
+- [주요 수치](./books/ilsan-newtown-development-history/docs/ilsan-newtown-development-history/stats.md) - 면적, 인구, 세대, 밀도, 사업비, 교통, 기반시설, 호수공원 등 선별 수치
+- [기계처리용 manifest](./books/ilsan-newtown-development-history/docs/ilsan-newtown-development-history/manifest.yml) - 배치 ID, 파일명, 페이지 범위, 주제 태그
+- [LLM 단일 번들](./books/ilsan-newtown-development-history/dist/ilsan-newtown-development-history.llm.md) - RAG/긴 컨텍스트 입력용 통합본
+- [원본 PDF](./books/ilsan-newtown-development-history/sources/OTKLEC010118.pdf) - Git LFS 관리
+- [전체 페이지 이미지](./books/ilsan-newtown-development-history/docs/ilsan-newtown-development-history/assets/pages/) - PDF 1-927쪽 JPEG 보존본
 
 ## 보조 자료 (Supplements)
 
