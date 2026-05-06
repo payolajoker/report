@@ -9,7 +9,7 @@
 - OCR: not used. Embedded text layer extracted with `pdftotext -layout`.
 - Markdown: `docs/seongnam-city-history-50/vol-44-pangyo-game-content-special-zone.md`
 - LLM bundle: `dist/seongnam-history-50-vol-44.llm.md`
-- Rendered pages: `docs/seongnam-city-history-50/assets/pages/vol-44-page-001.jpg` ... `vol-44-page-104.jpg`
+- Rendered pages: `docs/seongnam-city-history-50/assets/pages/vol-44/vol-44-page-001.jpg` ... `vol-44-page-104.jpg`
 - Shared files edited: none.
 
 ## Merge Candidates

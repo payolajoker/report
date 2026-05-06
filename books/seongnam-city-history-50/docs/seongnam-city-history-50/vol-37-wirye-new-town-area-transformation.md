@@ -17,7 +17,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 위례신도시 개발 전후 사진, 문화유산, 유적 발굴, 공공시설, 학교, 정수·하수처리 시설, 공원·축제 자료가 권 전체에 분산되어 있어 1-112쪽 전체를 `assets/pages/`에 렌더링했다.
+- 위례신도시 개발 전후 사진, 문화유산, 유적 발굴, 공공시설, 학교, 정수·하수처리 시설, 공원·축제 자료가 권 전체에 분산되어 있어 1-112쪽 전체를 `assets/pages/vol-37/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-37-integration.md`에 별도 정리한다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제37권 위례신도시 일대의 변천`으로 일치한다.
 
@@ -98,67 +98,67 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-37-page-001.jpg](assets/pages/vol-37-page-001.jpg) | 001 | 표지와 권명 | title-page |
-| [vol-37-page-002.jpg](assets/pages/vol-37-page-002.jpg) | 002 | Part 1 목차 | toc |
-| [vol-37-page-003.jpg](assets/pages/vol-37-page-003.jpg) | 003 | Part 2-3 목차 | toc |
-| [vol-37-page-008.jpg](assets/pages/vol-37-page-008.jpg) | 008 | 『해동지도』 「광주부지도」의 율목창 | old-map |
-| [vol-37-page-009.jpg](assets/pages/vol-37-page-009.jpg) | 009 | 1900년 당시 남한산성 산성마을 전경 | historical-photo |
-| [vol-37-page-010.jpg](assets/pages/vol-37-page-010.jpg) | 010 | 1885년 『자전곶교지광주략도』의 율목창리 | old-map |
-| [vol-37-page-011.jpg](assets/pages/vol-37-page-011.jpg) | 011 | 창곡동 창말 표지석 | toponym-photo |
-| [vol-37-page-013.jpg](assets/pages/vol-37-page-013.jpg) | 013 | 간이골 표지석과 창곡천 | toponym-stream |
-| [vol-37-page-015.jpg](assets/pages/vol-37-page-015.jpg) | 015 | 복우물 마을 유래석 | toponym-photo |
-| [vol-37-page-019.jpg](assets/pages/vol-37-page-019.jpg) | 019 | 1896년 남한산성 연합의병 기념물 | memorial |
-| [vol-37-page-021.jpg](assets/pages/vol-37-page-021.jpg) | 021 | 1914년 창동·창곡동 표기 지도 | old-map |
-| [vol-37-page-023.jpg](assets/pages/vol-37-page-023.jpg) | 023 | 1919년 중부면 산성리 만세 시위 보고서 | archive |
-| [vol-37-page-025.jpg](assets/pages/vol-37-page-025.jpg) | 025 | 신간회 광주지회 창립 사진 | historical-photo |
-| [vol-37-page-026.jpg](assets/pages/vol-37-page-026.jpg) | 026 | 1940년 강제수용 대응 매착리 광산김씨 지적도 | archive-map |
-| [vol-37-page-031.jpg](assets/pages/vol-37-page-031.jpg) | 031 | 1955년 남한산성 이승만 대통령 송수탑 | historical-photo |
-| [vol-37-page-034.jpg](assets/pages/vol-37-page-034.jpg) | 034 | 문무대 표지석과 과거 문무대 전경 | military-site |
-| [vol-37-page-035.jpg](assets/pages/vol-37-page-035.jpg) | 035 | 문무대 일발필살 표지석 | military-site |
-| [vol-37-page-037.jpg](assets/pages/vol-37-page-037.jpg) | 037 | 1958년 창곡교회와 2024년 위례창곡교회 | religious-site |
-| [vol-37-page-038.jpg](assets/pages/vol-37-page-038.jpg) | 038 | 1964년 개교한 복정초등학교 | school-photo |
-| [vol-37-page-041.jpg](assets/pages/vol-37-page-041.jpg) | 041 | 신도시 조성 전후 창곡동 느티나무 | heritage-tree |
-| [vol-37-page-044.jpg](assets/pages/vol-37-page-044.jpg) | 044 | 망경암 전경과 마애여래좌상 | heritage-photo |
-| [vol-37-page-046.jpg](assets/pages/vol-37-page-046.jpg) | 046 | 류계문 묘 | heritage-tomb |
-| [vol-37-page-047.jpg](assets/pages/vol-37-page-047.jpg) | 047 | 진주강씨 묘역과 입구 | heritage-tomb |
-| [vol-37-page-049.jpg](assets/pages/vol-37-page-049.jpg) | 049 | 복정동 노거수 | heritage-tree |
-| [vol-37-page-052.jpg](assets/pages/vol-37-page-052.jpg) | 052 | 위례신도시 개발 전 마을 풍경 | pre-development |
-| [vol-37-page-054.jpg](assets/pages/vol-37-page-054.jpg) | 054 | 현재 위례신도시 전경 2024 | cityscape |
-| [vol-37-page-055.jpg](assets/pages/vol-37-page-055.jpg) | 055 | 현재 위례신도시 전경 2024 | cityscape |
-| [vol-37-page-057.jpg](assets/pages/vol-37-page-057.jpg) | 057 | 창곡동 유적 조사지 | archaeology |
-| [vol-37-page-058.jpg](assets/pages/vol-37-page-058.jpg) | 058 | 삼국시대 건물지 | archaeology |
-| [vol-37-page-061.jpg](assets/pages/vol-37-page-061.jpg) | 061 | 위례역사공원과 트램 노선 공사 장면 | planning-transport |
-| [vol-37-page-067.jpg](assets/pages/vol-37-page-067.jpg) | 067 | 서울지하철 8호선 남위례역 | transport |
-| [vol-37-page-069.jpg](assets/pages/vol-37-page-069.jpg) | 069 | 위례동행정복지센터 | public-office |
-| [vol-37-page-070.jpg](assets/pages/vol-37-page-070.jpg) | 070 | 성남위례파출소와 위례119안전센터 | public-safety |
-| [vol-37-page-071.jpg](assets/pages/vol-37-page-071.jpg) | 071 | 위례스토리박스 | culture-facility |
-| [vol-37-page-072.jpg](assets/pages/vol-37-page-072.jpg) | 072 | 국방전직교육원 | public-institution |
-| [vol-37-page-075.jpg](assets/pages/vol-37-page-075.jpg) | 075 | 위례고운초등학교 | school-photo |
-| [vol-37-page-076.jpg](assets/pages/vol-37-page-076.jpg) | 076 | 위례중앙초등학교 | school-photo |
-| [vol-37-page-078.jpg](assets/pages/vol-37-page-078.jpg) | 078 | 위례푸른초등학교 | school-photo |
-| [vol-37-page-079.jpg](assets/pages/vol-37-page-079.jpg) | 079 | 위례한빛초등학교 | school-photo |
-| [vol-37-page-080.jpg](assets/pages/vol-37-page-080.jpg) | 080 | 위례한빛중학교 | school-photo |
-| [vol-37-page-081.jpg](assets/pages/vol-37-page-081.jpg) | 081 | 위례한빛고등학교 | school-photo |
-| [vol-37-page-082.jpg](assets/pages/vol-37-page-082.jpg) | 082 | 위례도서관 | library |
-| [vol-37-page-083.jpg](assets/pages/vol-37-page-083.jpg) | 083 | 성남위례종합사회복지관 | welfare-facility |
-| [vol-37-page-085.jpg](assets/pages/vol-37-page-085.jpg) | 085 | 위례공원 위례정과 황톳길 | park-photo |
-| [vol-37-page-087.jpg](assets/pages/vol-37-page-087.jpg) | 087 | 위례주제공원 전경 | park-photo |
-| [vol-37-page-088.jpg](assets/pages/vol-37-page-088.jpg) | 088 | 복정동행정복지센터 전경 | public-office |
-| [vol-37-page-089.jpg](assets/pages/vol-37-page-089.jpg) | 089 | 복정정수장 | waterworks |
-| [vol-37-page-090.jpg](assets/pages/vol-37-page-090.jpg) | 090 | 성남수질복원센터 | waterworks |
-| [vol-37-page-092.jpg](assets/pages/vol-37-page-092.jpg) | 092 | 복정초등학교 총동문회 체육대회 | school-community |
-| [vol-37-page-094.jpg](assets/pages/vol-37-page-094.jpg) | 094 | 복정고등학교 전경 | school-photo |
-| [vol-37-page-095.jpg](assets/pages/vol-37-page-095.jpg) | 095 | 하늘꿈중고등학교 전경 | school-photo |
-| [vol-37-page-097.jpg](assets/pages/vol-37-page-097.jpg) | 097 | 가천대학교 | university |
-| [vol-37-page-098.jpg](assets/pages/vol-37-page-098.jpg) | 098 | 동서울대학교 | college |
-| [vol-37-page-099.jpg](assets/pages/vol-37-page-099.jpg) | 099 | 서울국제학교 입구 | school-photo |
-| [vol-37-page-101.jpg](assets/pages/vol-37-page-101.jpg) | 101 | 복정도서관 | library |
-| [vol-37-page-103.jpg](assets/pages/vol-37-page-103.jpg) | 103 | 수정중앙노인종합복지관 | welfare-facility |
-| [vol-37-page-104.jpg](assets/pages/vol-37-page-104.jpg) | 104 | 영장공원 | park-photo |
-| [vol-37-page-107.jpg](assets/pages/vol-37-page-107.jpg) | 107 | 복정동 어울림 빛 축제 | festival |
-| [vol-37-page-108.jpg](assets/pages/vol-37-page-108.jpg) | 108 | 성남누비길 1코스 남한산성길 | trail-map |
-| [vol-37-page-110.jpg](assets/pages/vol-37-page-110.jpg) | 110 | 참고문헌 | bibliography |
-| [vol-37-page-111.jpg](assets/pages/vol-37-page-111.jpg) | 111 | 판권과 집필자 정보 | colophon |
+| [vol-37-page-001.jpg](assets/pages/vol-37/vol-37-page-001.jpg) | 001 | 표지와 권명 | title-page |
+| [vol-37-page-002.jpg](assets/pages/vol-37/vol-37-page-002.jpg) | 002 | Part 1 목차 | toc |
+| [vol-37-page-003.jpg](assets/pages/vol-37/vol-37-page-003.jpg) | 003 | Part 2-3 목차 | toc |
+| [vol-37-page-008.jpg](assets/pages/vol-37/vol-37-page-008.jpg) | 008 | 『해동지도』 「광주부지도」의 율목창 | old-map |
+| [vol-37-page-009.jpg](assets/pages/vol-37/vol-37-page-009.jpg) | 009 | 1900년 당시 남한산성 산성마을 전경 | historical-photo |
+| [vol-37-page-010.jpg](assets/pages/vol-37/vol-37-page-010.jpg) | 010 | 1885년 『자전곶교지광주략도』의 율목창리 | old-map |
+| [vol-37-page-011.jpg](assets/pages/vol-37/vol-37-page-011.jpg) | 011 | 창곡동 창말 표지석 | toponym-photo |
+| [vol-37-page-013.jpg](assets/pages/vol-37/vol-37-page-013.jpg) | 013 | 간이골 표지석과 창곡천 | toponym-stream |
+| [vol-37-page-015.jpg](assets/pages/vol-37/vol-37-page-015.jpg) | 015 | 복우물 마을 유래석 | toponym-photo |
+| [vol-37-page-019.jpg](assets/pages/vol-37/vol-37-page-019.jpg) | 019 | 1896년 남한산성 연합의병 기념물 | memorial |
+| [vol-37-page-021.jpg](assets/pages/vol-37/vol-37-page-021.jpg) | 021 | 1914년 창동·창곡동 표기 지도 | old-map |
+| [vol-37-page-023.jpg](assets/pages/vol-37/vol-37-page-023.jpg) | 023 | 1919년 중부면 산성리 만세 시위 보고서 | archive |
+| [vol-37-page-025.jpg](assets/pages/vol-37/vol-37-page-025.jpg) | 025 | 신간회 광주지회 창립 사진 | historical-photo |
+| [vol-37-page-026.jpg](assets/pages/vol-37/vol-37-page-026.jpg) | 026 | 1940년 강제수용 대응 매착리 광산김씨 지적도 | archive-map |
+| [vol-37-page-031.jpg](assets/pages/vol-37/vol-37-page-031.jpg) | 031 | 1955년 남한산성 이승만 대통령 송수탑 | historical-photo |
+| [vol-37-page-034.jpg](assets/pages/vol-37/vol-37-page-034.jpg) | 034 | 문무대 표지석과 과거 문무대 전경 | military-site |
+| [vol-37-page-035.jpg](assets/pages/vol-37/vol-37-page-035.jpg) | 035 | 문무대 일발필살 표지석 | military-site |
+| [vol-37-page-037.jpg](assets/pages/vol-37/vol-37-page-037.jpg) | 037 | 1958년 창곡교회와 2024년 위례창곡교회 | religious-site |
+| [vol-37-page-038.jpg](assets/pages/vol-37/vol-37-page-038.jpg) | 038 | 1964년 개교한 복정초등학교 | school-photo |
+| [vol-37-page-041.jpg](assets/pages/vol-37/vol-37-page-041.jpg) | 041 | 신도시 조성 전후 창곡동 느티나무 | heritage-tree |
+| [vol-37-page-044.jpg](assets/pages/vol-37/vol-37-page-044.jpg) | 044 | 망경암 전경과 마애여래좌상 | heritage-photo |
+| [vol-37-page-046.jpg](assets/pages/vol-37/vol-37-page-046.jpg) | 046 | 류계문 묘 | heritage-tomb |
+| [vol-37-page-047.jpg](assets/pages/vol-37/vol-37-page-047.jpg) | 047 | 진주강씨 묘역과 입구 | heritage-tomb |
+| [vol-37-page-049.jpg](assets/pages/vol-37/vol-37-page-049.jpg) | 049 | 복정동 노거수 | heritage-tree |
+| [vol-37-page-052.jpg](assets/pages/vol-37/vol-37-page-052.jpg) | 052 | 위례신도시 개발 전 마을 풍경 | pre-development |
+| [vol-37-page-054.jpg](assets/pages/vol-37/vol-37-page-054.jpg) | 054 | 현재 위례신도시 전경 2024 | cityscape |
+| [vol-37-page-055.jpg](assets/pages/vol-37/vol-37-page-055.jpg) | 055 | 현재 위례신도시 전경 2024 | cityscape |
+| [vol-37-page-057.jpg](assets/pages/vol-37/vol-37-page-057.jpg) | 057 | 창곡동 유적 조사지 | archaeology |
+| [vol-37-page-058.jpg](assets/pages/vol-37/vol-37-page-058.jpg) | 058 | 삼국시대 건물지 | archaeology |
+| [vol-37-page-061.jpg](assets/pages/vol-37/vol-37-page-061.jpg) | 061 | 위례역사공원과 트램 노선 공사 장면 | planning-transport |
+| [vol-37-page-067.jpg](assets/pages/vol-37/vol-37-page-067.jpg) | 067 | 서울지하철 8호선 남위례역 | transport |
+| [vol-37-page-069.jpg](assets/pages/vol-37/vol-37-page-069.jpg) | 069 | 위례동행정복지센터 | public-office |
+| [vol-37-page-070.jpg](assets/pages/vol-37/vol-37-page-070.jpg) | 070 | 성남위례파출소와 위례119안전센터 | public-safety |
+| [vol-37-page-071.jpg](assets/pages/vol-37/vol-37-page-071.jpg) | 071 | 위례스토리박스 | culture-facility |
+| [vol-37-page-072.jpg](assets/pages/vol-37/vol-37-page-072.jpg) | 072 | 국방전직교육원 | public-institution |
+| [vol-37-page-075.jpg](assets/pages/vol-37/vol-37-page-075.jpg) | 075 | 위례고운초등학교 | school-photo |
+| [vol-37-page-076.jpg](assets/pages/vol-37/vol-37-page-076.jpg) | 076 | 위례중앙초등학교 | school-photo |
+| [vol-37-page-078.jpg](assets/pages/vol-37/vol-37-page-078.jpg) | 078 | 위례푸른초등학교 | school-photo |
+| [vol-37-page-079.jpg](assets/pages/vol-37/vol-37-page-079.jpg) | 079 | 위례한빛초등학교 | school-photo |
+| [vol-37-page-080.jpg](assets/pages/vol-37/vol-37-page-080.jpg) | 080 | 위례한빛중학교 | school-photo |
+| [vol-37-page-081.jpg](assets/pages/vol-37/vol-37-page-081.jpg) | 081 | 위례한빛고등학교 | school-photo |
+| [vol-37-page-082.jpg](assets/pages/vol-37/vol-37-page-082.jpg) | 082 | 위례도서관 | library |
+| [vol-37-page-083.jpg](assets/pages/vol-37/vol-37-page-083.jpg) | 083 | 성남위례종합사회복지관 | welfare-facility |
+| [vol-37-page-085.jpg](assets/pages/vol-37/vol-37-page-085.jpg) | 085 | 위례공원 위례정과 황톳길 | park-photo |
+| [vol-37-page-087.jpg](assets/pages/vol-37/vol-37-page-087.jpg) | 087 | 위례주제공원 전경 | park-photo |
+| [vol-37-page-088.jpg](assets/pages/vol-37/vol-37-page-088.jpg) | 088 | 복정동행정복지센터 전경 | public-office |
+| [vol-37-page-089.jpg](assets/pages/vol-37/vol-37-page-089.jpg) | 089 | 복정정수장 | waterworks |
+| [vol-37-page-090.jpg](assets/pages/vol-37/vol-37-page-090.jpg) | 090 | 성남수질복원센터 | waterworks |
+| [vol-37-page-092.jpg](assets/pages/vol-37/vol-37-page-092.jpg) | 092 | 복정초등학교 총동문회 체육대회 | school-community |
+| [vol-37-page-094.jpg](assets/pages/vol-37/vol-37-page-094.jpg) | 094 | 복정고등학교 전경 | school-photo |
+| [vol-37-page-095.jpg](assets/pages/vol-37/vol-37-page-095.jpg) | 095 | 하늘꿈중고등학교 전경 | school-photo |
+| [vol-37-page-097.jpg](assets/pages/vol-37/vol-37-page-097.jpg) | 097 | 가천대학교 | university |
+| [vol-37-page-098.jpg](assets/pages/vol-37/vol-37-page-098.jpg) | 098 | 동서울대학교 | college |
+| [vol-37-page-099.jpg](assets/pages/vol-37/vol-37-page-099.jpg) | 099 | 서울국제학교 입구 | school-photo |
+| [vol-37-page-101.jpg](assets/pages/vol-37/vol-37-page-101.jpg) | 101 | 복정도서관 | library |
+| [vol-37-page-103.jpg](assets/pages/vol-37/vol-37-page-103.jpg) | 103 | 수정중앙노인종합복지관 | welfare-facility |
+| [vol-37-page-104.jpg](assets/pages/vol-37/vol-37-page-104.jpg) | 104 | 영장공원 | park-photo |
+| [vol-37-page-107.jpg](assets/pages/vol-37/vol-37-page-107.jpg) | 107 | 복정동 어울림 빛 축제 | festival |
+| [vol-37-page-108.jpg](assets/pages/vol-37/vol-37-page-108.jpg) | 108 | 성남누비길 1코스 남한산성길 | trail-map |
+| [vol-37-page-110.jpg](assets/pages/vol-37/vol-37-page-110.jpg) | 110 | 참고문헌 | bibliography |
+| [vol-37-page-111.jpg](assets/pages/vol-37/vol-37-page-111.jpg) | 111 | 판권과 집필자 정보 | colophon |
 
 ## 학교·기관 현황 데이터 위치
 

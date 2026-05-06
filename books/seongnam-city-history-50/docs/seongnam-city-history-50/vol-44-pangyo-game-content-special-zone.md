@@ -20,7 +20,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 판교 게임·콘텐츠 산업의 형성, 기업 입지, 기업문화·노동환경, 축제·e-스포츠·공연 자료가 함께 들어 있으므로 1-104쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 판교 게임·콘텐츠 산업의 형성, 기업 입지, 기업문화·노동환경, 축제·e-스포츠·공연 자료가 함께 들어 있으므로 1-104쪽 전체를 `assets/pages/vol-44/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-44-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제44권 판교 게임·콘텐츠특구`로 일치한다.
 
@@ -140,47 +140,47 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 태그 |
 | --- | --- | --- | --- |
-| [vol-44-page-001.jpg](assets/pages/vol-44-page-001.jpg) | 1 | 표지: 판교 게임·콘텐츠특구 권명과 클러스터 설명 | cover |
-| [vol-44-page-002.jpg](assets/pages/vol-44-page-002.jpg) | 2 | Part 1 목차: 형성과정, 판교테크노밸리, 특구 지정 | toc |
-| [vol-44-page-003.jpg](assets/pages/vol-44-page-003.jpg) | 3 | Part 2-3 목차: 산업생태계, 기업문화, 문화활동 | toc |
-| [vol-44-page-006.jpg](assets/pages/vol-44-page-006.jpg) | 6 | Part 1 장 표지: 판교 게임·콘텐츠 특구의 형성 과정 | part-title |
-| [vol-44-page-009.jpg](assets/pages/vol-44-page-009.jpg) | 9 | 판교 야경과 클러스터 성격 설명 | cityscape |
-| [vol-44-page-011.jpg](assets/pages/vol-44-page-011.jpg) | 11 | 제1판교테크노밸리 지도 | map |
-| [vol-44-page-012.jpg](assets/pages/vol-44-page-012.jpg) | 12 | 제2판교테크노밸리 조감도 | rendering |
-| [vol-44-page-013.jpg](assets/pages/vol-44-page-013.jpg) | 13 | 제1·2·3판교테크노밸리 위치도 | map |
-| [vol-44-page-022.jpg](assets/pages/vol-44-page-022.jpg) | 22 | 성남문화산업진흥지구 위치도 | map |
-| [vol-44-page-027.jpg](assets/pages/vol-44-page-027.jpg) | 27 | 판교 콘텐츠 거리 모습과 잔디광장 | street-photo |
-| [vol-44-page-029.jpg](assets/pages/vol-44-page-029.jpg) | 29 | 성남시 e-스포츠 전용 경기장 신축 설계 당선작 조감도 | rendering |
-| [vol-44-page-030.jpg](assets/pages/vol-44-page-030.jpg) | 30 | 성남 e스포츠 페스티벌 2021 | festival-photo |
-| [vol-44-page-031.jpg](assets/pages/vol-44-page-031.jpg) | 31 | Part 2 장 표지: 판교 게임·콘텐츠 산업생태계 | part-title |
-| [vol-44-page-034.jpg](assets/pages/vol-44-page-034.jpg) | 34 | 넥슨 판교 사옥 | company-building |
-| [vol-44-page-038.jpg](assets/pages/vol-44-page-038.jpg) | 38 | 엔씨소프트 판교 사옥 | company-building |
-| [vol-44-page-040.jpg](assets/pages/vol-44-page-040.jpg) | 40 | 크래프톤 대표 게임과 배틀그라운드 이미지 | game-ip |
-| [vol-44-page-041.jpg](assets/pages/vol-44-page-041.jpg) | 41 | 판교 크래프톤 타워 | company-building |
-| [vol-44-page-043.jpg](assets/pages/vol-44-page-043.jpg) | 43 | 카카오게임즈 판교 알파돔타워 | company-building |
-| [vol-44-page-046.jpg](assets/pages/vol-44-page-046.jpg) | 46 | 위메이드 판교 사옥 | company-building |
-| [vol-44-page-048.jpg](assets/pages/vol-44-page-048.jpg) | 48 | 네오위즈 판교 사옥 | company-building |
-| [vol-44-page-051.jpg](assets/pages/vol-44-page-051.jpg) | 51 | 웹젠 판교 사옥과 웹젠 대표 게임 | company-building |
-| [vol-44-page-054.jpg](assets/pages/vol-44-page-054.jpg) | 54 | NHN 플레이뮤지엄 판교 사옥 | company-building |
-| [vol-44-page-056.jpg](assets/pages/vol-44-page-056.jpg) | 56 | 네이버 그린팩토리와 1784 | company-building |
-| [vol-44-page-057.jpg](assets/pages/vol-44-page-057.jpg) | 57 | 스마일게이트 판교 사옥 | company-building |
-| [vol-44-page-063.jpg](assets/pages/vol-44-page-063.jpg) | 63 | Part 3 장 표지: 판교 게임·콘텐츠 기업의 기업문화 및 문화활동 | part-title |
-| [vol-44-page-065.jpg](assets/pages/vol-44-page-065.jpg) | 65 | 크래프톤 라이브 토크 | corporate-culture |
-| [vol-44-page-066.jpg](assets/pages/vol-44-page-066.jpg) | 66 | 엔씨소프트 I&M 리포트 | corporate-culture |
-| [vol-44-page-074.jpg](assets/pages/vol-44-page-074.jpg) | 74 | 코로나 이후 판교 주요 IT 기업의 근무 형태 표 | table |
-| [vol-44-page-076.jpg](assets/pages/vol-44-page-076.jpg) | 76 | 판교테크노밸리 야경과 크런치 모드 서술 | labor-culture |
-| [vol-44-page-080.jpg](assets/pages/vol-44-page-080.jpg) | 80 | 넥슨의 랍스타 특식 | welfare |
-| [vol-44-page-083.jpg](assets/pages/vol-44-page-083.jpg) | 83 | 엔씨소프트 웃는땅콩 어린이집 | childcare |
-| [vol-44-page-086.jpg](assets/pages/vol-44-page-086.jpg) | 86 | 넥슨포럼 프로그램 사진 | welfare-culture |
-| [vol-44-page-089.jpg](assets/pages/vol-44-page-089.jpg) | 89 | 출신 게임 회사별 주요 IT 기업 대표 표 | network-table |
-| [vol-44-page-090.jpg](assets/pages/vol-44-page-090.jpg) | 90 | 판교테크노밸리 일몰 | cityscape |
-| [vol-44-page-091.jpg](assets/pages/vol-44-page-091.jpg) | 91 | 특구 문화활동 절 시작 | culture-section |
-| [vol-44-page-094.jpg](assets/pages/vol-44-page-094.jpg) | 94 | 성남 아마추어 e-스포츠 대회 SeN 챌린지 | esports |
-| [vol-44-page-096.jpg](assets/pages/vol-44-page-096.jpg) | 96 | SeN 챌린지 전면 사진 | esports |
-| [vol-44-page-098.jpg](assets/pages/vol-44-page-098.jpg) | 98 | 게임 기업 행사와 문화활동 절 | culture-event |
-| [vol-44-page-100.jpg](assets/pages/vol-44-page-100.jpg) | 100 | 크래프톤 e-스포츠 리그와 상금 자료 | esports |
-| [vol-44-page-101.jpg](assets/pages/vol-44-page-101.jpg) | 101 | 게임 OST 콘서트와 공연문화 | music-performance |
-| [vol-44-page-103.jpg](assets/pages/vol-44-page-103.jpg) | 103 | 판권과 발행 정보 | colophon |
+| [vol-44-page-001.jpg](assets/pages/vol-44/vol-44-page-001.jpg) | 1 | 표지: 판교 게임·콘텐츠특구 권명과 클러스터 설명 | cover |
+| [vol-44-page-002.jpg](assets/pages/vol-44/vol-44-page-002.jpg) | 2 | Part 1 목차: 형성과정, 판교테크노밸리, 특구 지정 | toc |
+| [vol-44-page-003.jpg](assets/pages/vol-44/vol-44-page-003.jpg) | 3 | Part 2-3 목차: 산업생태계, 기업문화, 문화활동 | toc |
+| [vol-44-page-006.jpg](assets/pages/vol-44/vol-44-page-006.jpg) | 6 | Part 1 장 표지: 판교 게임·콘텐츠 특구의 형성 과정 | part-title |
+| [vol-44-page-009.jpg](assets/pages/vol-44/vol-44-page-009.jpg) | 9 | 판교 야경과 클러스터 성격 설명 | cityscape |
+| [vol-44-page-011.jpg](assets/pages/vol-44/vol-44-page-011.jpg) | 11 | 제1판교테크노밸리 지도 | map |
+| [vol-44-page-012.jpg](assets/pages/vol-44/vol-44-page-012.jpg) | 12 | 제2판교테크노밸리 조감도 | rendering |
+| [vol-44-page-013.jpg](assets/pages/vol-44/vol-44-page-013.jpg) | 13 | 제1·2·3판교테크노밸리 위치도 | map |
+| [vol-44-page-022.jpg](assets/pages/vol-44/vol-44-page-022.jpg) | 22 | 성남문화산업진흥지구 위치도 | map |
+| [vol-44-page-027.jpg](assets/pages/vol-44/vol-44-page-027.jpg) | 27 | 판교 콘텐츠 거리 모습과 잔디광장 | street-photo |
+| [vol-44-page-029.jpg](assets/pages/vol-44/vol-44-page-029.jpg) | 29 | 성남시 e-스포츠 전용 경기장 신축 설계 당선작 조감도 | rendering |
+| [vol-44-page-030.jpg](assets/pages/vol-44/vol-44-page-030.jpg) | 30 | 성남 e스포츠 페스티벌 2021 | festival-photo |
+| [vol-44-page-031.jpg](assets/pages/vol-44/vol-44-page-031.jpg) | 31 | Part 2 장 표지: 판교 게임·콘텐츠 산업생태계 | part-title |
+| [vol-44-page-034.jpg](assets/pages/vol-44/vol-44-page-034.jpg) | 34 | 넥슨 판교 사옥 | company-building |
+| [vol-44-page-038.jpg](assets/pages/vol-44/vol-44-page-038.jpg) | 38 | 엔씨소프트 판교 사옥 | company-building |
+| [vol-44-page-040.jpg](assets/pages/vol-44/vol-44-page-040.jpg) | 40 | 크래프톤 대표 게임과 배틀그라운드 이미지 | game-ip |
+| [vol-44-page-041.jpg](assets/pages/vol-44/vol-44-page-041.jpg) | 41 | 판교 크래프톤 타워 | company-building |
+| [vol-44-page-043.jpg](assets/pages/vol-44/vol-44-page-043.jpg) | 43 | 카카오게임즈 판교 알파돔타워 | company-building |
+| [vol-44-page-046.jpg](assets/pages/vol-44/vol-44-page-046.jpg) | 46 | 위메이드 판교 사옥 | company-building |
+| [vol-44-page-048.jpg](assets/pages/vol-44/vol-44-page-048.jpg) | 48 | 네오위즈 판교 사옥 | company-building |
+| [vol-44-page-051.jpg](assets/pages/vol-44/vol-44-page-051.jpg) | 51 | 웹젠 판교 사옥과 웹젠 대표 게임 | company-building |
+| [vol-44-page-054.jpg](assets/pages/vol-44/vol-44-page-054.jpg) | 54 | NHN 플레이뮤지엄 판교 사옥 | company-building |
+| [vol-44-page-056.jpg](assets/pages/vol-44/vol-44-page-056.jpg) | 56 | 네이버 그린팩토리와 1784 | company-building |
+| [vol-44-page-057.jpg](assets/pages/vol-44/vol-44-page-057.jpg) | 57 | 스마일게이트 판교 사옥 | company-building |
+| [vol-44-page-063.jpg](assets/pages/vol-44/vol-44-page-063.jpg) | 63 | Part 3 장 표지: 판교 게임·콘텐츠 기업의 기업문화 및 문화활동 | part-title |
+| [vol-44-page-065.jpg](assets/pages/vol-44/vol-44-page-065.jpg) | 65 | 크래프톤 라이브 토크 | corporate-culture |
+| [vol-44-page-066.jpg](assets/pages/vol-44/vol-44-page-066.jpg) | 66 | 엔씨소프트 I&M 리포트 | corporate-culture |
+| [vol-44-page-074.jpg](assets/pages/vol-44/vol-44-page-074.jpg) | 74 | 코로나 이후 판교 주요 IT 기업의 근무 형태 표 | table |
+| [vol-44-page-076.jpg](assets/pages/vol-44/vol-44-page-076.jpg) | 76 | 판교테크노밸리 야경과 크런치 모드 서술 | labor-culture |
+| [vol-44-page-080.jpg](assets/pages/vol-44/vol-44-page-080.jpg) | 80 | 넥슨의 랍스타 특식 | welfare |
+| [vol-44-page-083.jpg](assets/pages/vol-44/vol-44-page-083.jpg) | 83 | 엔씨소프트 웃는땅콩 어린이집 | childcare |
+| [vol-44-page-086.jpg](assets/pages/vol-44/vol-44-page-086.jpg) | 86 | 넥슨포럼 프로그램 사진 | welfare-culture |
+| [vol-44-page-089.jpg](assets/pages/vol-44/vol-44-page-089.jpg) | 89 | 출신 게임 회사별 주요 IT 기업 대표 표 | network-table |
+| [vol-44-page-090.jpg](assets/pages/vol-44/vol-44-page-090.jpg) | 90 | 판교테크노밸리 일몰 | cityscape |
+| [vol-44-page-091.jpg](assets/pages/vol-44/vol-44-page-091.jpg) | 91 | 특구 문화활동 절 시작 | culture-section |
+| [vol-44-page-094.jpg](assets/pages/vol-44/vol-44-page-094.jpg) | 94 | 성남 아마추어 e-스포츠 대회 SeN 챌린지 | esports |
+| [vol-44-page-096.jpg](assets/pages/vol-44/vol-44-page-096.jpg) | 96 | SeN 챌린지 전면 사진 | esports |
+| [vol-44-page-098.jpg](assets/pages/vol-44/vol-44-page-098.jpg) | 98 | 게임 기업 행사와 문화활동 절 | culture-event |
+| [vol-44-page-100.jpg](assets/pages/vol-44/vol-44-page-100.jpg) | 100 | 크래프톤 e-스포츠 리그와 상금 자료 | esports |
+| [vol-44-page-101.jpg](assets/pages/vol-44/vol-44-page-101.jpg) | 101 | 게임 OST 콘서트와 공연문화 | music-performance |
+| [vol-44-page-103.jpg](assets/pages/vol-44/vol-44-page-103.jpg) | 103 | 판권과 발행 정보 | colophon |
 
 ## 교차 연결 후보
 

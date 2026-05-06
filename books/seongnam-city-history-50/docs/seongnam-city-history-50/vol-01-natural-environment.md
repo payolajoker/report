@@ -17,7 +17,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 지도, 도표, 사진 가치가 있는 주요 쪽은 `assets/pages/`에 렌더링했다.
+- 지도, 도표, 사진 가치가 있는 주요 쪽은 `assets/pages/vol-01/`에 렌더링했다.
 
 ## 권별 목차
 
@@ -33,16 +33,16 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 |
 |---|---:|---|
-| `assets/pages/vol-01-page-008.jpg` | 8 | 성남시 위치도 |
-| `assets/pages/vol-01-page-019.jpg` | 19 | 성남시 지형(고도) |
-| `assets/pages/vol-01-page-021.jpg` | 21 | 성남시 지형(방향) |
-| `assets/pages/vol-01-page-022.jpg` | 22 | 성남시 지형(경사) |
-| `assets/pages/vol-01-page-027.jpg` | 27 | 성남시 기온·강수 관련 도표 |
-| `assets/pages/vol-01-page-028.jpg` | 28 | 성남시 기후 자료 |
-| `assets/pages/vol-01-page-065.jpg` | 65 | 가로수 길 사진 |
-| `assets/pages/vol-01-page-068.jpg` | 68 | 율동공원 사진 |
-| `assets/pages/vol-01-page-102.jpg` | 102 | 분당 아파트 단지와 탄천 사진 |
-| `assets/pages/vol-01-page-105.jpg` | 105 | 분지형 도시 성남 사진 |
+| `assets/pages/vol-01/vol-01-page-008.jpg` | 8 | 성남시 위치도 |
+| `assets/pages/vol-01/vol-01-page-019.jpg` | 19 | 성남시 지형(고도) |
+| `assets/pages/vol-01/vol-01-page-021.jpg` | 21 | 성남시 지형(방향) |
+| `assets/pages/vol-01/vol-01-page-022.jpg` | 22 | 성남시 지형(경사) |
+| `assets/pages/vol-01/vol-01-page-027.jpg` | 27 | 성남시 기온·강수 관련 도표 |
+| `assets/pages/vol-01/vol-01-page-028.jpg` | 28 | 성남시 기후 자료 |
+| `assets/pages/vol-01/vol-01-page-065.jpg` | 65 | 가로수 길 사진 |
+| `assets/pages/vol-01/vol-01-page-068.jpg` | 68 | 율동공원 사진 |
+| `assets/pages/vol-01/vol-01-page-102.jpg` | 102 | 분당 아파트 단지와 탄천 사진 |
+| `assets/pages/vol-01/vol-01-page-105.jpg` | 105 | 분지형 도시 성남 사진 |
 
 ## 원문 텍스트
 <!-- source: seongnam-history-50-vol-01.pdf p.001 -->

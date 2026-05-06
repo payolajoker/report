@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 공연 사진, 지도, 표, 가사 자료가 연구상 중요하므로 1-120쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 공연 사진, 지도, 표, 가사 자료가 연구상 중요하므로 1-120쪽 전체를 `assets/pages/vol-42/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-42-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제42권 성남의 전통 민속놀이`으로 일치한다.
 
@@ -138,73 +138,73 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-42-page-001.jpg](assets/pages/vol-42-page-001.jpg) | 1 | 표지와 권명, 발간등록번호 | title-page |
-| [vol-42-page-002.jpg](assets/pages/vol-42-page-002.jpg) | 2 | 권별 목차: 개관, 판교 쌍용거줄다리기, 성남 오리뜰 농악, 이무술 집터 다지는 소리 | toc |
-| [vol-42-page-003.jpg](assets/pages/vol-42-page-003.jpg) | 3 | Part 1 장 표지: 성남의 전통 민속놀이 개관 | part-title |
-| [vol-42-page-005.jpg](assets/pages/vol-42-page-005.jpg) | 5 | 성남시 지도와 남한산성 지형 설명 | map |
-| [vol-42-page-007.jpg](assets/pages/vol-42-page-007.jpg) | 7 | 분당중앙공원 파크콘서트와 문화공간 설명 | culture-photo |
-| [vol-42-page-008.jpg](assets/pages/vol-42-page-008.jpg) | 8 | 1980년대 널다리 쌍용거줄다리기 재연 행사와 2025년 정월대보름 행사 | folk-game-photo |
-| [vol-42-page-010.jpg](assets/pages/vol-42-page-010.jpg) | 10 | 성남 오리뜰 농악 시연회 | performance-photo |
-| [vol-42-page-011.jpg](assets/pages/vol-42-page-011.jpg) | 11 | 정월대보름 행사에서 제기를 차는 시민 | folk-game-photo |
-| [vol-42-page-014.jpg](assets/pages/vol-42-page-014.jpg) | 14 | 명절놀이 분포 그래프 | chart |
-| [vol-42-page-018.jpg](assets/pages/vol-42-page-018.jpg) | 18 | 판교 쌍용거줄다리기 재연회와 청룡줄·황룡줄 설명 | tug-of-war-photo |
-| [vol-42-page-019.jpg](assets/pages/vol-42-page-019.jpg) | 19 | 성남 오리뜰 농악 시연과 복원사 | nongak-photo |
-| [vol-42-page-020.jpg](assets/pages/vol-42-page-020.jpg) | 20 | 이무술 집터 다지는 소리 시연회 | performance-photo |
-| [vol-42-page-022.jpg](assets/pages/vol-42-page-022.jpg) | 22 | Part 2 장 표지: 판교 쌍용거줄다리기 | part-title |
-| [vol-42-page-025.jpg](assets/pages/vol-42-page-025.jpg) | 25 | 판교 쌍용거줄다리기 약사 표 1980-2013 | chronology-table |
-| [vol-42-page-026.jpg](assets/pages/vol-42-page-026.jpg) | 26 | 판교 쌍용거줄다리기 약사 표 2014-2024 및 중단 사유 | chronology-table |
-| [vol-42-page-032.jpg](assets/pages/vol-42-page-032.jpg) | 32 | 삼척기줄다리기 비교 자료 | comparative-folk-game |
-| [vol-42-page-033.jpg](assets/pages/vol-42-page-033.jpg) | 33 | 영월 칡줄다리기 사진과 비교 자료 | comparative-folk-game |
-| [vol-42-page-038.jpg](assets/pages/vol-42-page-038.jpg) | 38 | 2024년 판교 쌍용거줄다리기 재연회 스케치 시작 | event-report |
-| [vol-42-page-040.jpg](assets/pages/vol-42-page-040.jpg) | 40 | 판교 쌍용거줄다리기 고사 장면 | ritual-photo |
-| [vol-42-page-041.jpg](assets/pages/vol-42-page-041.jpg) | 41 | 2024년 갑진년 판교 쌍용거줄다리기 고사 축문 | ritual-document |
-| [vol-42-page-042.jpg](assets/pages/vol-42-page-042.jpg) | 42 | 최근 10년간 판교 쌍용거줄다리기 기사 표 | press-table |
-| [vol-42-page-045.jpg](assets/pages/vol-42-page-045.jpg) | 45 | 성남시립국악단 특별 공연 | performance-photo |
-| [vol-42-page-047.jpg](assets/pages/vol-42-page-047.jpg) | 47 | 동아줄 꼬는 소리 시연 | craft-process-photo |
-| [vol-42-page-048.jpg](assets/pages/vol-42-page-048.jpg) | 48 | 쌍용거줄다리기 재연 절차 | event-photo |
-| [vol-42-page-050.jpg](assets/pages/vol-42-page-050.jpg) | 50 | 청룡줄·황룡줄, 신랑·신부, 비녀목 연결 장면 | tug-of-war-process |
-| [vol-42-page-051.jpg](assets/pages/vol-42-page-051.jpg) | 51 | 청룡줄과 황룡줄의 운동장 돌기 | tug-of-war-process |
-| [vol-42-page-052.jpg](assets/pages/vol-42-page-052.jpg) | 52 | 줄다리기 경기 장면 | tug-of-war-photo |
-| [vol-42-page-053.jpg](assets/pages/vol-42-page-053.jpg) | 53 | 2024년 판교 쌍용거줄다리기 승부 장면 | event-photo |
-| [vol-42-page-054.jpg](assets/pages/vol-42-page-054.jpg) | 54 | 2024년 판교 쌍용거줄다리기 진행 시간표 | schedule-table |
-| [vol-42-page-055.jpg](assets/pages/vol-42-page-055.jpg) | 55 | 김복심 회원 인터뷰와 보존회 활동 | interview-photo |
-| [vol-42-page-056.jpg](assets/pages/vol-42-page-056.jpg) | 56 | 심선영 회원 인터뷰 | interview-photo |
-| [vol-42-page-057.jpg](assets/pages/vol-42-page-057.jpg) | 57 | 장수희 회원 인터뷰 | interview-photo |
-| [vol-42-page-058.jpg](assets/pages/vol-42-page-058.jpg) | 58 | Part 3 장 표지: 성남 오리뜰농악 | part-title |
-| [vol-42-page-059.jpg](assets/pages/vol-42-page-059.jpg) | 59 | 분당구 오리뜰(구미동)의 위치 지도 | map |
-| [vol-42-page-060.jpg](assets/pages/vol-42-page-060.jpg) | 60 | 분당신도시 개발 이후 구미동 일대 전경 | landscape-photo |
-| [vol-42-page-063.jpg](assets/pages/vol-42-page-063.jpg) | 63 | 2024년 성남 오리뜰 농악 공연 스케치 시작 | event-report |
-| [vol-42-page-065.jpg](assets/pages/vol-42-page-065.jpg) | 65 | 입장 사물놀이와 길가락 | performance-photo |
-| [vol-42-page-066.jpg](assets/pages/vol-42-page-066.jpg) | 66 | 농사놀이 풀이 | performance-photo |
-| [vol-42-page-067.jpg](assets/pages/vol-42-page-067.jpg) | 67 | 십자 진과 진풀이 | formation-photo |
-| [vol-42-page-068.jpg](assets/pages/vol-42-page-068.jpg) | 68 | 쩍쩍이와 버꾸놀이 | performance-photo |
-| [vol-42-page-069.jpg](assets/pages/vol-42-page-069.jpg) | 69 | 좌우치기, 돌림버꾸, 열두 발 상모놀이, 무동놀이, 인사굿 | performance-sequence |
-| [vol-42-page-073.jpg](assets/pages/vol-42-page-073.jpg) | 73 | 오리뜰 농악 편성: 농기수·영기수·용기수 등 | composition |
-| [vol-42-page-076.jpg](assets/pages/vol-42-page-076.jpg) | 76 | 성남 오리뜰 농악 편성과 잡색 | composition-photo |
-| [vol-42-page-077.jpg](assets/pages/vol-42-page-077.jpg) | 77 | 오리뜰 농악 가락: 육띠기·삼잽이 | rhythm-note |
-| [vol-42-page-081.jpg](assets/pages/vol-42-page-081.jpg) | 81 | 상모와 삼색기 복색 특징 | costume-photo |
-| [vol-42-page-082.jpg](assets/pages/vol-42-page-082.jpg) | 82 | 조바이를 쓴 피조리 복색 | costume-photo |
-| [vol-42-page-083.jpg](assets/pages/vol-42-page-083.jpg) | 83 | 성남 오리뜰 농악의 특징과 웃다리 농악 설명 | analysis |
-| [vol-42-page-088.jpg](assets/pages/vol-42-page-088.jpg) | 88 | 성남 오리뜰 농악의 향후 전승 과제 | analysis |
-| [vol-42-page-089.jpg](assets/pages/vol-42-page-089.jpg) | 89 | Part 4 장 표지: 이무술 집터 다지는 소리 | part-title |
-| [vol-42-page-090.jpg](assets/pages/vol-42-page-090.jpg) | 90 | 분당구 이매동(이무술)의 위치 지도와 연원 | map |
-| [vol-42-page-091.jpg](assets/pages/vol-42-page-091.jpg) | 91 | 이무술 집터 다지는 소리 공연과 복원사 | performance-photo |
-| [vol-42-page-092.jpg](assets/pages/vol-42-page-092.jpg) | 92 | 경기도민속예술제 수상·참여 이력 | chronology |
-| [vol-42-page-095.jpg](assets/pages/vol-42-page-095.jpg) | 95 | 일반적인 집터 다지는 소리 가사와 공연 사진 | lyrics-performance |
-| [vol-42-page-097.jpg](assets/pages/vol-42-page-097.jpg) | 97 | 2024년 제26회 경기도민속예술제 경연 스케치 시작 | event-report |
-| [vol-42-page-098.jpg](assets/pages/vol-42-page-098.jpg) | 98 | 수내동가옥과 집터 다지기 의미 설명 | heritage-photo |
-| [vol-42-page-099.jpg](assets/pages/vol-42-page-099.jpg) | 99 | 첫 번째 마당: 동아줄 디리는 소리 | performance-sequence |
-| [vol-42-page-100.jpg](assets/pages/vol-42-page-100.jpg) | 100 | 동아줄 디리는 소리 가사 | lyrics |
-| [vol-42-page-102.jpg](assets/pages/vol-42-page-102.jpg) | 102 | 가래질 소리와 경연 진행 | performance-sequence |
-| [vol-42-page-104.jpg](assets/pages/vol-42-page-104.jpg) | 104 | 세 번째 마당 지경 다지는 소리와 양산도 타령 | performance-sequence |
-| [vol-42-page-107.jpg](assets/pages/vol-42-page-107.jpg) | 107 | 다섯 번째 마당 방아타령 | performance-sequence |
-| [vol-42-page-110.jpg](assets/pages/vol-42-page-110.jpg) | 110 | 일곱 번째 마당 자진 지경 다지기 소리 | performance-sequence |
-| [vol-42-page-111.jpg](assets/pages/vol-42-page-111.jpg) | 111 | 풍년가와 경연 마무리 발언 | performance-sequence |
-| [vol-42-page-112.jpg](assets/pages/vol-42-page-112.jpg) | 112 | 이무술 집터 다지는 소리의 장단 구조 | rhythm-note |
-| [vol-42-page-117.jpg](assets/pages/vol-42-page-117.jpg) | 117 | 경연을 마친 이무술집터다지기보존회 회원들 | group-photo |
-| [vol-42-page-118.jpg](assets/pages/vol-42-page-118.jpg) | 118 | 참고문헌 | bibliography |
-| [vol-42-page-119.jpg](assets/pages/vol-42-page-119.jpg) | 119 | 판권과 집필진 | colophon |
-| [vol-42-page-120.jpg](assets/pages/vol-42-page-120.jpg) | 120 | 권말 백지에 가까운 페이지 | blank-page |
+| [vol-42-page-001.jpg](assets/pages/vol-42/vol-42-page-001.jpg) | 1 | 표지와 권명, 발간등록번호 | title-page |
+| [vol-42-page-002.jpg](assets/pages/vol-42/vol-42-page-002.jpg) | 2 | 권별 목차: 개관, 판교 쌍용거줄다리기, 성남 오리뜰 농악, 이무술 집터 다지는 소리 | toc |
+| [vol-42-page-003.jpg](assets/pages/vol-42/vol-42-page-003.jpg) | 3 | Part 1 장 표지: 성남의 전통 민속놀이 개관 | part-title |
+| [vol-42-page-005.jpg](assets/pages/vol-42/vol-42-page-005.jpg) | 5 | 성남시 지도와 남한산성 지형 설명 | map |
+| [vol-42-page-007.jpg](assets/pages/vol-42/vol-42-page-007.jpg) | 7 | 분당중앙공원 파크콘서트와 문화공간 설명 | culture-photo |
+| [vol-42-page-008.jpg](assets/pages/vol-42/vol-42-page-008.jpg) | 8 | 1980년대 널다리 쌍용거줄다리기 재연 행사와 2025년 정월대보름 행사 | folk-game-photo |
+| [vol-42-page-010.jpg](assets/pages/vol-42/vol-42-page-010.jpg) | 10 | 성남 오리뜰 농악 시연회 | performance-photo |
+| [vol-42-page-011.jpg](assets/pages/vol-42/vol-42-page-011.jpg) | 11 | 정월대보름 행사에서 제기를 차는 시민 | folk-game-photo |
+| [vol-42-page-014.jpg](assets/pages/vol-42/vol-42-page-014.jpg) | 14 | 명절놀이 분포 그래프 | chart |
+| [vol-42-page-018.jpg](assets/pages/vol-42/vol-42-page-018.jpg) | 18 | 판교 쌍용거줄다리기 재연회와 청룡줄·황룡줄 설명 | tug-of-war-photo |
+| [vol-42-page-019.jpg](assets/pages/vol-42/vol-42-page-019.jpg) | 19 | 성남 오리뜰 농악 시연과 복원사 | nongak-photo |
+| [vol-42-page-020.jpg](assets/pages/vol-42/vol-42-page-020.jpg) | 20 | 이무술 집터 다지는 소리 시연회 | performance-photo |
+| [vol-42-page-022.jpg](assets/pages/vol-42/vol-42-page-022.jpg) | 22 | Part 2 장 표지: 판교 쌍용거줄다리기 | part-title |
+| [vol-42-page-025.jpg](assets/pages/vol-42/vol-42-page-025.jpg) | 25 | 판교 쌍용거줄다리기 약사 표 1980-2013 | chronology-table |
+| [vol-42-page-026.jpg](assets/pages/vol-42/vol-42-page-026.jpg) | 26 | 판교 쌍용거줄다리기 약사 표 2014-2024 및 중단 사유 | chronology-table |
+| [vol-42-page-032.jpg](assets/pages/vol-42/vol-42-page-032.jpg) | 32 | 삼척기줄다리기 비교 자료 | comparative-folk-game |
+| [vol-42-page-033.jpg](assets/pages/vol-42/vol-42-page-033.jpg) | 33 | 영월 칡줄다리기 사진과 비교 자료 | comparative-folk-game |
+| [vol-42-page-038.jpg](assets/pages/vol-42/vol-42-page-038.jpg) | 38 | 2024년 판교 쌍용거줄다리기 재연회 스케치 시작 | event-report |
+| [vol-42-page-040.jpg](assets/pages/vol-42/vol-42-page-040.jpg) | 40 | 판교 쌍용거줄다리기 고사 장면 | ritual-photo |
+| [vol-42-page-041.jpg](assets/pages/vol-42/vol-42-page-041.jpg) | 41 | 2024년 갑진년 판교 쌍용거줄다리기 고사 축문 | ritual-document |
+| [vol-42-page-042.jpg](assets/pages/vol-42/vol-42-page-042.jpg) | 42 | 최근 10년간 판교 쌍용거줄다리기 기사 표 | press-table |
+| [vol-42-page-045.jpg](assets/pages/vol-42/vol-42-page-045.jpg) | 45 | 성남시립국악단 특별 공연 | performance-photo |
+| [vol-42-page-047.jpg](assets/pages/vol-42/vol-42-page-047.jpg) | 47 | 동아줄 꼬는 소리 시연 | craft-process-photo |
+| [vol-42-page-048.jpg](assets/pages/vol-42/vol-42-page-048.jpg) | 48 | 쌍용거줄다리기 재연 절차 | event-photo |
+| [vol-42-page-050.jpg](assets/pages/vol-42/vol-42-page-050.jpg) | 50 | 청룡줄·황룡줄, 신랑·신부, 비녀목 연결 장면 | tug-of-war-process |
+| [vol-42-page-051.jpg](assets/pages/vol-42/vol-42-page-051.jpg) | 51 | 청룡줄과 황룡줄의 운동장 돌기 | tug-of-war-process |
+| [vol-42-page-052.jpg](assets/pages/vol-42/vol-42-page-052.jpg) | 52 | 줄다리기 경기 장면 | tug-of-war-photo |
+| [vol-42-page-053.jpg](assets/pages/vol-42/vol-42-page-053.jpg) | 53 | 2024년 판교 쌍용거줄다리기 승부 장면 | event-photo |
+| [vol-42-page-054.jpg](assets/pages/vol-42/vol-42-page-054.jpg) | 54 | 2024년 판교 쌍용거줄다리기 진행 시간표 | schedule-table |
+| [vol-42-page-055.jpg](assets/pages/vol-42/vol-42-page-055.jpg) | 55 | 김복심 회원 인터뷰와 보존회 활동 | interview-photo |
+| [vol-42-page-056.jpg](assets/pages/vol-42/vol-42-page-056.jpg) | 56 | 심선영 회원 인터뷰 | interview-photo |
+| [vol-42-page-057.jpg](assets/pages/vol-42/vol-42-page-057.jpg) | 57 | 장수희 회원 인터뷰 | interview-photo |
+| [vol-42-page-058.jpg](assets/pages/vol-42/vol-42-page-058.jpg) | 58 | Part 3 장 표지: 성남 오리뜰농악 | part-title |
+| [vol-42-page-059.jpg](assets/pages/vol-42/vol-42-page-059.jpg) | 59 | 분당구 오리뜰(구미동)의 위치 지도 | map |
+| [vol-42-page-060.jpg](assets/pages/vol-42/vol-42-page-060.jpg) | 60 | 분당신도시 개발 이후 구미동 일대 전경 | landscape-photo |
+| [vol-42-page-063.jpg](assets/pages/vol-42/vol-42-page-063.jpg) | 63 | 2024년 성남 오리뜰 농악 공연 스케치 시작 | event-report |
+| [vol-42-page-065.jpg](assets/pages/vol-42/vol-42-page-065.jpg) | 65 | 입장 사물놀이와 길가락 | performance-photo |
+| [vol-42-page-066.jpg](assets/pages/vol-42/vol-42-page-066.jpg) | 66 | 농사놀이 풀이 | performance-photo |
+| [vol-42-page-067.jpg](assets/pages/vol-42/vol-42-page-067.jpg) | 67 | 십자 진과 진풀이 | formation-photo |
+| [vol-42-page-068.jpg](assets/pages/vol-42/vol-42-page-068.jpg) | 68 | 쩍쩍이와 버꾸놀이 | performance-photo |
+| [vol-42-page-069.jpg](assets/pages/vol-42/vol-42-page-069.jpg) | 69 | 좌우치기, 돌림버꾸, 열두 발 상모놀이, 무동놀이, 인사굿 | performance-sequence |
+| [vol-42-page-073.jpg](assets/pages/vol-42/vol-42-page-073.jpg) | 73 | 오리뜰 농악 편성: 농기수·영기수·용기수 등 | composition |
+| [vol-42-page-076.jpg](assets/pages/vol-42/vol-42-page-076.jpg) | 76 | 성남 오리뜰 농악 편성과 잡색 | composition-photo |
+| [vol-42-page-077.jpg](assets/pages/vol-42/vol-42-page-077.jpg) | 77 | 오리뜰 농악 가락: 육띠기·삼잽이 | rhythm-note |
+| [vol-42-page-081.jpg](assets/pages/vol-42/vol-42-page-081.jpg) | 81 | 상모와 삼색기 복색 특징 | costume-photo |
+| [vol-42-page-082.jpg](assets/pages/vol-42/vol-42-page-082.jpg) | 82 | 조바이를 쓴 피조리 복색 | costume-photo |
+| [vol-42-page-083.jpg](assets/pages/vol-42/vol-42-page-083.jpg) | 83 | 성남 오리뜰 농악의 특징과 웃다리 농악 설명 | analysis |
+| [vol-42-page-088.jpg](assets/pages/vol-42/vol-42-page-088.jpg) | 88 | 성남 오리뜰 농악의 향후 전승 과제 | analysis |
+| [vol-42-page-089.jpg](assets/pages/vol-42/vol-42-page-089.jpg) | 89 | Part 4 장 표지: 이무술 집터 다지는 소리 | part-title |
+| [vol-42-page-090.jpg](assets/pages/vol-42/vol-42-page-090.jpg) | 90 | 분당구 이매동(이무술)의 위치 지도와 연원 | map |
+| [vol-42-page-091.jpg](assets/pages/vol-42/vol-42-page-091.jpg) | 91 | 이무술 집터 다지는 소리 공연과 복원사 | performance-photo |
+| [vol-42-page-092.jpg](assets/pages/vol-42/vol-42-page-092.jpg) | 92 | 경기도민속예술제 수상·참여 이력 | chronology |
+| [vol-42-page-095.jpg](assets/pages/vol-42/vol-42-page-095.jpg) | 95 | 일반적인 집터 다지는 소리 가사와 공연 사진 | lyrics-performance |
+| [vol-42-page-097.jpg](assets/pages/vol-42/vol-42-page-097.jpg) | 97 | 2024년 제26회 경기도민속예술제 경연 스케치 시작 | event-report |
+| [vol-42-page-098.jpg](assets/pages/vol-42/vol-42-page-098.jpg) | 98 | 수내동가옥과 집터 다지기 의미 설명 | heritage-photo |
+| [vol-42-page-099.jpg](assets/pages/vol-42/vol-42-page-099.jpg) | 99 | 첫 번째 마당: 동아줄 디리는 소리 | performance-sequence |
+| [vol-42-page-100.jpg](assets/pages/vol-42/vol-42-page-100.jpg) | 100 | 동아줄 디리는 소리 가사 | lyrics |
+| [vol-42-page-102.jpg](assets/pages/vol-42/vol-42-page-102.jpg) | 102 | 가래질 소리와 경연 진행 | performance-sequence |
+| [vol-42-page-104.jpg](assets/pages/vol-42/vol-42-page-104.jpg) | 104 | 세 번째 마당 지경 다지는 소리와 양산도 타령 | performance-sequence |
+| [vol-42-page-107.jpg](assets/pages/vol-42/vol-42-page-107.jpg) | 107 | 다섯 번째 마당 방아타령 | performance-sequence |
+| [vol-42-page-110.jpg](assets/pages/vol-42/vol-42-page-110.jpg) | 110 | 일곱 번째 마당 자진 지경 다지기 소리 | performance-sequence |
+| [vol-42-page-111.jpg](assets/pages/vol-42/vol-42-page-111.jpg) | 111 | 풍년가와 경연 마무리 발언 | performance-sequence |
+| [vol-42-page-112.jpg](assets/pages/vol-42/vol-42-page-112.jpg) | 112 | 이무술 집터 다지는 소리의 장단 구조 | rhythm-note |
+| [vol-42-page-117.jpg](assets/pages/vol-42/vol-42-page-117.jpg) | 117 | 경연을 마친 이무술집터다지기보존회 회원들 | group-photo |
+| [vol-42-page-118.jpg](assets/pages/vol-42/vol-42-page-118.jpg) | 118 | 참고문헌 | bibliography |
+| [vol-42-page-119.jpg](assets/pages/vol-42/vol-42-page-119.jpg) | 119 | 판권과 집필진 | colophon |
+| [vol-42-page-120.jpg](assets/pages/vol-42/vol-42-page-120.jpg) | 120 | 권말 백지에 가까운 페이지 | blank-page |
 
 ## 참고문헌 성격
 

@@ -18,7 +18,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 청소년 인구·실태조사·정책 예산·시설 현황·재단 조직·청년 연계 정책의 표와 그래프가 많아 136쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 청소년 인구·실태조사·정책 예산·시설 현황·재단 조직·청년 연계 정책의 표와 그래프가 많아 136쪽 전체를 `assets/pages/vol-20/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-20-integration.md`에 별도 정리했다.
 - 이 파일은 LLM 장문 입력을 위해 20권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
 
@@ -138,89 +138,89 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-20-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-001.jpg) | 1 | 권 표지와 제목: 성남시 청소년의 삶과 문화 | title-page |
-| [vol-20-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-002.jpg) | 2 | 권별 목차: Part 1-2 | toc |
-| [vol-20-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-003.jpg) | 3 | 권별 목차: Part 3-5 | toc |
-| [vol-20-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-007.jpg) | 7 | 성남시 청소년수련시설의 지역별 균형 배치 체계 지도 | map-or-diagram |
-| [vol-20-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-008.jpg) | 8 | 분당신도시 공공시설계획에 반영된 시설 종류 표 | table |
-| [vol-20-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-009.jpg) | 9 | 경기도 주요 도시 청소년수련시설 설치 유형 비교표 | table |
-| [vol-20-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-012.jpg) | 12 | 2005-2023 성남시 총인구 대비 청소년 인구 변화 추이 표 | table |
-| [vol-20-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-013.jpg) | 13 | 2005-2023 청소년 인구 비율 변화 그래프와 연령대 분포 서술 | chart |
-| [vol-20-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-014.jpg) | 14 | 구별 청소년 인구 변화 추이와 2024년 연령대별 현황표 | chart-table |
-| [vol-20-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-015.jpg) | 15 | 2024년 청소년 연령대별·구별 분포 그래프 | chart |
-| [vol-20-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-016.jpg) | 16 | 전국·경기도·성남시 청소년 인구 비교표 | table |
-| [vol-20-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-017.jpg) | 17 | 학교 밖 청소년 학업중단 학생 수 표 | table |
-| [vol-20-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-024.jpg) | 24 | 성남시 청소년 실태조사 연구 추진경과 표 | table |
-| [vol-20-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-025.jpg) | 25 | 현재·미래 행복감 비교 그래프 | chart |
-| [vol-20-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-027.jpg) | 27 | 성남시 청소년 삶의 만족도 변화 비교표 | table |
-| [vol-20-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-028.jpg) | 28 | 스트레스와 자퇴·가출·자살 관련 조사표 | table |
-| [vol-20-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-029.jpg) | 29 | 안전사고 위험 인식도 표 | table |
-| [vol-20-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-031.jpg) | 31 | 평일 여가활동 시간 변화표 | table |
-| [vol-20-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-032.jpg) | 32 | 휴일 여가활동 시간과 여가시설 충분도 서술 | table |
-| [vol-20-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-033.jpg) | 33 | 여가 활동 장소·프로그램 충분도 변화표 | table |
-| [vol-20-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-034.jpg) | 34 | 스마트폰·온라인 활동 서술 시작 | chart-or-text |
-| [vol-20-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-036.jpg) | 36 | 2020·2022년 온라인 플랫폼 이용 그래프 | chart |
-| [vol-20-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-037.jpg) | 37 | 아르바이트 경험과 노동인권교육 경험 표 | table |
-| [vol-20-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-038.jpg) | 38 | 아르바이트 경험자의 부정적 경험 유형 표 | table |
-| [vol-20-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-039.jpg) | 39 | 청소년 활동 영역별 참여율 표 | table |
-| [vol-20-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-041.jpg) | 41 | 청소년 활동 영역별 참여 만족도 표 | table |
-| [vol-20-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-042.jpg) | 42 | 청소년 시설 인지도와 서비스 경험 그래프 | chart |
-| [vol-20-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-043.jpg) | 43 | 청소년 활동 시설 요구 표 | table |
-| [vol-20-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-046.jpg) | 46 | 코로나19 이후 등교 의견과 SDQ 분포 표 | table |
-| [vol-20-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-047.jpg) | 47 | 좋은 일자리 조건 조사표 | table |
-| [vol-20-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-050.jpg) | 50 | 청년청소년과 소관 조례·규칙 현황 1 | table |
-| [vol-20-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-051.jpg) | 51 | 청년청소년과 소관 조례·규칙 현황 2 | table |
-| [vol-20-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-054.jpg) | 54 | 2024년 청소년 행정 전담 조직 업무분장 | table |
-| [vol-20-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-063.jpg) | 63 | 2024년 청소년 정책 예산사업 및 예산 현황 | table |
-| [vol-20-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-065.jpg) | 65 | 성남시청소년재단·복지기관·수련관 인지도 표 | table |
-| [vol-20-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-066.jpg) | 66 | 성남시청소년재단 설립 과정과 주요 연혁 시작 | table |
-| [vol-20-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-070.jpg) | 70 | 성남시청소년재단 기능과 조직별 사업 표 | table |
-| [vol-20-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-071.jpg) | 71 | 성남시청소년재단 연도별 예산 현황 표 | table |
-| [vol-20-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-072.jpg) | 72 | 성남시청소년재단 이슈 페이퍼 주제 모음 시작 | table |
-| [vol-20-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-073.jpg) | 73 | 이슈 페이퍼 주제와 연구 실적 표 시작 | table |
-| [vol-20-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-074.jpg) | 74 | 성남시청소년재단 연구 실적 표 | table |
-| [vol-20-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-075.jpg) | 75 | 중장기 발전계획 연구 내용 요약표 | table |
-| [vol-20-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-076.jpg) | 76 | 성남시청소년재단 경영가치 체계 도식 | diagram |
-| [vol-20-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-079.jpg) | 79 | 2024년 재단 본부 주요 사업 표 | table |
-| [vol-20-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-082.jpg) | 82 | 청소년 수련시설 분포 및 서비스 인구 현황 표 | table |
-| [vol-20-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-083.jpg) | 83 | 공공 청소년 수련시설 일반 현황 표 | table |
-| [vol-20-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-084.jpg) | 84 | 청소년 자유이용 공간 수진동굴·은행동굴 현황 | table-photo |
-| [vol-20-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-085.jpg) | 85 | 임시 수정청소년 수련관 일반 현황 | table-photo |
-| [vol-20-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-086.jpg) | 86 | 중원청소년 수련관 일반 현황 | table-photo |
-| [vol-20-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-087.jpg) | 87 | 분당 서현청소년 수련관 일반 현황 | table-photo |
-| [vol-20-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-089.jpg) | 89 | 분당 정자청소년 수련관 일반 현황 | table-photo |
-| [vol-20-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-090.jpg) | 90 | 분당 판교청소년 수련관 일반 현황 | table-photo |
-| [vol-20-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-091.jpg) | 91 | 분당 야탑청소년 수련관 일반 현황 | table-photo |
-| [vol-20-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-092.jpg) | 92 | 양지동청소년 문화의집 일반 현황 | table-photo |
-| [vol-20-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-093.jpg) | 93 | 은행동청소년 문화의집 일반 현황 | table-photo |
-| [vol-20-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-095.jpg) | 95 | 청소년상담복지센터 일반 현황 | table-photo |
-| [vol-20-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-098.jpg) | 98 | 청소년안전망 서비스 지원 표와 학교밖청소년지원센터 현황 | table-photo |
-| [vol-20-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-100.jpg) | 100 | 청소년쉼터 및 자립지원관 현황 표 | table |
-| [vol-20-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-105.jpg) | 105 | 성남청소년균형동반협의체 기본방향 도식 | diagram |
-| [vol-20-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-108.jpg) | 108 | 성남시 청소년·청년 빅데이터 플랫폼 BIGTA 누리집 | screenshot |
-| [vol-20-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-109.jpg) | 109 | BIGTA 구축 로드맵 | roadmap |
-| [vol-20-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-112.jpg) | 112 | 성남미래교육 중장기 발전계획 로드맵 | roadmap |
-| [vol-20-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-113.jpg) | 113 | 2024 성남미래교육 추진 체계 | diagram |
-| [vol-20-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-116.jpg) | 116 | 성남시 청년 정책 기본계획 비전 체계 | diagram |
-| [vol-20-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-117.jpg) | 117 | 청소년 정책 및 사업 지원기관 업무분장 | table |
-| [vol-20-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-118.jpg) | 118 | 청년 일자리 및 자립지원 사업 추진 현황 | table |
-| [vol-20-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-119.jpg) | 119 | 성남시 청년지원센터 일반 현황 | table |
-| [vol-20-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-122.jpg) | 122 | 2023 성남시 청소년어울림마당 Youth Trip 운영 개념도 | diagram |
-| [vol-20-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-123.jpg) | 123 | 2024 성남시청소년어울림마당 도판 | figure |
-| [vol-20-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-124.jpg) | 124 | 청소년방과후아카데미 운영 시설별 정원 표 | table |
-| [vol-20-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-127.jpg) | 127 | 2023년 청소년 정책제안대회 수상작 온라인 투표 결과 | figure |
-| [vol-20-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-128.jpg) | 128 | 성남문화예술교육센터-꿈꾸는 예술터 시설 도판 | figure |
-| [vol-20-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-132.jpg) | 132 | 참고문헌: 성남시·성남시청소년재단 발간 자료 | references |
-| [vol-20-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-133.jpg) | 133 | 참고문헌: 누리집 목록 | references |
-| [vol-20-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-134.jpg) | 134 | 참고문헌: 청소년 관련 조례 목록 | references |
-| [vol-20-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-135.jpg) | 135 | 판권: 발행일, 발행처, 집필자 | colophon |
+| [vol-20-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-001.jpg) | 1 | 권 표지와 제목: 성남시 청소년의 삶과 문화 | title-page |
+| [vol-20-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-002.jpg) | 2 | 권별 목차: Part 1-2 | toc |
+| [vol-20-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-003.jpg) | 3 | 권별 목차: Part 3-5 | toc |
+| [vol-20-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-007.jpg) | 7 | 성남시 청소년수련시설의 지역별 균형 배치 체계 지도 | map-or-diagram |
+| [vol-20-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-008.jpg) | 8 | 분당신도시 공공시설계획에 반영된 시설 종류 표 | table |
+| [vol-20-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-009.jpg) | 9 | 경기도 주요 도시 청소년수련시설 설치 유형 비교표 | table |
+| [vol-20-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-012.jpg) | 12 | 2005-2023 성남시 총인구 대비 청소년 인구 변화 추이 표 | table |
+| [vol-20-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-013.jpg) | 13 | 2005-2023 청소년 인구 비율 변화 그래프와 연령대 분포 서술 | chart |
+| [vol-20-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-014.jpg) | 14 | 구별 청소년 인구 변화 추이와 2024년 연령대별 현황표 | chart-table |
+| [vol-20-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-015.jpg) | 15 | 2024년 청소년 연령대별·구별 분포 그래프 | chart |
+| [vol-20-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-016.jpg) | 16 | 전국·경기도·성남시 청소년 인구 비교표 | table |
+| [vol-20-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-017.jpg) | 17 | 학교 밖 청소년 학업중단 학생 수 표 | table |
+| [vol-20-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-024.jpg) | 24 | 성남시 청소년 실태조사 연구 추진경과 표 | table |
+| [vol-20-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-025.jpg) | 25 | 현재·미래 행복감 비교 그래프 | chart |
+| [vol-20-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-027.jpg) | 27 | 성남시 청소년 삶의 만족도 변화 비교표 | table |
+| [vol-20-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-028.jpg) | 28 | 스트레스와 자퇴·가출·자살 관련 조사표 | table |
+| [vol-20-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-029.jpg) | 29 | 안전사고 위험 인식도 표 | table |
+| [vol-20-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-031.jpg) | 31 | 평일 여가활동 시간 변화표 | table |
+| [vol-20-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-032.jpg) | 32 | 휴일 여가활동 시간과 여가시설 충분도 서술 | table |
+| [vol-20-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-033.jpg) | 33 | 여가 활동 장소·프로그램 충분도 변화표 | table |
+| [vol-20-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-034.jpg) | 34 | 스마트폰·온라인 활동 서술 시작 | chart-or-text |
+| [vol-20-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-036.jpg) | 36 | 2020·2022년 온라인 플랫폼 이용 그래프 | chart |
+| [vol-20-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-037.jpg) | 37 | 아르바이트 경험과 노동인권교육 경험 표 | table |
+| [vol-20-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-038.jpg) | 38 | 아르바이트 경험자의 부정적 경험 유형 표 | table |
+| [vol-20-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-039.jpg) | 39 | 청소년 활동 영역별 참여율 표 | table |
+| [vol-20-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-041.jpg) | 41 | 청소년 활동 영역별 참여 만족도 표 | table |
+| [vol-20-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-042.jpg) | 42 | 청소년 시설 인지도와 서비스 경험 그래프 | chart |
+| [vol-20-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-043.jpg) | 43 | 청소년 활동 시설 요구 표 | table |
+| [vol-20-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-046.jpg) | 46 | 코로나19 이후 등교 의견과 SDQ 분포 표 | table |
+| [vol-20-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-047.jpg) | 47 | 좋은 일자리 조건 조사표 | table |
+| [vol-20-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-050.jpg) | 50 | 청년청소년과 소관 조례·규칙 현황 1 | table |
+| [vol-20-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-051.jpg) | 51 | 청년청소년과 소관 조례·규칙 현황 2 | table |
+| [vol-20-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-054.jpg) | 54 | 2024년 청소년 행정 전담 조직 업무분장 | table |
+| [vol-20-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-063.jpg) | 63 | 2024년 청소년 정책 예산사업 및 예산 현황 | table |
+| [vol-20-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-065.jpg) | 65 | 성남시청소년재단·복지기관·수련관 인지도 표 | table |
+| [vol-20-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-066.jpg) | 66 | 성남시청소년재단 설립 과정과 주요 연혁 시작 | table |
+| [vol-20-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-070.jpg) | 70 | 성남시청소년재단 기능과 조직별 사업 표 | table |
+| [vol-20-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-071.jpg) | 71 | 성남시청소년재단 연도별 예산 현황 표 | table |
+| [vol-20-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-072.jpg) | 72 | 성남시청소년재단 이슈 페이퍼 주제 모음 시작 | table |
+| [vol-20-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-073.jpg) | 73 | 이슈 페이퍼 주제와 연구 실적 표 시작 | table |
+| [vol-20-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-074.jpg) | 74 | 성남시청소년재단 연구 실적 표 | table |
+| [vol-20-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-075.jpg) | 75 | 중장기 발전계획 연구 내용 요약표 | table |
+| [vol-20-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-076.jpg) | 76 | 성남시청소년재단 경영가치 체계 도식 | diagram |
+| [vol-20-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-079.jpg) | 79 | 2024년 재단 본부 주요 사업 표 | table |
+| [vol-20-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-082.jpg) | 82 | 청소년 수련시설 분포 및 서비스 인구 현황 표 | table |
+| [vol-20-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-083.jpg) | 83 | 공공 청소년 수련시설 일반 현황 표 | table |
+| [vol-20-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-084.jpg) | 84 | 청소년 자유이용 공간 수진동굴·은행동굴 현황 | table-photo |
+| [vol-20-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-085.jpg) | 85 | 임시 수정청소년 수련관 일반 현황 | table-photo |
+| [vol-20-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-086.jpg) | 86 | 중원청소년 수련관 일반 현황 | table-photo |
+| [vol-20-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-087.jpg) | 87 | 분당 서현청소년 수련관 일반 현황 | table-photo |
+| [vol-20-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-089.jpg) | 89 | 분당 정자청소년 수련관 일반 현황 | table-photo |
+| [vol-20-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-090.jpg) | 90 | 분당 판교청소년 수련관 일반 현황 | table-photo |
+| [vol-20-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-091.jpg) | 91 | 분당 야탑청소년 수련관 일반 현황 | table-photo |
+| [vol-20-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-092.jpg) | 92 | 양지동청소년 문화의집 일반 현황 | table-photo |
+| [vol-20-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-093.jpg) | 93 | 은행동청소년 문화의집 일반 현황 | table-photo |
+| [vol-20-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-095.jpg) | 95 | 청소년상담복지센터 일반 현황 | table-photo |
+| [vol-20-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-098.jpg) | 98 | 청소년안전망 서비스 지원 표와 학교밖청소년지원센터 현황 | table-photo |
+| [vol-20-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-100.jpg) | 100 | 청소년쉼터 및 자립지원관 현황 표 | table |
+| [vol-20-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-105.jpg) | 105 | 성남청소년균형동반협의체 기본방향 도식 | diagram |
+| [vol-20-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-108.jpg) | 108 | 성남시 청소년·청년 빅데이터 플랫폼 BIGTA 누리집 | screenshot |
+| [vol-20-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-109.jpg) | 109 | BIGTA 구축 로드맵 | roadmap |
+| [vol-20-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-112.jpg) | 112 | 성남미래교육 중장기 발전계획 로드맵 | roadmap |
+| [vol-20-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-113.jpg) | 113 | 2024 성남미래교육 추진 체계 | diagram |
+| [vol-20-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-116.jpg) | 116 | 성남시 청년 정책 기본계획 비전 체계 | diagram |
+| [vol-20-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-117.jpg) | 117 | 청소년 정책 및 사업 지원기관 업무분장 | table |
+| [vol-20-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-118.jpg) | 118 | 청년 일자리 및 자립지원 사업 추진 현황 | table |
+| [vol-20-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-119.jpg) | 119 | 성남시 청년지원센터 일반 현황 | table |
+| [vol-20-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-122.jpg) | 122 | 2023 성남시 청소년어울림마당 Youth Trip 운영 개념도 | diagram |
+| [vol-20-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-123.jpg) | 123 | 2024 성남시청소년어울림마당 도판 | figure |
+| [vol-20-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-124.jpg) | 124 | 청소년방과후아카데미 운영 시설별 정원 표 | table |
+| [vol-20-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-127.jpg) | 127 | 2023년 청소년 정책제안대회 수상작 온라인 투표 결과 | figure |
+| [vol-20-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-128.jpg) | 128 | 성남문화예술교육센터-꿈꾸는 예술터 시설 도판 | figure |
+| [vol-20-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-132.jpg) | 132 | 참고문헌: 성남시·성남시청소년재단 발간 자료 | references |
+| [vol-20-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-133.jpg) | 133 | 참고문헌: 누리집 목록 | references |
+| [vol-20-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-134.jpg) | 134 | 참고문헌: 청소년 관련 조례 목록 | references |
+| [vol-20-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-135.jpg) | 135 | 판권: 발행일, 발행처, 집필자 | colophon |
 
 ## 원문 페이지별 텍스트
 
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.001 -->
 ### p.001
 
-[페이지 이미지: vol-20-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-001.jpg)
+[페이지 이미지: vol-20-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-001.jpg)
 
 ```text
                발 간 등 록 번 호
@@ -250,7 +250,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.002 -->
 ### p.002
 
-[페이지 이미지: vol-20-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-002.jpg)
+[페이지 이미지: vol-20-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-002.jpg)
 
 ```text
               1
@@ -310,7 +310,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.003 -->
 ### p.003
 
-[페이지 이미지: vol-20-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-003.jpg)
+[페이지 이미지: vol-20-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-003.jpg)
 
 ```text
                                                              5
@@ -378,7 +378,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.004 -->
 ### p.004
 
-[페이지 이미지: vol-20-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-004.jpg)
+[페이지 이미지: vol-20-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-004.jpg)
 
 ```text
 1
@@ -392,7 +392,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.005 -->
 ### p.005
 
-[페이지 이미지: vol-20-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-005.jpg)
+[페이지 이미지: vol-20-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-005.jpg)
 
 ```text
 1. 성남시 청소년사 탐색의 시작
@@ -436,7 +436,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.006 -->
 ### p.006
 
-[페이지 이미지: vol-20-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-006.jpg)
+[페이지 이미지: vol-20-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-006.jpg)
 
 ```text
                       지만 청소년 정책이 제도화되면서 청소년 문화는 사회적인 일상의 영역에 머물지 않고 법
@@ -485,7 +485,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.007 -->
 ### p.007
 
-[페이지 이미지: vol-20-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-007.jpg)
+[페이지 이미지: vol-20-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-007.jpg)
 
 ```text
   (1) 과거의 성과 : 청소년 문화의 기반 조성 – 청소년 시설을 중심으로
@@ -575,7 +575,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.008 -->
 ### p.008
 
-[페이지 이미지: vol-20-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-008.jpg)
+[페이지 이미지: vol-20-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-008.jpg)
 
 ```text
                       분당신도시 조성 시 공공시설계획에 반영된 시설 종류
@@ -638,7 +638,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.009 -->
 ### p.009
 
-[페이지 이미지: vol-20-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-009.jpg)
+[페이지 이미지: vol-20-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-009.jpg)
 
 ```text
 성남시 청소년 문화 형성과 지원에 큰 역할을 하였다. 이와 함께 청소년 정책의 발전 과정
@@ -702,7 +702,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.010 -->
 ### p.010
 
-[페이지 이미지: vol-20-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-010.jpg)
+[페이지 이미지: vol-20-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-010.jpg)
 
 ```text
                        (3) 미래의 지향 : 청소년-청년으로 이어지는 미래지향적 생애연계형 정책
@@ -739,7 +739,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.011 -->
 ### p.011
 
-[페이지 이미지: vol-20-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-011.jpg)
+[페이지 이미지: vol-20-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-011.jpg)
 
 ```text
 2. 성남시 청소년 현황 이해의 기초
@@ -784,7 +784,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.012 -->
 ### p.012
 
-[페이지 이미지: vol-20-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-012.jpg)
+[페이지 이미지: vol-20-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-012.jpg)
 
 ```text
                       8,357명이 더 감소한 것이다. 청소년 인구 비율을 보면 2005년은 청소년이 전체 인구의
@@ -855,7 +855,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.013 -->
 ### p.013
 
-[페이지 이미지: vol-20-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-013.jpg)
+[페이지 이미지: vol-20-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-013.jpg)
 
 ```text
 성남시 총인구 대비 청소년 인구 변화 추이(2005~2023)                                                                          단위 : %
@@ -913,7 +913,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.014 -->
 ### p.014
 
-[페이지 이미지: vol-20-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-014.jpg)
+[페이지 이미지: vol-20-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-014.jpg)
 
 ```text
                       성남시 구별 청소년 인구 변화 추이                                                                                          단위 : 명, 2023년 12월 기준
@@ -990,7 +990,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.015 -->
 ### p.015
 
-[페이지 이미지: vol-20-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-015.jpg)
+[페이지 이미지: vol-20-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-015.jpg)
 
 ```text
 성남시 청소년 인구 분포 현황(1) 연령대별 인구 분포              단위 : %, 2024년 6월 기준
@@ -1058,7 +1058,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.016 -->
 ### p.016
 
-[페이지 이미지: vol-20-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-016.jpg)
+[페이지 이미지: vol-20-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-016.jpg)
 
 ```text
                        4) 지역 단위에 따른 청소년 인구 현황 비교
@@ -1124,7 +1124,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.017 -->
 ### p.017
 
-[페이지 이미지: vol-20-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-017.jpg)
+[페이지 이미지: vol-20-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-017.jpg)
 
 ```text
   5) 성남시 학교 밖 청소년 인구 규모
@@ -1175,7 +1175,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.018 -->
 ### p.018
 
-[페이지 이미지: vol-20-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-018.jpg)
+[페이지 이미지: vol-20-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-018.jpg)
 
 ```text
                       3. 청소년 삶과 문화의 탐색 영역
@@ -1220,7 +1220,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.019 -->
 ### p.019
 
-[페이지 이미지: vol-20-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-019.jpg)
+[페이지 이미지: vol-20-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-019.jpg)
 
 ```text
 는 데 기여한 제도적 기반을 분석함으로써 문화의 실태나 양상에 간접적으로 접근할 수도
@@ -1250,7 +1250,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.020 -->
 ### p.020
 
-[페이지 이미지: vol-20-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-020.jpg)
+[페이지 이미지: vol-20-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-020.jpg)
 
 ```text
 2
@@ -1264,7 +1264,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.021 -->
 ### p.021
 
-[페이지 이미지: vol-20-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-021.jpg)
+[페이지 이미지: vol-20-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-021.jpg)
 
 ```text
 1. 청소년 실태조사 과정과 내용
@@ -1307,7 +1307,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.022 -->
 ### p.022
 
-[페이지 이미지: vol-20-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-022.jpg)
+[페이지 이미지: vol-20-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-022.jpg)
 
 ```text
                        전체 청소년을 대상으로 진행된 조사 연구과정에서 동일한 문항이 전 기간 동안 적용된
@@ -1357,7 +1357,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.023 -->
 ### p.023
 
-[페이지 이미지: vol-20-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-023.jpg)
+[페이지 이미지: vol-20-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-023.jpg)
 
 ```text
       외하고, 선거참여, 노동인권교육 경험, 스마트폰 이용, 독서 실태, 온라인 활동, 코로
@@ -1403,7 +1403,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.024 -->
 ### p.024
 
-[페이지 이미지: vol-20-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-024.jpg)
+[페이지 이미지: vol-20-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-024.jpg)
 
 ```text
                       성남시 청소년 실태조사 연구 추진경과(개요)
@@ -1488,7 +1488,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.025 -->
 ### p.025
 
-[페이지 이미지: vol-20-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-025.jpg)
+[페이지 이미지: vol-20-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-025.jpg)
 
 ```text
 2. 청소년의 행복감과 삶의 만족도
@@ -1542,7 +1542,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.026 -->
 ### p.026
 
-[페이지 이미지: vol-20-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-026.jpg)
+[페이지 이미지: vol-20-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-026.jpg)
 
 ```text
                        (2023 성남시 사회조사) 2023 성남시 사회조사 결과 중기의 청소년 연령대인 15~19세
@@ -1592,7 +1592,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.027 -->
 ### p.027
 
-[페이지 이미지: vol-20-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-027.jpg)
+[페이지 이미지: vol-20-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-027.jpg)
 
 ```text
 참고로 청소년의 주관적 건강에 대한 이전의 조사에서는 건강하다는 응답이 2013년의
@@ -1645,7 +1645,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.028 -->
 ### p.028
 
-[페이지 이미지: vol-20-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-028.jpg)
+[페이지 이미지: vol-20-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-028.jpg)
 
 ```text
                       성남시 청소년의 인식 조사(1) - 스트레스                                                            단위 : 점(5점 척도)
@@ -1713,7 +1713,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.029 -->
 ### p.029
 
-[페이지 이미지: vol-20-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-029.jpg)
+[페이지 이미지: vol-20-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-029.jpg)
 
 ```text
   4) 안전 위험에 대한 인식
@@ -1764,7 +1764,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.030 -->
 ### p.030
 
-[페이지 이미지: vol-20-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-030.jpg)
+[페이지 이미지: vol-20-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-030.jpg)
 
 ```text
                         5) 지역에서의 삶에 대한 만족도
@@ -1801,7 +1801,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.031 -->
 ### p.031
 
-[페이지 이미지: vol-20-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-031.jpg)
+[페이지 이미지: vol-20-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-031.jpg)
 
 ```text
 3. 청소년 여가와 생활실태
@@ -1858,7 +1858,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.032 -->
 ### p.032
 
-[페이지 이미지: vol-20-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-032.jpg)
+[페이지 이미지: vol-20-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-032.jpg)
 
 ```text
                       성남시 청소년 여가 실태조사(2) - 여가 활동 시간(휴일)                                     단위 : %·점(5점 척도)
@@ -1921,7 +1921,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.033 -->
 ### p.033
 
-[페이지 이미지: vol-20-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-033.jpg)
+[페이지 이미지: vol-20-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-033.jpg)
 
 ```text
 성남시 청소년 여가 실태조사(3) - 여가 활동 장소 충분 정도                                  단위 : %·점(5점 척도)
@@ -1982,7 +1982,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.034 -->
 ### p.034
 
-[페이지 이미지: vol-20-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-034.jpg)
+[페이지 이미지: vol-20-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-034.jpg)
 
 ```text
                       적 부담(21.3%), 시간 부족(21.3%) 순으로 응답하였다. 이 결과로만 본다면 여가시설보다
@@ -2038,7 +2038,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.035 -->
 ### p.035
 
-[페이지 이미지: vol-20-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-035.jpg)
+[페이지 이미지: vol-20-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-035.jpg)
 
 ```text
 로 증가하였고, 교육·학습 영역만 감소하였다. 전반적으로 온라인을 활용한 활동이 점차
@@ -2093,7 +2093,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.036 -->
 ### p.036
 
-[페이지 이미지: vol-20-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-036.jpg)
+[페이지 이미지: vol-20-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-036.jpg)
 
 ```text
                       청소년들의 온라인 서비스 이용 현황                                                                                    단위 : %
@@ -2181,7 +2181,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.037 -->
 ### p.037
 
-[페이지 이미지: vol-20-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-037.jpg)
+[페이지 이미지: vol-20-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-037.jpg)
 
 ```text
  3) 청소년 아르바이트 경험
@@ -2232,7 +2232,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.038 -->
 ### p.038
 
-[페이지 이미지: vol-20-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-038.jpg)
+[페이지 이미지: vol-20-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-038.jpg)
 
 ```text
                       아르바이트 경험자의 부정적 경험의 종류 및 비율                                          단위 : %
@@ -2269,7 +2269,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.039 -->
 ### p.039
 
-[페이지 이미지: vol-20-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-039.jpg)
+[페이지 이미지: vol-20-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-039.jpg)
 
 ```text
 4. 청소년 활동 경험과 요구
@@ -2318,7 +2318,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.040 -->
 ### p.040
 
-[페이지 이미지: vol-20-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-040.jpg)
+[페이지 이미지: vol-20-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-040.jpg)
 
 ```text
                        2013년부터 2022년까지 청소년 체험활동 참여 경험에 대한 5회차 동안의 조사 결과를
@@ -2367,7 +2367,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.041 -->
 ### p.041
 
-[페이지 이미지: vol-20-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-041.jpg)
+[페이지 이미지: vol-20-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-041.jpg)
 
 ```text
 청소년 활동 영역별 참여 만족도                                                     단위 : 점(5점 척도)·%
@@ -2422,7 +2422,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.042 -->
 ### p.042
 
-[페이지 이미지: vol-20-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-042.jpg)
+[페이지 이미지: vol-20-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-042.jpg)
 
 ```text
                         4) 청소년 시설 인지도와 서비스 경험 수준
@@ -2498,7 +2498,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.043 -->
 ### p.043
 
-[페이지 이미지: vol-20-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-043.jpg)
+[페이지 이미지: vol-20-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-043.jpg)
 
 ```text
  5) 청소년 시설 공간에 대한 요구
@@ -2551,7 +2551,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.044 -->
 ### p.044
 
-[페이지 이미지: vol-20-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-044.jpg)
+[페이지 이미지: vol-20-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-044.jpg)
 
 ```text
                       5. 조사 시기별 이슈 관련 실태조사 사례
@@ -2594,7 +2594,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.045 -->
 ### p.045
 
-[페이지 이미지: vol-20-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-045.jpg)
+[페이지 이미지: vol-20-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-045.jpg)
 
 ```text
  2) 청소년의 사회 이슈에 대한 관심과 정치참여 의지
@@ -2639,7 +2639,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.046 -->
 ### p.046
 
-[페이지 이미지: vol-20-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-046.jpg)
+[페이지 이미지: vol-20-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-046.jpg)
 
 ```text
                       코로나19 이후 등교에 대한 생각                                                        단위 : %
@@ -2696,7 +2696,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.047 -->
 ### p.047
 
-[페이지 이미지: vol-20-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-047.jpg)
+[페이지 이미지: vol-20-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-047.jpg)
 
 ```text
  행복지수의 경우 정상군은 0.75인 반면 경계개입군은 0.59로 편차가 발생했다. 학교급
@@ -2746,7 +2746,7 @@ SNS 이용의 변화는 청소년들의 문화가 어떻게 변하고 있는가�
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.048 -->
 ### p.048
 
-[페이지 이미지: vol-20-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-048.jpg)
+[페이지 이미지: vol-20-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-048.jpg)
 
 ```text
 3
@@ -2760,7 +2760,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.049 -->
 ### p.049
 
-[페이지 이미지: vol-20-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-049.jpg)
+[페이지 이미지: vol-20-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-049.jpg)
 
 ```text
 1. 성남시 청소년 정책의 기반 조성과 흐름 이해
@@ -2802,7 +2802,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.050 -->
 ### p.050
 
-[페이지 이미지: vol-20-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-050.jpg)
+[페이지 이미지: vol-20-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-050.jpg)
 
 ```text
                       만, 기존의 청소년 정책 관련 역사에 대한 자료가 아카이빙(archiving)5 되었다거나 별도
@@ -2862,7 +2862,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.051 -->
 ### p.051
 
-[페이지 이미지: vol-20-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-051.jpg)
+[페이지 이미지: vol-20-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-051.jpg)
 
 ```text
    제정일자                               조례명          분류
@@ -2913,7 +2913,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.052 -->
 ### p.052
 
-[페이지 이미지: vol-20-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-052.jpg)
+[페이지 이미지: vol-20-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-052.jpg)
 
 ```text
                       에 따른 지원 정책과 사업의 근거가 되고 있다. 학교폭력 예방 및 대책, 학교 밖 청소년 지
@@ -2962,7 +2962,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.053 -->
 ### p.053
 
-[페이지 이미지: vol-20-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-053.jpg)
+[페이지 이미지: vol-20-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-053.jpg)
 
 ```text
 자료의 행정기구 변천에 대한 자료와 「성남시 행정기구 및 정원 조례 시행규칙」의 연혁에
@@ -3026,7 +3026,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.054 -->
 ### p.054
 
-[페이지 이미지: vol-20-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-054.jpg)
+[페이지 이미지: vol-20-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-054.jpg)
 
 ```text
                            ￭ 2018년 6월 29일 교육문화국을 교육문화체육국으로 변경(교육청소년과-청소년팀)
@@ -3089,7 +3089,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.055 -->
 ### p.055
 
-[페이지 이미지: vol-20-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-055.jpg)
+[페이지 이미지: vol-20-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-055.jpg)
 
 ```text
  3) 현장지원 기반 : 청소년 관련 시정 계획과 사업 사례
@@ -3135,7 +3135,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.056 -->
 ### p.056
 
-[페이지 이미지: vol-20-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-056.jpg)
+[페이지 이미지: vol-20-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-056.jpg)
 
 ```text
                       미래지향형 청소년 문화 체계를 지향하고 있다.
@@ -3182,7 +3182,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.057 -->
 ### p.057
 
-[페이지 이미지: vol-20-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-057.jpg)
+[페이지 이미지: vol-20-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-057.jpg)
 
 ```text
 절교육 운영, 청소년 음악회 운영 및 청소년 보호사업으로 청소년 선도 및 유해환경 단
@@ -3228,7 +3228,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.058 -->
 ### p.058
 
-[페이지 이미지: vol-20-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-058.jpg)
+[페이지 이미지: vol-20-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-058.jpg)
 
 ```text
                       소년 지도자의 확충이 이루어진 시기였다. 또한 1995년 청소년상담실로 시작한 청소년상
@@ -3266,7 +3266,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.059 -->
 ### p.059
 
-[페이지 이미지: vol-20-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-059.jpg)
+[페이지 이미지: vol-20-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-059.jpg)
 
 ```text
 2. 청소년의 삶을 지원하는 정책과 제도
@@ -3321,7 +3321,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.060 -->
 ### p.060
 
-[페이지 이미지: vol-20-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-060.jpg)
+[페이지 이미지: vol-20-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-060.jpg)
 
 ```text
                        (3) 청소년 복지 관련 조례 및 규칙
@@ -3389,7 +3389,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.061 -->
 ### p.061
 
-[페이지 이미지: vol-20-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-061.jpg)
+[페이지 이미지: vol-20-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-061.jpg)
 
 ```text
  2) 정책 추진기반으로 청소년 행정 조직
@@ -3439,7 +3439,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.062 -->
 ### p.062
 
-[페이지 이미지: vol-20-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-062.jpg)
+[페이지 이미지: vol-20-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-062.jpg)
 
 ```text
                            6. 청소년 단체 육성 및 수련활동 지원
@@ -3501,7 +3501,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.063 -->
 ### p.063
 
-[페이지 이미지: vol-20-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-063.jpg)
+[페이지 이미지: vol-20-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-063.jpg)
 
 ```text
 사업 수입금, 관리사업 수익 등을 통해 추가재원을 확보하여 2024년 기준 총예산은 403억
@@ -3546,7 +3546,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.064 -->
 ### p.064
 
-[페이지 이미지: vol-20-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-064.jpg)
+[페이지 이미지: vol-20-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-064.jpg)
 
 ```text
                       3. 성남시청소년재단7
@@ -3597,7 +3597,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.065 -->
 ### p.065
 
-[페이지 이미지: vol-20-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-065.jpg)
+[페이지 이미지: vol-20-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-065.jpg)
 
 ```text
 성남시청소년재단 인지도
@@ -3654,7 +3654,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.066 -->
 ### p.066
 
-[페이지 이미지: vol-20-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-066.jpg)
+[페이지 이미지: vol-20-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-066.jpg)
 
 ```text
                        (2) 설립 과정과 주요 연혁
@@ -3715,7 +3715,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.067 -->
 ### p.067
 
-[페이지 이미지: vol-20-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-067.jpg)
+[페이지 이미지: vol-20-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-067.jpg)
 
 ```text
     시기(년)                                      주요 연혁
@@ -3774,7 +3774,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.068 -->
 ### p.068
 
-[페이지 이미지: vol-20-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-068.jpg)
+[페이지 이미지: vol-20-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-068.jpg)
 
 ```text
                       경기도교육청에서는 특성화고 진로캠프 유공 표창 실적이 있다. 성남시의 출연기관 경영
@@ -3831,7 +3831,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.069 -->
 ### p.069
 
-[페이지 이미지: vol-20-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-069.jpg)
+[페이지 이미지: vol-20-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-069.jpg)
 
 ```text
   2) 조직과 업무 개요
@@ -3914,7 +3914,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.070 -->
 ### p.070
 
-[페이지 이미지: vol-20-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-070.jpg)
+[페이지 이미지: vol-20-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-070.jpg)
 
 ```text
                       (6청소년 수련관, 1청소년상담복지센터, 2청소년 문화의집)이 편제되어 있다. 학교밖청소
@@ -3978,7 +3978,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.071 -->
 ### p.071
 
-[페이지 이미지: vol-20-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-071.jpg)
+[페이지 이미지: vol-20-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-071.jpg)
 
 ```text
  부서별 업무는 기능에 따라 분장되어 있다. 전략기획실의 경우 경영평가 등 일반적인
@@ -4029,7 +4029,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.072 -->
 ### p.072
 
-[페이지 이미지: vol-20-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-072.jpg)
+[페이지 이미지: vol-20-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-072.jpg)
 
 ```text
                           3) 연구와 사업 현황
@@ -4089,7 +4089,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.073 -->
 ### p.073
 
-[페이지 이미지: vol-20-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-073.jpg)
+[페이지 이미지: vol-20-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-073.jpg)
 
 ```text
   연도                                   이슈 페이퍼 주제
@@ -4160,7 +4160,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.074 -->
 ### p.074
 
-[페이지 이미지: vol-20-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-074.jpg)
+[페이지 이미지: vol-20-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-074.jpg)
 
 ```text
                                        청소년 실태조사             재단계획/운영 관련            정책 일반, 기관/사업운영
@@ -4242,7 +4242,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.075 -->
 ### p.075
 
-[페이지 이미지: vol-20-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-075.jpg)
+[페이지 이미지: vol-20-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-075.jpg)
 
 ```text
  (2) 재단 중장기 계획 연구
@@ -4311,7 +4311,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.076 -->
 ### p.076
 
-[페이지 이미지: vol-20-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-076.jpg)
+[페이지 이미지: vol-20-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-076.jpg)
 
 ```text
                       성남시청소년재단 경영가치 체계
@@ -4336,7 +4336,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.077 -->
 ### p.077
 
-[페이지 이미지: vol-20-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-077.jpg)
+[페이지 이미지: vol-20-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-077.jpg)
 
 ```text
  2024~2028 중장기 경영 목표의 미션과 비전, 핵심가치에 따른 전략목표는 제4차 중장
@@ -4393,7 +4393,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.078 -->
 ### p.078
 
-[페이지 이미지: vol-20-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-078.jpg)
+[페이지 이미지: vol-20-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-078.jpg)
 
 ```text
                            ￭ 청소년 국제교류사업 : 환경보존 및 지역사회 개발을 주제로 청소년들이 참여하는 국제교류 및 해외
@@ -4454,7 +4454,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.079 -->
 ### p.079
 
-[페이지 이미지: vol-20-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-079.jpg)
+[페이지 이미지: vol-20-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-079.jpg)
 
 ```text
 것으로 보인다. 전략계획의 수립뿐만 아니라 PDCA10 모형과 논리평가 모형에 따른 성과
@@ -4501,7 +4501,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.080 -->
 ### p.080
 
-[페이지 이미지: vol-20-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-080.jpg)
+[페이지 이미지: vol-20-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-080.jpg)
 
 ```text
 4
@@ -4515,7 +4515,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.081 -->
 ### p.081
 
-[페이지 이미지: vol-20-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-081.jpg)
+[페이지 이미지: vol-20-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-081.jpg)
 
 ```text
 1. 지역사회 청소년 문화의 거점
@@ -4561,7 +4561,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.082 -->
 ### p.082
 
-[페이지 이미지: vol-20-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-082.jpg)
+[페이지 이미지: vol-20-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-082.jpg)
 
 ```text
                       분당구 2만 745명으로 분당구의 시설이 서비스 대상 청소년 인구수가 높게 나타난다. 서
@@ -4623,7 +4623,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.083 -->
 ### p.083
 
-[페이지 이미지: vol-20-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-083.jpg)
+[페이지 이미지: vol-20-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-083.jpg)
 
 ```text
 성남시 공공 청소년 수련시설 일반 현황                                      단위 : 년, ㎡ ·명, 2023년 12월 기준
@@ -4670,7 +4670,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.084 -->
 ### p.084
 
-[페이지 이미지: vol-20-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-084.jpg)
+[페이지 이미지: vol-20-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-084.jpg)
 
 ```text
                       청소년 자유이용 공간 현황
@@ -4736,7 +4736,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.085 -->
 ### p.085
 
-[페이지 이미지: vol-20-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-085.jpg)
+[페이지 이미지: vol-20-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-085.jpg)
 
 ```text
    이다. 하지만 신흥동에 공간을 임대하여 2020년 7월부터 (임시)수정청소년 수련관을 운영하여 시설 기
@@ -4802,7 +4802,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.086 -->
 ### p.086
 
-[페이지 이미지: vol-20-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-086.jpg)
+[페이지 이미지: vol-20-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-086.jpg)
 
 ```text
                        (2) 중원청소년 수련관
@@ -4874,7 +4874,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.087 -->
 ### p.087
 
-[페이지 이미지: vol-20-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-087.jpg)
+[페이지 이미지: vol-20-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-087.jpg)
 
 ```text
  주요 프로그램은 성남시통고구마축제, 청소년어울림마당, 성남시동아리활동지원, 중원
@@ -4937,7 +4937,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.088 -->
 ### p.088
 
-[페이지 이미지: vol-20-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-088.jpg)
+[페이지 이미지: vol-20-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-088.jpg)
 
 ```text
                             터(동아리, 댄스), 지하 1층에는 두드림터(자치활동실), 1층에는 공정카페, 작은도서관, 희망터(강
@@ -4996,7 +4996,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.089 -->
 ### p.089
 
-[페이지 이미지: vol-20-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-089.jpg)
+[페이지 이미지: vol-20-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-089.jpg)
 
 ```text
   ￭ 건립 운영 : 분당구 정자동 파크뷰아파트 시행사인 ㈜에이치원개발에서 건립 후 성남시에 기부채납
@@ -5059,7 +5059,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.090 -->
 ### p.090
 
-[페이지 이미지: vol-20-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-090.jpg)
+[페이지 이미지: vol-20-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-090.jpg)
 
 ```text
                        (5) 분당 판교청소년 수련관
@@ -5127,7 +5127,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.091 -->
 ### p.091
 
-[페이지 이미지: vol-20-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-091.jpg)
+[페이지 이미지: vol-20-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-091.jpg)
 
 ```text
 로젝트, UN 청소년 환경 총회, 청소년 어울림마당, 코딩공작소 with 웹젠, 생태체험, 생태
@@ -5188,7 +5188,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.092 -->
 ### p.092
 
-[페이지 이미지: vol-20-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-092.jpg)
+[페이지 이미지: vol-20-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-092.jpg)
 
 ```text
                             청소년 코딩 공작소 with 웹젠 개소, 미래학습체험 주관 개최, 주민 대상 공개 천체관측행사 개최
@@ -5253,7 +5253,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.093 -->
 ### p.093
 
-[페이지 이미지: vol-20-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-093.jpg)
+[페이지 이미지: vol-20-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-093.jpg)
 
 ```text
   ￭ 조직 인력 : 1 센터, 정원 7명(2023.3. 기준)
@@ -5317,7 +5317,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.094 -->
 ### p.094
 
-[페이지 이미지: vol-20-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-094.jpg)
+[페이지 이미지: vol-20-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-094.jpg)
 
 ```text
                       은행동청소년 문화의집 일반 현황
@@ -5369,7 +5369,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.095 -->
 ### p.095
 
-[페이지 이미지: vol-20-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-095.jpg)
+[페이지 이미지: vol-20-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-095.jpg)
 
 ```text
 2. 청소년의 안전한 삶의 터전
@@ -5425,7 +5425,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.096 -->
 ### p.096
 
-[페이지 이미지: vol-20-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-096.jpg)
+[페이지 이미지: vol-20-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-096.jpg)
 
 ```text
                       년 연령대 이용을 고려하여 연계 또는 협업이 필요한 분야는 지역아동센터(49개소), 다함
@@ -5490,7 +5490,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.097 -->
 ### p.097
 
-[페이지 이미지: vol-20-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-097.jpg)
+[페이지 이미지: vol-20-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-097.jpg)
 
 ```text
      주요 프로그램은 학교 밖 청소년 지원, 청소년마음건강 지원사업, 청소년전화1388, 청
@@ -5532,7 +5532,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.098 -->
 ### p.098
 
-[페이지 이미지: vol-20-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-098.jpg)
+[페이지 이미지: vol-20-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-098.jpg)
 
 ```text
                       청소년안전망을 통한 서비스 지원
@@ -5611,7 +5611,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.099 -->
 ### p.099
 
-[페이지 이미지: vol-20-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-099.jpg)
+[페이지 이미지: vol-20-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-099.jpg)
 
 ```text
        2020년 11월에 학교 밖 청소년 자립공간 ‘일하루’를 개소하였다. 기관은 청소년상담복지센터 위탁
@@ -5666,7 +5666,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.100 -->
 ### p.100
 
-[페이지 이미지: vol-20-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-100.jpg)
+[페이지 이미지: vol-20-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-100.jpg)
 
 ```text
                        3) 청소년 복지시설 : 청소년쉼터와 청소년 자립지원관
@@ -5731,7 +5731,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.101 -->
 ### p.101
 
-[페이지 이미지: vol-20-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-101.jpg)
+[페이지 이미지: vol-20-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-101.jpg)
 
 ```text
 통해 가정 복귀를 지원한다. 중장기쉼터는 가정 복귀가 어렵거나 돌아갈 가정이 없는 청
@@ -5779,7 +5779,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.102 -->
 ### p.102
 
-[페이지 이미지: vol-20-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-102.jpg)
+[페이지 이미지: vol-20-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-102.jpg)
 
 ```text
                            지원 서비스는 여덟 가지로 구성되는데 주거(주거비-월세, LH 연계, 주거지원 서비스),
@@ -5832,7 +5832,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.103 -->
 ### p.103
 
-[페이지 이미지: vol-20-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-103.jpg)
+[페이지 이미지: vol-20-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-103.jpg)
 
 ```text
 다. 2001년에 Y-Teen 인준식을 실시하였고, 2004년에 성남YWCA 청소년유해환경감시
@@ -5863,7 +5863,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.104 -->
 ### p.104
 
-[페이지 이미지: vol-20-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-104.jpg)
+[페이지 이미지: vol-20-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-104.jpg)
 
 ```text
 5
@@ -5877,7 +5877,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.105 -->
 ### p.105
 
-[페이지 이미지: vol-20-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-105.jpg)
+[페이지 이미지: vol-20-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-105.jpg)
 
 ```text
 1. 지역 균형 청소년 문화 기반
@@ -5933,7 +5933,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.106 -->
 ### p.106
 
-[페이지 이미지: vol-20-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-106.jpg)
+[페이지 이미지: vol-20-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-106.jpg)
 
 ```text
                       청소년육성위원회’는 심의기구 역할을 수행하고 ‘성남청소년균형동반협의체’는 건의기구
@@ -5980,7 +5980,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.107 -->
 ### p.107
 
-[페이지 이미지: vol-20-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-107.jpg)
+[페이지 이미지: vol-20-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-107.jpg)
 
 ```text
  협의체 구성과 운영의 성과로는 첫째, 지역의 민간단체나 조직들이 협의체에 참여함으
@@ -6007,7 +6007,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.108 -->
 ### p.108
 
-[페이지 이미지: vol-20-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-108.jpg)
+[페이지 이미지: vol-20-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-108.jpg)
 
 ```text
                       2. 데이터 기반 청소년 서비스
@@ -6041,7 +6041,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.109 -->
 ### p.109
 
-[페이지 이미지: vol-20-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-109.jpg)
+[페이지 이미지: vol-20-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-109.jpg)
 
 ```text
   BIGTA는 성남시청소년재단의 제3차 중장기 계획을 근거로 청소년 기초정보 구축사업
@@ -6083,7 +6083,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.110 -->
 ### p.110
 
-[페이지 이미지: vol-20-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-110.jpg)
+[페이지 이미지: vol-20-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-110.jpg)
 
 ```text
                         ￭ 2021년 : 모니터링을 통한 플랫폼 서버 관리, 플랫폼 내 데이터 최신화 및 보안 유지, 웹 표준 준수
@@ -6143,7 +6143,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.111 -->
 ### p.111
 
-[페이지 이미지: vol-20-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-111.jpg)
+[페이지 이미지: vol-20-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-111.jpg)
 
 ```text
 3. 학교교육 연계 기반 청소년성장
@@ -6190,7 +6190,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.112 -->
 ### p.112
 
-[페이지 이미지: vol-20-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-112.jpg)
+[페이지 이미지: vol-20-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-112.jpg)
 
 ```text
                       성남미래교육 중장기 발전계획 로드맵
@@ -6261,7 +6261,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.113 -->
 ### p.113
 
-[페이지 이미지: vol-20-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-113.jpg)
+[페이지 이미지: vol-20-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-113.jpg)
 
 ```text
   성남미래교육의 사업은 성남교육지원청 관내 157개교(초등학교 72, 중학교 46, 고등학
@@ -6294,7 +6294,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.114 -->
 ### p.114
 
-[페이지 이미지: vol-20-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-114.jpg)
+[페이지 이미지: vol-20-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-114.jpg)
 
 ```text
                         지역 중심으로 성남시 교육 주체들이 참여하는 지역교육협의체가 협력 네트워크의 기
@@ -6332,7 +6332,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.115 -->
 ### p.115
 
-[페이지 이미지: vol-20-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-115.jpg)
+[페이지 이미지: vol-20-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-115.jpg)
 
 ```text
 4. 미래지향형 생애 연계 정책
@@ -6376,7 +6376,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.116 -->
 ### p.116
 
-[페이지 이미지: vol-20-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-116.jpg)
+[페이지 이미지: vol-20-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-116.jpg)
 
 ```text
                         성남시 청년 정책 기본계획(2021~2025년)에 의한 비전은 ‘청년이 당당한 청년희망도
@@ -6416,7 +6416,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.117 -->
 ### p.117
 
-[페이지 이미지: vol-20-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-117.jpg)
+[페이지 이미지: vol-20-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-117.jpg)
 
 ```text
 청소년 정책 및 사업 지원 기관(성남시청, 성남시청소년재단) 주요 업무분장
@@ -6475,7 +6475,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.118 -->
 ### p.118
 
-[페이지 이미지: vol-20-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-118.jpg)
+[페이지 이미지: vol-20-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-118.jpg)
 
 ```text
                       성남시 청년 일자리 및 자립지원 사업 추진 현황
@@ -6540,7 +6540,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.119 -->
 ### p.119
 
-[페이지 이미지: vol-20-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-119.jpg)
+[페이지 이미지: vol-20-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-119.jpg)
 
 ```text
    3) 성남시 청년지원센터
@@ -6592,7 +6592,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.120 -->
 ### p.120
 
-[페이지 이미지: vol-20-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-120.jpg)
+[페이지 이미지: vol-20-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-120.jpg)
 
 ```text
                       을 위한 통합 서비스를 제공하며, 청년들의 능동적 참여를 지향하는 공간이다.
@@ -6656,7 +6656,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.121 -->
 ### p.121
 
-[페이지 이미지: vol-20-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-121.jpg)
+[페이지 이미지: vol-20-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-121.jpg)
 
 ```text
 5. 청소년 문화의 실천과 활동 사례   
@@ -6702,7 +6702,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.122 -->
 ### p.122
 
-[페이지 이미지: vol-20-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-122.jpg)
+[페이지 이미지: vol-20-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-122.jpg)
 
 ```text
                         성남시 청소년어울림마당의 운영 장소는 2011년부터 2021년까지 1번길에서 7번길까
@@ -6752,7 +6752,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.123 -->
 ### p.123
 
-[페이지 이미지: vol-20-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-123.jpg)
+[페이지 이미지: vol-20-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-123.jpg)
 
 ```text
   시 승격 50주넌 기념행사와 연계하               2024 성남시청소년어울림마당
@@ -6791,7 +6791,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.124 -->
 ### p.124
 
-[페이지 이미지: vol-20-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-124.jpg)
+[페이지 이미지: vol-20-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-124.jpg)
 
 ```text
                         2) 방과 후 청소년 문화활동 : 청소년방과후아카데미
@@ -6849,7 +6849,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.125 -->
 ### p.125
 
-[페이지 이미지: vol-20-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-125.jpg)
+[페이지 이미지: vol-20-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-125.jpg)
 
 ```text
 스 체계를 구축하고 운영하는 것이다. 주중의 전문적인 체험활동을 비롯하여 주말을 이
@@ -6897,7 +6897,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.126 -->
 ### p.126
 
-[페이지 이미지: vol-20-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-126.jpg)
+[페이지 이미지: vol-20-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-126.jpg)
 
 ```text
                       해 6월까지이며 연임이 되기도 한다. 의원 후보자는 조례 규정에 따라 12~18세이지만 투
@@ -6944,7 +6944,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.127 -->
 ### p.127
 
-[페이지 이미지: vol-20-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-127.jpg)
+[페이지 이미지: vol-20-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-127.jpg)
 
 ```text
 2023년 청소년 정책제안대회 수상작 사례 – 온라인 투표결과
@@ -6980,7 +6980,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.128 -->
 ### p.128
 
-[페이지 이미지: vol-20-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-128.jpg)
+[페이지 이미지: vol-20-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-128.jpg)
 
 ```text
                       다양한 시민을 위한 문화예술교육 및 예술(교육)가들의 네트워크 기능을 중심으로 사업을
@@ -7024,7 +7024,7 @@ PART
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.129 -->
 ### p.129
 
-[페이지 이미지: vol-20-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-129.jpg)
+[페이지 이미지: vol-20-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-129.jpg)
 
 ```text
   성남시의 청소년 문화예술활동 프로그램과 관련하여 특화된 장르는 음악예술이다.
@@ -7069,7 +7069,7 @@ Symphony Orchestra)가 있다. 공공단체가 아닌 민간단체이며, 국내
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.130 -->
 ### p.130
 
-[페이지 이미지: vol-20-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-130.jpg)
+[페이지 이미지: vol-20-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-130.jpg)
 
 ```text
                       6. 미래를 향한 청소년의 도전과 성장을 위하여
@@ -7113,7 +7113,7 @@ Symphony Orchestra)가 있다. 공공단체가 아닌 민간단체이며, 국내
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.131 -->
 ### p.131
 
-[페이지 이미지: vol-20-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-131.jpg)
+[페이지 이미지: vol-20-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-131.jpg)
 
 ```text
 미래에 개방적이고 다양해질 것이라는 점을 기대하게 하였다.
@@ -7151,7 +7151,7 @@ Symphony Orchestra)가 있다. 공공단체가 아닌 민간단체이며, 국내
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.132 -->
 ### p.132
 
-[페이지 이미지: vol-20-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-132.jpg)
+[페이지 이미지: vol-20-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-132.jpg)
 
 ```text
 참
@@ -7198,7 +7198,7 @@ Symphony Orchestra)가 있다. 공공단체가 아닌 민간단체이며, 국내
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.133 -->
 ### p.133
 
-[페이지 이미지: vol-20-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-133.jpg)
+[페이지 이미지: vol-20-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-133.jpg)
 
 ```text
  성남시청소년재단,『2022 성남 청소년 균형동반 협의체 운영 계획』, 2022.
@@ -7240,7 +7240,7 @@ Symphony Orchestra)가 있다. 공공단체가 아닌 민간단체이며, 국내
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.134 -->
 ### p.134
 
-[페이지 이미지: vol-20-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-134.jpg)
+[페이지 이미지: vol-20-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-134.jpg)
 
 ```text
 참
@@ -7274,7 +7274,7 @@ Symphony Orchestra)가 있다. 공공단체가 아닌 민간단체이며, 국내
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.135 -->
 ### p.135
 
-[페이지 이미지: vol-20-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-135.jpg)
+[페이지 이미지: vol-20-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-135.jpg)
 
 ```text
 성남시사 20
@@ -7301,7 +7301,7 @@ Symphony Orchestra)가 있다. 공공단체가 아닌 민간단체이며, 국내
 <!-- source: ../sources/seongnam-history-50-vol-20.pdf p.136 -->
 ### p.136
 
-[페이지 이미지: vol-20-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20-page-136.jpg)
+[페이지 이미지: vol-20-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-136.jpg)
 
 ```text
 

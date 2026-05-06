@@ -5,7 +5,7 @@
 - Source URL: `https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378672`
 - Page count: `136`
 - OCR: 사용 안 함. `pdftotext -layout`로 PDF embedded text layer만 사용.
-- Rendered images: `136`쪽 전체, `docs/seongnam-city-history-50/assets/pages/vol-21-page-*.jpg`.
+- Rendered images: `136`쪽 전체, `docs/seongnam-city-history-50/assets/pages/vol-21/vol-21-page-*.jpg`.
 - Completed range: `p.001-p.136` 전체. Deferred ranges: 없음.
 - Shared files intentionally untouched: `README.md`, `.gitattributes`, `index.md`, `manifest.yml`, `stats.md`, `figures.md`, `source-page-index.md`.
 
@@ -14,7 +14,7 @@
 - `docs/seongnam-city-history-50/vol-21-lifelong-education-seongnam.md`
 - `dist/seongnam-history-50-vol-21.llm.md`
 - `docs/seongnam-city-history-50/_work/vol-21-integration.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-21-page-001.jpg` ... `vol-21-page-136.jpg`
+- `docs/seongnam-city-history-50/assets/pages/vol-21/vol-21-page-001.jpg` ... `vol-21-page-136.jpg`
 
 ## Key Merge Candidates
 

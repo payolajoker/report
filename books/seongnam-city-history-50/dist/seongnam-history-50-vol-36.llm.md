@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 운중동·하산운동·대장동의 지도, 위성사진, 표, 개발계획도, 인구·교통·토지이용 자료가 권 전체에 분산되어 있어 1-112쪽 전체를 `assets/pages/`에 렌더링했다.
+- 운중동·하산운동·대장동의 지도, 위성사진, 표, 개발계획도, 인구·교통·토지이용 자료가 권 전체에 분산되어 있어 1-112쪽 전체를 `assets/pages/vol-36/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-36-integration.md`에 별도 정리한다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제36권 운중동·대장동 일대의 변천`로 일치한다.
 - 이 파일은 LLM 장문 입력을 위해 36권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
@@ -93,69 +93,69 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-36-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-36-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-002.jpg) | 2 | 제1편 운중동 일대 변화 목차 | toc |
-| [vol-36-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-003.jpg) | 3 | 제2편 대장동 일대 변화 목차 | toc |
-| [vol-36-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-006.jpg) | 6 | 운중동과 하산운동 일대 위성사진 | satellite-map |
-| [vol-36-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-007.jpg) | 7 | 14-15세기와 16-17세기 마을 분포도 | historical-settlement-map |
-| [vol-36-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-008.jpg) | 8 | 1910-1930년대 운중동 일대 지도 | historical-map |
-| [vol-36-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-009.jpg) | 9 | 1990년대 운중동 일대와 하산운동 지석묘 | historical-map-heritage |
-| [vol-36-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-011.jpg) | 11 | 대동여지도 운중동 일대 | old-map |
-| [vol-36-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-013.jpg) | 13 | 연안 이씨 이홍로 묘 | heritage-photo |
-| [vol-36-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-015.jpg) | 15 | 이성 묘 주변 유적분포도 | heritage-map |
-| [vol-36-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-017.jpg) | 17 | 하산운동 산29-1번지 일대 유물산포지 | heritage-site |
-| [vol-36-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-019.jpg) | 19 | 청계산 등산 안내도 | mountain-map |
-| [vol-36-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-021.jpg) | 21 | 운중저수지와 운중천 | waterway-photo |
-| [vol-36-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-027.jpg) | 27 | 신도시 개발과 운중동 일대의 변화 표제 | section-start |
-| [vol-36-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-030.jpg) | 30 | 판교지구 개발 유보 항의 주민 사진 | protest-photo |
-| [vol-36-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-031.jpg) | 31 | 김대진 판교개발추진위원장 사진 | person-photo |
-| [vol-36-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-033.jpg) | 33 | 운중동 시가지 위성지도 | satellite-map |
-| [vol-36-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-038.jpg) | 38 | 판교지구 토지이용 계획 표 | planning-table |
-| [vol-36-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-040.jpg) | 40 | 운중동 내 공원 현황 표 | park-table |
-| [vol-36-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-042.jpg) | 42 | 운중동 인구 변화 그래프 | population-chart |
-| [vol-36-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-043.jpg) | 43 | 운중동 인구 피라미드와 나이별 남녀 통계표 | population-table-chart |
-| [vol-36-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-044.jpg) | 44 | 성남시 일부 동 및 운중동 거주 외국인 통계표 | foreign-resident-table |
-| [vol-36-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-046.jpg) | 46 | 성남시 광역 교통망도 | transport-map |
-| [vol-36-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-048.jpg) | 48 | 성남 운중동 지역 버스 운행 노선 안내 표 | bus-table |
-| [vol-36-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-052.jpg) | 52 | 행정동 운중동과 법정동 지도 | administrative-map |
-| [vol-36-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-053.jpg) | 53 | 운중동 지역 구분 | local-area-diagram |
-| [vol-36-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-055.jpg) | 55 | 옛 광주군 농촌 모내기 모습 | historic-photo |
-| [vol-36-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-057.jpg) | 57 | 운중동 산업 종사자 남녀 분류표 | industry-table |
-| [vol-36-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-059.jpg) | 59 | 운판삼백 체육대회 및 작품 발표회 | community-photo |
-| [vol-36-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-060.jpg) | 60 | 운중동 주민자치 작품전시회 | community-photo |
-| [vol-36-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-061.jpg) | 61 | 대장동 편 표제 | section-start |
-| [vol-36-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-063.jpg) | 63 | 대장동 위치도 | location-map |
-| [vol-36-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-064.jpg) | 64 | 대장1천 생태수로와 낙생습지 설명 | waterway-wetland |
-| [vol-36-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-066.jpg) | 66 | 대장리 근세 지도 | historical-map |
-| [vol-36-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-067.jpg) | 67 | 판교대장지구 개발 지도 | development-map |
-| [vol-36-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-068.jpg) | 68 | 도장골마을 전경 | village-photo |
-| [vol-36-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-069.jpg) | 69 | 무두만이 마을과 해주 오씨 묘역 | village-heritage-photo |
-| [vol-36-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-070.jpg) | 70 | 벌장토리 마을 전경 | village-photo |
-| [vol-36-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-071.jpg) | 71 | 개발 전 대장리 마을 모습 | historic-village-photo |
-| [vol-36-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-076.jpg) | 76 | 대장 지역 개발 이전 전경 | predevelopment-photo |
-| [vol-36-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-077.jpg) | 77 | 대장동 개발 지역 위치도 | development-map |
-| [vol-36-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-079.jpg) | 79 | 대장동 시가지 전경 | cityscape-photo |
-| [vol-36-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-081.jpg) | 81 | 대장지구 시가지 계획도 | planning-map |
-| [vol-36-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-083.jpg) | 83 | 대장지구 주택건설 계획도 | housing-plan-map |
-| [vol-36-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-084.jpg) | 84 | 대장동 아파트 건설 현황 | housing-photo |
-| [vol-36-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-085.jpg) | 85 | 대장동 공원 옆 상가 밀집 지역 | commercial-photo |
-| [vol-36-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-086.jpg) | 86 | 대장동 현장민원실과 판교반디유치원 | facility-photo |
-| [vol-36-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-087.jpg) | 87 | 판교대장초·중 통합운영학교 전경 | school-photo |
-| [vol-36-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-088.jpg) | 88 | 대장동 공원·녹지 계획 표 | park-table |
-| [vol-36-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-090.jpg) | 90 | 대장지구 공원·녹지 계획도 | park-map |
-| [vol-36-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-091.jpg) | 91 | 대장지구 근린공원·연못·생태수로 사진 | park-photo |
-| [vol-36-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-094.jpg) | 94 | 대장동 지역 광역 교통망 | transport-map |
-| [vol-36-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-095.jpg) | 95 | 동원-판교 진입도로와 대장IC교 진출입로 표 | road-table-photo |
-| [vol-36-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-096.jpg) | 96 | 대장IC교와 두밀로 교차로 계획 표 | road-table-photo |
-| [vol-36-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-098.jpg) | 98 | 대장동 가로망 계획도 | street-network-map |
-| [vol-36-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-099.jpg) | 99 | 대장동 지역 대중교통 버스 노선 표 | bus-table |
-| [vol-36-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-100.jpg) | 100 | 판교대장로 판교풍경채 5단지 앞 | street-photo |
-| [vol-36-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-103.jpg) | 103 | 대장동 지목별 토지이용 현황 표 | landuse-table |
-| [vol-36-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-105.jpg) | 105 | 운중동·석운동·대장동·하산운동 호구 및 인구 표 | population-table-chart |
-| [vol-36-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-107.jpg) | 107 | 대장동 인구수 변화 추이 그래프 | population-chart |
-| [vol-36-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-108.jpg) | 108 | 운중동·대장동 주민 인터뷰 사진 | interview-photo |
-| [vol-36-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-109.jpg) | 109 | 참고문헌 | references |
-| [vol-36-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36-page-111.jpg) | 111 | 판권과 집필자 | colophon |
+| [vol-36-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-36-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-002.jpg) | 2 | 제1편 운중동 일대 변화 목차 | toc |
+| [vol-36-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-003.jpg) | 3 | 제2편 대장동 일대 변화 목차 | toc |
+| [vol-36-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-006.jpg) | 6 | 운중동과 하산운동 일대 위성사진 | satellite-map |
+| [vol-36-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-007.jpg) | 7 | 14-15세기와 16-17세기 마을 분포도 | historical-settlement-map |
+| [vol-36-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-008.jpg) | 8 | 1910-1930년대 운중동 일대 지도 | historical-map |
+| [vol-36-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-009.jpg) | 9 | 1990년대 운중동 일대와 하산운동 지석묘 | historical-map-heritage |
+| [vol-36-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-011.jpg) | 11 | 대동여지도 운중동 일대 | old-map |
+| [vol-36-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-013.jpg) | 13 | 연안 이씨 이홍로 묘 | heritage-photo |
+| [vol-36-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-015.jpg) | 15 | 이성 묘 주변 유적분포도 | heritage-map |
+| [vol-36-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-017.jpg) | 17 | 하산운동 산29-1번지 일대 유물산포지 | heritage-site |
+| [vol-36-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-019.jpg) | 19 | 청계산 등산 안내도 | mountain-map |
+| [vol-36-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-021.jpg) | 21 | 운중저수지와 운중천 | waterway-photo |
+| [vol-36-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-027.jpg) | 27 | 신도시 개발과 운중동 일대의 변화 표제 | section-start |
+| [vol-36-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-030.jpg) | 30 | 판교지구 개발 유보 항의 주민 사진 | protest-photo |
+| [vol-36-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-031.jpg) | 31 | 김대진 판교개발추진위원장 사진 | person-photo |
+| [vol-36-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-033.jpg) | 33 | 운중동 시가지 위성지도 | satellite-map |
+| [vol-36-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-038.jpg) | 38 | 판교지구 토지이용 계획 표 | planning-table |
+| [vol-36-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-040.jpg) | 40 | 운중동 내 공원 현황 표 | park-table |
+| [vol-36-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-042.jpg) | 42 | 운중동 인구 변화 그래프 | population-chart |
+| [vol-36-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-043.jpg) | 43 | 운중동 인구 피라미드와 나이별 남녀 통계표 | population-table-chart |
+| [vol-36-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-044.jpg) | 44 | 성남시 일부 동 및 운중동 거주 외국인 통계표 | foreign-resident-table |
+| [vol-36-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-046.jpg) | 46 | 성남시 광역 교통망도 | transport-map |
+| [vol-36-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-048.jpg) | 48 | 성남 운중동 지역 버스 운행 노선 안내 표 | bus-table |
+| [vol-36-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-052.jpg) | 52 | 행정동 운중동과 법정동 지도 | administrative-map |
+| [vol-36-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-053.jpg) | 53 | 운중동 지역 구분 | local-area-diagram |
+| [vol-36-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-055.jpg) | 55 | 옛 광주군 농촌 모내기 모습 | historic-photo |
+| [vol-36-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-057.jpg) | 57 | 운중동 산업 종사자 남녀 분류표 | industry-table |
+| [vol-36-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-059.jpg) | 59 | 운판삼백 체육대회 및 작품 발표회 | community-photo |
+| [vol-36-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-060.jpg) | 60 | 운중동 주민자치 작품전시회 | community-photo |
+| [vol-36-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-061.jpg) | 61 | 대장동 편 표제 | section-start |
+| [vol-36-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-063.jpg) | 63 | 대장동 위치도 | location-map |
+| [vol-36-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-064.jpg) | 64 | 대장1천 생태수로와 낙생습지 설명 | waterway-wetland |
+| [vol-36-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-066.jpg) | 66 | 대장리 근세 지도 | historical-map |
+| [vol-36-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-067.jpg) | 67 | 판교대장지구 개발 지도 | development-map |
+| [vol-36-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-068.jpg) | 68 | 도장골마을 전경 | village-photo |
+| [vol-36-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-069.jpg) | 69 | 무두만이 마을과 해주 오씨 묘역 | village-heritage-photo |
+| [vol-36-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-070.jpg) | 70 | 벌장토리 마을 전경 | village-photo |
+| [vol-36-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-071.jpg) | 71 | 개발 전 대장리 마을 모습 | historic-village-photo |
+| [vol-36-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-076.jpg) | 76 | 대장 지역 개발 이전 전경 | predevelopment-photo |
+| [vol-36-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-077.jpg) | 77 | 대장동 개발 지역 위치도 | development-map |
+| [vol-36-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-079.jpg) | 79 | 대장동 시가지 전경 | cityscape-photo |
+| [vol-36-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-081.jpg) | 81 | 대장지구 시가지 계획도 | planning-map |
+| [vol-36-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-083.jpg) | 83 | 대장지구 주택건설 계획도 | housing-plan-map |
+| [vol-36-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-084.jpg) | 84 | 대장동 아파트 건설 현황 | housing-photo |
+| [vol-36-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-085.jpg) | 85 | 대장동 공원 옆 상가 밀집 지역 | commercial-photo |
+| [vol-36-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-086.jpg) | 86 | 대장동 현장민원실과 판교반디유치원 | facility-photo |
+| [vol-36-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-087.jpg) | 87 | 판교대장초·중 통합운영학교 전경 | school-photo |
+| [vol-36-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-088.jpg) | 88 | 대장동 공원·녹지 계획 표 | park-table |
+| [vol-36-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-090.jpg) | 90 | 대장지구 공원·녹지 계획도 | park-map |
+| [vol-36-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-091.jpg) | 91 | 대장지구 근린공원·연못·생태수로 사진 | park-photo |
+| [vol-36-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-094.jpg) | 94 | 대장동 지역 광역 교통망 | transport-map |
+| [vol-36-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-095.jpg) | 95 | 동원-판교 진입도로와 대장IC교 진출입로 표 | road-table-photo |
+| [vol-36-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-096.jpg) | 96 | 대장IC교와 두밀로 교차로 계획 표 | road-table-photo |
+| [vol-36-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-098.jpg) | 98 | 대장동 가로망 계획도 | street-network-map |
+| [vol-36-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-099.jpg) | 99 | 대장동 지역 대중교통 버스 노선 표 | bus-table |
+| [vol-36-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-100.jpg) | 100 | 판교대장로 판교풍경채 5단지 앞 | street-photo |
+| [vol-36-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-103.jpg) | 103 | 대장동 지목별 토지이용 현황 표 | landuse-table |
+| [vol-36-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-105.jpg) | 105 | 운중동·석운동·대장동·하산운동 호구 및 인구 표 | population-table-chart |
+| [vol-36-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-107.jpg) | 107 | 대장동 인구수 변화 추이 그래프 | population-chart |
+| [vol-36-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-108.jpg) | 108 | 운중동·대장동 주민 인터뷰 사진 | interview-photo |
+| [vol-36-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-109.jpg) | 109 | 참고문헌 | references |
+| [vol-36-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-36/vol-36-page-111.jpg) | 111 | 판권과 집필자 | colophon |
 
 ## 원문 텍스트
 

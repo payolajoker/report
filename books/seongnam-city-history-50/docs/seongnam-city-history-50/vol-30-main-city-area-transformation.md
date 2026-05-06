@@ -18,7 +18,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 원도심의 사진, 시장·학교·도로·터널 표, 광주대단지·공단·하천 복개·시민운동 도판이 많아 1-136쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 원도심의 사진, 시장·학교·도로·터널 표, 광주대단지·공단·하천 복개·시민운동 도판이 많아 1-136쪽 전체를 `assets/pages/vol-30/`에 렌더링했다.
 - 넓거나 복합적인 표는 텍스트층과 페이지 이미지 양쪽으로 보존하고, 공용 색인 병합용 통계·도판 후보와 확인 필요 수치는 `_work/vol-30-integration.md`에 분리했다.
 
 ## 권별 목차
@@ -87,83 +87,83 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 | --- | --- | --- | --- |
-| [001](assets/pages/vol-30-page-001.jpg) | 1 | 권 표지와 제목, 원도심 형성기 개관 문구 | rendered-page |
-| [002](assets/pages/vol-30-page-002.jpg) | 2 | 권별 목차 Part 1-4 | rendered-page |
-| [003](assets/pages/vol-30-page-003.jpg) | 3 | 권별 목차 Part 5-8 | rendered-page |
-| [007](assets/pages/vol-30-page-007.jpg) | 7 | Part 1 표지: 해방 이전 지역의 모습과 변천 | rendered-page |
-| [015](assets/pages/vol-30-page-015.jpg) | 15 | 모란고개 시정홍보물, 1972.11.21 | rendered-page |
-| [016](assets/pages/vol-30-page-016.jpg) | 16 | 경기도 성남출장소 전경, 1973.2.10 | rendered-page |
-| [020](assets/pages/vol-30-page-020.jpg) | 20 | 광주대단지 천막촌과 성남 정착단지 전경 | rendered-page |
-| [021](assets/pages/vol-30-page-021.jpg) | 21 | 광주대단지 조성 제13차 공사안내, 1971.8.17 | rendered-page |
-| [022](assets/pages/vol-30-page-022.jpg) | 22 | 8·10성남(광주대단지) 항쟁 도판 | rendered-page |
-| [023](assets/pages/vol-30-page-023.jpg) | 23 | 8·10성남 항쟁 도판과 항쟁 원인 서술 | rendered-page |
-| [025](assets/pages/vol-30-page-025.jpg) | 25 | 광주대단지 제일시장 전경과 상대원동 시가지 | rendered-page |
-| [026](assets/pages/vol-30-page-026.jpg) | 26 | 남한산성에서 바라본 성남, 수정구 시가지 전경 | rendered-page |
-| [027](assets/pages/vol-30-page-027.jpg) | 27 | 수정구 태평동 전경과 원도심 중심 동네 설명 | rendered-page |
-| [028](assets/pages/vol-30-page-028.jpg) | 28 | Part 3 표지: 성남시 승격과 원도심 형성 | rendered-page |
-| [030](assets/pages/vol-30-page-030.jpg) | 30 | 성남시청과 시의회 전경, 시 승격·구 설치 서술 | rendered-page |
-| [033](assets/pages/vol-30-page-033.jpg) | 33 | 광주대단지 제1공업단지 준공식, 신흥동 제1공업단지, 제1공단 근린공원 | rendered-page |
-| [034](assets/pages/vol-30-page-034.jpg) | 34 | 1970년대 상대원 제2·3공단 | rendered-page |
-| [035](assets/pages/vol-30-page-035.jpg) | 35 | 상대원 성남하이테크밸리 전경 | rendered-page |
-| [036](assets/pages/vol-30-page-036.jpg) | 36 | 옛 성남시민회관, 성남시의료원·시민회관 철거 후 조감도 | rendered-page |
-| [037](assets/pages/vol-30-page-037.jpg) | 37 | 성남아트리움 개관식·대극장, 중원도서관 도판 | rendered-page |
-| [038](assets/pages/vol-30-page-038.jpg) | 38 | 복정도서관과 공공도서관 변천 | rendered-page |
-| [039](assets/pages/vol-30-page-039.jpg) | 39 | 신흥1동작은도서관, 동네작은도서관 | rendered-page |
-| [040](assets/pages/vol-30-page-040.jpg) | 40 | 1980년 성남시 보건소와 1984년 보건소 신축 기공식 | rendered-page |
-| [041](assets/pages/vol-30-page-041.jpg) | 41 | 1985년 보건소 신축 청사 준공식과 1986년 보건소 전경 | rendered-page |
-| [042](assets/pages/vol-30-page-042.jpg) | 42 | 2022년 수정구보건소, 1997년 중원구보건소 | rendered-page |
-| [043](assets/pages/vol-30-page-043.jpg) | 43 | 성남시의료원 전경 | rendered-page |
-| [045](assets/pages/vol-30-page-045.jpg) | 45 | 성남시 장례문화사업소 도판 | rendered-page |
-| [047](assets/pages/vol-30-page-047.jpg) | 47 | 모란시장 전경과 모란장 설명 | rendered-page |
-| [048](assets/pages/vol-30-page-048.jpg) | 48 | 1970년대 초 수진동 국제시장 일대 | rendered-page |
-| [050](assets/pages/vol-30-page-050.jpg) | 50 | 1991년 단대천 성호시장 전경, 종합시장 서술 | rendered-page |
-| [051](assets/pages/vol-30-page-051.jpg) | 51 | 성호시장 도판과 중앙시장 화재·재건축 서술 | rendered-page |
-| [052](assets/pages/vol-30-page-052.jpg) | 52 | 1990년 단대천 종합시장 앞 | rendered-page |
-| [053](assets/pages/vol-30-page-053.jpg) | 53 | 중앙공설시장, 단대전통시장, 상대원시장, 남한산성시장 | rendered-page |
-| [054](assets/pages/vol-30-page-054.jpg) | 54 | 원도심 시장 23곳 목록 표 | rendered-page |
-| [056](assets/pages/vol-30-page-056.jpg) | 56 | 성남문화원 도판과 반공회관 서술 | rendered-page |
-| [057](assets/pages/vol-30-page-057.jpg) | 57 | 반공회관 도판과 유신회관·단체 입주 이력 | rendered-page |
-| [059](assets/pages/vol-30-page-059.jpg) | 59 | 성남로타리클럽과 수정커뮤니티센터 | rendered-page |
-| [060](assets/pages/vol-30-page-060.jpg) | 60 | Part 4 표지: 원도심의 발전, 그 빛과 그림자 | rendered-page |
-| [063](assets/pages/vol-30-page-063.jpg) | 63 | 원도심 비탈길과 1980년대 3층 건물 | rendered-page |
-| [065](assets/pages/vol-30-page-065.jpg) | 65 | 1970년대 성남시 식수 급수 | rendered-page |
-| [070](assets/pages/vol-30-page-070.jpg) | 70 | 수정구 학교 목록 표 시작 | rendered-page |
-| [071](assets/pages/vol-30-page-071.jpg) | 71 | 수정구·중원구 학교 목록 표 | rendered-page |
-| [072](assets/pages/vol-30-page-072.jpg) | 72 | 중원구 학교 목록과 극장 장 시작 | rendered-page |
-| [073](assets/pages/vol-30-page-073.jpg) | 73 | 성남시 최초 극장 성남극장 | rendered-page |
-| [074](assets/pages/vol-30-page-074.jpg) | 74 | 성남 특화거리 표 | rendered-page |
-| [075](assets/pages/vol-30-page-075.jpg) | 75 | 모란시장 백년기름 특화거리 | rendered-page |
-| [076](assets/pages/vol-30-page-076.jpg) | 76 | 수진동 음식문화 특화거리 입구 | rendered-page |
-| [077](assets/pages/vol-30-page-077.jpg) | 77 | 신흥동 풍물길 저녁 풍경 | rendered-page |
-| [080](assets/pages/vol-30-page-080.jpg) | 80 | 성남인의 고향 만들기와 시민헌장비 관련 수치 | rendered-page |
-| [083](assets/pages/vol-30-page-083.jpg) | 83 | Part 5 표지: 도로와 교통의 변천 | rendered-page |
-| [086](assets/pages/vol-30-page-086.jpg) | 86 | 1973년 버스정류장 풍경과 270번 버스 서술 | rendered-page |
-| [089](assets/pages/vol-30-page-089.jpg) | 89 | 광주대단지~천호동 도로포장 공사, 1972년 광주대단지 풍경 | rendered-page |
-| [090](assets/pages/vol-30-page-090.jpg) | 90 | 잠실대교 건설과 성남종합버스터미널 변천 | rendered-page |
-| [092](assets/pages/vol-30-page-092.jpg) | 92 | 1973년 단대천 하류, 1975년 독정천 태평역사거리 | rendered-page |
-| [093](assets/pages/vol-30-page-093.jpg) | 93 | 1971년 독정천 정비공사, 1990년 단대천 복개 공사 | rendered-page |
-| [095](assets/pages/vol-30-page-095.jpg) | 95 | 서울지하철 8호선 노선도, 성남시 구간 복정-모란 | rendered-page |
-| [097](assets/pages/vol-30-page-097.jpg) | 97 | 중앙지하상가 입구와 내부 | rendered-page |
-| [099](assets/pages/vol-30-page-099.jpg) | 99 | 원도심 터널 목록 표 | rendered-page |
-| [100](assets/pages/vol-30-page-100.jpg) | 100 | 원도심 도로 목록 표 | rendered-page |
-| [101](assets/pages/vol-30-page-101.jpg) | 101 | Part 6 표지: 시민운동이 변화시킨 지역의 삶 | rendered-page |
-| [105](assets/pages/vol-30-page-105.jpg) | 105 | 성남중앙신협 발상지 비석 | rendered-page |
-| [108](assets/pages/vol-30-page-108.jpg) | 108 | 고도제한 완화를 위한 시민문화제, 2004.10 | rendered-page |
-| [111](assets/pages/vol-30-page-111.jpg) | 111 | 2011년 성남 락페스티벌 도판 | rendered-page |
-| [112](assets/pages/vol-30-page-112.jpg) | 112 | 2018년 성남환경운동연합 차담 | rendered-page |
-| [114](assets/pages/vol-30-page-114.jpg) | 114 | Part 7 표지: 문화로 바뀐 도시 풍경 | rendered-page |
-| [116](assets/pages/vol-30-page-116.jpg) | 116 | 제16회 수정숯골축제 도판 | rendered-page |
-| [121](assets/pages/vol-30-page-121.jpg) | 121 | 모두모여모란축제, 2024.10 | rendered-page |
-| [122](assets/pages/vol-30-page-122.jpg) | 122 | 원도심 축제 목록 표 | rendered-page |
-| [123](assets/pages/vol-30-page-123.jpg) | 123 | 원도심 마을의례 표 시작 | rendered-page |
-| [124](assets/pages/vol-30-page-124.jpg) | 124 | 원도심 마을의례 표 종료와 남한산성 세계유산 서술 | rendered-page |
-| [125](assets/pages/vol-30-page-125.jpg) | 125 | 남한산성 북문과 남한산성 유원지 서술 | rendered-page |
-| [127](assets/pages/vol-30-page-127.jpg) | 127 | Part 8 표지: 원도심의 새로운 변화와 미래 | rendered-page |
-| [128](assets/pages/vol-30-page-128.jpg) | 128 | 위례신도시 성남 지분·인구·도서관 서술 | rendered-page |
-| [129](assets/pages/vol-30-page-129.jpg) | 129 | 위례스토리박스와 위례신도시 미래상 | rendered-page |
-| [132](assets/pages/vol-30-page-132.jpg) | 132 | 참고문헌: 단행본·논문 | rendered-page |
-| [133](assets/pages/vol-30-page-133.jpg) | 133 | 참고문헌: 신문기사·인터넷 사이트 | rendered-page |
-| [135](assets/pages/vol-30-page-135.jpg) | 135 | 판권: 발행일, 발행처, 집필자, 인쇄 정보 | rendered-page |
+| [001](assets/pages/vol-30/vol-30-page-001.jpg) | 1 | 권 표지와 제목, 원도심 형성기 개관 문구 | rendered-page |
+| [002](assets/pages/vol-30/vol-30-page-002.jpg) | 2 | 권별 목차 Part 1-4 | rendered-page |
+| [003](assets/pages/vol-30/vol-30-page-003.jpg) | 3 | 권별 목차 Part 5-8 | rendered-page |
+| [007](assets/pages/vol-30/vol-30-page-007.jpg) | 7 | Part 1 표지: 해방 이전 지역의 모습과 변천 | rendered-page |
+| [015](assets/pages/vol-30/vol-30-page-015.jpg) | 15 | 모란고개 시정홍보물, 1972.11.21 | rendered-page |
+| [016](assets/pages/vol-30/vol-30-page-016.jpg) | 16 | 경기도 성남출장소 전경, 1973.2.10 | rendered-page |
+| [020](assets/pages/vol-30/vol-30-page-020.jpg) | 20 | 광주대단지 천막촌과 성남 정착단지 전경 | rendered-page |
+| [021](assets/pages/vol-30/vol-30-page-021.jpg) | 21 | 광주대단지 조성 제13차 공사안내, 1971.8.17 | rendered-page |
+| [022](assets/pages/vol-30/vol-30-page-022.jpg) | 22 | 8·10성남(광주대단지) 항쟁 도판 | rendered-page |
+| [023](assets/pages/vol-30/vol-30-page-023.jpg) | 23 | 8·10성남 항쟁 도판과 항쟁 원인 서술 | rendered-page |
+| [025](assets/pages/vol-30/vol-30-page-025.jpg) | 25 | 광주대단지 제일시장 전경과 상대원동 시가지 | rendered-page |
+| [026](assets/pages/vol-30/vol-30-page-026.jpg) | 26 | 남한산성에서 바라본 성남, 수정구 시가지 전경 | rendered-page |
+| [027](assets/pages/vol-30/vol-30-page-027.jpg) | 27 | 수정구 태평동 전경과 원도심 중심 동네 설명 | rendered-page |
+| [028](assets/pages/vol-30/vol-30-page-028.jpg) | 28 | Part 3 표지: 성남시 승격과 원도심 형성 | rendered-page |
+| [030](assets/pages/vol-30/vol-30-page-030.jpg) | 30 | 성남시청과 시의회 전경, 시 승격·구 설치 서술 | rendered-page |
+| [033](assets/pages/vol-30/vol-30-page-033.jpg) | 33 | 광주대단지 제1공업단지 준공식, 신흥동 제1공업단지, 제1공단 근린공원 | rendered-page |
+| [034](assets/pages/vol-30/vol-30-page-034.jpg) | 34 | 1970년대 상대원 제2·3공단 | rendered-page |
+| [035](assets/pages/vol-30/vol-30-page-035.jpg) | 35 | 상대원 성남하이테크밸리 전경 | rendered-page |
+| [036](assets/pages/vol-30/vol-30-page-036.jpg) | 36 | 옛 성남시민회관, 성남시의료원·시민회관 철거 후 조감도 | rendered-page |
+| [037](assets/pages/vol-30/vol-30-page-037.jpg) | 37 | 성남아트리움 개관식·대극장, 중원도서관 도판 | rendered-page |
+| [038](assets/pages/vol-30/vol-30-page-038.jpg) | 38 | 복정도서관과 공공도서관 변천 | rendered-page |
+| [039](assets/pages/vol-30/vol-30-page-039.jpg) | 39 | 신흥1동작은도서관, 동네작은도서관 | rendered-page |
+| [040](assets/pages/vol-30/vol-30-page-040.jpg) | 40 | 1980년 성남시 보건소와 1984년 보건소 신축 기공식 | rendered-page |
+| [041](assets/pages/vol-30/vol-30-page-041.jpg) | 41 | 1985년 보건소 신축 청사 준공식과 1986년 보건소 전경 | rendered-page |
+| [042](assets/pages/vol-30/vol-30-page-042.jpg) | 42 | 2022년 수정구보건소, 1997년 중원구보건소 | rendered-page |
+| [043](assets/pages/vol-30/vol-30-page-043.jpg) | 43 | 성남시의료원 전경 | rendered-page |
+| [045](assets/pages/vol-30/vol-30-page-045.jpg) | 45 | 성남시 장례문화사업소 도판 | rendered-page |
+| [047](assets/pages/vol-30/vol-30-page-047.jpg) | 47 | 모란시장 전경과 모란장 설명 | rendered-page |
+| [048](assets/pages/vol-30/vol-30-page-048.jpg) | 48 | 1970년대 초 수진동 국제시장 일대 | rendered-page |
+| [050](assets/pages/vol-30/vol-30-page-050.jpg) | 50 | 1991년 단대천 성호시장 전경, 종합시장 서술 | rendered-page |
+| [051](assets/pages/vol-30/vol-30-page-051.jpg) | 51 | 성호시장 도판과 중앙시장 화재·재건축 서술 | rendered-page |
+| [052](assets/pages/vol-30/vol-30-page-052.jpg) | 52 | 1990년 단대천 종합시장 앞 | rendered-page |
+| [053](assets/pages/vol-30/vol-30-page-053.jpg) | 53 | 중앙공설시장, 단대전통시장, 상대원시장, 남한산성시장 | rendered-page |
+| [054](assets/pages/vol-30/vol-30-page-054.jpg) | 54 | 원도심 시장 23곳 목록 표 | rendered-page |
+| [056](assets/pages/vol-30/vol-30-page-056.jpg) | 56 | 성남문화원 도판과 반공회관 서술 | rendered-page |
+| [057](assets/pages/vol-30/vol-30-page-057.jpg) | 57 | 반공회관 도판과 유신회관·단체 입주 이력 | rendered-page |
+| [059](assets/pages/vol-30/vol-30-page-059.jpg) | 59 | 성남로타리클럽과 수정커뮤니티센터 | rendered-page |
+| [060](assets/pages/vol-30/vol-30-page-060.jpg) | 60 | Part 4 표지: 원도심의 발전, 그 빛과 그림자 | rendered-page |
+| [063](assets/pages/vol-30/vol-30-page-063.jpg) | 63 | 원도심 비탈길과 1980년대 3층 건물 | rendered-page |
+| [065](assets/pages/vol-30/vol-30-page-065.jpg) | 65 | 1970년대 성남시 식수 급수 | rendered-page |
+| [070](assets/pages/vol-30/vol-30-page-070.jpg) | 70 | 수정구 학교 목록 표 시작 | rendered-page |
+| [071](assets/pages/vol-30/vol-30-page-071.jpg) | 71 | 수정구·중원구 학교 목록 표 | rendered-page |
+| [072](assets/pages/vol-30/vol-30-page-072.jpg) | 72 | 중원구 학교 목록과 극장 장 시작 | rendered-page |
+| [073](assets/pages/vol-30/vol-30-page-073.jpg) | 73 | 성남시 최초 극장 성남극장 | rendered-page |
+| [074](assets/pages/vol-30/vol-30-page-074.jpg) | 74 | 성남 특화거리 표 | rendered-page |
+| [075](assets/pages/vol-30/vol-30-page-075.jpg) | 75 | 모란시장 백년기름 특화거리 | rendered-page |
+| [076](assets/pages/vol-30/vol-30-page-076.jpg) | 76 | 수진동 음식문화 특화거리 입구 | rendered-page |
+| [077](assets/pages/vol-30/vol-30-page-077.jpg) | 77 | 신흥동 풍물길 저녁 풍경 | rendered-page |
+| [080](assets/pages/vol-30/vol-30-page-080.jpg) | 80 | 성남인의 고향 만들기와 시민헌장비 관련 수치 | rendered-page |
+| [083](assets/pages/vol-30/vol-30-page-083.jpg) | 83 | Part 5 표지: 도로와 교통의 변천 | rendered-page |
+| [086](assets/pages/vol-30/vol-30-page-086.jpg) | 86 | 1973년 버스정류장 풍경과 270번 버스 서술 | rendered-page |
+| [089](assets/pages/vol-30/vol-30-page-089.jpg) | 89 | 광주대단지~천호동 도로포장 공사, 1972년 광주대단지 풍경 | rendered-page |
+| [090](assets/pages/vol-30/vol-30-page-090.jpg) | 90 | 잠실대교 건설과 성남종합버스터미널 변천 | rendered-page |
+| [092](assets/pages/vol-30/vol-30-page-092.jpg) | 92 | 1973년 단대천 하류, 1975년 독정천 태평역사거리 | rendered-page |
+| [093](assets/pages/vol-30/vol-30-page-093.jpg) | 93 | 1971년 독정천 정비공사, 1990년 단대천 복개 공사 | rendered-page |
+| [095](assets/pages/vol-30/vol-30-page-095.jpg) | 95 | 서울지하철 8호선 노선도, 성남시 구간 복정-모란 | rendered-page |
+| [097](assets/pages/vol-30/vol-30-page-097.jpg) | 97 | 중앙지하상가 입구와 내부 | rendered-page |
+| [099](assets/pages/vol-30/vol-30-page-099.jpg) | 99 | 원도심 터널 목록 표 | rendered-page |
+| [100](assets/pages/vol-30/vol-30-page-100.jpg) | 100 | 원도심 도로 목록 표 | rendered-page |
+| [101](assets/pages/vol-30/vol-30-page-101.jpg) | 101 | Part 6 표지: 시민운동이 변화시킨 지역의 삶 | rendered-page |
+| [105](assets/pages/vol-30/vol-30-page-105.jpg) | 105 | 성남중앙신협 발상지 비석 | rendered-page |
+| [108](assets/pages/vol-30/vol-30-page-108.jpg) | 108 | 고도제한 완화를 위한 시민문화제, 2004.10 | rendered-page |
+| [111](assets/pages/vol-30/vol-30-page-111.jpg) | 111 | 2011년 성남 락페스티벌 도판 | rendered-page |
+| [112](assets/pages/vol-30/vol-30-page-112.jpg) | 112 | 2018년 성남환경운동연합 차담 | rendered-page |
+| [114](assets/pages/vol-30/vol-30-page-114.jpg) | 114 | Part 7 표지: 문화로 바뀐 도시 풍경 | rendered-page |
+| [116](assets/pages/vol-30/vol-30-page-116.jpg) | 116 | 제16회 수정숯골축제 도판 | rendered-page |
+| [121](assets/pages/vol-30/vol-30-page-121.jpg) | 121 | 모두모여모란축제, 2024.10 | rendered-page |
+| [122](assets/pages/vol-30/vol-30-page-122.jpg) | 122 | 원도심 축제 목록 표 | rendered-page |
+| [123](assets/pages/vol-30/vol-30-page-123.jpg) | 123 | 원도심 마을의례 표 시작 | rendered-page |
+| [124](assets/pages/vol-30/vol-30-page-124.jpg) | 124 | 원도심 마을의례 표 종료와 남한산성 세계유산 서술 | rendered-page |
+| [125](assets/pages/vol-30/vol-30-page-125.jpg) | 125 | 남한산성 북문과 남한산성 유원지 서술 | rendered-page |
+| [127](assets/pages/vol-30/vol-30-page-127.jpg) | 127 | Part 8 표지: 원도심의 새로운 변화와 미래 | rendered-page |
+| [128](assets/pages/vol-30/vol-30-page-128.jpg) | 128 | 위례신도시 성남 지분·인구·도서관 서술 | rendered-page |
+| [129](assets/pages/vol-30/vol-30-page-129.jpg) | 129 | 위례스토리박스와 위례신도시 미래상 | rendered-page |
+| [132](assets/pages/vol-30/vol-30-page-132.jpg) | 132 | 참고문헌: 단행본·논문 | rendered-page |
+| [133](assets/pages/vol-30/vol-30-page-133.jpg) | 133 | 참고문헌: 신문기사·인터넷 사이트 | rendered-page |
+| [135](assets/pages/vol-30/vol-30-page-135.jpg) | 135 | 판권: 발행일, 발행처, 집필자, 인쇄 정보 | rendered-page |
 
 ## 핵심 표/자료 위치
 

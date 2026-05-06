@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 판교 개발계획 도면, 교통망, 교육·복지·공원 표, 문화유산·발굴 사진, 판교테크노밸리 사진이 권 전체에 분산되어 있어 1-152쪽 전체를 `assets/pages/`에 렌더링했다.
+- 판교 개발계획 도면, 교통망, 교육·복지·공원 표, 문화유산·발굴 사진, 판교테크노밸리 사진이 권 전체에 분산되어 있어 1-152쪽 전체를 `assets/pages/vol-35/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-35-integration.md`에 별도 정리한다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제35권 판교 일대의 변천`로 일치한다.
 - 이 파일은 LLM 장문 입력을 위해 35권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
@@ -137,80 +137,80 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-35-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-35-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-002.jpg) | 2 | CONTENTS 1: Part 1-3 목차 | toc |
-| [vol-35-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-003.jpg) | 3 | CONTENTS 2: Part 4-7 목차 | toc |
-| [vol-35-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-004.jpg) | 4 | 들어가는 말: 판교신도시 정의와 행정 변천 | intro |
-| [vol-35-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-006.jpg) | 6 | Part 1 장표지 | part-start |
-| [vol-35-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-011.jpg) | 11 | 분당구의 영역 지도 | map |
-| [vol-35-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-012.jpg) | 12 | 판교 지명유래 안내판 | photo-toponym |
-| [vol-35-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-014.jpg) | 14 | 판교지구 법정 영역 지도 | map |
-| [vol-35-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-015.jpg) | 15 | 판교지구 현황 표 | table |
-| [vol-35-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-018.jpg) | 18 | 1871년 광주부지도에 보이는 낙생면 | historical-map |
-| [vol-35-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-020.jpg) | 20 | Part 2 장표지 | part-start |
-| [vol-35-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-022.jpg) | 22 | 낙생대공원 안내도 | map |
-| [vol-35-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-031.jpg) | 31 | 대동여지도 판교·낙생 표기 | historical-map |
-| [vol-35-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-036.jpg) | 36 | 낙생대공원 성남 항일의병기념탑 | memorial |
-| [vol-35-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-040.jpg) | 40 | Part 3 장표지 | part-start |
-| [vol-35-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-044.jpg) | 44 | 판교역과 판교원 표지석 | photo-toponym |
-| [vol-35-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-057.jpg) | 57 | 18세기 후반 광주지도 낙생면·판교역 | historical-map |
-| [vol-35-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-063.jpg) | 63 | Part 4 장표지 | part-start |
-| [vol-35-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-065.jpg) | 65 | 신도시 개발 전 판교 지역 | photo-before |
-| [vol-35-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-067.jpg) | 67 | 개발 후 판교 교통로와 도로 현황 표 | map-table |
-| [vol-35-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-068.jpg) | 68 | 도시 난개발 예시 이미지 | policy-illustration |
-| [vol-35-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-069.jpg) | 69 | 건설 중인 판교신도시 | construction |
-| [vol-35-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-070.jpg) | 70 | 판교신도시 개발계획 평면도와 토지이용계획 | plan-table |
-| [vol-35-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-072.jpg) | 72 | 수도권 1기 신도시 현황 | map-table |
-| [vol-35-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-076.jpg) | 76 | 판교 개발 4대 기본 방향 | table |
-| [vol-35-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-077.jpg) | 77 | 판교 개발 10대 전략 | table |
-| [vol-35-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-078.jpg) | 78 | Part 5 장표지 | part-start |
-| [vol-35-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-080.jpg) | 80 | 낙생초등학교 병설유치원 | school-photo |
-| [vol-35-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-081.jpg) | 81 | 낙생초등학교 | school-photo |
-| [vol-35-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-083.jpg) | 83 | 성남외국어고등학교·한국외국인학교 판교캠퍼스 | school-photo |
-| [vol-35-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-084.jpg) | 84 | 판교지구 교육기관 현황 표 | table |
-| [vol-35-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-086.jpg) | 86 | 어린이집 현황 표 시작 | table |
-| [vol-35-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-089.jpg) | 89 | 판교테크노어린이집·엔씨소프트어린이집 | childcare-photo |
-| [vol-35-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-090.jpg) | 90 | 경로당 현황 표 시작 | table |
-| [vol-35-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-093.jpg) | 93 | 송현공원 설명 | park |
-| [vol-35-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-094.jpg) | 94 | 화랑공원 사진과 안내판 | park-photo |
-| [vol-35-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-095.jpg) | 95 | 나들이공원·판교공원 및 공원 규모 | park-photo-stats |
-| [vol-35-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-096.jpg) | 96 | 어린이공원 현황 표 | table |
-| [vol-35-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-097.jpg) | 97 | 탄천종합운동장 | sports-photo |
-| [vol-35-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-098.jpg) | 98 | 백현야구장과 배드민턴장 표 | sports-table |
-| [vol-35-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-099.jpg) | 99 | 경기콘텐츠코리아랩 BI·판교박물관 | culture-photo |
-| [vol-35-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-100.jpg) | 100 | 판교환경생태학습원·백현동 카페거리 | culture-photo |
-| [vol-35-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-101.jpg) | 101 | 소곤소곤 산책 2길 구성 표 | table |
-| [vol-35-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-102.jpg) | 102 | 남서울컨트리클럽 설명 | facility |
-| [vol-35-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-103.jpg) | 103 | 한국석유관리원 입구 | facility-photo |
-| [vol-35-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-104.jpg) | 104 | 판교 크린타워와 전망대 북카페 | facility-photo |
-| [vol-35-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-106.jpg) | 106 | 판교 수질복원센터와 성남항일의병기념탑 | facility-memorial |
-| [vol-35-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-107.jpg) | 107 | Part 6 장표지 | part-start |
-| [vol-35-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-108.jpg) | 108 | 판교 백제·고구려 고분군 설명 | heritage |
-| [vol-35-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-109.jpg) | 109 | 판교박물관 고분·유물 사진 | heritage-photo |
-| [vol-35-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-110.jpg) | 110 | 판교 통일신라~고려 고분군·생활유적군 | heritage |
-| [vol-35-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-111.jpg) | 111 | 비지정 문화유산 현황 표 시작 | table |
-| [vol-35-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-113.jpg) | 113 | 백현동 유적 사진 묶음 | archaeology-photo |
-| [vol-35-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-115.jpg) | 115 | 삼평동 옹기요지·입석 설명 | heritage |
-| [vol-35-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-119.jpg) | 119 | 판교동 느티나무 보호수 | protected-tree |
-| [vol-35-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-120.jpg) | 120 | 판교동 회화나무·향나무 | protected-tree |
-| [vol-35-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-123.jpg) | 123 | 판교지구 발굴조사와 유물산포지 | archaeology |
-| [vol-35-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-125.jpg) | 125 | 운중동 와요 사진과 고려 건물지 설명 | archaeology-photo |
-| [vol-35-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-126.jpg) | 126 | 판교지구 유물산포지 현황 표 | table |
-| [vol-35-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-127.jpg) | 127 | 판교 쌍용거줄다리기 설명 | folk-play |
-| [vol-35-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-130.jpg) | 130 | Part 7 장표지 | part-start |
-| [vol-35-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-133.jpg) | 133 | 판교테크노밸리 전경 | tech-photo |
-| [vol-35-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-134.jpg) | 134 | 제2판교테크노밸리 경기기업성장센터·카카오 AGIT | tech-photo |
-| [vol-35-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-135.jpg) | 135 | 차바이오 콤플렉스 | tech-photo |
-| [vol-35-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-138.jpg) | 138 | 성남역·판교역 철도 사진 | transport-photo |
-| [vol-35-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-139.jpg) | 139 | 판교지구 도로 현황과 IC·JC 현황 표 | transport-table |
-| [vol-35-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-140.jpg) | 140 | 판교지구 교통망 | transport-map |
-| [vol-35-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-142.jpg) | 142 | 개발 이전 판교동 사진 | before-photo |
-| [vol-35-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-144.jpg) | 144 | 판교역 부근 도로와 지목별 현황 표 | urban-change |
-| [vol-35-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-147.jpg) | 147 | 운중동 아펠바움 타운하우스 | housing-photo |
-| [vol-35-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-148.jpg) | 148 | 봇들저류지 공원 | park-photo |
-| [vol-35-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-149.jpg) | 149 | 나가는 말: 사업 면적·기간과 진행형 도시 평가 | closing |
-| [vol-35-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-150.jpg) | 150 | 참고문헌 시작 | bibliography |
-| [vol-35-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35-page-152.jpg) | 152 | 판권과 집필자 | colophon |
+| [vol-35-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-35-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-002.jpg) | 2 | CONTENTS 1: Part 1-3 목차 | toc |
+| [vol-35-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-003.jpg) | 3 | CONTENTS 2: Part 4-7 목차 | toc |
+| [vol-35-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-004.jpg) | 4 | 들어가는 말: 판교신도시 정의와 행정 변천 | intro |
+| [vol-35-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-006.jpg) | 6 | Part 1 장표지 | part-start |
+| [vol-35-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-011.jpg) | 11 | 분당구의 영역 지도 | map |
+| [vol-35-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-012.jpg) | 12 | 판교 지명유래 안내판 | photo-toponym |
+| [vol-35-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-014.jpg) | 14 | 판교지구 법정 영역 지도 | map |
+| [vol-35-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-015.jpg) | 15 | 판교지구 현황 표 | table |
+| [vol-35-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-018.jpg) | 18 | 1871년 광주부지도에 보이는 낙생면 | historical-map |
+| [vol-35-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-020.jpg) | 20 | Part 2 장표지 | part-start |
+| [vol-35-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-022.jpg) | 22 | 낙생대공원 안내도 | map |
+| [vol-35-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-031.jpg) | 31 | 대동여지도 판교·낙생 표기 | historical-map |
+| [vol-35-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-036.jpg) | 36 | 낙생대공원 성남 항일의병기념탑 | memorial |
+| [vol-35-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-040.jpg) | 40 | Part 3 장표지 | part-start |
+| [vol-35-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-044.jpg) | 44 | 판교역과 판교원 표지석 | photo-toponym |
+| [vol-35-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-057.jpg) | 57 | 18세기 후반 광주지도 낙생면·판교역 | historical-map |
+| [vol-35-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-063.jpg) | 63 | Part 4 장표지 | part-start |
+| [vol-35-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-065.jpg) | 65 | 신도시 개발 전 판교 지역 | photo-before |
+| [vol-35-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-067.jpg) | 67 | 개발 후 판교 교통로와 도로 현황 표 | map-table |
+| [vol-35-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-068.jpg) | 68 | 도시 난개발 예시 이미지 | policy-illustration |
+| [vol-35-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-069.jpg) | 69 | 건설 중인 판교신도시 | construction |
+| [vol-35-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-070.jpg) | 70 | 판교신도시 개발계획 평면도와 토지이용계획 | plan-table |
+| [vol-35-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-072.jpg) | 72 | 수도권 1기 신도시 현황 | map-table |
+| [vol-35-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-076.jpg) | 76 | 판교 개발 4대 기본 방향 | table |
+| [vol-35-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-077.jpg) | 77 | 판교 개발 10대 전략 | table |
+| [vol-35-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-078.jpg) | 78 | Part 5 장표지 | part-start |
+| [vol-35-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-080.jpg) | 80 | 낙생초등학교 병설유치원 | school-photo |
+| [vol-35-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-081.jpg) | 81 | 낙생초등학교 | school-photo |
+| [vol-35-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-083.jpg) | 83 | 성남외국어고등학교·한국외국인학교 판교캠퍼스 | school-photo |
+| [vol-35-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-084.jpg) | 84 | 판교지구 교육기관 현황 표 | table |
+| [vol-35-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-086.jpg) | 86 | 어린이집 현황 표 시작 | table |
+| [vol-35-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-089.jpg) | 89 | 판교테크노어린이집·엔씨소프트어린이집 | childcare-photo |
+| [vol-35-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-090.jpg) | 90 | 경로당 현황 표 시작 | table |
+| [vol-35-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-093.jpg) | 93 | 송현공원 설명 | park |
+| [vol-35-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-094.jpg) | 94 | 화랑공원 사진과 안내판 | park-photo |
+| [vol-35-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-095.jpg) | 95 | 나들이공원·판교공원 및 공원 규모 | park-photo-stats |
+| [vol-35-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-096.jpg) | 96 | 어린이공원 현황 표 | table |
+| [vol-35-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-097.jpg) | 97 | 탄천종합운동장 | sports-photo |
+| [vol-35-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-098.jpg) | 98 | 백현야구장과 배드민턴장 표 | sports-table |
+| [vol-35-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-099.jpg) | 99 | 경기콘텐츠코리아랩 BI·판교박물관 | culture-photo |
+| [vol-35-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-100.jpg) | 100 | 판교환경생태학습원·백현동 카페거리 | culture-photo |
+| [vol-35-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-101.jpg) | 101 | 소곤소곤 산책 2길 구성 표 | table |
+| [vol-35-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-102.jpg) | 102 | 남서울컨트리클럽 설명 | facility |
+| [vol-35-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-103.jpg) | 103 | 한국석유관리원 입구 | facility-photo |
+| [vol-35-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-104.jpg) | 104 | 판교 크린타워와 전망대 북카페 | facility-photo |
+| [vol-35-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-106.jpg) | 106 | 판교 수질복원센터와 성남항일의병기념탑 | facility-memorial |
+| [vol-35-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-107.jpg) | 107 | Part 6 장표지 | part-start |
+| [vol-35-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-108.jpg) | 108 | 판교 백제·고구려 고분군 설명 | heritage |
+| [vol-35-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-109.jpg) | 109 | 판교박물관 고분·유물 사진 | heritage-photo |
+| [vol-35-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-110.jpg) | 110 | 판교 통일신라~고려 고분군·생활유적군 | heritage |
+| [vol-35-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-111.jpg) | 111 | 비지정 문화유산 현황 표 시작 | table |
+| [vol-35-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-113.jpg) | 113 | 백현동 유적 사진 묶음 | archaeology-photo |
+| [vol-35-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-115.jpg) | 115 | 삼평동 옹기요지·입석 설명 | heritage |
+| [vol-35-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-119.jpg) | 119 | 판교동 느티나무 보호수 | protected-tree |
+| [vol-35-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-120.jpg) | 120 | 판교동 회화나무·향나무 | protected-tree |
+| [vol-35-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-123.jpg) | 123 | 판교지구 발굴조사와 유물산포지 | archaeology |
+| [vol-35-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-125.jpg) | 125 | 운중동 와요 사진과 고려 건물지 설명 | archaeology-photo |
+| [vol-35-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-126.jpg) | 126 | 판교지구 유물산포지 현황 표 | table |
+| [vol-35-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-127.jpg) | 127 | 판교 쌍용거줄다리기 설명 | folk-play |
+| [vol-35-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-130.jpg) | 130 | Part 7 장표지 | part-start |
+| [vol-35-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-133.jpg) | 133 | 판교테크노밸리 전경 | tech-photo |
+| [vol-35-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-134.jpg) | 134 | 제2판교테크노밸리 경기기업성장센터·카카오 AGIT | tech-photo |
+| [vol-35-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-135.jpg) | 135 | 차바이오 콤플렉스 | tech-photo |
+| [vol-35-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-138.jpg) | 138 | 성남역·판교역 철도 사진 | transport-photo |
+| [vol-35-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-139.jpg) | 139 | 판교지구 도로 현황과 IC·JC 현황 표 | transport-table |
+| [vol-35-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-140.jpg) | 140 | 판교지구 교통망 | transport-map |
+| [vol-35-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-142.jpg) | 142 | 개발 이전 판교동 사진 | before-photo |
+| [vol-35-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-144.jpg) | 144 | 판교역 부근 도로와 지목별 현황 표 | urban-change |
+| [vol-35-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-147.jpg) | 147 | 운중동 아펠바움 타운하우스 | housing-photo |
+| [vol-35-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-148.jpg) | 148 | 봇들저류지 공원 | park-photo |
+| [vol-35-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-149.jpg) | 149 | 나가는 말: 사업 면적·기간과 진행형 도시 평가 | closing |
+| [vol-35-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-150.jpg) | 150 | 참고문헌 시작 | bibliography |
+| [vol-35-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-35/vol-35-page-152.jpg) | 152 | 판권과 집필자 | colophon |
 
 ## 원문 페이지별 텍스트
 

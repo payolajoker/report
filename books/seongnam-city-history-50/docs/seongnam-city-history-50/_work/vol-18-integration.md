@@ -8,14 +8,14 @@
 - PDF 쪽수: 160쪽
 - OCR 사용: false. `pdftotext -layout`로 임베디드 텍스트층을 추출했다.
 - 처리 상태: 전체 1-160쪽 텍스트층 반영. 완료 범위 밖으로 넘긴 쪽은 없다.
-- 페이지 이미지: 1-160쪽 전체를 `docs/seongnam-city-history-50/assets/pages/vol-18-page-*.jpg`로 렌더링했다.
+- 페이지 이미지: 1-160쪽 전체를 `docs/seongnam-city-history-50/assets/pages/vol-18/vol-18-page-*.jpg`로 렌더링했다.
 - 공용 파일 미편집: `README.md`, `.gitattributes`, `index.md`, `manifest.yml`, `stats.md`, `figures.md`, `source-page-index.md`는 건드리지 않았다.
 
 ## 생성 파일
 
 - `docs/seongnam-city-history-50/vol-18-industrial-complexes-companies.md`
 - `dist/seongnam-history-50-vol-18.llm.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-18-page-*.jpg` 160개
+- `docs/seongnam-city-history-50/assets/pages/vol-18/vol-18-page-*.jpg` 160개
 - `docs/seongnam-city-history-50/_work/vol-18-integration.md`
 
 ## 공용 인덱스 병합 후보: 목차
@@ -36,60 +36,60 @@
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 | --- | --- | --- | --- |
-| [vol-18-page-001.jpg](../assets/pages/vol-18-page-001.jpg) | 1 | 표지와 권명: 산업단지·기업체 권의 범위 확인 | rendered-page |
-| [vol-18-page-002.jpg](../assets/pages/vol-18-page-002.jpg) | 2 | 권별 목차 1: 성남시 주요 산업시설 소개와 민간기업체 목차 | rendered-page |
-| [vol-18-page-003.jpg](../assets/pages/vol-18-page-003.jpg) | 3 | 권별 목차 2: 공공기관·기업지원기관·부록 목차 | rendered-page |
-| [vol-18-page-006.jpg](../assets/pages/vol-18-page-006.jpg) | 6 | 성남하이테크밸리 연혁 표 | rendered-page |
-| [vol-18-page-007.jpg](../assets/pages/vol-18-page-007.jpg) | 7 | 성남하이테크밸리 입지 여건 표 | rendered-page |
-| [vol-18-page-008.jpg](../assets/pages/vol-18-page-008.jpg) | 8 | 성남하이테크밸리 교통 여건과 조성면적 표 | rendered-page |
-| [vol-18-page-009.jpg](../assets/pages/vol-18-page-009.jpg) | 9 | 성남하이테크밸리 입주업체 현황 | rendered-page |
-| [vol-18-page-010.jpg](../assets/pages/vol-18-page-010.jpg) | 10 | 성남하이테크밸리 업종별 입주 현황과 비중 | rendered-page |
-| [vol-18-page-011.jpg](../assets/pages/vol-18-page-011.jpg) | 11 | 성남하이테크밸리 최근 20년 업종 변화 비교 | rendered-page |
-| [vol-18-page-012.jpg](../assets/pages/vol-18-page-012.jpg) | 12 | 성남하이테크밸리 종업원·생산 실적 | rendered-page |
-| [vol-18-page-013.jpg](../assets/pages/vol-18-page-013.jpg) | 13 | 성남하이테크밸리 수출 실적 | rendered-page |
-| [vol-18-page-014.jpg](../assets/pages/vol-18-page-014.jpg) | 14 | 판교테크노밸리 조성 목적과 연혁 시작 | rendered-page |
-| [vol-18-page-017.jpg](../assets/pages/vol-18-page-017.jpg) | 17 | 제2판교테크노밸리 입지 여건 | rendered-page |
-| [vol-18-page-018.jpg](../assets/pages/vol-18-page-018.jpg) | 18 | 판교테크노밸리와 제2판교테크노밸리 조성 면적 | rendered-page |
-| [vol-18-page-019.jpg](../assets/pages/vol-18-page-019.jpg) | 19 | 판교테크노밸리 입주업체·법정 유형·업종 현황 | rendered-page |
-| [vol-18-page-020.jpg](../assets/pages/vol-18-page-020.jpg) | 20 | 판교테크노밸리 종업원·매출 실적 | rendered-page |
-| [vol-18-page-022.jpg](../assets/pages/vol-18-page-022.jpg) | 22 | 성남하이테크밸리 지식산업센터 현황 시작 | rendered-page |
-| [vol-18-page-023.jpg](../assets/pages/vol-18-page-023.jpg) | 23 | 성남하이테크밸리 지식산업센터 현황 계속 | rendered-page |
-| [vol-18-page-024.jpg](../assets/pages/vol-18-page-024.jpg) | 24 | 제2판교테크노밸리·개별 입지 지식산업센터 현황 | rendered-page |
-| [vol-18-page-026.jpg](../assets/pages/vol-18-page-026.jpg) | 26 | 두산디지털이노베이션 기업 개요 | rendered-page |
-| [vol-18-page-031.jpg](../assets/pages/vol-18-page-031.jpg) | 31 | HD현대 기업 개요 | rendered-page |
-| [vol-18-page-038.jpg](../assets/pages/vol-18-page-038.jpg) | 38 | 안랩 기업 개요 | rendered-page |
-| [vol-18-page-040.jpg](../assets/pages/vol-18-page-040.jpg) | 40 | 한글과컴퓨터 기업 개요 | rendered-page |
-| [vol-18-page-041.jpg](../assets/pages/vol-18-page-041.jpg) | 41 | SOOP 기업 개요 | rendered-page |
-| [vol-18-page-044.jpg](../assets/pages/vol-18-page-044.jpg) | 44 | 카카오 판교 아지트 기업 개요 | rendered-page |
-| [vol-18-page-050.jpg](../assets/pages/vol-18-page-050.jpg) | 50 | 삼성SDS 판교 IT 캠퍼스·판교 물류 캠퍼스 | rendered-page |
-| [vol-18-page-052.jpg](../assets/pages/vol-18-page-052.jpg) | 52 | SK C&C와 SK디스커버리 | rendered-page |
-| [vol-18-page-061.jpg](../assets/pages/vol-18-page-061.jpg) | 61 | 스마일게이트 기업 개요 | rendered-page |
-| [vol-18-page-063.jpg](../assets/pages/vol-18-page-063.jpg) | 63 | NC소프트 기업 개요 | rendered-page |
-| [vol-18-page-065.jpg](../assets/pages/vol-18-page-065.jpg) | 65 | 넥슨코리아 기업 개요 | rendered-page |
-| [vol-18-page-069.jpg](../assets/pages/vol-18-page-069.jpg) | 69 | 네이버 기업 개요 | rendered-page |
-| [vol-18-page-070.jpg](../assets/pages/vol-18-page-070.jpg) | 70 | 차병원·바이오그룹 기업 개요 | rendered-page |
-| [vol-18-page-074.jpg](../assets/pages/vol-18-page-074.jpg) | 74 | 한화에어로스페이스 판교 R&D 캠퍼스 | rendered-page |
-| [vol-18-page-078.jpg](../assets/pages/vol-18-page-078.jpg) | 78 | LIG넥스원 연구소 | rendered-page |
-| [vol-18-page-080.jpg](../assets/pages/vol-18-page-080.jpg) | 80 | 한국타이어앤테크놀로지 | rendered-page |
-| [vol-18-page-085.jpg](../assets/pages/vol-18-page-085.jpg) | 85 | NS홈쇼핑 | rendered-page |
-| [vol-18-page-087.jpg](../assets/pages/vol-18-page-087.jpg) | 87 | 한국전자기술연구원 | rendered-page |
-| [vol-18-page-090.jpg](../assets/pages/vol-18-page-090.jpg) | 90 | 한국지역난방공사 | rendered-page |
-| [vol-18-page-098.jpg](../assets/pages/vol-18-page-098.jpg) | 98 | 한국학중앙연구원 | rendered-page |
-| [vol-18-page-101.jpg](../assets/pages/vol-18-page-101.jpg) | 101 | 한국국제협력단 | rendered-page |
-| [vol-18-page-103.jpg](../assets/pages/vol-18-page-103.jpg) | 103 | 한국디자인진흥원 | rendered-page |
-| [vol-18-page-111.jpg](../assets/pages/vol-18-page-111.jpg) | 111 | 한국정보통신기술협회 | rendered-page |
-| [vol-18-page-115.jpg](../assets/pages/vol-18-page-115.jpg) | 115 | 성남상공회의소 | rendered-page |
-| [vol-18-page-116.jpg](../assets/pages/vol-18-page-116.jpg) | 116 | 성남산업단지관리공단 | rendered-page |
-| [vol-18-page-117.jpg](../assets/pages/vol-18-page-117.jpg) | 117 | 성남산업진흥원 | rendered-page |
-| [vol-18-page-119.jpg](../assets/pages/vol-18-page-119.jpg) | 119 | 경기창조경제혁신센터 | rendered-page |
-| [vol-18-page-120.jpg](../assets/pages/vol-18-page-120.jpg) | 120 | 소상공인시장진흥공단 성남센터 | rendered-page |
-| [vol-18-page-121.jpg](../assets/pages/vol-18-page-121.jpg) | 121 | 메타버스 허브 | rendered-page |
-| [vol-18-page-122.jpg](../assets/pages/vol-18-page-122.jpg) | 122 | 성남시혁신지원센터 | rendered-page |
-| [vol-18-page-124.jpg](../assets/pages/vol-18-page-124.jpg) | 124 | 성남시 지식산업센터 현황 부록 1 | rendered-page |
-| [vol-18-page-125.jpg](../assets/pages/vol-18-page-125.jpg) | 125 | 성남시 지식산업센터 현황 부록 2 | rendered-page |
-| [vol-18-page-126.jpg](../assets/pages/vol-18-page-126.jpg) | 126 | 성남하이테크밸리 입주기업 리스트 시작 | rendered-page |
-| [vol-18-page-159.jpg](../assets/pages/vol-18-page-159.jpg) | 159 | 성남하이테크밸리 입주기업 리스트 마지막 쪽 | rendered-page |
-| [vol-18-page-160.jpg](../assets/pages/vol-18-page-160.jpg) | 160 | 판권 | rendered-page |
+| [vol-18-page-001.jpg](../assets/pages/vol-18/vol-18-page-001.jpg) | 1 | 표지와 권명: 산업단지·기업체 권의 범위 확인 | rendered-page |
+| [vol-18-page-002.jpg](../assets/pages/vol-18/vol-18-page-002.jpg) | 2 | 권별 목차 1: 성남시 주요 산업시설 소개와 민간기업체 목차 | rendered-page |
+| [vol-18-page-003.jpg](../assets/pages/vol-18/vol-18-page-003.jpg) | 3 | 권별 목차 2: 공공기관·기업지원기관·부록 목차 | rendered-page |
+| [vol-18-page-006.jpg](../assets/pages/vol-18/vol-18-page-006.jpg) | 6 | 성남하이테크밸리 연혁 표 | rendered-page |
+| [vol-18-page-007.jpg](../assets/pages/vol-18/vol-18-page-007.jpg) | 7 | 성남하이테크밸리 입지 여건 표 | rendered-page |
+| [vol-18-page-008.jpg](../assets/pages/vol-18/vol-18-page-008.jpg) | 8 | 성남하이테크밸리 교통 여건과 조성면적 표 | rendered-page |
+| [vol-18-page-009.jpg](../assets/pages/vol-18/vol-18-page-009.jpg) | 9 | 성남하이테크밸리 입주업체 현황 | rendered-page |
+| [vol-18-page-010.jpg](../assets/pages/vol-18/vol-18-page-010.jpg) | 10 | 성남하이테크밸리 업종별 입주 현황과 비중 | rendered-page |
+| [vol-18-page-011.jpg](../assets/pages/vol-18/vol-18-page-011.jpg) | 11 | 성남하이테크밸리 최근 20년 업종 변화 비교 | rendered-page |
+| [vol-18-page-012.jpg](../assets/pages/vol-18/vol-18-page-012.jpg) | 12 | 성남하이테크밸리 종업원·생산 실적 | rendered-page |
+| [vol-18-page-013.jpg](../assets/pages/vol-18/vol-18-page-013.jpg) | 13 | 성남하이테크밸리 수출 실적 | rendered-page |
+| [vol-18-page-014.jpg](../assets/pages/vol-18/vol-18-page-014.jpg) | 14 | 판교테크노밸리 조성 목적과 연혁 시작 | rendered-page |
+| [vol-18-page-017.jpg](../assets/pages/vol-18/vol-18-page-017.jpg) | 17 | 제2판교테크노밸리 입지 여건 | rendered-page |
+| [vol-18-page-018.jpg](../assets/pages/vol-18/vol-18-page-018.jpg) | 18 | 판교테크노밸리와 제2판교테크노밸리 조성 면적 | rendered-page |
+| [vol-18-page-019.jpg](../assets/pages/vol-18/vol-18-page-019.jpg) | 19 | 판교테크노밸리 입주업체·법정 유형·업종 현황 | rendered-page |
+| [vol-18-page-020.jpg](../assets/pages/vol-18/vol-18-page-020.jpg) | 20 | 판교테크노밸리 종업원·매출 실적 | rendered-page |
+| [vol-18-page-022.jpg](../assets/pages/vol-18/vol-18-page-022.jpg) | 22 | 성남하이테크밸리 지식산업센터 현황 시작 | rendered-page |
+| [vol-18-page-023.jpg](../assets/pages/vol-18/vol-18-page-023.jpg) | 23 | 성남하이테크밸리 지식산업센터 현황 계속 | rendered-page |
+| [vol-18-page-024.jpg](../assets/pages/vol-18/vol-18-page-024.jpg) | 24 | 제2판교테크노밸리·개별 입지 지식산업센터 현황 | rendered-page |
+| [vol-18-page-026.jpg](../assets/pages/vol-18/vol-18-page-026.jpg) | 26 | 두산디지털이노베이션 기업 개요 | rendered-page |
+| [vol-18-page-031.jpg](../assets/pages/vol-18/vol-18-page-031.jpg) | 31 | HD현대 기업 개요 | rendered-page |
+| [vol-18-page-038.jpg](../assets/pages/vol-18/vol-18-page-038.jpg) | 38 | 안랩 기업 개요 | rendered-page |
+| [vol-18-page-040.jpg](../assets/pages/vol-18/vol-18-page-040.jpg) | 40 | 한글과컴퓨터 기업 개요 | rendered-page |
+| [vol-18-page-041.jpg](../assets/pages/vol-18/vol-18-page-041.jpg) | 41 | SOOP 기업 개요 | rendered-page |
+| [vol-18-page-044.jpg](../assets/pages/vol-18/vol-18-page-044.jpg) | 44 | 카카오 판교 아지트 기업 개요 | rendered-page |
+| [vol-18-page-050.jpg](../assets/pages/vol-18/vol-18-page-050.jpg) | 50 | 삼성SDS 판교 IT 캠퍼스·판교 물류 캠퍼스 | rendered-page |
+| [vol-18-page-052.jpg](../assets/pages/vol-18/vol-18-page-052.jpg) | 52 | SK C&C와 SK디스커버리 | rendered-page |
+| [vol-18-page-061.jpg](../assets/pages/vol-18/vol-18-page-061.jpg) | 61 | 스마일게이트 기업 개요 | rendered-page |
+| [vol-18-page-063.jpg](../assets/pages/vol-18/vol-18-page-063.jpg) | 63 | NC소프트 기업 개요 | rendered-page |
+| [vol-18-page-065.jpg](../assets/pages/vol-18/vol-18-page-065.jpg) | 65 | 넥슨코리아 기업 개요 | rendered-page |
+| [vol-18-page-069.jpg](../assets/pages/vol-18/vol-18-page-069.jpg) | 69 | 네이버 기업 개요 | rendered-page |
+| [vol-18-page-070.jpg](../assets/pages/vol-18/vol-18-page-070.jpg) | 70 | 차병원·바이오그룹 기업 개요 | rendered-page |
+| [vol-18-page-074.jpg](../assets/pages/vol-18/vol-18-page-074.jpg) | 74 | 한화에어로스페이스 판교 R&D 캠퍼스 | rendered-page |
+| [vol-18-page-078.jpg](../assets/pages/vol-18/vol-18-page-078.jpg) | 78 | LIG넥스원 연구소 | rendered-page |
+| [vol-18-page-080.jpg](../assets/pages/vol-18/vol-18-page-080.jpg) | 80 | 한국타이어앤테크놀로지 | rendered-page |
+| [vol-18-page-085.jpg](../assets/pages/vol-18/vol-18-page-085.jpg) | 85 | NS홈쇼핑 | rendered-page |
+| [vol-18-page-087.jpg](../assets/pages/vol-18/vol-18-page-087.jpg) | 87 | 한국전자기술연구원 | rendered-page |
+| [vol-18-page-090.jpg](../assets/pages/vol-18/vol-18-page-090.jpg) | 90 | 한국지역난방공사 | rendered-page |
+| [vol-18-page-098.jpg](../assets/pages/vol-18/vol-18-page-098.jpg) | 98 | 한국학중앙연구원 | rendered-page |
+| [vol-18-page-101.jpg](../assets/pages/vol-18/vol-18-page-101.jpg) | 101 | 한국국제협력단 | rendered-page |
+| [vol-18-page-103.jpg](../assets/pages/vol-18/vol-18-page-103.jpg) | 103 | 한국디자인진흥원 | rendered-page |
+| [vol-18-page-111.jpg](../assets/pages/vol-18/vol-18-page-111.jpg) | 111 | 한국정보통신기술협회 | rendered-page |
+| [vol-18-page-115.jpg](../assets/pages/vol-18/vol-18-page-115.jpg) | 115 | 성남상공회의소 | rendered-page |
+| [vol-18-page-116.jpg](../assets/pages/vol-18/vol-18-page-116.jpg) | 116 | 성남산업단지관리공단 | rendered-page |
+| [vol-18-page-117.jpg](../assets/pages/vol-18/vol-18-page-117.jpg) | 117 | 성남산업진흥원 | rendered-page |
+| [vol-18-page-119.jpg](../assets/pages/vol-18/vol-18-page-119.jpg) | 119 | 경기창조경제혁신센터 | rendered-page |
+| [vol-18-page-120.jpg](../assets/pages/vol-18/vol-18-page-120.jpg) | 120 | 소상공인시장진흥공단 성남센터 | rendered-page |
+| [vol-18-page-121.jpg](../assets/pages/vol-18/vol-18-page-121.jpg) | 121 | 메타버스 허브 | rendered-page |
+| [vol-18-page-122.jpg](../assets/pages/vol-18/vol-18-page-122.jpg) | 122 | 성남시혁신지원센터 | rendered-page |
+| [vol-18-page-124.jpg](../assets/pages/vol-18/vol-18-page-124.jpg) | 124 | 성남시 지식산업센터 현황 부록 1 | rendered-page |
+| [vol-18-page-125.jpg](../assets/pages/vol-18/vol-18-page-125.jpg) | 125 | 성남시 지식산업센터 현황 부록 2 | rendered-page |
+| [vol-18-page-126.jpg](../assets/pages/vol-18/vol-18-page-126.jpg) | 126 | 성남하이테크밸리 입주기업 리스트 시작 | rendered-page |
+| [vol-18-page-159.jpg](../assets/pages/vol-18/vol-18-page-159.jpg) | 159 | 성남하이테크밸리 입주기업 리스트 마지막 쪽 | rendered-page |
+| [vol-18-page-160.jpg](../assets/pages/vol-18/vol-18-page-160.jpg) | 160 | 판권 | rendered-page |
 
 ## 공용 stats.md 병합 후보
 

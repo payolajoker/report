@@ -15,7 +15,7 @@
 
 - `docs/seongnam-city-history-50/vol-20-youth-life-culture.md`
 - `dist/seongnam-history-50-vol-20.llm.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-20-page-*.jpg` 136개
+- `docs/seongnam-city-history-50/assets/pages/vol-20/vol-20-page-*.jpg` 136개
 - `docs/seongnam-city-history-50/_work/vol-20-integration.md`
 
 ## 공용 index/manifest 병합 후보
@@ -111,82 +111,82 @@
 
 | 원문 쪽 | 내용 | 파일 |
 |---:|---|---|
-| 1 | 권 표지와 제목: 성남시 청소년의 삶과 문화 | assets/pages/vol-20-page-001.jpg |
-| 2 | 권별 목차: Part 1-2 | assets/pages/vol-20-page-002.jpg |
-| 3 | 권별 목차: Part 3-5 | assets/pages/vol-20-page-003.jpg |
-| 7 | 성남시 청소년수련시설의 지역별 균형 배치 체계 지도 | assets/pages/vol-20-page-007.jpg |
-| 8 | 분당신도시 공공시설계획에 반영된 시설 종류 표 | assets/pages/vol-20-page-008.jpg |
-| 9 | 경기도 주요 도시 청소년수련시설 설치 유형 비교표 | assets/pages/vol-20-page-009.jpg |
-| 12 | 2005-2023 성남시 총인구 대비 청소년 인구 변화 추이 표 | assets/pages/vol-20-page-012.jpg |
-| 13 | 2005-2023 청소년 인구 비율 변화 그래프와 연령대 분포 서술 | assets/pages/vol-20-page-013.jpg |
-| 14 | 구별 청소년 인구 변화 추이와 2024년 연령대별 현황표 | assets/pages/vol-20-page-014.jpg |
-| 15 | 2024년 청소년 연령대별·구별 분포 그래프 | assets/pages/vol-20-page-015.jpg |
-| 16 | 전국·경기도·성남시 청소년 인구 비교표 | assets/pages/vol-20-page-016.jpg |
-| 17 | 학교 밖 청소년 학업중단 학생 수 표 | assets/pages/vol-20-page-017.jpg |
-| 24 | 성남시 청소년 실태조사 연구 추진경과 표 | assets/pages/vol-20-page-024.jpg |
-| 25 | 현재·미래 행복감 비교 그래프 | assets/pages/vol-20-page-025.jpg |
-| 27 | 성남시 청소년 삶의 만족도 변화 비교표 | assets/pages/vol-20-page-027.jpg |
-| 28 | 스트레스와 자퇴·가출·자살 관련 조사표 | assets/pages/vol-20-page-028.jpg |
-| 29 | 안전사고 위험 인식도 표 | assets/pages/vol-20-page-029.jpg |
-| 31 | 평일 여가활동 시간 변화표 | assets/pages/vol-20-page-031.jpg |
-| 32 | 휴일 여가활동 시간과 여가시설 충분도 서술 | assets/pages/vol-20-page-032.jpg |
-| 33 | 여가 활동 장소·프로그램 충분도 변화표 | assets/pages/vol-20-page-033.jpg |
-| 34 | 스마트폰·온라인 활동 서술 시작 | assets/pages/vol-20-page-034.jpg |
-| 36 | 2020·2022년 온라인 플랫폼 이용 그래프 | assets/pages/vol-20-page-036.jpg |
-| 37 | 아르바이트 경험과 노동인권교육 경험 표 | assets/pages/vol-20-page-037.jpg |
-| 38 | 아르바이트 경험자의 부정적 경험 유형 표 | assets/pages/vol-20-page-038.jpg |
-| 39 | 청소년 활동 영역별 참여율 표 | assets/pages/vol-20-page-039.jpg |
-| 41 | 청소년 활동 영역별 참여 만족도 표 | assets/pages/vol-20-page-041.jpg |
-| 42 | 청소년 시설 인지도와 서비스 경험 그래프 | assets/pages/vol-20-page-042.jpg |
-| 43 | 청소년 활동 시설 요구 표 | assets/pages/vol-20-page-043.jpg |
-| 46 | 코로나19 이후 등교 의견과 SDQ 분포 표 | assets/pages/vol-20-page-046.jpg |
-| 47 | 좋은 일자리 조건 조사표 | assets/pages/vol-20-page-047.jpg |
-| 50 | 청년청소년과 소관 조례·규칙 현황 1 | assets/pages/vol-20-page-050.jpg |
-| 51 | 청년청소년과 소관 조례·규칙 현황 2 | assets/pages/vol-20-page-051.jpg |
-| 54 | 2024년 청소년 행정 전담 조직 업무분장 | assets/pages/vol-20-page-054.jpg |
-| 63 | 2024년 청소년 정책 예산사업 및 예산 현황 | assets/pages/vol-20-page-063.jpg |
-| 65 | 성남시청소년재단·복지기관·수련관 인지도 표 | assets/pages/vol-20-page-065.jpg |
-| 66 | 성남시청소년재단 설립 과정과 주요 연혁 시작 | assets/pages/vol-20-page-066.jpg |
-| 70 | 성남시청소년재단 기능과 조직별 사업 표 | assets/pages/vol-20-page-070.jpg |
-| 71 | 성남시청소년재단 연도별 예산 현황 표 | assets/pages/vol-20-page-071.jpg |
-| 72 | 성남시청소년재단 이슈 페이퍼 주제 모음 시작 | assets/pages/vol-20-page-072.jpg |
-| 73 | 이슈 페이퍼 주제와 연구 실적 표 시작 | assets/pages/vol-20-page-073.jpg |
-| 74 | 성남시청소년재단 연구 실적 표 | assets/pages/vol-20-page-074.jpg |
-| 75 | 중장기 발전계획 연구 내용 요약표 | assets/pages/vol-20-page-075.jpg |
-| 76 | 성남시청소년재단 경영가치 체계 도식 | assets/pages/vol-20-page-076.jpg |
-| 79 | 2024년 재단 본부 주요 사업 표 | assets/pages/vol-20-page-079.jpg |
-| 82 | 청소년 수련시설 분포 및 서비스 인구 현황 표 | assets/pages/vol-20-page-082.jpg |
-| 83 | 공공 청소년 수련시설 일반 현황 표 | assets/pages/vol-20-page-083.jpg |
-| 84 | 청소년 자유이용 공간 수진동굴·은행동굴 현황 | assets/pages/vol-20-page-084.jpg |
-| 85 | 임시 수정청소년 수련관 일반 현황 | assets/pages/vol-20-page-085.jpg |
-| 86 | 중원청소년 수련관 일반 현황 | assets/pages/vol-20-page-086.jpg |
-| 87 | 분당 서현청소년 수련관 일반 현황 | assets/pages/vol-20-page-087.jpg |
-| 89 | 분당 정자청소년 수련관 일반 현황 | assets/pages/vol-20-page-089.jpg |
-| 90 | 분당 판교청소년 수련관 일반 현황 | assets/pages/vol-20-page-090.jpg |
-| 91 | 분당 야탑청소년 수련관 일반 현황 | assets/pages/vol-20-page-091.jpg |
-| 92 | 양지동청소년 문화의집 일반 현황 | assets/pages/vol-20-page-092.jpg |
-| 93 | 은행동청소년 문화의집 일반 현황 | assets/pages/vol-20-page-093.jpg |
-| 95 | 청소년상담복지센터 일반 현황 | assets/pages/vol-20-page-095.jpg |
-| 98 | 청소년안전망 서비스 지원 표와 학교밖청소년지원센터 현황 | assets/pages/vol-20-page-098.jpg |
-| 100 | 청소년쉼터 및 자립지원관 현황 표 | assets/pages/vol-20-page-100.jpg |
-| 105 | 성남청소년균형동반협의체 기본방향 도식 | assets/pages/vol-20-page-105.jpg |
-| 108 | 성남시 청소년·청년 빅데이터 플랫폼 BIGTA 누리집 | assets/pages/vol-20-page-108.jpg |
-| 109 | BIGTA 구축 로드맵 | assets/pages/vol-20-page-109.jpg |
-| 112 | 성남미래교육 중장기 발전계획 로드맵 | assets/pages/vol-20-page-112.jpg |
-| 113 | 2024 성남미래교육 추진 체계 | assets/pages/vol-20-page-113.jpg |
-| 116 | 성남시 청년 정책 기본계획 비전 체계 | assets/pages/vol-20-page-116.jpg |
-| 117 | 청소년 정책 및 사업 지원기관 업무분장 | assets/pages/vol-20-page-117.jpg |
-| 118 | 청년 일자리 및 자립지원 사업 추진 현황 | assets/pages/vol-20-page-118.jpg |
-| 119 | 성남시 청년지원센터 일반 현황 | assets/pages/vol-20-page-119.jpg |
-| 122 | 2023 성남시 청소년어울림마당 Youth Trip 운영 개념도 | assets/pages/vol-20-page-122.jpg |
-| 123 | 2024 성남시청소년어울림마당 도판 | assets/pages/vol-20-page-123.jpg |
-| 124 | 청소년방과후아카데미 운영 시설별 정원 표 | assets/pages/vol-20-page-124.jpg |
-| 127 | 2023년 청소년 정책제안대회 수상작 온라인 투표 결과 | assets/pages/vol-20-page-127.jpg |
-| 128 | 성남문화예술교육센터-꿈꾸는 예술터 시설 도판 | assets/pages/vol-20-page-128.jpg |
-| 132 | 참고문헌: 성남시·성남시청소년재단 발간 자료 | assets/pages/vol-20-page-132.jpg |
-| 133 | 참고문헌: 누리집 목록 | assets/pages/vol-20-page-133.jpg |
-| 134 | 참고문헌: 청소년 관련 조례 목록 | assets/pages/vol-20-page-134.jpg |
-| 135 | 판권: 발행일, 발행처, 집필자 | assets/pages/vol-20-page-135.jpg |
+| 1 | 권 표지와 제목: 성남시 청소년의 삶과 문화 | assets/pages/vol-20/vol-20-page-001.jpg |
+| 2 | 권별 목차: Part 1-2 | assets/pages/vol-20/vol-20-page-002.jpg |
+| 3 | 권별 목차: Part 3-5 | assets/pages/vol-20/vol-20-page-003.jpg |
+| 7 | 성남시 청소년수련시설의 지역별 균형 배치 체계 지도 | assets/pages/vol-20/vol-20-page-007.jpg |
+| 8 | 분당신도시 공공시설계획에 반영된 시설 종류 표 | assets/pages/vol-20/vol-20-page-008.jpg |
+| 9 | 경기도 주요 도시 청소년수련시설 설치 유형 비교표 | assets/pages/vol-20/vol-20-page-009.jpg |
+| 12 | 2005-2023 성남시 총인구 대비 청소년 인구 변화 추이 표 | assets/pages/vol-20/vol-20-page-012.jpg |
+| 13 | 2005-2023 청소년 인구 비율 변화 그래프와 연령대 분포 서술 | assets/pages/vol-20/vol-20-page-013.jpg |
+| 14 | 구별 청소년 인구 변화 추이와 2024년 연령대별 현황표 | assets/pages/vol-20/vol-20-page-014.jpg |
+| 15 | 2024년 청소년 연령대별·구별 분포 그래프 | assets/pages/vol-20/vol-20-page-015.jpg |
+| 16 | 전국·경기도·성남시 청소년 인구 비교표 | assets/pages/vol-20/vol-20-page-016.jpg |
+| 17 | 학교 밖 청소년 학업중단 학생 수 표 | assets/pages/vol-20/vol-20-page-017.jpg |
+| 24 | 성남시 청소년 실태조사 연구 추진경과 표 | assets/pages/vol-20/vol-20-page-024.jpg |
+| 25 | 현재·미래 행복감 비교 그래프 | assets/pages/vol-20/vol-20-page-025.jpg |
+| 27 | 성남시 청소년 삶의 만족도 변화 비교표 | assets/pages/vol-20/vol-20-page-027.jpg |
+| 28 | 스트레스와 자퇴·가출·자살 관련 조사표 | assets/pages/vol-20/vol-20-page-028.jpg |
+| 29 | 안전사고 위험 인식도 표 | assets/pages/vol-20/vol-20-page-029.jpg |
+| 31 | 평일 여가활동 시간 변화표 | assets/pages/vol-20/vol-20-page-031.jpg |
+| 32 | 휴일 여가활동 시간과 여가시설 충분도 서술 | assets/pages/vol-20/vol-20-page-032.jpg |
+| 33 | 여가 활동 장소·프로그램 충분도 변화표 | assets/pages/vol-20/vol-20-page-033.jpg |
+| 34 | 스마트폰·온라인 활동 서술 시작 | assets/pages/vol-20/vol-20-page-034.jpg |
+| 36 | 2020·2022년 온라인 플랫폼 이용 그래프 | assets/pages/vol-20/vol-20-page-036.jpg |
+| 37 | 아르바이트 경험과 노동인권교육 경험 표 | assets/pages/vol-20/vol-20-page-037.jpg |
+| 38 | 아르바이트 경험자의 부정적 경험 유형 표 | assets/pages/vol-20/vol-20-page-038.jpg |
+| 39 | 청소년 활동 영역별 참여율 표 | assets/pages/vol-20/vol-20-page-039.jpg |
+| 41 | 청소년 활동 영역별 참여 만족도 표 | assets/pages/vol-20/vol-20-page-041.jpg |
+| 42 | 청소년 시설 인지도와 서비스 경험 그래프 | assets/pages/vol-20/vol-20-page-042.jpg |
+| 43 | 청소년 활동 시설 요구 표 | assets/pages/vol-20/vol-20-page-043.jpg |
+| 46 | 코로나19 이후 등교 의견과 SDQ 분포 표 | assets/pages/vol-20/vol-20-page-046.jpg |
+| 47 | 좋은 일자리 조건 조사표 | assets/pages/vol-20/vol-20-page-047.jpg |
+| 50 | 청년청소년과 소관 조례·규칙 현황 1 | assets/pages/vol-20/vol-20-page-050.jpg |
+| 51 | 청년청소년과 소관 조례·규칙 현황 2 | assets/pages/vol-20/vol-20-page-051.jpg |
+| 54 | 2024년 청소년 행정 전담 조직 업무분장 | assets/pages/vol-20/vol-20-page-054.jpg |
+| 63 | 2024년 청소년 정책 예산사업 및 예산 현황 | assets/pages/vol-20/vol-20-page-063.jpg |
+| 65 | 성남시청소년재단·복지기관·수련관 인지도 표 | assets/pages/vol-20/vol-20-page-065.jpg |
+| 66 | 성남시청소년재단 설립 과정과 주요 연혁 시작 | assets/pages/vol-20/vol-20-page-066.jpg |
+| 70 | 성남시청소년재단 기능과 조직별 사업 표 | assets/pages/vol-20/vol-20-page-070.jpg |
+| 71 | 성남시청소년재단 연도별 예산 현황 표 | assets/pages/vol-20/vol-20-page-071.jpg |
+| 72 | 성남시청소년재단 이슈 페이퍼 주제 모음 시작 | assets/pages/vol-20/vol-20-page-072.jpg |
+| 73 | 이슈 페이퍼 주제와 연구 실적 표 시작 | assets/pages/vol-20/vol-20-page-073.jpg |
+| 74 | 성남시청소년재단 연구 실적 표 | assets/pages/vol-20/vol-20-page-074.jpg |
+| 75 | 중장기 발전계획 연구 내용 요약표 | assets/pages/vol-20/vol-20-page-075.jpg |
+| 76 | 성남시청소년재단 경영가치 체계 도식 | assets/pages/vol-20/vol-20-page-076.jpg |
+| 79 | 2024년 재단 본부 주요 사업 표 | assets/pages/vol-20/vol-20-page-079.jpg |
+| 82 | 청소년 수련시설 분포 및 서비스 인구 현황 표 | assets/pages/vol-20/vol-20-page-082.jpg |
+| 83 | 공공 청소년 수련시설 일반 현황 표 | assets/pages/vol-20/vol-20-page-083.jpg |
+| 84 | 청소년 자유이용 공간 수진동굴·은행동굴 현황 | assets/pages/vol-20/vol-20-page-084.jpg |
+| 85 | 임시 수정청소년 수련관 일반 현황 | assets/pages/vol-20/vol-20-page-085.jpg |
+| 86 | 중원청소년 수련관 일반 현황 | assets/pages/vol-20/vol-20-page-086.jpg |
+| 87 | 분당 서현청소년 수련관 일반 현황 | assets/pages/vol-20/vol-20-page-087.jpg |
+| 89 | 분당 정자청소년 수련관 일반 현황 | assets/pages/vol-20/vol-20-page-089.jpg |
+| 90 | 분당 판교청소년 수련관 일반 현황 | assets/pages/vol-20/vol-20-page-090.jpg |
+| 91 | 분당 야탑청소년 수련관 일반 현황 | assets/pages/vol-20/vol-20-page-091.jpg |
+| 92 | 양지동청소년 문화의집 일반 현황 | assets/pages/vol-20/vol-20-page-092.jpg |
+| 93 | 은행동청소년 문화의집 일반 현황 | assets/pages/vol-20/vol-20-page-093.jpg |
+| 95 | 청소년상담복지센터 일반 현황 | assets/pages/vol-20/vol-20-page-095.jpg |
+| 98 | 청소년안전망 서비스 지원 표와 학교밖청소년지원센터 현황 | assets/pages/vol-20/vol-20-page-098.jpg |
+| 100 | 청소년쉼터 및 자립지원관 현황 표 | assets/pages/vol-20/vol-20-page-100.jpg |
+| 105 | 성남청소년균형동반협의체 기본방향 도식 | assets/pages/vol-20/vol-20-page-105.jpg |
+| 108 | 성남시 청소년·청년 빅데이터 플랫폼 BIGTA 누리집 | assets/pages/vol-20/vol-20-page-108.jpg |
+| 109 | BIGTA 구축 로드맵 | assets/pages/vol-20/vol-20-page-109.jpg |
+| 112 | 성남미래교육 중장기 발전계획 로드맵 | assets/pages/vol-20/vol-20-page-112.jpg |
+| 113 | 2024 성남미래교육 추진 체계 | assets/pages/vol-20/vol-20-page-113.jpg |
+| 116 | 성남시 청년 정책 기본계획 비전 체계 | assets/pages/vol-20/vol-20-page-116.jpg |
+| 117 | 청소년 정책 및 사업 지원기관 업무분장 | assets/pages/vol-20/vol-20-page-117.jpg |
+| 118 | 청년 일자리 및 자립지원 사업 추진 현황 | assets/pages/vol-20/vol-20-page-118.jpg |
+| 119 | 성남시 청년지원센터 일반 현황 | assets/pages/vol-20/vol-20-page-119.jpg |
+| 122 | 2023 성남시 청소년어울림마당 Youth Trip 운영 개념도 | assets/pages/vol-20/vol-20-page-122.jpg |
+| 123 | 2024 성남시청소년어울림마당 도판 | assets/pages/vol-20/vol-20-page-123.jpg |
+| 124 | 청소년방과후아카데미 운영 시설별 정원 표 | assets/pages/vol-20/vol-20-page-124.jpg |
+| 127 | 2023년 청소년 정책제안대회 수상작 온라인 투표 결과 | assets/pages/vol-20/vol-20-page-127.jpg |
+| 128 | 성남문화예술교육센터-꿈꾸는 예술터 시설 도판 | assets/pages/vol-20/vol-20-page-128.jpg |
+| 132 | 참고문헌: 성남시·성남시청소년재단 발간 자료 | assets/pages/vol-20/vol-20-page-132.jpg |
+| 133 | 참고문헌: 누리집 목록 | assets/pages/vol-20/vol-20-page-133.jpg |
+| 134 | 참고문헌: 청소년 관련 조례 목록 | assets/pages/vol-20/vol-20-page-134.jpg |
+| 135 | 판권: 발행일, 발행처, 집필자 | assets/pages/vol-20/vol-20-page-135.jpg |
 
 ## LLM 가공 후보
 
@@ -199,5 +199,5 @@
 ## 검증 메모
 
 - 본문과 LLM 번들에 136개 source marker와 136개 `### p.xxx` 헤더가 있어야 한다.
-- 이미지 링크는 `assets/pages/vol-20-page-001.jpg`부터 `vol-20-page-136.jpg`까지 연결된다.
+- 이미지 링크는 `assets/pages/vol-20/vol-20-page-001.jpg`부터 `vol-20-page-136.jpg`까지 연결된다.
 - 공용 파일 병합은 중앙 작업자가 수행해야 한다.

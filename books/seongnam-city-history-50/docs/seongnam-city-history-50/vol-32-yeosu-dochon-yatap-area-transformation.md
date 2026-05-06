@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 위치도, 자연마을 표, 토지 지목 그래프, 개발계획 평면도, 연표, 구술 사진이 많아 1-128쪽 전체를 `assets/pages/`에 렌더링했다.
+- 위치도, 자연마을 표, 토지 지목 그래프, 개발계획 평면도, 연표, 구술 사진이 많아 1-128쪽 전체를 `assets/pages/vol-32/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-32-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제32권 여수동·도촌동·야탑동 일대의 변천`으로 일치한다.
 
@@ -155,59 +155,59 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-32-page-001.jpg](assets/pages/vol-32-page-001.jpg) | 001 | 표지와 권명 | title-page |
-| [vol-32-page-002.jpg](assets/pages/vol-32-page-002.jpg) | 002-003 | 권별 목차 | toc |
-| [vol-32-page-004.jpg](assets/pages/vol-32-page-004.jpg) | 004 | 여수동·도촌동·야탑동 위치도 | map |
-| [vol-32-page-008.jpg](assets/pages/vol-32-page-008.jpg) | 008 | 여수동 유래비와 이근한 면장 송덕비 | photo |
-| [vol-32-page-009.jpg](assets/pages/vol-32-page-009.jpg) | 009 | 여수동 자연마을 현황 표 | table |
-| [vol-32-page-010.jpg](assets/pages/vol-32-page-010.jpg) | 010 | 1990년경 분당신도시 개발 전 여수동 모습 | photo |
-| [vol-32-page-015.jpg](assets/pages/vol-32-page-015.jpg) | 015 | 도촌동 자연마을 현황 표 | table |
-| [vol-32-page-017.jpg](assets/pages/vol-32-page-017.jpg) | 017 | 도촌동 전경 | photo |
-| [vol-32-page-020.jpg](assets/pages/vol-32-page-020.jpg) | 020 | 야탑동 자연마을 현황 표 | table |
-| [vol-32-page-021.jpg](assets/pages/vol-32-page-021.jpg) | 021 | 야탑동 전경 | photo |
-| [vol-32-page-023.jpg](assets/pages/vol-32-page-023.jpg) | 023 | 1971년 성남 도시기본계획 토지이용 현황도와 2024년 위치도 | map |
-| [vol-32-page-026.jpg](assets/pages/vol-32-page-026.jpg) | 026 | 2022년 여수동 토지 지목 현황과 2003-2022년 비교표 | chart-table |
-| [vol-32-page-027.jpg](assets/pages/vol-32-page-027.jpg) | 027 | 2013-2022년 여수동 토지 지목 비교 그래프 | chart |
-| [vol-32-page-030.jpg](assets/pages/vol-32-page-030.jpg) | 030 | 여수동 2024년 사진과 여수천 | photo |
-| [vol-32-page-032.jpg](assets/pages/vol-32-page-032.jpg) | 032 | 성남-장호원 고속화도로 비교 노선도 | map |
-| [vol-32-page-036.jpg](assets/pages/vol-32-page-036.jpg) | 036 | 2022년 도촌동 토지 지목 현황 | chart |
-| [vol-32-page-037.jpg](assets/pages/vol-32-page-037.jpg) | 037 | 2013-2022년 도촌동 토지 지목 비교표·그래프 | table-chart |
-| [vol-32-page-038.jpg](assets/pages/vol-32-page-038.jpg) | 038 | 도촌동 2024년 사진과 도촌천 | photo |
-| [vol-32-page-041.jpg](assets/pages/vol-32-page-041.jpg) | 041 | 2007-2023년 도촌동 인구 변화 그래프 | chart |
-| [vol-32-page-044.jpg](assets/pages/vol-32-page-044.jpg) | 044 | 2022년 야탑동 토지 지목 현황과 2003-2022년 비교표 | chart-table |
-| [vol-32-page-045.jpg](assets/pages/vol-32-page-045.jpg) | 045 | 2003-2022년 야탑동 토지 지목 현황 그래프 | chart |
-| [vol-32-page-047.jpg](assets/pages/vol-32-page-047.jpg) | 047 | 2003-2023년 분당구·야탑동 인구 변화 그래프 | chart |
-| [vol-32-page-048.jpg](assets/pages/vol-32-page-048.jpg) | 048 | 2003-2023년 야탑동 동별 인구 변화 그래프·표 | chart-table |
-| [vol-32-page-057.jpg](assets/pages/vol-32-page-057.jpg) | 057 | 2020 성남도시기본계획 도시 공간 구조 표 | planning-table |
-| [vol-32-page-058.jpg](assets/pages/vol-32-page-058.jpg) | 058 | 2020·2035 성남도시기본계획 공간 구조도 | map |
-| [vol-32-page-062.jpg](assets/pages/vol-32-page-062.jpg) | 062 | 여수지구 개발계획 평면도 | plan-map |
-| [vol-32-page-063.jpg](assets/pages/vol-32-page-063.jpg) | 063 | 여수지구 도시개발 연표 | timeline |
-| [vol-32-page-065.jpg](assets/pages/vol-32-page-065.jpg) | 065 | 성남 여수 국민임대 주택단지 토지이용계획 표 | land-use-table |
-| [vol-32-page-069.jpg](assets/pages/vol-32-page-069.jpg) | 069 | 도촌지구 개발계획 평면도 | plan-map |
-| [vol-32-page-070.jpg](assets/pages/vol-32-page-070.jpg) | 070 | 도촌지구 도시개발 과정 연표 | timeline |
-| [vol-32-page-071.jpg](assets/pages/vol-32-page-071.jpg) | 071 | 도촌지구 토지용지계획 총괄표 | land-use-table |
-| [vol-32-page-075.jpg](assets/pages/vol-32-page-075.jpg) | 075 | 수도권 5개 1기 신도시 분포도 | map |
-| [vol-32-page-076.jpg](assets/pages/vol-32-page-076.jpg) | 076 | 수도권 5개 1기 신도시 기능 및 성격 표 | table |
-| [vol-32-page-077.jpg](assets/pages/vol-32-page-077.jpg) | 077 | 분당신도시 개발계획 | plan-map |
-| [vol-32-page-079.jpg](assets/pages/vol-32-page-079.jpg) | 079 | 분당신도시 11차 단계별 실시계획 변경 표 | timeline-table |
-| [vol-32-page-080.jpg](assets/pages/vol-32-page-080.jpg) | 080 | 분당신도시 생활권 구상도 | plan-map |
-| [vol-32-page-084.jpg](assets/pages/vol-32-page-084.jpg) | 084 | 야탑동 공공분양주택 건립사업 조감도 | rendering |
-| [vol-32-page-088.jpg](assets/pages/vol-32-page-088.jpg) | 088 | 성남시 구청사와 신축 중인 신청사·의회 | photo-timeline |
-| [vol-32-page-090.jpg](assets/pages/vol-32-page-090.jpg) | 090 | 성남시 신청사 전경과 개방시설 현황 | photo-table |
-| [vol-32-page-092.jpg](assets/pages/vol-32-page-092.jpg) | 092 | 성남시청 산세·수세도와 좌향·대문 방위 | map-diagram |
-| [vol-32-page-095.jpg](assets/pages/vol-32-page-095.jpg) | 095 | 분당테크노파크 단지 전경 | photo |
-| [vol-32-page-096.jpg](assets/pages/vol-32-page-096.jpg) | 096 | 코리아디자인센터 전경과 1층 로비 | photo |
-| [vol-32-page-097.jpg](assets/pages/vol-32-page-097.jpg) | 097 | 성남아트센터 야경과 공연장 사진 | photo |
-| [vol-32-page-098.jpg](assets/pages/vol-32-page-098.jpg) | 098 | 상희공원 입구와 공원 이용 사진 | photo |
-| [vol-32-page-099.jpg](assets/pages/vol-32-page-099.jpg) | 099 | 상희공원 이상희 대위 기념탑 | photo |
-| [vol-32-page-101.jpg](assets/pages/vol-32-page-101.jpg) | 101 | 분당메모리얼파크 전경과 헤리티지 봉안담 | photo |
-| [vol-32-page-105.jpg](assets/pages/vol-32-page-105.jpg) | 105 | 여수동 구술자 이대열 사진 | oral-history-photo |
-| [vol-32-page-108.jpg](assets/pages/vol-32-page-108.jpg) | 108 | 성남-장호원 고속화도로 반대 비상대책위원회 조직도 | organization-chart |
-| [vol-32-page-113.jpg](assets/pages/vol-32-page-113.jpg) | 113 | 도촌동 구술자 최병대 사진 | oral-history-photo |
-| [vol-32-page-116.jpg](assets/pages/vol-32-page-116.jpg) | 116 | 야탑동 구술자 이남형 사진 | oral-history-photo |
-| [vol-32-page-119.jpg](assets/pages/vol-32-page-119.jpg) | 119 | 1990년대 야탑동 전경 | photo |
-| [vol-32-page-124.jpg](assets/pages/vol-32-page-124.jpg) | 124-125 | 참고문헌 | bibliography |
-| [vol-32-page-127.jpg](assets/pages/vol-32-page-127.jpg) | 127 | 판권과 집필자 | colophon |
+| [vol-32-page-001.jpg](assets/pages/vol-32/vol-32-page-001.jpg) | 001 | 표지와 권명 | title-page |
+| [vol-32-page-002.jpg](assets/pages/vol-32/vol-32-page-002.jpg) | 002-003 | 권별 목차 | toc |
+| [vol-32-page-004.jpg](assets/pages/vol-32/vol-32-page-004.jpg) | 004 | 여수동·도촌동·야탑동 위치도 | map |
+| [vol-32-page-008.jpg](assets/pages/vol-32/vol-32-page-008.jpg) | 008 | 여수동 유래비와 이근한 면장 송덕비 | photo |
+| [vol-32-page-009.jpg](assets/pages/vol-32/vol-32-page-009.jpg) | 009 | 여수동 자연마을 현황 표 | table |
+| [vol-32-page-010.jpg](assets/pages/vol-32/vol-32-page-010.jpg) | 010 | 1990년경 분당신도시 개발 전 여수동 모습 | photo |
+| [vol-32-page-015.jpg](assets/pages/vol-32/vol-32-page-015.jpg) | 015 | 도촌동 자연마을 현황 표 | table |
+| [vol-32-page-017.jpg](assets/pages/vol-32/vol-32-page-017.jpg) | 017 | 도촌동 전경 | photo |
+| [vol-32-page-020.jpg](assets/pages/vol-32/vol-32-page-020.jpg) | 020 | 야탑동 자연마을 현황 표 | table |
+| [vol-32-page-021.jpg](assets/pages/vol-32/vol-32-page-021.jpg) | 021 | 야탑동 전경 | photo |
+| [vol-32-page-023.jpg](assets/pages/vol-32/vol-32-page-023.jpg) | 023 | 1971년 성남 도시기본계획 토지이용 현황도와 2024년 위치도 | map |
+| [vol-32-page-026.jpg](assets/pages/vol-32/vol-32-page-026.jpg) | 026 | 2022년 여수동 토지 지목 현황과 2003-2022년 비교표 | chart-table |
+| [vol-32-page-027.jpg](assets/pages/vol-32/vol-32-page-027.jpg) | 027 | 2013-2022년 여수동 토지 지목 비교 그래프 | chart |
+| [vol-32-page-030.jpg](assets/pages/vol-32/vol-32-page-030.jpg) | 030 | 여수동 2024년 사진과 여수천 | photo |
+| [vol-32-page-032.jpg](assets/pages/vol-32/vol-32-page-032.jpg) | 032 | 성남-장호원 고속화도로 비교 노선도 | map |
+| [vol-32-page-036.jpg](assets/pages/vol-32/vol-32-page-036.jpg) | 036 | 2022년 도촌동 토지 지목 현황 | chart |
+| [vol-32-page-037.jpg](assets/pages/vol-32/vol-32-page-037.jpg) | 037 | 2013-2022년 도촌동 토지 지목 비교표·그래프 | table-chart |
+| [vol-32-page-038.jpg](assets/pages/vol-32/vol-32-page-038.jpg) | 038 | 도촌동 2024년 사진과 도촌천 | photo |
+| [vol-32-page-041.jpg](assets/pages/vol-32/vol-32-page-041.jpg) | 041 | 2007-2023년 도촌동 인구 변화 그래프 | chart |
+| [vol-32-page-044.jpg](assets/pages/vol-32/vol-32-page-044.jpg) | 044 | 2022년 야탑동 토지 지목 현황과 2003-2022년 비교표 | chart-table |
+| [vol-32-page-045.jpg](assets/pages/vol-32/vol-32-page-045.jpg) | 045 | 2003-2022년 야탑동 토지 지목 현황 그래프 | chart |
+| [vol-32-page-047.jpg](assets/pages/vol-32/vol-32-page-047.jpg) | 047 | 2003-2023년 분당구·야탑동 인구 변화 그래프 | chart |
+| [vol-32-page-048.jpg](assets/pages/vol-32/vol-32-page-048.jpg) | 048 | 2003-2023년 야탑동 동별 인구 변화 그래프·표 | chart-table |
+| [vol-32-page-057.jpg](assets/pages/vol-32/vol-32-page-057.jpg) | 057 | 2020 성남도시기본계획 도시 공간 구조 표 | planning-table |
+| [vol-32-page-058.jpg](assets/pages/vol-32/vol-32-page-058.jpg) | 058 | 2020·2035 성남도시기본계획 공간 구조도 | map |
+| [vol-32-page-062.jpg](assets/pages/vol-32/vol-32-page-062.jpg) | 062 | 여수지구 개발계획 평면도 | plan-map |
+| [vol-32-page-063.jpg](assets/pages/vol-32/vol-32-page-063.jpg) | 063 | 여수지구 도시개발 연표 | timeline |
+| [vol-32-page-065.jpg](assets/pages/vol-32/vol-32-page-065.jpg) | 065 | 성남 여수 국민임대 주택단지 토지이용계획 표 | land-use-table |
+| [vol-32-page-069.jpg](assets/pages/vol-32/vol-32-page-069.jpg) | 069 | 도촌지구 개발계획 평면도 | plan-map |
+| [vol-32-page-070.jpg](assets/pages/vol-32/vol-32-page-070.jpg) | 070 | 도촌지구 도시개발 과정 연표 | timeline |
+| [vol-32-page-071.jpg](assets/pages/vol-32/vol-32-page-071.jpg) | 071 | 도촌지구 토지용지계획 총괄표 | land-use-table |
+| [vol-32-page-075.jpg](assets/pages/vol-32/vol-32-page-075.jpg) | 075 | 수도권 5개 1기 신도시 분포도 | map |
+| [vol-32-page-076.jpg](assets/pages/vol-32/vol-32-page-076.jpg) | 076 | 수도권 5개 1기 신도시 기능 및 성격 표 | table |
+| [vol-32-page-077.jpg](assets/pages/vol-32/vol-32-page-077.jpg) | 077 | 분당신도시 개발계획 | plan-map |
+| [vol-32-page-079.jpg](assets/pages/vol-32/vol-32-page-079.jpg) | 079 | 분당신도시 11차 단계별 실시계획 변경 표 | timeline-table |
+| [vol-32-page-080.jpg](assets/pages/vol-32/vol-32-page-080.jpg) | 080 | 분당신도시 생활권 구상도 | plan-map |
+| [vol-32-page-084.jpg](assets/pages/vol-32/vol-32-page-084.jpg) | 084 | 야탑동 공공분양주택 건립사업 조감도 | rendering |
+| [vol-32-page-088.jpg](assets/pages/vol-32/vol-32-page-088.jpg) | 088 | 성남시 구청사와 신축 중인 신청사·의회 | photo-timeline |
+| [vol-32-page-090.jpg](assets/pages/vol-32/vol-32-page-090.jpg) | 090 | 성남시 신청사 전경과 개방시설 현황 | photo-table |
+| [vol-32-page-092.jpg](assets/pages/vol-32/vol-32-page-092.jpg) | 092 | 성남시청 산세·수세도와 좌향·대문 방위 | map-diagram |
+| [vol-32-page-095.jpg](assets/pages/vol-32/vol-32-page-095.jpg) | 095 | 분당테크노파크 단지 전경 | photo |
+| [vol-32-page-096.jpg](assets/pages/vol-32/vol-32-page-096.jpg) | 096 | 코리아디자인센터 전경과 1층 로비 | photo |
+| [vol-32-page-097.jpg](assets/pages/vol-32/vol-32-page-097.jpg) | 097 | 성남아트센터 야경과 공연장 사진 | photo |
+| [vol-32-page-098.jpg](assets/pages/vol-32/vol-32-page-098.jpg) | 098 | 상희공원 입구와 공원 이용 사진 | photo |
+| [vol-32-page-099.jpg](assets/pages/vol-32/vol-32-page-099.jpg) | 099 | 상희공원 이상희 대위 기념탑 | photo |
+| [vol-32-page-101.jpg](assets/pages/vol-32/vol-32-page-101.jpg) | 101 | 분당메모리얼파크 전경과 헤리티지 봉안담 | photo |
+| [vol-32-page-105.jpg](assets/pages/vol-32/vol-32-page-105.jpg) | 105 | 여수동 구술자 이대열 사진 | oral-history-photo |
+| [vol-32-page-108.jpg](assets/pages/vol-32/vol-32-page-108.jpg) | 108 | 성남-장호원 고속화도로 반대 비상대책위원회 조직도 | organization-chart |
+| [vol-32-page-113.jpg](assets/pages/vol-32/vol-32-page-113.jpg) | 113 | 도촌동 구술자 최병대 사진 | oral-history-photo |
+| [vol-32-page-116.jpg](assets/pages/vol-32/vol-32-page-116.jpg) | 116 | 야탑동 구술자 이남형 사진 | oral-history-photo |
+| [vol-32-page-119.jpg](assets/pages/vol-32/vol-32-page-119.jpg) | 119 | 1990년대 야탑동 전경 | photo |
+| [vol-32-page-124.jpg](assets/pages/vol-32/vol-32-page-124.jpg) | 124-125 | 참고문헌 | bibliography |
+| [vol-32-page-127.jpg](assets/pages/vol-32/vol-32-page-127.jpg) | 127 | 판권과 집필자 | colophon |
 
 ## LLM 가공 후보
 
@@ -222,7 +222,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.001 -->
 ### p.001
 
-[페이지 이미지: vol-32-page-001.jpg](assets/pages/vol-32-page-001.jpg)
+[페이지 이미지: vol-32-page-001.jpg](assets/pages/vol-32/vol-32-page-001.jpg)
 
 ```text
                발 간 등 록 번 호
@@ -252,7 +252,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.002 -->
 ### p.002
 
-[페이지 이미지: vol-32-page-002.jpg](assets/pages/vol-32-page-002.jpg)
+[페이지 이미지: vol-32-page-002.jpg](assets/pages/vol-32/vol-32-page-002.jpg)
 
 ```text
               1
@@ -296,7 +296,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.003 -->
 ### p.003
 
-[페이지 이미지: vol-32-page-003.jpg](assets/pages/vol-32-page-003.jpg)
+[페이지 이미지: vol-32-page-003.jpg](assets/pages/vol-32/vol-32-page-003.jpg)
 
 ```text
             4
@@ -356,7 +356,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.004 -->
 ### p.004
 
-[페이지 이미지: vol-32-page-004.jpg](assets/pages/vol-32-page-004.jpg)
+[페이지 이미지: vol-32-page-004.jpg](assets/pages/vol-32/vol-32-page-004.jpg)
 
 ```text
                           들어가며
@@ -391,7 +391,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.005 -->
 ### p.005
 
-[페이지 이미지: vol-32-page-005.jpg](assets/pages/vol-32-page-005.jpg)
+[페이지 이미지: vol-32-page-005.jpg](assets/pages/vol-32/vol-32-page-005.jpg)
 
 ```text
  돌마라는 지역의 유래는 묘비문, 묘지명, 신도비 등에 기록된 묘지의 위치에서 확인할
@@ -423,7 +423,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.006 -->
 ### p.006
 
-[페이지 이미지: vol-32-page-006.jpg](assets/pages/vol-32-page-006.jpg)
+[페이지 이미지: vol-32-page-006.jpg](assets/pages/vol-32/vol-32-page-006.jpg)
 
 ```text
 도시의 역사와
@@ -450,7 +450,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.007 -->
 ### p.007
 
-[페이지 이미지: vol-32-page-007.jpg](assets/pages/vol-32-page-007.jpg)
+[페이지 이미지: vol-32-page-007.jpg](assets/pages/vol-32/vol-32-page-007.jpg)
 
 ```text
 1 여수동의 역사와 행정구역의 변화
@@ -489,7 +489,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.008 -->
 ### p.008
 
-[페이지 이미지: vol-32-page-008.jpg](assets/pages/vol-32-page-008.jpg)
+[페이지 이미지: vol-32-page-008.jpg](assets/pages/vol-32/vol-32-page-008.jpg)
 
 ```text
                           여수동 유래비(여수초등학교 뒤편)         이근한 면장 송덕비
@@ -531,7 +531,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.009 -->
 ### p.009
 
-[페이지 이미지: vol-32-page-009.jpg](assets/pages/vol-32-page-009.jpg)
+[페이지 이미지: vol-32-page-009.jpg](assets/pages/vol-32/vol-32-page-009.jpg)
 
 ```text
 는 농사짓기가 적합한 곳이었다. 여수들과 함께 탄천 동쪽에 자리 잡은 정자들, 수내들, 서
@@ -596,7 +596,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.010 -->
 ### p.010
 
-[페이지 이미지: vol-32-page-010.jpg](assets/pages/vol-32-page-010.jpg)
+[페이지 이미지: vol-32-page-010.jpg](assets/pages/vol-32/vol-32-page-010.jpg)
 
 ```text
                           1990년경 분당신도시 개발 전의 여수동 모습(이대열 제공, 2024. 10. 28.)
@@ -638,7 +638,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.011 -->
 ### p.011
 
-[페이지 이미지: vol-32-page-011.jpg](assets/pages/vol-32-page-011.jpg)
+[페이지 이미지: vol-32-page-011.jpg](assets/pages/vol-32/vol-32-page-011.jpg)
 
 ```text
 이 많았던 곳으로 한발이 극심할 때에 관정(管井)을 파고 농업용수로 이용했을 만큼 샘
@@ -673,7 +673,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.012 -->
 ### p.012
 
-[페이지 이미지: vol-32-page-012.jpg](assets/pages/vol-32-page-012.jpg)
+[페이지 이미지: vol-32-page-012.jpg](assets/pages/vol-32/vol-32-page-012.jpg)
 
 ```text
                           가로막살은 사람들 사이에서 성남 갈매기살로 불렸고, 결국 1970년대 중반 집단적인 갈
@@ -722,7 +722,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.013 -->
 ### p.013
 
-[페이지 이미지: vol-32-page-013.jpg](assets/pages/vol-32-page-013.jpg)
+[페이지 이미지: vol-32-page-013.jpg](assets/pages/vol-32/vol-32-page-013.jpg)
 
 ```text
 지원사업소’가 서현동에 설치되었으며, 1991년 7월 분당출장소로 개편되었다. 이때 중원
@@ -743,7 +743,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.014 -->
 ### p.014
 
-[페이지 이미지: vol-32-page-014.jpg](assets/pages/vol-32-page-014.jpg)
+[페이지 이미지: vol-32-page-014.jpg](assets/pages/vol-32/vol-32-page-014.jpg)
 
 ```text
                            2 도촌동의 역사와 행정구역의 변화
@@ -783,7 +783,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.015 -->
 ### p.015
 
-[페이지 이미지: vol-32-page-015.jpg](assets/pages/vol-32-page-015.jpg)
+[페이지 이미지: vol-32-page-015.jpg](assets/pages/vol-32/vol-32-page-015.jpg)
 
 ```text
 운 이괄이 일등 공신이 아닌 이등 공신으로 녹권(錄券, 공신으로 책봉된 사람에게 지급한
@@ -850,7 +850,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.016 -->
 ### p.016
 
-[페이지 이미지: vol-32-page-016.jpg](assets/pages/vol-32-page-016.jpg)
+[페이지 이미지: vol-32-page-016.jpg](assets/pages/vol-32/vol-32-page-016.jpg)
 
 ```text
                            안산은 섬말 안쪽에 있는 산으로 응달말과 야탑동 상탑에 걸쳐 있다. 이왕산(利旺山)은
@@ -898,7 +898,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.017 -->
 ### p.017
 
-[페이지 이미지: vol-32-page-017.jpg](assets/pages/vol-32-page-017.jpg)
+[페이지 이미지: vol-32-page-017.jpg](assets/pages/vol-32/vol-32-page-017.jpg)
 
 ```text
                                            도촌동 전경(2024)
@@ -930,7 +930,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.018 -->
 ### p.018
 
-[페이지 이미지: vol-32-page-018.jpg](assets/pages/vol-32-page-018.jpg)
+[페이지 이미지: vol-32-page-018.jpg](assets/pages/vol-32/vol-32-page-018.jpg)
 
 ```text
                            3 야탑동의 역사와 행정구역의 변화
@@ -970,7 +970,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.019 -->
 ### p.019
 
-[페이지 이미지: vol-32-page-019.jpg](assets/pages/vol-32-page-019.jpg)
+[페이지 이미지: vol-32-page-019.jpg](assets/pages/vol-32/vol-32-page-019.jpg)
 
 ```text
  2024년 현재 야탑동은 야탑1동, 하탑동은 야탑2동, 중탑동은 야탑3동으로 명칭이 바뀌
@@ -1016,7 +1016,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.020 -->
 ### p.020
 
-[페이지 이미지: vol-32-page-020.jpg](assets/pages/vol-32-page-020.jpg)
+[페이지 이미지: vol-32-page-020.jpg](assets/pages/vol-32/vol-32-page-020.jpg)
 
 ```text
                           야탑동의 자연마을 현황
@@ -1080,7 +1080,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.021 -->
 ### p.021
 
-[페이지 이미지: vol-32-page-021.jpg](assets/pages/vol-32-page-021.jpg)
+[페이지 이미지: vol-32-page-021.jpg](assets/pages/vol-32/vol-32-page-021.jpg)
 
 ```text
 테들은 안산건너들 안에 있는 들이라 안테들 또는 아티들이라 칭한다. 야탑교는 돌마초등
@@ -1121,7 +1121,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.022 -->
 ### p.022
 
-[페이지 이미지: vol-32-page-022.jpg](assets/pages/vol-32-page-022.jpg)
+[페이지 이미지: vol-32-page-022.jpg](assets/pages/vol-32/vol-32-page-022.jpg)
 
 ```text
 각 동의 일반 현황
@@ -1143,7 +1143,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.023 -->
 ### p.023
 
-[페이지 이미지: vol-32-page-023.jpg](assets/pages/vol-32-page-023.jpg)
+[페이지 이미지: vol-32-page-023.jpg](assets/pages/vol-32/vol-32-page-023.jpg)
 
 ```text
                             1971년 성남 도시기본계
@@ -1189,7 +1189,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.024 -->
 ### p.024
 
-[페이지 이미지: vol-32-page-024.jpg](assets/pages/vol-32-page-024.jpg)
+[페이지 이미지: vol-32-page-024.jpg](assets/pages/vol-32/vol-32-page-024.jpg)
 
 ```text
                           면적의 분할 또는 도시계획사업을 시행할 수 없다. 그러나 전세 시장의 수급 불균형 해소
@@ -1231,7 +1231,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.025 -->
 ### p.025
 
-[페이지 이미지: vol-32-page-025.jpg](assets/pages/vol-32-page-025.jpg)
+[페이지 이미지: vol-32-page-025.jpg](assets/pages/vol-32/vol-32-page-025.jpg)
 
 ```text
 1 여수동의 일반 현황 및 공간 변화
@@ -1269,7 +1269,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.026 -->
 ### p.026
 
-[페이지 이미지: vol-32-page-026.jpg](assets/pages/vol-32-page-026.jpg)
+[페이지 이미지: vol-32-page-026.jpg](assets/pages/vol-32/vol-32-page-026.jpg)
 
 ```text
                           2022년 여수동 토지 지목 현황
@@ -1334,7 +1334,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.027 -->
 ### p.027
 
-[페이지 이미지: vol-32-page-027.jpg](assets/pages/vol-32-page-027.jpg)
+[페이지 이미지: vol-32-page-027.jpg](assets/pages/vol-32/vol-32-page-027.jpg)
 
 ```text
 2013~2022년 여수동 토지 지목 비교
@@ -1405,7 +1405,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.028 -->
 ### p.028
 
-[페이지 이미지: vol-32-page-028.jpg](assets/pages/vol-32-page-028.jpg)
+[페이지 이미지: vol-32-page-028.jpg](assets/pages/vol-32/vol-32-page-028.jpg)
 
 ```text
                           경관을 형성하고 있다.
@@ -1449,7 +1449,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.029 -->
 ### p.029
 
-[페이지 이미지: vol-32-page-029.jpg](assets/pages/vol-32-page-029.jpg)
+[페이지 이미지: vol-32-page-029.jpg](assets/pages/vol-32/vol-32-page-029.jpg)
 
 ```text
 1920년에 큰비로 인한 홍수로 밭과 들판은 황폐해지는 것을 보고 이병철은 가난한 농민
@@ -1496,7 +1496,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.030 -->
 ### p.030
 
-[페이지 이미지: vol-32-page-030.jpg](assets/pages/vol-32-page-030.jpg)
+[페이지 이미지: vol-32-page-030.jpg](assets/pages/vol-32/vol-32-page-030.jpg)
 
 ```text
                           여수동(2024)
@@ -1523,7 +1523,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.031 -->
 ### p.031
 
-[페이지 이미지: vol-32-page-031.jpg](assets/pages/vol-32-page-031.jpg)
+[페이지 이미지: vol-32-page-031.jpg](assets/pages/vol-32/vol-32-page-031.jpg)
 
 ```text
 개통되었다가, 분당신도시 개발에 따라 왕복 8차로로 확장되었는데, 도로의 길이는 2.56
@@ -1562,7 +1562,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.032 -->
 ### p.032
 
-[페이지 이미지: vol-32-page-032.jpg](assets/pages/vol-32-page-032.jpg)
+[페이지 이미지: vol-32-page-032.jpg](assets/pages/vol-32/vol-32-page-032.jpg)
 
 ```text
                               2017년 10월 『성남일보』와 『뉴스데이』1는 비상위원회의 활동에 대하여 기사화하였다.
@@ -1601,7 +1601,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.033 -->
 ### p.033
 
-[페이지 이미지: vol-32-page-033.jpg](assets/pages/vol-32-page-033.jpg)
+[페이지 이미지: vol-32-page-033.jpg](assets/pages/vol-32/vol-32-page-033.jpg)
 
 ```text
     비상위원회는 도로 건설을 반대하는 것이 아니라 도로공사 구간을 조정하여 산림파괴와 주민의
@@ -1648,7 +1648,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.034 -->
 ### p.034
 
-[페이지 이미지: vol-32-page-034.jpg](assets/pages/vol-32-page-034.jpg)
+[페이지 이미지: vol-32-page-034.jpg](assets/pages/vol-32/vol-32-page-034.jpg)
 
 ```text
                                 4) 주거지 공간의 변화
@@ -1686,7 +1686,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.035 -->
 ### p.035
 
-[페이지 이미지: vol-32-page-035.jpg](assets/pages/vol-32-page-035.jpg)
+[페이지 이미지: vol-32-page-035.jpg](assets/pages/vol-32/vol-32-page-035.jpg)
 
 ```text
 2 도촌동의 일반 현황 및 공간 변화
@@ -1719,7 +1719,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.036 -->
 ### p.036
 
-[페이지 이미지: vol-32-page-036.jpg](assets/pages/vol-32-page-036.jpg)
+[페이지 이미지: vol-32-page-036.jpg](assets/pages/vol-32/vol-32-page-036.jpg)
 
 ```text
                           2022년 도촌동 토지 지목 현황
@@ -1786,7 +1786,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.037 -->
 ### p.037
 
-[페이지 이미지: vol-32-page-037.jpg](assets/pages/vol-32-page-037.jpg)
+[페이지 이미지: vol-32-page-037.jpg](assets/pages/vol-32/vol-32-page-037.jpg)
 
 ```text
 2013~2022년까지 도촌동 토지 지목현황 비교표                                                                                           단위 : ㎡
@@ -1864,7 +1864,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.038 -->
 ### p.038
 
-[페이지 이미지: vol-32-page-038.jpg](assets/pages/vol-32-page-038.jpg)
+[페이지 이미지: vol-32-page-038.jpg](assets/pages/vol-32/vol-32-page-038.jpg)
 
 ```text
                           도촌동(2024)                              도촌천
@@ -1903,7 +1903,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.039 -->
 ### p.039
 
-[페이지 이미지: vol-32-page-039.jpg](assets/pages/vol-32-page-039.jpg)
+[페이지 이미지: vol-32-page-039.jpg](assets/pages/vol-32/vol-32-page-039.jpg)
 
 ```text
    도촌동 보호수 느티나무 전경(2024)   도촌동 보호수 느티나무 푯말(2024)
@@ -1941,7 +1941,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.040 -->
 ### p.040
 
-[페이지 이미지: vol-32-page-040.jpg](assets/pages/vol-32-page-040.jpg)
+[페이지 이미지: vol-32-page-040.jpg](assets/pages/vol-32/vol-32-page-040.jpg)
 
 ```text
                           변경되었고, 2007년 12월 하대원동에서 도촌동이 분동하면서 법정동이 되었다. 이에 도촌
@@ -1997,7 +1997,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.041 -->
 ### p.041
 
-[페이지 이미지: vol-32-page-041.jpg](assets/pages/vol-32-page-041.jpg)
+[페이지 이미지: vol-32-page-041.jpg](assets/pages/vol-32/vol-32-page-041.jpg)
 
 ```text
 도촌동의 인구수는 중원구 인구수의 약 0.457%에 해당하는 1,221명이었으나, 도촌지구
@@ -2062,7 +2062,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.042 -->
 ### p.042
 
-[페이지 이미지: vol-32-page-042.jpg](assets/pages/vol-32-page-042.jpg)
+[페이지 이미지: vol-32-page-042.jpg](assets/pages/vol-32/vol-32-page-042.jpg)
 
 ```text
                           위례신도시를 연결하는 간선도로 중 하나인 ‘도촌지구-공단로 간 도로’가 2007년 공사를
@@ -2109,7 +2109,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.043 -->
 ### p.043
 
-[페이지 이미지: vol-32-page-043.jpg](assets/pages/vol-32-page-043.jpg)
+[페이지 이미지: vol-32-page-043.jpg](assets/pages/vol-32/vol-32-page-043.jpg)
 
 ```text
 3 야탑동의 일반 현황 및 공간 변화
@@ -2144,7 +2144,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.044 -->
 ### p.044
 
-[페이지 이미지: vol-32-page-044.jpg](assets/pages/vol-32-page-044.jpg)
+[페이지 이미지: vol-32-page-044.jpg](assets/pages/vol-32/vol-32-page-044.jpg)
 
 ```text
                           2022년 야탑동 토지 지목 현황
@@ -2219,7 +2219,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.045 -->
 ### p.045
 
-[페이지 이미지: vol-32-page-045.jpg](assets/pages/vol-32-page-045.jpg)
+[페이지 이미지: vol-32-page-045.jpg](assets/pages/vol-32/vol-32-page-045.jpg)
 
 ```text
 2003~2022년 야탑동 토지 지목 현황
@@ -2275,7 +2275,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.046 -->
 ### p.046
 
-[페이지 이미지: vol-32-page-046.jpg](assets/pages/vol-32-page-046.jpg)
+[페이지 이미지: vol-32-page-046.jpg](assets/pages/vol-32/vol-32-page-046.jpg)
 
 ```text
                            야탑천은 야탑동을 흐르는 하천이다. 분당메모리얼파크가 위치하는 큰매지봉에서 발원
@@ -2325,7 +2325,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.047 -->
 ### p.047
 
-[페이지 이미지: vol-32-page-047.jpg](assets/pages/vol-32-page-047.jpg)
+[페이지 이미지: vol-32-page-047.jpg](assets/pages/vol-32/vol-32-page-047.jpg)
 
 ```text
 2003~2023년 분당구와 야탑동의 인구 변화
@@ -2415,7 +2415,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.048 -->
 ### p.048
 
-[페이지 이미지: vol-32-page-048.jpg](assets/pages/vol-32-page-048.jpg)
+[페이지 이미지: vol-32-page-048.jpg](assets/pages/vol-32/vol-32-page-048.jpg)
 
 ```text
                           프에서 알 수 있듯이 야탑동 전체 인구수에 있어서 야탑3동의 인구 비율이 가장 높다. 야
@@ -2484,7 +2484,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.049 -->
 ### p.049
 
-[페이지 이미지: vol-32-page-049.jpg](assets/pages/vol-32-page-049.jpg)
+[페이지 이미지: vol-32-page-049.jpg](assets/pages/vol-32/vol-32-page-049.jpg)
 
 ```text
    연도           전체 인구       야탑1동 인구   야탑2동 인구   야탑3동 인구
@@ -2535,7 +2535,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.050 -->
 ### p.050
 
-[페이지 이미지: vol-32-page-050.jpg](assets/pages/vol-32-page-050.jpg)
+[페이지 이미지: vol-32-page-050.jpg](assets/pages/vol-32/vol-32-page-050.jpg)
 
 ```text
                            야탑동은 분당수서로나 분당내곡로와의 접근성도 좋으며, 수도권 제1순환고속도로 성
@@ -2582,7 +2582,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.051 -->
 ### p.051
 
-[페이지 이미지: vol-32-page-051.jpg](assets/pages/vol-32-page-051.jpg)
+[페이지 이미지: vol-32-page-051.jpg](assets/pages/vol-32/vol-32-page-051.jpg)
 
 ```text
 한국건축가협회상을 수상할 정도로 천편일률적인 장묘 방식에서 벗어나 묘비가 예술 작
@@ -2625,7 +2625,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.052 -->
 ### p.052
 
-[페이지 이미지: vol-32-page-052.jpg](assets/pages/vol-32-page-052.jpg)
+[페이지 이미지: vol-32-page-052.jpg](assets/pages/vol-32/vol-32-page-052.jpg)
 
 ```text
 도시개발과 도시
@@ -2653,7 +2653,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.053 -->
 ### p.053
 
-[페이지 이미지: vol-32-page-053.jpg](assets/pages/vol-32-page-053.jpg)
+[페이지 이미지: vol-32-page-053.jpg](assets/pages/vol-32/vol-32-page-053.jpg)
 
 ```text
 1 도시개발의 배경
@@ -2692,7 +2692,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.054 -->
 ### p.054
 
-[페이지 이미지: vol-32-page-054.jpg](assets/pages/vol-32-page-054.jpg)
+[페이지 이미지: vol-32-page-054.jpg](assets/pages/vol-32/vol-32-page-054.jpg)
 
 ```text
                           구이며, 여수지구는 2006년 6월 건설교통부의 국민임대주택 예정지구로 지정되었다. 이
@@ -2739,7 +2739,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.055 -->
 ### p.055
 
-[페이지 이미지: vol-32-page-055.jpg](assets/pages/vol-32-page-055.jpg)
+[페이지 이미지: vol-32-page-055.jpg](assets/pages/vol-32/vol-32-page-055.jpg)
 
 ```text
 이었다. 따라서 공급과 관련해서 지역별로 입주민들이 얻게 되는 편익의 차이를 최소화함
@@ -2786,7 +2786,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.056 -->
 ### p.056
 
-[페이지 이미지: vol-32-page-056.jpg](assets/pages/vol-32-page-056.jpg)
+[페이지 이미지: vol-32-page-056.jpg](assets/pages/vol-32/vol-32-page-056.jpg)
 
 ```text
                           을 모색하며, 양호한 농경지를 선별하여 도시형 근교농업을 육성하는 계획이었다.
@@ -2834,7 +2834,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.057 -->
 ### p.057
 
-[페이지 이미지: vol-32-page-057.jpg](assets/pages/vol-32-page-057.jpg)
+[페이지 이미지: vol-32-page-057.jpg](assets/pages/vol-32/vol-32-page-057.jpg)
 
 ```text
 3호선은 동서 주간선 1축으로 형성하여 안양-성남-광주를 연결하도록 계획되었으며, 남
@@ -2894,7 +2894,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.058 -->
 ### p.058
 
-[페이지 이미지: vol-32-page-058.jpg](assets/pages/vol-32-page-058.jpg)
+[페이지 이미지: vol-32-page-058.jpg](assets/pages/vol-32/vol-32-page-058.jpg)
 
 ```text
                           2020 성남도시기본계획 도시 공간 구조         2020 성남도시기본계획 도시 공간 구조 이미지
@@ -2934,7 +2934,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.059 -->
 ### p.059
 
-[페이지 이미지: vol-32-page-059.jpg](assets/pages/vol-32-page-059.jpg)
+[페이지 이미지: vol-32-page-059.jpg](assets/pages/vol-32/vol-32-page-059.jpg)
 
 ```text
 조로 새로운 도시변화에 대응이 유리하며, 외곽 보전녹지축의 훼손을 최소화할 수 있다는
@@ -2981,7 +2981,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.060 -->
 ### p.060
 
-[페이지 이미지: vol-32-page-060.jpg](assets/pages/vol-32-page-060.jpg)
+[페이지 이미지: vol-32-page-060.jpg](assets/pages/vol-32/vol-32-page-060.jpg)
 
 ```text
                            2 여수동 도시개발
@@ -3021,7 +3021,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.061 -->
 ### p.061
 
-[페이지 이미지: vol-32-page-061.jpg](assets/pages/vol-32-page-061.jpg)
+[페이지 이미지: vol-32-page-061.jpg](assets/pages/vol-32/vol-32-page-061.jpg)
 
 ```text
 은 문제점을 가지고 있다. 개발제한구역의 평가 기준은 5등급으로 구분하고 있는데, 여수
@@ -3082,7 +3082,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.062 -->
 ### p.062
 
-[페이지 이미지: vol-32-page-062.jpg](assets/pages/vol-32-page-062.jpg)
+[페이지 이미지: vol-32-page-062.jpg](assets/pages/vol-32/vol-32-page-062.jpg)
 
 ```text
                           을 수립하는 동시에 지구 가장자리에 위치하는 도로의 기능을 유지하면서 원활한 차량 소
@@ -3113,7 +3113,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.063 -->
 ### p.063
 
-[페이지 이미지: vol-32-page-063.jpg](assets/pages/vol-32-page-063.jpg)
+[페이지 이미지: vol-32-page-063.jpg](assets/pages/vol-32/vol-32-page-063.jpg)
 
 ```text
  2) 개발 과정
@@ -3179,7 +3179,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.064 -->
 ### p.064
 
-[페이지 이미지: vol-32-page-064.jpg](assets/pages/vol-32-page-064.jpg)
+[페이지 이미지: vol-32-page-064.jpg](assets/pages/vol-32/vol-32-page-064.jpg)
 
 ```text
                                     일정                              내용
@@ -3236,7 +3236,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.065 -->
 ### p.065
 
-[페이지 이미지: vol-32-page-065.jpg](assets/pages/vol-32-page-065.jpg)
+[페이지 이미지: vol-32-page-065.jpg](assets/pages/vol-32/vol-32-page-065.jpg)
 
 ```text
 성남 여수 국민임대 주택단지 토지이용계획                                                   단위 : ㎡·%
@@ -3308,7 +3308,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.066 -->
 ### p.066
 
-[페이지 이미지: vol-32-page-066.jpg](assets/pages/vol-32-page-066.jpg)
+[페이지 이미지: vol-32-page-066.jpg](assets/pages/vol-32/vol-32-page-066.jpg)
 
 ```text
                            (3) 도로계획
@@ -3358,7 +3358,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.067 -->
 ### p.067
 
-[페이지 이미지: vol-32-page-067.jpg](assets/pages/vol-32-page-067.jpg)
+[페이지 이미지: vol-32-page-067.jpg](assets/pages/vol-32/vol-32-page-067.jpg)
 
 ```text
 심으로서 주요 부분에 랜드마크적 역할을 부여하는 것이다. 셋째, 행정중심 네트워크는
@@ -3399,7 +3399,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.068 -->
 ### p.068
 
-[페이지 이미지: vol-32-page-068.jpg](assets/pages/vol-32-page-068.jpg)
+[페이지 이미지: vol-32-page-068.jpg](assets/pages/vol-32/vol-32-page-068.jpg)
 
 ```text
                            3 도촌동 도시개발
@@ -3439,7 +3439,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.069 -->
 ### p.069
 
-[페이지 이미지: vol-32-page-069.jpg](assets/pages/vol-32-page-069.jpg)
+[페이지 이미지: vol-32-page-069.jpg](assets/pages/vol-32/vol-32-page-069.jpg)
 
 ```text
 도촌지구 개발계획 평면도(2003)
@@ -3475,7 +3475,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.070 -->
 ### p.070
 
-[페이지 이미지: vol-32-page-070.jpg](assets/pages/vol-32-page-070.jpg)
+[페이지 이미지: vol-32-page-070.jpg](assets/pages/vol-32/vol-32-page-070.jpg)
 
 ```text
                           도촌지구 도시개발 과정 연표(2002~2003)
@@ -3533,7 +3533,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.071 -->
 ### p.071
 
-[페이지 이미지: vol-32-page-071.jpg](assets/pages/vol-32-page-071.jpg)
+[페이지 이미지: vol-32-page-071.jpg](assets/pages/vol-32/vol-32-page-071.jpg)
 
 ```text
 도촌지구 토지용지계획 총괄표                                                        단위 : ㎡·%
@@ -3592,7 +3592,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.072 -->
 ### p.072
 
-[페이지 이미지: vol-32-page-072.jpg](assets/pages/vol-32-page-072.jpg)
+[페이지 이미지: vol-32-page-072.jpg](assets/pages/vol-32/vol-32-page-072.jpg)
 
 ```text
                            (3) 도로계획
@@ -3642,7 +3642,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.073 -->
 ### p.073
 
-[페이지 이미지: vol-32-page-073.jpg](assets/pages/vol-32-page-073.jpg)
+[페이지 이미지: vol-32-page-073.jpg](assets/pages/vol-32/vol-32-page-073.jpg)
 
 ```text
 보행자 전용도로와 연계하여 배치하는 등 차량 및 보행자의 접근성을 제고시켜 공공행정
@@ -3671,7 +3671,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.074 -->
 ### p.074
 
-[페이지 이미지: vol-32-page-074.jpg](assets/pages/vol-32-page-074.jpg)
+[페이지 이미지: vol-32-page-074.jpg](assets/pages/vol-32/vol-32-page-074.jpg)
 
 ```text
                            4 야탑동 도시개발
@@ -3711,7 +3711,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.075 -->
 ### p.075
 
-[페이지 이미지: vol-32-page-075.jpg](assets/pages/vol-32-page-075.jpg)
+[페이지 이미지: vol-32-page-075.jpg](assets/pages/vol-32/vol-32-page-075.jpg)
 
 ```text
 시 탄생은 당시에 절박한 주택 위기를
@@ -3758,7 +3758,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.076 -->
 ### p.076
 
-[페이지 이미지: vol-32-page-076.jpg](assets/pages/vol-32-page-076.jpg)
+[페이지 이미지: vol-32-page-076.jpg](assets/pages/vol-32/vol-32-page-076.jpg)
 
 ```text
                           수도권 5개 1기 신도시의 기능 및 성격
@@ -3819,7 +3819,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.077 -->
 ### p.077
 
-[페이지 이미지: vol-32-page-077.jpg](assets/pages/vol-32-page-077.jpg)
+[페이지 이미지: vol-32-page-077.jpg](assets/pages/vol-32/vol-32-page-077.jpg)
 
 ```text
  2) 분당신도시 개발 과정
@@ -3844,7 +3844,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.078 -->
 ### p.078
 
-[페이지 이미지: vol-32-page-078.jpg](assets/pages/vol-32-page-078.jpg)
+[페이지 이미지: vol-32-page-078.jpg](assets/pages/vol-32/vol-32-page-078.jpg)
 
 ```text
                           된 자연환경 속에 조성되었다는 점이 부각되었고, 서울 강남과의 접근성도 좋았기 때문에
@@ -3891,7 +3891,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.079 -->
 ### p.079
 
-[페이지 이미지: vol-32-page-079.jpg](assets/pages/vol-32-page-079.jpg)
+[페이지 이미지: vol-32-page-079.jpg](assets/pages/vol-32/vol-32-page-079.jpg)
 
 ```text
 분당신도시 11차 단계별 실시 계획 변경 내용                                       단위 : 천㎡
@@ -3946,7 +3946,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.080 -->
 ### p.080
 
-[페이지 이미지: vol-32-page-080.jpg](assets/pages/vol-32-page-080.jpg)
+[페이지 이미지: vol-32-page-080.jpg](assets/pages/vol-32/vol-32-page-080.jpg)
 
 ```text
                           당동, 여수동, 정자동, 수내동, 금곡동, 구미동 등지에 집단 취락 형태로 거주하고 있었다.
@@ -3997,7 +3997,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.081 -->
 ### p.081
 
-[페이지 이미지: vol-32-page-081.jpg](assets/pages/vol-32-page-081.jpg)
+[페이지 이미지: vol-32-page-081.jpg](assets/pages/vol-32/vol-32-page-081.jpg)
 
 ```text
  왼쪽의 분당신도시 생활권 구상도에서 알 수 있듯이 야탑지구는 상단 부분이다. 분당신
@@ -4045,7 +4045,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.082 -->
 ### p.082
 
-[페이지 이미지: vol-32-page-082.jpg](assets/pages/vol-32-page-082.jpg)
+[페이지 이미지: vol-32-page-082.jpg](assets/pages/vol-32/vol-32-page-082.jpg)
 
 ```text
                            (4) 공간계획
@@ -4093,7 +4093,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.083 -->
 ### p.083
 
-[페이지 이미지: vol-32-page-083.jpg](assets/pages/vol-32-page-083.jpg)
+[페이지 이미지: vol-32-page-083.jpg](assets/pages/vol-32/vol-32-page-083.jpg)
 
 ```text
  이 아파트형 공장은 주변 지역이 구릉으로 둘러싸여 계곡 사이에 입지하고 있는데, 건
@@ -4141,7 +4141,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.084 -->
 ### p.084
 
-[페이지 이미지: vol-32-page-084.jpg](assets/pages/vol-32-page-084.jpg)
+[페이지 이미지: vol-32-page-084.jpg](assets/pages/vol-32/vol-32-page-084.jpg)
 
 ```text
                           야탑동 공공분양주택 건립사업 조감도(2015)
@@ -4173,7 +4173,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.085 -->
 ### p.085
 
-[페이지 이미지: vol-32-page-085.jpg](assets/pages/vol-32-page-085.jpg)
+[페이지 이미지: vol-32-page-085.jpg](assets/pages/vol-32/vol-32-page-085.jpg)
 
 ```text
 새로운 도시의 탄생
@@ -4194,7 +4194,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.086 -->
 ### p.086
 
-[페이지 이미지: vol-32-page-086.jpg](assets/pages/vol-32-page-086.jpg)
+[페이지 이미지: vol-32-page-086.jpg](assets/pages/vol-32/vol-32-page-086.jpg)
 
 ```text
                            1 성남의 행정타운,
@@ -4238,7 +4238,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.087 -->
 ### p.087
 
-[페이지 이미지: vol-32-page-087.jpg](assets/pages/vol-32-page-087.jpg)
+[페이지 이미지: vol-32-page-087.jpg](assets/pages/vol-32/vol-32-page-087.jpg)
 
 ```text
     고 주민에게 어떤 이득이 있는지 등의 청사진을 설명해 줬으면 좋았을 텐데 그런 절차가 없었다.
@@ -4291,7 +4291,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.088 -->
 ### p.088
 
-[페이지 이미지: vol-32-page-088.jpg](assets/pages/vol-32-page-088.jpg)
+[페이지 이미지: vol-32-page-088.jpg](assets/pages/vol-32/vol-32-page-088.jpg)
 
 ```text
                           대비하고 분당, 판교, 위례신도시를 아우르는 도시의 중심 기능 수행을 위해 여수동에 신
@@ -4348,7 +4348,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.089 -->
 ### p.089
 
-[페이지 이미지: vol-32-page-089.jpg](assets/pages/vol-32-page-089.jpg)
+[페이지 이미지: vol-32-page-089.jpg](assets/pages/vol-32/vol-32-page-089.jpg)
 
 ```text
 요구로 이어졌다. 2005년 시청사(의회) 건립안 타당성 조사 완료와 2006년 11월 성남
@@ -4395,7 +4395,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.090 -->
 ### p.090
 
-[페이지 이미지: vol-32-page-090.jpg](assets/pages/vol-32-page-090.jpg)
+[페이지 이미지: vol-32-page-090.jpg](assets/pages/vol-32/vol-32-page-090.jpg)
 
 ```text
                           성남시 신청사 전경
@@ -4445,7 +4445,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.091 -->
 ### p.091
 
-[페이지 이미지: vol-32-page-091.jpg](assets/pages/vol-32-page-091.jpg)
+[페이지 이미지: vol-32-page-091.jpg](assets/pages/vol-32/vol-32-page-091.jpg)
 
 ```text
  4) 성남시청의 재미있는 풍수지리적 분석
@@ -4498,7 +4498,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.092 -->
 ### p.092
 
-[페이지 이미지: vol-32-page-092.jpg](assets/pages/vol-32-page-092.jpg)
+[페이지 이미지: vol-32-page-092.jpg](assets/pages/vol-32/vol-32-page-092.jpg)
 
 ```text
                           방과 나쁜 방위의 대문 4괘방에 따라 취용하거나 사용하지 않는 이론을 말하는데, 이것을
@@ -4530,7 +4530,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.093 -->
 ### p.093
 
-[페이지 이미지: vol-32-page-093.jpg](assets/pages/vol-32-page-093.jpg)
+[페이지 이미지: vol-32-page-093.jpg](assets/pages/vol-32/vol-32-page-093.jpg)
 
 ```text
 의 지룡(支龍)이 서진하는 용맥의 말단에 자리 잡고 있으나 주산의 주용맥을 타고 있지 않
@@ -4577,7 +4577,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.094 -->
 ### p.094
 
-[페이지 이미지: vol-32-page-094.jpg](assets/pages/vol-32-page-094.jpg)
+[페이지 이미지: vol-32-page-094.jpg](assets/pages/vol-32/vol-32-page-094.jpg)
 
 ```text
                            2 성남시 벤처지구 및
@@ -4620,7 +4620,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.095 -->
 ### p.095
 
-[페이지 이미지: vol-32-page-095.jpg](assets/pages/vol-32-page-095.jpg)
+[페이지 이미지: vol-32-page-095.jpg](assets/pages/vol-32/vol-32-page-095.jpg)
 
 ```text
 분당테크노파크 단지 전경(2024)
@@ -4659,7 +4659,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.096 -->
 ### p.096
 
-[페이지 이미지: vol-32-page-096.jpg](assets/pages/vol-32-page-096.jpg)
+[페이지 이미지: vol-32-page-096.jpg](assets/pages/vol-32/vol-32-page-096.jpg)
 
 ```text
                             코리아디자인센터 전경                 코리아디자인센터 1층 로비
@@ -4699,7 +4699,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.097 -->
 ### p.097
 
-[페이지 이미지: vol-32-page-097.jpg](assets/pages/vol-32-page-097.jpg)
+[페이지 이미지: vol-32-page-097.jpg](assets/pages/vol-32/vol-32-page-097.jpg)
 
 ```text
  3) 성남아트센터
@@ -4734,7 +4734,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.098 -->
 ### p.098
 
-[페이지 이미지: vol-32-page-098.jpg](assets/pages/vol-32-page-098.jpg)
+[페이지 이미지: vol-32-page-098.jpg](assets/pages/vol-32/vol-32-page-098.jpg)
 
 ```text
 남미디어센터를 개관하였다. 아트센터에는 총 3층의 1,809석으로 꾸며진 오페라하우스를
@@ -4772,7 +4772,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.099 -->
 ### p.099
 
-[페이지 이미지: vol-32-page-099.jpg](assets/pages/vol-32-page-099.jpg)
+[페이지 이미지: vol-32-page-099.jpg](assets/pages/vol-32/vol-32-page-099.jpg)
 
 ```text
 번기에 탑승한 교관은 낙하산으로 비상 탈출하여 목숨을 건졌으나, 이상희 대위는 기체
@@ -4840,7 +4840,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.100 -->
 ### p.100
 
-[페이지 이미지: vol-32-page-100.jpg](assets/pages/vol-32-page-100.jpg)
+[페이지 이미지: vol-32-page-100.jpg](assets/pages/vol-32/vol-32-page-100.jpg)
 
 ```text
                           어났다. 어렸을 때부터 이 대위는 파일럿이 되는 것이 꿈이어서 항공대학 항공운항과를
@@ -4890,7 +4890,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.101 -->
 ### p.101
 
-[페이지 이미지: vol-32-page-101.jpg](assets/pages/vol-32-page-101.jpg)
+[페이지 이미지: vol-32-page-101.jpg](assets/pages/vol-32/vol-32-page-101.jpg)
 
 ```text
 분당메모리얼파크 전경(2024)
@@ -4912,7 +4912,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.102 -->
 ### p.102
 
-[페이지 이미지: vol-32-page-102.jpg](assets/pages/vol-32-page-102.jpg)
+[페이지 이미지: vol-32-page-102.jpg](assets/pages/vol-32/vol-32-page-102.jpg)
 
 ```text
 살기 좋은 도시를
@@ -4939,7 +4939,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.103 -->
 ### p.103
 
-[페이지 이미지: vol-32-page-103.jpg](assets/pages/vol-32-page-103.jpg)
+[페이지 이미지: vol-32-page-103.jpg](assets/pages/vol-32/vol-32-page-103.jpg)
 
 ```text
  본 장에서는 여수동, 도촌동, 야탑동이 고향인 원주민을 대상으로 그들이 태어나고 자
@@ -4988,7 +4988,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.104 -->
 ### p.104
 
-[페이지 이미지: vol-32-page-104.jpg](assets/pages/vol-32-page-104.jpg)
+[페이지 이미지: vol-32-page-104.jpg](assets/pages/vol-32/vol-32-page-104.jpg)
 
 ```text
                            1 구도심과 신도시를 잇는 여수동
@@ -5034,7 +5034,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.105 -->
 ### p.105
 
-[페이지 이미지: vol-32-page-105.jpg](assets/pages/vol-32-page-105.jpg)
+[페이지 이미지: vol-32-page-105.jpg](assets/pages/vol-32/vol-32-page-105.jpg)
 
 ```text
    곤 했다. 그리고 팽이치기, 자치기,
@@ -5106,7 +5106,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.106 -->
 ### p.106
 
-[페이지 이미지: vol-32-page-106.jpg](assets/pages/vol-32-page-106.jpg)
+[페이지 이미지: vol-32-page-106.jpg](assets/pages/vol-32/vol-32-page-106.jpg)
 
 ```text
                           았기 때문에 대부분 교육을 받을 수 있는 상황은 아니었다고 한다.
@@ -5160,7 +5160,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.107 -->
 ### p.107
 
-[페이지 이미지: vol-32-page-107.jpg](assets/pages/vol-32-page-107.jpg)
+[페이지 이미지: vol-32-page-107.jpg](assets/pages/vol-32/vol-32-page-107.jpg)
 
 ```text
 로 변경 건설되어 오늘에 이르고 있다. 이 반대 운동을 펼친 이대열은 고속도로의 문제에
@@ -5226,7 +5226,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.108 -->
 ### p.108
 
-[페이지 이미지: vol-32-page-108.jpg](assets/pages/vol-32-page-108.jpg)
+[페이지 이미지: vol-32-page-108.jpg](assets/pages/vol-32/vol-32-page-108.jpg)
 
 ```text
                             그가 갖는 마지막 바람은 주민들이 참여한 대책위원회가 얻어낸 결과물을 역사의 기록
@@ -5269,7 +5269,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.109 -->
 ### p.109
 
-[페이지 이미지: vol-32-page-109.jpg](assets/pages/vol-32-page-109.jpg)
+[페이지 이미지: vol-32-page-109.jpg](assets/pages/vol-32/vol-32-page-109.jpg)
 
 ```text
  또한 그는 마을회관을 짓기 위해 외부로부터 기부금을 받는 활동도 하였다. 1980년대
@@ -5332,7 +5332,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.110 -->
 ### p.110
 
-[페이지 이미지: vol-32-page-110.jpg](assets/pages/vol-32-page-110.jpg)
+[페이지 이미지: vol-32-page-110.jpg](assets/pages/vol-32/vol-32-page-110.jpg)
 
 ```text
                                 면 해마다 노래자랑을 했는데, 여수동뿐 아니라 도촌동, 야탑동에서도 책임자들이 와서 같이 어울
@@ -5388,7 +5388,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.111 -->
 ### p.111
 
-[페이지 이미지: vol-32-page-111.jpg](assets/pages/vol-32-page-111.jpg)
+[페이지 이미지: vol-32-page-111.jpg](assets/pages/vol-32/vol-32-page-111.jpg)
 
 ```text
 지을 때, 80평에 4층까지 5세대 거주라는 규정이 있다고 한다. 그는 그 규정이 직접적인
@@ -5429,7 +5429,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.112 -->
 ### p.112
 
-[페이지 이미지: vol-32-page-112.jpg](assets/pages/vol-32-page-112.jpg)
+[페이지 이미지: vol-32-page-112.jpg](assets/pages/vol-32/vol-32-page-112.jpg)
 
 ```text
                            2 자연친화마을, 도촌동
@@ -5475,7 +5475,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.113 -->
 ### p.113
 
-[페이지 이미지: vol-32-page-113.jpg](assets/pages/vol-32-page-113.jpg)
+[페이지 이미지: vol-32-page-113.jpg](assets/pages/vol-32/vol-32-page-113.jpg)
 
 ```text
     대원동과 갈현동을 포함해서 정자
@@ -5543,7 +5543,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.114 -->
 ### p.114
 
-[페이지 이미지: vol-32-page-114.jpg](assets/pages/vol-32-page-114.jpg)
+[페이지 이미지: vol-32-page-114.jpg](assets/pages/vol-32/vol-32-page-114.jpg)
 
 ```text
                                 통편이 불편하니까 직접 팔러 갈 때는 야채를 박스당 운반비를 받고 운반해 주는 중개인과 함께 여
@@ -5613,7 +5613,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.115 -->
 ### p.115
 
-[페이지 이미지: vol-32-page-115.jpg](assets/pages/vol-32-page-115.jpg)
+[페이지 이미지: vol-32-page-115.jpg](assets/pages/vol-32/vol-32-page-115.jpg)
 
 ```text
     서 명칭을 붙이는 게 맞는데 하대원 이씨의 종중 명칭을 따서 붙인 걸로 알고 있다. 행정적인 일 처
@@ -5668,7 +5668,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.116 -->
 ### p.116
 
-[페이지 이미지: vol-32-page-116.jpg](assets/pages/vol-32-page-116.jpg)
+[페이지 이미지: vol-32-page-116.jpg](assets/pages/vol-32/vol-32-page-116.jpg)
 
 ```text
                            3 분당의 관문, 야탑동
@@ -5714,7 +5714,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.117 -->
 ### p.117
 
-[페이지 이미지: vol-32-page-117.jpg](assets/pages/vol-32-page-117.jpg)
+[페이지 이미지: vol-32-page-117.jpg](assets/pages/vol-32/vol-32-page-117.jpg)
 
 ```text
     조상님의 제사를 모시는 일을 하고 있다. 우리 문중의 야탑 입향조 할아버지는 13대로, 현재까지
@@ -5782,7 +5782,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.118 -->
 ### p.118
 
-[페이지 이미지: vol-32-page-118.jpg](assets/pages/vol-32-page-118.jpg)
+[페이지 이미지: vol-32-page-118.jpg](assets/pages/vol-32/vol-32-page-118.jpg)
 
 ```text
                                 다. 야탑사거리 뒤쪽으로 탄천이 있는데, 숯내길이라고도 불렀다. 어렸을 때 그 천에 가서 목욕하
@@ -5850,7 +5850,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.119 -->
 ### p.119
 
-[페이지 이미지: vol-32-page-119.jpg](assets/pages/vol-32-page-119.jpg)
+[페이지 이미지: vol-32-page-119.jpg](assets/pages/vol-32/vol-32-page-119.jpg)
 
 ```text
   1990년대 야탑동 전경(이남형 제공)
@@ -5894,7 +5894,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.120 -->
 ### p.120
 
-[페이지 이미지: vol-32-page-120.jpg](assets/pages/vol-32-page-120.jpg)
+[페이지 이미지: vol-32-page-120.jpg](assets/pages/vol-32/vol-32-page-120.jpg)
 
 ```text
                                 야탑동의 변화라고 하면 특별히 얘기할 것은 없지만, 내가 어렸을 때 만들어진 남서울묘지공원이
@@ -5963,7 +5963,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.121 -->
 ### p.121
 
-[페이지 이미지: vol-32-page-121.jpg](assets/pages/vol-32-page-121.jpg)
+[페이지 이미지: vol-32-page-121.jpg](assets/pages/vol-32/vol-32-page-121.jpg)
 
 ```text
     가보니 큰 구덩이가 파여있었다. 만약에 마을에 떨어졌으면 바로 불바다가 되었을 것이다. 지금도
@@ -6026,7 +6026,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.122 -->
 ### p.122
 
-[페이지 이미지: vol-32-page-122.jpg](assets/pages/vol-32-page-122.jpg)
+[페이지 이미지: vol-32-page-122.jpg](assets/pages/vol-32/vol-32-page-122.jpg)
 
 ```text
                                 야탑동이 신도시로 개발되면서 주민들은 농토를 뺏기게 되어 고속도로 가서 시위하고 데모도 하
@@ -6094,7 +6094,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.123 -->
 ### p.123
 
-[페이지 이미지: vol-32-page-123.jpg](assets/pages/vol-32-page-123.jpg)
+[페이지 이미지: vol-32-page-123.jpg](assets/pages/vol-32/vol-32-page-123.jpg)
 
 ```text
 글을 마치며
@@ -6138,7 +6138,7 @@ CGV 야탑 등 쇼핑과 여가생활에 편리한 인프라를 비롯해 의료
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.124 -->
 ### p.124
 
-[페이지 이미지: vol-32-page-124.jpg](assets/pages/vol-32-page-124.jpg)
+[페이지 이미지: vol-32-page-124.jpg](assets/pages/vol-32/vol-32-page-124.jpg)
 
 ```text
 참
@@ -6186,7 +6186,7 @@ CGV 야탑 등 쇼핑과 여가생활에 편리한 인프라를 비롯해 의료
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.125 -->
 ### p.125
 
-[페이지 이미지: vol-32-page-125.jpg](assets/pages/vol-32-page-125.jpg)
+[페이지 이미지: vol-32-page-125.jpg](assets/pages/vol-32/vol-32-page-125.jpg)
 
 ```text
  정태열,「성남시 공공기관의 좌향과 출입구에 대한 풍수연구」,『성남문화연구』제31호, 성남문
@@ -6213,7 +6213,7 @@ CGV 야탑 등 쇼핑과 여가생활에 편리한 인프라를 비롯해 의료
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.126 -->
 ### p.126
 
-[페이지 이미지: vol-32-page-126.jpg](assets/pages/vol-32-page-126.jpg)
+[페이지 이미지: vol-32-page-126.jpg](assets/pages/vol-32/vol-32-page-126.jpg)
 
 ```text
 
@@ -6222,7 +6222,7 @@ CGV 야탑 등 쇼핑과 여가생활에 편리한 인프라를 비롯해 의료
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.127 -->
 ### p.127
 
-[페이지 이미지: vol-32-page-127.jpg](assets/pages/vol-32-page-127.jpg)
+[페이지 이미지: vol-32-page-127.jpg](assets/pages/vol-32/vol-32-page-127.jpg)
 
 ```text
 성남시사 32
@@ -6249,7 +6249,7 @@ CGV 야탑 등 쇼핑과 여가생활에 편리한 인프라를 비롯해 의료
 <!-- source: ../../sources/seongnam-history-50-vol-32.pdf p.128 -->
 ### p.128
 
-[페이지 이미지: vol-32-page-128.jpg](assets/pages/vol-32-page-128.jpg)
+[페이지 이미지: vol-32-page-128.jpg](assets/pages/vol-32/vol-32-page-128.jpg)
 
 ```text
 

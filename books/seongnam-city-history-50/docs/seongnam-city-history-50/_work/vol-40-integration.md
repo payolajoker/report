@@ -4,7 +4,7 @@
 
 - 본문 Markdown: `docs/seongnam-city-history-50/vol-40-natives-migrants-seongnam-life.md`
 - LLM 번들: `dist/seongnam-history-50-vol-40.llm.md`
-- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-40-page-*.jpg` 152개
+- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-*.jpg` 152개
 - 원천 PDF: `sources/seongnam-history-50-vol-40.pdf`
 
 ## 처리 상태

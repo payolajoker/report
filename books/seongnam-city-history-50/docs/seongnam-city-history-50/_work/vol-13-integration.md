@@ -8,7 +8,7 @@
 - Extraction method: embedded PDF text layer with `pdftotext -layout`
 - Markdown: `docs/seongnam-city-history-50/vol-13-elections-local-autonomy.md`
 - LLM bundle: `dist/seongnam-history-50-vol-13.llm.md`
-- Rendered images: 119 pages under `docs/seongnam-city-history-50/assets/pages/vol-13-page-*.jpg`
+- Rendered images: 119 pages under `docs/seongnam-city-history-50/assets/pages/vol-13/vol-13-page-*.jpg`
 - Remaining ranges: none. Full 1-160 page range has source markers and extracted text.
 
 ## Merge Candidates

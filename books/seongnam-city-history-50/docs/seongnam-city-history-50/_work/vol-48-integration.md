@@ -4,7 +4,7 @@
 
 - 본문 Markdown: `docs/seongnam-city-history-50/vol-48-photo-essay-seongnam-align.md`
 - LLM 번들: `dist/seongnam-history-50-vol-48.llm.md`
-- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-48-page-*.jpg` 128개
+- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-48/vol-48-page-*.jpg` 128개
 - 원천 PDF: `sources/seongnam-history-50-vol-48.pdf`
 
 ## 처리 상태
@@ -55,63 +55,63 @@
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| vol-48-page-001.jpg](assets/pages/vol-48-page-001.jpg) | 001 | 표지와 권명, 발간등록번호, 영문 시리즈명 | title-page |
-| vol-48-page-004.jpg](assets/pages/vol-48-page-004.jpg) | 004 | 머리말 장 표지 | front-matter |
-| vol-48-page-008.jpg](assets/pages/vol-48-page-008.jpg) | 008 | Part 1·2 목차 | toc |
-| vol-48-page-009.jpg](assets/pages/vol-48-page-009.jpg) | 009 | Part 3-6 목차 | toc |
-| vol-48-page-010.jpg](assets/pages/vol-48-page-010.jpg) | 010 | Part 1 장 표지, 분당 중앙공원 파크콘서트 | part-title |
-| vol-48-page-015.jpg](assets/pages/vol-48-page-015.jpg) | 015 | 8·10성남항쟁 기념식과 광주대단지 사건 기념 그림전 | memory-photo |
-| vol-48-page-016.jpg](assets/pages/vol-48-page-016.jpg) | 016 | 성남 원도심 그림과 화첩 | art-memory |
-| vol-48-page-019.jpg](assets/pages/vol-48-page-019.jpg) | 019 | 판교 경기콘텐츠코리아랩 창업자 네트워크 게시판 | startup-space |
-| vol-48-page-021.jpg](assets/pages/vol-48-page-021.jpg) | 021 | 창업지원 공유 오피스 내 카페 | third-place |
-| vol-48-page-023.jpg](assets/pages/vol-48-page-023.jpg) | 023 | 2025 성남의 얼굴전과 소장품 기획전 | museum-exhibition |
-| vol-48-page-027.jpg](assets/pages/vol-48-page-027.jpg) | 027 | 성남 원도심 전통 오일장 모란시장 전경 | market-photo |
-| vol-48-page-030.jpg](assets/pages/vol-48-page-030.jpg) | 030 | 성남시청 자원봉사박람회 | civic-participation |
-| vol-48-page-032.jpg](assets/pages/vol-48-page-032.jpg) | 032 | Part 2 장 표지, 위례수변공원의 봄 | part-title |
-| vol-48-page-036.jpg](assets/pages/vol-48-page-036.jpg) | 036 | 분당 율동공원의 봄 | park-photo |
-| vol-48-page-038.jpg](assets/pages/vol-48-page-038.jpg) | 038 | 위례 근린공원의 봄 | park-photo |
-| vol-48-page-039.jpg](assets/pages/vol-48-page-039.jpg) | 039 | 태평동 탄천의 왜가리 | ecology-photo |
-| vol-48-page-041.jpg](assets/pages/vol-48-page-041.jpg) | 041 | 태평동 탄천습지생태원 어린이 환경교육 | environmental-education |
-| vol-48-page-044.jpg](assets/pages/vol-48-page-044.jpg) | 044 | 탄천 피크닉장 개장식 관악기 공연 | park-culture |
-| vol-48-page-047.jpg](assets/pages/vol-48-page-047.jpg) | 047 | 정자동 탄천 변 에어로빅 | everyday-sports |
-| vol-48-page-048.jpg](assets/pages/vol-48-page-048.jpg) | 048 | Part 3 장 표지, 불 밝힌 판교의 밤 | part-title |
-| vol-48-page-051.jpg](assets/pages/vol-48-page-051.jpg) | 051 | 1970년대 성남 원도심 성호시장 풍경 | historic-market |
-| vol-48-page-053.jpg](assets/pages/vol-48-page-053.jpg) | 053 | 성호시장과 1980년대 성남 원도심 공업단지 | old-city-industry |
-| vol-48-page-054.jpg](assets/pages/vol-48-page-054.jpg) | 054 | 성남하이테크밸리와 3,600여 개 공장 언급 | industrial-district |
-| vol-48-page-056.jpg](assets/pages/vol-48-page-056.jpg) | 056 | 국내 1호 일반산업단지 성남하이테크밸리 | industrial-district |
-| vol-48-page-058.jpg](assets/pages/vol-48-page-058.jpg) | 058 | 경기콘텐츠코리아랩 스타트업 데모데이 | startup-event |
-| vol-48-page-062.jpg](assets/pages/vol-48-page-062.jpg) | 062 | 판교 유스페이스에 비친 경기콘텐츠코리아랩 | pangyo-startup |
-| vol-48-page-066.jpg](assets/pages/vol-48-page-066.jpg) | 066 | Part 4 장 표지, 남한산성 | part-title |
-| vol-48-page-069.jpg](assets/pages/vol-48-page-069.jpg) | 069 | 1970년대 남한산성 수어장대 | heritage-photo |
-| vol-48-page-071.jpg](assets/pages/vol-48-page-071.jpg) | 071 | 모란시장을 형상화한 예술기둥과 다육이 | market-memory |
-| vol-48-page-073.jpg](assets/pages/vol-48-page-073.jpg) | 073 | 2018년 새 보금자리로 이동한 모란시장 | market-transition |
-| vol-48-page-074.jpg](assets/pages/vol-48-page-074.jpg) | 074 | 오리뜰농악 복색과 야탑역 공연 | folk-culture |
-| vol-48-page-076.jpg](assets/pages/vol-48-page-076.jpg) | 076 | 재개발 바람이 부는 성남 원도심 | redevelopment-photo |
-| vol-48-page-078.jpg](assets/pages/vol-48-page-078.jpg) | 078 | 태평동 골목 드론 사진과 위례스토리박스 | newtown-community |
-| vol-48-page-080.jpg](assets/pages/vol-48-page-080.jpg) | 080 | 율동 책테마파크와 남한산성시장 골목상점 | everyday-space |
-| vol-48-page-082.jpg](assets/pages/vol-48-page-082.jpg) | 082 | 정자동 카페거리 축제 | street-festival |
-| vol-48-page-084.jpg](assets/pages/vol-48-page-084.jpg) | 084 | 비가 와도 열리는 청년축제 | youth-festival |
-| vol-48-page-088.jpg](assets/pages/vol-48-page-088.jpg) | 088 | Part 5 장 표지, 분당 율동공원 황톳길 | part-title |
-| vol-48-page-093.jpg](assets/pages/vol-48-page-093.jpg) | 093 | 반려견 산책과 책테마파크 독서 | everyday-life |
-| vol-48-page-095.jpg](assets/pages/vol-48-page-095.jpg) | 095 | 배드민턴장, 그네, 박태현 작곡가 동상 | everyday-sports |
-| vol-48-page-096.jpg](assets/pages/vol-48-page-096.jpg) | 096 | 서현역 AK플라자 시계탑 | urban-landmark |
-| vol-48-page-098.jpg](assets/pages/vol-48-page-098.jpg) | 098 | 주전부리 노점과 AK플라자 과일 진열 | everyday-commerce |
-| vol-48-page-100.jpg](assets/pages/vol-48-page-100.jpg) | 100 | 분당 중앙공원 파크콘서트와 신승훈 | concert-photo |
-| vol-48-page-101.jpg](assets/pages/vol-48-page-101.jpg) | 101 | 태평마을 요리교실 포트럭파티 | community-food |
-| vol-48-page-104.jpg](assets/pages/vol-48-page-104.jpg) | 104 | Part 6 장 표지, 판교중앙역 플래시몹 | part-title |
-| vol-48-page-107.jpg](assets/pages/vol-48-page-107.jpg) | 107 | 위례스토리박스와 370여 년 느티나무 | intergenerational-space |
-| vol-48-page-108.jpg](assets/pages/vol-48-page-108.jpg) | 108 | 성남시박물관 일부 개관과 위례인생학교 | museum-lifelong-learning |
-| vol-48-page-109.jpg](assets/pages/vol-48-page-109.jpg) | 109 | 판교25통 재능기부와 축제 현장 | neighborhood-festival |
-| vol-48-page-112.jpg](assets/pages/vol-48-page-112.jpg) | 112 | 시민 리빙랩, 성남시민농원, 위례스토리박스 드론 체험 | living-lab |
-| vol-48-page-116.jpg](assets/pages/vol-48-page-116.jpg) | 116 | Epilogue, 메이커스페이스 성남 | epilogue |
-| vol-48-page-118.jpg](assets/pages/vol-48-page-118.jpg) | 118 | 분당 중앙공원 파크콘서트 | photo-retrospective |
-| vol-48-page-120.jpg](assets/pages/vol-48-page-120.jpg) | 120 | 연극 `황무지`와 위례 음악축제 | photo-retrospective |
-| vol-48-page-121.jpg](assets/pages/vol-48-page-121.jpg) | 121 | 옛 판교 쌍용거줄다리기 | photo-retrospective |
-| vol-48-page-122.jpg](assets/pages/vol-48-page-122.jpg) | 122 | 남한산성에서 바라본 위례와 분당구 | panorama |
-| vol-48-page-123.jpg](assets/pages/vol-48-page-123.jpg) | 123 | 탄천과 판교역 주변 전경 | panorama |
-| vol-48-page-124.jpg](assets/pages/vol-48-page-124.jpg) | 124 | 성남시청 | civic-landmark |
-| vol-48-page-127.jpg](assets/pages/vol-48-page-127.jpg) | 127 | 어안렌즈 성남시 전경 파노라마 | panorama |
-| vol-48-page-128.jpg](assets/pages/vol-48-page-128.jpg) | 128 | 판권과 발행 정보 | colophon |
+| vol-48-page-001.jpg](assets/pages/vol-48/vol-48-page-001.jpg) | 001 | 표지와 권명, 발간등록번호, 영문 시리즈명 | title-page |
+| vol-48-page-004.jpg](assets/pages/vol-48/vol-48-page-004.jpg) | 004 | 머리말 장 표지 | front-matter |
+| vol-48-page-008.jpg](assets/pages/vol-48/vol-48-page-008.jpg) | 008 | Part 1·2 목차 | toc |
+| vol-48-page-009.jpg](assets/pages/vol-48/vol-48-page-009.jpg) | 009 | Part 3-6 목차 | toc |
+| vol-48-page-010.jpg](assets/pages/vol-48/vol-48-page-010.jpg) | 010 | Part 1 장 표지, 분당 중앙공원 파크콘서트 | part-title |
+| vol-48-page-015.jpg](assets/pages/vol-48/vol-48-page-015.jpg) | 015 | 8·10성남항쟁 기념식과 광주대단지 사건 기념 그림전 | memory-photo |
+| vol-48-page-016.jpg](assets/pages/vol-48/vol-48-page-016.jpg) | 016 | 성남 원도심 그림과 화첩 | art-memory |
+| vol-48-page-019.jpg](assets/pages/vol-48/vol-48-page-019.jpg) | 019 | 판교 경기콘텐츠코리아랩 창업자 네트워크 게시판 | startup-space |
+| vol-48-page-021.jpg](assets/pages/vol-48/vol-48-page-021.jpg) | 021 | 창업지원 공유 오피스 내 카페 | third-place |
+| vol-48-page-023.jpg](assets/pages/vol-48/vol-48-page-023.jpg) | 023 | 2025 성남의 얼굴전과 소장품 기획전 | museum-exhibition |
+| vol-48-page-027.jpg](assets/pages/vol-48/vol-48-page-027.jpg) | 027 | 성남 원도심 전통 오일장 모란시장 전경 | market-photo |
+| vol-48-page-030.jpg](assets/pages/vol-48/vol-48-page-030.jpg) | 030 | 성남시청 자원봉사박람회 | civic-participation |
+| vol-48-page-032.jpg](assets/pages/vol-48/vol-48-page-032.jpg) | 032 | Part 2 장 표지, 위례수변공원의 봄 | part-title |
+| vol-48-page-036.jpg](assets/pages/vol-48/vol-48-page-036.jpg) | 036 | 분당 율동공원의 봄 | park-photo |
+| vol-48-page-038.jpg](assets/pages/vol-48/vol-48-page-038.jpg) | 038 | 위례 근린공원의 봄 | park-photo |
+| vol-48-page-039.jpg](assets/pages/vol-48/vol-48-page-039.jpg) | 039 | 태평동 탄천의 왜가리 | ecology-photo |
+| vol-48-page-041.jpg](assets/pages/vol-48/vol-48-page-041.jpg) | 041 | 태평동 탄천습지생태원 어린이 환경교육 | environmental-education |
+| vol-48-page-044.jpg](assets/pages/vol-48/vol-48-page-044.jpg) | 044 | 탄천 피크닉장 개장식 관악기 공연 | park-culture |
+| vol-48-page-047.jpg](assets/pages/vol-48/vol-48-page-047.jpg) | 047 | 정자동 탄천 변 에어로빅 | everyday-sports |
+| vol-48-page-048.jpg](assets/pages/vol-48/vol-48-page-048.jpg) | 048 | Part 3 장 표지, 불 밝힌 판교의 밤 | part-title |
+| vol-48-page-051.jpg](assets/pages/vol-48/vol-48-page-051.jpg) | 051 | 1970년대 성남 원도심 성호시장 풍경 | historic-market |
+| vol-48-page-053.jpg](assets/pages/vol-48/vol-48-page-053.jpg) | 053 | 성호시장과 1980년대 성남 원도심 공업단지 | old-city-industry |
+| vol-48-page-054.jpg](assets/pages/vol-48/vol-48-page-054.jpg) | 054 | 성남하이테크밸리와 3,600여 개 공장 언급 | industrial-district |
+| vol-48-page-056.jpg](assets/pages/vol-48/vol-48-page-056.jpg) | 056 | 국내 1호 일반산업단지 성남하이테크밸리 | industrial-district |
+| vol-48-page-058.jpg](assets/pages/vol-48/vol-48-page-058.jpg) | 058 | 경기콘텐츠코리아랩 스타트업 데모데이 | startup-event |
+| vol-48-page-062.jpg](assets/pages/vol-48/vol-48-page-062.jpg) | 062 | 판교 유스페이스에 비친 경기콘텐츠코리아랩 | pangyo-startup |
+| vol-48-page-066.jpg](assets/pages/vol-48/vol-48-page-066.jpg) | 066 | Part 4 장 표지, 남한산성 | part-title |
+| vol-48-page-069.jpg](assets/pages/vol-48/vol-48-page-069.jpg) | 069 | 1970년대 남한산성 수어장대 | heritage-photo |
+| vol-48-page-071.jpg](assets/pages/vol-48/vol-48-page-071.jpg) | 071 | 모란시장을 형상화한 예술기둥과 다육이 | market-memory |
+| vol-48-page-073.jpg](assets/pages/vol-48/vol-48-page-073.jpg) | 073 | 2018년 새 보금자리로 이동한 모란시장 | market-transition |
+| vol-48-page-074.jpg](assets/pages/vol-48/vol-48-page-074.jpg) | 074 | 오리뜰농악 복색과 야탑역 공연 | folk-culture |
+| vol-48-page-076.jpg](assets/pages/vol-48/vol-48-page-076.jpg) | 076 | 재개발 바람이 부는 성남 원도심 | redevelopment-photo |
+| vol-48-page-078.jpg](assets/pages/vol-48/vol-48-page-078.jpg) | 078 | 태평동 골목 드론 사진과 위례스토리박스 | newtown-community |
+| vol-48-page-080.jpg](assets/pages/vol-48/vol-48-page-080.jpg) | 080 | 율동 책테마파크와 남한산성시장 골목상점 | everyday-space |
+| vol-48-page-082.jpg](assets/pages/vol-48/vol-48-page-082.jpg) | 082 | 정자동 카페거리 축제 | street-festival |
+| vol-48-page-084.jpg](assets/pages/vol-48/vol-48-page-084.jpg) | 084 | 비가 와도 열리는 청년축제 | youth-festival |
+| vol-48-page-088.jpg](assets/pages/vol-48/vol-48-page-088.jpg) | 088 | Part 5 장 표지, 분당 율동공원 황톳길 | part-title |
+| vol-48-page-093.jpg](assets/pages/vol-48/vol-48-page-093.jpg) | 093 | 반려견 산책과 책테마파크 독서 | everyday-life |
+| vol-48-page-095.jpg](assets/pages/vol-48/vol-48-page-095.jpg) | 095 | 배드민턴장, 그네, 박태현 작곡가 동상 | everyday-sports |
+| vol-48-page-096.jpg](assets/pages/vol-48/vol-48-page-096.jpg) | 096 | 서현역 AK플라자 시계탑 | urban-landmark |
+| vol-48-page-098.jpg](assets/pages/vol-48/vol-48-page-098.jpg) | 098 | 주전부리 노점과 AK플라자 과일 진열 | everyday-commerce |
+| vol-48-page-100.jpg](assets/pages/vol-48/vol-48-page-100.jpg) | 100 | 분당 중앙공원 파크콘서트와 신승훈 | concert-photo |
+| vol-48-page-101.jpg](assets/pages/vol-48/vol-48-page-101.jpg) | 101 | 태평마을 요리교실 포트럭파티 | community-food |
+| vol-48-page-104.jpg](assets/pages/vol-48/vol-48-page-104.jpg) | 104 | Part 6 장 표지, 판교중앙역 플래시몹 | part-title |
+| vol-48-page-107.jpg](assets/pages/vol-48/vol-48-page-107.jpg) | 107 | 위례스토리박스와 370여 년 느티나무 | intergenerational-space |
+| vol-48-page-108.jpg](assets/pages/vol-48/vol-48-page-108.jpg) | 108 | 성남시박물관 일부 개관과 위례인생학교 | museum-lifelong-learning |
+| vol-48-page-109.jpg](assets/pages/vol-48/vol-48-page-109.jpg) | 109 | 판교25통 재능기부와 축제 현장 | neighborhood-festival |
+| vol-48-page-112.jpg](assets/pages/vol-48/vol-48-page-112.jpg) | 112 | 시민 리빙랩, 성남시민농원, 위례스토리박스 드론 체험 | living-lab |
+| vol-48-page-116.jpg](assets/pages/vol-48/vol-48-page-116.jpg) | 116 | Epilogue, 메이커스페이스 성남 | epilogue |
+| vol-48-page-118.jpg](assets/pages/vol-48/vol-48-page-118.jpg) | 118 | 분당 중앙공원 파크콘서트 | photo-retrospective |
+| vol-48-page-120.jpg](assets/pages/vol-48/vol-48-page-120.jpg) | 120 | 연극 `황무지`와 위례 음악축제 | photo-retrospective |
+| vol-48-page-121.jpg](assets/pages/vol-48/vol-48-page-121.jpg) | 121 | 옛 판교 쌍용거줄다리기 | photo-retrospective |
+| vol-48-page-122.jpg](assets/pages/vol-48/vol-48-page-122.jpg) | 122 | 남한산성에서 바라본 위례와 분당구 | panorama |
+| vol-48-page-123.jpg](assets/pages/vol-48/vol-48-page-123.jpg) | 123 | 탄천과 판교역 주변 전경 | panorama |
+| vol-48-page-124.jpg](assets/pages/vol-48/vol-48-page-124.jpg) | 124 | 성남시청 | civic-landmark |
+| vol-48-page-127.jpg](assets/pages/vol-48/vol-48-page-127.jpg) | 127 | 어안렌즈 성남시 전경 파노라마 | panorama |
+| vol-48-page-128.jpg](assets/pages/vol-48/vol-48-page-128.jpg) | 128 | 판권과 발행 정보 | colophon |
 
 ## 교차 연결 후보
 

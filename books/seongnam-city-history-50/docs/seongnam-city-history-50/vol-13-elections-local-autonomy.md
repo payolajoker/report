@@ -15,7 +15,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 선거벽보·사진, 선거결과 표, 성남시장·시의회 명단 부록 등 주요 쪽은 `assets/pages/`에 렌더링했다.
+- 선거벽보·사진, 선거결과 표, 성남시장·시의회 명단 부록 등 주요 쪽은 `assets/pages/vol-13/`에 렌더링했다.
 - 선거 결과 표가 많으므로 본문에는 원문 쪽별 텍스트와 표 위치를 보존하고, 핵심 수치는 별도 표로 구조화했다.
 
 ## 권별 목차
@@ -44,125 +44,125 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-13-page-001.jpg](assets/pages/vol-13-page-001.jpg) | 1 | 권 표지와 제목: 성남시 선거와 지방자치 30년 | title-page |
-| [vol-13-page-002.jpg](assets/pages/vol-13-page-002.jpg) | 2 | 목차 1: Part 1~2 | toc |
-| [vol-13-page-003.jpg](assets/pages/vol-13-page-003.jpg) | 3 | 목차 2: Part 3~5와 부록 | toc |
-| [vol-13-page-004.jpg](assets/pages/vol-13-page-004.jpg) | 4 | Part 1 도입면 | part-opener |
-| [vol-13-page-005.jpg](assets/pages/vol-13-page-005.jpg) | 5 | 1. 민주화와 지방자치 | rendered-page |
-| [vol-13-page-006.jpg](assets/pages/vol-13-page-006.jpg) | 6 | 1956년 지방선거 투표 모습 | rendered-page |
-| [vol-13-page-007.jpg](assets/pages/vol-13-page-007.jpg) | 7 | 10월 1일부터 시행된 「지방자치에 관한 임시조치법」에 따라 모든 지방자치단체장을 하 | rendered-page |
-| [vol-13-page-010.jpg](assets/pages/vol-13-page-010.jpg) | 10 | 2. 민주화 이전 시기 선거와 성남시 | rendered-page |
-| [vol-13-page-011.jpg](assets/pages/vol-13-page-011.jpg) | 11 | 1978년 제10대 국회의원 선거 정동성·오세응 후보 선거벽보 | rendered-page |
-| [vol-13-page-012.jpg](assets/pages/vol-13-page-012.jpg) | 12 | 1978년 제10대 국회의원 선거 제4선거구 주요 후보 선거 결과 | table-rendered |
-| [vol-13-page-013.jpg](assets/pages/vol-13-page-013.jpg) | 13 | 1981년 제11대 국회의원 선거 신정당 이대엽 후보 선거벽보 | rendered-page |
-| [vol-13-page-014.jpg](assets/pages/vol-13-page-014.jpg) | 14 | 1981년 제11대 국회의원 선거 제4선거구 주요 후보 선거 결과 단위 : 명·표·% | table-rendered |
-| [vol-13-page-015.jpg](assets/pages/vol-13-page-015.jpg) | 15 | 이었던 민주한국당은 신한민주당의 돌풍에 밀려 19.68%의 득표율로 지역구 26석과 전국 | table-rendered |
-| [vol-13-page-017.jpg](assets/pages/vol-13-page-017.jpg) | 17 | Part 2 도입면: 민주화 이행 시기의 선거(1987~1997년) | part-opener |
-| [vol-13-page-018.jpg](assets/pages/vol-13-page-018.jpg) | 18 | 1. 민주화 이행 시기와 한국 사회 인식의 변화 | rendered-page |
-| [vol-13-page-019.jpg](assets/pages/vol-13-page-019.jpg) | 19 | 6월 민주항쟁 당시 성남 시민 행진과 주민교회 현수막 | rendered-page |
-| [vol-13-page-020.jpg](assets/pages/vol-13-page-020.jpg) | 20 | 1987년 6·29선언 관련 도판 | rendered-page |
-| [vol-13-page-022.jpg](assets/pages/vol-13-page-022.jpg) | 22 | 2. 민주화 이행의 정초선거와 지역 변수의 등장 | rendered-page |
-| [vol-13-page-023.jpg](assets/pages/vol-13-page-023.jpg) | 23 | 제13대 대통령 선거 선전벽보 | rendered-page |
-| [vol-13-page-025.jpg](assets/pages/vol-13-page-025.jpg) | 25 | 1987년 제13대 대통령 선거 경기도·성남시 결과와 제13대 국회의원 선거 도입 | table-rendered |
-| [vol-13-page-027.jpg](assets/pages/vol-13-page-027.jpg) | 27 | 제13대 국회의원 이대엽·이찬구 후보 선거벽보 | rendered-page |
-| [vol-13-page-028.jpg](assets/pages/vol-13-page-028.jpg) | 28 | 3. 보수대연합 3당 합당에 따른 | rendered-page |
-| [vol-13-page-029.jpg](assets/pages/vol-13-page-029.jpg) | 29 | 3당 합당 관련 도판 | rendered-page |
-| [vol-13-page-030.jpg](assets/pages/vol-13-page-030.jpg) | 30 | 신민주연합당 창당 관련 도판과 1991년 지방의회 선거 | rendered-page |
-| [vol-13-page-031.jpg](assets/pages/vol-13-page-031.jpg) | 31 | 89.20%와 1988년 제13대 국회의원 선거 투표율 75.80%에 비해 상당히 낮아진 수치를 | table-rendered |
-| [vol-13-page-033.jpg](assets/pages/vol-13-page-033.jpg) | 33 | 제14대 국회의원 오세응·이윤수 후보 선거벽보와 선거 결과 | table-rendered |
-| [vol-13-page-035.jpg](assets/pages/vol-13-page-035.jpg) | 35 | 제14대 대통령 선거 선전벽보 | rendered-page |
-| [vol-13-page-036.jpg](assets/pages/vol-13-page-036.jpg) | 36 | 적인 예측과는 달리 영남 지역 표심이 김영삼 후보에게 집중되면서 불과 사흘 만에 크게 | table-rendered |
-| [vol-13-page-037.jpg](assets/pages/vol-13-page-037.jpg) | 37 | 4. 다당제로의 회귀와 지역 변수의 강화 | rendered-page |
-| [vol-13-page-038.jpg](assets/pages/vol-13-page-038.jpg) | 38 | 1995년 제1회 전국동시지방선거 정당연설회 | rendered-page |
-| [vol-13-page-039.jpg](assets/pages/vol-13-page-039.jpg) | 39 | 1995년 경기도지사·도의회 성남시 선거 결과 | table-rendered |
-| [vol-13-page-041.jpg](assets/pages/vol-13-page-041.jpg) | 41 | 고, 정계는 다시 여당인 신한국당과 야당인 새정치 | rendered-page |
-| [vol-13-page-042.jpg](assets/pages/vol-13-page-042.jpg) | 42 | 1996년 제15대 국회의원 선거 성남시 선거 결과 | table-rendered |
-| [vol-13-page-043.jpg](assets/pages/vol-13-page-043.jpg) | 43 | Part 3 도입면: 신자유주의 전면화 시기의 선거(1997~2016년) | part-opener |
-| [vol-13-page-045.jpg](assets/pages/vol-13-page-045.jpg) | 45 | 제15대 대통령 선거 선전벽보 | rendered-page |
-| [vol-13-page-046.jpg](assets/pages/vol-13-page-046.jpg) | 46 | 제15대 대통령 선거 후보 도판 | rendered-page |
-| [vol-13-page-047.jpg](assets/pages/vol-13-page-047.jpg) | 47 | 1997년 제15대 대통령 선거 전국·경기도·성남시 결과 | rendered-page |
-| [vol-13-page-048.jpg](assets/pages/vol-13-page-048.jpg) | 48 | 2) 제2회 전국동시지방선거(1998년) | rendered-page |
-| [vol-13-page-049.jpg](assets/pages/vol-13-page-049.jpg) | 49 | 1998년 경기도지사 성남시 선거 결과 | table-rendered |
-| [vol-13-page-050.jpg](assets/pages/vol-13-page-050.jpg) | 50 | 1998년 경기도의회 성남시 선거 결과 | table-rendered |
-| [vol-13-page-051.jpg](assets/pages/vol-13-page-051.jpg) | 51 | 2. 신자유주의 패러다임 하에서 진보 대 보수 | rendered-page |
-| [vol-13-page-052.jpg](assets/pages/vol-13-page-052.jpg) | 52 | 2000년 제16대 국회의원 선거 후보 벽보와 결과 | rendered-page |
-| [vol-13-page-054.jpg](assets/pages/vol-13-page-054.jpg) | 54 | 한 것이라 할 수 있다. 특히 새천년민주당과 별개로 진보의 대표 세력을 자임하는 민주노 | table-rendered |
-| [vol-13-page-055.jpg](assets/pages/vol-13-page-055.jpg) | 55 | 2002년 제3회 전국동시지방선거 경기도의회 의원 성남시 선거 결과 단위 : 명·표·% | table-rendered |
-| [vol-13-page-056.jpg](assets/pages/vol-13-page-056.jpg) | 56 | 제16대 대통령 선거 포스터 제16대 대통령 선거 한나라당 이회창 후보 제16대 대통령 선거에서 당선된 새천년민 | rendered-page |
-| [vol-13-page-057.jpg](assets/pages/vol-13-page-057.jpg) | 57 | 2002년 제16대 대통령 선거 결과 | table-rendered |
-| [vol-13-page-058.jpg](assets/pages/vol-13-page-058.jpg) | 58 | 핵안을 가결하였다. | rendered-page |
-| [vol-13-page-059.jpg](assets/pages/vol-13-page-059.jpg) | 59 | 2004년 제17대 국회의원 선거 성남시 결과 | rendered-page |
-| [vol-13-page-061.jpg](assets/pages/vol-13-page-061.jpg) | 61 | 2006년 경기도지사 성남시 선거 결과 | table-rendered |
-| [vol-13-page-062.jpg](assets/pages/vol-13-page-062.jpg) | 62 | 2006년 경기도의회 성남시 선거 결과 | table-rendered |
-| [vol-13-page-065.jpg](assets/pages/vol-13-page-065.jpg) | 65 | 2007년 제17대 대통령 선거와 낮은 투표율 | table-rendered |
-| [vol-13-page-066.jpg](assets/pages/vol-13-page-066.jpg) | 66 | 제17대 대통령 선거 대통합민주신당 정동영 제17대 대통령 선거에서 당선된 한나라당 제17대 대통령 선거 창조한국당 문국현 후 | rendered-page |
-| [vol-13-page-067.jpg](assets/pages/vol-13-page-067.jpg) | 67 | 2008년 제18대 국회의원 선거 도입 | rendered-page |
-| [vol-13-page-069.jpg](assets/pages/vol-13-page-069.jpg) | 69 | 의석을 획득했으며, 통합민주당은 지역구 66석에 비례대표 15석 등 81석을 획득하여 열 | table-rendered |
-| [vol-13-page-070.jpg](assets/pages/vol-13-page-070.jpg) | 70 | 제18대 국회의원 선거 분당구을 후보 벽보 | rendered-page |
-| [vol-13-page-072.jpg](assets/pages/vol-13-page-072.jpg) | 72 | 2010년 제5회 전국동시지방선거 결과 | table-rendered |
-| [vol-13-page-073.jpg](assets/pages/vol-13-page-073.jpg) | 73 | 분당구을 국회의원 보궐선거 도입 | rendered-page |
-| [vol-13-page-074.jpg](assets/pages/vol-13-page-074.jpg) | 74 | 2011년 분당구을 보궐선거 후보 벽보 | rendered-page |
-| [vol-13-page-075.jpg](assets/pages/vol-13-page-075.jpg) | 75 | 특히 수도권 지역인 분당구을 보궐선거를 통해 2012년으로 예정되어 있던 제19대 국회의 | rendered-page |
-| [vol-13-page-076.jpg](assets/pages/vol-13-page-076.jpg) | 76 | Part 4 도입면 | part-opener |
-| [vol-13-page-077.jpg](assets/pages/vol-13-page-077.jpg) | 77 | 산업화, 민주화, 신자유주의로 이어지는 패러다임 변화는 한국 사회의 변화를 반영하는 | rendered-page |
-| [vol-13-page-079.jpg](assets/pages/vol-13-page-079.jpg) | 79 | 1. 민주주의 재구조화 시기 정당 간 이합집산 | rendered-page |
-| [vol-13-page-082.jpg](assets/pages/vol-13-page-082.jpg) | 82 | 었다.27 비례대표 정당 득표율 및 득표수를 보면 새누리당은 42.80%인 913만 651표이고, | table-rendered |
-| [vol-13-page-083.jpg](assets/pages/vol-13-page-083.jpg) | 83 | 민주당 김병욱 후보를 누르고 당선되었다. 2011년 성남시분당구을 재·보궐선거에서 신도 | rendered-page |
-| [vol-13-page-084.jpg](assets/pages/vol-13-page-084.jpg) | 84 | 제18대 대통령 선거 도입 및 후보 도판 | rendered-page |
-| [vol-13-page-085.jpg](assets/pages/vol-13-page-085.jpg) | 85 | 었기 때문이다.30 야권 후보 단일화에 대한 대응으로 10월 25일, 새누리당은 자유선진당과 | rendered-page |
-| [vol-13-page-086.jpg](assets/pages/vol-13-page-086.jpg) | 86 | 2012년 대통령 선거 성남시 결과 | rendered-page |
-| [vol-13-page-087.jpg](assets/pages/vol-13-page-087.jpg) | 87 | 와 계급·계층 변수가 선거에 분명하게 나타난 것이다. | rendered-page |
-| [vol-13-page-088.jpg](assets/pages/vol-13-page-088.jpg) | 88 | 야권 재편을 거치면서 제6회 | rendered-page |
-| [vol-13-page-089.jpg](assets/pages/vol-13-page-089.jpg) | 89 | 의 득표율과 비교하여 남경필 후보는 수정구와 중원구에서 더 높은 득표율을 보였지만, | table-rendered |
-| [vol-13-page-090.jpg](assets/pages/vol-13-page-090.jpg) | 90 | 2014년 제6회 전국동시지방선거 경기도의회 의원 성남시 선거 결과 단위 : 명·표·% | table-rendered |
-| [vol-13-page-091.jpg](assets/pages/vol-13-page-091.jpg) | 91 | 2016년 제20대 국회의원 선거 성남시 결과 | rendered-page |
-| [vol-13-page-092.jpg](assets/pages/vol-13-page-092.jpg) | 92 | 2016년 제20대 국회의원 선거 표 | table-rendered |
-| [vol-13-page-093.jpg](assets/pages/vol-13-page-093.jpg) | 93 | 2. 민주주의 재구조화 성과를 둘러싼 기대와 | rendered-page |
-| [vol-13-page-094.jpg](assets/pages/vol-13-page-094.jpg) | 94 | 1) 제19대 대통령 선거(2017년) | rendered-page |
-| [vol-13-page-095.jpg](assets/pages/vol-13-page-095.jpg) | 95 | 2017년 제19대 대통령 선거 성남 분석 | rendered-page |
-| [vol-13-page-096.jpg](assets/pages/vol-13-page-096.jpg) | 96 | 2017년 제19대 대통령 선거 주요 후보 전국·경기도·성남시 선거 결과 단위 : 명·표·% | table-rendered |
-| [vol-13-page-097.jpg](assets/pages/vol-13-page-097.jpg) | 97 | 2018년 경기도지사 성남시 결과 | rendered-page |
-| [vol-13-page-098.jpg](assets/pages/vol-13-page-098.jpg) | 98 | 투표수 후보자 득표수(득표율) | table-rendered |
-| [vol-13-page-099.jpg](assets/pages/vol-13-page-099.jpg) | 99 | 2020년 제21대 국회의원 후보 벽보 | rendered-page |
-| [vol-13-page-100.jpg](assets/pages/vol-13-page-100.jpg) | 100 | 2020년 제21대 국회의원 선거 성남시 결과 | rendered-page |
-| [vol-13-page-101.jpg](assets/pages/vol-13-page-101.jpg) | 101 | 4) 제20대 대통령 선거(2022년) | rendered-page |
-| [vol-13-page-103.jpg](assets/pages/vol-13-page-103.jpg) | 103 | 2022년 제20대 대통령 선거 결과 | table-rendered |
-| [vol-13-page-104.jpg](assets/pages/vol-13-page-104.jpg) | 104 | 2022년 경기도지사 성남시 결과 | rendered-page |
-| [vol-13-page-105.jpg](assets/pages/vol-13-page-105.jpg) | 105 | 2022년 경기도의회 성남시 선거 결과 | table-rendered |
-| [vol-13-page-106.jpg](assets/pages/vol-13-page-106.jpg) | 106 | 2022년 분당구갑 국회의원 보궐선거 결과 | table-rendered |
-| [vol-13-page-107.jpg](assets/pages/vol-13-page-107.jpg) | 107 | Part 5 도입면 | part-opener |
-| [vol-13-page-108.jpg](assets/pages/vol-13-page-108.jpg) | 108 | 1. 성남시장 선거와 성남시 | rendered-page |
-| [vol-13-page-109.jpg](assets/pages/vol-13-page-109.jpg) | 109 | 제1대 성남시장 후보 벽보와 1995년 성남시장 선거 결과 | table-rendered |
-| [vol-13-page-110.jpg](assets/pages/vol-13-page-110.jpg) | 110 | 1998년 제2대 성남시장 선거 결과 | table-rendered |
-| [vol-13-page-111.jpg](assets/pages/vol-13-page-111.jpg) | 111 | 면된 전력이 있었다. 그럼에도 1995년 제1회 전국동시지방선거에서 성남시장으로 당선 | rendered-page |
-| [vol-13-page-112.jpg](assets/pages/vol-13-page-112.jpg) | 112 | 2002년 제3대 성남시장 선거 결과 | table-rendered |
-| [vol-13-page-113.jpg](assets/pages/vol-13-page-113.jpg) | 113 | 2006년 제4대 성남시장 선거 결과 | table-rendered |
-| [vol-13-page-114.jpg](assets/pages/vol-13-page-114.jpg) | 114 | 5) 제5대 민선 시장 선거(2010년) | rendered-page |
-| [vol-13-page-115.jpg](assets/pages/vol-13-page-115.jpg) | 115 | 2010년 제5대 성남시장 선거 결과 | table-rendered |
-| [vol-13-page-116.jpg](assets/pages/vol-13-page-116.jpg) | 116 | 2014년 제6대 성남시장 선거 결과 | table-rendered |
-| [vol-13-page-117.jpg](assets/pages/vol-13-page-117.jpg) | 117 | 2018년 제7대 성남시장 선거 결과 | table-rendered |
-| [vol-13-page-118.jpg](assets/pages/vol-13-page-118.jpg) | 118 | 성남시장 선거 역시 더불어민주당의 압승으로 끝났다. 57.64%의 득표율로 28만 501표 | table-rendered |
-| [vol-13-page-119.jpg](assets/pages/vol-13-page-119.jpg) | 119 | 2022년 제8대 성남시장 선거 결과 | table-rendered |
-| [vol-13-page-120.jpg](assets/pages/vol-13-page-120.jpg) | 120 | 2. 성남시의회 의원 선거 | rendered-page |
-| [vol-13-page-140.jpg](assets/pages/vol-13-page-140.jpg) | 140 | 3. 성남시 선거의 특징과 의미 | rendered-page |
-| [vol-13-page-143.jpg](assets/pages/vol-13-page-143.jpg) | 143 | 부록: 역대 성남시장 명단 | table-rendered |
-| [vol-13-page-144.jpg](assets/pages/vol-13-page-144.jpg) | 144 | 부록: 역대 성남시 국회의원 명단 | table-rendered |
-| [vol-13-page-145.jpg](assets/pages/vol-13-page-145.jpg) | 145 | 대수 이름 소속 정당 선거구 재임 기간 | rendered-page |
-| [vol-13-page-146.jpg](assets/pages/vol-13-page-146.jpg) | 146 | 부록: 역대 성남시 경기도의회 의원 명단 | table-rendered |
-| [vol-13-page-147.jpg](assets/pages/vol-13-page-147.jpg) | 147 | 대수 이름 소속 정당 선거구 임기 | rendered-page |
-| [vol-13-page-148.jpg](assets/pages/vol-13-page-148.jpg) | 148 | 대수 이름 소속 정당 선거구 임기 | rendered-page |
-| [vol-13-page-149.jpg](assets/pages/vol-13-page-149.jpg) | 149 | 부록: 제1대 성남시의회 의원 명단 | table-rendered |
-| [vol-13-page-150.jpg](assets/pages/vol-13-page-150.jpg) | 150 | 이름 선거구(행정동) 성별 비고 | rendered-page |
-| [vol-13-page-151.jpg](assets/pages/vol-13-page-151.jpg) | 151 | 이름 선거구(행정동) 성별 비고 | rendered-page |
-| [vol-13-page-152.jpg](assets/pages/vol-13-page-152.jpg) | 152 | ③ 제3대 성남시의회 의원 명단(1998.7.1~2002.6.30.) | table-rendered |
-| [vol-13-page-153.jpg](assets/pages/vol-13-page-153.jpg) | 153 | ④ 제4대 성남시의회 의원 명단(2002.7.1~2006.6.30.) | table-rendered |
-| [vol-13-page-154.jpg](assets/pages/vol-13-page-154.jpg) | 154 | 부록: 제5대 성남시의회 의원 명단 | table-rendered |
-| [vol-13-page-155.jpg](assets/pages/vol-13-page-155.jpg) | 155 | ⑥ 제6대 성남시의회 의원 명단(2010.7.1~2014.6.30.) | table-rendered |
-| [vol-13-page-156.jpg](assets/pages/vol-13-page-156.jpg) | 156 | ⑦ 제7대 성남시의회 의원 명단(2014.7.1~2018.6.30.) | table-rendered |
-| [vol-13-page-157.jpg](assets/pages/vol-13-page-157.jpg) | 157 | ⑧ 제8대 성남시의회 의원 명단(2018.7.1~2022.6.30.) | table-rendered |
-| [vol-13-page-158.jpg](assets/pages/vol-13-page-158.jpg) | 158 | 부록: 제9대 성남시의회 의원 명단 | table-rendered |
-| [vol-13-page-159.jpg](assets/pages/vol-13-page-159.jpg) | 159 | 참고문헌 | reference-rendered |
-| [vol-13-page-160.jpg](assets/pages/vol-13-page-160.jpg) | 160 | 간기와 발행 정보 | reference-rendered |
+| [vol-13-page-001.jpg](assets/pages/vol-13/vol-13-page-001.jpg) | 1 | 권 표지와 제목: 성남시 선거와 지방자치 30년 | title-page |
+| [vol-13-page-002.jpg](assets/pages/vol-13/vol-13-page-002.jpg) | 2 | 목차 1: Part 1~2 | toc |
+| [vol-13-page-003.jpg](assets/pages/vol-13/vol-13-page-003.jpg) | 3 | 목차 2: Part 3~5와 부록 | toc |
+| [vol-13-page-004.jpg](assets/pages/vol-13/vol-13-page-004.jpg) | 4 | Part 1 도입면 | part-opener |
+| [vol-13-page-005.jpg](assets/pages/vol-13/vol-13-page-005.jpg) | 5 | 1. 민주화와 지방자치 | rendered-page |
+| [vol-13-page-006.jpg](assets/pages/vol-13/vol-13-page-006.jpg) | 6 | 1956년 지방선거 투표 모습 | rendered-page |
+| [vol-13-page-007.jpg](assets/pages/vol-13/vol-13-page-007.jpg) | 7 | 10월 1일부터 시행된 「지방자치에 관한 임시조치법」에 따라 모든 지방자치단체장을 하 | rendered-page |
+| [vol-13-page-010.jpg](assets/pages/vol-13/vol-13-page-010.jpg) | 10 | 2. 민주화 이전 시기 선거와 성남시 | rendered-page |
+| [vol-13-page-011.jpg](assets/pages/vol-13/vol-13-page-011.jpg) | 11 | 1978년 제10대 국회의원 선거 정동성·오세응 후보 선거벽보 | rendered-page |
+| [vol-13-page-012.jpg](assets/pages/vol-13/vol-13-page-012.jpg) | 12 | 1978년 제10대 국회의원 선거 제4선거구 주요 후보 선거 결과 | table-rendered |
+| [vol-13-page-013.jpg](assets/pages/vol-13/vol-13-page-013.jpg) | 13 | 1981년 제11대 국회의원 선거 신정당 이대엽 후보 선거벽보 | rendered-page |
+| [vol-13-page-014.jpg](assets/pages/vol-13/vol-13-page-014.jpg) | 14 | 1981년 제11대 국회의원 선거 제4선거구 주요 후보 선거 결과 단위 : 명·표·% | table-rendered |
+| [vol-13-page-015.jpg](assets/pages/vol-13/vol-13-page-015.jpg) | 15 | 이었던 민주한국당은 신한민주당의 돌풍에 밀려 19.68%의 득표율로 지역구 26석과 전국 | table-rendered |
+| [vol-13-page-017.jpg](assets/pages/vol-13/vol-13-page-017.jpg) | 17 | Part 2 도입면: 민주화 이행 시기의 선거(1987~1997년) | part-opener |
+| [vol-13-page-018.jpg](assets/pages/vol-13/vol-13-page-018.jpg) | 18 | 1. 민주화 이행 시기와 한국 사회 인식의 변화 | rendered-page |
+| [vol-13-page-019.jpg](assets/pages/vol-13/vol-13-page-019.jpg) | 19 | 6월 민주항쟁 당시 성남 시민 행진과 주민교회 현수막 | rendered-page |
+| [vol-13-page-020.jpg](assets/pages/vol-13/vol-13-page-020.jpg) | 20 | 1987년 6·29선언 관련 도판 | rendered-page |
+| [vol-13-page-022.jpg](assets/pages/vol-13/vol-13-page-022.jpg) | 22 | 2. 민주화 이행의 정초선거와 지역 변수의 등장 | rendered-page |
+| [vol-13-page-023.jpg](assets/pages/vol-13/vol-13-page-023.jpg) | 23 | 제13대 대통령 선거 선전벽보 | rendered-page |
+| [vol-13-page-025.jpg](assets/pages/vol-13/vol-13-page-025.jpg) | 25 | 1987년 제13대 대통령 선거 경기도·성남시 결과와 제13대 국회의원 선거 도입 | table-rendered |
+| [vol-13-page-027.jpg](assets/pages/vol-13/vol-13-page-027.jpg) | 27 | 제13대 국회의원 이대엽·이찬구 후보 선거벽보 | rendered-page |
+| [vol-13-page-028.jpg](assets/pages/vol-13/vol-13-page-028.jpg) | 28 | 3. 보수대연합 3당 합당에 따른 | rendered-page |
+| [vol-13-page-029.jpg](assets/pages/vol-13/vol-13-page-029.jpg) | 29 | 3당 합당 관련 도판 | rendered-page |
+| [vol-13-page-030.jpg](assets/pages/vol-13/vol-13-page-030.jpg) | 30 | 신민주연합당 창당 관련 도판과 1991년 지방의회 선거 | rendered-page |
+| [vol-13-page-031.jpg](assets/pages/vol-13/vol-13-page-031.jpg) | 31 | 89.20%와 1988년 제13대 국회의원 선거 투표율 75.80%에 비해 상당히 낮아진 수치를 | table-rendered |
+| [vol-13-page-033.jpg](assets/pages/vol-13/vol-13-page-033.jpg) | 33 | 제14대 국회의원 오세응·이윤수 후보 선거벽보와 선거 결과 | table-rendered |
+| [vol-13-page-035.jpg](assets/pages/vol-13/vol-13-page-035.jpg) | 35 | 제14대 대통령 선거 선전벽보 | rendered-page |
+| [vol-13-page-036.jpg](assets/pages/vol-13/vol-13-page-036.jpg) | 36 | 적인 예측과는 달리 영남 지역 표심이 김영삼 후보에게 집중되면서 불과 사흘 만에 크게 | table-rendered |
+| [vol-13-page-037.jpg](assets/pages/vol-13/vol-13-page-037.jpg) | 37 | 4. 다당제로의 회귀와 지역 변수의 강화 | rendered-page |
+| [vol-13-page-038.jpg](assets/pages/vol-13/vol-13-page-038.jpg) | 38 | 1995년 제1회 전국동시지방선거 정당연설회 | rendered-page |
+| [vol-13-page-039.jpg](assets/pages/vol-13/vol-13-page-039.jpg) | 39 | 1995년 경기도지사·도의회 성남시 선거 결과 | table-rendered |
+| [vol-13-page-041.jpg](assets/pages/vol-13/vol-13-page-041.jpg) | 41 | 고, 정계는 다시 여당인 신한국당과 야당인 새정치 | rendered-page |
+| [vol-13-page-042.jpg](assets/pages/vol-13/vol-13-page-042.jpg) | 42 | 1996년 제15대 국회의원 선거 성남시 선거 결과 | table-rendered |
+| [vol-13-page-043.jpg](assets/pages/vol-13/vol-13-page-043.jpg) | 43 | Part 3 도입면: 신자유주의 전면화 시기의 선거(1997~2016년) | part-opener |
+| [vol-13-page-045.jpg](assets/pages/vol-13/vol-13-page-045.jpg) | 45 | 제15대 대통령 선거 선전벽보 | rendered-page |
+| [vol-13-page-046.jpg](assets/pages/vol-13/vol-13-page-046.jpg) | 46 | 제15대 대통령 선거 후보 도판 | rendered-page |
+| [vol-13-page-047.jpg](assets/pages/vol-13/vol-13-page-047.jpg) | 47 | 1997년 제15대 대통령 선거 전국·경기도·성남시 결과 | rendered-page |
+| [vol-13-page-048.jpg](assets/pages/vol-13/vol-13-page-048.jpg) | 48 | 2) 제2회 전국동시지방선거(1998년) | rendered-page |
+| [vol-13-page-049.jpg](assets/pages/vol-13/vol-13-page-049.jpg) | 49 | 1998년 경기도지사 성남시 선거 결과 | table-rendered |
+| [vol-13-page-050.jpg](assets/pages/vol-13/vol-13-page-050.jpg) | 50 | 1998년 경기도의회 성남시 선거 결과 | table-rendered |
+| [vol-13-page-051.jpg](assets/pages/vol-13/vol-13-page-051.jpg) | 51 | 2. 신자유주의 패러다임 하에서 진보 대 보수 | rendered-page |
+| [vol-13-page-052.jpg](assets/pages/vol-13/vol-13-page-052.jpg) | 52 | 2000년 제16대 국회의원 선거 후보 벽보와 결과 | rendered-page |
+| [vol-13-page-054.jpg](assets/pages/vol-13/vol-13-page-054.jpg) | 54 | 한 것이라 할 수 있다. 특히 새천년민주당과 별개로 진보의 대표 세력을 자임하는 민주노 | table-rendered |
+| [vol-13-page-055.jpg](assets/pages/vol-13/vol-13-page-055.jpg) | 55 | 2002년 제3회 전국동시지방선거 경기도의회 의원 성남시 선거 결과 단위 : 명·표·% | table-rendered |
+| [vol-13-page-056.jpg](assets/pages/vol-13/vol-13-page-056.jpg) | 56 | 제16대 대통령 선거 포스터 제16대 대통령 선거 한나라당 이회창 후보 제16대 대통령 선거에서 당선된 새천년민 | rendered-page |
+| [vol-13-page-057.jpg](assets/pages/vol-13/vol-13-page-057.jpg) | 57 | 2002년 제16대 대통령 선거 결과 | table-rendered |
+| [vol-13-page-058.jpg](assets/pages/vol-13/vol-13-page-058.jpg) | 58 | 핵안을 가결하였다. | rendered-page |
+| [vol-13-page-059.jpg](assets/pages/vol-13/vol-13-page-059.jpg) | 59 | 2004년 제17대 국회의원 선거 성남시 결과 | rendered-page |
+| [vol-13-page-061.jpg](assets/pages/vol-13/vol-13-page-061.jpg) | 61 | 2006년 경기도지사 성남시 선거 결과 | table-rendered |
+| [vol-13-page-062.jpg](assets/pages/vol-13/vol-13-page-062.jpg) | 62 | 2006년 경기도의회 성남시 선거 결과 | table-rendered |
+| [vol-13-page-065.jpg](assets/pages/vol-13/vol-13-page-065.jpg) | 65 | 2007년 제17대 대통령 선거와 낮은 투표율 | table-rendered |
+| [vol-13-page-066.jpg](assets/pages/vol-13/vol-13-page-066.jpg) | 66 | 제17대 대통령 선거 대통합민주신당 정동영 제17대 대통령 선거에서 당선된 한나라당 제17대 대통령 선거 창조한국당 문국현 후 | rendered-page |
+| [vol-13-page-067.jpg](assets/pages/vol-13/vol-13-page-067.jpg) | 67 | 2008년 제18대 국회의원 선거 도입 | rendered-page |
+| [vol-13-page-069.jpg](assets/pages/vol-13/vol-13-page-069.jpg) | 69 | 의석을 획득했으며, 통합민주당은 지역구 66석에 비례대표 15석 등 81석을 획득하여 열 | table-rendered |
+| [vol-13-page-070.jpg](assets/pages/vol-13/vol-13-page-070.jpg) | 70 | 제18대 국회의원 선거 분당구을 후보 벽보 | rendered-page |
+| [vol-13-page-072.jpg](assets/pages/vol-13/vol-13-page-072.jpg) | 72 | 2010년 제5회 전국동시지방선거 결과 | table-rendered |
+| [vol-13-page-073.jpg](assets/pages/vol-13/vol-13-page-073.jpg) | 73 | 분당구을 국회의원 보궐선거 도입 | rendered-page |
+| [vol-13-page-074.jpg](assets/pages/vol-13/vol-13-page-074.jpg) | 74 | 2011년 분당구을 보궐선거 후보 벽보 | rendered-page |
+| [vol-13-page-075.jpg](assets/pages/vol-13/vol-13-page-075.jpg) | 75 | 특히 수도권 지역인 분당구을 보궐선거를 통해 2012년으로 예정되어 있던 제19대 국회의 | rendered-page |
+| [vol-13-page-076.jpg](assets/pages/vol-13/vol-13-page-076.jpg) | 76 | Part 4 도입면 | part-opener |
+| [vol-13-page-077.jpg](assets/pages/vol-13/vol-13-page-077.jpg) | 77 | 산업화, 민주화, 신자유주의로 이어지는 패러다임 변화는 한국 사회의 변화를 반영하는 | rendered-page |
+| [vol-13-page-079.jpg](assets/pages/vol-13/vol-13-page-079.jpg) | 79 | 1. 민주주의 재구조화 시기 정당 간 이합집산 | rendered-page |
+| [vol-13-page-082.jpg](assets/pages/vol-13/vol-13-page-082.jpg) | 82 | 었다.27 비례대표 정당 득표율 및 득표수를 보면 새누리당은 42.80%인 913만 651표이고, | table-rendered |
+| [vol-13-page-083.jpg](assets/pages/vol-13/vol-13-page-083.jpg) | 83 | 민주당 김병욱 후보를 누르고 당선되었다. 2011년 성남시분당구을 재·보궐선거에서 신도 | rendered-page |
+| [vol-13-page-084.jpg](assets/pages/vol-13/vol-13-page-084.jpg) | 84 | 제18대 대통령 선거 도입 및 후보 도판 | rendered-page |
+| [vol-13-page-085.jpg](assets/pages/vol-13/vol-13-page-085.jpg) | 85 | 었기 때문이다.30 야권 후보 단일화에 대한 대응으로 10월 25일, 새누리당은 자유선진당과 | rendered-page |
+| [vol-13-page-086.jpg](assets/pages/vol-13/vol-13-page-086.jpg) | 86 | 2012년 대통령 선거 성남시 결과 | rendered-page |
+| [vol-13-page-087.jpg](assets/pages/vol-13/vol-13-page-087.jpg) | 87 | 와 계급·계층 변수가 선거에 분명하게 나타난 것이다. | rendered-page |
+| [vol-13-page-088.jpg](assets/pages/vol-13/vol-13-page-088.jpg) | 88 | 야권 재편을 거치면서 제6회 | rendered-page |
+| [vol-13-page-089.jpg](assets/pages/vol-13/vol-13-page-089.jpg) | 89 | 의 득표율과 비교하여 남경필 후보는 수정구와 중원구에서 더 높은 득표율을 보였지만, | table-rendered |
+| [vol-13-page-090.jpg](assets/pages/vol-13/vol-13-page-090.jpg) | 90 | 2014년 제6회 전국동시지방선거 경기도의회 의원 성남시 선거 결과 단위 : 명·표·% | table-rendered |
+| [vol-13-page-091.jpg](assets/pages/vol-13/vol-13-page-091.jpg) | 91 | 2016년 제20대 국회의원 선거 성남시 결과 | rendered-page |
+| [vol-13-page-092.jpg](assets/pages/vol-13/vol-13-page-092.jpg) | 92 | 2016년 제20대 국회의원 선거 표 | table-rendered |
+| [vol-13-page-093.jpg](assets/pages/vol-13/vol-13-page-093.jpg) | 93 | 2. 민주주의 재구조화 성과를 둘러싼 기대와 | rendered-page |
+| [vol-13-page-094.jpg](assets/pages/vol-13/vol-13-page-094.jpg) | 94 | 1) 제19대 대통령 선거(2017년) | rendered-page |
+| [vol-13-page-095.jpg](assets/pages/vol-13/vol-13-page-095.jpg) | 95 | 2017년 제19대 대통령 선거 성남 분석 | rendered-page |
+| [vol-13-page-096.jpg](assets/pages/vol-13/vol-13-page-096.jpg) | 96 | 2017년 제19대 대통령 선거 주요 후보 전국·경기도·성남시 선거 결과 단위 : 명·표·% | table-rendered |
+| [vol-13-page-097.jpg](assets/pages/vol-13/vol-13-page-097.jpg) | 97 | 2018년 경기도지사 성남시 결과 | rendered-page |
+| [vol-13-page-098.jpg](assets/pages/vol-13/vol-13-page-098.jpg) | 98 | 투표수 후보자 득표수(득표율) | table-rendered |
+| [vol-13-page-099.jpg](assets/pages/vol-13/vol-13-page-099.jpg) | 99 | 2020년 제21대 국회의원 후보 벽보 | rendered-page |
+| [vol-13-page-100.jpg](assets/pages/vol-13/vol-13-page-100.jpg) | 100 | 2020년 제21대 국회의원 선거 성남시 결과 | rendered-page |
+| [vol-13-page-101.jpg](assets/pages/vol-13/vol-13-page-101.jpg) | 101 | 4) 제20대 대통령 선거(2022년) | rendered-page |
+| [vol-13-page-103.jpg](assets/pages/vol-13/vol-13-page-103.jpg) | 103 | 2022년 제20대 대통령 선거 결과 | table-rendered |
+| [vol-13-page-104.jpg](assets/pages/vol-13/vol-13-page-104.jpg) | 104 | 2022년 경기도지사 성남시 결과 | rendered-page |
+| [vol-13-page-105.jpg](assets/pages/vol-13/vol-13-page-105.jpg) | 105 | 2022년 경기도의회 성남시 선거 결과 | table-rendered |
+| [vol-13-page-106.jpg](assets/pages/vol-13/vol-13-page-106.jpg) | 106 | 2022년 분당구갑 국회의원 보궐선거 결과 | table-rendered |
+| [vol-13-page-107.jpg](assets/pages/vol-13/vol-13-page-107.jpg) | 107 | Part 5 도입면 | part-opener |
+| [vol-13-page-108.jpg](assets/pages/vol-13/vol-13-page-108.jpg) | 108 | 1. 성남시장 선거와 성남시 | rendered-page |
+| [vol-13-page-109.jpg](assets/pages/vol-13/vol-13-page-109.jpg) | 109 | 제1대 성남시장 후보 벽보와 1995년 성남시장 선거 결과 | table-rendered |
+| [vol-13-page-110.jpg](assets/pages/vol-13/vol-13-page-110.jpg) | 110 | 1998년 제2대 성남시장 선거 결과 | table-rendered |
+| [vol-13-page-111.jpg](assets/pages/vol-13/vol-13-page-111.jpg) | 111 | 면된 전력이 있었다. 그럼에도 1995년 제1회 전국동시지방선거에서 성남시장으로 당선 | rendered-page |
+| [vol-13-page-112.jpg](assets/pages/vol-13/vol-13-page-112.jpg) | 112 | 2002년 제3대 성남시장 선거 결과 | table-rendered |
+| [vol-13-page-113.jpg](assets/pages/vol-13/vol-13-page-113.jpg) | 113 | 2006년 제4대 성남시장 선거 결과 | table-rendered |
+| [vol-13-page-114.jpg](assets/pages/vol-13/vol-13-page-114.jpg) | 114 | 5) 제5대 민선 시장 선거(2010년) | rendered-page |
+| [vol-13-page-115.jpg](assets/pages/vol-13/vol-13-page-115.jpg) | 115 | 2010년 제5대 성남시장 선거 결과 | table-rendered |
+| [vol-13-page-116.jpg](assets/pages/vol-13/vol-13-page-116.jpg) | 116 | 2014년 제6대 성남시장 선거 결과 | table-rendered |
+| [vol-13-page-117.jpg](assets/pages/vol-13/vol-13-page-117.jpg) | 117 | 2018년 제7대 성남시장 선거 결과 | table-rendered |
+| [vol-13-page-118.jpg](assets/pages/vol-13/vol-13-page-118.jpg) | 118 | 성남시장 선거 역시 더불어민주당의 압승으로 끝났다. 57.64%의 득표율로 28만 501표 | table-rendered |
+| [vol-13-page-119.jpg](assets/pages/vol-13/vol-13-page-119.jpg) | 119 | 2022년 제8대 성남시장 선거 결과 | table-rendered |
+| [vol-13-page-120.jpg](assets/pages/vol-13/vol-13-page-120.jpg) | 120 | 2. 성남시의회 의원 선거 | rendered-page |
+| [vol-13-page-140.jpg](assets/pages/vol-13/vol-13-page-140.jpg) | 140 | 3. 성남시 선거의 특징과 의미 | rendered-page |
+| [vol-13-page-143.jpg](assets/pages/vol-13/vol-13-page-143.jpg) | 143 | 부록: 역대 성남시장 명단 | table-rendered |
+| [vol-13-page-144.jpg](assets/pages/vol-13/vol-13-page-144.jpg) | 144 | 부록: 역대 성남시 국회의원 명단 | table-rendered |
+| [vol-13-page-145.jpg](assets/pages/vol-13/vol-13-page-145.jpg) | 145 | 대수 이름 소속 정당 선거구 재임 기간 | rendered-page |
+| [vol-13-page-146.jpg](assets/pages/vol-13/vol-13-page-146.jpg) | 146 | 부록: 역대 성남시 경기도의회 의원 명단 | table-rendered |
+| [vol-13-page-147.jpg](assets/pages/vol-13/vol-13-page-147.jpg) | 147 | 대수 이름 소속 정당 선거구 임기 | rendered-page |
+| [vol-13-page-148.jpg](assets/pages/vol-13/vol-13-page-148.jpg) | 148 | 대수 이름 소속 정당 선거구 임기 | rendered-page |
+| [vol-13-page-149.jpg](assets/pages/vol-13/vol-13-page-149.jpg) | 149 | 부록: 제1대 성남시의회 의원 명단 | table-rendered |
+| [vol-13-page-150.jpg](assets/pages/vol-13/vol-13-page-150.jpg) | 150 | 이름 선거구(행정동) 성별 비고 | rendered-page |
+| [vol-13-page-151.jpg](assets/pages/vol-13/vol-13-page-151.jpg) | 151 | 이름 선거구(행정동) 성별 비고 | rendered-page |
+| [vol-13-page-152.jpg](assets/pages/vol-13/vol-13-page-152.jpg) | 152 | ③ 제3대 성남시의회 의원 명단(1998.7.1~2002.6.30.) | table-rendered |
+| [vol-13-page-153.jpg](assets/pages/vol-13/vol-13-page-153.jpg) | 153 | ④ 제4대 성남시의회 의원 명단(2002.7.1~2006.6.30.) | table-rendered |
+| [vol-13-page-154.jpg](assets/pages/vol-13/vol-13-page-154.jpg) | 154 | 부록: 제5대 성남시의회 의원 명단 | table-rendered |
+| [vol-13-page-155.jpg](assets/pages/vol-13/vol-13-page-155.jpg) | 155 | ⑥ 제6대 성남시의회 의원 명단(2010.7.1~2014.6.30.) | table-rendered |
+| [vol-13-page-156.jpg](assets/pages/vol-13/vol-13-page-156.jpg) | 156 | ⑦ 제7대 성남시의회 의원 명단(2014.7.1~2018.6.30.) | table-rendered |
+| [vol-13-page-157.jpg](assets/pages/vol-13/vol-13-page-157.jpg) | 157 | ⑧ 제8대 성남시의회 의원 명단(2018.7.1~2022.6.30.) | table-rendered |
+| [vol-13-page-158.jpg](assets/pages/vol-13/vol-13-page-158.jpg) | 158 | 부록: 제9대 성남시의회 의원 명단 | table-rendered |
+| [vol-13-page-159.jpg](assets/pages/vol-13/vol-13-page-159.jpg) | 159 | 참고문헌 | reference-rendered |
+| [vol-13-page-160.jpg](assets/pages/vol-13/vol-13-page-160.jpg) | 160 | 간기와 발행 정보 | reference-rendered |
 
 ## 핵심 표/자료 위치
 

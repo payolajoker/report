@@ -24,109 +24,109 @@
 
 | 권 | 원문 쪽 | 파일 | 내용 | 처리 상태 |
 |---:|---:|---|---|---|
-| 09 | 7 | [vol-09-page-007.jpg](../assets/pages/vol-09-page-007.jpg) | 서울시 시멘트블록 ‘블록 단지’ 주택과 초기 주택난 | rendered-page |
-| 09 | 8 | [vol-09-page-008.jpg](../assets/pages/vol-09-page-008.jpg) | 은행동 임시 정착지와 자조주택 건립 설명 | rendered-page |
-| 09 | 9 | [vol-09-page-009.jpg](../assets/pages/vol-09-page-009.jpg) | 1980년대 이후 수정·중원구 다세대 주택 경관 | rendered-page |
-| 09 | 10 | [vol-09-page-010.jpg](../assets/pages/vol-09-page-010.jpg) | 시 승격 전후 본시가지 가로망 비교, 1970/1973 | rendered-page |
-| 09 | 11 | [vol-09-page-011.jpg](../assets/pages/vol-09-page-011.jpg) | 복정정수장과 광주대단지 상수도 보급 문제 | rendered-page |
-| 09 | 12 | [vol-09-page-012.jpg](../assets/pages/vol-09-page-012.jpg) | 분뇨 수거·처리장과 초기 위생 기반시설 | rendered-page |
-| 09 | 14 | [vol-09-page-014.jpg](../assets/pages/vol-09-page-014.jpg) | 광주대단지 제1공단 기공식과 주민 직업 구조 | rendered-page |
-| 09 | 15 | [vol-09-page-015.jpg](../assets/pages/vol-09-page-015.jpg) | 성남시 제2·3공업단지 전경과 공장 유치 실적 | rendered-page |
-| 09 | 16 | [vol-09-page-016.jpg](../assets/pages/vol-09-page-016.jpg) | 광주대단지-서울 연결 도로·버스 교통 여건 | rendered-page |
-| 09 | 17 | [vol-09-page-017.jpg](../assets/pages/vol-09-page-017.jpg) | 성남시 승격과 광주대단지 종합개발계획 회고 | rendered-page |
-| 09 | 18 | [vol-09-page-018.jpg](../assets/pages/vol-09-page-018.jpg) | 성남단지 종합 1차 개발도와 개발 방향 | rendered-page |
-| 09 | 19 | [vol-09-page-019.jpg](../assets/pages/vol-09-page-019.jpg) | 시 승격 직후 행정기구와 분양지 등록 | rendered-page |
-| 09 | 20 | [vol-09-page-020.jpg](../assets/pages/vol-09-page-020.jpg) | 분양증 전매·위조 기사와 1972~1974년 인구 구성 | rendered-page |
-| 09 | 21 | [vol-09-page-021.jpg](../assets/pages/vol-09-page-021.jpg) | 1975~1990년 인구 증가와 산업별 인구 구조 | rendered-page |
-| 09 | 22 | [vol-09-page-022.jpg](../assets/pages/vol-09-page-022.jpg) | 광주대단지 제2공업단지 기공식과 성남산업단지 규모 | rendered-page |
-| 09 | 23 | [vol-09-page-023.jpg](../assets/pages/vol-09-page-023.jpg) | 1990년대 성남제2공단과 지식산업센터 전환 | rendered-page |
-| 09 | 24 | [vol-09-page-024.jpg](../assets/pages/vol-09-page-024.jpg) | 성남산업단지 생산·수출과 1·2차 정화 사업 | rendered-page |
-| 09 | 25 | [vol-09-page-025.jpg](../assets/pages/vol-09-page-025.jpg) | 한강 취수 상수도 증산, 대곡교·대왕교 비교 | rendered-page |
-| 09 | 26 | [vol-09-page-026.jpg](../assets/pages/vol-09-page-026.jpg) | 분뇨처리장·대봉로 조성 등 도시 시설 확충 | rendered-page |
-| 09 | 27 | [vol-09-page-027.jpg](../assets/pages/vol-09-page-027.jpg) | 옛 성남시민회관과 성남공설운동장 건설 | rendered-page |
-| 09 | 28 | [vol-09-page-028.jpg](../assets/pages/vol-09-page-028.jpg) | 초기 주택지 형성과 무허가·불량주택 문제 | rendered-page |
-| 09 | 29 | [vol-09-page-029.jpg](../assets/pages/vol-09-page-029.jpg) | 1976년 5·4조치와 고도지구 변경 관련 신문 기사 | rendered-page |
-| 09 | 30 | [vol-09-page-030.jpg](../assets/pages/vol-09-page-030.jpg) | 성남 도시 재정비 계획의 생활권·토지이용 구상 | rendered-page |
-| 09 | 31 | [vol-09-page-031.jpg](../assets/pages/vol-09-page-031.jpg) | 공동주택 형성과 생활권 계획 | rendered-page |
-| 09 | 32 | [vol-09-page-032.jpg](../assets/pages/vol-09-page-032.jpg) | 성남 초기 주거지와 공동주택 개발의 제약 | rendered-page |
-| 09 | 34 | [vol-09-page-034.jpg](../assets/pages/vol-09-page-034.jpg) | 도시 새마을운동 장 도입부 | rendered-page |
-| 09 | 37 | [vol-09-page-037.jpg](../assets/pages/vol-09-page-037.jpg) | 성남상공회의소 도시새마을운동 촉진대회, 1976 | rendered-page |
-| 09 | 38 | [vol-09-page-038.jpg](../assets/pages/vol-09-page-038.jpg) | 1960년대 율동 양지마을과 새마을 가꾸기 사업 현황 | rendered-page |
-| 09 | 39 | [vol-09-page-039.jpg](../assets/pages/vol-09-page-039.jpg) | 새마을 주택개량·취락개선·새마을금고 통계 | rendered-page |
-| 09 | 40 | [vol-09-page-040.jpg](../assets/pages/vol-09-page-040.jpg) | 새마을운동중앙연수원 전경과 성남 이전 | rendered-page |
-| 09 | 43 | [vol-09-page-043.jpg](../assets/pages/vol-09-page-043.jpg) | 공장 새마을 분임조 특별연수 교육, 1984 | rendered-page |
-| 09 | 46 | [vol-09-page-046.jpg](../assets/pages/vol-09-page-046.jpg) | 삼영전자 작업장과 공장 새마을 사례 | rendered-page |
-| 09 | 53 | [vol-09-page-053.jpg](../assets/pages/vol-09-page-053.jpg) | 성남 고도제한의 제도적 배경과 1차 운동 | rendered-page |
-| 09 | 54 | [vol-09-page-054.jpg](../assets/pages/vol-09-page-054.jpg) | 1996년 이후 고도제한 철폐 요구의 형성 | rendered-page |
-| 09 | 55 | [vol-09-page-055.jpg](../assets/pages/vol-09-page-055.jpg) | 범대위 출범과 성남시 가구 피해 주장 | rendered-page |
-| 09 | 56 | [vol-09-page-056.jpg](../assets/pages/vol-09-page-056.jpg) | 공군 고도제한 개선 연구와 적용 면적·가구 통계 | rendered-page |
-| 09 | 57 | [vol-09-page-057.jpg](../assets/pages/vol-09-page-057.jpg) | 탄천변 고도제한 철폐 시민운동, 2009 | rendered-page |
-| 09 | 58 | [vol-09-page-058.jpg](../assets/pages/vol-09-page-058.jpg) | 2001년 국방부·서울공항 집회와 12m→45m 완화 | rendered-page |
-| 09 | 60 | [vol-09-page-060.jpg](../assets/pages/vol-09-page-060.jpg) | 제2롯데월드 허용 논란과 2기 고도제한 운동 | rendered-page |
-| 09 | 61 | [vol-09-page-061.jpg](../assets/pages/vol-09-page-061.jpg) | 성남시 고도제한 완화 특별 기자회견, 2009 | rendered-page |
-| 09 | 62 | [vol-09-page-062.jpg](../assets/pages/vol-09-page-062.jpg) | 수정·중원구 전술항공작전기지 구역과 재개발 제약 | rendered-page |
-| 09 | 63 | [vol-09-page-063.jpg](../assets/pages/vol-09-page-063.jpg) | 고도제한 피해 가구·경제 피해·완화 효과 주장 | rendered-page |
-| 09 | 64 | [vol-09-page-064.jpg](../assets/pages/vol-09-page-064.jpg) | 고도제한 완전 해결 범시민 궐기대회, 2009 | rendered-page |
-| 09 | 65 | [vol-09-page-065.jpg](../assets/pages/vol-09-page-065.jpg) | 서울공항 주변 고도제한 45m→193m 완화 설명 | rendered-page |
-| 09 | 66 | [vol-09-page-066.jpg](../assets/pages/vol-09-page-066.jpg) | 성남시 고도제한 완화 발표 기자회견, 2010 | rendered-page |
-| 09 | 68 | [vol-09-page-068.jpg](../assets/pages/vol-09-page-068.jpg) | 2023년 이후 고도제한 완전 해결 운동 | rendered-page |
-| 09 | 69 | [vol-09-page-069.jpg](../assets/pages/vol-09-page-069.jpg) | 성남시 고도제한 완전 해결 범시민대책위원회 출범식, 2023 | rendered-page |
-| 09 | 70 | [vol-09-page-070.jpg](../assets/pages/vol-09-page-070.jpg) | 2024년 총선·현지 조사·조례 등 최근 고도제한 대응 | rendered-page |
-| 09 | 71 | [vol-09-page-071.jpg](../assets/pages/vol-09-page-071.jpg) | 신상진 시장과 고도제한완화 범대위 간담회, 2024 | rendered-page |
-| 09 | 74 | [vol-09-page-074.jpg](../assets/pages/vol-09-page-074.jpg) | 1기 신도시 개발과 분당신도시 조성 장 도입부 | rendered-page |
-| 09 | 78 | [vol-09-page-078.jpg](../assets/pages/vol-09-page-078.jpg) | 수도권 5개 신도시 분포도 | rendered-page |
-| 09 | 79 | [vol-09-page-079.jpg](../assets/pages/vol-09-page-079.jpg) | 분당신도시 건설 발표 신문 기사와 200만 호 건설 계획 | rendered-page |
-| 09 | 80 | [vol-09-page-080.jpg](../assets/pages/vol-09-page-080.jpg) | 수도권 5개 신도시 규모·사업비·수용 인구 비교 서술 | rendered-page |
-| 09 | 81 | [vol-09-page-081.jpg](../assets/pages/vol-09-page-081.jpg) | 일산·평촌·산본·중동 신도시 사업 개요 | rendered-page |
-| 09 | 82 | [vol-09-page-082.jpg](../assets/pages/vol-09-page-082.jpg) | 1980년대 후반 서울 주택보급률·전세가 상승 배경 | rendered-page |
-| 09 | 83 | [vol-09-page-083.jpg](../assets/pages/vol-09-page-083.jpg) | 분당신도시 목표 도시와 녹지·전철 계획 | rendered-page |
-| 09 | 85 | [vol-09-page-085.jpg](../assets/pages/vol-09-page-085.jpg) | 분당신도시 입지·면적·하천·고건 회고 | rendered-page |
-| 09 | 86 | [vol-09-page-086.jpg](../assets/pages/vol-09-page-086.jpg) | 분당 개발 전 토지이용·이주대상·지장물·문화유적 | rendered-page |
-| 09 | 87 | [vol-09-page-087.jpg](../assets/pages/vol-09-page-087.jpg) | 분당 지역 도로망과 고도제한 구역 | rendered-page |
-| 09 | 88 | [vol-09-page-088.jpg](../assets/pages/vol-09-page-088.jpg) | 신도시 개발 전 분당 지역과 3단계 건설 전략 | rendered-page |
-| 09 | 89 | [vol-09-page-089.jpg](../assets/pages/vol-09-page-089.jpg) | 분당신도시 추진 조직과 분당구청 설치 | rendered-page |
-| 09 | 90 | [vol-09-page-090.jpg](../assets/pages/vol-09-page-090.jpg) | 분당신도시 도시설계 기본 방향 | rendered-page |
-| 09 | 91 | [vol-09-page-091.jpg](../assets/pages/vol-09-page-091.jpg) | 분당 개발 전 목가적 풍광과 환경영향평가 | rendered-page |
-| 09 | 92 | [vol-09-page-092.jpg](../assets/pages/vol-09-page-092.jpg) | 분당 광역교통망·인구영향평가와 목표 연도 | rendered-page |
-| 09 | 93 | [vol-09-page-093.jpg](../assets/pages/vol-09-page-093.jpg) | 분당 목표 인구·가구·밀도·주택 수요 지표 | rendered-page |
-| 09 | 94 | [vol-09-page-094.jpg](../assets/pages/vol-09-page-094.jpg) | 분당 초창기 건설 현장과 토지이용 지표 | rendered-page |
-| 09 | 95 | [vol-09-page-095.jpg](../assets/pages/vol-09-page-095.jpg) | 분당 이매동 택지 조성과 단독택지 계획 | rendered-page |
-| 09 | 96 | [vol-09-page-096.jpg](../assets/pages/vol-09-page-096.jpg) | 분당 연립·아파트 용지와 도로폭 계획 | rendered-page |
-| 09 | 97 | [vol-09-page-097.jpg](../assets/pages/vol-09-page-097.jpg) | 분당선·중앙공원·탄천 녹지축 계획 | rendered-page |
-| 09 | 98 | [vol-09-page-098.jpg](../assets/pages/vol-09-page-098.jpg) | 분당 주거축-녹지축 기본계획과 공원녹지 지표 | rendered-page |
-| 09 | 99 | [vol-09-page-099.jpg](../assets/pages/vol-09-page-099.jpg) | 분당 교육시설과 공공시설 계획 | rendered-page |
-| 09 | 100 | [vol-09-page-100.jpg](../assets/pages/vol-09-page-100.jpg) | 분당 복지·문화·의료·종교·상수도 시설 계획 | rendered-page |
-| 09 | 101 | [vol-09-page-101.jpg](../assets/pages/vol-09-page-101.jpg) | 분당중앙공원과 하수·전력·통신·가스 계획 | rendered-page |
-| 09 | 102 | [vol-09-page-102.jpg](../assets/pages/vol-09-page-102.jpg) | 백현동 카페거리와 주택전람회 구상 | rendered-page |
-| 09 | 103 | [vol-09-page-103.jpg](../assets/pages/vol-09-page-103.jpg) | 탄천·하천·자전거·도서관 등 분당 개발사업 | rendered-page |
-| 09 | 104 | [vol-09-page-104.jpg](../assets/pages/vol-09-page-104.jpg) | 분당구청 개청과 분당 독립시 추진 갈등 | rendered-page |
-| 09 | 105 | [vol-09-page-105.jpg](../assets/pages/vol-09-page-105.jpg) | 분당 독립시 추진 반대 현수막, 1996 | rendered-page |
-| 09 | 106 | [vol-09-page-106.jpg](../assets/pages/vol-09-page-106.jpg) | 판교·위례 신도시 개발 장 도입부 | rendered-page |
-| 09 | 107 | [vol-09-page-107.jpg](../assets/pages/vol-09-page-107.jpg) | 판교 개발 배경과 200만 호 건설계획 이후 주택대란 | rendered-page |
-| 09 | 108 | [vol-09-page-108.jpg](../assets/pages/vol-09-page-108.jpg) | 판교 개발 촉구 집회와 개발 유보 항의, 2001 | rendered-page |
-| 09 | 109 | [vol-09-page-109.jpg](../assets/pages/vol-09-page-109.jpg) | 판교신도시 사업 개요 표와 사업비 | rendered-page |
-| 09 | 110 | [vol-09-page-110.jpg](../assets/pages/vol-09-page-110.jpg) | 판교 토지이용·교통·TOD 계획 | rendered-page |
-| 09 | 111 | [vol-09-page-111.jpg](../assets/pages/vol-09-page-111.jpg) | 판교신도시 공간 구조 구상과 공원·녹지 계획 | rendered-page |
-| 09 | 112 | [vol-09-page-112.jpg](../assets/pages/vol-09-page-112.jpg) | 판교 남단녹지, 개발 가능지, 택지개발 지정 과정 | rendered-page |
-| 09 | 113 | [vol-09-page-113.jpg](../assets/pages/vol-09-page-113.jpg) | 판교신도시 사업지구 조성 전·위성사진 비교 | rendered-page |
-| 09 | 114 | [vol-09-page-114.jpg](../assets/pages/vol-09-page-114.jpg) | 판교 지구 지정 변경, 밀도 조정, 분양 대책 | rendered-page |
-| 09 | 115 | [vol-09-page-115.jpg](../assets/pages/vol-09-page-115.jpg) | 판교 개발계획 변경과 알파돔시티 사업 개요 | rendered-page |
-| 09 | 116 | [vol-09-page-116.jpg](../assets/pages/vol-09-page-116.jpg) | 판교역 알파돔시티 야경과 복합단지 개발 | rendered-page |
-| 09 | 117 | [vol-09-page-117.jpg](../assets/pages/vol-09-page-117.jpg) | 판교테크노밸리 특별계획구역과 글로벌 클러스터 구상 | rendered-page |
-| 09 | 118 | [vol-09-page-118.jpg](../assets/pages/vol-09-page-118.jpg) | 판교테크노밸리와 화랑공원, 글로벌 R&D센터 | rendered-page |
-| 09 | 119 | [vol-09-page-119.jpg](../assets/pages/vol-09-page-119.jpg) | 첨단 벤처기업 집적지로서 판교테크노밸리 | rendered-page |
-| 09 | 120 | [vol-09-page-120.jpg](../assets/pages/vol-09-page-120.jpg) | 판교테크노밸리 입지와 2013년 기업·인력 규모 | rendered-page |
-| 09 | 121 | [vol-09-page-121.jpg](../assets/pages/vol-09-page-121.jpg) | 제2판교테크노밸리 창조경제밸리 전경 | rendered-page |
-| 09 | 123 | [vol-09-page-123.jpg](../assets/pages/vol-09-page-123.jpg) | 위례신도시 개발 배경과 복합 경계 도시 성격 | rendered-page |
-| 09 | 124 | [vol-09-page-124.jpg](../assets/pages/vol-09-page-124.jpg) | 8·31 부동산 종합대책 요지와 파급 효과 | rendered-page |
-| 09 | 125 | [vol-09-page-125.jpg](../assets/pages/vol-09-page-125.jpg) | 송파·거여 지구 지정과 위례신도시 사업 규모 | rendered-page |
-| 09 | 126 | [vol-09-page-126.jpg](../assets/pages/vol-09-page-126.jpg) | 위례신도시 행정구역별 면적·수용인구와 개발 콘셉트 | rendered-page |
-| 09 | 127 | [vol-09-page-127.jpg](../assets/pages/vol-09-page-127.jpg) | 위례 U-Eco City·Culture City 조성 전략 | rendered-page |
-| 09 | 128 | [vol-09-page-128.jpg](../assets/pages/vol-09-page-128.jpg) | 위례 토지이용·교통·공원녹지 계획 | rendered-page |
-| 09 | 129 | [vol-09-page-129.jpg](../assets/pages/vol-09-page-129.jpg) | 위례신도시 개발 전개 과정과 광역교통 대책 | rendered-page |
-| 09 | 130 | [vol-09-page-130.jpg](../assets/pages/vol-09-page-130.jpg) | 위례 보상·세입자 대책·복합 경계 조정 과정 | rendered-page |
-| 09 | 131 | [vol-09-page-131.jpg](../assets/pages/vol-09-page-131.jpg) | 위례 행정구역 갈등과 성남시 구역 입주 현황 | rendered-page |
-| 09 | 132 | [vol-09-page-132.jpg](../assets/pages/vol-09-page-132.jpg) | 위례신도시 성남시 구역 아파트·주상복합 분양 현황 | rendered-page |
+| 09 | 7 | [vol-09-page-007.jpg](../assets/pages/vol-09/vol-09-page-007.jpg) | 서울시 시멘트블록 ‘블록 단지’ 주택과 초기 주택난 | rendered-page |
+| 09 | 8 | [vol-09-page-008.jpg](../assets/pages/vol-09/vol-09-page-008.jpg) | 은행동 임시 정착지와 자조주택 건립 설명 | rendered-page |
+| 09 | 9 | [vol-09-page-009.jpg](../assets/pages/vol-09/vol-09-page-009.jpg) | 1980년대 이후 수정·중원구 다세대 주택 경관 | rendered-page |
+| 09 | 10 | [vol-09-page-010.jpg](../assets/pages/vol-09/vol-09-page-010.jpg) | 시 승격 전후 본시가지 가로망 비교, 1970/1973 | rendered-page |
+| 09 | 11 | [vol-09-page-011.jpg](../assets/pages/vol-09/vol-09-page-011.jpg) | 복정정수장과 광주대단지 상수도 보급 문제 | rendered-page |
+| 09 | 12 | [vol-09-page-012.jpg](../assets/pages/vol-09/vol-09-page-012.jpg) | 분뇨 수거·처리장과 초기 위생 기반시설 | rendered-page |
+| 09 | 14 | [vol-09-page-014.jpg](../assets/pages/vol-09/vol-09-page-014.jpg) | 광주대단지 제1공단 기공식과 주민 직업 구조 | rendered-page |
+| 09 | 15 | [vol-09-page-015.jpg](../assets/pages/vol-09/vol-09-page-015.jpg) | 성남시 제2·3공업단지 전경과 공장 유치 실적 | rendered-page |
+| 09 | 16 | [vol-09-page-016.jpg](../assets/pages/vol-09/vol-09-page-016.jpg) | 광주대단지-서울 연결 도로·버스 교통 여건 | rendered-page |
+| 09 | 17 | [vol-09-page-017.jpg](../assets/pages/vol-09/vol-09-page-017.jpg) | 성남시 승격과 광주대단지 종합개발계획 회고 | rendered-page |
+| 09 | 18 | [vol-09-page-018.jpg](../assets/pages/vol-09/vol-09-page-018.jpg) | 성남단지 종합 1차 개발도와 개발 방향 | rendered-page |
+| 09 | 19 | [vol-09-page-019.jpg](../assets/pages/vol-09/vol-09-page-019.jpg) | 시 승격 직후 행정기구와 분양지 등록 | rendered-page |
+| 09 | 20 | [vol-09-page-020.jpg](../assets/pages/vol-09/vol-09-page-020.jpg) | 분양증 전매·위조 기사와 1972~1974년 인구 구성 | rendered-page |
+| 09 | 21 | [vol-09-page-021.jpg](../assets/pages/vol-09/vol-09-page-021.jpg) | 1975~1990년 인구 증가와 산업별 인구 구조 | rendered-page |
+| 09 | 22 | [vol-09-page-022.jpg](../assets/pages/vol-09/vol-09-page-022.jpg) | 광주대단지 제2공업단지 기공식과 성남산업단지 규모 | rendered-page |
+| 09 | 23 | [vol-09-page-023.jpg](../assets/pages/vol-09/vol-09-page-023.jpg) | 1990년대 성남제2공단과 지식산업센터 전환 | rendered-page |
+| 09 | 24 | [vol-09-page-024.jpg](../assets/pages/vol-09/vol-09-page-024.jpg) | 성남산업단지 생산·수출과 1·2차 정화 사업 | rendered-page |
+| 09 | 25 | [vol-09-page-025.jpg](../assets/pages/vol-09/vol-09-page-025.jpg) | 한강 취수 상수도 증산, 대곡교·대왕교 비교 | rendered-page |
+| 09 | 26 | [vol-09-page-026.jpg](../assets/pages/vol-09/vol-09-page-026.jpg) | 분뇨처리장·대봉로 조성 등 도시 시설 확충 | rendered-page |
+| 09 | 27 | [vol-09-page-027.jpg](../assets/pages/vol-09/vol-09-page-027.jpg) | 옛 성남시민회관과 성남공설운동장 건설 | rendered-page |
+| 09 | 28 | [vol-09-page-028.jpg](../assets/pages/vol-09/vol-09-page-028.jpg) | 초기 주택지 형성과 무허가·불량주택 문제 | rendered-page |
+| 09 | 29 | [vol-09-page-029.jpg](../assets/pages/vol-09/vol-09-page-029.jpg) | 1976년 5·4조치와 고도지구 변경 관련 신문 기사 | rendered-page |
+| 09 | 30 | [vol-09-page-030.jpg](../assets/pages/vol-09/vol-09-page-030.jpg) | 성남 도시 재정비 계획의 생활권·토지이용 구상 | rendered-page |
+| 09 | 31 | [vol-09-page-031.jpg](../assets/pages/vol-09/vol-09-page-031.jpg) | 공동주택 형성과 생활권 계획 | rendered-page |
+| 09 | 32 | [vol-09-page-032.jpg](../assets/pages/vol-09/vol-09-page-032.jpg) | 성남 초기 주거지와 공동주택 개발의 제약 | rendered-page |
+| 09 | 34 | [vol-09-page-034.jpg](../assets/pages/vol-09/vol-09-page-034.jpg) | 도시 새마을운동 장 도입부 | rendered-page |
+| 09 | 37 | [vol-09-page-037.jpg](../assets/pages/vol-09/vol-09-page-037.jpg) | 성남상공회의소 도시새마을운동 촉진대회, 1976 | rendered-page |
+| 09 | 38 | [vol-09-page-038.jpg](../assets/pages/vol-09/vol-09-page-038.jpg) | 1960년대 율동 양지마을과 새마을 가꾸기 사업 현황 | rendered-page |
+| 09 | 39 | [vol-09-page-039.jpg](../assets/pages/vol-09/vol-09-page-039.jpg) | 새마을 주택개량·취락개선·새마을금고 통계 | rendered-page |
+| 09 | 40 | [vol-09-page-040.jpg](../assets/pages/vol-09/vol-09-page-040.jpg) | 새마을운동중앙연수원 전경과 성남 이전 | rendered-page |
+| 09 | 43 | [vol-09-page-043.jpg](../assets/pages/vol-09/vol-09-page-043.jpg) | 공장 새마을 분임조 특별연수 교육, 1984 | rendered-page |
+| 09 | 46 | [vol-09-page-046.jpg](../assets/pages/vol-09/vol-09-page-046.jpg) | 삼영전자 작업장과 공장 새마을 사례 | rendered-page |
+| 09 | 53 | [vol-09-page-053.jpg](../assets/pages/vol-09/vol-09-page-053.jpg) | 성남 고도제한의 제도적 배경과 1차 운동 | rendered-page |
+| 09 | 54 | [vol-09-page-054.jpg](../assets/pages/vol-09/vol-09-page-054.jpg) | 1996년 이후 고도제한 철폐 요구의 형성 | rendered-page |
+| 09 | 55 | [vol-09-page-055.jpg](../assets/pages/vol-09/vol-09-page-055.jpg) | 범대위 출범과 성남시 가구 피해 주장 | rendered-page |
+| 09 | 56 | [vol-09-page-056.jpg](../assets/pages/vol-09/vol-09-page-056.jpg) | 공군 고도제한 개선 연구와 적용 면적·가구 통계 | rendered-page |
+| 09 | 57 | [vol-09-page-057.jpg](../assets/pages/vol-09/vol-09-page-057.jpg) | 탄천변 고도제한 철폐 시민운동, 2009 | rendered-page |
+| 09 | 58 | [vol-09-page-058.jpg](../assets/pages/vol-09/vol-09-page-058.jpg) | 2001년 국방부·서울공항 집회와 12m→45m 완화 | rendered-page |
+| 09 | 60 | [vol-09-page-060.jpg](../assets/pages/vol-09/vol-09-page-060.jpg) | 제2롯데월드 허용 논란과 2기 고도제한 운동 | rendered-page |
+| 09 | 61 | [vol-09-page-061.jpg](../assets/pages/vol-09/vol-09-page-061.jpg) | 성남시 고도제한 완화 특별 기자회견, 2009 | rendered-page |
+| 09 | 62 | [vol-09-page-062.jpg](../assets/pages/vol-09/vol-09-page-062.jpg) | 수정·중원구 전술항공작전기지 구역과 재개발 제약 | rendered-page |
+| 09 | 63 | [vol-09-page-063.jpg](../assets/pages/vol-09/vol-09-page-063.jpg) | 고도제한 피해 가구·경제 피해·완화 효과 주장 | rendered-page |
+| 09 | 64 | [vol-09-page-064.jpg](../assets/pages/vol-09/vol-09-page-064.jpg) | 고도제한 완전 해결 범시민 궐기대회, 2009 | rendered-page |
+| 09 | 65 | [vol-09-page-065.jpg](../assets/pages/vol-09/vol-09-page-065.jpg) | 서울공항 주변 고도제한 45m→193m 완화 설명 | rendered-page |
+| 09 | 66 | [vol-09-page-066.jpg](../assets/pages/vol-09/vol-09-page-066.jpg) | 성남시 고도제한 완화 발표 기자회견, 2010 | rendered-page |
+| 09 | 68 | [vol-09-page-068.jpg](../assets/pages/vol-09/vol-09-page-068.jpg) | 2023년 이후 고도제한 완전 해결 운동 | rendered-page |
+| 09 | 69 | [vol-09-page-069.jpg](../assets/pages/vol-09/vol-09-page-069.jpg) | 성남시 고도제한 완전 해결 범시민대책위원회 출범식, 2023 | rendered-page |
+| 09 | 70 | [vol-09-page-070.jpg](../assets/pages/vol-09/vol-09-page-070.jpg) | 2024년 총선·현지 조사·조례 등 최근 고도제한 대응 | rendered-page |
+| 09 | 71 | [vol-09-page-071.jpg](../assets/pages/vol-09/vol-09-page-071.jpg) | 신상진 시장과 고도제한완화 범대위 간담회, 2024 | rendered-page |
+| 09 | 74 | [vol-09-page-074.jpg](../assets/pages/vol-09/vol-09-page-074.jpg) | 1기 신도시 개발과 분당신도시 조성 장 도입부 | rendered-page |
+| 09 | 78 | [vol-09-page-078.jpg](../assets/pages/vol-09/vol-09-page-078.jpg) | 수도권 5개 신도시 분포도 | rendered-page |
+| 09 | 79 | [vol-09-page-079.jpg](../assets/pages/vol-09/vol-09-page-079.jpg) | 분당신도시 건설 발표 신문 기사와 200만 호 건설 계획 | rendered-page |
+| 09 | 80 | [vol-09-page-080.jpg](../assets/pages/vol-09/vol-09-page-080.jpg) | 수도권 5개 신도시 규모·사업비·수용 인구 비교 서술 | rendered-page |
+| 09 | 81 | [vol-09-page-081.jpg](../assets/pages/vol-09/vol-09-page-081.jpg) | 일산·평촌·산본·중동 신도시 사업 개요 | rendered-page |
+| 09 | 82 | [vol-09-page-082.jpg](../assets/pages/vol-09/vol-09-page-082.jpg) | 1980년대 후반 서울 주택보급률·전세가 상승 배경 | rendered-page |
+| 09 | 83 | [vol-09-page-083.jpg](../assets/pages/vol-09/vol-09-page-083.jpg) | 분당신도시 목표 도시와 녹지·전철 계획 | rendered-page |
+| 09 | 85 | [vol-09-page-085.jpg](../assets/pages/vol-09/vol-09-page-085.jpg) | 분당신도시 입지·면적·하천·고건 회고 | rendered-page |
+| 09 | 86 | [vol-09-page-086.jpg](../assets/pages/vol-09/vol-09-page-086.jpg) | 분당 개발 전 토지이용·이주대상·지장물·문화유적 | rendered-page |
+| 09 | 87 | [vol-09-page-087.jpg](../assets/pages/vol-09/vol-09-page-087.jpg) | 분당 지역 도로망과 고도제한 구역 | rendered-page |
+| 09 | 88 | [vol-09-page-088.jpg](../assets/pages/vol-09/vol-09-page-088.jpg) | 신도시 개발 전 분당 지역과 3단계 건설 전략 | rendered-page |
+| 09 | 89 | [vol-09-page-089.jpg](../assets/pages/vol-09/vol-09-page-089.jpg) | 분당신도시 추진 조직과 분당구청 설치 | rendered-page |
+| 09 | 90 | [vol-09-page-090.jpg](../assets/pages/vol-09/vol-09-page-090.jpg) | 분당신도시 도시설계 기본 방향 | rendered-page |
+| 09 | 91 | [vol-09-page-091.jpg](../assets/pages/vol-09/vol-09-page-091.jpg) | 분당 개발 전 목가적 풍광과 환경영향평가 | rendered-page |
+| 09 | 92 | [vol-09-page-092.jpg](../assets/pages/vol-09/vol-09-page-092.jpg) | 분당 광역교통망·인구영향평가와 목표 연도 | rendered-page |
+| 09 | 93 | [vol-09-page-093.jpg](../assets/pages/vol-09/vol-09-page-093.jpg) | 분당 목표 인구·가구·밀도·주택 수요 지표 | rendered-page |
+| 09 | 94 | [vol-09-page-094.jpg](../assets/pages/vol-09/vol-09-page-094.jpg) | 분당 초창기 건설 현장과 토지이용 지표 | rendered-page |
+| 09 | 95 | [vol-09-page-095.jpg](../assets/pages/vol-09/vol-09-page-095.jpg) | 분당 이매동 택지 조성과 단독택지 계획 | rendered-page |
+| 09 | 96 | [vol-09-page-096.jpg](../assets/pages/vol-09/vol-09-page-096.jpg) | 분당 연립·아파트 용지와 도로폭 계획 | rendered-page |
+| 09 | 97 | [vol-09-page-097.jpg](../assets/pages/vol-09/vol-09-page-097.jpg) | 분당선·중앙공원·탄천 녹지축 계획 | rendered-page |
+| 09 | 98 | [vol-09-page-098.jpg](../assets/pages/vol-09/vol-09-page-098.jpg) | 분당 주거축-녹지축 기본계획과 공원녹지 지표 | rendered-page |
+| 09 | 99 | [vol-09-page-099.jpg](../assets/pages/vol-09/vol-09-page-099.jpg) | 분당 교육시설과 공공시설 계획 | rendered-page |
+| 09 | 100 | [vol-09-page-100.jpg](../assets/pages/vol-09/vol-09-page-100.jpg) | 분당 복지·문화·의료·종교·상수도 시설 계획 | rendered-page |
+| 09 | 101 | [vol-09-page-101.jpg](../assets/pages/vol-09/vol-09-page-101.jpg) | 분당중앙공원과 하수·전력·통신·가스 계획 | rendered-page |
+| 09 | 102 | [vol-09-page-102.jpg](../assets/pages/vol-09/vol-09-page-102.jpg) | 백현동 카페거리와 주택전람회 구상 | rendered-page |
+| 09 | 103 | [vol-09-page-103.jpg](../assets/pages/vol-09/vol-09-page-103.jpg) | 탄천·하천·자전거·도서관 등 분당 개발사업 | rendered-page |
+| 09 | 104 | [vol-09-page-104.jpg](../assets/pages/vol-09/vol-09-page-104.jpg) | 분당구청 개청과 분당 독립시 추진 갈등 | rendered-page |
+| 09 | 105 | [vol-09-page-105.jpg](../assets/pages/vol-09/vol-09-page-105.jpg) | 분당 독립시 추진 반대 현수막, 1996 | rendered-page |
+| 09 | 106 | [vol-09-page-106.jpg](../assets/pages/vol-09/vol-09-page-106.jpg) | 판교·위례 신도시 개발 장 도입부 | rendered-page |
+| 09 | 107 | [vol-09-page-107.jpg](../assets/pages/vol-09/vol-09-page-107.jpg) | 판교 개발 배경과 200만 호 건설계획 이후 주택대란 | rendered-page |
+| 09 | 108 | [vol-09-page-108.jpg](../assets/pages/vol-09/vol-09-page-108.jpg) | 판교 개발 촉구 집회와 개발 유보 항의, 2001 | rendered-page |
+| 09 | 109 | [vol-09-page-109.jpg](../assets/pages/vol-09/vol-09-page-109.jpg) | 판교신도시 사업 개요 표와 사업비 | rendered-page |
+| 09 | 110 | [vol-09-page-110.jpg](../assets/pages/vol-09/vol-09-page-110.jpg) | 판교 토지이용·교통·TOD 계획 | rendered-page |
+| 09 | 111 | [vol-09-page-111.jpg](../assets/pages/vol-09/vol-09-page-111.jpg) | 판교신도시 공간 구조 구상과 공원·녹지 계획 | rendered-page |
+| 09 | 112 | [vol-09-page-112.jpg](../assets/pages/vol-09/vol-09-page-112.jpg) | 판교 남단녹지, 개발 가능지, 택지개발 지정 과정 | rendered-page |
+| 09 | 113 | [vol-09-page-113.jpg](../assets/pages/vol-09/vol-09-page-113.jpg) | 판교신도시 사업지구 조성 전·위성사진 비교 | rendered-page |
+| 09 | 114 | [vol-09-page-114.jpg](../assets/pages/vol-09/vol-09-page-114.jpg) | 판교 지구 지정 변경, 밀도 조정, 분양 대책 | rendered-page |
+| 09 | 115 | [vol-09-page-115.jpg](../assets/pages/vol-09/vol-09-page-115.jpg) | 판교 개발계획 변경과 알파돔시티 사업 개요 | rendered-page |
+| 09 | 116 | [vol-09-page-116.jpg](../assets/pages/vol-09/vol-09-page-116.jpg) | 판교역 알파돔시티 야경과 복합단지 개발 | rendered-page |
+| 09 | 117 | [vol-09-page-117.jpg](../assets/pages/vol-09/vol-09-page-117.jpg) | 판교테크노밸리 특별계획구역과 글로벌 클러스터 구상 | rendered-page |
+| 09 | 118 | [vol-09-page-118.jpg](../assets/pages/vol-09/vol-09-page-118.jpg) | 판교테크노밸리와 화랑공원, 글로벌 R&D센터 | rendered-page |
+| 09 | 119 | [vol-09-page-119.jpg](../assets/pages/vol-09/vol-09-page-119.jpg) | 첨단 벤처기업 집적지로서 판교테크노밸리 | rendered-page |
+| 09 | 120 | [vol-09-page-120.jpg](../assets/pages/vol-09/vol-09-page-120.jpg) | 판교테크노밸리 입지와 2013년 기업·인력 규모 | rendered-page |
+| 09 | 121 | [vol-09-page-121.jpg](../assets/pages/vol-09/vol-09-page-121.jpg) | 제2판교테크노밸리 창조경제밸리 전경 | rendered-page |
+| 09 | 123 | [vol-09-page-123.jpg](../assets/pages/vol-09/vol-09-page-123.jpg) | 위례신도시 개발 배경과 복합 경계 도시 성격 | rendered-page |
+| 09 | 124 | [vol-09-page-124.jpg](../assets/pages/vol-09/vol-09-page-124.jpg) | 8·31 부동산 종합대책 요지와 파급 효과 | rendered-page |
+| 09 | 125 | [vol-09-page-125.jpg](../assets/pages/vol-09/vol-09-page-125.jpg) | 송파·거여 지구 지정과 위례신도시 사업 규모 | rendered-page |
+| 09 | 126 | [vol-09-page-126.jpg](../assets/pages/vol-09/vol-09-page-126.jpg) | 위례신도시 행정구역별 면적·수용인구와 개발 콘셉트 | rendered-page |
+| 09 | 127 | [vol-09-page-127.jpg](../assets/pages/vol-09/vol-09-page-127.jpg) | 위례 U-Eco City·Culture City 조성 전략 | rendered-page |
+| 09 | 128 | [vol-09-page-128.jpg](../assets/pages/vol-09/vol-09-page-128.jpg) | 위례 토지이용·교통·공원녹지 계획 | rendered-page |
+| 09 | 129 | [vol-09-page-129.jpg](../assets/pages/vol-09/vol-09-page-129.jpg) | 위례신도시 개발 전개 과정과 광역교통 대책 | rendered-page |
+| 09 | 130 | [vol-09-page-130.jpg](../assets/pages/vol-09/vol-09-page-130.jpg) | 위례 보상·세입자 대책·복합 경계 조정 과정 | rendered-page |
+| 09 | 131 | [vol-09-page-131.jpg](../assets/pages/vol-09/vol-09-page-131.jpg) | 위례 행정구역 갈등과 성남시 구역 입주 현황 | rendered-page |
+| 09 | 132 | [vol-09-page-132.jpg](../assets/pages/vol-09/vol-09-page-132.jpg) | 위례신도시 성남시 구역 아파트·주상복합 분양 현황 | rendered-page |
 
 ## Suggested Stats Rows
 
@@ -204,4 +204,4 @@
 
 - `pdfinfo` 확인: 136 pages, encrypted no, Adobe InDesign 15.
 - `pdftotext -layout` 확인: embedded text layer extracted, OCR not used.
-- rendered page assets: 103 local JPG files under `docs/seongnam-city-history-50/assets/pages/`.
+- rendered page assets: 103 local JPG files under `docs/seongnam-city-history-50/assets/pages/vol-09/`.

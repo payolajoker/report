@@ -14,7 +14,7 @@
 
 - `docs/seongnam-city-history-50/vol-07-righteous-army-independence-struggle.md`
 - `dist/seongnam-history-50-vol-07.llm.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-07-page-*.jpg`
+- `docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-*.jpg`
 
 ## README / Index Merge Suggestion
 
@@ -22,46 +22,46 @@ Add Vol 07 as `text-layer-reviewed` after the existing volume rows. Suggested de
 
 ## Figure Rows To Merge
 
-- p.001: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-001.jpg` - 표지와 권명
-- p.002: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-002.jpg` - 목차 1: 의병 전쟁·문화능력 배양기 독립운동
-- p.003: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-003.jpg` - 목차 2: 해방 공간·반군국주의·한국전쟁
-- p.008: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-008.jpg` - 명성황후 시해 관련 도판과 김하락 의병진 서술
-- p.011: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-011.jpg` - 일제에 의해 체포된 의병들과 광주군 의병 교전 기록
-- p.013: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-013.jpg` - 동천 남상목 의병장 성장과 사상 서술
-- p.016: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-016.jpg` - 남상목 의병장 순국 116주기 추모제 사진
-- p.019: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-019.jpg` - 청계산 호랑이 윤치장 의병장과 판결문 도판
-- p.020: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-020.jpg` - 95세 윤치장 의병장 사진과 사상 평가
-- p.024: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-024.jpg` - 복정동 출신 개화사상가 강위 도판
-- p.029: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-029.jpg` - 대왕면 토지조사사업 실적표와 토지조사부 표지
-- p.030: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-030.jpg` - 대왕면 고등리 토지조사부 내지와 돌마면 총괄 서술
-- p.031: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-031.jpg` - 돌마면 및 서현리 토지조사사업 실적표
-- p.032: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-032.jpg` - 서현리 연명 후 출명부, 낙생면 토지조사사업 실적표
-- p.034: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-034.jpg` - 토지 수탈 목적으로 실시된 토지조사사업 도판
-- p.036: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-036.jpg` - 프레더릭 매켄지가 촬영한 의병들
-- p.038: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-038.jpg` - 성남 3·1운동 기념공원 조형물
-- p.039: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-039.jpg` - 돌마면·대왕면 만세운동과 면사무소 사진
-- p.047: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-047.jpg` - 신간회 광주지회와 민족협동전선 관련 도판
-- p.048: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-048.jpg` - 신간회 광주지회 창립 기사와 조직 명단 자료
-- p.055: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-055.jpg` - 아키타현 삼릉미 거택 탄광 출발 전 광주군 근로복지단원 사진
-- p.058: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-058.jpg` - 최용자·이찬 등 강제징용·반군국주의 사례
-- p.059: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-059.jpg` - 이찬 관련 기록과 반군국주의 투쟁기 농촌 실태
-- p.065: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-065.jpg` - 백현동 황에스더의 계몽운동 관련 도판
-- p.070: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-070.jpg` - 몽양 여운형 도판과 해방 정국 흐름
-- p.071: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-071.jpg` - 신익희와 해방 공간 정치세력 서술
-- p.075: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-075.jpg` - 광주경찰서 습격 사건과 좌우 대립 자료
-- p.080: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-080.jpg` - 농지개혁법 조문 인용과 분배·상환 방식
-- p.081: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-081.jpg` - 농지소표와 농지개혁의 성남 지역 의미
-- p.086: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-086.jpg` - 남한을 기습 침공하는 북한군 전차부대
-- p.096: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-096.jpg` - 이매동 순명의사창의비 사진과 비문
-- p.098: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-098.jpg` - 한국전쟁 희생자를 기리는 성남의사단 추모제
-- p.102: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-102.jpg` - 인천상륙작전과 유엔군 반격 도판
-- p.105: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-105.jpg` - 1951년 광주 지역 위력수색 관련 전투상보
-- p.106: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-106.jpg` - 유엔군 썬더볼트 작전 요도
-- p.108: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-108.jpg` - 지도로 보는 한국전쟁의 전개 양상
-- p.111: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-111.jpg` - 광주군 한국전쟁 인명·재산 피해 통계
-- p.112: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-112.jpg` - 한청원 소속 성남 주민 희생자 명단
-- p.114: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-114.jpg` - 광주 지역 피란민 세대·인구 증가 통계
-- p.115: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07-page-115.jpg` - 구천면·대왕면 피란민 구호와 구호양곡 횡령 기사 인용
+- p.001: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-001.jpg` - 표지와 권명
+- p.002: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-002.jpg` - 목차 1: 의병 전쟁·문화능력 배양기 독립운동
+- p.003: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-003.jpg` - 목차 2: 해방 공간·반군국주의·한국전쟁
+- p.008: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-008.jpg` - 명성황후 시해 관련 도판과 김하락 의병진 서술
+- p.011: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-011.jpg` - 일제에 의해 체포된 의병들과 광주군 의병 교전 기록
+- p.013: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-013.jpg` - 동천 남상목 의병장 성장과 사상 서술
+- p.016: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-016.jpg` - 남상목 의병장 순국 116주기 추모제 사진
+- p.019: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-019.jpg` - 청계산 호랑이 윤치장 의병장과 판결문 도판
+- p.020: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-020.jpg` - 95세 윤치장 의병장 사진과 사상 평가
+- p.024: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-024.jpg` - 복정동 출신 개화사상가 강위 도판
+- p.029: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-029.jpg` - 대왕면 토지조사사업 실적표와 토지조사부 표지
+- p.030: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-030.jpg` - 대왕면 고등리 토지조사부 내지와 돌마면 총괄 서술
+- p.031: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-031.jpg` - 돌마면 및 서현리 토지조사사업 실적표
+- p.032: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-032.jpg` - 서현리 연명 후 출명부, 낙생면 토지조사사업 실적표
+- p.034: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-034.jpg` - 토지 수탈 목적으로 실시된 토지조사사업 도판
+- p.036: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-036.jpg` - 프레더릭 매켄지가 촬영한 의병들
+- p.038: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-038.jpg` - 성남 3·1운동 기념공원 조형물
+- p.039: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-039.jpg` - 돌마면·대왕면 만세운동과 면사무소 사진
+- p.047: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-047.jpg` - 신간회 광주지회와 민족협동전선 관련 도판
+- p.048: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-048.jpg` - 신간회 광주지회 창립 기사와 조직 명단 자료
+- p.055: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-055.jpg` - 아키타현 삼릉미 거택 탄광 출발 전 광주군 근로복지단원 사진
+- p.058: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-058.jpg` - 최용자·이찬 등 강제징용·반군국주의 사례
+- p.059: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-059.jpg` - 이찬 관련 기록과 반군국주의 투쟁기 농촌 실태
+- p.065: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-065.jpg` - 백현동 황에스더의 계몽운동 관련 도판
+- p.070: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-070.jpg` - 몽양 여운형 도판과 해방 정국 흐름
+- p.071: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-071.jpg` - 신익희와 해방 공간 정치세력 서술
+- p.075: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-075.jpg` - 광주경찰서 습격 사건과 좌우 대립 자료
+- p.080: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-080.jpg` - 농지개혁법 조문 인용과 분배·상환 방식
+- p.081: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-081.jpg` - 농지소표와 농지개혁의 성남 지역 의미
+- p.086: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-086.jpg` - 남한을 기습 침공하는 북한군 전차부대
+- p.096: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-096.jpg` - 이매동 순명의사창의비 사진과 비문
+- p.098: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-098.jpg` - 한국전쟁 희생자를 기리는 성남의사단 추모제
+- p.102: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-102.jpg` - 인천상륙작전과 유엔군 반격 도판
+- p.105: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-105.jpg` - 1951년 광주 지역 위력수색 관련 전투상보
+- p.106: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-106.jpg` - 유엔군 썬더볼트 작전 요도
+- p.108: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-108.jpg` - 지도로 보는 한국전쟁의 전개 양상
+- p.111: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-111.jpg` - 광주군 한국전쟁 인명·재산 피해 통계
+- p.112: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-112.jpg` - 한청원 소속 성남 주민 희생자 명단
+- p.114: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-114.jpg` - 광주 지역 피란민 세대·인구 증가 통계
+- p.115: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-07/vol-07-page-115.jpg` - 구천면·대왕면 피란민 구호와 구호양곡 횡령 기사 인용
 
 ## Statistics Rows To Merge
 

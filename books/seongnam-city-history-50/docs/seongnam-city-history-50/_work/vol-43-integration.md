@@ -4,7 +4,7 @@
 
 - 본문 Markdown: `docs/seongnam-city-history-50/vol-43-pangyo-techno-culture-valley.md`
 - LLM 번들: `dist/seongnam-history-50-vol-43.llm.md`
-- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-43-page-*.jpg` 128개
+- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-43/vol-43-page-*.jpg` 128개
 - 원천 PDF: `sources/seongnam-history-50-vol-43.pdf`
 
 ## 처리 상태

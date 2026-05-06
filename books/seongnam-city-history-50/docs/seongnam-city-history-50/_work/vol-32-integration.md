@@ -4,7 +4,7 @@
 
 - 본문 Markdown: `docs/seongnam-city-history-50/vol-32-yeosu-dochon-yatap-area-transformation.md`
 - LLM 번들: `dist/seongnam-history-50-vol-32.llm.md`
-- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-32-page-*.jpg` 128개
+- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-32/vol-32-page-*.jpg` 128개
 - 원천 PDF: `sources/seongnam-history-50-vol-32.pdf`
 
 ## 처리 상태

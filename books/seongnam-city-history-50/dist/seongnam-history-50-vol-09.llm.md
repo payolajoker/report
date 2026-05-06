@@ -5,7 +5,7 @@
 - source_url: https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378685
 - ocr_used: false
 - extraction: embedded PDF text via pdftotext -layout
-- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/` 경로로 연결되어 있다.
+- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/vol-09/` 경로로 연결되어 있다.
 
 ---
 collection_title: "성남시사 50년사"
@@ -26,7 +26,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 성남시 승격, 원도심 형성, 5·4조치, 고도제한철폐운동, 분당·판교·위례 신도시 관련 주요 도판과 표가 있는 쪽은 `assets/pages/`에 렌더링했다.
+- 성남시 승격, 원도심 형성, 5·4조치, 고도제한철폐운동, 분당·판교·위례 신도시 관련 주요 도판과 표가 있는 쪽은 `assets/pages/vol-09/`에 렌더링했다.
 - 참고문헌은 원문 133~135쪽의 문헌군을 그대로 보존했다.
 
 ## 권별 목차
@@ -83,109 +83,109 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 | --- | --- | --- | --- |
-| [vol-09-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-007.jpg) | 7 | 서울시 시멘트블록 ‘블록 단지’ 주택과 초기 주택난 | rendered-page |
-| [vol-09-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-008.jpg) | 8 | 은행동 임시 정착지와 자조주택 건립 설명 | rendered-page |
-| [vol-09-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-009.jpg) | 9 | 1980년대 이후 수정·중원구 다세대 주택 경관 | rendered-page |
-| [vol-09-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-010.jpg) | 10 | 시 승격 전후 본시가지 가로망 비교, 1970/1973 | rendered-page |
-| [vol-09-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-011.jpg) | 11 | 복정정수장과 광주대단지 상수도 보급 문제 | rendered-page |
-| [vol-09-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-012.jpg) | 12 | 분뇨 수거·처리장과 초기 위생 기반시설 | rendered-page |
-| [vol-09-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-014.jpg) | 14 | 광주대단지 제1공단 기공식과 주민 직업 구조 | rendered-page |
-| [vol-09-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-015.jpg) | 15 | 성남시 제2·3공업단지 전경과 공장 유치 실적 | rendered-page |
-| [vol-09-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-016.jpg) | 16 | 광주대단지-서울 연결 도로·버스 교통 여건 | rendered-page |
-| [vol-09-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-017.jpg) | 17 | 성남시 승격과 광주대단지 종합개발계획 회고 | rendered-page |
-| [vol-09-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-018.jpg) | 18 | 성남단지 종합 1차 개발도와 개발 방향 | rendered-page |
-| [vol-09-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-019.jpg) | 19 | 시 승격 직후 행정기구와 분양지 등록 | rendered-page |
-| [vol-09-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-020.jpg) | 20 | 분양증 전매·위조 기사와 1972~1974년 인구 구성 | rendered-page |
-| [vol-09-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-021.jpg) | 21 | 1975~1990년 인구 증가와 산업별 인구 구조 | rendered-page |
-| [vol-09-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-022.jpg) | 22 | 광주대단지 제2공업단지 기공식과 성남산업단지 규모 | rendered-page |
-| [vol-09-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-023.jpg) | 23 | 1990년대 성남제2공단과 지식산업센터 전환 | rendered-page |
-| [vol-09-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-024.jpg) | 24 | 성남산업단지 생산·수출과 1·2차 정화 사업 | rendered-page |
-| [vol-09-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-025.jpg) | 25 | 한강 취수 상수도 증산, 대곡교·대왕교 비교 | rendered-page |
-| [vol-09-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-026.jpg) | 26 | 분뇨처리장·대봉로 조성 등 도시 시설 확충 | rendered-page |
-| [vol-09-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-027.jpg) | 27 | 옛 성남시민회관과 성남공설운동장 건설 | rendered-page |
-| [vol-09-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-028.jpg) | 28 | 초기 주택지 형성과 무허가·불량주택 문제 | rendered-page |
-| [vol-09-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-029.jpg) | 29 | 1976년 5·4조치와 고도지구 변경 관련 신문 기사 | rendered-page |
-| [vol-09-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-030.jpg) | 30 | 성남 도시 재정비 계획의 생활권·토지이용 구상 | rendered-page |
-| [vol-09-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-031.jpg) | 31 | 공동주택 형성과 생활권 계획 | rendered-page |
-| [vol-09-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-032.jpg) | 32 | 성남 초기 주거지와 공동주택 개발의 제약 | rendered-page |
-| [vol-09-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-034.jpg) | 34 | 도시 새마을운동 장 도입부 | rendered-page |
-| [vol-09-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-037.jpg) | 37 | 성남상공회의소 도시새마을운동 촉진대회, 1976 | rendered-page |
-| [vol-09-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-038.jpg) | 38 | 1960년대 율동 양지마을과 새마을 가꾸기 사업 현황 | rendered-page |
-| [vol-09-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-039.jpg) | 39 | 새마을 주택개량·취락개선·새마을금고 통계 | rendered-page |
-| [vol-09-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-040.jpg) | 40 | 새마을운동중앙연수원 전경과 성남 이전 | rendered-page |
-| [vol-09-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-043.jpg) | 43 | 공장 새마을 분임조 특별연수 교육, 1984 | rendered-page |
-| [vol-09-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-046.jpg) | 46 | 삼영전자 작업장과 공장 새마을 사례 | rendered-page |
-| [vol-09-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-053.jpg) | 53 | 성남 고도제한의 제도적 배경과 1차 운동 | rendered-page |
-| [vol-09-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-054.jpg) | 54 | 1996년 이후 고도제한 철폐 요구의 형성 | rendered-page |
-| [vol-09-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-055.jpg) | 55 | 범대위 출범과 성남시 가구 피해 주장 | rendered-page |
-| [vol-09-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-056.jpg) | 56 | 공군 고도제한 개선 연구와 적용 면적·가구 통계 | rendered-page |
-| [vol-09-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-057.jpg) | 57 | 탄천변 고도제한 철폐 시민운동, 2009 | rendered-page |
-| [vol-09-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-058.jpg) | 58 | 2001년 국방부·서울공항 집회와 12m→45m 완화 | rendered-page |
-| [vol-09-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-060.jpg) | 60 | 제2롯데월드 허용 논란과 2기 고도제한 운동 | rendered-page |
-| [vol-09-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-061.jpg) | 61 | 성남시 고도제한 완화 특별 기자회견, 2009 | rendered-page |
-| [vol-09-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-062.jpg) | 62 | 수정·중원구 전술항공작전기지 구역과 재개발 제약 | rendered-page |
-| [vol-09-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-063.jpg) | 63 | 고도제한 피해 가구·경제 피해·완화 효과 주장 | rendered-page |
-| [vol-09-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-064.jpg) | 64 | 고도제한 완전 해결 범시민 궐기대회, 2009 | rendered-page |
-| [vol-09-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-065.jpg) | 65 | 서울공항 주변 고도제한 45m→193m 완화 설명 | rendered-page |
-| [vol-09-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-066.jpg) | 66 | 성남시 고도제한 완화 발표 기자회견, 2010 | rendered-page |
-| [vol-09-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-068.jpg) | 68 | 2023년 이후 고도제한 완전 해결 운동 | rendered-page |
-| [vol-09-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-069.jpg) | 69 | 성남시 고도제한 완전 해결 범시민대책위원회 출범식, 2023 | rendered-page |
-| [vol-09-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-070.jpg) | 70 | 2024년 총선·현지 조사·조례 등 최근 고도제한 대응 | rendered-page |
-| [vol-09-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-071.jpg) | 71 | 신상진 시장과 고도제한완화 범대위 간담회, 2024 | rendered-page |
-| [vol-09-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-074.jpg) | 74 | 1기 신도시 개발과 분당신도시 조성 장 도입부 | rendered-page |
-| [vol-09-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-078.jpg) | 78 | 수도권 5개 신도시 분포도 | rendered-page |
-| [vol-09-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-079.jpg) | 79 | 분당신도시 건설 발표 신문 기사와 200만 호 건설 계획 | rendered-page |
-| [vol-09-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-080.jpg) | 80 | 수도권 5개 신도시 규모·사업비·수용 인구 비교 서술 | rendered-page |
-| [vol-09-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-081.jpg) | 81 | 일산·평촌·산본·중동 신도시 사업 개요 | rendered-page |
-| [vol-09-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-082.jpg) | 82 | 1980년대 후반 서울 주택보급률·전세가 상승 배경 | rendered-page |
-| [vol-09-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-083.jpg) | 83 | 분당신도시 목표 도시와 녹지·전철 계획 | rendered-page |
-| [vol-09-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-085.jpg) | 85 | 분당신도시 입지·면적·하천·고건 회고 | rendered-page |
-| [vol-09-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-086.jpg) | 86 | 분당 개발 전 토지이용·이주대상·지장물·문화유적 | rendered-page |
-| [vol-09-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-087.jpg) | 87 | 분당 지역 도로망과 고도제한 구역 | rendered-page |
-| [vol-09-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-088.jpg) | 88 | 신도시 개발 전 분당 지역과 3단계 건설 전략 | rendered-page |
-| [vol-09-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-089.jpg) | 89 | 분당신도시 추진 조직과 분당구청 설치 | rendered-page |
-| [vol-09-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-090.jpg) | 90 | 분당신도시 도시설계 기본 방향 | rendered-page |
-| [vol-09-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-091.jpg) | 91 | 분당 개발 전 목가적 풍광과 환경영향평가 | rendered-page |
-| [vol-09-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-092.jpg) | 92 | 분당 광역교통망·인구영향평가와 목표 연도 | rendered-page |
-| [vol-09-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-093.jpg) | 93 | 분당 목표 인구·가구·밀도·주택 수요 지표 | rendered-page |
-| [vol-09-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-094.jpg) | 94 | 분당 초창기 건설 현장과 토지이용 지표 | rendered-page |
-| [vol-09-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-095.jpg) | 95 | 분당 이매동 택지 조성과 단독택지 계획 | rendered-page |
-| [vol-09-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-096.jpg) | 96 | 분당 연립·아파트 용지와 도로폭 계획 | rendered-page |
-| [vol-09-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-097.jpg) | 97 | 분당선·중앙공원·탄천 녹지축 계획 | rendered-page |
-| [vol-09-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-098.jpg) | 98 | 분당 주거축-녹지축 기본계획과 공원녹지 지표 | rendered-page |
-| [vol-09-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-099.jpg) | 99 | 분당 교육시설과 공공시설 계획 | rendered-page |
-| [vol-09-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-100.jpg) | 100 | 분당 복지·문화·의료·종교·상수도 시설 계획 | rendered-page |
-| [vol-09-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-101.jpg) | 101 | 분당중앙공원과 하수·전력·통신·가스 계획 | rendered-page |
-| [vol-09-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-102.jpg) | 102 | 백현동 카페거리와 주택전람회 구상 | rendered-page |
-| [vol-09-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-103.jpg) | 103 | 탄천·하천·자전거·도서관 등 분당 개발사업 | rendered-page |
-| [vol-09-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-104.jpg) | 104 | 분당구청 개청과 분당 독립시 추진 갈등 | rendered-page |
-| [vol-09-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-105.jpg) | 105 | 분당 독립시 추진 반대 현수막, 1996 | rendered-page |
-| [vol-09-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-106.jpg) | 106 | 판교·위례 신도시 개발 장 도입부 | rendered-page |
-| [vol-09-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-107.jpg) | 107 | 판교 개발 배경과 200만 호 건설계획 이후 주택대란 | rendered-page |
-| [vol-09-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-108.jpg) | 108 | 판교 개발 촉구 집회와 개발 유보 항의, 2001 | rendered-page |
-| [vol-09-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-109.jpg) | 109 | 판교신도시 사업 개요 표와 사업비 | rendered-page |
-| [vol-09-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-110.jpg) | 110 | 판교 토지이용·교통·TOD 계획 | rendered-page |
-| [vol-09-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-111.jpg) | 111 | 판교신도시 공간 구조 구상과 공원·녹지 계획 | rendered-page |
-| [vol-09-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-112.jpg) | 112 | 판교 남단녹지, 개발 가능지, 택지개발 지정 과정 | rendered-page |
-| [vol-09-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-113.jpg) | 113 | 판교신도시 사업지구 조성 전·위성사진 비교 | rendered-page |
-| [vol-09-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-114.jpg) | 114 | 판교 지구 지정 변경, 밀도 조정, 분양 대책 | rendered-page |
-| [vol-09-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-115.jpg) | 115 | 판교 개발계획 변경과 알파돔시티 사업 개요 | rendered-page |
-| [vol-09-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-116.jpg) | 116 | 판교역 알파돔시티 야경과 복합단지 개발 | rendered-page |
-| [vol-09-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-117.jpg) | 117 | 판교테크노밸리 특별계획구역과 글로벌 클러스터 구상 | rendered-page |
-| [vol-09-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-118.jpg) | 118 | 판교테크노밸리와 화랑공원, 글로벌 R&D센터 | rendered-page |
-| [vol-09-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-119.jpg) | 119 | 첨단 벤처기업 집적지로서 판교테크노밸리 | rendered-page |
-| [vol-09-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-120.jpg) | 120 | 판교테크노밸리 입지와 2013년 기업·인력 규모 | rendered-page |
-| [vol-09-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-121.jpg) | 121 | 제2판교테크노밸리 창조경제밸리 전경 | rendered-page |
-| [vol-09-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-123.jpg) | 123 | 위례신도시 개발 배경과 복합 경계 도시 성격 | rendered-page |
-| [vol-09-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-124.jpg) | 124 | 8·31 부동산 종합대책 요지와 파급 효과 | rendered-page |
-| [vol-09-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-125.jpg) | 125 | 송파·거여 지구 지정과 위례신도시 사업 규모 | rendered-page |
-| [vol-09-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-126.jpg) | 126 | 위례신도시 행정구역별 면적·수용인구와 개발 콘셉트 | rendered-page |
-| [vol-09-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-127.jpg) | 127 | 위례 U-Eco City·Culture City 조성 전략 | rendered-page |
-| [vol-09-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-128.jpg) | 128 | 위례 토지이용·교통·공원녹지 계획 | rendered-page |
-| [vol-09-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-129.jpg) | 129 | 위례신도시 개발 전개 과정과 광역교통 대책 | rendered-page |
-| [vol-09-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-130.jpg) | 130 | 위례 보상·세입자 대책·복합 경계 조정 과정 | rendered-page |
-| [vol-09-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-131.jpg) | 131 | 위례 행정구역 갈등과 성남시 구역 입주 현황 | rendered-page |
-| [vol-09-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09-page-132.jpg) | 132 | 위례신도시 성남시 구역 아파트·주상복합 분양 현황 | rendered-page |
+| [vol-09-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-007.jpg) | 7 | 서울시 시멘트블록 ‘블록 단지’ 주택과 초기 주택난 | rendered-page |
+| [vol-09-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-008.jpg) | 8 | 은행동 임시 정착지와 자조주택 건립 설명 | rendered-page |
+| [vol-09-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-009.jpg) | 9 | 1980년대 이후 수정·중원구 다세대 주택 경관 | rendered-page |
+| [vol-09-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-010.jpg) | 10 | 시 승격 전후 본시가지 가로망 비교, 1970/1973 | rendered-page |
+| [vol-09-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-011.jpg) | 11 | 복정정수장과 광주대단지 상수도 보급 문제 | rendered-page |
+| [vol-09-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-012.jpg) | 12 | 분뇨 수거·처리장과 초기 위생 기반시설 | rendered-page |
+| [vol-09-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-014.jpg) | 14 | 광주대단지 제1공단 기공식과 주민 직업 구조 | rendered-page |
+| [vol-09-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-015.jpg) | 15 | 성남시 제2·3공업단지 전경과 공장 유치 실적 | rendered-page |
+| [vol-09-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-016.jpg) | 16 | 광주대단지-서울 연결 도로·버스 교통 여건 | rendered-page |
+| [vol-09-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-017.jpg) | 17 | 성남시 승격과 광주대단지 종합개발계획 회고 | rendered-page |
+| [vol-09-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-018.jpg) | 18 | 성남단지 종합 1차 개발도와 개발 방향 | rendered-page |
+| [vol-09-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-019.jpg) | 19 | 시 승격 직후 행정기구와 분양지 등록 | rendered-page |
+| [vol-09-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-020.jpg) | 20 | 분양증 전매·위조 기사와 1972~1974년 인구 구성 | rendered-page |
+| [vol-09-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-021.jpg) | 21 | 1975~1990년 인구 증가와 산업별 인구 구조 | rendered-page |
+| [vol-09-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-022.jpg) | 22 | 광주대단지 제2공업단지 기공식과 성남산업단지 규모 | rendered-page |
+| [vol-09-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-023.jpg) | 23 | 1990년대 성남제2공단과 지식산업센터 전환 | rendered-page |
+| [vol-09-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-024.jpg) | 24 | 성남산업단지 생산·수출과 1·2차 정화 사업 | rendered-page |
+| [vol-09-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-025.jpg) | 25 | 한강 취수 상수도 증산, 대곡교·대왕교 비교 | rendered-page |
+| [vol-09-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-026.jpg) | 26 | 분뇨처리장·대봉로 조성 등 도시 시설 확충 | rendered-page |
+| [vol-09-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-027.jpg) | 27 | 옛 성남시민회관과 성남공설운동장 건설 | rendered-page |
+| [vol-09-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-028.jpg) | 28 | 초기 주택지 형성과 무허가·불량주택 문제 | rendered-page |
+| [vol-09-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-029.jpg) | 29 | 1976년 5·4조치와 고도지구 변경 관련 신문 기사 | rendered-page |
+| [vol-09-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-030.jpg) | 30 | 성남 도시 재정비 계획의 생활권·토지이용 구상 | rendered-page |
+| [vol-09-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-031.jpg) | 31 | 공동주택 형성과 생활권 계획 | rendered-page |
+| [vol-09-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-032.jpg) | 32 | 성남 초기 주거지와 공동주택 개발의 제약 | rendered-page |
+| [vol-09-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-034.jpg) | 34 | 도시 새마을운동 장 도입부 | rendered-page |
+| [vol-09-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-037.jpg) | 37 | 성남상공회의소 도시새마을운동 촉진대회, 1976 | rendered-page |
+| [vol-09-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-038.jpg) | 38 | 1960년대 율동 양지마을과 새마을 가꾸기 사업 현황 | rendered-page |
+| [vol-09-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-039.jpg) | 39 | 새마을 주택개량·취락개선·새마을금고 통계 | rendered-page |
+| [vol-09-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-040.jpg) | 40 | 새마을운동중앙연수원 전경과 성남 이전 | rendered-page |
+| [vol-09-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-043.jpg) | 43 | 공장 새마을 분임조 특별연수 교육, 1984 | rendered-page |
+| [vol-09-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-046.jpg) | 46 | 삼영전자 작업장과 공장 새마을 사례 | rendered-page |
+| [vol-09-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-053.jpg) | 53 | 성남 고도제한의 제도적 배경과 1차 운동 | rendered-page |
+| [vol-09-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-054.jpg) | 54 | 1996년 이후 고도제한 철폐 요구의 형성 | rendered-page |
+| [vol-09-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-055.jpg) | 55 | 범대위 출범과 성남시 가구 피해 주장 | rendered-page |
+| [vol-09-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-056.jpg) | 56 | 공군 고도제한 개선 연구와 적용 면적·가구 통계 | rendered-page |
+| [vol-09-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-057.jpg) | 57 | 탄천변 고도제한 철폐 시민운동, 2009 | rendered-page |
+| [vol-09-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-058.jpg) | 58 | 2001년 국방부·서울공항 집회와 12m→45m 완화 | rendered-page |
+| [vol-09-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-060.jpg) | 60 | 제2롯데월드 허용 논란과 2기 고도제한 운동 | rendered-page |
+| [vol-09-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-061.jpg) | 61 | 성남시 고도제한 완화 특별 기자회견, 2009 | rendered-page |
+| [vol-09-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-062.jpg) | 62 | 수정·중원구 전술항공작전기지 구역과 재개발 제약 | rendered-page |
+| [vol-09-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-063.jpg) | 63 | 고도제한 피해 가구·경제 피해·완화 효과 주장 | rendered-page |
+| [vol-09-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-064.jpg) | 64 | 고도제한 완전 해결 범시민 궐기대회, 2009 | rendered-page |
+| [vol-09-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-065.jpg) | 65 | 서울공항 주변 고도제한 45m→193m 완화 설명 | rendered-page |
+| [vol-09-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-066.jpg) | 66 | 성남시 고도제한 완화 발표 기자회견, 2010 | rendered-page |
+| [vol-09-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-068.jpg) | 68 | 2023년 이후 고도제한 완전 해결 운동 | rendered-page |
+| [vol-09-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-069.jpg) | 69 | 성남시 고도제한 완전 해결 범시민대책위원회 출범식, 2023 | rendered-page |
+| [vol-09-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-070.jpg) | 70 | 2024년 총선·현지 조사·조례 등 최근 고도제한 대응 | rendered-page |
+| [vol-09-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-071.jpg) | 71 | 신상진 시장과 고도제한완화 범대위 간담회, 2024 | rendered-page |
+| [vol-09-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-074.jpg) | 74 | 1기 신도시 개발과 분당신도시 조성 장 도입부 | rendered-page |
+| [vol-09-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-078.jpg) | 78 | 수도권 5개 신도시 분포도 | rendered-page |
+| [vol-09-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-079.jpg) | 79 | 분당신도시 건설 발표 신문 기사와 200만 호 건설 계획 | rendered-page |
+| [vol-09-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-080.jpg) | 80 | 수도권 5개 신도시 규모·사업비·수용 인구 비교 서술 | rendered-page |
+| [vol-09-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-081.jpg) | 81 | 일산·평촌·산본·중동 신도시 사업 개요 | rendered-page |
+| [vol-09-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-082.jpg) | 82 | 1980년대 후반 서울 주택보급률·전세가 상승 배경 | rendered-page |
+| [vol-09-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-083.jpg) | 83 | 분당신도시 목표 도시와 녹지·전철 계획 | rendered-page |
+| [vol-09-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-085.jpg) | 85 | 분당신도시 입지·면적·하천·고건 회고 | rendered-page |
+| [vol-09-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-086.jpg) | 86 | 분당 개발 전 토지이용·이주대상·지장물·문화유적 | rendered-page |
+| [vol-09-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-087.jpg) | 87 | 분당 지역 도로망과 고도제한 구역 | rendered-page |
+| [vol-09-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-088.jpg) | 88 | 신도시 개발 전 분당 지역과 3단계 건설 전략 | rendered-page |
+| [vol-09-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-089.jpg) | 89 | 분당신도시 추진 조직과 분당구청 설치 | rendered-page |
+| [vol-09-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-090.jpg) | 90 | 분당신도시 도시설계 기본 방향 | rendered-page |
+| [vol-09-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-091.jpg) | 91 | 분당 개발 전 목가적 풍광과 환경영향평가 | rendered-page |
+| [vol-09-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-092.jpg) | 92 | 분당 광역교통망·인구영향평가와 목표 연도 | rendered-page |
+| [vol-09-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-093.jpg) | 93 | 분당 목표 인구·가구·밀도·주택 수요 지표 | rendered-page |
+| [vol-09-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-094.jpg) | 94 | 분당 초창기 건설 현장과 토지이용 지표 | rendered-page |
+| [vol-09-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-095.jpg) | 95 | 분당 이매동 택지 조성과 단독택지 계획 | rendered-page |
+| [vol-09-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-096.jpg) | 96 | 분당 연립·아파트 용지와 도로폭 계획 | rendered-page |
+| [vol-09-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-097.jpg) | 97 | 분당선·중앙공원·탄천 녹지축 계획 | rendered-page |
+| [vol-09-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-098.jpg) | 98 | 분당 주거축-녹지축 기본계획과 공원녹지 지표 | rendered-page |
+| [vol-09-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-099.jpg) | 99 | 분당 교육시설과 공공시설 계획 | rendered-page |
+| [vol-09-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-100.jpg) | 100 | 분당 복지·문화·의료·종교·상수도 시설 계획 | rendered-page |
+| [vol-09-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-101.jpg) | 101 | 분당중앙공원과 하수·전력·통신·가스 계획 | rendered-page |
+| [vol-09-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-102.jpg) | 102 | 백현동 카페거리와 주택전람회 구상 | rendered-page |
+| [vol-09-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-103.jpg) | 103 | 탄천·하천·자전거·도서관 등 분당 개발사업 | rendered-page |
+| [vol-09-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-104.jpg) | 104 | 분당구청 개청과 분당 독립시 추진 갈등 | rendered-page |
+| [vol-09-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-105.jpg) | 105 | 분당 독립시 추진 반대 현수막, 1996 | rendered-page |
+| [vol-09-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-106.jpg) | 106 | 판교·위례 신도시 개발 장 도입부 | rendered-page |
+| [vol-09-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-107.jpg) | 107 | 판교 개발 배경과 200만 호 건설계획 이후 주택대란 | rendered-page |
+| [vol-09-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-108.jpg) | 108 | 판교 개발 촉구 집회와 개발 유보 항의, 2001 | rendered-page |
+| [vol-09-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-109.jpg) | 109 | 판교신도시 사업 개요 표와 사업비 | rendered-page |
+| [vol-09-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-110.jpg) | 110 | 판교 토지이용·교통·TOD 계획 | rendered-page |
+| [vol-09-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-111.jpg) | 111 | 판교신도시 공간 구조 구상과 공원·녹지 계획 | rendered-page |
+| [vol-09-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-112.jpg) | 112 | 판교 남단녹지, 개발 가능지, 택지개발 지정 과정 | rendered-page |
+| [vol-09-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-113.jpg) | 113 | 판교신도시 사업지구 조성 전·위성사진 비교 | rendered-page |
+| [vol-09-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-114.jpg) | 114 | 판교 지구 지정 변경, 밀도 조정, 분양 대책 | rendered-page |
+| [vol-09-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-115.jpg) | 115 | 판교 개발계획 변경과 알파돔시티 사업 개요 | rendered-page |
+| [vol-09-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-116.jpg) | 116 | 판교역 알파돔시티 야경과 복합단지 개발 | rendered-page |
+| [vol-09-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-117.jpg) | 117 | 판교테크노밸리 특별계획구역과 글로벌 클러스터 구상 | rendered-page |
+| [vol-09-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-118.jpg) | 118 | 판교테크노밸리와 화랑공원, 글로벌 R&D센터 | rendered-page |
+| [vol-09-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-119.jpg) | 119 | 첨단 벤처기업 집적지로서 판교테크노밸리 | rendered-page |
+| [vol-09-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-120.jpg) | 120 | 판교테크노밸리 입지와 2013년 기업·인력 규모 | rendered-page |
+| [vol-09-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-121.jpg) | 121 | 제2판교테크노밸리 창조경제밸리 전경 | rendered-page |
+| [vol-09-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-123.jpg) | 123 | 위례신도시 개발 배경과 복합 경계 도시 성격 | rendered-page |
+| [vol-09-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-124.jpg) | 124 | 8·31 부동산 종합대책 요지와 파급 효과 | rendered-page |
+| [vol-09-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-125.jpg) | 125 | 송파·거여 지구 지정과 위례신도시 사업 규모 | rendered-page |
+| [vol-09-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-126.jpg) | 126 | 위례신도시 행정구역별 면적·수용인구와 개발 콘셉트 | rendered-page |
+| [vol-09-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-127.jpg) | 127 | 위례 U-Eco City·Culture City 조성 전략 | rendered-page |
+| [vol-09-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-128.jpg) | 128 | 위례 토지이용·교통·공원녹지 계획 | rendered-page |
+| [vol-09-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-129.jpg) | 129 | 위례신도시 개발 전개 과정과 광역교통 대책 | rendered-page |
+| [vol-09-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-130.jpg) | 130 | 위례 보상·세입자 대책·복합 경계 조정 과정 | rendered-page |
+| [vol-09-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-131.jpg) | 131 | 위례 행정구역 갈등과 성남시 구역 입주 현황 | rendered-page |
+| [vol-09-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-09/vol-09-page-132.jpg) | 132 | 위례신도시 성남시 구역 아파트·주상복합 분양 현황 | rendered-page |
 
 ## 핵심 표/자료 위치
 

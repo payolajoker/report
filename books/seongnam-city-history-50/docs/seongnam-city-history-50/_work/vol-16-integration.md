@@ -4,7 +4,7 @@
 
 - 본문 Markdown: `docs/seongnam-city-history-50/vol-16-economy-industry.md`
 - LLM 번들: `dist/seongnam-history-50-vol-16.llm.md`
-- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-16-page-*.jpg` 144개
+- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-*.jpg` 144개
 - 원천 PDF: `sources/seongnam-history-50-vol-16.pdf`
 
 ## 처리 상태

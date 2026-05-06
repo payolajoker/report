@@ -9,7 +9,7 @@
 - OCR: not used. Embedded text layer extracted with `pdftotext -layout`.
 - Markdown: `docs/seongnam-city-history-50/vol-46-childrens-seongnam-history.md`
 - LLM bundle: `dist/seongnam-history-50-vol-46.llm.md`
-- Rendered pages: `docs/seongnam-city-history-50/assets/pages/vol-46-page-001.jpg` ... `vol-46-page-136.jpg`
+- Rendered pages: `docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-001.jpg` ... `vol-46-page-136.jpg`
 - Shared files edited: none.
 
 ## Merge Candidates

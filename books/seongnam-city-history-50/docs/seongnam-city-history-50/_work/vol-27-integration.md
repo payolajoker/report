@@ -4,7 +4,7 @@
 
 - 본문 Markdown: `docs/seongnam-city-history-50/vol-27-healthcare-policy.md`
 - LLM 번들: `dist/seongnam-history-50-vol-27.llm.md`
-- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-27-page-*.jpg` 104개
+- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-*.jpg` 104개
 - 원천 PDF: `sources/seongnam-history-50-vol-27.pdf`
 
 ## 처리 상태

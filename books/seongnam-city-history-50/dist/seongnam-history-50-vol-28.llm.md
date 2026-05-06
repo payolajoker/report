@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 지역신문, 인터넷 언론, 기자실, 시민구단, 개발 갈등 기사, 지역방송, 시정소식지 자료가 함께 얽혀 있어 1-104쪽 전체를 `assets/pages/`에 렌더링했다.
+- 지역신문, 인터넷 언론, 기자실, 시민구단, 개발 갈등 기사, 지역방송, 시정소식지 자료가 함께 얽혀 있어 1-104쪽 전체를 `assets/pages/vol-28/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-28-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제28권 성남의 지역 언론과 매체`로 일치한다.
 - 이 파일은 LLM 장문 입력을 위해 28권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
@@ -116,164 +116,164 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-28-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-28-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-002.jpg) | 2 | 권별 목차 1: 지역 언론의 시작 | toc |
-| [vol-28-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-003.jpg) | 3 | 권별 목차 2: 성남 지역 언론의 발전과 언론에 비친 성남 | toc |
-| [vol-28-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-009.jpg) | 9 | 신문 보급소 사진과 성남 지역 언론 태동기 | photo |
-| [vol-28-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-010.jpg) | 10 | 1971년 8·10성남 항쟁 보도 관련 사진 | photo |
-| [vol-28-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-012.jpg) | 12 | 성남기자구락부 소속 기자 사진과 중앙언론 출입 구조 | photo-table |
-| [vol-28-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-013.jpg) | 13 | 성남시청 중앙언론·방송 출입기자 현황표 | table |
-| [vol-28-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-015.jpg) | 15 | 지방 신문 성남시청 출입 기자 현황 2007·2025 | table |
-| [vol-28-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-017.jpg) | 17 | 1992년 「우리신문」 창간기념식 | photo |
-| [vol-28-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-018.jpg) | 18 | 분당뉴스 지령 200호 발간 기념식 | photo |
-| [vol-28-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-022.jpg) | 22 | 2000년대 초반 성남시 브리핑룸 | photo |
-| [vol-28-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-026.jpg) | 26 | 소년신문 강제 구독 풍자 만평과 구독 거부운동 | cartoon |
-| [vol-28-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-029.jpg) | 29 | 한국언론재단 지역신문 실태조사 보고서 | document-photo |
-| [vol-28-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-034.jpg) | 34 | 2004년 성남기자협회 우수 시의원 선정 사진 | photo |
-| [vol-28-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-035.jpg) | 35 | 2005년 성남기자협회 우수 시의원 선정 사진 | photo |
-| [vol-28-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-036.jpg) | 36 | 성남지역언론사대표자협의회 창립총회 | photo |
-| [vol-28-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-037.jpg) | 37 | 성남지역언론사대표자협의회 명사초청 간담회 | photo |
-| [vol-28-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-038.jpg) | 38 | 지역 신문 지원제도 토론회 사진과 발제 내용 | photo-quote |
-| [vol-28-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-041.jpg) | 41 | 성남일화 인수·시민구단 창단 토론회 | photo |
-| [vol-28-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-044.jpg) | 44 | 신문법 시행과 인터넷 언론 과제 세미나 | photo |
-| [vol-28-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-045.jpg) | 45 | 신상진 성남시장과 지역 언론인 소통의 시간 | photo |
-| [vol-28-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-047.jpg) | 47 | 2023년 6월 30일 성남시청 출입 기자 명단 | table |
-| [vol-28-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-050.jpg) | 50 | 서울 남부 저유소 분당건설 반대 시민대회 | photo |
-| [vol-28-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-053.jpg) | 53 | 2002년 고도제한 문제 해결 축하 모습 | photo |
-| [vol-28-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-054.jpg) | 54 | 고도제한 12m·45m 도식과 1천인 선언문 | document |
-| [vol-28-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-056.jpg) | 56 | 고도제한 철폐 1천 200인 선언문 말미 | document |
-| [vol-28-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-058.jpg) | 58 | 2차 고도제한 완화운동과 영장산 193m 논리 | article |
-| [vol-28-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-063.jpg) | 63 | 구미동 송전탑 사진과 지중화 사업 규모 | photo |
-| [vol-28-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-066.jpg) | 66 | 판교신도시 5개 마을 배치도 | map |
-| [vol-28-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-073.jpg) | 73 | 한국가스공사 건물 발파 해체 사진과 공기업 이전 파급효과 | photo-stats |
-| [vol-28-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-074.jpg) | 74 | 성남문화재단 출범식과 성남아트센터 건립 규모 | photo-stats |
-| [vol-28-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-075.jpg) | 75 | 성남아트센터 전경 | photo |
-| [vol-28-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-076.jpg) | 76 | 정자1동 인구 5만 명 돌파와 주상복합 세대 수 | stats |
-| [vol-28-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-078.jpg) | 78 | 구미동 7m 도로 개통 광경 | photo |
-| [vol-28-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-081.jpg) | 81 | 성남·광주·하남 통합시 결정 반대 기자회견 | photo |
-| [vol-28-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-082.jpg) | 82 | 성남시의료원 구시청사 철거와 판교 환풍구 사고 기사 | photo-stats |
-| [vol-28-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-084.jpg) | 84 | 백현마이스 기자회견과 사업 규모 | photo-stats |
-| [vol-28-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-086.jpg) | 86 | 고도제한완전해결 범시민대책위원회 출범식 | photo |
-| [vol-28-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-087.jpg) | 87 | 아름방송 현판과 지역TV 방송 개요 | photo |
-| [vol-28-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-088.jpg) | 88 | 아름방송 일반 현황과 주요 연혁 표 | table |
-| [vol-28-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-089.jpg) | 89 | 아름방송 가입자 변화와 구조조정 서술 | stats |
-| [vol-28-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-090.jpg) | 90 | 아름방송 보도·제작 프로그램 현황 | program-list |
-| [vol-28-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-092.jpg) | 92 | 아름방송 SAFE 성남 토론회와 성남FM 도입 | photo |
-| [vol-28-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-093.jpg) | 93 | 성남FM 감사패 사진과 공동체 라디오 인터뷰 | photo-interview |
-| [vol-28-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-095.jpg) | 95 | 성남FM 연혁과 자원활동가 규모 | timeline |
-| [vol-28-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-097.jpg) | 97 | 성남시 시정소식지 변천과 발행부수 | timeline-stats |
-| [vol-28-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-099.jpg) | 99 | 비전성남 주요 사업 및 수상 연표 | timeline |
-| [vol-28-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-100.jpg) | 100 | 지역 언론 단체 현황 | table |
-| [vol-28-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-101.jpg) | 101 | 참고문헌과 기사 출처 목록 | bibliography |
-| [vol-28-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-103.jpg) | 103 | 판권과 집필자 정보 | colophon |
+| [vol-28-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-28-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-002.jpg) | 2 | 권별 목차 1: 지역 언론의 시작 | toc |
+| [vol-28-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-003.jpg) | 3 | 권별 목차 2: 성남 지역 언론의 발전과 언론에 비친 성남 | toc |
+| [vol-28-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-009.jpg) | 9 | 신문 보급소 사진과 성남 지역 언론 태동기 | photo |
+| [vol-28-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-010.jpg) | 10 | 1971년 8·10성남 항쟁 보도 관련 사진 | photo |
+| [vol-28-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-012.jpg) | 12 | 성남기자구락부 소속 기자 사진과 중앙언론 출입 구조 | photo-table |
+| [vol-28-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-013.jpg) | 13 | 성남시청 중앙언론·방송 출입기자 현황표 | table |
+| [vol-28-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-015.jpg) | 15 | 지방 신문 성남시청 출입 기자 현황 2007·2025 | table |
+| [vol-28-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-017.jpg) | 17 | 1992년 「우리신문」 창간기념식 | photo |
+| [vol-28-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-018.jpg) | 18 | 분당뉴스 지령 200호 발간 기념식 | photo |
+| [vol-28-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-022.jpg) | 22 | 2000년대 초반 성남시 브리핑룸 | photo |
+| [vol-28-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-026.jpg) | 26 | 소년신문 강제 구독 풍자 만평과 구독 거부운동 | cartoon |
+| [vol-28-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-029.jpg) | 29 | 한국언론재단 지역신문 실태조사 보고서 | document-photo |
+| [vol-28-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-034.jpg) | 34 | 2004년 성남기자협회 우수 시의원 선정 사진 | photo |
+| [vol-28-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-035.jpg) | 35 | 2005년 성남기자협회 우수 시의원 선정 사진 | photo |
+| [vol-28-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-036.jpg) | 36 | 성남지역언론사대표자협의회 창립총회 | photo |
+| [vol-28-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-037.jpg) | 37 | 성남지역언론사대표자협의회 명사초청 간담회 | photo |
+| [vol-28-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-038.jpg) | 38 | 지역 신문 지원제도 토론회 사진과 발제 내용 | photo-quote |
+| [vol-28-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-041.jpg) | 41 | 성남일화 인수·시민구단 창단 토론회 | photo |
+| [vol-28-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-044.jpg) | 44 | 신문법 시행과 인터넷 언론 과제 세미나 | photo |
+| [vol-28-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-045.jpg) | 45 | 신상진 성남시장과 지역 언론인 소통의 시간 | photo |
+| [vol-28-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-047.jpg) | 47 | 2023년 6월 30일 성남시청 출입 기자 명단 | table |
+| [vol-28-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-050.jpg) | 50 | 서울 남부 저유소 분당건설 반대 시민대회 | photo |
+| [vol-28-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-053.jpg) | 53 | 2002년 고도제한 문제 해결 축하 모습 | photo |
+| [vol-28-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-054.jpg) | 54 | 고도제한 12m·45m 도식과 1천인 선언문 | document |
+| [vol-28-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-056.jpg) | 56 | 고도제한 철폐 1천 200인 선언문 말미 | document |
+| [vol-28-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-058.jpg) | 58 | 2차 고도제한 완화운동과 영장산 193m 논리 | article |
+| [vol-28-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-063.jpg) | 63 | 구미동 송전탑 사진과 지중화 사업 규모 | photo |
+| [vol-28-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-066.jpg) | 66 | 판교신도시 5개 마을 배치도 | map |
+| [vol-28-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-073.jpg) | 73 | 한국가스공사 건물 발파 해체 사진과 공기업 이전 파급효과 | photo-stats |
+| [vol-28-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-074.jpg) | 74 | 성남문화재단 출범식과 성남아트센터 건립 규모 | photo-stats |
+| [vol-28-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-075.jpg) | 75 | 성남아트센터 전경 | photo |
+| [vol-28-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-076.jpg) | 76 | 정자1동 인구 5만 명 돌파와 주상복합 세대 수 | stats |
+| [vol-28-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-078.jpg) | 78 | 구미동 7m 도로 개통 광경 | photo |
+| [vol-28-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-081.jpg) | 81 | 성남·광주·하남 통합시 결정 반대 기자회견 | photo |
+| [vol-28-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-082.jpg) | 82 | 성남시의료원 구시청사 철거와 판교 환풍구 사고 기사 | photo-stats |
+| [vol-28-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-084.jpg) | 84 | 백현마이스 기자회견과 사업 규모 | photo-stats |
+| [vol-28-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-086.jpg) | 86 | 고도제한완전해결 범시민대책위원회 출범식 | photo |
+| [vol-28-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-087.jpg) | 87 | 아름방송 현판과 지역TV 방송 개요 | photo |
+| [vol-28-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-088.jpg) | 88 | 아름방송 일반 현황과 주요 연혁 표 | table |
+| [vol-28-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-089.jpg) | 89 | 아름방송 가입자 변화와 구조조정 서술 | stats |
+| [vol-28-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-090.jpg) | 90 | 아름방송 보도·제작 프로그램 현황 | program-list |
+| [vol-28-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-092.jpg) | 92 | 아름방송 SAFE 성남 토론회와 성남FM 도입 | photo |
+| [vol-28-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-093.jpg) | 93 | 성남FM 감사패 사진과 공동체 라디오 인터뷰 | photo-interview |
+| [vol-28-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-095.jpg) | 95 | 성남FM 연혁과 자원활동가 규모 | timeline |
+| [vol-28-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-097.jpg) | 97 | 성남시 시정소식지 변천과 발행부수 | timeline-stats |
+| [vol-28-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-099.jpg) | 99 | 비전성남 주요 사업 및 수상 연표 | timeline |
+| [vol-28-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-100.jpg) | 100 | 지역 언론 단체 현황 | table |
+| [vol-28-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-101.jpg) | 101 | 참고문헌과 기사 출처 목록 | bibliography |
+| [vol-28-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-103.jpg) | 103 | 판권과 집필자 정보 | colophon |
 ## 전체 렌더링 페이지 목록
 
 | 파일 | 원문 쪽 | 첫 식별 텍스트 |
 | --- | --- | --- |
-| [vol-28-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-001.jpg) | 1 | 발 간 등 록 번 호 |
-| [vol-28-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-002.jpg) | 2 | CONTENTS |
-| [vol-28-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-003.jpg) | 3 | PART |
-| [vol-28-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-004.jpg) | 4 | PART |
-| [vol-28-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-005.jpg) | 5 | 1. 지역 언론의 정의 |
-| [vol-28-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-006.jpg) | 6 | 서는, 자신이 속한 지역 사회 내에서 어떤 사람들이 |
-| [vol-28-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-007.jpg) | 7 | 있다. 독자 또한 자기 말과 행동에 대한 책임감을 느끼며 언론과의 건강한 관계 속에서 스 |
-| [vol-28-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-008.jpg) | 8 | ‘비판적 지역주의’는 불균형적인 지리적 발전을 문제점으로 지적하며 보편성과 표준화 |
-| [vol-28-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-009.jpg) | 9 | 2. 성남 언론의 개요 |
-| [vol-28-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-010.jpg) | 10 | 1971년 발생한 8·10성남(광주대단지)항쟁은 중앙 언론의 성남에 대한 관심을 모으기 충분했다. |
-| [vol-28-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-011.jpg) | 11 | 보도하기 시작했다. 특히 1971년 발생한 8·10 성남(광주대단지)항쟁은 중앙 언론의 집중 |
-| [vol-28-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-012.jpg) | 12 | 성남기자구락부 소속 기자 1980년 7월 1일 |
-| [vol-28-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-013.jpg) | 13 | 성남시청 출입기자(중앙언론 및 방송사) 2007년 10월 9일 |
-| [vol-28-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-014.jpg) | 14 | 4) 중앙 공중파 방송의 관심 증대 |
-| [vol-28-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-015.jpg) | 15 | 한 후 1999년 5월 제호를 「전국매일신문」으로 바꿨다. 성남에서 취재 활동을 하는 이들 |
-| [vol-28-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-016.jpg) | 16 | 3. 지방자치의 등장과 지역 언론 |
-| [vol-28-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-017.jpg) | 17 | 1992년 「우리신문」 창간기념식 |
-| [vol-28-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-018.jpg) | 18 | 연식 등이 활동했다. |
-| [vol-28-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-019.jpg) | 19 | 다. 그리고 분당신도시 탄생으로 분당을 중심으로 활동하는 지역 신문사인 「분당뉴스」 |
-| [vol-28-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-020.jpg) | 20 | 4. 인터넷 언론의 등장 |
-| [vol-28-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-021.jpg) | 21 | 이와 더불어 2000년부터 발행하 |
-| [vol-28-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-022.jpg) | 22 | 2) 기자실 반납 운동 확산 |
-| [vol-28-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-023.jpg) | 23 | 3) 지역 신문 전국 최초, 기자실 반납 결의 |
-| [vol-28-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-024.jpg) | 24 | 성남지역의 경우 김병량 성남시장이 출범한 지난 98년 이후 중앙지 기자실, 지방지 기자실, 지역지 |
-| [vol-28-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-025.jpg) | 25 | 기자실 폐쇄 결의에 대해 지역 시민단체는 환영하는 성명을 발표했다. 2001년 6월 11 |
-| [vol-28-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-026.jpg) | 26 | 4) 초등학교 어린이신문 집단 구독 ‘거부운동’ |
-| [vol-28-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-027.jpg) | 27 | 공립 초등학교 99%인 501개 학교 |
-| [vol-28-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-028.jpg) | 28 | PART |
-| [vol-28-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-029.jpg) | 29 | 1. 지역 언론이 뭉치다 |
-| [vol-28-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-030.jpg) | 30 | (4.2명), 월 평균 수입(약 1,139만 원), 월평균 지출(1,261만 원) 등에서 감소추세를 보인 |
-| [vol-28-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-031.jpg) | 31 | 1) 민선시대 언론 정책 |
-| [vol-28-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-032.jpg) | 32 | 성남사회단체연대회의 성명서 |
-| [vol-28-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-033.jpg) | 33 | 1. 행정부에 위임된 권한은 의회와 시민사회에 의해 감시되고 견제되어야 한다. 성남시의회는 엄격 |
-| [vol-28-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-034.jpg) | 34 | 성남기자협회는 2004년 우수 시의원으로 윤춘모, 장대훈, 정응섭 의원을 선정했다. |
-| [vol-28-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-035.jpg) | 35 | 성남기자협회가 2005년 선정한 우수 시의원(정응섭, 장윤영, 유철식, 김유석 의원) |
-| [vol-28-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-036.jpg) | 36 | 2. 지역 언론의 활성화 |
-| [vol-28-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-037.jpg) | 37 | ‘성남지역언론사대표자협의회’는 매월 명사초청 간담회를 이어갔다. |
-| [vol-28-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-038.jpg) | 38 | 서 열린 ‘지역 신문 지원제도 성과와 과제’를 주제로 장호순 순천향대 신문방송학과 교수 |
-| [vol-28-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-039.jpg) | 39 | (우희창 전 「지역 신문발전위원회」 전문위원) 지역 신문의 지원에 앞서 지역 신문의 필요성에 대한 |
-| [vol-28-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-040.jpg) | 40 | 신태용 선수 방출반대 및 철회에 대한 기자회견을 하고 있는 성남일화 서포터스클럽 천마불사 |
-| [vol-28-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-041.jpg) | 41 | 2013년 9월 24일 성남일화 인수를 놓고 ‘성남지역언론사대표자협의회’가 대안 모색을 위한 토론회를 마련했다. |
-| [vol-28-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-042.jpg) | 42 | 이날 토론회 이후 성남시는 성남일화 프로축구단을 인수해 ‘성남시민프로축구단’으로 |
-| [vol-28-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-043.jpg) | 43 | 3. 인터넷 언론시대 |
-| [vol-28-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-044.jpg) | 44 | 2005년 7월 한국인터넷기자협회와 지역인터넷언론연대 주최로 ‘신문법 시행과 인터넷 언론의 과제’에 대한 세미나가 열리고 있는 모습 |
-| [vol-28-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-045.jpg) | 45 | 신상진 성남시장과 지역 언론인 소통의 시간(2025) |
-| [vol-28-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-046.jpg) | 46 | 창간한 인터넷 매체가 주를 이루고 있다. |
-| [vol-28-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-047.jpg) | 47 | 시청 출입 기자 명단 2023년 6월 30일 |
-| [vol-28-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-048.jpg) | 48 | PART |
-| [vol-28-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-049.jpg) | 49 | 1. 기사로 보는 성남의 발자취 |
-| [vol-28-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-050.jpg) | 50 | 한송유관공사가 후보지를 변경하 |
-| [vol-28-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-051.jpg) | 51 | 2) 판교나들목 통행료 징수, 분당주민 ‘반발’ |
-| [vol-28-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-052.jpg) | 52 | 민이 참석해 성남시가 주민들의 의사를 무시하고 강행하려 하는 분당백궁역 일대 용도변 |
-| [vol-28-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-053.jpg) | 53 | 는 점을 강조했다. 백궁정자지구의 이권 규모가 1조 3,000억 원에 달하고 성남시의 갑작 |
-| [vol-28-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-054.jpg) | 54 | 군용항공기지 비행안전구역 고도완화 |
-| [vol-28-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-055.jpg) | 55 | 그러나 성남시의 경우 도시 균형 발전을 이룩하기 위해 자체적인 대안부지로 고려 되었던 분당구 |
-| [vol-28-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-056.jpg) | 56 | 타는 목소리를 더 이상 눈감을 수 없어 지난해 10월 성남시 고도제한 해제를 위한 범시민대책위원 |
-| [vol-28-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-057.jpg) | 57 | 2000년 12월 당시 시민단체의 활동에 대해 국방부가 고도제한 현황을 파악하기 위한 |
-| [vol-28-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-058.jpg) | 58 | 고도제한 완화 집회 모습 |
-| [vol-28-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-059.jpg) | 59 | 지 건축 가능해졌다. |
-| [vol-28-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-060.jpg) | 60 | 기간이 2∼7일까지 소요되었으나, 즉시 이체할 수 있으므로 이자수입 증대효과도 가져오 |
-| [vol-28-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-061.jpg) | 61 | (043), 경북(054), 경남(055), 전남(061), 전북 (063)등 8개 도지역의 지역번호는 4자리 수 |
-| [vol-28-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-062.jpg) | 62 | 신청해 184명의 정원 미달을 기록했다. 이 같은 현상은 학생들이 분당 지역 학군을 선호 |
-| [vol-28-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-063.jpg) | 63 | 구미동 불곡산에서 금곡동 머내공원 구간에 설치된 송전탑 |
-| [vol-28-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-064.jpg) | 64 | 다. 성남시는 이를 다시 나눠, 토지공사로부터 지역발전기금 명목으로 약 200억 원 정도 |
-| [vol-28-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-065.jpg) | 65 | 25.7평 이하)아파트는 1만 2,200가구(임대 6,800가구, 분양 5,400가구)가 건립하게 된다. |
-| [vol-28-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-066.jpg) | 66 | 판교신도시 5개 마을 배치도 |
-| [vol-28-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-067.jpg) | 67 | 12월부터 아파트를 분양, 2010년 준공한다는 계획이다. 또한 행정타운은 2005년 사업계 |
-| [vol-28-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-068.jpg) | 68 | 로 알려졌다. |
-| [vol-28-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-069.jpg) | 69 | 성남시의료원 설치 조례를 위해 청원서를 들고 민원실로 행진하는 시민들 |
-| [vol-28-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-070.jpg) | 70 | 원에 위탁하는 방안을 제시하고 있어 상당한 진척이 보였다. |
-| [vol-28-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-071.jpg) | 71 | 설 부지로 변경, 대학병원 유치로 의료공백을 해결한다는 결론을 내렸다. 결국, 시립병원 |
-| [vol-28-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-072.jpg) | 72 | 자매도시 결연 6주년을 기념하고자 성남의 문화예술단이 이곳을 찾아 양 도시의 우의를 |
-| [vol-28-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-073.jpg) | 73 | 15) 분당 공기업 이전, 지역상권·고용감소·세수입 ‘빨간 불’ |
-| [vol-28-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-074.jpg) | 74 | 판교지구와 연계한 반도체, 소프트웨어, 컴퓨터 관련 산업 집적화를 통해 분당-판교-강 |
-| [vol-28-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-075.jpg) | 75 | 성남아트센터 개관을 앞두고 발행한 기념우표 |
-| [vol-28-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-076.jpg) | 76 | 명칭도 몇 차례 변경된다. 처음에는 ‘성남문화예술회관’이라고 했지만, 이후 시민공모 |
-| [vol-28-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-077.jpg) | 77 | 세대) 등이 입주하고 있거나, 예정으로 있어 당분간 정자1동의 인구 증가 추세는 계속됐 |
-| [vol-28-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-078.jpg) | 78 | 우여곡절 끝에 죽전-구미동 간 도로는 강제로 열렸 |
-| [vol-28-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-079.jpg) | 79 | 도, 토지공사, 용인시는 지속적으로 도로 연결을 요구했고, 2004년 11월 18일 도로 연결 |
-| [vol-28-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-080.jpg) | 80 | 분당구를 둘로 나누는 분구 작업이 또 다른 주민 갈등을 부추겼다. 결국, 분구는 이뤄지지 않았다. |
-| [vol-28-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-081.jpg) | 81 | 20) 성남‧광주‧하남 통합 논란 …… 통합시 이름은 ‘한성시’ |
-| [vol-28-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-082.jpg) | 82 | 법안’을 2010년 1월 15일 국회에 제출했고, 1월 22일 0시 15분경 성남시의회는 해당 법안 |
-| [vol-28-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-083.jpg) | 83 | 판교 환풍구 붕괴로 인해 많은 인명피해가 발생했다. |
-| [vol-28-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-084.jpg) | 84 | 24) 백현마이스 도시개발사업 정상 추진 |
-| [vol-28-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-085.jpg) | 85 | 등), 수내역 보도교, 지하차도 등을 무상으로 귀속 받는다. 또한, 전시컨벤션센터는 기부 |
-| [vol-28-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-086.jpg) | 86 | 개 완화안을 마련한 후 국방부 등과 협의에 들어갔다. 이어 성남시는 2025년 6월 26일 국 |
-| [vol-28-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-087.jpg) | 87 | 2. 지역방송 및 공동체 방송 |
-| [vol-28-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-088.jpg) | 88 | (1) 아름방송 네트워크 일반 현황(2013년) |
-| [vol-28-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-089.jpg) | 89 | 날짜 내용 |
-| [vol-28-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-090.jpg) | 90 | (3) 보도·제작 프로그램 현황 |
-| [vol-28-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-091.jpg) | 91 | 을 기획 방영하였다. 지역 담론 형성을 위한 정통 대담프로그램 ‘이슈성남’, ‘이슈경기’도 |
-| [vol-28-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-092.jpg) | 92 | 아름방송 주관 ‘SAFE 성남’ 토론회(2014) |
-| [vol-28-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-093.jpg) | 93 | 주민들이 참여하는 사랑방 |
-| [vol-28-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-094.jpg) | 94 | 허가하마. 8월 6일 정규사업자로 허가를 내준 것이에요. 하지만 유감스럽게도 공동체 라 |
-| [vol-28-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-095.jpg) | 95 | 달될 수 있는 메시지 역할을 해야 합니다. |
-| [vol-28-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-096.jpg) | 96 | 6. 8개 지역 커뮤니티라디오협회 결성 |
-| [vol-28-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-097.jpg) | 97 | 를 제정, 그해 7월 26일 공포 시행하면서 시정소식지로서의 면모를 갖추기 시작했다. |
-| [vol-28-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-098.jpg) | 98 | 활 정보, 훈훈한 지역 소식 등, 지면 계획을 논의하고 시민들이 궁금해하는 성남 소식을 취 |
-| [vol-28-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-099.jpg) | 99 | (4) 주요 사업 및 수상 |
-| [vol-28-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-100.jpg) | 100 | 3. 지역 언론사 단체 현황 |
-| [vol-28-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-101.jpg) | 101 | 참 |
-| [vol-28-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-102.jpg) | 102 | 빈 쪽 또는 판권 여백 |
-| [vol-28-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-103.jpg) | 103 | 성남시사 28 |
-| [vol-28-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28-page-104.jpg) | 104 | 빈 쪽 또는 판권 여백 |
+| [vol-28-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-001.jpg) | 1 | 발 간 등 록 번 호 |
+| [vol-28-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-002.jpg) | 2 | CONTENTS |
+| [vol-28-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-003.jpg) | 3 | PART |
+| [vol-28-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-004.jpg) | 4 | PART |
+| [vol-28-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-005.jpg) | 5 | 1. 지역 언론의 정의 |
+| [vol-28-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-006.jpg) | 6 | 서는, 자신이 속한 지역 사회 내에서 어떤 사람들이 |
+| [vol-28-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-007.jpg) | 7 | 있다. 독자 또한 자기 말과 행동에 대한 책임감을 느끼며 언론과의 건강한 관계 속에서 스 |
+| [vol-28-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-008.jpg) | 8 | ‘비판적 지역주의’는 불균형적인 지리적 발전을 문제점으로 지적하며 보편성과 표준화 |
+| [vol-28-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-009.jpg) | 9 | 2. 성남 언론의 개요 |
+| [vol-28-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-010.jpg) | 10 | 1971년 발생한 8·10성남(광주대단지)항쟁은 중앙 언론의 성남에 대한 관심을 모으기 충분했다. |
+| [vol-28-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-011.jpg) | 11 | 보도하기 시작했다. 특히 1971년 발생한 8·10 성남(광주대단지)항쟁은 중앙 언론의 집중 |
+| [vol-28-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-012.jpg) | 12 | 성남기자구락부 소속 기자 1980년 7월 1일 |
+| [vol-28-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-013.jpg) | 13 | 성남시청 출입기자(중앙언론 및 방송사) 2007년 10월 9일 |
+| [vol-28-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-014.jpg) | 14 | 4) 중앙 공중파 방송의 관심 증대 |
+| [vol-28-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-015.jpg) | 15 | 한 후 1999년 5월 제호를 「전국매일신문」으로 바꿨다. 성남에서 취재 활동을 하는 이들 |
+| [vol-28-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-016.jpg) | 16 | 3. 지방자치의 등장과 지역 언론 |
+| [vol-28-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-017.jpg) | 17 | 1992년 「우리신문」 창간기념식 |
+| [vol-28-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-018.jpg) | 18 | 연식 등이 활동했다. |
+| [vol-28-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-019.jpg) | 19 | 다. 그리고 분당신도시 탄생으로 분당을 중심으로 활동하는 지역 신문사인 「분당뉴스」 |
+| [vol-28-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-020.jpg) | 20 | 4. 인터넷 언론의 등장 |
+| [vol-28-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-021.jpg) | 21 | 이와 더불어 2000년부터 발행하 |
+| [vol-28-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-022.jpg) | 22 | 2) 기자실 반납 운동 확산 |
+| [vol-28-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-023.jpg) | 23 | 3) 지역 신문 전국 최초, 기자실 반납 결의 |
+| [vol-28-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-024.jpg) | 24 | 성남지역의 경우 김병량 성남시장이 출범한 지난 98년 이후 중앙지 기자실, 지방지 기자실, 지역지 |
+| [vol-28-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-025.jpg) | 25 | 기자실 폐쇄 결의에 대해 지역 시민단체는 환영하는 성명을 발표했다. 2001년 6월 11 |
+| [vol-28-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-026.jpg) | 26 | 4) 초등학교 어린이신문 집단 구독 ‘거부운동’ |
+| [vol-28-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-027.jpg) | 27 | 공립 초등학교 99%인 501개 학교 |
+| [vol-28-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-028.jpg) | 28 | PART |
+| [vol-28-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-029.jpg) | 29 | 1. 지역 언론이 뭉치다 |
+| [vol-28-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-030.jpg) | 30 | (4.2명), 월 평균 수입(약 1,139만 원), 월평균 지출(1,261만 원) 등에서 감소추세를 보인 |
+| [vol-28-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-031.jpg) | 31 | 1) 민선시대 언론 정책 |
+| [vol-28-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-032.jpg) | 32 | 성남사회단체연대회의 성명서 |
+| [vol-28-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-033.jpg) | 33 | 1. 행정부에 위임된 권한은 의회와 시민사회에 의해 감시되고 견제되어야 한다. 성남시의회는 엄격 |
+| [vol-28-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-034.jpg) | 34 | 성남기자협회는 2004년 우수 시의원으로 윤춘모, 장대훈, 정응섭 의원을 선정했다. |
+| [vol-28-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-035.jpg) | 35 | 성남기자협회가 2005년 선정한 우수 시의원(정응섭, 장윤영, 유철식, 김유석 의원) |
+| [vol-28-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-036.jpg) | 36 | 2. 지역 언론의 활성화 |
+| [vol-28-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-037.jpg) | 37 | ‘성남지역언론사대표자협의회’는 매월 명사초청 간담회를 이어갔다. |
+| [vol-28-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-038.jpg) | 38 | 서 열린 ‘지역 신문 지원제도 성과와 과제’를 주제로 장호순 순천향대 신문방송학과 교수 |
+| [vol-28-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-039.jpg) | 39 | (우희창 전 「지역 신문발전위원회」 전문위원) 지역 신문의 지원에 앞서 지역 신문의 필요성에 대한 |
+| [vol-28-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-040.jpg) | 40 | 신태용 선수 방출반대 및 철회에 대한 기자회견을 하고 있는 성남일화 서포터스클럽 천마불사 |
+| [vol-28-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-041.jpg) | 41 | 2013년 9월 24일 성남일화 인수를 놓고 ‘성남지역언론사대표자협의회’가 대안 모색을 위한 토론회를 마련했다. |
+| [vol-28-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-042.jpg) | 42 | 이날 토론회 이후 성남시는 성남일화 프로축구단을 인수해 ‘성남시민프로축구단’으로 |
+| [vol-28-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-043.jpg) | 43 | 3. 인터넷 언론시대 |
+| [vol-28-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-044.jpg) | 44 | 2005년 7월 한국인터넷기자협회와 지역인터넷언론연대 주최로 ‘신문법 시행과 인터넷 언론의 과제’에 대한 세미나가 열리고 있는 모습 |
+| [vol-28-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-045.jpg) | 45 | 신상진 성남시장과 지역 언론인 소통의 시간(2025) |
+| [vol-28-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-046.jpg) | 46 | 창간한 인터넷 매체가 주를 이루고 있다. |
+| [vol-28-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-047.jpg) | 47 | 시청 출입 기자 명단 2023년 6월 30일 |
+| [vol-28-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-048.jpg) | 48 | PART |
+| [vol-28-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-049.jpg) | 49 | 1. 기사로 보는 성남의 발자취 |
+| [vol-28-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-050.jpg) | 50 | 한송유관공사가 후보지를 변경하 |
+| [vol-28-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-051.jpg) | 51 | 2) 판교나들목 통행료 징수, 분당주민 ‘반발’ |
+| [vol-28-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-052.jpg) | 52 | 민이 참석해 성남시가 주민들의 의사를 무시하고 강행하려 하는 분당백궁역 일대 용도변 |
+| [vol-28-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-053.jpg) | 53 | 는 점을 강조했다. 백궁정자지구의 이권 규모가 1조 3,000억 원에 달하고 성남시의 갑작 |
+| [vol-28-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-054.jpg) | 54 | 군용항공기지 비행안전구역 고도완화 |
+| [vol-28-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-055.jpg) | 55 | 그러나 성남시의 경우 도시 균형 발전을 이룩하기 위해 자체적인 대안부지로 고려 되었던 분당구 |
+| [vol-28-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-056.jpg) | 56 | 타는 목소리를 더 이상 눈감을 수 없어 지난해 10월 성남시 고도제한 해제를 위한 범시민대책위원 |
+| [vol-28-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-057.jpg) | 57 | 2000년 12월 당시 시민단체의 활동에 대해 국방부가 고도제한 현황을 파악하기 위한 |
+| [vol-28-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-058.jpg) | 58 | 고도제한 완화 집회 모습 |
+| [vol-28-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-059.jpg) | 59 | 지 건축 가능해졌다. |
+| [vol-28-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-060.jpg) | 60 | 기간이 2∼7일까지 소요되었으나, 즉시 이체할 수 있으므로 이자수입 증대효과도 가져오 |
+| [vol-28-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-061.jpg) | 61 | (043), 경북(054), 경남(055), 전남(061), 전북 (063)등 8개 도지역의 지역번호는 4자리 수 |
+| [vol-28-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-062.jpg) | 62 | 신청해 184명의 정원 미달을 기록했다. 이 같은 현상은 학생들이 분당 지역 학군을 선호 |
+| [vol-28-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-063.jpg) | 63 | 구미동 불곡산에서 금곡동 머내공원 구간에 설치된 송전탑 |
+| [vol-28-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-064.jpg) | 64 | 다. 성남시는 이를 다시 나눠, 토지공사로부터 지역발전기금 명목으로 약 200억 원 정도 |
+| [vol-28-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-065.jpg) | 65 | 25.7평 이하)아파트는 1만 2,200가구(임대 6,800가구, 분양 5,400가구)가 건립하게 된다. |
+| [vol-28-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-066.jpg) | 66 | 판교신도시 5개 마을 배치도 |
+| [vol-28-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-067.jpg) | 67 | 12월부터 아파트를 분양, 2010년 준공한다는 계획이다. 또한 행정타운은 2005년 사업계 |
+| [vol-28-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-068.jpg) | 68 | 로 알려졌다. |
+| [vol-28-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-069.jpg) | 69 | 성남시의료원 설치 조례를 위해 청원서를 들고 민원실로 행진하는 시민들 |
+| [vol-28-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-070.jpg) | 70 | 원에 위탁하는 방안을 제시하고 있어 상당한 진척이 보였다. |
+| [vol-28-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-071.jpg) | 71 | 설 부지로 변경, 대학병원 유치로 의료공백을 해결한다는 결론을 내렸다. 결국, 시립병원 |
+| [vol-28-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-072.jpg) | 72 | 자매도시 결연 6주년을 기념하고자 성남의 문화예술단이 이곳을 찾아 양 도시의 우의를 |
+| [vol-28-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-073.jpg) | 73 | 15) 분당 공기업 이전, 지역상권·고용감소·세수입 ‘빨간 불’ |
+| [vol-28-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-074.jpg) | 74 | 판교지구와 연계한 반도체, 소프트웨어, 컴퓨터 관련 산업 집적화를 통해 분당-판교-강 |
+| [vol-28-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-075.jpg) | 75 | 성남아트센터 개관을 앞두고 발행한 기념우표 |
+| [vol-28-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-076.jpg) | 76 | 명칭도 몇 차례 변경된다. 처음에는 ‘성남문화예술회관’이라고 했지만, 이후 시민공모 |
+| [vol-28-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-077.jpg) | 77 | 세대) 등이 입주하고 있거나, 예정으로 있어 당분간 정자1동의 인구 증가 추세는 계속됐 |
+| [vol-28-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-078.jpg) | 78 | 우여곡절 끝에 죽전-구미동 간 도로는 강제로 열렸 |
+| [vol-28-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-079.jpg) | 79 | 도, 토지공사, 용인시는 지속적으로 도로 연결을 요구했고, 2004년 11월 18일 도로 연결 |
+| [vol-28-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-080.jpg) | 80 | 분당구를 둘로 나누는 분구 작업이 또 다른 주민 갈등을 부추겼다. 결국, 분구는 이뤄지지 않았다. |
+| [vol-28-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-081.jpg) | 81 | 20) 성남‧광주‧하남 통합 논란 …… 통합시 이름은 ‘한성시’ |
+| [vol-28-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-082.jpg) | 82 | 법안’을 2010년 1월 15일 국회에 제출했고, 1월 22일 0시 15분경 성남시의회는 해당 법안 |
+| [vol-28-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-083.jpg) | 83 | 판교 환풍구 붕괴로 인해 많은 인명피해가 발생했다. |
+| [vol-28-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-084.jpg) | 84 | 24) 백현마이스 도시개발사업 정상 추진 |
+| [vol-28-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-085.jpg) | 85 | 등), 수내역 보도교, 지하차도 등을 무상으로 귀속 받는다. 또한, 전시컨벤션센터는 기부 |
+| [vol-28-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-086.jpg) | 86 | 개 완화안을 마련한 후 국방부 등과 협의에 들어갔다. 이어 성남시는 2025년 6월 26일 국 |
+| [vol-28-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-087.jpg) | 87 | 2. 지역방송 및 공동체 방송 |
+| [vol-28-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-088.jpg) | 88 | (1) 아름방송 네트워크 일반 현황(2013년) |
+| [vol-28-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-089.jpg) | 89 | 날짜 내용 |
+| [vol-28-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-090.jpg) | 90 | (3) 보도·제작 프로그램 현황 |
+| [vol-28-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-091.jpg) | 91 | 을 기획 방영하였다. 지역 담론 형성을 위한 정통 대담프로그램 ‘이슈성남’, ‘이슈경기’도 |
+| [vol-28-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-092.jpg) | 92 | 아름방송 주관 ‘SAFE 성남’ 토론회(2014) |
+| [vol-28-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-093.jpg) | 93 | 주민들이 참여하는 사랑방 |
+| [vol-28-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-094.jpg) | 94 | 허가하마. 8월 6일 정규사업자로 허가를 내준 것이에요. 하지만 유감스럽게도 공동체 라 |
+| [vol-28-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-095.jpg) | 95 | 달될 수 있는 메시지 역할을 해야 합니다. |
+| [vol-28-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-096.jpg) | 96 | 6. 8개 지역 커뮤니티라디오협회 결성 |
+| [vol-28-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-097.jpg) | 97 | 를 제정, 그해 7월 26일 공포 시행하면서 시정소식지로서의 면모를 갖추기 시작했다. |
+| [vol-28-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-098.jpg) | 98 | 활 정보, 훈훈한 지역 소식 등, 지면 계획을 논의하고 시민들이 궁금해하는 성남 소식을 취 |
+| [vol-28-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-099.jpg) | 99 | (4) 주요 사업 및 수상 |
+| [vol-28-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-100.jpg) | 100 | 3. 지역 언론사 단체 현황 |
+| [vol-28-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-101.jpg) | 101 | 참 |
+| [vol-28-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-102.jpg) | 102 | 빈 쪽 또는 판권 여백 |
+| [vol-28-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-103.jpg) | 103 | 성남시사 28 |
+| [vol-28-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-28/vol-28-page-104.jpg) | 104 | 빈 쪽 또는 판권 여백 |
 ## 원문 텍스트
 
 <!-- source: seongnam-history-50-vol-28.pdf p.001 -->

@@ -52,96 +52,96 @@
 
 | 원문 쪽 | 내용 | 파일 |
 |---:|---|---|
-| 1 | 권 표지와 제목: 성남 지역 시민운동과 참여 자치 | assets/pages/vol-15-page-001.jpg |
-| 2 | 권별 목차: Part 1-2 | assets/pages/vol-15-page-002.jpg |
-| 3 | 권별 목차: Part 3-5 | assets/pages/vol-15-page-003.jpg |
-| 4 | Part 1 표제: 사회운동과 지역의 형성 | assets/pages/vol-15-page-004.jpg |
-| 5 | 1. 성남과 사회운동 | assets/pages/vol-15-page-005.jpg |
-| 8 | 2. 사회운동 유형과 분석 틀 | assets/pages/vol-15-page-008.jpg |
-| 11 | 한스페터 크리시의 사회운동 조직 유형론 | assets/pages/vol-15-page-011.jpg |
-| 13 | 3. 사회운동과 그 영향 | assets/pages/vol-15-page-013.jpg |
-| 15 | 윌리엄 갬슨의 사회운동 결과 분석틀 | assets/pages/vol-15-page-015.jpg |
-| 16 | Part 2 표제: 성남 형성기의 사회운동(1970년대) | assets/pages/vol-15-page-016.jpg |
-| 17 | 광주대단지 조성과 이주민의 불만 | assets/pages/vol-15-page-017.jpg |
-| 18 | 광주대단지 자혜지구 이주민 천막촌(1971) | assets/pages/vol-15-page-018.jpg |
-| 19 | 광주대단지 공동 우물과 천막촌 생활 | assets/pages/vol-15-page-019.jpg |
-| 21 | 입주분양증 전매·위조 관련 신문 기사 | assets/pages/vol-15-page-021.jpg |
-| 22 | 8·10성남(광주대단지)항쟁 발생 원인 | assets/pages/vol-15-page-022.jpg |
-| 23 | 경찰에게 요구사항을 얘기하는 광주대단지 주민(1971) | assets/pages/vol-15-page-023.jpg |
-| 24 | 광주대단지 주민 시위로 전소되는 자동차(1971) | assets/pages/vol-15-page-024.jpg |
-| 25 | 원문 페이지 렌더링 | assets/pages/vol-15-page-025.jpg |
-| 29 | 광주대단지 개발 전후 성남출장소 인구 변화 표 | assets/pages/vol-15-page-029.jpg |
-| 30 | 박정희 대통령의 성남시 인구 증가 억제 지시 기사 | assets/pages/vol-15-page-030.jpg |
-| 31 | 성남시 연두 순시와 상대원동 제2공단 기공식 사진 | assets/pages/vol-15-page-031.jpg |
-| 33 | 2000년대 성남시민의 참여 단체 양상 표 | assets/pages/vol-15-page-033.jpg |
-| 34 | 성남 지역에서 향우회의 영향력은 상당히 큰 것으로 조사되었다. 주민들도 “성남의 지역사 | assets/pages/vol-15-page-034.jpg |
-| 35 | 성남시 호남향우회 가족 한마음 대축제(2023) | assets/pages/vol-15-page-035.jpg |
-| 37 | 성남시 영남향우회 제31·32대 회장 이·취임식(2023) | assets/pages/vol-15-page-037.jpg |
-| 39 | 교교회협의회 도시선교위원회에서는 성남 지역에 주민교회 설립을 추진하게 된다. 당시 | assets/pages/vol-15-page-039.jpg |
-| 41 | (3) 가톨릭의 또 다른 도시빈민 활동, 메리놀공동체 | assets/pages/vol-15-page-041.jpg |
-| 44 | Part 3 표제: 발전과 격동의 시기 사회운동(1980년대) | assets/pages/vol-15-page-044.jpg |
-| 45 | 성남시 인구 증가 현황 표 | assets/pages/vol-15-page-045.jpg |
-| 46 | 규모별 성남시 기업체 현황 표 | assets/pages/vol-15-page-046.jpg |
-| 48 | 2. 민주화 이전의 사회운동 | assets/pages/vol-15-page-048.jpg |
-| 50 | 하고 교육하기도 했는데, 1970년대 | assets/pages/vol-15-page-050.jpg |
-| 51 | 「협진화섬 노동조합이 성남시민 여러분께 드리는 글」 제목의 호소문 일부(출처 : 민주화운동기념사업회) | assets/pages/vol-15-page-051.jpg |
-| 53 | 성남 지역 노동운동과 학생운동 자료 | assets/pages/vol-15-page-053.jpg |
-| 54 | 성남YMCA 노점 행상 설문 조사 보고서 | assets/pages/vol-15-page-054.jpg |
-| 55 | 마련해주기도 했다. 이들 중 일부는 | assets/pages/vol-15-page-055.jpg |
-| 57 | 1987년 민주화운동과 그 이후 | assets/pages/vol-15-page-057.jpg |
-| 59 | 성남 지역 노동자 대투쟁 자료 | assets/pages/vol-15-page-059.jpg |
-| 60 | 택시 노동자 시위와 성남 지역 노동자 대투쟁 | assets/pages/vol-15-page-060.jpg |
-| 61 | 성남노련 준비위원회 유인물 | assets/pages/vol-15-page-061.jpg |
-| 62 | 성남공단 입주업체 총종업원 수 변화 추세 표 | assets/pages/vol-15-page-062.jpg |
-| 64 | 주민교회 신자들의 통일 염원 집회(2009) | assets/pages/vol-15-page-064.jpg |
-| 65 | 세력으로 자리를 잡았다는 것이다. 그런 이유로 이들은 반미 통일운동 중심의 특정 이념 | assets/pages/vol-15-page-065.jpg |
-| 66 | 은행골 주민노래자랑 사진 | assets/pages/vol-15-page-066.jpg |
-| 67 | 성남인력센타·민중복지 소식지 | assets/pages/vol-15-page-067.jpg |
-| 69 | 도시빈민운동과 제3단계 세입자 철거 반대 투쟁 | assets/pages/vol-15-page-069.jpg |
-| 70 | 4. 1987년 민주화운동과 정치 지향성 | assets/pages/vol-15-page-070.jpg |
-| 71 | 6월 민주화운동 당시 수정구 태평동 옛 시청사 앞 광장에서의 시민대회(1987) | assets/pages/vol-15-page-071.jpg |
-| 73 | 5. 성남 지역 1980년대 사회운동의 영향 | assets/pages/vol-15-page-073.jpg |
-| 74 | 화 항쟁이 발생했고, 그 조직화 사업을 지속적으로 전개해 온 결실이 6월 민주화 항쟁의 동력으로 | assets/pages/vol-15-page-074.jpg |
-| 75 | Part 4 표제: 성남의 성장과 분화, 그리고 새로운 사회운동(1990년대) | assets/pages/vol-15-page-075.jpg |
-| 76 | 1. 1990년대 사회변동과 분당신도시 | assets/pages/vol-15-page-076.jpg |
-| 80 | 분당 개발 반대 시위와 농민들의 시위(1989) | assets/pages/vol-15-page-080.jpg |
-| 81 | 1999년 성남시 지역별 가구 소득 분포 비교 표 | assets/pages/vol-15-page-081.jpg |
-| 82 | 분당 개발 전 미금 일대 농촌 사진 | assets/pages/vol-15-page-082.jpg |
-| 83 | 본시가지와 신시가지 분리에 대한 주부 견해 표 | assets/pages/vol-15-page-083.jpg |
-| 84 | 2. 기존 사회운동의 침체와 변화 | assets/pages/vol-15-page-084.jpg |
-| 85 | 「가정폭력방지법」 제정을 위한 ‘성남여성의전화’ 거리 서명(1996) | assets/pages/vol-15-page-085.jpg |
-| 86 | 의 변화를 지적할 수 있다. 먼저 성남시의 사회운동을 주도하였던 노동운동이 1990년대 | assets/pages/vol-15-page-086.jpg |
-| 89 | 1990년대 새로운 사회운동의 등장 | assets/pages/vol-15-page-089.jpg |
-| 92 | 성남 반딧불이 축제와 청소년수질모니터링단 | assets/pages/vol-15-page-092.jpg |
-| 93 | 성남의제21 그린 카 캠페인 | assets/pages/vol-15-page-093.jpg |
-| 95 | 성남여성노동자회 푸른솔애기방 홍보물 | assets/pages/vol-15-page-095.jpg |
-| 96 | 성남시민모임 창립총회(1995) | assets/pages/vol-15-page-096.jpg |
-| 97 | 성남여성의전화 관련 자료 | assets/pages/vol-15-page-097.jpg |
-| 99 | 1990년대 사회운동의 성격과 영향 | assets/pages/vol-15-page-099.jpg |
-| 100 | 노동운동과 새로운 사회운동 사이의 차이 비교 표 | assets/pages/vol-15-page-100.jpg |
-| 102 | 높은 젊은 서민층, 신중간계급 성원들, 경제와 정부 관료제의 비생산적 화이트칼라 부문에 | assets/pages/vol-15-page-102.jpg |
-| 103 | Part 5 표제: 시민사회 운동의 쇠퇴, 혹은 변화(2000년대 이후) | assets/pages/vol-15-page-103.jpg |
-| 104 | 2000년대 변화와 성남 제2기 신도시 건설 | assets/pages/vol-15-page-104.jpg |
-| 105 | 대감도 생성될 수 없는 법이다.131 | assets/pages/vol-15-page-105.jpg |
-| 107 | 광우병 위험과 농가 경제 파탄에 대한 우려가 반영된 성남시민들의 미국 소 수입 및 한미 FTA 반대 촛불집회(2011) | assets/pages/vol-15-page-107.jpg |
-| 110 | 판교신도시와 위례신도시 개발 | assets/pages/vol-15-page-110.jpg |
-| 111 | 지금의 판교신도시 건설에 큰 역할을 한 판교 주민들의 현 한국토지주택공사 앞 시위(2014) | assets/pages/vol-15-page-111.jpg |
-| 113 | 2000년대 성남 시민사회단체 현황 | assets/pages/vol-15-page-113.jpg |
-| 114 | 2022년 시민사회단체 현황 수요조사 정책 세미나 기사 | assets/pages/vol-15-page-114.jpg |
-| 115 | 성남 시민사회단체 재원·어려움 관련 서술 | assets/pages/vol-15-page-115.jpg |
-| 116 | 2000년대 성남 시민사회단체 활동과 특성 | assets/pages/vol-15-page-116.jpg |
-| 117 | 성남만남지역자활센터 기관 소개 | assets/pages/vol-15-page-117.jpg |
-| 118 | 형’, ‘사회서비스형’, 그리고 ‘인턴·도우미’ 세 가지 유형으로 진행되고 있다. 정치적인 변 | assets/pages/vol-15-page-118.jpg |
-| 119 | 성남여성회 되살림가게 웃는나무 & 북카페 | assets/pages/vol-15-page-119.jpg |
-| 120 | 2) 공공선 운동에서 공동 서비스 활동으로 | assets/pages/vol-15-page-120.jpg |
-| 121 | 주민생협 여수동 센트럴타운 목요문화장터 | assets/pages/vol-15-page-121.jpg |
-| 126 | 성남 제1공단 부지 전경과 공원화 논쟁 | assets/pages/vol-15-page-126.jpg |
-| 127 | 구미동 하수처리장과 환경운동 갈등 | assets/pages/vol-15-page-127.jpg |
-| 128 | 구미동 하수처리장 복합문화타운 조성 기사 | assets/pages/vol-15-page-128.jpg |
-| 129 | 성남시 지역 정체성과 사회 운동 | assets/pages/vol-15-page-129.jpg |
-| 132 | 참고문헌: 단행본과 논문·자료 | assets/pages/vol-15-page-132.jpg |
-| 133 | 참고문헌: 논문·자료와 누리집 | assets/pages/vol-15-page-133.jpg |
-| 135 | 간기: 발행일, 발행처, 집필자, 디자인·인쇄 정보 | assets/pages/vol-15-page-135.jpg |
+| 1 | 권 표지와 제목: 성남 지역 시민운동과 참여 자치 | assets/pages/vol-15/vol-15-page-001.jpg |
+| 2 | 권별 목차: Part 1-2 | assets/pages/vol-15/vol-15-page-002.jpg |
+| 3 | 권별 목차: Part 3-5 | assets/pages/vol-15/vol-15-page-003.jpg |
+| 4 | Part 1 표제: 사회운동과 지역의 형성 | assets/pages/vol-15/vol-15-page-004.jpg |
+| 5 | 1. 성남과 사회운동 | assets/pages/vol-15/vol-15-page-005.jpg |
+| 8 | 2. 사회운동 유형과 분석 틀 | assets/pages/vol-15/vol-15-page-008.jpg |
+| 11 | 한스페터 크리시의 사회운동 조직 유형론 | assets/pages/vol-15/vol-15-page-011.jpg |
+| 13 | 3. 사회운동과 그 영향 | assets/pages/vol-15/vol-15-page-013.jpg |
+| 15 | 윌리엄 갬슨의 사회운동 결과 분석틀 | assets/pages/vol-15/vol-15-page-015.jpg |
+| 16 | Part 2 표제: 성남 형성기의 사회운동(1970년대) | assets/pages/vol-15/vol-15-page-016.jpg |
+| 17 | 광주대단지 조성과 이주민의 불만 | assets/pages/vol-15/vol-15-page-017.jpg |
+| 18 | 광주대단지 자혜지구 이주민 천막촌(1971) | assets/pages/vol-15/vol-15-page-018.jpg |
+| 19 | 광주대단지 공동 우물과 천막촌 생활 | assets/pages/vol-15/vol-15-page-019.jpg |
+| 21 | 입주분양증 전매·위조 관련 신문 기사 | assets/pages/vol-15/vol-15-page-021.jpg |
+| 22 | 8·10성남(광주대단지)항쟁 발생 원인 | assets/pages/vol-15/vol-15-page-022.jpg |
+| 23 | 경찰에게 요구사항을 얘기하는 광주대단지 주민(1971) | assets/pages/vol-15/vol-15-page-023.jpg |
+| 24 | 광주대단지 주민 시위로 전소되는 자동차(1971) | assets/pages/vol-15/vol-15-page-024.jpg |
+| 25 | 원문 페이지 렌더링 | assets/pages/vol-15/vol-15-page-025.jpg |
+| 29 | 광주대단지 개발 전후 성남출장소 인구 변화 표 | assets/pages/vol-15/vol-15-page-029.jpg |
+| 30 | 박정희 대통령의 성남시 인구 증가 억제 지시 기사 | assets/pages/vol-15/vol-15-page-030.jpg |
+| 31 | 성남시 연두 순시와 상대원동 제2공단 기공식 사진 | assets/pages/vol-15/vol-15-page-031.jpg |
+| 33 | 2000년대 성남시민의 참여 단체 양상 표 | assets/pages/vol-15/vol-15-page-033.jpg |
+| 34 | 성남 지역에서 향우회의 영향력은 상당히 큰 것으로 조사되었다. 주민들도 “성남의 지역사 | assets/pages/vol-15/vol-15-page-034.jpg |
+| 35 | 성남시 호남향우회 가족 한마음 대축제(2023) | assets/pages/vol-15/vol-15-page-035.jpg |
+| 37 | 성남시 영남향우회 제31·32대 회장 이·취임식(2023) | assets/pages/vol-15/vol-15-page-037.jpg |
+| 39 | 교교회협의회 도시선교위원회에서는 성남 지역에 주민교회 설립을 추진하게 된다. 당시 | assets/pages/vol-15/vol-15-page-039.jpg |
+| 41 | (3) 가톨릭의 또 다른 도시빈민 활동, 메리놀공동체 | assets/pages/vol-15/vol-15-page-041.jpg |
+| 44 | Part 3 표제: 발전과 격동의 시기 사회운동(1980년대) | assets/pages/vol-15/vol-15-page-044.jpg |
+| 45 | 성남시 인구 증가 현황 표 | assets/pages/vol-15/vol-15-page-045.jpg |
+| 46 | 규모별 성남시 기업체 현황 표 | assets/pages/vol-15/vol-15-page-046.jpg |
+| 48 | 2. 민주화 이전의 사회운동 | assets/pages/vol-15/vol-15-page-048.jpg |
+| 50 | 하고 교육하기도 했는데, 1970년대 | assets/pages/vol-15/vol-15-page-050.jpg |
+| 51 | 「협진화섬 노동조합이 성남시민 여러분께 드리는 글」 제목의 호소문 일부(출처 : 민주화운동기념사업회) | assets/pages/vol-15/vol-15-page-051.jpg |
+| 53 | 성남 지역 노동운동과 학생운동 자료 | assets/pages/vol-15/vol-15-page-053.jpg |
+| 54 | 성남YMCA 노점 행상 설문 조사 보고서 | assets/pages/vol-15/vol-15-page-054.jpg |
+| 55 | 마련해주기도 했다. 이들 중 일부는 | assets/pages/vol-15/vol-15-page-055.jpg |
+| 57 | 1987년 민주화운동과 그 이후 | assets/pages/vol-15/vol-15-page-057.jpg |
+| 59 | 성남 지역 노동자 대투쟁 자료 | assets/pages/vol-15/vol-15-page-059.jpg |
+| 60 | 택시 노동자 시위와 성남 지역 노동자 대투쟁 | assets/pages/vol-15/vol-15-page-060.jpg |
+| 61 | 성남노련 준비위원회 유인물 | assets/pages/vol-15/vol-15-page-061.jpg |
+| 62 | 성남공단 입주업체 총종업원 수 변화 추세 표 | assets/pages/vol-15/vol-15-page-062.jpg |
+| 64 | 주민교회 신자들의 통일 염원 집회(2009) | assets/pages/vol-15/vol-15-page-064.jpg |
+| 65 | 세력으로 자리를 잡았다는 것이다. 그런 이유로 이들은 반미 통일운동 중심의 특정 이념 | assets/pages/vol-15/vol-15-page-065.jpg |
+| 66 | 은행골 주민노래자랑 사진 | assets/pages/vol-15/vol-15-page-066.jpg |
+| 67 | 성남인력센타·민중복지 소식지 | assets/pages/vol-15/vol-15-page-067.jpg |
+| 69 | 도시빈민운동과 제3단계 세입자 철거 반대 투쟁 | assets/pages/vol-15/vol-15-page-069.jpg |
+| 70 | 4. 1987년 민주화운동과 정치 지향성 | assets/pages/vol-15/vol-15-page-070.jpg |
+| 71 | 6월 민주화운동 당시 수정구 태평동 옛 시청사 앞 광장에서의 시민대회(1987) | assets/pages/vol-15/vol-15-page-071.jpg |
+| 73 | 5. 성남 지역 1980년대 사회운동의 영향 | assets/pages/vol-15/vol-15-page-073.jpg |
+| 74 | 화 항쟁이 발생했고, 그 조직화 사업을 지속적으로 전개해 온 결실이 6월 민주화 항쟁의 동력으로 | assets/pages/vol-15/vol-15-page-074.jpg |
+| 75 | Part 4 표제: 성남의 성장과 분화, 그리고 새로운 사회운동(1990년대) | assets/pages/vol-15/vol-15-page-075.jpg |
+| 76 | 1. 1990년대 사회변동과 분당신도시 | assets/pages/vol-15/vol-15-page-076.jpg |
+| 80 | 분당 개발 반대 시위와 농민들의 시위(1989) | assets/pages/vol-15/vol-15-page-080.jpg |
+| 81 | 1999년 성남시 지역별 가구 소득 분포 비교 표 | assets/pages/vol-15/vol-15-page-081.jpg |
+| 82 | 분당 개발 전 미금 일대 농촌 사진 | assets/pages/vol-15/vol-15-page-082.jpg |
+| 83 | 본시가지와 신시가지 분리에 대한 주부 견해 표 | assets/pages/vol-15/vol-15-page-083.jpg |
+| 84 | 2. 기존 사회운동의 침체와 변화 | assets/pages/vol-15/vol-15-page-084.jpg |
+| 85 | 「가정폭력방지법」 제정을 위한 ‘성남여성의전화’ 거리 서명(1996) | assets/pages/vol-15/vol-15-page-085.jpg |
+| 86 | 의 변화를 지적할 수 있다. 먼저 성남시의 사회운동을 주도하였던 노동운동이 1990년대 | assets/pages/vol-15/vol-15-page-086.jpg |
+| 89 | 1990년대 새로운 사회운동의 등장 | assets/pages/vol-15/vol-15-page-089.jpg |
+| 92 | 성남 반딧불이 축제와 청소년수질모니터링단 | assets/pages/vol-15/vol-15-page-092.jpg |
+| 93 | 성남의제21 그린 카 캠페인 | assets/pages/vol-15/vol-15-page-093.jpg |
+| 95 | 성남여성노동자회 푸른솔애기방 홍보물 | assets/pages/vol-15/vol-15-page-095.jpg |
+| 96 | 성남시민모임 창립총회(1995) | assets/pages/vol-15/vol-15-page-096.jpg |
+| 97 | 성남여성의전화 관련 자료 | assets/pages/vol-15/vol-15-page-097.jpg |
+| 99 | 1990년대 사회운동의 성격과 영향 | assets/pages/vol-15/vol-15-page-099.jpg |
+| 100 | 노동운동과 새로운 사회운동 사이의 차이 비교 표 | assets/pages/vol-15/vol-15-page-100.jpg |
+| 102 | 높은 젊은 서민층, 신중간계급 성원들, 경제와 정부 관료제의 비생산적 화이트칼라 부문에 | assets/pages/vol-15/vol-15-page-102.jpg |
+| 103 | Part 5 표제: 시민사회 운동의 쇠퇴, 혹은 변화(2000년대 이후) | assets/pages/vol-15/vol-15-page-103.jpg |
+| 104 | 2000년대 변화와 성남 제2기 신도시 건설 | assets/pages/vol-15/vol-15-page-104.jpg |
+| 105 | 대감도 생성될 수 없는 법이다.131 | assets/pages/vol-15/vol-15-page-105.jpg |
+| 107 | 광우병 위험과 농가 경제 파탄에 대한 우려가 반영된 성남시민들의 미국 소 수입 및 한미 FTA 반대 촛불집회(2011) | assets/pages/vol-15/vol-15-page-107.jpg |
+| 110 | 판교신도시와 위례신도시 개발 | assets/pages/vol-15/vol-15-page-110.jpg |
+| 111 | 지금의 판교신도시 건설에 큰 역할을 한 판교 주민들의 현 한국토지주택공사 앞 시위(2014) | assets/pages/vol-15/vol-15-page-111.jpg |
+| 113 | 2000년대 성남 시민사회단체 현황 | assets/pages/vol-15/vol-15-page-113.jpg |
+| 114 | 2022년 시민사회단체 현황 수요조사 정책 세미나 기사 | assets/pages/vol-15/vol-15-page-114.jpg |
+| 115 | 성남 시민사회단체 재원·어려움 관련 서술 | assets/pages/vol-15/vol-15-page-115.jpg |
+| 116 | 2000년대 성남 시민사회단체 활동과 특성 | assets/pages/vol-15/vol-15-page-116.jpg |
+| 117 | 성남만남지역자활센터 기관 소개 | assets/pages/vol-15/vol-15-page-117.jpg |
+| 118 | 형’, ‘사회서비스형’, 그리고 ‘인턴·도우미’ 세 가지 유형으로 진행되고 있다. 정치적인 변 | assets/pages/vol-15/vol-15-page-118.jpg |
+| 119 | 성남여성회 되살림가게 웃는나무 & 북카페 | assets/pages/vol-15/vol-15-page-119.jpg |
+| 120 | 2) 공공선 운동에서 공동 서비스 활동으로 | assets/pages/vol-15/vol-15-page-120.jpg |
+| 121 | 주민생협 여수동 센트럴타운 목요문화장터 | assets/pages/vol-15/vol-15-page-121.jpg |
+| 126 | 성남 제1공단 부지 전경과 공원화 논쟁 | assets/pages/vol-15/vol-15-page-126.jpg |
+| 127 | 구미동 하수처리장과 환경운동 갈등 | assets/pages/vol-15/vol-15-page-127.jpg |
+| 128 | 구미동 하수처리장 복합문화타운 조성 기사 | assets/pages/vol-15/vol-15-page-128.jpg |
+| 129 | 성남시 지역 정체성과 사회 운동 | assets/pages/vol-15/vol-15-page-129.jpg |
+| 132 | 참고문헌: 단행본과 논문·자료 | assets/pages/vol-15/vol-15-page-132.jpg |
+| 133 | 참고문헌: 논문·자료와 누리집 | assets/pages/vol-15/vol-15-page-133.jpg |
+| 135 | 간기: 발행일, 발행처, 집필자, 디자인·인쇄 정보 | assets/pages/vol-15/vol-15-page-135.jpg |
 
 ## source-page-index.md 병합 후보
 

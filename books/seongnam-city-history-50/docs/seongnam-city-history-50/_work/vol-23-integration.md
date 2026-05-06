@@ -8,86 +8,86 @@
 - OCR: not used; embedded PDF text layer extracted with `pdftotext -layout`.
 - Main Markdown: `docs/seongnam-city-history-50/vol-23-festivals-tourism.md`
 - LLM bundle: `dist/seongnam-history-50-vol-23.llm.md`
-- Rendered page images: `160` files, `docs/seongnam-city-history-50/assets/pages/vol-23-page-001.jpg` through `vol-23-page-160.jpg`.
+- Rendered page images: `160` files, `docs/seongnam-city-history-50/assets/pages/vol-23/vol-23-page-001.jpg` through `vol-23-page-160.jpg`.
 - Completed ranges: p.001-p.160. No deferred page ranges.
 
 ## Merge Candidates: Figures
 
 | 원문 쪽 | 파일 | 내용 |
 | --- | --- | --- |
-| 1 | `assets/pages/vol-23-page-001.jpg` | 표지와 권명: 축제·관광 권의 범위 확인 |
-| 2 | `assets/pages/vol-23-page-002.jpg` | 권별 목차 1: Part 1 구성 |
-| 3 | `assets/pages/vol-23-page-003.jpg` | 권별 목차 2: Part 2-4 구성 |
-| 4 | `assets/pages/vol-23-page-004.jpg` | 들어가며: 23권의 문제의식과 40년사와의 관계 |
-| 12 | `assets/pages/vol-23-page-012.jpg` | 성남민속예술축제 및 성남탄천페스티벌 연혁 표 |
-| 19 | `assets/pages/vol-23-page-019.jpg` | 제18회 청계산 철쭉축제 사진과 개최 현황 서술 |
-| 20 | `assets/pages/vol-23-page-020.jpg` | 최근 10년간 청계산 철쭉축제 개최 현황 표 |
-| 21 | `assets/pages/vol-23-page-021.jpg` | 제19회 벌터산 한마당축제 사진과 2013-2023 개최 현황 |
-| 23 | `assets/pages/vol-23-page-023.jpg` | 2014-2023년 판교 25통 힐링로드 축제 개최 현황 표 |
-| 28 | `assets/pages/vol-23-page-028.jpg` | 성남 국제윈드페스티벌 개최 현황 1 |
-| 29 | `assets/pages/vol-23-page-029.jpg` | 성남 국제윈드페스티벌 개최 현황 2 |
-| 31 | `assets/pages/vol-23-page-031.jpg` | 2013-2023년 성남시 여름철 세시 행사 개최 개요 |
-| 37 | `assets/pages/vol-23-page-037.jpg` | 시 승격 50주년 기념 제37회 성남문화예술제 개막식 사진 |
-| 38 | `assets/pages/vol-23-page-038.jpg` | 2013-2023년 성남문화예술제 개최 개요 표 |
-| 40 | `assets/pages/vol-23-page-040.jpg` | 모란민속5일장축제 및 모두모여모란 축제 사진·현황 |
-| 43 | `assets/pages/vol-23-page-043.jpg` | 사랑방문화클럽축제 개최 현황 표 |
-| 44 | `assets/pages/vol-23-page-044.jpg` | 제1회 성남페스티벌 탄천 수상스테이지 사진 |
-| 45 | `assets/pages/vol-23-page-045.jpg` | 2023 성남페스티벌 주요 프로그램 운영 실적 표 |
-| 47 | `assets/pages/vol-23-page-047.jpg` | 성남시민 체육·문화대축제 사진 |
-| 48 | `assets/pages/vol-23-page-048.jpg` | 2013-2024년 3개 구별 주민화합 축제 개최 현황 |
-| 51 | `assets/pages/vol-23-page-051.jpg` | 복정동 어울림빛축제 빛의 분수와 대형 트리 사진 |
-| 52 | `assets/pages/vol-23-page-052.jpg` | 판교 쌍용거줄다리기 재연행사 사진 |
-| 53 | `assets/pages/vol-23-page-053.jpg` | 성남문화원 정월대보름 민속놀이 사진 |
-| 54 | `assets/pages/vol-23-page-054.jpg` | 정월대보름 행사와 겨울 세시 행사 정리 |
-| 61 | `assets/pages/vol-23-page-061.jpg` | 남한산성도립공원 면적과 산림욕장·치유의 숲 현황 표 |
-| 64 | `assets/pages/vol-23-page-064.jpg` | 성남시 보호수 지정 현황 표 |
-| 65 | `assets/pages/vol-23-page-065.jpg` | 성남시 국가유산 현황 표 |
-| 67 | `assets/pages/vol-23-page-067.jpg` | 성남시 전통사찰 현황과 박물관·미술관 수치 |
-| 68 | `assets/pages/vol-23-page-068.jpg` | 성남시 등록 박물관·미술관 현황 표 |
-| 70 | `assets/pages/vol-23-page-070.jpg` | 성남시 지정 특화거리 현황 표 |
-| 71 | `assets/pages/vol-23-page-071.jpg` | 성남시 소재 공연장 현황 표 |
-| 73 | `assets/pages/vol-23-page-073.jpg` | 연도별 숙박 및 음식점업 현황 그래프 |
-| 74 | `assets/pages/vol-23-page-074.jpg` | 성남시 관광숙박업체 현황 표 |
-| 75 | `assets/pages/vol-23-page-075.jpg` | 2023년 호텔업 운영현황 표 |
-| 76 | `assets/pages/vol-23-page-076.jpg` | 성남시 관광 유형거리 현황 표 |
-| 78 | `assets/pages/vol-23-page-078.jpg` | 문화관광해설 운영 코스 표 |
-| 81 | `assets/pages/vol-23-page-081.jpg` | 성남시 지역안전등급 변화 그래프 |
-| 82 | `assets/pages/vol-23-page-082.jpg` | 성남시 연도별 관광수용력지수 표 |
-| 84 | `assets/pages/vol-23-page-084.jpg` | 성남시 구별 외지인·외국인 방문객 추이 표 |
-| 86 | `assets/pages/vol-23-page-086.jpg` | 주요 관광지점별 입장객 수 변화 표 |
-| 87 | `assets/pages/vol-23-page-087.jpg` | 경기도 내비게이션 검색순위 500위 이내 성남 관광지 표 |
-| 88 | `assets/pages/vol-23-page-088.jpg` | 관광유형별 검색 비율과 성남시 방문목적 그래프 |
-| 89 | `assets/pages/vol-23-page-089.jpg` | 관광객의 성남시 관광지 인식도 그래프 |
-| 91 | `assets/pages/vol-23-page-091.jpg` | 내국인·외국인의 구별 신용카드 지출액 표 |
-| 93 | `assets/pages/vol-23-page-093.jpg` | 성남시 관광사업체 수 변화 추이 및 여행업체 현황 표 |
-| 94 | `assets/pages/vol-23-page-094.jpg` | 2017-2023년 구별 관광사업체 인허가 현황 그래프 |
-| 95 | `assets/pages/vol-23-page-095.jpg` | 성남시 백년가게 및 백년소공인 현황 표 |
-| 96 | `assets/pages/vol-23-page-096.jpg` | 성남시 연도별 관광소비력지수 표 |
-| 104 | `assets/pages/vol-23-page-104.jpg` | 성남시 연도별 관광정책역량지수 표 |
-| 107 | `assets/pages/vol-23-page-107.jpg` | 성남 9경 공식 목록과 사진집 선정 목록 비교 서술 |
-| 109 | `assets/pages/vol-23-page-109.jpg` | 분당중앙공원 전경 사진 |
-| 111 | `assets/pages/vol-23-page-111.jpg` | 분당구보건소 앞 탄천변 벚꽃길 사진 |
-| 113 | `assets/pages/vol-23-page-113.jpg` | 벚꽃 9경 위치·길이·접근성 서술 |
-| 118 | `assets/pages/vol-23-page-118.jpg` | 성남누비길 7개 코스 서술 |
-| 119 | `assets/pages/vol-23-page-119.jpg` | 탄천 사진과 물길 코스 서술 |
-| 120 | `assets/pages/vol-23-page-120.jpg` | 율동공원 저수지 사진 |
-| 123 | `assets/pages/vol-23-page-123.jpg` | 지역산업관광 구성도 |
-| 125 | `assets/pages/vol-23-page-125.jpg` | 백현 MICE 도시개발사업 조감도 |
-| 127 | `assets/pages/vol-23-page-127.jpg` | 방문목적별 의료관광 유형 표 |
-| 130 | `assets/pages/vol-23-page-130.jpg` | 2022 성남 글로벌 헬스케어 컨벤션 개막식 사진 |
-| 131 | `assets/pages/vol-23-page-131.jpg` | 국제의료관광 컨벤션 및 바이오 헬스케어 국제 컨벤션 추진 현황 표 |
-| 133 | `assets/pages/vol-23-page-133.jpg` | 성남시 의료관광 BI와 활성화 주요 사업 추진 현황 표 |
-| 134 | `assets/pages/vol-23-page-134.jpg` | 외국인환자 유치실적 표 |
-| 135 | `assets/pages/vol-23-page-135.jpg` | 국가별 의료서비스 질 만족도 평가 표 |
-| 139 | `assets/pages/vol-23-page-139.jpg` | 성남 문화예술행사 참여율·만족도 그래프 |
-| 140 | `assets/pages/vol-23-page-140.jpg` | 선호 축제 유형과 대표 축제 형태 그래프 |
-| 144 | `assets/pages/vol-23-page-144.jpg` | 모란전통시장축제·사랑방문화클럽 희망 프로그램 그래프 |
-| 145 | `assets/pages/vol-23-page-145.jpg` | 판교테크노축제 희망 프로그램 그래프 |
-| 149 | `assets/pages/vol-23-page-149.jpg` | 지역관광발전지수 소분류 지표별 분석 결과 |
-| 150 | `assets/pages/vol-23-page-150.jpg` | 관광객의 성남시 이미지 인식 그래프 |
-| 151 | `assets/pages/vol-23-page-151.jpg` | 도입 필요 관광자원·관광 활성화 요소 서술 |
-| 157 | `assets/pages/vol-23-page-157.jpg` | 경기옛길 전도 |
-| 159 | `assets/pages/vol-23-page-159.jpg` | 판권: 발행일·집필자·발행처 |
+| 1 | `assets/pages/vol-23/vol-23-page-001.jpg` | 표지와 권명: 축제·관광 권의 범위 확인 |
+| 2 | `assets/pages/vol-23/vol-23-page-002.jpg` | 권별 목차 1: Part 1 구성 |
+| 3 | `assets/pages/vol-23/vol-23-page-003.jpg` | 권별 목차 2: Part 2-4 구성 |
+| 4 | `assets/pages/vol-23/vol-23-page-004.jpg` | 들어가며: 23권의 문제의식과 40년사와의 관계 |
+| 12 | `assets/pages/vol-23/vol-23-page-012.jpg` | 성남민속예술축제 및 성남탄천페스티벌 연혁 표 |
+| 19 | `assets/pages/vol-23/vol-23-page-019.jpg` | 제18회 청계산 철쭉축제 사진과 개최 현황 서술 |
+| 20 | `assets/pages/vol-23/vol-23-page-020.jpg` | 최근 10년간 청계산 철쭉축제 개최 현황 표 |
+| 21 | `assets/pages/vol-23/vol-23-page-021.jpg` | 제19회 벌터산 한마당축제 사진과 2013-2023 개최 현황 |
+| 23 | `assets/pages/vol-23/vol-23-page-023.jpg` | 2014-2023년 판교 25통 힐링로드 축제 개최 현황 표 |
+| 28 | `assets/pages/vol-23/vol-23-page-028.jpg` | 성남 국제윈드페스티벌 개최 현황 1 |
+| 29 | `assets/pages/vol-23/vol-23-page-029.jpg` | 성남 국제윈드페스티벌 개최 현황 2 |
+| 31 | `assets/pages/vol-23/vol-23-page-031.jpg` | 2013-2023년 성남시 여름철 세시 행사 개최 개요 |
+| 37 | `assets/pages/vol-23/vol-23-page-037.jpg` | 시 승격 50주년 기념 제37회 성남문화예술제 개막식 사진 |
+| 38 | `assets/pages/vol-23/vol-23-page-038.jpg` | 2013-2023년 성남문화예술제 개최 개요 표 |
+| 40 | `assets/pages/vol-23/vol-23-page-040.jpg` | 모란민속5일장축제 및 모두모여모란 축제 사진·현황 |
+| 43 | `assets/pages/vol-23/vol-23-page-043.jpg` | 사랑방문화클럽축제 개최 현황 표 |
+| 44 | `assets/pages/vol-23/vol-23-page-044.jpg` | 제1회 성남페스티벌 탄천 수상스테이지 사진 |
+| 45 | `assets/pages/vol-23/vol-23-page-045.jpg` | 2023 성남페스티벌 주요 프로그램 운영 실적 표 |
+| 47 | `assets/pages/vol-23/vol-23-page-047.jpg` | 성남시민 체육·문화대축제 사진 |
+| 48 | `assets/pages/vol-23/vol-23-page-048.jpg` | 2013-2024년 3개 구별 주민화합 축제 개최 현황 |
+| 51 | `assets/pages/vol-23/vol-23-page-051.jpg` | 복정동 어울림빛축제 빛의 분수와 대형 트리 사진 |
+| 52 | `assets/pages/vol-23/vol-23-page-052.jpg` | 판교 쌍용거줄다리기 재연행사 사진 |
+| 53 | `assets/pages/vol-23/vol-23-page-053.jpg` | 성남문화원 정월대보름 민속놀이 사진 |
+| 54 | `assets/pages/vol-23/vol-23-page-054.jpg` | 정월대보름 행사와 겨울 세시 행사 정리 |
+| 61 | `assets/pages/vol-23/vol-23-page-061.jpg` | 남한산성도립공원 면적과 산림욕장·치유의 숲 현황 표 |
+| 64 | `assets/pages/vol-23/vol-23-page-064.jpg` | 성남시 보호수 지정 현황 표 |
+| 65 | `assets/pages/vol-23/vol-23-page-065.jpg` | 성남시 국가유산 현황 표 |
+| 67 | `assets/pages/vol-23/vol-23-page-067.jpg` | 성남시 전통사찰 현황과 박물관·미술관 수치 |
+| 68 | `assets/pages/vol-23/vol-23-page-068.jpg` | 성남시 등록 박물관·미술관 현황 표 |
+| 70 | `assets/pages/vol-23/vol-23-page-070.jpg` | 성남시 지정 특화거리 현황 표 |
+| 71 | `assets/pages/vol-23/vol-23-page-071.jpg` | 성남시 소재 공연장 현황 표 |
+| 73 | `assets/pages/vol-23/vol-23-page-073.jpg` | 연도별 숙박 및 음식점업 현황 그래프 |
+| 74 | `assets/pages/vol-23/vol-23-page-074.jpg` | 성남시 관광숙박업체 현황 표 |
+| 75 | `assets/pages/vol-23/vol-23-page-075.jpg` | 2023년 호텔업 운영현황 표 |
+| 76 | `assets/pages/vol-23/vol-23-page-076.jpg` | 성남시 관광 유형거리 현황 표 |
+| 78 | `assets/pages/vol-23/vol-23-page-078.jpg` | 문화관광해설 운영 코스 표 |
+| 81 | `assets/pages/vol-23/vol-23-page-081.jpg` | 성남시 지역안전등급 변화 그래프 |
+| 82 | `assets/pages/vol-23/vol-23-page-082.jpg` | 성남시 연도별 관광수용력지수 표 |
+| 84 | `assets/pages/vol-23/vol-23-page-084.jpg` | 성남시 구별 외지인·외국인 방문객 추이 표 |
+| 86 | `assets/pages/vol-23/vol-23-page-086.jpg` | 주요 관광지점별 입장객 수 변화 표 |
+| 87 | `assets/pages/vol-23/vol-23-page-087.jpg` | 경기도 내비게이션 검색순위 500위 이내 성남 관광지 표 |
+| 88 | `assets/pages/vol-23/vol-23-page-088.jpg` | 관광유형별 검색 비율과 성남시 방문목적 그래프 |
+| 89 | `assets/pages/vol-23/vol-23-page-089.jpg` | 관광객의 성남시 관광지 인식도 그래프 |
+| 91 | `assets/pages/vol-23/vol-23-page-091.jpg` | 내국인·외국인의 구별 신용카드 지출액 표 |
+| 93 | `assets/pages/vol-23/vol-23-page-093.jpg` | 성남시 관광사업체 수 변화 추이 및 여행업체 현황 표 |
+| 94 | `assets/pages/vol-23/vol-23-page-094.jpg` | 2017-2023년 구별 관광사업체 인허가 현황 그래프 |
+| 95 | `assets/pages/vol-23/vol-23-page-095.jpg` | 성남시 백년가게 및 백년소공인 현황 표 |
+| 96 | `assets/pages/vol-23/vol-23-page-096.jpg` | 성남시 연도별 관광소비력지수 표 |
+| 104 | `assets/pages/vol-23/vol-23-page-104.jpg` | 성남시 연도별 관광정책역량지수 표 |
+| 107 | `assets/pages/vol-23/vol-23-page-107.jpg` | 성남 9경 공식 목록과 사진집 선정 목록 비교 서술 |
+| 109 | `assets/pages/vol-23/vol-23-page-109.jpg` | 분당중앙공원 전경 사진 |
+| 111 | `assets/pages/vol-23/vol-23-page-111.jpg` | 분당구보건소 앞 탄천변 벚꽃길 사진 |
+| 113 | `assets/pages/vol-23/vol-23-page-113.jpg` | 벚꽃 9경 위치·길이·접근성 서술 |
+| 118 | `assets/pages/vol-23/vol-23-page-118.jpg` | 성남누비길 7개 코스 서술 |
+| 119 | `assets/pages/vol-23/vol-23-page-119.jpg` | 탄천 사진과 물길 코스 서술 |
+| 120 | `assets/pages/vol-23/vol-23-page-120.jpg` | 율동공원 저수지 사진 |
+| 123 | `assets/pages/vol-23/vol-23-page-123.jpg` | 지역산업관광 구성도 |
+| 125 | `assets/pages/vol-23/vol-23-page-125.jpg` | 백현 MICE 도시개발사업 조감도 |
+| 127 | `assets/pages/vol-23/vol-23-page-127.jpg` | 방문목적별 의료관광 유형 표 |
+| 130 | `assets/pages/vol-23/vol-23-page-130.jpg` | 2022 성남 글로벌 헬스케어 컨벤션 개막식 사진 |
+| 131 | `assets/pages/vol-23/vol-23-page-131.jpg` | 국제의료관광 컨벤션 및 바이오 헬스케어 국제 컨벤션 추진 현황 표 |
+| 133 | `assets/pages/vol-23/vol-23-page-133.jpg` | 성남시 의료관광 BI와 활성화 주요 사업 추진 현황 표 |
+| 134 | `assets/pages/vol-23/vol-23-page-134.jpg` | 외국인환자 유치실적 표 |
+| 135 | `assets/pages/vol-23/vol-23-page-135.jpg` | 국가별 의료서비스 질 만족도 평가 표 |
+| 139 | `assets/pages/vol-23/vol-23-page-139.jpg` | 성남 문화예술행사 참여율·만족도 그래프 |
+| 140 | `assets/pages/vol-23/vol-23-page-140.jpg` | 선호 축제 유형과 대표 축제 형태 그래프 |
+| 144 | `assets/pages/vol-23/vol-23-page-144.jpg` | 모란전통시장축제·사랑방문화클럽 희망 프로그램 그래프 |
+| 145 | `assets/pages/vol-23/vol-23-page-145.jpg` | 판교테크노축제 희망 프로그램 그래프 |
+| 149 | `assets/pages/vol-23/vol-23-page-149.jpg` | 지역관광발전지수 소분류 지표별 분석 결과 |
+| 150 | `assets/pages/vol-23/vol-23-page-150.jpg` | 관광객의 성남시 이미지 인식 그래프 |
+| 151 | `assets/pages/vol-23/vol-23-page-151.jpg` | 도입 필요 관광자원·관광 활성화 요소 서술 |
+| 157 | `assets/pages/vol-23/vol-23-page-157.jpg` | 경기옛길 전도 |
+| 159 | `assets/pages/vol-23/vol-23-page-159.jpg` | 판권: 발행일·집필자·발행처 |
 
 ## Merge Candidates: Stats
 

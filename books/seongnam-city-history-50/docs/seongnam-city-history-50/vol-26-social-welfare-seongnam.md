@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 사회복지 정책·시설·단체 현황 표와 조직도, 예산·인구 그래프가 많아 1-106쪽 전체를 `assets/pages/`에 렌더링했다.
+- 사회복지 정책·시설·단체 현황 표와 조직도, 예산·인구 그래프가 많아 1-106쪽 전체를 `assets/pages/vol-26/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-26-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제26권 사회복지와 성남`으로 일치한다.
 
@@ -141,31 +141,31 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-26-page-001.jpg](assets/pages/vol-26-page-001.jpg) | 001 | 표지와 권명 | title-page |
-| [vol-26-page-002.jpg](assets/pages/vol-26-page-002.jpg) | 002-003 | 권별 목차 | toc |
-| [vol-26-page-006.jpg](assets/pages/vol-26-page-006.jpg) | 006 | 성남시 일반 현황도 | map |
-| [vol-26-page-007.jpg](assets/pages/vol-26-page-007.jpg) | 007 | 성남시 도시공간 구조 | map |
-| [vol-26-page-008.jpg](assets/pages/vol-26-page-008.jpg) | 008 | 경기도 및 주요 5개 대도시 GRDP 표 | table |
-| [vol-26-page-009.jpg](assets/pages/vol-26-page-009.jpg) | 009 | 성남시 세입·세출예산 2014-2023년 표 | table |
-| [vol-26-page-010.jpg](assets/pages/vol-26-page-010.jpg) | 010 | 성남시 인구 변화 2008-2024.5 그래프 | chart |
-| [vol-26-page-011.jpg](assets/pages/vol-26-page-011.jpg) | 011 | 성남시 집단별 인구 변화 2019-2023년 표 | table |
-| [vol-26-page-020.jpg](assets/pages/vol-26-page-020.jpg) | 020 | 성남시 복지국 조직도 | organization-chart |
-| [vol-26-page-021.jpg](assets/pages/vol-26-page-021.jpg) | 021 | 성남시 행정구 복지전달체계 조직도 | organization-chart |
-| [vol-26-page-022.jpg](assets/pages/vol-26-page-022.jpg) | 022 | 성남시 행정복지센터 조직도 | organization-chart |
-| [vol-26-page-023.jpg](assets/pages/vol-26-page-023.jpg) | 023 | 성남시 사회복지예산액 및 비율 변화 추이 | chart |
-| [vol-26-page-024.jpg](assets/pages/vol-26-page-024.jpg) | 024 | 2023년 사회복지 예산 부문별 비중 원형 그래프 | chart |
-| [vol-26-page-046.jpg](assets/pages/vol-26-page-046.jpg) | 046 | 1080 게임 팸크닉 사진 | photo |
-| [vol-26-page-050.jpg](assets/pages/vol-26-page-050.jpg) | 050-051 | 성남시 종합사회복지관 현황 표 | facility-table |
-| [vol-26-page-052.jpg](assets/pages/vol-26-page-052.jpg) | 052-053 | 성남시 장애인 복지시설 및 센터 현황 표 | facility-table |
-| [vol-26-page-061.jpg](assets/pages/vol-26-page-061.jpg) | 061-062 | 성남시 다목적복지회관 현황 표 | facility-table |
-| [vol-26-page-065.jpg](assets/pages/vol-26-page-065.jpg) | 065 | 성남시 여성가족 관련 시설 현황 표 | facility-table |
-| [vol-26-page-069.jpg](assets/pages/vol-26-page-069.jpg) | 069 | 성남시 아동복지시설 현황 표 | facility-table |
-| [vol-26-page-072.jpg](assets/pages/vol-26-page-072.jpg) | 072 | 성남시 주요 사회복지단체 현황 표 | organization-table |
-| [vol-26-page-079.jpg](assets/pages/vol-26-page-079.jpg) | 079 | 성남시 장애인단체 현황 표 | organization-table |
-| [vol-26-page-083.jpg](assets/pages/vol-26-page-083.jpg) | 083 | 성남시 노인 관련 현황 표 | organization-table |
-| [vol-26-page-087.jpg](assets/pages/vol-26-page-087.jpg) | 087 | 성남시 여성가족 관련 단체 및 위원회 현황 표 | organization-table |
-| [vol-26-page-105.jpg](assets/pages/vol-26-page-105.jpg) | 105 | 참고문헌 | bibliography |
-| [vol-26-page-106.jpg](assets/pages/vol-26-page-106.jpg) | 106 | 판권과 집필자 | colophon |
+| [vol-26-page-001.jpg](assets/pages/vol-26/vol-26-page-001.jpg) | 001 | 표지와 권명 | title-page |
+| [vol-26-page-002.jpg](assets/pages/vol-26/vol-26-page-002.jpg) | 002-003 | 권별 목차 | toc |
+| [vol-26-page-006.jpg](assets/pages/vol-26/vol-26-page-006.jpg) | 006 | 성남시 일반 현황도 | map |
+| [vol-26-page-007.jpg](assets/pages/vol-26/vol-26-page-007.jpg) | 007 | 성남시 도시공간 구조 | map |
+| [vol-26-page-008.jpg](assets/pages/vol-26/vol-26-page-008.jpg) | 008 | 경기도 및 주요 5개 대도시 GRDP 표 | table |
+| [vol-26-page-009.jpg](assets/pages/vol-26/vol-26-page-009.jpg) | 009 | 성남시 세입·세출예산 2014-2023년 표 | table |
+| [vol-26-page-010.jpg](assets/pages/vol-26/vol-26-page-010.jpg) | 010 | 성남시 인구 변화 2008-2024.5 그래프 | chart |
+| [vol-26-page-011.jpg](assets/pages/vol-26/vol-26-page-011.jpg) | 011 | 성남시 집단별 인구 변화 2019-2023년 표 | table |
+| [vol-26-page-020.jpg](assets/pages/vol-26/vol-26-page-020.jpg) | 020 | 성남시 복지국 조직도 | organization-chart |
+| [vol-26-page-021.jpg](assets/pages/vol-26/vol-26-page-021.jpg) | 021 | 성남시 행정구 복지전달체계 조직도 | organization-chart |
+| [vol-26-page-022.jpg](assets/pages/vol-26/vol-26-page-022.jpg) | 022 | 성남시 행정복지센터 조직도 | organization-chart |
+| [vol-26-page-023.jpg](assets/pages/vol-26/vol-26-page-023.jpg) | 023 | 성남시 사회복지예산액 및 비율 변화 추이 | chart |
+| [vol-26-page-024.jpg](assets/pages/vol-26/vol-26-page-024.jpg) | 024 | 2023년 사회복지 예산 부문별 비중 원형 그래프 | chart |
+| [vol-26-page-046.jpg](assets/pages/vol-26/vol-26-page-046.jpg) | 046 | 1080 게임 팸크닉 사진 | photo |
+| [vol-26-page-050.jpg](assets/pages/vol-26/vol-26-page-050.jpg) | 050-051 | 성남시 종합사회복지관 현황 표 | facility-table |
+| [vol-26-page-052.jpg](assets/pages/vol-26/vol-26-page-052.jpg) | 052-053 | 성남시 장애인 복지시설 및 센터 현황 표 | facility-table |
+| [vol-26-page-061.jpg](assets/pages/vol-26/vol-26-page-061.jpg) | 061-062 | 성남시 다목적복지회관 현황 표 | facility-table |
+| [vol-26-page-065.jpg](assets/pages/vol-26/vol-26-page-065.jpg) | 065 | 성남시 여성가족 관련 시설 현황 표 | facility-table |
+| [vol-26-page-069.jpg](assets/pages/vol-26/vol-26-page-069.jpg) | 069 | 성남시 아동복지시설 현황 표 | facility-table |
+| [vol-26-page-072.jpg](assets/pages/vol-26/vol-26-page-072.jpg) | 072 | 성남시 주요 사회복지단체 현황 표 | organization-table |
+| [vol-26-page-079.jpg](assets/pages/vol-26/vol-26-page-079.jpg) | 079 | 성남시 장애인단체 현황 표 | organization-table |
+| [vol-26-page-083.jpg](assets/pages/vol-26/vol-26-page-083.jpg) | 083 | 성남시 노인 관련 현황 표 | organization-table |
+| [vol-26-page-087.jpg](assets/pages/vol-26/vol-26-page-087.jpg) | 087 | 성남시 여성가족 관련 단체 및 위원회 현황 표 | organization-table |
+| [vol-26-page-105.jpg](assets/pages/vol-26/vol-26-page-105.jpg) | 105 | 참고문헌 | bibliography |
+| [vol-26-page-106.jpg](assets/pages/vol-26/vol-26-page-106.jpg) | 106 | 판권과 집필자 | colophon |
 
 ## LLM 가공 후보
 
@@ -181,7 +181,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.001 -->
 ### p.001
 
-[페이지 이미지: vol-26-page-001.jpg](assets/pages/vol-26-page-001.jpg)
+[페이지 이미지: vol-26-page-001.jpg](assets/pages/vol-26/vol-26-page-001.jpg)
 
 ```text
                발 간 등 록 번 호
@@ -211,7 +211,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.002 -->
 ### p.002
 
-[페이지 이미지: vol-26-page-002.jpg](assets/pages/vol-26-page-002.jpg)
+[페이지 이미지: vol-26-page-002.jpg](assets/pages/vol-26/vol-26-page-002.jpg)
 
 ```text
  CONTENTS     1
@@ -237,7 +237,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.003 -->
 ### p.003
 
-[페이지 이미지: vol-26-page-003.jpg](assets/pages/vol-26-page-003.jpg)
+[페이지 이미지: vol-26-page-003.jpg](assets/pages/vol-26/vol-26-page-003.jpg)
 
 ```text
   2
@@ -284,7 +284,7 @@ ocr_used: false
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.004 -->
 ### p.004
 
-[페이지 이미지: vol-26-page-004.jpg](assets/pages/vol-26-page-004.jpg)
+[페이지 이미지: vol-26-page-004.jpg](assets/pages/vol-26/vol-26-page-004.jpg)
 
 ```text
 1
@@ -297,7 +297,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.005 -->
 ### p.005
 
-[페이지 이미지: vol-26-page-005.jpg](assets/pages/vol-26-page-005.jpg)
+[페이지 이미지: vol-26-page-005.jpg](assets/pages/vol-26/vol-26-page-005.jpg)
 
 ```text
 1. 지역 특성
@@ -340,7 +340,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.006 -->
 ### p.006
 
-[페이지 이미지: vol-26-page-006.jpg](assets/pages/vol-26-page-006.jpg)
+[페이지 이미지: vol-26-page-006.jpg](assets/pages/vol-26/vol-26-page-006.jpg)
 
 ```text
                     성남시는 현재 '원도심(수정구·중원구)'과 '신도시(분당·판교·위례)'가 혼재된 이중 구조
@@ -374,7 +374,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.007 -->
 ### p.007
 
-[페이지 이미지: vol-26-page-007.jpg](assets/pages/vol-26-page-007.jpg)
+[페이지 이미지: vol-26-page-007.jpg](assets/pages/vol-26/vol-26-page-007.jpg)
 
 ```text
   2) 지리적 위치와 면적
@@ -413,7 +413,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.008 -->
 ### p.008
 
-[페이지 이미지: vol-26-page-008.jpg](assets/pages/vol-26-page-008.jpg)
+[페이지 이미지: vol-26-page-008.jpg](assets/pages/vol-26/vol-26-page-008.jpg)
 
 ```text
                 지원하는 구조를 지니고 있다. 이러한 면적 구성은 사회복지 인프라의 입지 선정, 주민 접
@@ -469,7 +469,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.009 -->
 ### p.009
 
-[페이지 이미지: vol-26-page-009.jpg](assets/pages/vol-26-page-009.jpg)
+[페이지 이미지: vol-26-page-009.jpg](assets/pages/vol-26/vol-26-page-009.jpg)
 
 ```text
 성남시 세입예산(2014~2023년)                                                                                단위 : 천 원
@@ -526,7 +526,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.010 -->
 ### p.010
 
-[페이지 이미지: vol-26-page-010.jpg](assets/pages/vol-26-page-010.jpg)
+[페이지 이미지: vol-26-page-010.jpg](assets/pages/vol-26/vol-26-page-010.jpg)
 
 ```text
                    4) 인구와 변화 추이
@@ -593,7 +593,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.011 -->
 ### p.011
 
-[페이지 이미지: vol-26-page-011.jpg](assets/pages/vol-26-page-011.jpg)
+[페이지 이미지: vol-26-page-011.jpg](assets/pages/vol-26/vol-26-page-011.jpg)
 
 ```text
 성남시 집단별 인구 변화(2019~2023년)                                                   단위 : 명
@@ -638,7 +638,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.012 -->
 ### p.012
 
-[페이지 이미지: vol-26-page-012.jpg](assets/pages/vol-26-page-012.jpg)
+[페이지 이미지: vol-26-page-012.jpg](assets/pages/vol-26/vol-26-page-012.jpg)
 
 ```text
                 2. 지역 사회복지 변천사
@@ -681,7 +681,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.013 -->
 ### p.013
 
-[페이지 이미지: vol-26-page-013.jpg](assets/pages/vol-26-page-013.jpg)
+[페이지 이미지: vol-26-page-013.jpg](assets/pages/vol-26/vol-26-page-013.jpg)
 
 ```text
 며, 지역사회 주민들의 참여와 연대를 바탕으로 한 사회복지 실천의 초기 모습을 만들어
@@ -729,7 +729,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.014 -->
 ### p.014
 
-[페이지 이미지: vol-26-page-014.jpg](assets/pages/vol-26-page-014.jpg)
+[페이지 이미지: vol-26-page-014.jpg](assets/pages/vol-26/vol-26-page-014.jpg)
 
 ```text
                 복지체계는 점차적으로 공공과 민간이 협력하는 방향으로 진화하였으며, 지역사회의 주
@@ -776,7 +776,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.015 -->
 ### p.015
 
-[페이지 이미지: vol-26-page-015.jpg](assets/pages/vol-26-page-015.jpg)
+[페이지 이미지: vol-26-page-015.jpg](assets/pages/vol-26/vol-26-page-015.jpg)
 
 ```text
 사업을 추진하게 되었다. 이는 단순한 주거 공급을 넘어서 첨단산업과 고용 중심의 신경
@@ -822,7 +822,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.016 -->
 ### p.016
 
-[페이지 이미지: vol-26-page-016.jpg](assets/pages/vol-26-page-016.jpg)
+[페이지 이미지: vol-26-page-016.jpg](assets/pages/vol-26/vol-26-page-016.jpg)
 
 ```text
                  5) 2010년대 : 위례신도시 개발과 통합복지 모델 도입
@@ -868,7 +868,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.017 -->
 ### p.017
 
-[페이지 이미지: vol-26-page-017.jpg](assets/pages/vol-26-page-017.jpg)
+[페이지 이미지: vol-26-page-017.jpg](assets/pages/vol-26/vol-26-page-017.jpg)
 
 ```text
  6) 2020년대 : 고령화 대응과 디지털 복지 확대
@@ -910,7 +910,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.018 -->
 ### p.018
 
-[페이지 이미지: vol-26-page-018.jpg](assets/pages/vol-26-page-018.jpg)
+[페이지 이미지: vol-26-page-018.jpg](assets/pages/vol-26/vol-26-page-018.jpg)
 
 ```text
 2
@@ -924,7 +924,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.019 -->
 ### p.019
 
-[페이지 이미지: vol-26-page-019.jpg](assets/pages/vol-26-page-019.jpg)
+[페이지 이미지: vol-26-page-019.jpg](assets/pages/vol-26/vol-26-page-019.jpg)
 
 ```text
 1. 사회복지정책
@@ -967,7 +967,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.020 -->
 ### p.020
 
-[페이지 이미지: vol-26-page-020.jpg](assets/pages/vol-26-page-020.jpg)
+[페이지 이미지: vol-26-page-020.jpg](assets/pages/vol-26/vol-26-page-020.jpg)
 
 ```text
                                                 성남시 복지국 조직도
@@ -1021,7 +1021,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.021 -->
 ### p.021
 
-[페이지 이미지: vol-26-page-021.jpg](assets/pages/vol-26-page-021.jpg)
+[페이지 이미지: vol-26-page-021.jpg](assets/pages/vol-26/vol-26-page-021.jpg)
 
 ```text
                                성남시 행정구 복지전달체계 조직도
@@ -1072,7 +1072,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.022 -->
 ### p.022
 
-[페이지 이미지: vol-26-page-022.jpg](assets/pages/vol-26-page-022.jpg)
+[페이지 이미지: vol-26-page-022.jpg](assets/pages/vol-26/vol-26-page-022.jpg)
 
 ```text
                                                성남시 행정복지센터 조직도
@@ -1127,7 +1127,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.023 -->
 ### p.023
 
-[페이지 이미지: vol-26-page-023.jpg](assets/pages/vol-26-page-023.jpg)
+[페이지 이미지: vol-26-page-023.jpg](assets/pages/vol-26/vol-26-page-023.jpg)
 
 ```text
 성남시 사회복지예산액 및 비율 변화 추이
@@ -1195,7 +1195,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.024 -->
 ### p.024
 
-[페이지 이미지: vol-26-page-024.jpg](assets/pages/vol-26-page-024.jpg)
+[페이지 이미지: vol-26-page-024.jpg](assets/pages/vol-26/vol-26-page-024.jpg)
 
 ```text
                                                                        취약계층지원
@@ -1263,7 +1263,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.025 -->
 ### p.025
 
-[페이지 이미지: vol-26-page-025.jpg](assets/pages/vol-26-page-025.jpg)
+[페이지 이미지: vol-26-page-025.jpg](assets/pages/vol-26/vol-26-page-025.jpg)
 
 ```text
 등 다양한 요소를 통합하는 형태로 발전해왔으며, 성남시는 이러한 흐름 속에서 단순 보
@@ -1311,7 +1311,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.026 -->
 ### p.026
 
-[페이지 이미지: vol-26-page-026.jpg](assets/pages/vol-26-page-026.jpg)
+[페이지 이미지: vol-26-page-026.jpg](assets/pages/vol-26/vol-26-page-026.jpg)
 
 ```text
                 등으로 인해 생계가 위협받는 위기 가정이었다.
@@ -1359,7 +1359,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.027 -->
 ### p.027
 
-[페이지 이미지: vol-26-page-027.jpg](assets/pages/vol-26-page-027.jpg)
+[페이지 이미지: vol-26-page-027.jpg](assets/pages/vol-26/vol-26-page-027.jpg)
 
 ```text
  연간 2,500건 이상의 심리상담이 이루어지고 있으며, 상담 대상자는 우울증, 불안장애,
@@ -1406,7 +1406,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.028 -->
 ### p.028
 
-[페이지 이미지: vol-26-page-028.jpg](assets/pages/vol-26-page-028.jpg)
+[페이지 이미지: vol-26-page-028.jpg](assets/pages/vol-26/vol-26-page-028.jpg)
 
 ```text
                  (2) 보훈 복지
@@ -1454,7 +1454,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.029 -->
 ### p.029
 
-[페이지 이미지: vol-26-page-029.jpg](assets/pages/vol-26-page-029.jpg)
+[페이지 이미지: vol-26-page-029.jpg](assets/pages/vol-26/vol-26-page-029.jpg)
 
 ```text
  ② 의료비 지원 및 건강관리 서비스 : 노후 보훈대상자 중심의 복지 강화
@@ -1501,7 +1501,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.030 -->
 ### p.030
 
-[페이지 이미지: vol-26-page-030.jpg](assets/pages/vol-26-page-030.jpg)
+[페이지 이미지: vol-26-page-030.jpg](assets/pages/vol-26/vol-26-page-030.jpg)
 
 ```text
                  ④ 사회적 예우 확대 : 기념일 행사와 지역 공동체 참여
@@ -1548,7 +1548,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.031 -->
 ### p.031
 
-[페이지 이미지: vol-26-page-031.jpg](assets/pages/vol-26-page-031.jpg)
+[페이지 이미지: vol-26-page-031.jpg](assets/pages/vol-26/vol-26-page-031.jpg)
 
 ```text
 대한 보답에 그치지 않고, 고령 보훈대상자의 삶을 현재의 관점에서 보살피고자 하는 성
@@ -1597,7 +1597,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.032 -->
 ### p.032
 
-[페이지 이미지: vol-26-page-032.jpg](assets/pages/vol-26-page-032.jpg)
+[페이지 이미지: vol-26-page-032.jpg](assets/pages/vol-26/vol-26-page-032.jpg)
 
 ```text
                  ② 장애인활동지원서비스 : 생활 자립의 실질적 토대
@@ -1644,7 +1644,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.033 -->
 ### p.033
 
-[페이지 이미지: vol-26-page-033.jpg](assets/pages/vol-26-page-033.jpg)
+[페이지 이미지: vol-26-page-033.jpg](assets/pages/vol-26/vol-26-page-033.jpg)
 
 ```text
 사례로 평가받고 있다.
@@ -1693,7 +1693,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.034 -->
 ### p.034
 
-[페이지 이미지: vol-26-page-034.jpg](assets/pages/vol-26-page-034.jpg)
+[페이지 이미지: vol-26-page-034.jpg](assets/pages/vol-26/vol-26-page-034.jpg)
 
 ```text
                 30대에서 2023년 35대로 증차되었다.
@@ -1742,7 +1742,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.035 -->
 ### p.035
 
-[페이지 이미지: vol-26-page-035.jpg](assets/pages/vol-26-page-035.jpg)
+[페이지 이미지: vol-26-page-035.jpg](assets/pages/vol-26/vol-26-page-035.jpg)
 
 ```text
 전국 평균을 상회한다. 연금 지급액은 소득 수준에 따라 차등 적용되며, 평균 약 월 30만
@@ -1789,7 +1789,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.036 -->
 ### p.036
 
-[페이지 이미지: vol-26-page-036.jpg](assets/pages/vol-26-page-036.jpg)
+[페이지 이미지: vol-26-page-036.jpg](assets/pages/vol-26/vol-26-page-036.jpg)
 
 ```text
                  ③ 경로당 운영 및 활성화 : 노인의 일상 공간 기반 복지
@@ -1836,7 +1836,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.037 -->
 ### p.037
 
-[페이지 이미지: vol-26-page-037.jpg](assets/pages/vol-26-page-037.jpg)
+[페이지 이미지: vol-26-page-037.jpg](assets/pages/vol-26/vol-26-page-037.jpg)
 
 ```text
  과거에는 복지관 접근성이 낮은 분당구 지역주민들의 불만이 컸으나, 성남시는 2022년
@@ -1880,7 +1880,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.038 -->
 ### p.038
 
-[페이지 이미지: vol-26-page-038.jpg](assets/pages/vol-26-page-038.jpg)
+[페이지 이미지: vol-26-page-038.jpg](assets/pages/vol-26/vol-26-page-038.jpg)
 
 ```text
                  (5) 여성복지
@@ -1929,7 +1929,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.039 -->
 ### p.039
 
-[페이지 이미지: vol-26-page-039.jpg](assets/pages/vol-26-page-039.jpg)
+[페이지 이미지: vol-26-page-039.jpg](assets/pages/vol-26/vol-26-page-039.jpg)
 
 ```text
  ② 경력단절여성 재취업 지원 : 경제활동 참여 촉진의 중핵 사업
@@ -1976,7 +1976,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.040 -->
 ### p.040
 
-[페이지 이미지: vol-26-page-040.jpg](assets/pages/vol-26-page-040.jpg)
+[페이지 이미지: vol-26-page-040.jpg](assets/pages/vol-26/vol-26-page-040.jpg)
 
 ```text
                  성남시는 또한 다문화 여성을 위한 진로 탐색 및 직업훈련 과정을 지속적으로 개설하고
@@ -2023,7 +2023,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.041 -->
 ### p.041
 
-[페이지 이미지: vol-26-page-041.jpg](assets/pages/vol-26-page-041.jpg)
+[페이지 이미지: vol-26-page-041.jpg](assets/pages/vol-26/vol-26-page-041.jpg)
 
 ```text
  (6) 가족복지
@@ -2072,7 +2072,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.042 -->
 ### p.042
 
-[페이지 이미지: vol-26-page-042.jpg](assets/pages/vol-26-page-042.jpg)
+[페이지 이미지: vol-26-page-042.jpg](assets/pages/vol-26/vol-26-page-042.jpg)
 
 ```text
                 하여 돌봄과 교육, 정서 교류를 함께 수행할 수 있도록 행정과 센터가 지원하는 형태다.
@@ -2120,7 +2120,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.043 -->
 ### p.043
 
-[페이지 이미지: vol-26-page-043.jpg](assets/pages/vol-26-page-043.jpg)
+[페이지 이미지: vol-26-page-043.jpg](assets/pages/vol-26/vol-26-page-043.jpg)
 
 ```text
 확대해왔다. 2023년 기준, 약 3,200가구가 이 서비스를 이용하였으며, 지원 형태는 △시간
@@ -2168,7 +2168,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.044 -->
 ### p.044
 
-[페이지 이미지: vol-26-page-044.jpg](assets/pages/vol-26-page-044.jpg)
+[페이지 이미지: vol-26-page-044.jpg](assets/pages/vol-26/vol-26-page-044.jpg)
 
 ```text
                  ① 아동수당 지급 : 보편적 아동 권리 보장의 대표 정책
@@ -2216,7 +2216,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.045 -->
 ### p.045
 
-[페이지 이미지: vol-26-page-045.jpg](assets/pages/vol-26-page-045.jpg)
+[페이지 이미지: vol-26-page-045.jpg](assets/pages/vol-26/vol-26-page-045.jpg)
 
 ```text
 집 운영과 보육료·양육수당 지원 등에서 보편성과 형평성을 균형 있게 고려한 정책 운영
@@ -2263,7 +2263,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.046 -->
 ### p.046
 
-[페이지 이미지: vol-26-page-046.jpg](assets/pages/vol-26-page-046.jpg)
+[페이지 이미지: vol-26-page-046.jpg](assets/pages/vol-26/vol-26-page-046.jpg)
 
 ```text
                   ⑤ 아동체험센터 및 청소년수련관 : 문화·창의 활동 기반 조성
@@ -2313,7 +2313,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.047 -->
 ### p.047
 
-[페이지 이미지: vol-26-page-047.jpg](assets/pages/vol-26-page-047.jpg)
+[페이지 이미지: vol-26-page-047.jpg](assets/pages/vol-26/vol-26-page-047.jpg)
 
 ```text
 2. 사회복지시설
@@ -2356,7 +2356,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.048 -->
 ### p.048
 
-[페이지 이미지: vol-26-page-048.jpg](assets/pages/vol-26-page-048.jpg)
+[페이지 이미지: vol-26-page-048.jpg](assets/pages/vol-26/vol-26-page-048.jpg)
 
 ```text
                 역사회 통합을 목표로 운영되고 있으며 맞벌이 가정, 한부모 가정, 다문화 가족 등 다양한
@@ -2402,7 +2402,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.049 -->
 ### p.049
 
-[페이지 이미지: vol-26-page-049.jpg](assets/pages/vol-26-page-049.jpg)
+[페이지 이미지: vol-26-page-049.jpg](assets/pages/vol-26/vol-26-page-049.jpg)
 
 ```text
 하여 후원 자원을 적극적으로 발굴하는 데도 큰 성과를 보이고 있다. 이와 함께 지역사회
@@ -2448,7 +2448,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.050 -->
 ### p.050
 
-[페이지 이미지: vol-26-page-050.jpg](assets/pages/vol-26-page-050.jpg)
+[페이지 이미지: vol-26-page-050.jpg](assets/pages/vol-26/vol-26-page-050.jpg)
 
 ```text
                 특성을 반영하여 아동을 위한 창의적 교육 프로그램과 노인을 위한 건강관리 서비스를 동
@@ -2510,7 +2510,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.051 -->
 ### p.051
 
-[페이지 이미지: vol-26-page-051.jpg](assets/pages/vol-26-page-051.jpg)
+[페이지 이미지: vol-26-page-051.jpg](assets/pages/vol-26/vol-26-page-051.jpg)
 
 ```text
         기관명      건축년도   소재지     면적                     주요 사업
@@ -2575,7 +2575,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.052 -->
 ### p.052
 
-[페이지 이미지: vol-26-page-052.jpg](assets/pages/vol-26-page-052.jpg)
+[페이지 이미지: vol-26-page-052.jpg](assets/pages/vol-26/vol-26-page-052.jpg)
 
 ```text
                 기관 9개소, 기타시설 4개소가 주요 시설로 꼽힌다. 각 시설은 장애인의 다양한 복지 요구
@@ -2650,7 +2650,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.053 -->
 ### p.053
 
-[페이지 이미지: vol-26-page-053.jpg](assets/pages/vol-26-page-053.jpg)
+[페이지 이미지: vol-26-page-053.jpg](assets/pages/vol-26/vol-26-page-053.jpg)
 
 ```text
      시설유형            시설명        소재지   시설 수   종사자 수   이용자 수
@@ -2703,7 +2703,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.054 -->
 ### p.054
 
-[페이지 이미지: vol-26-page-054.jpg](assets/pages/vol-26-page-054.jpg)
+[페이지 이미지: vol-26-page-054.jpg](assets/pages/vol-26/vol-26-page-054.jpg)
 
 ```text
                  (2) 자립생활센터
@@ -2751,7 +2751,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.055 -->
 ### p.055
 
-[페이지 이미지: vol-26-page-055.jpg](assets/pages/vol-26-page-055.jpg)
+[페이지 이미지: vol-26-page-055.jpg](assets/pages/vol-26/vol-26-page-055.jpg)
 
 ```text
 의 서비스가 제공된다. 이동권 보장뿐 아니라 외출 보조, 병원 동행, 관공서 방문 지원 등
@@ -2799,7 +2799,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.056 -->
 ### p.056
 
-[페이지 이미지: vol-26-page-056.jpg](assets/pages/vol-26-page-056.jpg)
+[페이지 이미지: vol-26-page-056.jpg](assets/pages/vol-26/vol-26-page-056.jpg)
 
 ```text
                 원을 강화하고 있으며, 전국 단위의 보조기기 전시회와 체험 박람회를 유치하여 지역 내
@@ -2847,7 +2847,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.057 -->
 ### p.057
 
-[페이지 이미지: vol-26-page-057.jpg](assets/pages/vol-26-page-057.jpg)
+[페이지 이미지: vol-26-page-057.jpg](assets/pages/vol-26/vol-26-page-057.jpg)
 
 ```text
 적이며, 정기 건강검진과 고혈압·당뇨 예방 교육도 함께 제공된다. 이 복지관은 또한 노인
@@ -2893,7 +2893,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.058 -->
 ### p.058
 
-[페이지 이미지: vol-26-page-058.jpg](assets/pages/vol-26-page-058.jpg)
+[페이지 이미지: vol-26-page-058.jpg](assets/pages/vol-26/vol-26-page-058.jpg)
 
 ```text
                 미 등이 인기를 끌고 있으며 건강 관련 프로그램으로는 실버 필라테스, 스트레칭 교실, 치
@@ -2940,7 +2940,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.059 -->
 ### p.059
 
-[페이지 이미지: vol-26-page-059.jpg](assets/pages/vol-26-page-059.jpg)
+[페이지 이미지: vol-26-page-059.jpg](assets/pages/vol-26/vol-26-page-059.jpg)
 
 ```text
 되고 있다. 해당 조례는 1992년 5월 12일에 제정되어 성남시 고유의 복지정책 체계를 구
@@ -2986,7 +2986,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.060 -->
 ### p.060
 
-[페이지 이미지: vol-26-page-060.jpg](assets/pages/vol-26-page-060.jpg)
+[페이지 이미지: vol-26-page-060.jpg](assets/pages/vol-26/vol-26-page-060.jpg)
 
 ```text
                  태평3동 다목적복지회관은 2000년에 설립되어 경로당 기능과 지역복지 거점 기능을
@@ -3032,7 +3032,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.061 -->
 ### p.061
 
-[페이지 이미지: vol-26-page-061.jpg](assets/pages/vol-26-page-061.jpg)
+[페이지 이미지: vol-26-page-061.jpg](assets/pages/vol-26/vol-26-page-061.jpg)
 
 ```text
  분당구의 하얀마을 다목적복지회관은 분당구 내 유일한 다목적복지회관으로 2002년에
@@ -3098,7 +3098,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.062 -->
 ### p.062
 
-[페이지 이미지: vol-26-page-062.jpg](assets/pages/vol-26-page-062.jpg)
+[페이지 이미지: vol-26-page-062.jpg](assets/pages/vol-26/vol-26-page-062.jpg)
 
 ```text
                   기관명     소재지      위탁법인       면적                 개별 시설 현황
@@ -3166,7 +3166,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.063 -->
 ### p.063
 
-[페이지 이미지: vol-26-page-063.jpg](assets/pages/vol-26-page-063.jpg)
+[페이지 이미지: vol-26-page-063.jpg](assets/pages/vol-26/vol-26-page-063.jpg)
 
 ```text
  센터는 '어르신과 가장 가까운 곳에서, 가장 필요한 순간에 함께하는 복지'를 운영 철학
@@ -3212,7 +3212,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.064 -->
 ### p.064
 
-[페이지 이미지: vol-26-page-064.jpg](assets/pages/vol-26-page-064.jpg)
+[페이지 이미지: vol-26-page-064.jpg](assets/pages/vol-26/vol-26-page-064.jpg)
 
 ```text
                 나눔’, ‘정월대보름 행사’, ‘생신잔치’ 등 계절 행사도 함께 운영되어 사회적 단절을 최소화
@@ -3260,7 +3260,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.065 -->
 ### p.065
 
-[페이지 이미지: vol-26-page-065.jpg](assets/pages/vol-26-page-065.jpg)
+[페이지 이미지: vol-26-page-065.jpg](assets/pages/vol-26/vol-26-page-065.jpg)
 
 ```text
 성남시 여성가족 관련 시설 현황                                                 단위 : 개소, 명
@@ -3332,7 +3332,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.066 -->
 ### p.066
 
-[페이지 이미지: vol-26-page-066.jpg](assets/pages/vol-26-page-066.jpg)
+[페이지 이미지: vol-26-page-066.jpg](assets/pages/vol-26/vol-26-page-066.jpg)
 
 ```text
                 적으로 진행하고 있다.
@@ -3378,7 +3378,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.067 -->
 ### p.067
 
-[페이지 이미지: vol-26-page-067.jpg](assets/pages/vol-26-page-067.jpg)
+[페이지 이미지: vol-26-page-067.jpg](assets/pages/vol-26/vol-26-page-067.jpg)
 
 ```text
 털성범죄 전문기관으로서 피해자 대상 상담, 삭제 요청 대행, 법률구조, 심리치료, 피해회
@@ -3424,7 +3424,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.068 -->
 ### p.068
 
-[페이지 이미지: vol-26-page-068.jpg](assets/pages/vol-26-page-068.jpg)
+[페이지 이미지: vol-26-page-068.jpg](assets/pages/vol-26/vol-26-page-068.jpg)
 
 ```text
                 등)을 반영한 상담, 피해자 동행지원, 의료기관 연계 등 세심한 지원이 이뤄지고 있으며,
@@ -3472,7 +3472,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.069 -->
 ### p.069
 
-[페이지 이미지: vol-26-page-069.jpg](assets/pages/vol-26-page-069.jpg)
+[페이지 이미지: vol-26-page-069.jpg](assets/pages/vol-26/vol-26-page-069.jpg)
 
 ```text
 램을 통해 아동들의 자아 존중감을 회복시켜준다. 이 그룹홈은 미술치료, 독서치료, 자립
@@ -3533,7 +3533,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.070 -->
 ### p.070
 
-[페이지 이미지: vol-26-page-070.jpg](assets/pages/vol-26-page-070.jpg)
+[페이지 이미지: vol-26-page-070.jpg](assets/pages/vol-26/vol-26-page-070.jpg)
 
 ```text
                  이용시설로 가장 대표적인 것은 지역아동센터이며 총 49개소가 운영 중이다. 수정구
@@ -3579,7 +3579,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.071 -->
 ### p.071
 
-[페이지 이미지: vol-26-page-071.jpg](assets/pages/vol-26-page-071.jpg)
+[페이지 이미지: vol-26-page-071.jpg](assets/pages/vol-26/vol-26-page-071.jpg)
 
 ```text
 아동권리 교육도 활발히 시행하고 있다.
@@ -3603,7 +3603,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.072 -->
 ### p.072
 
-[페이지 이미지: vol-26-page-072.jpg](assets/pages/vol-26-page-072.jpg)
+[페이지 이미지: vol-26-page-072.jpg](assets/pages/vol-26/vol-26-page-072.jpg)
 
 ```text
                 3. 사회복지 단체
@@ -3657,7 +3657,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.073 -->
 ### p.073
 
-[페이지 이미지: vol-26-page-073.jpg](assets/pages/vol-26-page-073.jpg)
+[페이지 이미지: vol-26-page-073.jpg](assets/pages/vol-26/vol-26-page-073.jpg)
 
 ```text
  1) 성남시지역사회보장협의체
@@ -3703,7 +3703,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.074 -->
 ### p.074
 
-[페이지 이미지: vol-26-page-074.jpg](assets/pages/vol-26-page-074.jpg)
+[페이지 이미지: vol-26-page-074.jpg](assets/pages/vol-26/vol-26-page-074.jpg)
 
 ```text
                 안 사업 기획, 자원 연계 방안 마련 등을 논의하며, 긴급한 복지 욕구에 선제적으로 대응하
@@ -3757,7 +3757,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.075 -->
 ### p.075
 
-[페이지 이미지: vol-26-page-075.jpg](assets/pages/vol-26-page-075.jpg)
+[페이지 이미지: vol-26-page-075.jpg](assets/pages/vol-26/vol-26-page-075.jpg)
 
 ```text
  2) 성남시사회복지협의회
@@ -3803,7 +3803,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.076 -->
 ### p.076
 
-[페이지 이미지: vol-26-page-076.jpg](assets/pages/vol-26-page-076.jpg)
+[페이지 이미지: vol-26-page-076.jpg](assets/pages/vol-26/vol-26-page-076.jpg)
 
 ```text
                 발하고 있으며, 특히 코로나19 팬데믹 이후에는 비대면 봉사활동 모델을 도입해 시민참여
@@ -3850,7 +3850,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.077 -->
 ### p.077
 
-[페이지 이미지: vol-26-page-077.jpg](assets/pages/vol-26-page-077.jpg)
+[페이지 이미지: vol-26-page-077.jpg](assets/pages/vol-26/vol-26-page-077.jpg)
 
 ```text
  3) 성남시사회복지사협회
@@ -3896,7 +3896,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.078 -->
 ### p.078
 
-[페이지 이미지: vol-26-page-078.jpg](assets/pages/vol-26-page-078.jpg)
+[페이지 이미지: vol-26-page-078.jpg](assets/pages/vol-26/vol-26-page-078.jpg)
 
 ```text
                 응 상담 기술, 지역사회 자원 연계 실무, 사례관리 심화과정 등은 사회복지사가 현장에서
@@ -3942,7 +3942,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.079 -->
 ### p.079
 
-[페이지 이미지: vol-26-page-079.jpg](assets/pages/vol-26-page-079.jpg)
+[페이지 이미지: vol-26-page-079.jpg](assets/pages/vol-26/vol-26-page-079.jpg)
 
 ```text
                               성남시사회복지사협회 조직도
@@ -4005,7 +4005,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.080 -->
 ### p.080
 
-[페이지 이미지: vol-26-page-080.jpg](assets/pages/vol-26-page-080.jpg)
+[페이지 이미지: vol-26-page-080.jpg](assets/pages/vol-26/vol-26-page-080.jpg)
 
 ```text
                  ① 성남시장애인단체연합회
@@ -4053,7 +4053,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.081 -->
 ### p.081
 
-[페이지 이미지: vol-26-page-081.jpg](assets/pages/vol-26-page-081.jpg)
+[페이지 이미지: vol-26-page-081.jpg](assets/pages/vol-26/vol-26-page-081.jpg)
 
 ```text
  청각장애인의 고립감 해소와 사회참여 기회를 넓히기 위한 농아인 문화축제, 수어 연극
@@ -4102,7 +4102,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.082 -->
 ### p.082
 
-[페이지 이미지: vol-26-page-082.jpg](assets/pages/vol-26-page-082.jpg)
+[페이지 이미지: vol-26-page-082.jpg](assets/pages/vol-26/vol-26-page-082.jpg)
 
 ```text
                 진하였고, 그 결과 장애인 정보화교육 수료율이 70%를 넘는 성과를 거두었다.
@@ -4150,7 +4150,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.083 -->
 ### p.083
 
-[페이지 이미지: vol-26-page-083.jpg](assets/pages/vol-26-page-083.jpg)
+[페이지 이미지: vol-26-page-083.jpg](assets/pages/vol-26/vol-26-page-083.jpg)
 
 ```text
 있으며, 궁극적으로 장애인과 비장애인이 함께 살아가는 지역사회 실현에 중요한 기반을
@@ -4218,7 +4218,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.084 -->
 ### p.084
 
-[페이지 이미지: vol-26-page-084.jpg](assets/pages/vol-26-page-084.jpg)
+[페이지 이미지: vol-26-page-084.jpg](assets/pages/vol-26/vol-26-page-084.jpg)
 
 ```text
                  ① 성남시 다목적복지회관연합회
@@ -4266,7 +4266,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.085 -->
 ### p.085
 
-[페이지 이미지: vol-26-page-085.jpg](assets/pages/vol-26-page-085.jpg)
+[페이지 이미지: vol-26-page-085.jpg](assets/pages/vol-26/vol-26-page-085.jpg)
 
 ```text
 개발하여 보급하는 등 서비스 표준화 작업을 추진하고 있다. 매년 열리는 ‘노인복지시설
@@ -4315,7 +4315,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.086 -->
 ### p.086
 
-[페이지 이미지: vol-26-page-086.jpg](assets/pages/vol-26-page-086.jpg)
+[페이지 이미지: vol-26-page-086.jpg](assets/pages/vol-26/vol-26-page-086.jpg)
 
 ```text
                 병인과 요양보호사 대상의 정기 교육과 권익 옹호 활동을 주도하며, 직무에서 발생하는
@@ -4361,7 +4361,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.087 -->
 ### p.087
 
-[페이지 이미지: vol-26-page-087.jpg](assets/pages/vol-26-page-087.jpg)
+[페이지 이미지: vol-26-page-087.jpg](assets/pages/vol-26/vol-26-page-087.jpg)
 
 ```text
 다. 성남시에는 여성단체로 성남시여성단체협의회가 운영되고 있으며, 이와 더불어 8개
@@ -4422,7 +4422,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.088 -->
 ### p.088
 
-[페이지 이미지: vol-26-page-088.jpg](assets/pages/vol-26-page-088.jpg)
+[페이지 이미지: vol-26-page-088.jpg](assets/pages/vol-26/vol-26-page-088.jpg)
 
 ```text
                 로자의 권익 보호에 중심을 두고 성희롱, 성차별, 불공정 처우 등의 사례를 실질적으로 해
@@ -4468,7 +4468,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.089 -->
 ### p.089
 
-[페이지 이미지: vol-26-page-089.jpg](assets/pages/vol-26-page-089.jpg)
+[페이지 이미지: vol-26-page-089.jpg](assets/pages/vol-26/vol-26-page-089.jpg)
 
 ```text
 지하고 발전시키기 위한 정책 자문기구로 여성의 안전한 이동, 돌봄 친화 환경 조성, 여성
@@ -4514,7 +4514,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.090 -->
 ### p.090
 
-[페이지 이미지: vol-26-page-090.jpg](assets/pages/vol-26-page-090.jpg)
+[페이지 이미지: vol-26-page-090.jpg](assets/pages/vol-26/vol-26-page-090.jpg)
 
 ```text
 3
@@ -4528,7 +4528,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.091 -->
 ### p.091
 
-[페이지 이미지: vol-26-page-091.jpg](assets/pages/vol-26-page-091.jpg)
+[페이지 이미지: vol-26-page-091.jpg](assets/pages/vol-26/vol-26-page-091.jpg)
 
 ```text
 1. 사회복지의 당면 과제
@@ -4571,7 +4571,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.092 -->
 ### p.092
 
-[페이지 이미지: vol-26-page-092.jpg](assets/pages/vol-26-page-092.jpg)
+[페이지 이미지: vol-26-page-092.jpg](assets/pages/vol-26/vol-26-page-092.jpg)
 
 ```text
                 입이 목전에 있는 지역으로 평가되고 있다. 특히 수정구와 중원구는 전통적으로 노인 인
@@ -4618,7 +4618,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.093 -->
 ### p.093
 
-[페이지 이미지: vol-26-page-093.jpg](assets/pages/vol-26-page-093.jpg)
+[페이지 이미지: vol-26-page-093.jpg](assets/pages/vol-26/vol-26-page-093.jpg)
 
 ```text
 존재하고 있다. 특히 복합적인 위기를 겪고 있는 계층, 예컨대 중증장애를 가진 고령자, 언
@@ -4668,7 +4668,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.094 -->
 ### p.094
 
-[페이지 이미지: vol-26-page-094.jpg](assets/pages/vol-26-page-094.jpg)
+[페이지 이미지: vol-26-page-094.jpg](assets/pages/vol-26/vol-26-page-094.jpg)
 
 ```text
                 램은 실효성 높은 훈련이 부족하다는 지적이 있으며, 고용 연계도 제한적이다. 가족복지
@@ -4707,7 +4707,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.095 -->
 ### p.095
 
-[페이지 이미지: vol-26-page-095.jpg](assets/pages/vol-26-page-095.jpg)
+[페이지 이미지: vol-26-page-095.jpg](assets/pages/vol-26/vol-26-page-095.jpg)
 
 ```text
 2. 사회복지 발전을 위한 정책 제언
@@ -4750,7 +4750,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.096 -->
 ### p.096
 
-[페이지 이미지: vol-26-page-096.jpg](assets/pages/vol-26-page-096.jpg)
+[페이지 이미지: vol-26-page-096.jpg](assets/pages/vol-26/vol-26-page-096.jpg)
 
 ```text
                  이와 더불어 전 지역을 아우르는 복지 불균형 완화를 위해 정량적·정성적 지표를 기반
@@ -4797,7 +4797,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.097 -->
 ### p.097
 
-[페이지 이미지: vol-26-page-097.jpg](assets/pages/vol-26-page-097.jpg)
+[페이지 이미지: vol-26-page-097.jpg](assets/pages/vol-26/vol-26-page-097.jpg)
 
 ```text
  3) 저출산 극복을 위한 종합 대책 마련
@@ -4845,7 +4845,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.098 -->
 ### p.098
 
-[페이지 이미지: vol-26-page-098.jpg](assets/pages/vol-26-page-098.jpg)
+[페이지 이미지: vol-26-page-098.jpg](assets/pages/vol-26/vol-26-page-098.jpg)
 
 ```text
                  우선, 읍면동 맞춤형복지팀의 인력과 기능을 확충하고, 고위험군 대상 집중 상담체계를
@@ -4893,7 +4893,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.099 -->
 ### p.099
 
-[페이지 이미지: vol-26-page-099.jpg](assets/pages/vol-26-page-099.jpg)
+[페이지 이미지: vol-26-page-099.jpg](assets/pages/vol-26/vol-26-page-099.jpg)
 
 ```text
 마련해야 하며, 디지털 기반 복지서비스의 질적 향상과 시민 만족도 제고를 위한 피드백
@@ -4943,7 +4943,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.100 -->
 ### p.100
 
-[페이지 이미지: vol-26-page-100.jpg](assets/pages/vol-26-page-100.jpg)
+[페이지 이미지: vol-26-page-100.jpg](assets/pages/vol-26/vol-26-page-100.jpg)
 
 ```text
                 제 102회 어린이날 기념 성남 어린이날 큰잔치(2024.5.)
@@ -4983,7 +4983,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.101 -->
 ### p.101
 
-[페이지 이미지: vol-26-page-101.jpg](assets/pages/vol-26-page-101.jpg)
+[페이지 이미지: vol-26-page-101.jpg](assets/pages/vol-26/vol-26-page-101.jpg)
 
 ```text
 간관리자 대상의 리더십 교육, 특정 집단(정신질환자, 발달장애인 등)에 특화된 실무 교육
@@ -5020,7 +5020,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.102 -->
 ### p.102
 
-[페이지 이미지: vol-26-page-102.jpg](assets/pages/vol-26-page-102.jpg)
+[페이지 이미지: vol-26-page-102.jpg](assets/pages/vol-26/vol-26-page-102.jpg)
 
 ```text
                  다문화 가정의 안정적 정착과 자녀의 교육·문화 적응을 지원하기 위해서는 언어 통번역
@@ -5068,7 +5068,7 @@ PART
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.103 -->
 ### p.103
 
-[페이지 이미지: vol-26-page-103.jpg](assets/pages/vol-26-page-103.jpg)
+[페이지 이미지: vol-26-page-103.jpg](assets/pages/vol-26/vol-26-page-103.jpg)
 
 ```text
 part3 성남 사회복지의 미래
@@ -5078,7 +5078,7 @@ part3 성남 사회복지의 미래
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.104 -->
 ### p.104
 
-[페이지 이미지: vol-26-page-104.jpg](assets/pages/vol-26-page-104.jpg)
+[페이지 이미지: vol-26-page-104.jpg](assets/pages/vol-26/vol-26-page-104.jpg)
 
 ```text
                        104
@@ -5088,7 +5088,7 @@ part3 성남 사회복지의 미래
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.105 -->
 ### p.105
 
-[페이지 이미지: vol-26-page-105.jpg](assets/pages/vol-26-page-105.jpg)
+[페이지 이미지: vol-26-page-105.jpg](assets/pages/vol-26/vol-26-page-105.jpg)
 
 ```text
 참
@@ -5112,7 +5112,7 @@ part3 성남 사회복지의 미래
 <!-- source: ../../sources/seongnam-history-50-vol-26.pdf p.106 -->
 ### p.106
 
-[페이지 이미지: vol-26-page-106.jpg](assets/pages/vol-26-page-106.jpg)
+[페이지 이미지: vol-26-page-106.jpg](assets/pages/vol-26/vol-26-page-106.jpg)
 
 ```text
 성남시사 26

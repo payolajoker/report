@@ -8,14 +8,14 @@
 - PDF 쪽수: 104쪽
 - OCR 사용: false. `pdftotext -layout`로 임베디드 텍스트층을 추출했다.
 - 처리 상태: 전체 1-104쪽 텍스트층 반영. 완료 범위 밖으로 넘긴 쪽은 없다.
-- 페이지 이미지: 1-104쪽 전체를 `docs/seongnam-city-history-50/assets/pages/vol-24-page-*.jpg`로 렌더링했다.
+- 페이지 이미지: 1-104쪽 전체를 `docs/seongnam-city-history-50/assets/pages/vol-24/vol-24-page-*.jpg`로 렌더링했다.
 - 공용 파일 미편집: `README.md`, `.gitattributes`, `index.md`, `manifest.yml`, `stats.md`, `figures.md`, `source-page-index.md`는 건드리지 않았다.
 
 ## 생성 파일
 
 - `docs/seongnam-city-history-50/vol-24-religion-faith-life.md`
 - `dist/seongnam-history-50-vol-24.llm.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-24-page-*.jpg` 104개
+- `docs/seongnam-city-history-50/assets/pages/vol-24/vol-24-page-*.jpg` 104개
 - `docs/seongnam-city-history-50/_work/vol-24-integration.md`
 
 ## 공용 인덱스 병합 후보: 목차
@@ -36,56 +36,56 @@
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 | --- | --- | --- | --- |
-| [vol-24-page-001.jpg](../assets/pages/vol-24-page-001.jpg) | 1 | 표지와 권명: 성남 시민의 종교와 신앙생활 | rendered-page |
-| [vol-24-page-002.jpg](../assets/pages/vol-24-page-002.jpg) | 2 | 권별 목차 1: 종교 개요, 한국 종교사, 성남 종교사 | rendered-page |
-| [vol-24-page-003.jpg](../assets/pages/vol-24-page-003.jpg) | 3 | 권별 목차 2: 부록의 사찰·교회·본당·기타 종교 명부 | rendered-page |
-| [vol-24-page-007.jpg](../assets/pages/vol-24-page-007.jpg) | 7 | 전국 종교별 신자 인구 1985-2015 표 | rendered-page |
-| [vol-24-page-008.jpg](../assets/pages/vol-24-page-008.jpg) | 8 | 지역과 종교별 인구 비율 2015 표 | rendered-page |
-| [vol-24-page-019.jpg](../assets/pages/vol-24-page-019.jpg) | 19 | 한국 종교관 도식 | rendered-page |
-| [vol-24-page-021.jpg](../assets/pages/vol-24-page-021.jpg) | 21 | 성남의 종교 인구 2015 표 | rendered-page |
-| [vol-24-page-022.jpg](../assets/pages/vol-24-page-022.jpg) | 22 | 성남의 구별 종교 인구 2015 표 | rendered-page |
-| [vol-24-page-025.jpg](../assets/pages/vol-24-page-025.jpg) | 25 | 성남 인구 변동 1968-2023 표 | rendered-page |
-| [vol-24-page-026.jpg](../assets/pages/vol-24-page-026.jpg) | 26 | 성남시 인구 변동의 주요 요인 표 | rendered-page |
-| [vol-24-page-028.jpg](../assets/pages/vol-24-page-028.jpg) | 28 | 서낭나무 이미지와 전통 사회 단계 설명 | rendered-page |
-| [vol-24-page-032.jpg](../assets/pages/vol-24-page-032.jpg) | 32 | 성남 불교사 개요와 2024년 사찰 규모 | rendered-page |
-| [vol-24-page-034.jpg](../assets/pages/vol-24-page-034.jpg) | 34 | 망경암 마애여래좌상 이미지와 고려 사찰 서술 | rendered-page |
-| [vol-24-page-035.jpg](../assets/pages/vol-24-page-035.jpg) | 35 | 봉국사 대광명전·봉국사 이미지와 법륜사·골안사 서술 | rendered-page |
-| [vol-24-page-040.jpg](../assets/pages/vol-24-page-040.jpg) | 40 | 대광사 미륵보전 이미지 | rendered-page |
-| [vol-24-page-043.jpg](../assets/pages/vol-24-page-043.jpg) | 43 | 성남 천주교사 개요와 2024년 본당·신자 수 | rendered-page |
-| [vol-24-page-045.jpg](../assets/pages/vol-24-page-045.jpg) | 45 | 둔토리 서 루도비코 볼리외 신부 은신처 이미지 | rendered-page |
-| [vol-24-page-046.jpg](../assets/pages/vol-24-page-046.jpg) | 46 | 성남 수진동성당 이미지와 둔전말 공소 서술 | rendered-page |
-| [vol-24-page-051.jpg](../assets/pages/vol-24-page-051.jpg) | 51 | 성남 개신교사 개요와 2023년 교회 수 | rendered-page |
-| [vol-24-page-052.jpg](../assets/pages/vol-24-page-052.jpg) | 52 | 둔전교회 1937년 초가 건물 이미지 | rendered-page |
-| [vol-24-page-053.jpg](../assets/pages/vol-24-page-053.jpg) | 53 | 1955년경 둔전교회 이미지와 초기 교회 계보 | rendered-page |
-| [vol-24-page-057.jpg](../assets/pages/vol-24-page-057.jpg) | 57 | 2005년 성남 개신교 인구 및 교회 현황 표 | rendered-page |
-| [vol-24-page-062.jpg](../assets/pages/vol-24-page-062.jpg) | 62 | 천도교 성남시교구 이미지와 민족종교 서술 | rendered-page |
-| [vol-24-page-063.jpg](../assets/pages/vol-24-page-063.jpg) | 63 | 분당제생병원 이미지와 대순진리회 계열 서술 | rendered-page |
-| [vol-24-page-064.jpg](../assets/pages/vol-24-page-064.jpg) | 64 | 분당대진고등학교 이미지 | rendered-page |
-| [vol-24-page-065.jpg](../assets/pages/vol-24-page-065.jpg) | 65 | 원불교 성남교당 이미지와 교당·판교 부지 서술 | rendered-page |
-| [vol-24-page-069.jpg](../assets/pages/vol-24-page-069.jpg) | 69 | 모란 하나님의 교회 이미지와 하나님의교회 서술 | rendered-page |
-| [vol-24-page-070.jpg](../assets/pages/vol-24-page-070.jpg) | 70 | 신천지 성남교회와 외래 종교 서술 시작 | rendered-page |
-| [vol-24-page-073.jpg](../assets/pages/vol-24-page-073.jpg) | 73 | 전통 사찰과 불교 문화유산 보물 표 | rendered-page |
-| [vol-24-page-074.jpg](../assets/pages/vol-24-page-074.jpg) | 74 | 불교 문화유산·주요 사찰 창립 표 | rendered-page |
-| [vol-24-page-075.jpg](../assets/pages/vol-24-page-075.jpg) | 75 | 광주대단지 개발 이후 창립 사찰과 종단별 사찰 현황 시작 | rendered-page |
-| [vol-24-page-076.jpg](../assets/pages/vol-24-page-076.jpg) | 76 | 종단별 사찰 현황 합계와 사찰 명부 시작 | rendered-page |
-| [vol-24-page-080.jpg](../assets/pages/vol-24-page-080.jpg) | 80 | 템플스테이, 불교 관련 단체, 불교계 사회복지 단체 표 | rendered-page |
-| [vol-24-page-081.jpg](../assets/pages/vol-24-page-081.jpg) | 81 | 광주대단지 전후 주요 개신교 교회 표 | rendered-page |
-| [vol-24-page-082.jpg](../assets/pages/vol-24-page-082.jpg) | 82 | 분당신도시 이후 이주·설립 개신교 교회 표 | rendered-page |
-| [vol-24-page-083.jpg](../assets/pages/vol-24-page-083.jpg) | 83 | 개신교 교단별 현황 1 | rendered-page |
-| [vol-24-page-084.jpg](../assets/pages/vol-24-page-084.jpg) | 84 | 개신교 교단별 현황 2와 주요 단체 시작 | rendered-page |
-| [vol-24-page-086.jpg](../assets/pages/vol-24-page-086.jpg) | 86 | 개신교계 학교와 대안학교 표 | rendered-page |
-| [vol-24-page-087.jpg](../assets/pages/vol-24-page-087.jpg) | 87 | 개신교계 대안학교·사회복지관 표 | rendered-page |
-| [vol-24-page-088.jpg](../assets/pages/vol-24-page-088.jpg) | 88 | 판교신도시 종교 부지 분양 현황 표 | rendered-page |
-| [vol-24-page-090.jpg](../assets/pages/vol-24-page-090.jpg) | 90 | 시기별 천주교 본당 설립 현황과 성남대리구 관할 본당 표 | rendered-page |
-| [vol-24-page-091.jpg](../assets/pages/vol-24-page-091.jpg) | 91 | 성남시 본당 현황과 본당별 신자 수 표 | rendered-page |
-| [vol-24-page-092.jpg](../assets/pages/vol-24-page-092.jpg) | 92 | 성남시 본당 역사 자료 현황 표 | rendered-page |
-| [vol-24-page-093.jpg](../assets/pages/vol-24-page-093.jpg) | 93 | 천주교 주요 기관·단체 현황 표 | rendered-page |
-| [vol-24-page-094.jpg](../assets/pages/vol-24-page-094.jpg) | 94 | 천주교 수원교구-분당지구·성남지구 현황 표 | rendered-page |
-| [vol-24-page-096.jpg](../assets/pages/vol-24-page-096.jpg) | 96 | 성남시 소재 기타 종교 단체 현황 1 | rendered-page |
-| [vol-24-page-097.jpg](../assets/pages/vol-24-page-097.jpg) | 97 | 성남시 소재 기타 종교 단체 현황 2 | rendered-page |
-| [vol-24-page-098.jpg](../assets/pages/vol-24-page-098.jpg) | 98 | 성남시 소재 기타 종교 단체 현황 3 | rendered-page |
-| [vol-24-page-099.jpg](../assets/pages/vol-24-page-099.jpg) | 99 | 참고문헌 | rendered-page |
-| [vol-24-page-101.jpg](../assets/pages/vol-24-page-101.jpg) | 101 | 판권과 집필자 정보 | rendered-page |
+| [vol-24-page-001.jpg](../assets/pages/vol-24/vol-24-page-001.jpg) | 1 | 표지와 권명: 성남 시민의 종교와 신앙생활 | rendered-page |
+| [vol-24-page-002.jpg](../assets/pages/vol-24/vol-24-page-002.jpg) | 2 | 권별 목차 1: 종교 개요, 한국 종교사, 성남 종교사 | rendered-page |
+| [vol-24-page-003.jpg](../assets/pages/vol-24/vol-24-page-003.jpg) | 3 | 권별 목차 2: 부록의 사찰·교회·본당·기타 종교 명부 | rendered-page |
+| [vol-24-page-007.jpg](../assets/pages/vol-24/vol-24-page-007.jpg) | 7 | 전국 종교별 신자 인구 1985-2015 표 | rendered-page |
+| [vol-24-page-008.jpg](../assets/pages/vol-24/vol-24-page-008.jpg) | 8 | 지역과 종교별 인구 비율 2015 표 | rendered-page |
+| [vol-24-page-019.jpg](../assets/pages/vol-24/vol-24-page-019.jpg) | 19 | 한국 종교관 도식 | rendered-page |
+| [vol-24-page-021.jpg](../assets/pages/vol-24/vol-24-page-021.jpg) | 21 | 성남의 종교 인구 2015 표 | rendered-page |
+| [vol-24-page-022.jpg](../assets/pages/vol-24/vol-24-page-022.jpg) | 22 | 성남의 구별 종교 인구 2015 표 | rendered-page |
+| [vol-24-page-025.jpg](../assets/pages/vol-24/vol-24-page-025.jpg) | 25 | 성남 인구 변동 1968-2023 표 | rendered-page |
+| [vol-24-page-026.jpg](../assets/pages/vol-24/vol-24-page-026.jpg) | 26 | 성남시 인구 변동의 주요 요인 표 | rendered-page |
+| [vol-24-page-028.jpg](../assets/pages/vol-24/vol-24-page-028.jpg) | 28 | 서낭나무 이미지와 전통 사회 단계 설명 | rendered-page |
+| [vol-24-page-032.jpg](../assets/pages/vol-24/vol-24-page-032.jpg) | 32 | 성남 불교사 개요와 2024년 사찰 규모 | rendered-page |
+| [vol-24-page-034.jpg](../assets/pages/vol-24/vol-24-page-034.jpg) | 34 | 망경암 마애여래좌상 이미지와 고려 사찰 서술 | rendered-page |
+| [vol-24-page-035.jpg](../assets/pages/vol-24/vol-24-page-035.jpg) | 35 | 봉국사 대광명전·봉국사 이미지와 법륜사·골안사 서술 | rendered-page |
+| [vol-24-page-040.jpg](../assets/pages/vol-24/vol-24-page-040.jpg) | 40 | 대광사 미륵보전 이미지 | rendered-page |
+| [vol-24-page-043.jpg](../assets/pages/vol-24/vol-24-page-043.jpg) | 43 | 성남 천주교사 개요와 2024년 본당·신자 수 | rendered-page |
+| [vol-24-page-045.jpg](../assets/pages/vol-24/vol-24-page-045.jpg) | 45 | 둔토리 서 루도비코 볼리외 신부 은신처 이미지 | rendered-page |
+| [vol-24-page-046.jpg](../assets/pages/vol-24/vol-24-page-046.jpg) | 46 | 성남 수진동성당 이미지와 둔전말 공소 서술 | rendered-page |
+| [vol-24-page-051.jpg](../assets/pages/vol-24/vol-24-page-051.jpg) | 51 | 성남 개신교사 개요와 2023년 교회 수 | rendered-page |
+| [vol-24-page-052.jpg](../assets/pages/vol-24/vol-24-page-052.jpg) | 52 | 둔전교회 1937년 초가 건물 이미지 | rendered-page |
+| [vol-24-page-053.jpg](../assets/pages/vol-24/vol-24-page-053.jpg) | 53 | 1955년경 둔전교회 이미지와 초기 교회 계보 | rendered-page |
+| [vol-24-page-057.jpg](../assets/pages/vol-24/vol-24-page-057.jpg) | 57 | 2005년 성남 개신교 인구 및 교회 현황 표 | rendered-page |
+| [vol-24-page-062.jpg](../assets/pages/vol-24/vol-24-page-062.jpg) | 62 | 천도교 성남시교구 이미지와 민족종교 서술 | rendered-page |
+| [vol-24-page-063.jpg](../assets/pages/vol-24/vol-24-page-063.jpg) | 63 | 분당제생병원 이미지와 대순진리회 계열 서술 | rendered-page |
+| [vol-24-page-064.jpg](../assets/pages/vol-24/vol-24-page-064.jpg) | 64 | 분당대진고등학교 이미지 | rendered-page |
+| [vol-24-page-065.jpg](../assets/pages/vol-24/vol-24-page-065.jpg) | 65 | 원불교 성남교당 이미지와 교당·판교 부지 서술 | rendered-page |
+| [vol-24-page-069.jpg](../assets/pages/vol-24/vol-24-page-069.jpg) | 69 | 모란 하나님의 교회 이미지와 하나님의교회 서술 | rendered-page |
+| [vol-24-page-070.jpg](../assets/pages/vol-24/vol-24-page-070.jpg) | 70 | 신천지 성남교회와 외래 종교 서술 시작 | rendered-page |
+| [vol-24-page-073.jpg](../assets/pages/vol-24/vol-24-page-073.jpg) | 73 | 전통 사찰과 불교 문화유산 보물 표 | rendered-page |
+| [vol-24-page-074.jpg](../assets/pages/vol-24/vol-24-page-074.jpg) | 74 | 불교 문화유산·주요 사찰 창립 표 | rendered-page |
+| [vol-24-page-075.jpg](../assets/pages/vol-24/vol-24-page-075.jpg) | 75 | 광주대단지 개발 이후 창립 사찰과 종단별 사찰 현황 시작 | rendered-page |
+| [vol-24-page-076.jpg](../assets/pages/vol-24/vol-24-page-076.jpg) | 76 | 종단별 사찰 현황 합계와 사찰 명부 시작 | rendered-page |
+| [vol-24-page-080.jpg](../assets/pages/vol-24/vol-24-page-080.jpg) | 80 | 템플스테이, 불교 관련 단체, 불교계 사회복지 단체 표 | rendered-page |
+| [vol-24-page-081.jpg](../assets/pages/vol-24/vol-24-page-081.jpg) | 81 | 광주대단지 전후 주요 개신교 교회 표 | rendered-page |
+| [vol-24-page-082.jpg](../assets/pages/vol-24/vol-24-page-082.jpg) | 82 | 분당신도시 이후 이주·설립 개신교 교회 표 | rendered-page |
+| [vol-24-page-083.jpg](../assets/pages/vol-24/vol-24-page-083.jpg) | 83 | 개신교 교단별 현황 1 | rendered-page |
+| [vol-24-page-084.jpg](../assets/pages/vol-24/vol-24-page-084.jpg) | 84 | 개신교 교단별 현황 2와 주요 단체 시작 | rendered-page |
+| [vol-24-page-086.jpg](../assets/pages/vol-24/vol-24-page-086.jpg) | 86 | 개신교계 학교와 대안학교 표 | rendered-page |
+| [vol-24-page-087.jpg](../assets/pages/vol-24/vol-24-page-087.jpg) | 87 | 개신교계 대안학교·사회복지관 표 | rendered-page |
+| [vol-24-page-088.jpg](../assets/pages/vol-24/vol-24-page-088.jpg) | 88 | 판교신도시 종교 부지 분양 현황 표 | rendered-page |
+| [vol-24-page-090.jpg](../assets/pages/vol-24/vol-24-page-090.jpg) | 90 | 시기별 천주교 본당 설립 현황과 성남대리구 관할 본당 표 | rendered-page |
+| [vol-24-page-091.jpg](../assets/pages/vol-24/vol-24-page-091.jpg) | 91 | 성남시 본당 현황과 본당별 신자 수 표 | rendered-page |
+| [vol-24-page-092.jpg](../assets/pages/vol-24/vol-24-page-092.jpg) | 92 | 성남시 본당 역사 자료 현황 표 | rendered-page |
+| [vol-24-page-093.jpg](../assets/pages/vol-24/vol-24-page-093.jpg) | 93 | 천주교 주요 기관·단체 현황 표 | rendered-page |
+| [vol-24-page-094.jpg](../assets/pages/vol-24/vol-24-page-094.jpg) | 94 | 천주교 수원교구-분당지구·성남지구 현황 표 | rendered-page |
+| [vol-24-page-096.jpg](../assets/pages/vol-24/vol-24-page-096.jpg) | 96 | 성남시 소재 기타 종교 단체 현황 1 | rendered-page |
+| [vol-24-page-097.jpg](../assets/pages/vol-24/vol-24-page-097.jpg) | 97 | 성남시 소재 기타 종교 단체 현황 2 | rendered-page |
+| [vol-24-page-098.jpg](../assets/pages/vol-24/vol-24-page-098.jpg) | 98 | 성남시 소재 기타 종교 단체 현황 3 | rendered-page |
+| [vol-24-page-099.jpg](../assets/pages/vol-24/vol-24-page-099.jpg) | 99 | 참고문헌 | rendered-page |
+| [vol-24-page-101.jpg](../assets/pages/vol-24/vol-24-page-101.jpg) | 101 | 판권과 집필자 정보 | rendered-page |
 
 ## 공용 stats.md 병합 후보
 

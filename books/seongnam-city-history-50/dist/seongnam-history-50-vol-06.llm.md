@@ -7,7 +7,7 @@
 - ocr_used: false
 - extraction: embedded PDF text via pdftotext -layout
 - rendered_pages: 45
-- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/` 경로로 연결되어 있다.
+- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/vol-06/` 경로로 연결되어 있다.
 
 ---
 collection_title: "성남시사 50년사"
@@ -28,7 +28,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 표지·목차·고지도·남한산성 도판·병자호란 상황도·면리/호구 통계표·발굴조사 지도 등 주요 쪽 45개를 `assets/pages/`에 렌더링했다.
+- 표지·목차·고지도·남한산성 도판·병자호란 상황도·면리/호구 통계표·발굴조사 지도 등 주요 쪽 45개를 `assets/pages/vol-06/`에 렌더링했다.
 - 원문 목차 p.002의 Part 1 첫 항목은 `선사시대와 삼한시대의 성남`으로 인쇄되어 있으나, 본문 p.004-p.005의 실제 장 제목은 `태조~태종대의 성남 지역`이다. 이 초안의 구조화 목차는 본문 장 제목을 기준으로 정리했다.
 
 ## 권별 목차
@@ -78,51 +78,51 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-06-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-001.jpg) | 1 | 표지: 제6권 역사② 조선시대의 성남 | rendered-page |
-| [vol-06-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-002.jpg) | 2 | 원문 목차 Part 1-2 및 남한산성·지도 이미지 | rendered-page |
-| [vol-06-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-003.jpg) | 3 | 원문 목차 Part 3-4 | rendered-page |
-| [vol-06-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-004.jpg) | 4 | Part 1 표제지와 편집자 주 | rendered-page |
-| [vol-06-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-006.jpg) | 6 | 조선 건국 직후 각도 계수관 표 | rendered-page |
-| [vol-06-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-007.jpg) | 7 | 「동여도」의 성남·광주 부분 | rendered-page |
-| [vol-06-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-009.jpg) | 9 | 조선 초기 지방행정 편제 표 | rendered-page |
-| [vol-06-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-017.jpg) | 17 | 조선시대 경기도 도로와 역 도판 | rendered-page |
-| [vol-06-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-021.jpg) | 21 | 연산군~중종대 성남 지역과 경안로 피폐 서술 | rendered-page |
-| [vol-06-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-024.jpg) | 24 | 양재역 벽서와 명종~선조대 성남 지역 | rendered-page |
-| [vol-06-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-027.jpg) | 27 | 「남한산성도」와 남한산성 수리 논의 | rendered-page |
-| [vol-06-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-028.jpg) | 28 | 남한산성 한남루 | rendered-page |
-| [vol-06-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-032.jpg) | 32 | 조선 초기 제2봉화 광주 부분 지도 | rendered-page |
-| [vol-06-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-035.jpg) | 35 | 선조 비망기와 『광해군일기』 남한산성 방비 논의 | rendered-page |
-| [vol-06-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-038.jpg) | 38 | 수어장대와 남한산성 보장지처 인식 | rendered-page |
-| [vol-06-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-040.jpg) | 40 | 벽암대사 초상화와 의승군 축성 체계 | rendered-page |
-| [vol-06-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-044.jpg) | 44 | 청군의 남진 상황도 | rendered-page |
-| [vol-06-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-046.jpg) | 46 | 남한산성 농성 초기 상황도, 1636.12.15-30 | rendered-page |
-| [vol-06-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-047.jpg) | 47 | 남한산성 농성 중기 상황도, 1637.1.1-25 | rendered-page |
-| [vol-06-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-050.jpg) | 50 | 정축하성·세폐 품목과 전후 처리 | rendered-page |
-| [vol-06-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-053.jpg) | 53 | 겸재 정선 「송파진도」 | rendered-page |
-| [vol-06-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-056.jpg) | 56 | 광주부와 수어사 이원 체계 설명 | rendered-page |
-| [vol-06-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-058.jpg) | 58 | 수어청 혁파, 광주유수부, 남한산성 방어권 일원화 | rendered-page |
-| [vol-06-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-060.jpg) | 60 | 『여지도서』 속 광주 지도, 1757 | rendered-page |
-| [vol-06-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-062.jpg) | 62 | 18세기 후반 성남 지역 촌락과 인구 현황 표 | rendered-page |
-| [vol-06-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-064.jpg) | 64 | 면별 호구 수와 인구수 변화 표 | rendered-page |
-| [vol-06-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-072.jpg) | 72 | 농업생산력 발달과 제언·수리시설 서술 | rendered-page |
-| [vol-06-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-075.jpg) | 75 | 성남 및 인근 장시 개시일과 시장권 | rendered-page |
-| [vol-06-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-078.jpg) | 78 | 교통과 역원제 장 표제 및 파발제 설명 | rendered-page |
-| [vol-06-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-080.jpg) | 80 | 돌마역·낙생역·지선도로와 역마·노비 기록 | rendered-page |
-| [vol-06-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-083.jpg) | 83 | 삼정의 문란과 광주민란 장 표제 | rendered-page |
-| [vol-06-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-084.jpg) | 84 | 1862년 광주민란과 군민 수천 명 소요 서술 | rendered-page |
-| [vol-06-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-087.jpg) | 87 | 남한산성 고도·행정구역·조사 개요 | rendered-page |
-| [vol-06-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-088.jpg) | 88 | 남한산성 발굴조사 현황 표 | rendered-page |
-| [vol-06-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-089.jpg) | 89 | 남한산성 발굴 조사 지역 위치도 | rendered-page |
-| [vol-06-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-090.jpg) | 90 | 남한산성 위치 및 주요 시설 분포도 | rendered-page |
-| [vol-06-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-092.jpg) | 92 | 남한산성 출토 백제 토기 | rendered-page |
-| [vol-06-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-095.jpg) | 95 | 남한산성 행궁 하궐 통일신라 건물지와 기와 비교 | rendered-page |
-| [vol-06-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-098.jpg) | 98 | 남한산성 행궁 뒤편 고려시대 건물지 | rendered-page |
-| [vol-06-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-101.jpg) | 101 | 남한산성 연주봉 옹성과 암문 | rendered-page |
-| [vol-06-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-102.jpg) | 102 | 성곽 모양과 내부 건물이 포함된 「남한산성도」 | rendered-page |
-| [vol-06-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-104.jpg) | 104 | 553년 한주 설치 기록, 『삼국사기』 신라본기 | rendered-page |
-| [vol-06-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-106.jpg) | 106 | 남한산성 성곽 | rendered-page |
-| [vol-06-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-109.jpg) | 109 | 정조의 남한산성 행차와 광주 위상 변화 | rendered-page |
-| [vol-06-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06-page-110.jpg) | 110 | 정조의 남한산성 현장 확인과 광주유수부 설치 의도 | rendered-page |
+| [vol-06-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-001.jpg) | 1 | 표지: 제6권 역사② 조선시대의 성남 | rendered-page |
+| [vol-06-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-002.jpg) | 2 | 원문 목차 Part 1-2 및 남한산성·지도 이미지 | rendered-page |
+| [vol-06-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-003.jpg) | 3 | 원문 목차 Part 3-4 | rendered-page |
+| [vol-06-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-004.jpg) | 4 | Part 1 표제지와 편집자 주 | rendered-page |
+| [vol-06-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-006.jpg) | 6 | 조선 건국 직후 각도 계수관 표 | rendered-page |
+| [vol-06-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-007.jpg) | 7 | 「동여도」의 성남·광주 부분 | rendered-page |
+| [vol-06-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-009.jpg) | 9 | 조선 초기 지방행정 편제 표 | rendered-page |
+| [vol-06-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-017.jpg) | 17 | 조선시대 경기도 도로와 역 도판 | rendered-page |
+| [vol-06-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-021.jpg) | 21 | 연산군~중종대 성남 지역과 경안로 피폐 서술 | rendered-page |
+| [vol-06-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-024.jpg) | 24 | 양재역 벽서와 명종~선조대 성남 지역 | rendered-page |
+| [vol-06-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-027.jpg) | 27 | 「남한산성도」와 남한산성 수리 논의 | rendered-page |
+| [vol-06-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-028.jpg) | 28 | 남한산성 한남루 | rendered-page |
+| [vol-06-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-032.jpg) | 32 | 조선 초기 제2봉화 광주 부분 지도 | rendered-page |
+| [vol-06-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-035.jpg) | 35 | 선조 비망기와 『광해군일기』 남한산성 방비 논의 | rendered-page |
+| [vol-06-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-038.jpg) | 38 | 수어장대와 남한산성 보장지처 인식 | rendered-page |
+| [vol-06-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-040.jpg) | 40 | 벽암대사 초상화와 의승군 축성 체계 | rendered-page |
+| [vol-06-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-044.jpg) | 44 | 청군의 남진 상황도 | rendered-page |
+| [vol-06-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-046.jpg) | 46 | 남한산성 농성 초기 상황도, 1636.12.15-30 | rendered-page |
+| [vol-06-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-047.jpg) | 47 | 남한산성 농성 중기 상황도, 1637.1.1-25 | rendered-page |
+| [vol-06-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-050.jpg) | 50 | 정축하성·세폐 품목과 전후 처리 | rendered-page |
+| [vol-06-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-053.jpg) | 53 | 겸재 정선 「송파진도」 | rendered-page |
+| [vol-06-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-056.jpg) | 56 | 광주부와 수어사 이원 체계 설명 | rendered-page |
+| [vol-06-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-058.jpg) | 58 | 수어청 혁파, 광주유수부, 남한산성 방어권 일원화 | rendered-page |
+| [vol-06-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-060.jpg) | 60 | 『여지도서』 속 광주 지도, 1757 | rendered-page |
+| [vol-06-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-062.jpg) | 62 | 18세기 후반 성남 지역 촌락과 인구 현황 표 | rendered-page |
+| [vol-06-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-064.jpg) | 64 | 면별 호구 수와 인구수 변화 표 | rendered-page |
+| [vol-06-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-072.jpg) | 72 | 농업생산력 발달과 제언·수리시설 서술 | rendered-page |
+| [vol-06-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-075.jpg) | 75 | 성남 및 인근 장시 개시일과 시장권 | rendered-page |
+| [vol-06-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-078.jpg) | 78 | 교통과 역원제 장 표제 및 파발제 설명 | rendered-page |
+| [vol-06-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-080.jpg) | 80 | 돌마역·낙생역·지선도로와 역마·노비 기록 | rendered-page |
+| [vol-06-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-083.jpg) | 83 | 삼정의 문란과 광주민란 장 표제 | rendered-page |
+| [vol-06-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-084.jpg) | 84 | 1862년 광주민란과 군민 수천 명 소요 서술 | rendered-page |
+| [vol-06-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-087.jpg) | 87 | 남한산성 고도·행정구역·조사 개요 | rendered-page |
+| [vol-06-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-088.jpg) | 88 | 남한산성 발굴조사 현황 표 | rendered-page |
+| [vol-06-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-089.jpg) | 89 | 남한산성 발굴 조사 지역 위치도 | rendered-page |
+| [vol-06-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-090.jpg) | 90 | 남한산성 위치 및 주요 시설 분포도 | rendered-page |
+| [vol-06-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-092.jpg) | 92 | 남한산성 출토 백제 토기 | rendered-page |
+| [vol-06-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-095.jpg) | 95 | 남한산성 행궁 하궐 통일신라 건물지와 기와 비교 | rendered-page |
+| [vol-06-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-098.jpg) | 98 | 남한산성 행궁 뒤편 고려시대 건물지 | rendered-page |
+| [vol-06-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-101.jpg) | 101 | 남한산성 연주봉 옹성과 암문 | rendered-page |
+| [vol-06-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-102.jpg) | 102 | 성곽 모양과 내부 건물이 포함된 「남한산성도」 | rendered-page |
+| [vol-06-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-104.jpg) | 104 | 553년 한주 설치 기록, 『삼국사기』 신라본기 | rendered-page |
+| [vol-06-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-106.jpg) | 106 | 남한산성 성곽 | rendered-page |
+| [vol-06-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-109.jpg) | 109 | 정조의 남한산성 행차와 광주 위상 변화 | rendered-page |
+| [vol-06-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-06/vol-06-page-110.jpg) | 110 | 정조의 남한산성 현장 확인과 광주유수부 설치 의도 | rendered-page |
 
 ## 핵심 표/자료 위치
 

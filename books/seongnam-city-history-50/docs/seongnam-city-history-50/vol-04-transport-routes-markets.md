@@ -17,7 +17,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 교통망 지도, 고지도, 도로·철도 통계표, 터미널·시장 사진이 있는 주요 쪽은 `assets/pages/`에 렌더링했다.
+- 교통망 지도, 고지도, 도로·철도 통계표, 터미널·시장 사진이 있는 주요 쪽은 `assets/pages/vol-04/`에 렌더링했다.
 
 ## 권별 목차
 
@@ -44,86 +44,86 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-04-page-007.jpg](assets/pages/vol-04-page-007.jpg) | 7 | 성남시 동부와 서부의 산지와 주요 고개 | rendered-page |
-| [vol-04-page-009.jpg](assets/pages/vol-04-page-009.jpg) | 9 | 갈마치고개·갈마터널과 성남-광주 연결 교통로 | rendered-page |
-| [vol-04-page-010.jpg](assets/pages/vol-04-page-010.jpg) | 10 | 성남과 광주 사이의 태재고개와 새마을고개 | rendered-page |
-| [vol-04-page-011.jpg](assets/pages/vol-04-page-011.jpg) | 11 | 분당구와 광주시를 연결하는 태재고개의 교통로 | rendered-page |
-| [vol-04-page-012.jpg](assets/pages/vol-04-page-012.jpg) | 12 | 하오고개를 통과하는 하오개로와 국가지원지방도 제57호선 | rendered-page |
-| [vol-04-page-013.jpg](assets/pages/vol-04-page-013.jpg) | 13 | 경부고속도로 개통 이전의 달래내고개, 1963 | rendered-page |
-| [vol-04-page-014.jpg](assets/pages/vol-04-page-014.jpg) | 14 | 세고개 위치도, 1970 | rendered-page |
-| [vol-04-page-016.jpg](assets/pages/vol-04-page-016.jpg) | 16 | 지방도 제393호선이 통과하던 판교의 옛 모습, 1984 | rendered-page |
-| [vol-04-page-019.jpg](assets/pages/vol-04-page-019.jpg) | 19 | 수도권 제1순환고속도로 청계-판교 방향 | rendered-page |
-| [vol-04-page-021.jpg](assets/pages/vol-04-page-021.jpg) | 21 | 마이카시대에 접어든 1980년대 신문 도판 | rendered-page |
-| [vol-04-page-027.jpg](assets/pages/vol-04-page-027.jpg) | 27 | 고려시대 광주도 안업역 주변의 역과 역로 | rendered-page |
-| [vol-04-page-029.jpg](assets/pages/vol-04-page-029.jpg) | 29 | 조선시대 한반도 X자형 4대 교통로와 영남대로 | rendered-page |
-| [vol-04-page-030.jpg](assets/pages/vol-04-page-030.jpg) | 30 | 경기 옛길 영남길 리본과 영남대로 설명 | rendered-page |
-| [vol-04-page-032.jpg](assets/pages/vol-04-page-032.jpg) | 32 | 18세기 조선지도·여지도 속 성남 교통로 | rendered-page |
-| [vol-04-page-033.jpg](assets/pages/vol-04-page-033.jpg) | 33 | 동여도 속 성남 지역 교통로 | rendered-page |
-| [vol-04-page-035.jpg](assets/pages/vol-04-page-035.jpg) | 35 | 1872년지방지도 속 성남 지역 교통로 | rendered-page |
-| [vol-04-page-037.jpg](assets/pages/vol-04-page-037.jpg) | 37 | 낙생역·돌마역 위치와 말·노비 기록 | rendered-page |
-| [vol-04-page-038.jpg](assets/pages/vol-04-page-038.jpg) | 38 | 대동여지도·1872년지방지도에 다른 장소로 표기된 낙생역 | rendered-page |
-| [vol-04-page-039.jpg](assets/pages/vol-04-page-039.jpg) | 39 | 세종 행차, 낙생행궁, 율목참 설명 | rendered-page |
-| [vol-04-page-040.jpg](assets/pages/vol-04-page-040.jpg) | 40 | 1872년지방지도·조선지형도의 율목창과 주막 | rendered-page |
-| [vol-04-page-043.jpg](assets/pages/vol-04-page-043.jpg) | 43 | 조선 후기 봉수로 | rendered-page |
-| [vol-04-page-046.jpg](assets/pages/vol-04-page-046.jpg) | 46 | 동여도 속 한양으로 가는 마지막 봉수 천림산 봉수와 낙생역 | rendered-page |
-| [vol-04-page-047.jpg](assets/pages/vol-04-page-047.jpg) | 47 | 복원된 천림산 봉수 | rendered-page |
-| [vol-04-page-048.jpg](assets/pages/vol-04-page-048.jpg) | 48 | 천림산 봉수 평면도 | rendered-page |
-| [vol-04-page-051.jpg](assets/pages/vol-04-page-051.jpg) | 51 | 일제의 한반도 철도 및 도로 노선 계획 | rendered-page |
-| [vol-04-page-054.jpg](assets/pages/vol-04-page-054.jpg) | 54 | 경성 주변 교통로와 판교리, 1930년대 성남 주변 도로망 | rendered-page |
-| [vol-04-page-056.jpg](assets/pages/vol-04-page-056.jpg) | 56 | 1880년대 성남 지역의 주요 교통로와 마을 | rendered-page |
-| [vol-04-page-058.jpg](assets/pages/vol-04-page-058.jpg) | 58 | 일제강점기 성남 지역의 주요 교통로 | rendered-page |
-| [vol-04-page-063.jpg](assets/pages/vol-04-page-063.jpg) | 63 | 경부고속도로 개통 전후 비교, 1963/1970 | rendered-page |
-| [vol-04-page-068.jpg](assets/pages/vol-04-page-068.jpg) | 68 | 포장되지 않은 광주대단지 진입로, 현 성남대로 | rendered-page |
-| [vol-04-page-069.jpg](assets/pages/vol-04-page-069.jpg) | 69 | 경부고속도로 판교나들목 설치와 성남 변화 | rendered-page |
-| [vol-04-page-071.jpg](assets/pages/vol-04-page-071.jpg) | 71 | 시 승격 이후 본시가지 일대의 교통로, 1974 | rendered-page |
-| [vol-04-page-074.jpg](assets/pages/vol-04-page-074.jpg) | 74 | 분당신도시 남북 교통축 도로 전경 | rendered-page |
-| [vol-04-page-075.jpg](assets/pages/vol-04-page-075.jpg) | 75 | 판교신도시와 주변 도시간 교통망, 2024 | rendered-page |
-| [vol-04-page-076.jpg](assets/pages/vol-04-page-076.jpg) | 76 | GTX 성남역 개통식과 위례신도시 교통 대책 | rendered-page |
-| [vol-04-page-077.jpg](assets/pages/vol-04-page-077.jpg) | 77 | 위례신도시 남위례역과 헌릉로 | rendered-page |
-| [vol-04-page-079.jpg](assets/pages/vol-04-page-079.jpg) | 79 | 성남시 도로 구성의 변화 표와 성남시 도로원표 | rendered-page |
-| [vol-04-page-081.jpg](assets/pages/vol-04-page-081.jpg) | 81 | 성남시 도시철도 노선 및 환승역 | rendered-page |
-| [vol-04-page-083.jpg](assets/pages/vol-04-page-083.jpg) | 83 | 초기 경수고속도로/경부고속도로 구간 | rendered-page |
-| [vol-04-page-084.jpg](assets/pages/vol-04-page-084.jpg) | 84 | 경부고속도로 판교나들목, 1970년대 | rendered-page |
-| [vol-04-page-085.jpg](assets/pages/vol-04-page-085.jpg) | 85 | 경부고속도로 성남시 구간 일일 평균 통행량 표 | rendered-page |
-| [vol-04-page-086.jpg](assets/pages/vol-04-page-086.jpg) | 86 | 개통 초기 수도권 제1순환고속도로 구간 | rendered-page |
-| [vol-04-page-088.jpg](assets/pages/vol-04-page-088.jpg) | 88 | 2009년 개통한 용인서울고속도로 | rendered-page |
-| [vol-04-page-090.jpg](assets/pages/vol-04-page-090.jpg) | 90 | 판교분기점 부근 수도권 제1순환고속도로와 안양성남고속도로 | rendered-page |
-| [vol-04-page-091.jpg](assets/pages/vol-04-page-091.jpg) | 91 | 분당수서간고속화도로 지하화와 상부 공원화 | rendered-page |
-| [vol-04-page-093.jpg](assets/pages/vol-04-page-093.jpg) | 93 | 내곡터널과 분당내곡간고속화도로 | rendered-page |
-| [vol-04-page-096.jpg](assets/pages/vol-04-page-096.jpg) | 96 | 성남 본시가지 태평동 일대를 통과하는 국도 제3호선 | rendered-page |
-| [vol-04-page-097.jpg](assets/pages/vol-04-page-097.jpg) | 97 | 성남시 일반국도·지방도 통과 구간 설명 도판 | rendered-page |
-| [vol-04-page-098.jpg](assets/pages/vol-04-page-098.jpg) | 98 | 국가지원지방도 제23호선 성남시 구간 | rendered-page |
-| [vol-04-page-099.jpg](assets/pages/vol-04-page-099.jpg) | 99 | 국가지원지방도 제57호선 성남시 구간 | rendered-page |
-| [vol-04-page-100.jpg](assets/pages/vol-04-page-100.jpg) | 100 | 일반지방도 제334호선·제338호선 성남시 구간 | rendered-page |
-| [vol-04-page-101.jpg](assets/pages/vol-04-page-101.jpg) | 101 | 일반지방도 제338호선 이배재고개와 이배재터널 | rendered-page |
-| [vol-04-page-102.jpg](assets/pages/vol-04-page-102.jpg) | 102 | 일반지방도 제342호선 성남시 구간 | rendered-page |
-| [vol-04-page-104.jpg](assets/pages/vol-04-page-104.jpg) | 104 | 성남시 시도의 구성 및 내부 간선도로 표 1 | rendered-page |
-| [vol-04-page-105.jpg](assets/pages/vol-04-page-105.jpg) | 105 | 성남시 내부 간선도로 표 2 | rendered-page |
-| [vol-04-page-108.jpg](assets/pages/vol-04-page-108.jpg) | 108 | 성남시 주요 도로명의 유래 표 | rendered-page |
-| [vol-04-page-109.jpg](assets/pages/vol-04-page-109.jpg) | 109 | 서울지하철 8호선 잠실-모란 구간 개통, 1996 | rendered-page |
-| [vol-04-page-110.jpg](assets/pages/vol-04-page-110.jpg) | 110 | 서울지하철 8호선 노선도와 역별 이용객 표 | rendered-page |
-| [vol-04-page-111.jpg](assets/pages/vol-04-page-111.jpg) | 111 | 수인분당선 노선도와 모란역 환승 도판 | rendered-page |
-| [vol-04-page-113.jpg](assets/pages/vol-04-page-113.jpg) | 113 | 수인분당선 역별 이용객 표와 신분당선 개통식 | rendered-page |
-| [vol-04-page-114.jpg](assets/pages/vol-04-page-114.jpg) | 114 | 신분당선 노선도와 판교·정자·미금역 설명 | rendered-page |
-| [vol-04-page-115.jpg](assets/pages/vol-04-page-115.jpg) | 115 | 수도권 전철 경강선 노선도와 개통 사진 | rendered-page |
-| [vol-04-page-116.jpg](assets/pages/vol-04-page-116.jpg) | 116 | 경강선 전체 노선도 | rendered-page |
-| [vol-04-page-117.jpg](assets/pages/vol-04-page-117.jpg) | 117 | GTX 8개 노선도와 경강선·GTX-A 환승역 성남역 | rendered-page |
-| [vol-04-page-119.jpg](assets/pages/vol-04-page-119.jpg) | 119 | 1970년대 성남-서울 버스 운행과 승객 | rendered-page |
-| [vol-04-page-120.jpg](assets/pages/vol-04-page-120.jpg) | 120 | 성남대로와 모란시장 일대 버스 교통로 | rendered-page |
-| [vol-04-page-121.jpg](assets/pages/vol-04-page-121.jpg) | 121 | 성남시 구간의 버스 노선 운행 체계 | rendered-page |
-| [vol-04-page-122.jpg](assets/pages/vol-04-page-122.jpg) | 122 | 모란시장 시외버스 정류장과 성남대로 | rendered-page |
-| [vol-04-page-124.jpg](assets/pages/vol-04-page-124.jpg) | 124 | 성남대로 변 성남시외버스터미널, 1985 | rendered-page |
-| [vol-04-page-125.jpg](assets/pages/vol-04-page-125.jpg) | 125 | 모란시장 인근 성남시외버스터미널, 1986 | rendered-page |
-| [vol-04-page-126.jpg](assets/pages/vol-04-page-126.jpg) | 126 | 야탑동 성남종합버스터미널 종합쇼핑몰, 2003 | rendered-page |
-| [vol-04-page-129.jpg](assets/pages/vol-04-page-129.jpg) | 129 | 성남종합버스터미널 폐쇄와 임시 버스 승강장 | rendered-page |
-| [vol-04-page-134.jpg](assets/pages/vol-04-page-134.jpg) | 134 | 모란전통시장과 상설시장 풍경 | rendered-page |
-| [vol-04-page-139.jpg](assets/pages/vol-04-page-139.jpg) | 139 | 모란개척단과 모란장 형성 | rendered-page |
-| [vol-04-page-141.jpg](assets/pages/vol-04-page-141.jpg) | 141 | 모란종합시장 분양 광고, 1983 | rendered-page |
-| [vol-04-page-142.jpg](assets/pages/vol-04-page-142.jpg) | 142 | 모란민속5일장 풍경, 1989 | rendered-page |
-| [vol-04-page-143.jpg](assets/pages/vol-04-page-143.jpg) | 143 | 모란시장 위치 변화 | rendered-page |
-| [vol-04-page-144.jpg](assets/pages/vol-04-page-144.jpg) | 144 | 모란시장 공영주차장과 모란민속5일장 | rendered-page |
-| [vol-04-page-145.jpg](assets/pages/vol-04-page-145.jpg) | 145 | 모란종합시장 기름 특화 거리와 모란민속5일장 정비 | rendered-page |
-| [vol-04-page-147.jpg](assets/pages/vol-04-page-147.jpg) | 147 | 성남시 상설시장 현황 표 | rendered-page |
+| [vol-04-page-007.jpg](assets/pages/vol-04/vol-04-page-007.jpg) | 7 | 성남시 동부와 서부의 산지와 주요 고개 | rendered-page |
+| [vol-04-page-009.jpg](assets/pages/vol-04/vol-04-page-009.jpg) | 9 | 갈마치고개·갈마터널과 성남-광주 연결 교통로 | rendered-page |
+| [vol-04-page-010.jpg](assets/pages/vol-04/vol-04-page-010.jpg) | 10 | 성남과 광주 사이의 태재고개와 새마을고개 | rendered-page |
+| [vol-04-page-011.jpg](assets/pages/vol-04/vol-04-page-011.jpg) | 11 | 분당구와 광주시를 연결하는 태재고개의 교통로 | rendered-page |
+| [vol-04-page-012.jpg](assets/pages/vol-04/vol-04-page-012.jpg) | 12 | 하오고개를 통과하는 하오개로와 국가지원지방도 제57호선 | rendered-page |
+| [vol-04-page-013.jpg](assets/pages/vol-04/vol-04-page-013.jpg) | 13 | 경부고속도로 개통 이전의 달래내고개, 1963 | rendered-page |
+| [vol-04-page-014.jpg](assets/pages/vol-04/vol-04-page-014.jpg) | 14 | 세고개 위치도, 1970 | rendered-page |
+| [vol-04-page-016.jpg](assets/pages/vol-04/vol-04-page-016.jpg) | 16 | 지방도 제393호선이 통과하던 판교의 옛 모습, 1984 | rendered-page |
+| [vol-04-page-019.jpg](assets/pages/vol-04/vol-04-page-019.jpg) | 19 | 수도권 제1순환고속도로 청계-판교 방향 | rendered-page |
+| [vol-04-page-021.jpg](assets/pages/vol-04/vol-04-page-021.jpg) | 21 | 마이카시대에 접어든 1980년대 신문 도판 | rendered-page |
+| [vol-04-page-027.jpg](assets/pages/vol-04/vol-04-page-027.jpg) | 27 | 고려시대 광주도 안업역 주변의 역과 역로 | rendered-page |
+| [vol-04-page-029.jpg](assets/pages/vol-04/vol-04-page-029.jpg) | 29 | 조선시대 한반도 X자형 4대 교통로와 영남대로 | rendered-page |
+| [vol-04-page-030.jpg](assets/pages/vol-04/vol-04-page-030.jpg) | 30 | 경기 옛길 영남길 리본과 영남대로 설명 | rendered-page |
+| [vol-04-page-032.jpg](assets/pages/vol-04/vol-04-page-032.jpg) | 32 | 18세기 조선지도·여지도 속 성남 교통로 | rendered-page |
+| [vol-04-page-033.jpg](assets/pages/vol-04/vol-04-page-033.jpg) | 33 | 동여도 속 성남 지역 교통로 | rendered-page |
+| [vol-04-page-035.jpg](assets/pages/vol-04/vol-04-page-035.jpg) | 35 | 1872년지방지도 속 성남 지역 교통로 | rendered-page |
+| [vol-04-page-037.jpg](assets/pages/vol-04/vol-04-page-037.jpg) | 37 | 낙생역·돌마역 위치와 말·노비 기록 | rendered-page |
+| [vol-04-page-038.jpg](assets/pages/vol-04/vol-04-page-038.jpg) | 38 | 대동여지도·1872년지방지도에 다른 장소로 표기된 낙생역 | rendered-page |
+| [vol-04-page-039.jpg](assets/pages/vol-04/vol-04-page-039.jpg) | 39 | 세종 행차, 낙생행궁, 율목참 설명 | rendered-page |
+| [vol-04-page-040.jpg](assets/pages/vol-04/vol-04-page-040.jpg) | 40 | 1872년지방지도·조선지형도의 율목창과 주막 | rendered-page |
+| [vol-04-page-043.jpg](assets/pages/vol-04/vol-04-page-043.jpg) | 43 | 조선 후기 봉수로 | rendered-page |
+| [vol-04-page-046.jpg](assets/pages/vol-04/vol-04-page-046.jpg) | 46 | 동여도 속 한양으로 가는 마지막 봉수 천림산 봉수와 낙생역 | rendered-page |
+| [vol-04-page-047.jpg](assets/pages/vol-04/vol-04-page-047.jpg) | 47 | 복원된 천림산 봉수 | rendered-page |
+| [vol-04-page-048.jpg](assets/pages/vol-04/vol-04-page-048.jpg) | 48 | 천림산 봉수 평면도 | rendered-page |
+| [vol-04-page-051.jpg](assets/pages/vol-04/vol-04-page-051.jpg) | 51 | 일제의 한반도 철도 및 도로 노선 계획 | rendered-page |
+| [vol-04-page-054.jpg](assets/pages/vol-04/vol-04-page-054.jpg) | 54 | 경성 주변 교통로와 판교리, 1930년대 성남 주변 도로망 | rendered-page |
+| [vol-04-page-056.jpg](assets/pages/vol-04/vol-04-page-056.jpg) | 56 | 1880년대 성남 지역의 주요 교통로와 마을 | rendered-page |
+| [vol-04-page-058.jpg](assets/pages/vol-04/vol-04-page-058.jpg) | 58 | 일제강점기 성남 지역의 주요 교통로 | rendered-page |
+| [vol-04-page-063.jpg](assets/pages/vol-04/vol-04-page-063.jpg) | 63 | 경부고속도로 개통 전후 비교, 1963/1970 | rendered-page |
+| [vol-04-page-068.jpg](assets/pages/vol-04/vol-04-page-068.jpg) | 68 | 포장되지 않은 광주대단지 진입로, 현 성남대로 | rendered-page |
+| [vol-04-page-069.jpg](assets/pages/vol-04/vol-04-page-069.jpg) | 69 | 경부고속도로 판교나들목 설치와 성남 변화 | rendered-page |
+| [vol-04-page-071.jpg](assets/pages/vol-04/vol-04-page-071.jpg) | 71 | 시 승격 이후 본시가지 일대의 교통로, 1974 | rendered-page |
+| [vol-04-page-074.jpg](assets/pages/vol-04/vol-04-page-074.jpg) | 74 | 분당신도시 남북 교통축 도로 전경 | rendered-page |
+| [vol-04-page-075.jpg](assets/pages/vol-04/vol-04-page-075.jpg) | 75 | 판교신도시와 주변 도시간 교통망, 2024 | rendered-page |
+| [vol-04-page-076.jpg](assets/pages/vol-04/vol-04-page-076.jpg) | 76 | GTX 성남역 개통식과 위례신도시 교통 대책 | rendered-page |
+| [vol-04-page-077.jpg](assets/pages/vol-04/vol-04-page-077.jpg) | 77 | 위례신도시 남위례역과 헌릉로 | rendered-page |
+| [vol-04-page-079.jpg](assets/pages/vol-04/vol-04-page-079.jpg) | 79 | 성남시 도로 구성의 변화 표와 성남시 도로원표 | rendered-page |
+| [vol-04-page-081.jpg](assets/pages/vol-04/vol-04-page-081.jpg) | 81 | 성남시 도시철도 노선 및 환승역 | rendered-page |
+| [vol-04-page-083.jpg](assets/pages/vol-04/vol-04-page-083.jpg) | 83 | 초기 경수고속도로/경부고속도로 구간 | rendered-page |
+| [vol-04-page-084.jpg](assets/pages/vol-04/vol-04-page-084.jpg) | 84 | 경부고속도로 판교나들목, 1970년대 | rendered-page |
+| [vol-04-page-085.jpg](assets/pages/vol-04/vol-04-page-085.jpg) | 85 | 경부고속도로 성남시 구간 일일 평균 통행량 표 | rendered-page |
+| [vol-04-page-086.jpg](assets/pages/vol-04/vol-04-page-086.jpg) | 86 | 개통 초기 수도권 제1순환고속도로 구간 | rendered-page |
+| [vol-04-page-088.jpg](assets/pages/vol-04/vol-04-page-088.jpg) | 88 | 2009년 개통한 용인서울고속도로 | rendered-page |
+| [vol-04-page-090.jpg](assets/pages/vol-04/vol-04-page-090.jpg) | 90 | 판교분기점 부근 수도권 제1순환고속도로와 안양성남고속도로 | rendered-page |
+| [vol-04-page-091.jpg](assets/pages/vol-04/vol-04-page-091.jpg) | 91 | 분당수서간고속화도로 지하화와 상부 공원화 | rendered-page |
+| [vol-04-page-093.jpg](assets/pages/vol-04/vol-04-page-093.jpg) | 93 | 내곡터널과 분당내곡간고속화도로 | rendered-page |
+| [vol-04-page-096.jpg](assets/pages/vol-04/vol-04-page-096.jpg) | 96 | 성남 본시가지 태평동 일대를 통과하는 국도 제3호선 | rendered-page |
+| [vol-04-page-097.jpg](assets/pages/vol-04/vol-04-page-097.jpg) | 97 | 성남시 일반국도·지방도 통과 구간 설명 도판 | rendered-page |
+| [vol-04-page-098.jpg](assets/pages/vol-04/vol-04-page-098.jpg) | 98 | 국가지원지방도 제23호선 성남시 구간 | rendered-page |
+| [vol-04-page-099.jpg](assets/pages/vol-04/vol-04-page-099.jpg) | 99 | 국가지원지방도 제57호선 성남시 구간 | rendered-page |
+| [vol-04-page-100.jpg](assets/pages/vol-04/vol-04-page-100.jpg) | 100 | 일반지방도 제334호선·제338호선 성남시 구간 | rendered-page |
+| [vol-04-page-101.jpg](assets/pages/vol-04/vol-04-page-101.jpg) | 101 | 일반지방도 제338호선 이배재고개와 이배재터널 | rendered-page |
+| [vol-04-page-102.jpg](assets/pages/vol-04/vol-04-page-102.jpg) | 102 | 일반지방도 제342호선 성남시 구간 | rendered-page |
+| [vol-04-page-104.jpg](assets/pages/vol-04/vol-04-page-104.jpg) | 104 | 성남시 시도의 구성 및 내부 간선도로 표 1 | rendered-page |
+| [vol-04-page-105.jpg](assets/pages/vol-04/vol-04-page-105.jpg) | 105 | 성남시 내부 간선도로 표 2 | rendered-page |
+| [vol-04-page-108.jpg](assets/pages/vol-04/vol-04-page-108.jpg) | 108 | 성남시 주요 도로명의 유래 표 | rendered-page |
+| [vol-04-page-109.jpg](assets/pages/vol-04/vol-04-page-109.jpg) | 109 | 서울지하철 8호선 잠실-모란 구간 개통, 1996 | rendered-page |
+| [vol-04-page-110.jpg](assets/pages/vol-04/vol-04-page-110.jpg) | 110 | 서울지하철 8호선 노선도와 역별 이용객 표 | rendered-page |
+| [vol-04-page-111.jpg](assets/pages/vol-04/vol-04-page-111.jpg) | 111 | 수인분당선 노선도와 모란역 환승 도판 | rendered-page |
+| [vol-04-page-113.jpg](assets/pages/vol-04/vol-04-page-113.jpg) | 113 | 수인분당선 역별 이용객 표와 신분당선 개통식 | rendered-page |
+| [vol-04-page-114.jpg](assets/pages/vol-04/vol-04-page-114.jpg) | 114 | 신분당선 노선도와 판교·정자·미금역 설명 | rendered-page |
+| [vol-04-page-115.jpg](assets/pages/vol-04/vol-04-page-115.jpg) | 115 | 수도권 전철 경강선 노선도와 개통 사진 | rendered-page |
+| [vol-04-page-116.jpg](assets/pages/vol-04/vol-04-page-116.jpg) | 116 | 경강선 전체 노선도 | rendered-page |
+| [vol-04-page-117.jpg](assets/pages/vol-04/vol-04-page-117.jpg) | 117 | GTX 8개 노선도와 경강선·GTX-A 환승역 성남역 | rendered-page |
+| [vol-04-page-119.jpg](assets/pages/vol-04/vol-04-page-119.jpg) | 119 | 1970년대 성남-서울 버스 운행과 승객 | rendered-page |
+| [vol-04-page-120.jpg](assets/pages/vol-04/vol-04-page-120.jpg) | 120 | 성남대로와 모란시장 일대 버스 교통로 | rendered-page |
+| [vol-04-page-121.jpg](assets/pages/vol-04/vol-04-page-121.jpg) | 121 | 성남시 구간의 버스 노선 운행 체계 | rendered-page |
+| [vol-04-page-122.jpg](assets/pages/vol-04/vol-04-page-122.jpg) | 122 | 모란시장 시외버스 정류장과 성남대로 | rendered-page |
+| [vol-04-page-124.jpg](assets/pages/vol-04/vol-04-page-124.jpg) | 124 | 성남대로 변 성남시외버스터미널, 1985 | rendered-page |
+| [vol-04-page-125.jpg](assets/pages/vol-04/vol-04-page-125.jpg) | 125 | 모란시장 인근 성남시외버스터미널, 1986 | rendered-page |
+| [vol-04-page-126.jpg](assets/pages/vol-04/vol-04-page-126.jpg) | 126 | 야탑동 성남종합버스터미널 종합쇼핑몰, 2003 | rendered-page |
+| [vol-04-page-129.jpg](assets/pages/vol-04/vol-04-page-129.jpg) | 129 | 성남종합버스터미널 폐쇄와 임시 버스 승강장 | rendered-page |
+| [vol-04-page-134.jpg](assets/pages/vol-04/vol-04-page-134.jpg) | 134 | 모란전통시장과 상설시장 풍경 | rendered-page |
+| [vol-04-page-139.jpg](assets/pages/vol-04/vol-04-page-139.jpg) | 139 | 모란개척단과 모란장 형성 | rendered-page |
+| [vol-04-page-141.jpg](assets/pages/vol-04/vol-04-page-141.jpg) | 141 | 모란종합시장 분양 광고, 1983 | rendered-page |
+| [vol-04-page-142.jpg](assets/pages/vol-04/vol-04-page-142.jpg) | 142 | 모란민속5일장 풍경, 1989 | rendered-page |
+| [vol-04-page-143.jpg](assets/pages/vol-04/vol-04-page-143.jpg) | 143 | 모란시장 위치 변화 | rendered-page |
+| [vol-04-page-144.jpg](assets/pages/vol-04/vol-04-page-144.jpg) | 144 | 모란시장 공영주차장과 모란민속5일장 | rendered-page |
+| [vol-04-page-145.jpg](assets/pages/vol-04/vol-04-page-145.jpg) | 145 | 모란종합시장 기름 특화 거리와 모란민속5일장 정비 | rendered-page |
+| [vol-04-page-147.jpg](assets/pages/vol-04/vol-04-page-147.jpg) | 147 | 성남시 상설시장 현황 표 | rendered-page |
 
 ## 핵심 표/자료 위치
 

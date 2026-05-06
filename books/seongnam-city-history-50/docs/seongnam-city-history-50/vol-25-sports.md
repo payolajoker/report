@@ -18,7 +18,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 체육시설 표, 학교 운동부 표, 장애인 생활체육 표, 선수 사진과 시설 사진이 많아 1-120쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 체육시설 표, 학교 운동부 표, 장애인 생활체육 표, 선수 사진과 시설 사진이 많아 1-120쪽 전체를 `assets/pages/vol-25/`에 렌더링했다.
 - 주요 표 일부는 Markdown 표로 재구성했고, 넓거나 복합적인 표는 텍스트층과 페이지 이미지 양쪽으로 보존했다.
 - 공용 색인 병합용 통계·도판 후보와 확인 필요 수치는 `_work/vol-25-integration.md`에 분리했다.
 
@@ -72,61 +72,61 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 | --- | --- | --- | --- |
-| [001](assets/pages/vol-25-page-001.jpg) | 1 | 권 표지와 제목, 성남의 체육 개관 문구 | rendered-page |
-| [002](assets/pages/vol-25-page-002.jpg) | 2 | 권별 목차 Part 1 | rendered-page |
-| [003](assets/pages/vol-25-page-003.jpg) | 3 | 권별 목차 Part 2-5 | rendered-page |
-| [004](assets/pages/vol-25-page-004.jpg) | 4 | Part 1 표지: 대한민국 체육사 개관 | rendered-page |
-| [006](assets/pages/vol-25-page-006.jpg) | 6 | 제68회 경기도체육대회(2022) 도판 | rendered-page |
-| [008](assets/pages/vol-25-page-008.jpg) | 8 | 고구려 무용총 「수렵도」 도판 | rendered-page |
-| [011](assets/pages/vol-25-page-011.jpg) | 11 | 조선시대 군사훈련과 왕의 참관 도판 | rendered-page |
-| [021](assets/pages/vol-25-page-021.jpg) | 21 | 성남종합스포츠센터·황새울국민체육센터·2023년 대회 성과 서술 | rendered-page |
-| [022](assets/pages/vol-25-page-022.jpg) | 22 | Part 2 표지: 성남시 체육의 범주 및 활동 | rendered-page |
-| [034](assets/pages/vol-25-page-034.jpg) | 34 | 2023년도 성남시 학교 운동부 현황 표 | rendered-page |
-| [041](assets/pages/vol-25-page-041.jpg) | 41 | 1994년 개장한 분당올림픽스포츠센터 도판 | rendered-page |
-| [052](assets/pages/vol-25-page-052.jpg) | 52 | 2023년 성남시청 소속 직장운동부 현황 표 | rendered-page |
-| [055](assets/pages/vol-25-page-055.jpg) | 55 | 성남FC 비전선포 및 출정식, 엠블럼 도판 | rendered-page |
-| [063](assets/pages/vol-25-page-063.jpg) | 63 | 제13회 경기도 장애인체육대회 종합우승 도판 | rendered-page |
-| [064](assets/pages/vol-25-page-064.jpg) | 64 | 성남시 장애인 생활체육 프로그램 표 | rendered-page |
-| [065](assets/pages/vol-25-page-065.jpg) | 65 | 성남시 장애인 생활체육 클럽 현황 표 시작 | rendered-page |
-| [066](assets/pages/vol-25-page-066.jpg) | 66 | 장애인 생활체육 클럽 현황 표 종료 | rendered-page |
-| [067](assets/pages/vol-25-page-067.jpg) | 67 | Part 3 표지: 체육시설과 운영 | rendered-page |
-| [071](assets/pages/vol-25-page-071.jpg) | 71 | 성남종합운동장 전경 | rendered-page |
-| [072](assets/pages/vol-25-page-072.jpg) | 72 | 성남종합운동장 시설 배치도와 시설 규모 표 시작 | rendered-page |
-| [073](assets/pages/vol-25-page-073.jpg) | 73 | 성남종합운동장 시설 규모 표 계속과 성남종합스포츠센터 표 | rendered-page |
-| [074](assets/pages/vol-25-page-074.jpg) | 74 | 성남종합스포츠센터 배치도, 성남종합운동장 주경기장 전경 | rendered-page |
-| [075](assets/pages/vol-25-page-075.jpg) | 75 | 성남종합스포츠센터, 하키장, 인조잔디구장 전경 | rendered-page |
-| [076](assets/pages/vol-25-page-076.jpg) | 76 | 성남종합운동장 세부 시설 사진 묶음 | rendered-page |
-| [077](assets/pages/vol-25-page-077.jpg) | 77 | 탄천종합운동장 기공식, 시설 배치도, 전경 | rendered-page |
-| [078](assets/pages/vol-25-page-078.jpg) | 78 | 탄천종합운동장 시설 규모 표 | rendered-page |
-| [079](assets/pages/vol-25-page-079.jpg) | 79 | 판교스포츠센터 주요 시설 표와 전경 | rendered-page |
-| [080](assets/pages/vol-25-page-080.jpg) | 80 | 평생스포츠센터·황새울국민체육센터 주요 시설 표 | rendered-page |
-| [081](assets/pages/vol-25-page-081.jpg) | 81 | 성남축구센터 주요 시설 표와 전경 | rendered-page |
-| [082](assets/pages/vol-25-page-082.jpg) | 82 | 여수공원 유소년 축구장 도판 | rendered-page |
-| [083](assets/pages/vol-25-page-083.jpg) | 83 | 지역별 소규모 체육시설 표 | rendered-page |
-| [086](assets/pages/vol-25-page-086.jpg) | 86 | 성남시 체육교실 운영 현황 표 | rendered-page |
-| [087](assets/pages/vol-25-page-087.jpg) | 87 | Part 4 표지: 성남의 스포츠산업 | rendered-page |
-| [089](assets/pages/vol-25-page-089.jpg) | 89 | 분당구 백현동 남서울CC 골프장 도판 | rendered-page |
-| [091](assets/pages/vol-25-page-091.jpg) | 91 | 탄천 야외스케이트장, 성남종합운동장 눈썰매장 도판 | rendered-page |
-| [092](assets/pages/vol-25-page-092.jpg) | 92 | 탄천·화랑공원 물놀이장 도판 | rendered-page |
-| [093](assets/pages/vol-25-page-093.jpg) | 93 | 능골·섬말·위례역사공원·대원공원 물놀이장 도판 | rendered-page |
-| [094](assets/pages/vol-25-page-094.jpg) | 94 | 리본 스피닝 바이크 도판 | rendered-page |
-| [095](assets/pages/vol-25-page-095.jpg) | 95 | 어르신 체육시설 이용 지원, 포스트 코로나19 감염병 심포지엄 도판 | rendered-page |
-| [100](assets/pages/vol-25-page-100.jpg) | 100 | Part 5 표지: 경기 실적과 성남의 체육인 | rendered-page |
-| [102](assets/pages/vol-25-page-102.jpg) | 102 | 제13회 경기도 장애인체육대회 도판과 2023년 대회 성과 | rendered-page |
-| [103](assets/pages/vol-25-page-103.jpg) | 103 | 제69회 경기도 체육대회 개막식, 2022년 주요 체육대회 입상 현황 표 | rendered-page |
-| [105](assets/pages/vol-25-page-105.jpg) | 105 | 곽민정·김관우·김길리·김다겸 선수 도판 | rendered-page |
-| [106](assets/pages/vol-25-page-106.jpg) | 106 | 김민석·김종욱 선수 도판 | rendered-page |
-| [107](assets/pages/vol-25-page-107.jpg) | 107 | 김지수·김하성·김현영 선수 도판 | rendered-page |
-| [108](assets/pages/vol-25-page-108.jpg) | 108 | 남현희 선수 도판 | rendered-page |
-| [109](assets/pages/vol-25-page-109.jpg) | 109 | 박지수·박지원 선수 도판 | rendered-page |
-| [110](assets/pages/vol-25-page-110.jpg) | 110 | 신태용 감독 도판 | rendered-page |
-| [111](assets/pages/vol-25-page-111.jpg) | 111 | 심권호 선수 도판 | rendered-page |
-| [112](assets/pages/vol-25-page-112.jpg) | 112 | 오상욱·이준서 선수 도판 | rendered-page |
-| [113](assets/pages/vol-25-page-113.jpg) | 113 | 이화준·임은지·임춘애 선수 도판 | rendered-page |
-| [115](assets/pages/vol-25-page-115.jpg) | 115 | 최민정·홍효진·황의조 선수 도판 | rendered-page |
-| [116](assets/pages/vol-25-page-116.jpg) | 116 | 성남시체육회·성남시장애인체육회 종목단체 현황 표 | rendered-page |
-| [117](assets/pages/vol-25-page-117.jpg) | 117 | 참고문헌 | rendered-page |
-| [119](assets/pages/vol-25-page-119.jpg) | 119 | 판권 | rendered-page |
+| [001](assets/pages/vol-25/vol-25-page-001.jpg) | 1 | 권 표지와 제목, 성남의 체육 개관 문구 | rendered-page |
+| [002](assets/pages/vol-25/vol-25-page-002.jpg) | 2 | 권별 목차 Part 1 | rendered-page |
+| [003](assets/pages/vol-25/vol-25-page-003.jpg) | 3 | 권별 목차 Part 2-5 | rendered-page |
+| [004](assets/pages/vol-25/vol-25-page-004.jpg) | 4 | Part 1 표지: 대한민국 체육사 개관 | rendered-page |
+| [006](assets/pages/vol-25/vol-25-page-006.jpg) | 6 | 제68회 경기도체육대회(2022) 도판 | rendered-page |
+| [008](assets/pages/vol-25/vol-25-page-008.jpg) | 8 | 고구려 무용총 「수렵도」 도판 | rendered-page |
+| [011](assets/pages/vol-25/vol-25-page-011.jpg) | 11 | 조선시대 군사훈련과 왕의 참관 도판 | rendered-page |
+| [021](assets/pages/vol-25/vol-25-page-021.jpg) | 21 | 성남종합스포츠센터·황새울국민체육센터·2023년 대회 성과 서술 | rendered-page |
+| [022](assets/pages/vol-25/vol-25-page-022.jpg) | 22 | Part 2 표지: 성남시 체육의 범주 및 활동 | rendered-page |
+| [034](assets/pages/vol-25/vol-25-page-034.jpg) | 34 | 2023년도 성남시 학교 운동부 현황 표 | rendered-page |
+| [041](assets/pages/vol-25/vol-25-page-041.jpg) | 41 | 1994년 개장한 분당올림픽스포츠센터 도판 | rendered-page |
+| [052](assets/pages/vol-25/vol-25-page-052.jpg) | 52 | 2023년 성남시청 소속 직장운동부 현황 표 | rendered-page |
+| [055](assets/pages/vol-25/vol-25-page-055.jpg) | 55 | 성남FC 비전선포 및 출정식, 엠블럼 도판 | rendered-page |
+| [063](assets/pages/vol-25/vol-25-page-063.jpg) | 63 | 제13회 경기도 장애인체육대회 종합우승 도판 | rendered-page |
+| [064](assets/pages/vol-25/vol-25-page-064.jpg) | 64 | 성남시 장애인 생활체육 프로그램 표 | rendered-page |
+| [065](assets/pages/vol-25/vol-25-page-065.jpg) | 65 | 성남시 장애인 생활체육 클럽 현황 표 시작 | rendered-page |
+| [066](assets/pages/vol-25/vol-25-page-066.jpg) | 66 | 장애인 생활체육 클럽 현황 표 종료 | rendered-page |
+| [067](assets/pages/vol-25/vol-25-page-067.jpg) | 67 | Part 3 표지: 체육시설과 운영 | rendered-page |
+| [071](assets/pages/vol-25/vol-25-page-071.jpg) | 71 | 성남종합운동장 전경 | rendered-page |
+| [072](assets/pages/vol-25/vol-25-page-072.jpg) | 72 | 성남종합운동장 시설 배치도와 시설 규모 표 시작 | rendered-page |
+| [073](assets/pages/vol-25/vol-25-page-073.jpg) | 73 | 성남종합운동장 시설 규모 표 계속과 성남종합스포츠센터 표 | rendered-page |
+| [074](assets/pages/vol-25/vol-25-page-074.jpg) | 74 | 성남종합스포츠센터 배치도, 성남종합운동장 주경기장 전경 | rendered-page |
+| [075](assets/pages/vol-25/vol-25-page-075.jpg) | 75 | 성남종합스포츠센터, 하키장, 인조잔디구장 전경 | rendered-page |
+| [076](assets/pages/vol-25/vol-25-page-076.jpg) | 76 | 성남종합운동장 세부 시설 사진 묶음 | rendered-page |
+| [077](assets/pages/vol-25/vol-25-page-077.jpg) | 77 | 탄천종합운동장 기공식, 시설 배치도, 전경 | rendered-page |
+| [078](assets/pages/vol-25/vol-25-page-078.jpg) | 78 | 탄천종합운동장 시설 규모 표 | rendered-page |
+| [079](assets/pages/vol-25/vol-25-page-079.jpg) | 79 | 판교스포츠센터 주요 시설 표와 전경 | rendered-page |
+| [080](assets/pages/vol-25/vol-25-page-080.jpg) | 80 | 평생스포츠센터·황새울국민체육센터 주요 시설 표 | rendered-page |
+| [081](assets/pages/vol-25/vol-25-page-081.jpg) | 81 | 성남축구센터 주요 시설 표와 전경 | rendered-page |
+| [082](assets/pages/vol-25/vol-25-page-082.jpg) | 82 | 여수공원 유소년 축구장 도판 | rendered-page |
+| [083](assets/pages/vol-25/vol-25-page-083.jpg) | 83 | 지역별 소규모 체육시설 표 | rendered-page |
+| [086](assets/pages/vol-25/vol-25-page-086.jpg) | 86 | 성남시 체육교실 운영 현황 표 | rendered-page |
+| [087](assets/pages/vol-25/vol-25-page-087.jpg) | 87 | Part 4 표지: 성남의 스포츠산업 | rendered-page |
+| [089](assets/pages/vol-25/vol-25-page-089.jpg) | 89 | 분당구 백현동 남서울CC 골프장 도판 | rendered-page |
+| [091](assets/pages/vol-25/vol-25-page-091.jpg) | 91 | 탄천 야외스케이트장, 성남종합운동장 눈썰매장 도판 | rendered-page |
+| [092](assets/pages/vol-25/vol-25-page-092.jpg) | 92 | 탄천·화랑공원 물놀이장 도판 | rendered-page |
+| [093](assets/pages/vol-25/vol-25-page-093.jpg) | 93 | 능골·섬말·위례역사공원·대원공원 물놀이장 도판 | rendered-page |
+| [094](assets/pages/vol-25/vol-25-page-094.jpg) | 94 | 리본 스피닝 바이크 도판 | rendered-page |
+| [095](assets/pages/vol-25/vol-25-page-095.jpg) | 95 | 어르신 체육시설 이용 지원, 포스트 코로나19 감염병 심포지엄 도판 | rendered-page |
+| [100](assets/pages/vol-25/vol-25-page-100.jpg) | 100 | Part 5 표지: 경기 실적과 성남의 체육인 | rendered-page |
+| [102](assets/pages/vol-25/vol-25-page-102.jpg) | 102 | 제13회 경기도 장애인체육대회 도판과 2023년 대회 성과 | rendered-page |
+| [103](assets/pages/vol-25/vol-25-page-103.jpg) | 103 | 제69회 경기도 체육대회 개막식, 2022년 주요 체육대회 입상 현황 표 | rendered-page |
+| [105](assets/pages/vol-25/vol-25-page-105.jpg) | 105 | 곽민정·김관우·김길리·김다겸 선수 도판 | rendered-page |
+| [106](assets/pages/vol-25/vol-25-page-106.jpg) | 106 | 김민석·김종욱 선수 도판 | rendered-page |
+| [107](assets/pages/vol-25/vol-25-page-107.jpg) | 107 | 김지수·김하성·김현영 선수 도판 | rendered-page |
+| [108](assets/pages/vol-25/vol-25-page-108.jpg) | 108 | 남현희 선수 도판 | rendered-page |
+| [109](assets/pages/vol-25/vol-25-page-109.jpg) | 109 | 박지수·박지원 선수 도판 | rendered-page |
+| [110](assets/pages/vol-25/vol-25-page-110.jpg) | 110 | 신태용 감독 도판 | rendered-page |
+| [111](assets/pages/vol-25/vol-25-page-111.jpg) | 111 | 심권호 선수 도판 | rendered-page |
+| [112](assets/pages/vol-25/vol-25-page-112.jpg) | 112 | 오상욱·이준서 선수 도판 | rendered-page |
+| [113](assets/pages/vol-25/vol-25-page-113.jpg) | 113 | 이화준·임은지·임춘애 선수 도판 | rendered-page |
+| [115](assets/pages/vol-25/vol-25-page-115.jpg) | 115 | 최민정·홍효진·황의조 선수 도판 | rendered-page |
+| [116](assets/pages/vol-25/vol-25-page-116.jpg) | 116 | 성남시체육회·성남시장애인체육회 종목단체 현황 표 | rendered-page |
+| [117](assets/pages/vol-25/vol-25-page-117.jpg) | 117 | 참고문헌 | rendered-page |
+| [119](assets/pages/vol-25/vol-25-page-119.jpg) | 119 | 판권 | rendered-page |
 
 ## 핵심 표/자료 위치
 

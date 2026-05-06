@@ -5,7 +5,7 @@
 - source_url: https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378691
 - ocr_used: false
 - extraction: embedded PDF text via pdftotext -layout
-- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/` 경로로 연결되어 있으며, 핵심 지명은 `docs/seongnam-city-history-50/toponyms.md`에도 별도 색인되어 있다.
+- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/vol-03/` 경로로 연결되어 있으며, 핵심 지명은 `docs/seongnam-city-history-50/toponyms.md`에도 별도 색인되어 있다.
 
 ---
 collection_title: "성남시사 50년사"
@@ -26,7 +26,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 고지도, 지리지 원문 이미지, 지명·행정구역 표, 지역 사진이 있는 주요 쪽은 `assets/pages/`에 렌더링했다.
+- 고지도, 지리지 원문 이미지, 지명·행정구역 표, 지역 사진이 있는 주요 쪽은 `assets/pages/vol-03/`에 렌더링했다.
 
 ## 권별 목차
 
@@ -48,56 +48,56 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-03-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-012.jpg) | 12 | 일제강점기 1:50,000 지형도 위 성남시 범위와 행정 면리 | rendered-page |
-| [vol-03-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-015.jpg) | 15 | 조선시대 지리지 속 성남시 행정 단위 표 | rendered-page |
-| [vol-03-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-016.jpg) | 16 | 1700년 이전 지리지 속 성남시 지명 표 | rendered-page |
-| [vol-03-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-019.jpg) | 19 | 『동여비고』 속 성남시 관련 지명과 현재 위치 | rendered-page |
-| [vol-03-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-020.jpg) | 20 | 『해동지도』 광주부 지도에 표시된 성남시 지명 표 | rendered-page |
-| [vol-03-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-022.jpg) | 22 | 『해동지도』 「광주부지도」와 성남시 및 현재 위치 | rendered-page |
-| [vol-03-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-023.jpg) | 23 | 정상기 지도 계통 설명 | rendered-page |
-| [vol-03-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-024.jpg) | 24 | 정상기·정철조 지도 계통의 성남시 지명 | rendered-page |
-| [vol-03-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-026.jpg) | 26 | 신경준 지도 계통 『팔도군현지도』의 성남시 지명 | rendered-page |
-| [vol-03-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-028.jpg) | 28 | 『해동여지도』 속 성남시 관련 지명 | rendered-page |
-| [vol-03-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-029.jpg) | 29 | 정후조 지도 계통의 성남시 지명 | rendered-page |
-| [vol-03-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-031.jpg) | 31 | 『청구도』 속 성남시 관련 지명과 현재 위치 | rendered-page |
-| [vol-03-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-032.jpg) | 32 | 필사본 『대동여지도』 18첩 속 성남시 관련 지명 | rendered-page |
-| [vol-03-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-033.jpg) | 33 | 『동여도』 23첩 속 성남시 관련 지명 | rendered-page |
-| [vol-03-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-034.jpg) | 34 | 『대동여지도』 22첩 속 성남시 관련 지명 | rendered-page |
-| [vol-03-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-036.jpg) | 36 | 1872년 「광주전도」 속 성남시 관련 지명과 현재 위치 | rendered-page |
-| [vol-03-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-037.jpg) | 37 | 『조선지지자료』에 기록된 광주군 낙생면 지명 | rendered-page |
-| [vol-03-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-038.jpg) | 38 | 『조선지지자료』에 기록된 광주군 대왕면·세촌면 지명 | rendered-page |
-| [vol-03-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-039.jpg) | 39 | 『조선지지자료』에 기록된 광주군 돌마면 지명 | rendered-page |
-| [vol-03-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-040.jpg) | 40 | 일제강점기 1:50,000 지형도에 표시된 성남 지역 지명 | rendered-page |
-| [vol-03-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-044.jpg) | 44 | 『고려사』 지리지 양광도 광주목 연혁 | rendered-page |
-| [vol-03-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-048.jpg) | 48 | 『세종실록지리지』 광주목 산천과 호수 | rendered-page |
-| [vol-03-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-050.jpg) | 50 | 『신증동국여지승람』 광주목 건치연혁 | rendered-page |
-| [vol-03-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-057.jpg) | 57 | 『여지도서』 속 광주 지도 | rendered-page |
-| [vol-03-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-060.jpg) | 60 | 『광주부읍지』 표지와 방리조 돌마면·낙생면 부분 | rendered-page |
-| [vol-03-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-063.jpg) | 63 | 『중정남한지』 산천조와 면별 위치·경계 표 | rendered-page |
-| [vol-03-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-067.jpg) | 67 | 『대동지지』와 성남 통과 교통로 설명 | rendered-page |
-| [vol-03-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-069.jpg) | 69 | 조선 후기 실학 지리서 『택리지』 | rendered-page |
-| [vol-03-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-071.jpg) | 71 | 신경준 『도로고』와 성남 관련 도로 기록 | rendered-page |
-| [vol-03-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-072.jpg) | 72 | 『도로고』 동래로·봉화로 관련 설명 | rendered-page |
-| [vol-03-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-074.jpg) | 74 | 『광여도』 광주부 성남 지역 부분 | rendered-page |
-| [vol-03-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-076.jpg) | 76 | 갈마치고개 생태 이동 통로 | rendered-page |
-| [vol-03-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-079.jpg) | 79 | 『청구도』 낙생역 부분 | rendered-page |
-| [vol-03-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-081.jpg) | 81 | 『해동여지도』 속 탄천 부분 | rendered-page |
-| [vol-03-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-083.jpg) | 83 | 「광주부지도」에 표기된 율목창과 음촌주막 | rendered-page |
-| [vol-03-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-087.jpg) | 87 | 망경암의 가을 | rendered-page |
-| [vol-03-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-090.jpg) | 90 | 『광여도』 광주부 기우제단 | rendered-page |
-| [vol-03-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-091.jpg) | 91 | 태허정 최항의 「무진정기」 | rendered-page |
-| [vol-03-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-095.jpg) | 95 | 『성종실록』 파오달 기록 | rendered-page |
-| [vol-03-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-098.jpg) | 98 | 1970년대 초 복정2리 마을회관 앞 | rendered-page |
-| [vol-03-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-099.jpg) | 99 | 수정구 수진동 항공 전경 | rendered-page |
-| [vol-03-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-100.jpg) | 100 | 1970-1980년대 신흥동 팔각정 | rendered-page |
-| [vol-03-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-102.jpg) | 102 | 창곡동 지명 설명 | rendered-page |
-| [vol-03-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-103.jpg) | 103 | 수정구 태평동 일대 | rendered-page |
-| [vol-03-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-105.jpg) | 105 | 중원구 상대원동 성남하이테크밸리 전경 | rendered-page |
-| [vol-03-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-106.jpg) | 106 | 신도시 개발 전 여수동 갈매기살촌 전경 | rendered-page |
-| [vol-03-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-109.jpg) | 109 | 분당구 금곡동 야경 | rendered-page |
-| [vol-03-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-112.jpg) | 112 | 1980년대 삼평동 모습 | rendered-page |
-| [vol-03-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-114.jpg) | 114 | 1970년대 초 수내동 전경 | rendered-page |
-| [vol-03-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03-page-117.jpg) | 117 | 초고층 빌딩과 아파트가 가득한 정자동 전경 | rendered-page |
+| [vol-03-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-012.jpg) | 12 | 일제강점기 1:50,000 지형도 위 성남시 범위와 행정 면리 | rendered-page |
+| [vol-03-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-015.jpg) | 15 | 조선시대 지리지 속 성남시 행정 단위 표 | rendered-page |
+| [vol-03-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-016.jpg) | 16 | 1700년 이전 지리지 속 성남시 지명 표 | rendered-page |
+| [vol-03-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-019.jpg) | 19 | 『동여비고』 속 성남시 관련 지명과 현재 위치 | rendered-page |
+| [vol-03-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-020.jpg) | 20 | 『해동지도』 광주부 지도에 표시된 성남시 지명 표 | rendered-page |
+| [vol-03-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-022.jpg) | 22 | 『해동지도』 「광주부지도」와 성남시 및 현재 위치 | rendered-page |
+| [vol-03-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-023.jpg) | 23 | 정상기 지도 계통 설명 | rendered-page |
+| [vol-03-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-024.jpg) | 24 | 정상기·정철조 지도 계통의 성남시 지명 | rendered-page |
+| [vol-03-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-026.jpg) | 26 | 신경준 지도 계통 『팔도군현지도』의 성남시 지명 | rendered-page |
+| [vol-03-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-028.jpg) | 28 | 『해동여지도』 속 성남시 관련 지명 | rendered-page |
+| [vol-03-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-029.jpg) | 29 | 정후조 지도 계통의 성남시 지명 | rendered-page |
+| [vol-03-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-031.jpg) | 31 | 『청구도』 속 성남시 관련 지명과 현재 위치 | rendered-page |
+| [vol-03-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-032.jpg) | 32 | 필사본 『대동여지도』 18첩 속 성남시 관련 지명 | rendered-page |
+| [vol-03-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-033.jpg) | 33 | 『동여도』 23첩 속 성남시 관련 지명 | rendered-page |
+| [vol-03-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-034.jpg) | 34 | 『대동여지도』 22첩 속 성남시 관련 지명 | rendered-page |
+| [vol-03-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-036.jpg) | 36 | 1872년 「광주전도」 속 성남시 관련 지명과 현재 위치 | rendered-page |
+| [vol-03-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-037.jpg) | 37 | 『조선지지자료』에 기록된 광주군 낙생면 지명 | rendered-page |
+| [vol-03-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-038.jpg) | 38 | 『조선지지자료』에 기록된 광주군 대왕면·세촌면 지명 | rendered-page |
+| [vol-03-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-039.jpg) | 39 | 『조선지지자료』에 기록된 광주군 돌마면 지명 | rendered-page |
+| [vol-03-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-040.jpg) | 40 | 일제강점기 1:50,000 지형도에 표시된 성남 지역 지명 | rendered-page |
+| [vol-03-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-044.jpg) | 44 | 『고려사』 지리지 양광도 광주목 연혁 | rendered-page |
+| [vol-03-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-048.jpg) | 48 | 『세종실록지리지』 광주목 산천과 호수 | rendered-page |
+| [vol-03-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-050.jpg) | 50 | 『신증동국여지승람』 광주목 건치연혁 | rendered-page |
+| [vol-03-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-057.jpg) | 57 | 『여지도서』 속 광주 지도 | rendered-page |
+| [vol-03-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-060.jpg) | 60 | 『광주부읍지』 표지와 방리조 돌마면·낙생면 부분 | rendered-page |
+| [vol-03-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-063.jpg) | 63 | 『중정남한지』 산천조와 면별 위치·경계 표 | rendered-page |
+| [vol-03-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-067.jpg) | 67 | 『대동지지』와 성남 통과 교통로 설명 | rendered-page |
+| [vol-03-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-069.jpg) | 69 | 조선 후기 실학 지리서 『택리지』 | rendered-page |
+| [vol-03-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-071.jpg) | 71 | 신경준 『도로고』와 성남 관련 도로 기록 | rendered-page |
+| [vol-03-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-072.jpg) | 72 | 『도로고』 동래로·봉화로 관련 설명 | rendered-page |
+| [vol-03-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-074.jpg) | 74 | 『광여도』 광주부 성남 지역 부분 | rendered-page |
+| [vol-03-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-076.jpg) | 76 | 갈마치고개 생태 이동 통로 | rendered-page |
+| [vol-03-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-079.jpg) | 79 | 『청구도』 낙생역 부분 | rendered-page |
+| [vol-03-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-081.jpg) | 81 | 『해동여지도』 속 탄천 부분 | rendered-page |
+| [vol-03-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-083.jpg) | 83 | 「광주부지도」에 표기된 율목창과 음촌주막 | rendered-page |
+| [vol-03-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-087.jpg) | 87 | 망경암의 가을 | rendered-page |
+| [vol-03-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-090.jpg) | 90 | 『광여도』 광주부 기우제단 | rendered-page |
+| [vol-03-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-091.jpg) | 91 | 태허정 최항의 「무진정기」 | rendered-page |
+| [vol-03-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-095.jpg) | 95 | 『성종실록』 파오달 기록 | rendered-page |
+| [vol-03-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-098.jpg) | 98 | 1970년대 초 복정2리 마을회관 앞 | rendered-page |
+| [vol-03-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-099.jpg) | 99 | 수정구 수진동 항공 전경 | rendered-page |
+| [vol-03-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-100.jpg) | 100 | 1970-1980년대 신흥동 팔각정 | rendered-page |
+| [vol-03-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-102.jpg) | 102 | 창곡동 지명 설명 | rendered-page |
+| [vol-03-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-103.jpg) | 103 | 수정구 태평동 일대 | rendered-page |
+| [vol-03-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-105.jpg) | 105 | 중원구 상대원동 성남하이테크밸리 전경 | rendered-page |
+| [vol-03-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-106.jpg) | 106 | 신도시 개발 전 여수동 갈매기살촌 전경 | rendered-page |
+| [vol-03-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-109.jpg) | 109 | 분당구 금곡동 야경 | rendered-page |
+| [vol-03-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-112.jpg) | 112 | 1980년대 삼평동 모습 | rendered-page |
+| [vol-03-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-114.jpg) | 114 | 1970년대 초 수내동 전경 | rendered-page |
+| [vol-03-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-03/vol-03-page-117.jpg) | 117 | 초고층 빌딩과 아파트가 가득한 정자동 전경 | rendered-page |
 
 ## 핵심 표/자료 위치
 

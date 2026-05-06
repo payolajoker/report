@@ -8,7 +8,7 @@
 - OCR status: OCR 미사용. PDF embedded text layer를 `pdftotext -layout`로 추출.
 - Markdown: `books/seongnam-city-history-50/docs/seongnam-city-history-50/vol-47-youth-seongnam-city-history.md`
 - LLM bundle: `books/seongnam-city-history-50/dist/seongnam-history-50-vol-47.llm.md`
-- Rendered images: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-47-page-001.jpg` ... `vol-47-page-144.jpg`
+- Rendered images: `books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/vol-47/vol-47-page-001.jpg` ... `vol-47-page-144.jpg`
 - Deferred ranges: 없음.
 
 ## Structure To Merge

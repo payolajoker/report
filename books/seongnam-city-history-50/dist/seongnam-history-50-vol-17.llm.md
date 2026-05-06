@@ -6,7 +6,7 @@
 - ocr_used: false
 - extraction: embedded PDF text via pdftotext -layout
 - rendered_pages: 160
-- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/` 경로로 연결되어 있다.
+- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/vol-17/` 경로로 연결되어 있다.
 
 ---
 collection_title: "성남시사 50년사"
@@ -28,7 +28,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 산업구조·통계·그래프·정책 구상도가 많은 권차라서 1-160쪽 전체를 `assets/pages/`에 렌더링했다.
+- 산업구조·통계·그래프·정책 구상도가 많은 권차라서 1-160쪽 전체를 `assets/pages/vol-17/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-17-integration.md`에 별도 정리했다.
 
 ## 권별 목차
@@ -102,258 +102,258 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-17-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-001.jpg) | 1 | 표지와 권명: 성남의 산업구조 | title-page |
-| [vol-17-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-002.jpg) | 2 | 권별 목차 1: Part 1-2 | toc |
-| [vol-17-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-003.jpg) | 3 | 권별 목차 2: Part 3-4 | toc |
-| [vol-17-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-006.jpg) | 6 | 한국의 경제성장률 그래프 | data-rendered |
-| [vol-17-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-007.jpg) | 7 | 한국 산업별 GDP 비중 변화 추이와 표 | data-rendered |
-| [vol-17-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-008.jpg) | 8 | 한국 산업별 고용 비중 변화 | data-rendered |
-| [vol-17-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-009.jpg) | 9 | 1977년 100억 달러 수출의 날 기념 아치 | figure-rendered |
-| [vol-17-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-012.jpg) | 12 | 제조업 세부 산업별 GDP 대비 비중 | data-rendered |
-| [vol-17-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-013.jpg) | 13 | 제조업 세부 산업별 부가가치 생산 증가율 | figure-rendered |
-| [vol-17-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-014.jpg) | 14 | 서비스업 세부 산업별 GDP·부가가치 생산 증가율 | figure-rendered |
-| [vol-17-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-015.jpg) | 15 | 10대 수출 품목으로 본 제조업 구조 고도화 | figure-rendered |
-| [vol-17-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-016.jpg) | 16 | 시도별 지역내총생산 표 | data-rendered |
-| [vol-17-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-017.jpg) | 17 | 수도권 내 공업 분포와 경기도 성장률 | figure-rendered |
-| [vol-17-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-018.jpg) | 18 | 경기도 GDP·제조업·서비스업 비중 표 | data-rendered |
-| [vol-17-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-023.jpg) | 23 | 성남 제2공업단지 오리엔트시계 생산 현장 | figure-rendered |
-| [vol-17-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-024.jpg) | 24 | 1980년대 성남 제2·3공업단지 전경 | figure-rendered |
-| [vol-17-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-025.jpg) | 25 | 1990년대 분당신도시 전경 | figure-rendered |
-| [vol-17-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-026.jpg) | 26 | 판교테크노밸리 전경 | figure-rendered |
-| [vol-17-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-027.jpg) | 27 | 성남시 4차산업 특별도시 조성 구상도 | data-rendered |
-| [vol-17-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-028.jpg) | 28 | 경기도와 31개 시군 명목 GRDP 표 | data-rendered |
-| [vol-17-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-029.jpg) | 29 | 경기도 31개 시군 실질 GRDP 성장률 표 | data-rendered |
-| [vol-17-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-030.jpg) | 30 | 경기도 주요 시군 1인당 명목 GRDP 표 | data-rendered |
-| [vol-17-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-035.jpg) | 35 | 성남 4차산업 특화 수준과 사업체·종사자 수 | figure-rendered |
-| [vol-17-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-036.jpg) | 36 | 성남 벤처기업·기업부설연구소와 콘텐츠 수출 현황 | data-rendered |
-| [vol-17-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-037.jpg) | 37 | 성남 AI·자율주행 특허와 콘텐츠 수출 서술 | data-rendered |
-| [vol-17-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-040.jpg) | 40 | 시 승격 이전 농가·취업자 수 표 | data-rendered |
-| [vol-17-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-043.jpg) | 43 | 성남 경지 면적·업태별 농가 표 | data-rendered |
-| [vol-17-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-044.jpg) | 44 | 경작 규모별 농가와 농기구 보유 표 | data-rendered |
-| [vol-17-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-048.jpg) | 48 | 1971년 성남 지역 용도별 토지 이용 계획 | figure-rendered |
-| [vol-17-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-049.jpg) | 49 | 성남시 농업 현황 표 | data-rendered |
-| [vol-17-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-051.jpg) | 51 | 성남시 제조업체 현황과 제1공단 사진 | data-rendered |
-| [vol-17-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-052.jpg) | 52 | 1973년 공단·금융기관·시장 현황 표 | data-rendered |
-| [vol-17-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-054.jpg) | 54 | 성남산업단지 생산 및 수출 추이 | data-rendered |
-| [vol-17-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-057.jpg) | 57 | 분당신도시 개발 당시 모습과 개발 규모 | figure-rendered |
-| [vol-17-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-058.jpg) | 58 | 분당신도시 개발 개요와 토지이용 계획 | figure-rendered |
-| [vol-17-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-064.jpg) | 64 | 판교테크노밸리 위치도 | figure-rendered |
-| [vol-17-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-065.jpg) | 65 | 제1판교테크노밸리 비전 및 전략 | figure-rendered |
-| [vol-17-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-066.jpg) | 66 | 제1판교테크노밸리 전경과 입주기업 | figure-rendered |
-| [vol-17-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-068.jpg) | 68 | 제2판교테크노밸리 조감도 | figure-rendered |
-| [vol-17-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-069.jpg) | 69 | 제3판교테크노밸리 조성 계획 | figure-rendered |
-| [vol-17-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-071.jpg) | 71 | 판교테크노밸리와 경기도 인근 지역 연계 구상 | figure-rendered |
-| [vol-17-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-072.jpg) | 72 | 성남시 인구 변화 추이 | data-rendered |
-| [vol-17-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-073.jpg) | 73 | 1990년대 이후 구별 인구 변화 표 | data-rendered |
-| [vol-17-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-075.jpg) | 75 | 분당신도시 편입 공장 현황과 사업체 수 변화 | data-rendered |
-| [vol-17-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-077.jpg) | 77 | 제조업·서비스업 사업체 수와 규모별 사업체 표 | data-rendered |
-| [vol-17-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-078.jpg) | 78 | 성남시 종사자 수 변화 추이 | data-rendered |
-| [vol-17-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-079.jpg) | 79 | 제조업·서비스업 종사자 수 변화 추이 | data-rendered |
-| [vol-17-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-080.jpg) | 80 | 사업체 규모별 종사자 수 표 | data-rendered |
-| [vol-17-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-083.jpg) | 83 | 서비스산업 사업체 수와 종사자 수 표 | data-rendered |
-| [vol-17-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-087.jpg) | 87 | 성남 의료기관과 의료기관 종사 인력 표 | data-rendered |
-| [vol-17-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-088.jpg) | 88 | 경기도 주요 시군 지식기반산업 종사자 수 | figure-rendered |
-| [vol-17-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-089.jpg) | 89 | 지식기반제조업·서비스업 종사자 수 | figure-rendered |
-| [vol-17-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-090.jpg) | 90 | 성남 지식기반산업 종사자 수와 서비스업 기술군별 비중 | data-rendered |
-| [vol-17-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-091.jpg) | 91 | 정보통신산업·전문과학기술서비스 고용 변화 | figure-rendered |
-| [vol-17-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-092.jpg) | 92 | 구별 사업체 수 변동 추이 | data-rendered |
-| [vol-17-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-093.jpg) | 93 | 구별 사업체 수 증가율과 비중 | data-rendered |
-| [vol-17-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-094.jpg) | 94 | 구별 종사자 수 변동 추이와 증가율 | data-rendered |
-| [vol-17-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-095.jpg) | 95 | 구별 종사자 수 비중 | data-rendered |
-| [vol-17-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-100.jpg) | 100 | 수정구 산업별·제조업·서비스업 사업체 수 | figure-rendered |
-| [vol-17-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-103.jpg) | 103 | 중원구 산업별·제조업 사업체 수 | figure-rendered |
-| [vol-17-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-106.jpg) | 106 | 분당구 산업별 사업체 수 | figure-rendered |
-| [vol-17-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-110.jpg) | 110 | 아시아 실리콘밸리 성남 프로젝트 구상도 | data-rendered |
-| [vol-17-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-111.jpg) | 111 | 성남시 경제·산업 발전 구상도 | data-rendered |
-| [vol-17-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-113.jpg) | 113 | 경기도와 성남시 분야별 기업부설연구소 현황 | data-rendered |
-| [vol-17-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-114.jpg) | 114 | 경기도와 성남시 업종별 이노비즈 현황 | data-rendered |
-| [vol-17-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-115.jpg) | 115 | 경기도와 성남시 업종별 벤처기업 현황 | data-rendered |
-| [vol-17-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-118.jpg) | 118 | 분당구와 강남권 정보통신산업 매입·매출 거래 표 | data-rendered |
-| [vol-17-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-119.jpg) | 119 | 수도권 정보통신산업 지역 간 연계 구조 | figure-rendered |
-| [vol-17-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-120.jpg) | 120 | 수도권 Grand R&D 벨트 구상도 | data-rendered |
-| [vol-17-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-121.jpg) | 121 | 수도권 Grand R&D 벨트·소프트웨어 삼각 벨트 | figure-rendered |
-| [vol-17-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-133.jpg) | 133 | 4+3 초광역권 특화 발전 구상도 | data-rendered |
-| [vol-17-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-135.jpg) | 135 | 성남 GRDP 경기도 2위 그래픽 | figure-rendered |
-| [vol-17-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-137.jpg) | 137 | 성남·경기도·전국 4차 산업혁명 비중 비교 | data-rendered |
-| [vol-17-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-138.jpg) | 138 | 구별 4차 산업혁명 비중 | data-rendered |
-| [vol-17-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-139.jpg) | 139 | 성남 4차산업 테마별 관련 종사자 비중 | data-rendered |
-| [vol-17-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-141.jpg) | 141 | 구별 4차산업 테마별 사업체 비중 | data-rendered |
-| [vol-17-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-142.jpg) | 142 | 구별 4차산업 테마별 종사자 비중 | data-rendered |
-| [vol-17-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-143.jpg) | 143 | 경기도 및 성남시 부가가치 창출 주요 산업 | figure-rendered |
-| [vol-17-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-144.jpg) | 144 | 성남 주요 ICT 업종 매출 규모와 경기도 대비 비중 | data-rendered |
-| [vol-17-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-145.jpg) | 145 | 경기도 중소기업 특허등록·출원 상위 지자체 | data-rendered |
-| [vol-17-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-146.jpg) | 146 | 기초지자체별 2023년 특허 출원·등록 현황 | data-rendered |
-| [vol-17-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-147.jpg) | 147 | 인구 10만 명당 특허 출원·등록 수 비교 | data-rendered |
-| [vol-17-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-149.jpg) | 149 | 스마트도시 인증 현판식 | figure-rendered |
-| [vol-17-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-150.jpg) | 150 | 지능형 교통 체계 개념도 | data-rendered |
-| [vol-17-page-151.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-151.jpg) | 151 | 개방형 데이터 허브 개념도 | data-rendered |
-| [vol-17-page-154.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-154.jpg) | 154 | 성남 바이오헬스 산업 육성 컨벤션 | figure-rendered |
-| [vol-17-page-155.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-155.jpg) | 155 | 판교 자율주행모터쇼와 자율주행 지원사업 | figure-rendered |
+| [vol-17-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-001.jpg) | 1 | 표지와 권명: 성남의 산업구조 | title-page |
+| [vol-17-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-002.jpg) | 2 | 권별 목차 1: Part 1-2 | toc |
+| [vol-17-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-003.jpg) | 3 | 권별 목차 2: Part 3-4 | toc |
+| [vol-17-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-006.jpg) | 6 | 한국의 경제성장률 그래프 | data-rendered |
+| [vol-17-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-007.jpg) | 7 | 한국 산업별 GDP 비중 변화 추이와 표 | data-rendered |
+| [vol-17-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-008.jpg) | 8 | 한국 산업별 고용 비중 변화 | data-rendered |
+| [vol-17-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-009.jpg) | 9 | 1977년 100억 달러 수출의 날 기념 아치 | figure-rendered |
+| [vol-17-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-012.jpg) | 12 | 제조업 세부 산업별 GDP 대비 비중 | data-rendered |
+| [vol-17-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-013.jpg) | 13 | 제조업 세부 산업별 부가가치 생산 증가율 | figure-rendered |
+| [vol-17-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-014.jpg) | 14 | 서비스업 세부 산업별 GDP·부가가치 생산 증가율 | figure-rendered |
+| [vol-17-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-015.jpg) | 15 | 10대 수출 품목으로 본 제조업 구조 고도화 | figure-rendered |
+| [vol-17-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-016.jpg) | 16 | 시도별 지역내총생산 표 | data-rendered |
+| [vol-17-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-017.jpg) | 17 | 수도권 내 공업 분포와 경기도 성장률 | figure-rendered |
+| [vol-17-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-018.jpg) | 18 | 경기도 GDP·제조업·서비스업 비중 표 | data-rendered |
+| [vol-17-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-023.jpg) | 23 | 성남 제2공업단지 오리엔트시계 생산 현장 | figure-rendered |
+| [vol-17-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-024.jpg) | 24 | 1980년대 성남 제2·3공업단지 전경 | figure-rendered |
+| [vol-17-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-025.jpg) | 25 | 1990년대 분당신도시 전경 | figure-rendered |
+| [vol-17-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-026.jpg) | 26 | 판교테크노밸리 전경 | figure-rendered |
+| [vol-17-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-027.jpg) | 27 | 성남시 4차산업 특별도시 조성 구상도 | data-rendered |
+| [vol-17-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-028.jpg) | 28 | 경기도와 31개 시군 명목 GRDP 표 | data-rendered |
+| [vol-17-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-029.jpg) | 29 | 경기도 31개 시군 실질 GRDP 성장률 표 | data-rendered |
+| [vol-17-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-030.jpg) | 30 | 경기도 주요 시군 1인당 명목 GRDP 표 | data-rendered |
+| [vol-17-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-035.jpg) | 35 | 성남 4차산업 특화 수준과 사업체·종사자 수 | figure-rendered |
+| [vol-17-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-036.jpg) | 36 | 성남 벤처기업·기업부설연구소와 콘텐츠 수출 현황 | data-rendered |
+| [vol-17-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-037.jpg) | 37 | 성남 AI·자율주행 특허와 콘텐츠 수출 서술 | data-rendered |
+| [vol-17-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-040.jpg) | 40 | 시 승격 이전 농가·취업자 수 표 | data-rendered |
+| [vol-17-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-043.jpg) | 43 | 성남 경지 면적·업태별 농가 표 | data-rendered |
+| [vol-17-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-044.jpg) | 44 | 경작 규모별 농가와 농기구 보유 표 | data-rendered |
+| [vol-17-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-048.jpg) | 48 | 1971년 성남 지역 용도별 토지 이용 계획 | figure-rendered |
+| [vol-17-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-049.jpg) | 49 | 성남시 농업 현황 표 | data-rendered |
+| [vol-17-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-051.jpg) | 51 | 성남시 제조업체 현황과 제1공단 사진 | data-rendered |
+| [vol-17-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-052.jpg) | 52 | 1973년 공단·금융기관·시장 현황 표 | data-rendered |
+| [vol-17-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-054.jpg) | 54 | 성남산업단지 생산 및 수출 추이 | data-rendered |
+| [vol-17-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-057.jpg) | 57 | 분당신도시 개발 당시 모습과 개발 규모 | figure-rendered |
+| [vol-17-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-058.jpg) | 58 | 분당신도시 개발 개요와 토지이용 계획 | figure-rendered |
+| [vol-17-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-064.jpg) | 64 | 판교테크노밸리 위치도 | figure-rendered |
+| [vol-17-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-065.jpg) | 65 | 제1판교테크노밸리 비전 및 전략 | figure-rendered |
+| [vol-17-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-066.jpg) | 66 | 제1판교테크노밸리 전경과 입주기업 | figure-rendered |
+| [vol-17-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-068.jpg) | 68 | 제2판교테크노밸리 조감도 | figure-rendered |
+| [vol-17-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-069.jpg) | 69 | 제3판교테크노밸리 조성 계획 | figure-rendered |
+| [vol-17-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-071.jpg) | 71 | 판교테크노밸리와 경기도 인근 지역 연계 구상 | figure-rendered |
+| [vol-17-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-072.jpg) | 72 | 성남시 인구 변화 추이 | data-rendered |
+| [vol-17-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-073.jpg) | 73 | 1990년대 이후 구별 인구 변화 표 | data-rendered |
+| [vol-17-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-075.jpg) | 75 | 분당신도시 편입 공장 현황과 사업체 수 변화 | data-rendered |
+| [vol-17-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-077.jpg) | 77 | 제조업·서비스업 사업체 수와 규모별 사업체 표 | data-rendered |
+| [vol-17-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-078.jpg) | 78 | 성남시 종사자 수 변화 추이 | data-rendered |
+| [vol-17-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-079.jpg) | 79 | 제조업·서비스업 종사자 수 변화 추이 | data-rendered |
+| [vol-17-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-080.jpg) | 80 | 사업체 규모별 종사자 수 표 | data-rendered |
+| [vol-17-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-083.jpg) | 83 | 서비스산업 사업체 수와 종사자 수 표 | data-rendered |
+| [vol-17-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-087.jpg) | 87 | 성남 의료기관과 의료기관 종사 인력 표 | data-rendered |
+| [vol-17-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-088.jpg) | 88 | 경기도 주요 시군 지식기반산업 종사자 수 | figure-rendered |
+| [vol-17-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-089.jpg) | 89 | 지식기반제조업·서비스업 종사자 수 | figure-rendered |
+| [vol-17-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-090.jpg) | 90 | 성남 지식기반산업 종사자 수와 서비스업 기술군별 비중 | data-rendered |
+| [vol-17-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-091.jpg) | 91 | 정보통신산업·전문과학기술서비스 고용 변화 | figure-rendered |
+| [vol-17-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-092.jpg) | 92 | 구별 사업체 수 변동 추이 | data-rendered |
+| [vol-17-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-093.jpg) | 93 | 구별 사업체 수 증가율과 비중 | data-rendered |
+| [vol-17-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-094.jpg) | 94 | 구별 종사자 수 변동 추이와 증가율 | data-rendered |
+| [vol-17-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-095.jpg) | 95 | 구별 종사자 수 비중 | data-rendered |
+| [vol-17-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-100.jpg) | 100 | 수정구 산업별·제조업·서비스업 사업체 수 | figure-rendered |
+| [vol-17-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-103.jpg) | 103 | 중원구 산업별·제조업 사업체 수 | figure-rendered |
+| [vol-17-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-106.jpg) | 106 | 분당구 산업별 사업체 수 | figure-rendered |
+| [vol-17-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-110.jpg) | 110 | 아시아 실리콘밸리 성남 프로젝트 구상도 | data-rendered |
+| [vol-17-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-111.jpg) | 111 | 성남시 경제·산업 발전 구상도 | data-rendered |
+| [vol-17-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-113.jpg) | 113 | 경기도와 성남시 분야별 기업부설연구소 현황 | data-rendered |
+| [vol-17-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-114.jpg) | 114 | 경기도와 성남시 업종별 이노비즈 현황 | data-rendered |
+| [vol-17-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-115.jpg) | 115 | 경기도와 성남시 업종별 벤처기업 현황 | data-rendered |
+| [vol-17-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-118.jpg) | 118 | 분당구와 강남권 정보통신산업 매입·매출 거래 표 | data-rendered |
+| [vol-17-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-119.jpg) | 119 | 수도권 정보통신산업 지역 간 연계 구조 | figure-rendered |
+| [vol-17-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-120.jpg) | 120 | 수도권 Grand R&D 벨트 구상도 | data-rendered |
+| [vol-17-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-121.jpg) | 121 | 수도권 Grand R&D 벨트·소프트웨어 삼각 벨트 | figure-rendered |
+| [vol-17-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-133.jpg) | 133 | 4+3 초광역권 특화 발전 구상도 | data-rendered |
+| [vol-17-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-135.jpg) | 135 | 성남 GRDP 경기도 2위 그래픽 | figure-rendered |
+| [vol-17-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-137.jpg) | 137 | 성남·경기도·전국 4차 산업혁명 비중 비교 | data-rendered |
+| [vol-17-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-138.jpg) | 138 | 구별 4차 산업혁명 비중 | data-rendered |
+| [vol-17-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-139.jpg) | 139 | 성남 4차산업 테마별 관련 종사자 비중 | data-rendered |
+| [vol-17-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-141.jpg) | 141 | 구별 4차산업 테마별 사업체 비중 | data-rendered |
+| [vol-17-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-142.jpg) | 142 | 구별 4차산업 테마별 종사자 비중 | data-rendered |
+| [vol-17-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-143.jpg) | 143 | 경기도 및 성남시 부가가치 창출 주요 산업 | figure-rendered |
+| [vol-17-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-144.jpg) | 144 | 성남 주요 ICT 업종 매출 규모와 경기도 대비 비중 | data-rendered |
+| [vol-17-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-145.jpg) | 145 | 경기도 중소기업 특허등록·출원 상위 지자체 | data-rendered |
+| [vol-17-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-146.jpg) | 146 | 기초지자체별 2023년 특허 출원·등록 현황 | data-rendered |
+| [vol-17-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-147.jpg) | 147 | 인구 10만 명당 특허 출원·등록 수 비교 | data-rendered |
+| [vol-17-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-149.jpg) | 149 | 스마트도시 인증 현판식 | figure-rendered |
+| [vol-17-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-150.jpg) | 150 | 지능형 교통 체계 개념도 | data-rendered |
+| [vol-17-page-151.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-151.jpg) | 151 | 개방형 데이터 허브 개념도 | data-rendered |
+| [vol-17-page-154.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-154.jpg) | 154 | 성남 바이오헬스 산업 육성 컨벤션 | figure-rendered |
+| [vol-17-page-155.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-155.jpg) | 155 | 판교 자율주행모터쇼와 자율주행 지원사업 | figure-rendered |
 
 ### 전체 페이지 이미지 색인
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-17-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-001.jpg) | 1 | 표지와 권명: 성남의 산업구조 | title-page |
-| [vol-17-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-002.jpg) | 2 | 권별 목차 1: Part 1-2 | toc |
-| [vol-17-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-003.jpg) | 3 | 권별 목차 2: Part 3-4 | toc |
-| [vol-17-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-004.jpg) | 4 | Part 1 표제: 산업구조의 변화상 | part-opener |
-| [vol-17-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-005.jpg) | 5 | 성남시의 산업은 한국의 가파른 경제성장과 함께 발전해 왔다. 성남시는 1973년 시로 | data-rendered |
-| [vol-17-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-006.jpg) | 6 | 한국의 경제성장률 그래프 | data-rendered |
-| [vol-17-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-007.jpg) | 7 | 한국 산업별 GDP 비중 변화 추이와 표 | data-rendered |
-| [vol-17-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-008.jpg) | 8 | 한국 산업별 고용 비중 변화 | data-rendered |
-| [vol-17-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-009.jpg) | 9 | 1977년 100억 달러 수출의 날 기념 아치 | figure-rendered |
-| [vol-17-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-010.jpg) | 10 | ③ 1980~1990년대 산업구조 | page-rendered |
-| [vol-17-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-011.jpg) | 11 | 한국 산업구조 시대별 정책 요약 표 | data-rendered |
-| [vol-17-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-012.jpg) | 12 | 제조업 세부 산업별 GDP 대비 비중 | data-rendered |
-| [vol-17-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-013.jpg) | 13 | 제조업 세부 산업별 부가가치 생산 증가율 | figure-rendered |
-| [vol-17-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-014.jpg) | 14 | 서비스업 세부 산업별 GDP·부가가치 생산 증가율 | figure-rendered |
-| [vol-17-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-015.jpg) | 15 | 10대 수출 품목으로 본 제조업 구조 고도화 | figure-rendered |
-| [vol-17-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-016.jpg) | 16 | 시도별 지역내총생산 표 | data-rendered |
-| [vol-17-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-017.jpg) | 17 | 수도권 내 공업 분포와 경기도 성장률 | figure-rendered |
-| [vol-17-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-018.jpg) | 18 | 경기도 GDP·제조업·서비스업 비중 표 | data-rendered |
-| [vol-17-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-019.jpg) | 19 | 경기도 경제성장률 2000-2022 | figure-rendered |
-| [vol-17-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-020.jpg) | 20 | 경기도 산업별 GDP 비율과 제조업 GRDP | figure-rendered |
-| [vol-17-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-021.jpg) | 21 | 경기도 서비스업 GRDP와 고용 비중 | data-rendered |
-| [vol-17-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-022.jpg) | 22 | 경기도 산업별 취업자 수 비중 | data-rendered |
-| [vol-17-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-023.jpg) | 23 | 성남 제2공업단지 오리엔트시계 생산 현장 | figure-rendered |
-| [vol-17-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-024.jpg) | 24 | 1980년대 성남 제2·3공업단지 전경 | figure-rendered |
-| [vol-17-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-025.jpg) | 25 | 1990년대 분당신도시 전경 | figure-rendered |
-| [vol-17-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-026.jpg) | 26 | 판교테크노밸리 전경 | figure-rendered |
-| [vol-17-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-027.jpg) | 27 | 성남시 4차산업 특별도시 조성 구상도 | data-rendered |
-| [vol-17-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-028.jpg) | 28 | 경기도와 31개 시군 명목 GRDP 표 | data-rendered |
-| [vol-17-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-029.jpg) | 29 | 경기도 31개 시군 실질 GRDP 성장률 표 | data-rendered |
-| [vol-17-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-030.jpg) | 30 | 경기도 주요 시군 1인당 명목 GRDP 표 | data-rendered |
-| [vol-17-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-031.jpg) | 31 | 성남 제조업·서비스업 GRDP 비중 그래프 | data-rendered |
-| [vol-17-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-032.jpg) | 32 | 성남 제조업·서비스업 사업체 수 비중 | data-rendered |
-| [vol-17-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-033.jpg) | 33 | 성남 제조업·서비스업 종사자 수 비중 | data-rendered |
-| [vol-17-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-034.jpg) | 34 | 경기도 주요 시군 지식기반 서비스업 종사자 수 | figure-rendered |
-| [vol-17-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-035.jpg) | 35 | 성남 4차산업 특화 수준과 사업체·종사자 수 | figure-rendered |
-| [vol-17-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-036.jpg) | 36 | 성남 벤처기업·기업부설연구소와 콘텐츠 수출 현황 | data-rendered |
-| [vol-17-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-037.jpg) | 37 | 성남 AI·자율주행 특허와 콘텐츠 수출 서술 | data-rendered |
-| [vol-17-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-038.jpg) | 38 | Part 2 표제: 시 승격 전후의 산업구조 | part-opener |
-| [vol-17-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-039.jpg) | 39 | 1. 시 승격 이전 산업구조 | page-rendered |
-| [vol-17-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-040.jpg) | 40 | 시 승격 이전 농가·취업자 수 표 | data-rendered |
-| [vol-17-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-041.jpg) | 41 | 1960년대 율동 양지마을 사진 | figure-rendered |
-| [vol-17-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-042.jpg) | 42 | 개발 이전 성남 지역은 대부분 벼와 보리를 재배하다가 서울시의 팽창과 더불어 참외, | data-rendered |
-| [vol-17-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-043.jpg) | 43 | 성남 경지 면적·업태별 농가 표 | data-rendered |
-| [vol-17-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-044.jpg) | 44 | 경작 규모별 농가와 농기구 보유 표 | data-rendered |
-| [vol-17-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-045.jpg) | 45 | 구호 상황과 농경지 감소 서술 | figure-rendered |
-| [vol-17-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-046.jpg) | 46 | 광주대단지 조성 배경 | figure-rendered |
-| [vol-17-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-047.jpg) | 47 | 월 서울시 철거민 48가구 154명 | page-rendered |
-| [vol-17-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-048.jpg) | 48 | 1971년 성남 지역 용도별 토지 이용 계획 | figure-rendered |
-| [vol-17-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-049.jpg) | 49 | 성남시 농업 현황 표 | data-rendered |
-| [vol-17-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-050.jpg) | 50 | 발 방향 및 개발 시책은 다음과 같다. | page-rendered |
-| [vol-17-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-051.jpg) | 51 | 성남시 제조업체 현황과 제1공단 사진 | data-rendered |
-| [vol-17-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-052.jpg) | 52 | 1973년 공단·금융기관·시장 현황 표 | data-rendered |
-| [vol-17-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-053.jpg) | 53 | 1973년 시 승격 후 성남시는 대외적으로 수출 신장 및 고용 수요의 증대, 그리고 내부 | page-rendered |
-| [vol-17-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-054.jpg) | 54 | 성남산업단지 생산 및 수출 추이 | data-rendered |
-| [vol-17-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-055.jpg) | 55 | Part 3 표제: 분당/판교 개발과 산업구조 발전 | part-opener |
-| [vol-17-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-056.jpg) | 56 | 성남시는 1989년 중앙정부의 주택 200만 호 건설 계획으로 다시 한번 큰 변화를 겪게 | page-rendered |
-| [vol-17-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-057.jpg) | 57 | 분당신도시 개발 당시 모습과 개발 규모 | figure-rendered |
-| [vol-17-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-058.jpg) | 58 | 분당신도시 개발 개요와 토지이용 계획 | figure-rendered |
-| [vol-17-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-059.jpg) | 59 | 분당구 정자동 킨스타워 | page-rendered |
-| [vol-17-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-060.jpg) | 60 | 분당신도시 주요 벤처기업 | figure-rendered |
-| [vol-17-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-061.jpg) | 61 | 인 중상위층을 중심으로 입주하면서 ‘규모의 경제’가 나타나기 시작했다. 이들을 주요 고 | data-rendered |
-| [vol-17-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-062.jpg) | 62 | 2) 판교테크노밸리 개발의 산업구조 영향 | page-rendered |
-| [vol-17-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-063.jpg) | 63 | 와 대한주택공사(현 한국토지주택공사) 등 4개 기관이 공동 사업 시행자가 되어 수용 인 | page-rendered |
-| [vol-17-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-064.jpg) | 64 | 판교테크노밸리 위치도 | figure-rendered |
-| [vol-17-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-065.jpg) | 65 | 제1판교테크노밸리 비전 및 전략 | figure-rendered |
-| [vol-17-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-066.jpg) | 66 | 제1판교테크노밸리 전경과 입주기업 | figure-rendered |
-| [vol-17-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-067.jpg) | 67 | 다음으로 제2판교테크노밸리는 제1판교테크노밸리의 성공 DNA를 바탕으로 IT(정보 | page-rendered |
-| [vol-17-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-068.jpg) | 68 | 제2판교테크노밸리 조감도 | figure-rendered |
-| [vol-17-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-069.jpg) | 69 | 제3판교테크노밸리 조성 계획 | figure-rendered |
-| [vol-17-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-070.jpg) | 70 | 로 성장할 수 있는 생태계를 성공적으로 조성했다. 특히 경기창조경제혁신센터, 스타트업 | page-rendered |
-| [vol-17-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-071.jpg) | 71 | 판교테크노밸리와 경기도 인근 지역 연계 구상 | figure-rendered |
-| [vol-17-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-072.jpg) | 72 | 성남시 인구 변화 추이 | data-rendered |
-| [vol-17-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-073.jpg) | 73 | 1990년대 이후 구별 인구 변화 표 | data-rendered |
-| [vol-17-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-074.jpg) | 74 | 구별 인구 변화와 산업구조 변화 | figure-rendered |
-| [vol-17-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-075.jpg) | 75 | 분당신도시 편입 공장 현황과 사업체 수 변화 | data-rendered |
-| [vol-17-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-076.jpg) | 76 | 분당신도시와 판교신도시의 개발은 그 목적과 조성계획에 차이가 있었다. 분당신도시 | data-rendered |
-| [vol-17-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-077.jpg) | 77 | 제조업·서비스업 사업체 수와 규모별 사업체 표 | data-rendered |
-| [vol-17-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-078.jpg) | 78 | 성남시 종사자 수 변화 추이 | data-rendered |
-| [vol-17-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-079.jpg) | 79 | 제조업·서비스업 종사자 수 변화 추이 | data-rendered |
-| [vol-17-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-080.jpg) | 80 | 사업체 규모별 종사자 수 표 | data-rendered |
-| [vol-17-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-081.jpg) | 81 | 3. 서비스산업 발전과 산업구조 고도화 | data-rendered |
-| [vol-17-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-082.jpg) | 82 | 공(현 한전KPS), 한국디자인진흥원 등이 분당신도시로 본사를 이전했다. 그리고 고학력 | data-rendered |
-| [vol-17-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-083.jpg) | 83 | 서비스산업 사업체 수와 종사자 수 표 | data-rendered |
-| [vol-17-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-084.jpg) | 84 | 구분 1994 2000 2005 2010 2015 2020 2022 | data-rendered |
-| [vol-17-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-085.jpg) | 85 | part3 분당/판교 개발과 산업구조 발전 | page-rendered |
-| [vol-17-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-086.jpg) | 86 | 시민들까지 흡수하는 광역 상권을 형성하고 있다. 분당신도시는 세칭 ‘아줌마들이 가장 | page-rendered |
-| [vol-17-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-087.jpg) | 87 | 성남 의료기관과 의료기관 종사 인력 표 | data-rendered |
-| [vol-17-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-088.jpg) | 88 | 경기도 주요 시군 지식기반산업 종사자 수 | figure-rendered |
-| [vol-17-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-089.jpg) | 89 | 지식기반제조업·서비스업 종사자 수 | figure-rendered |
-| [vol-17-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-090.jpg) | 90 | 성남 지식기반산업 종사자 수와 서비스업 기술군별 비중 | data-rendered |
-| [vol-17-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-091.jpg) | 91 | 정보통신산업·전문과학기술서비스 고용 변화 | figure-rendered |
-| [vol-17-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-092.jpg) | 92 | 구별 사업체 수 변동 추이 | data-rendered |
-| [vol-17-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-093.jpg) | 93 | 구별 사업체 수 증가율과 비중 | data-rendered |
-| [vol-17-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-094.jpg) | 94 | 구별 종사자 수 변동 추이와 증가율 | data-rendered |
-| [vol-17-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-095.jpg) | 95 | 구별 종사자 수 비중 | data-rendered |
-| [vol-17-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-096.jpg) | 96 | 구별 제조업·서비스업 비교 | figure-rendered |
-| [vol-17-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-097.jpg) | 97 | 성남시 구별 서비스업 사업체 수의 비중 | data-rendered |
-| [vol-17-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-098.jpg) | 98 | 구별 제조업·서비스업 사업체·종사자 표 | data-rendered |
-| [vol-17-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-099.jpg) | 99 | 한편 서비스업 종사자 수는 분당구의 압도적인 증가세가 두드러진다. 1996년 3만 | data-rendered |
-| [vol-17-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-100.jpg) | 100 | 수정구 산업별·제조업·서비스업 사업체 수 | figure-rendered |
-| [vol-17-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-101.jpg) | 101 | 수정구 산업별 종사자 수 | figure-rendered |
-| [vol-17-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-102.jpg) | 102 | 수정구 제조업·서비스업 종사자 수 | figure-rendered |
-| [vol-17-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-103.jpg) | 103 | 중원구 산업별·제조업 사업체 수 | figure-rendered |
-| [vol-17-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-104.jpg) | 104 | 중원구 서비스업 사업체 수와 종사자 분석 | figure-rendered |
-| [vol-17-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-105.jpg) | 105 | 중원구 산업별·제조업·서비스업 종사자 수 | figure-rendered |
-| [vol-17-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-106.jpg) | 106 | 분당구 산업별 사업체 수 | figure-rendered |
-| [vol-17-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-107.jpg) | 107 | 분당구 제조업·서비스업 사업체 수 | figure-rendered |
-| [vol-17-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-108.jpg) | 108 | 분당구 산업별·제조업 종사자 수 | figure-rendered |
-| [vol-17-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-109.jpg) | 109 | 분당구 서비스업 종사자 수 | figure-rendered |
-| [vol-17-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-110.jpg) | 110 | 아시아 실리콘밸리 성남 프로젝트 구상도 | data-rendered |
-| [vol-17-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-111.jpg) | 111 | 성남시 경제·산업 발전 구상도 | data-rendered |
-| [vol-17-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-112.jpg) | 112 | 5. 인근 도시와의 산업 연계성 강화 | data-rendered |
-| [vol-17-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-113.jpg) | 113 | 경기도와 성남시 분야별 기업부설연구소 현황 | data-rendered |
-| [vol-17-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-114.jpg) | 114 | 경기도와 성남시 업종별 이노비즈 현황 | data-rendered |
-| [vol-17-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-115.jpg) | 115 | 경기도와 성남시 업종별 벤처기업 현황 | data-rendered |
-| [vol-17-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-116.jpg) | 116 | 분야에 특화하여 집중적으로 연구한다. 또한 연구 부문 조직이 있어 의료·보건, 바이오 헬 | page-rendered |
-| [vol-17-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-117.jpg) | 117 | 판교테크노밸리 입주 전 입지 지역 | figure-rendered |
-| [vol-17-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-118.jpg) | 118 | 분당구와 강남권 정보통신산업 매입·매출 거래 표 | data-rendered |
-| [vol-17-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-119.jpg) | 119 | 수도권 정보통신산업 지역 간 연계 구조 | figure-rendered |
-| [vol-17-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-120.jpg) | 120 | 수도권 Grand R&D 벨트 구상도 | data-rendered |
-| [vol-17-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-121.jpg) | 121 | 수도권 Grand R&D 벨트·소프트웨어 삼각 벨트 | figure-rendered |
-| [vol-17-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-122.jpg) | 122 | Part 4 표제: 4차 산업혁명과 성남의 역할 | part-opener |
-| [vol-17-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-123.jpg) | 123 | 최근 대한민국 경제는 인공지능(AI), 빅데이터, 사물인터넷(IoT) 등의 발전과 함께 4차 | page-rendered |
-| [vol-17-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-124.jpg) | 124 | 4차산업 이미지 | figure-rendered |
-| [vol-17-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-125.jpg) | 125 | 둘째, AI와 머신러닝(Machine Learning)36의 도입으로 인간의 노동을 대신하는 자율 | page-rendered |
-| [vol-17-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-126.jpg) | 126 | 2) 4차 산업혁명의 글로벌 트렌드 | page-rendered |
-| [vol-17-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-127.jpg) | 127 | 할 수 있게 한다. 차량에 장착된 다양한 센서와 카메라가 도로 상황을 모니터링하고, AI는 | page-rendered |
-| [vol-17-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-128.jpg) | 128 | 또한 데이터 보안과 프라이버시 문제도 중요한 사회적 이슈로 대두되고 있다. 4차 산업 | page-rendered |
-| [vol-17-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-129.jpg) | 129 | 2. 4차 산업혁명과 대한민국 | page-rendered |
-| [vol-17-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-130.jpg) | 130 | 한국의 스타트업 생태계 또한 빠르게 성장하고 있으며, 2021년에는 약 12조 원이 넘는 | data-rendered |
-| [vol-17-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-131.jpg) | 131 | 2) 4차 산업혁명 시대의 지역발전 전략 | page-rendered |
-| [vol-17-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-132.jpg) | 132 | 혁명 정책 논의를 경제와 일자리에 국한하기보다는 4차 산업혁명의 최종 수요자인 지역 | page-rendered |
-| [vol-17-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-133.jpg) | 133 | 4+3 초광역권 특화 발전 구상도 | data-rendered |
-| [vol-17-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-134.jpg) | 134 | 3. 대한민국 4차 산업혁명의 중심지 성남 | data-rendered |
-| [vol-17-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-135.jpg) | 135 | 성남 GRDP 경기도 2위 그래픽 | figure-rendered |
-| [vol-17-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-136.jpg) | 136 | 한편 성남하이테크밸리와 분당벤처타운 등 기존에 조성된 성남시의 탄탄한 산업단지 | page-rendered |
-| [vol-17-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-137.jpg) | 137 | 성남·경기도·전국 4차 산업혁명 비중 비교 | data-rendered |
-| [vol-17-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-138.jpg) | 138 | 구별 4차 산업혁명 비중 | data-rendered |
-| [vol-17-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-139.jpg) | 139 | 성남 4차산업 테마별 관련 종사자 비중 | data-rendered |
-| [vol-17-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-140.jpg) | 140 | 결합이 향후 모바일 AI 시장의 급격한 성장으로 이어질 것으로 예측50되는 가운데, 성남시 | data-rendered |
-| [vol-17-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-141.jpg) | 141 | 구별 4차산업 테마별 사업체 비중 | data-rendered |
-| [vol-17-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-142.jpg) | 142 | 구별 4차산업 테마별 종사자 비중 | data-rendered |
-| [vol-17-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-143.jpg) | 143 | 경기도 및 성남시 부가가치 창출 주요 산업 | figure-rendered |
-| [vol-17-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-144.jpg) | 144 | 성남 주요 ICT 업종 매출 규모와 경기도 대비 비중 | data-rendered |
-| [vol-17-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-145.jpg) | 145 | 경기도 중소기업 특허등록·출원 상위 지자체 | data-rendered |
-| [vol-17-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-146.jpg) | 146 | 기초지자체별 2023년 특허 출원·등록 현황 | data-rendered |
-| [vol-17-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-147.jpg) | 147 | 인구 10만 명당 특허 출원·등록 수 비교 | data-rendered |
-| [vol-17-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-148.jpg) | 148 | 다. 이는 신기술 혹은 혁신의 결과를 제도적으로 인정받고자 하는 해당 지역의 혁신 활동 | page-rendered |
-| [vol-17-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-149.jpg) | 149 | 스마트도시 인증 현판식 | figure-rendered |
-| [vol-17-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-150.jpg) | 150 | 지능형 교통 체계 개념도 | data-rendered |
-| [vol-17-page-151.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-151.jpg) | 151 | 개방형 데이터 허브 개념도 | data-rendered |
-| [vol-17-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-152.jpg) | 152 | 하고 있다. 최근에는 지하 시설물 관리 부실 등으로 인해 도심 싱크홀 등 안전사고 문제가 | page-rendered |
-| [vol-17-page-153.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-153.jpg) | 153 | 펀드는 2024년 10월에 이미 5,000억 규모를 돌파하여 시스템반도체, 바이오, AI 등 4차 | page-rendered |
-| [vol-17-page-154.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-154.jpg) | 154 | 성남 바이오헬스 산업 육성 컨벤션 | figure-rendered |
-| [vol-17-page-155.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-155.jpg) | 155 | 판교 자율주행모터쇼와 자율주행 지원사업 | figure-rendered |
-| [vol-17-page-156.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-156.jpg) | 156 | 진해 있을 뿐만 아니라 한국콘텐츠진흥원, 경기콘텐츠진흥원, 성남모바일앱센터62 등 탄 | page-rendered |
-| [vol-17-page-157.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-157.jpg) | 157 | 이 외에도 성남시는 산·학·관 협력체계 아래 4차 산업혁명 미래인재 양성을 위해 노력 | page-rendered |
-| [vol-17-page-158.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-158.jpg) | 158 | 합을 통해 지역 내 경제주체들의 혁신을 유도하여 지역 경제성장을 이룰 수 있다는 것이 | page-rendered |
-| [vol-17-page-159.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-159.jpg) | 159 | 용할 것이며, 창업과 취업의 선순환을 통해 성남시가 미래 산업 경쟁력을 유지할 수 있도 | page-rendered |
-| [vol-17-page-160.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17-page-160.jpg) | 160 | 판권과 발행 정보 | figure-rendered |
+| [vol-17-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-001.jpg) | 1 | 표지와 권명: 성남의 산업구조 | title-page |
+| [vol-17-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-002.jpg) | 2 | 권별 목차 1: Part 1-2 | toc |
+| [vol-17-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-003.jpg) | 3 | 권별 목차 2: Part 3-4 | toc |
+| [vol-17-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-004.jpg) | 4 | Part 1 표제: 산업구조의 변화상 | part-opener |
+| [vol-17-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-005.jpg) | 5 | 성남시의 산업은 한국의 가파른 경제성장과 함께 발전해 왔다. 성남시는 1973년 시로 | data-rendered |
+| [vol-17-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-006.jpg) | 6 | 한국의 경제성장률 그래프 | data-rendered |
+| [vol-17-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-007.jpg) | 7 | 한국 산업별 GDP 비중 변화 추이와 표 | data-rendered |
+| [vol-17-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-008.jpg) | 8 | 한국 산업별 고용 비중 변화 | data-rendered |
+| [vol-17-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-009.jpg) | 9 | 1977년 100억 달러 수출의 날 기념 아치 | figure-rendered |
+| [vol-17-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-010.jpg) | 10 | ③ 1980~1990년대 산업구조 | page-rendered |
+| [vol-17-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-011.jpg) | 11 | 한국 산업구조 시대별 정책 요약 표 | data-rendered |
+| [vol-17-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-012.jpg) | 12 | 제조업 세부 산업별 GDP 대비 비중 | data-rendered |
+| [vol-17-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-013.jpg) | 13 | 제조업 세부 산업별 부가가치 생산 증가율 | figure-rendered |
+| [vol-17-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-014.jpg) | 14 | 서비스업 세부 산업별 GDP·부가가치 생산 증가율 | figure-rendered |
+| [vol-17-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-015.jpg) | 15 | 10대 수출 품목으로 본 제조업 구조 고도화 | figure-rendered |
+| [vol-17-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-016.jpg) | 16 | 시도별 지역내총생산 표 | data-rendered |
+| [vol-17-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-017.jpg) | 17 | 수도권 내 공업 분포와 경기도 성장률 | figure-rendered |
+| [vol-17-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-018.jpg) | 18 | 경기도 GDP·제조업·서비스업 비중 표 | data-rendered |
+| [vol-17-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-019.jpg) | 19 | 경기도 경제성장률 2000-2022 | figure-rendered |
+| [vol-17-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-020.jpg) | 20 | 경기도 산업별 GDP 비율과 제조업 GRDP | figure-rendered |
+| [vol-17-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-021.jpg) | 21 | 경기도 서비스업 GRDP와 고용 비중 | data-rendered |
+| [vol-17-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-022.jpg) | 22 | 경기도 산업별 취업자 수 비중 | data-rendered |
+| [vol-17-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-023.jpg) | 23 | 성남 제2공업단지 오리엔트시계 생산 현장 | figure-rendered |
+| [vol-17-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-024.jpg) | 24 | 1980년대 성남 제2·3공업단지 전경 | figure-rendered |
+| [vol-17-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-025.jpg) | 25 | 1990년대 분당신도시 전경 | figure-rendered |
+| [vol-17-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-026.jpg) | 26 | 판교테크노밸리 전경 | figure-rendered |
+| [vol-17-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-027.jpg) | 27 | 성남시 4차산업 특별도시 조성 구상도 | data-rendered |
+| [vol-17-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-028.jpg) | 28 | 경기도와 31개 시군 명목 GRDP 표 | data-rendered |
+| [vol-17-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-029.jpg) | 29 | 경기도 31개 시군 실질 GRDP 성장률 표 | data-rendered |
+| [vol-17-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-030.jpg) | 30 | 경기도 주요 시군 1인당 명목 GRDP 표 | data-rendered |
+| [vol-17-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-031.jpg) | 31 | 성남 제조업·서비스업 GRDP 비중 그래프 | data-rendered |
+| [vol-17-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-032.jpg) | 32 | 성남 제조업·서비스업 사업체 수 비중 | data-rendered |
+| [vol-17-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-033.jpg) | 33 | 성남 제조업·서비스업 종사자 수 비중 | data-rendered |
+| [vol-17-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-034.jpg) | 34 | 경기도 주요 시군 지식기반 서비스업 종사자 수 | figure-rendered |
+| [vol-17-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-035.jpg) | 35 | 성남 4차산업 특화 수준과 사업체·종사자 수 | figure-rendered |
+| [vol-17-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-036.jpg) | 36 | 성남 벤처기업·기업부설연구소와 콘텐츠 수출 현황 | data-rendered |
+| [vol-17-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-037.jpg) | 37 | 성남 AI·자율주행 특허와 콘텐츠 수출 서술 | data-rendered |
+| [vol-17-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-038.jpg) | 38 | Part 2 표제: 시 승격 전후의 산업구조 | part-opener |
+| [vol-17-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-039.jpg) | 39 | 1. 시 승격 이전 산업구조 | page-rendered |
+| [vol-17-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-040.jpg) | 40 | 시 승격 이전 농가·취업자 수 표 | data-rendered |
+| [vol-17-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-041.jpg) | 41 | 1960년대 율동 양지마을 사진 | figure-rendered |
+| [vol-17-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-042.jpg) | 42 | 개발 이전 성남 지역은 대부분 벼와 보리를 재배하다가 서울시의 팽창과 더불어 참외, | data-rendered |
+| [vol-17-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-043.jpg) | 43 | 성남 경지 면적·업태별 농가 표 | data-rendered |
+| [vol-17-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-044.jpg) | 44 | 경작 규모별 농가와 농기구 보유 표 | data-rendered |
+| [vol-17-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-045.jpg) | 45 | 구호 상황과 농경지 감소 서술 | figure-rendered |
+| [vol-17-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-046.jpg) | 46 | 광주대단지 조성 배경 | figure-rendered |
+| [vol-17-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-047.jpg) | 47 | 월 서울시 철거민 48가구 154명 | page-rendered |
+| [vol-17-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-048.jpg) | 48 | 1971년 성남 지역 용도별 토지 이용 계획 | figure-rendered |
+| [vol-17-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-049.jpg) | 49 | 성남시 농업 현황 표 | data-rendered |
+| [vol-17-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-050.jpg) | 50 | 발 방향 및 개발 시책은 다음과 같다. | page-rendered |
+| [vol-17-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-051.jpg) | 51 | 성남시 제조업체 현황과 제1공단 사진 | data-rendered |
+| [vol-17-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-052.jpg) | 52 | 1973년 공단·금융기관·시장 현황 표 | data-rendered |
+| [vol-17-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-053.jpg) | 53 | 1973년 시 승격 후 성남시는 대외적으로 수출 신장 및 고용 수요의 증대, 그리고 내부 | page-rendered |
+| [vol-17-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-054.jpg) | 54 | 성남산업단지 생산 및 수출 추이 | data-rendered |
+| [vol-17-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-055.jpg) | 55 | Part 3 표제: 분당/판교 개발과 산업구조 발전 | part-opener |
+| [vol-17-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-056.jpg) | 56 | 성남시는 1989년 중앙정부의 주택 200만 호 건설 계획으로 다시 한번 큰 변화를 겪게 | page-rendered |
+| [vol-17-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-057.jpg) | 57 | 분당신도시 개발 당시 모습과 개발 규모 | figure-rendered |
+| [vol-17-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-058.jpg) | 58 | 분당신도시 개발 개요와 토지이용 계획 | figure-rendered |
+| [vol-17-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-059.jpg) | 59 | 분당구 정자동 킨스타워 | page-rendered |
+| [vol-17-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-060.jpg) | 60 | 분당신도시 주요 벤처기업 | figure-rendered |
+| [vol-17-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-061.jpg) | 61 | 인 중상위층을 중심으로 입주하면서 ‘규모의 경제’가 나타나기 시작했다. 이들을 주요 고 | data-rendered |
+| [vol-17-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-062.jpg) | 62 | 2) 판교테크노밸리 개발의 산업구조 영향 | page-rendered |
+| [vol-17-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-063.jpg) | 63 | 와 대한주택공사(현 한국토지주택공사) 등 4개 기관이 공동 사업 시행자가 되어 수용 인 | page-rendered |
+| [vol-17-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-064.jpg) | 64 | 판교테크노밸리 위치도 | figure-rendered |
+| [vol-17-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-065.jpg) | 65 | 제1판교테크노밸리 비전 및 전략 | figure-rendered |
+| [vol-17-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-066.jpg) | 66 | 제1판교테크노밸리 전경과 입주기업 | figure-rendered |
+| [vol-17-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-067.jpg) | 67 | 다음으로 제2판교테크노밸리는 제1판교테크노밸리의 성공 DNA를 바탕으로 IT(정보 | page-rendered |
+| [vol-17-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-068.jpg) | 68 | 제2판교테크노밸리 조감도 | figure-rendered |
+| [vol-17-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-069.jpg) | 69 | 제3판교테크노밸리 조성 계획 | figure-rendered |
+| [vol-17-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-070.jpg) | 70 | 로 성장할 수 있는 생태계를 성공적으로 조성했다. 특히 경기창조경제혁신센터, 스타트업 | page-rendered |
+| [vol-17-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-071.jpg) | 71 | 판교테크노밸리와 경기도 인근 지역 연계 구상 | figure-rendered |
+| [vol-17-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-072.jpg) | 72 | 성남시 인구 변화 추이 | data-rendered |
+| [vol-17-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-073.jpg) | 73 | 1990년대 이후 구별 인구 변화 표 | data-rendered |
+| [vol-17-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-074.jpg) | 74 | 구별 인구 변화와 산업구조 변화 | figure-rendered |
+| [vol-17-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-075.jpg) | 75 | 분당신도시 편입 공장 현황과 사업체 수 변화 | data-rendered |
+| [vol-17-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-076.jpg) | 76 | 분당신도시와 판교신도시의 개발은 그 목적과 조성계획에 차이가 있었다. 분당신도시 | data-rendered |
+| [vol-17-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-077.jpg) | 77 | 제조업·서비스업 사업체 수와 규모별 사업체 표 | data-rendered |
+| [vol-17-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-078.jpg) | 78 | 성남시 종사자 수 변화 추이 | data-rendered |
+| [vol-17-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-079.jpg) | 79 | 제조업·서비스업 종사자 수 변화 추이 | data-rendered |
+| [vol-17-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-080.jpg) | 80 | 사업체 규모별 종사자 수 표 | data-rendered |
+| [vol-17-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-081.jpg) | 81 | 3. 서비스산업 발전과 산업구조 고도화 | data-rendered |
+| [vol-17-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-082.jpg) | 82 | 공(현 한전KPS), 한국디자인진흥원 등이 분당신도시로 본사를 이전했다. 그리고 고학력 | data-rendered |
+| [vol-17-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-083.jpg) | 83 | 서비스산업 사업체 수와 종사자 수 표 | data-rendered |
+| [vol-17-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-084.jpg) | 84 | 구분 1994 2000 2005 2010 2015 2020 2022 | data-rendered |
+| [vol-17-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-085.jpg) | 85 | part3 분당/판교 개발과 산업구조 발전 | page-rendered |
+| [vol-17-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-086.jpg) | 86 | 시민들까지 흡수하는 광역 상권을 형성하고 있다. 분당신도시는 세칭 ‘아줌마들이 가장 | page-rendered |
+| [vol-17-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-087.jpg) | 87 | 성남 의료기관과 의료기관 종사 인력 표 | data-rendered |
+| [vol-17-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-088.jpg) | 88 | 경기도 주요 시군 지식기반산업 종사자 수 | figure-rendered |
+| [vol-17-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-089.jpg) | 89 | 지식기반제조업·서비스업 종사자 수 | figure-rendered |
+| [vol-17-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-090.jpg) | 90 | 성남 지식기반산업 종사자 수와 서비스업 기술군별 비중 | data-rendered |
+| [vol-17-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-091.jpg) | 91 | 정보통신산업·전문과학기술서비스 고용 변화 | figure-rendered |
+| [vol-17-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-092.jpg) | 92 | 구별 사업체 수 변동 추이 | data-rendered |
+| [vol-17-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-093.jpg) | 93 | 구별 사업체 수 증가율과 비중 | data-rendered |
+| [vol-17-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-094.jpg) | 94 | 구별 종사자 수 변동 추이와 증가율 | data-rendered |
+| [vol-17-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-095.jpg) | 95 | 구별 종사자 수 비중 | data-rendered |
+| [vol-17-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-096.jpg) | 96 | 구별 제조업·서비스업 비교 | figure-rendered |
+| [vol-17-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-097.jpg) | 97 | 성남시 구별 서비스업 사업체 수의 비중 | data-rendered |
+| [vol-17-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-098.jpg) | 98 | 구별 제조업·서비스업 사업체·종사자 표 | data-rendered |
+| [vol-17-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-099.jpg) | 99 | 한편 서비스업 종사자 수는 분당구의 압도적인 증가세가 두드러진다. 1996년 3만 | data-rendered |
+| [vol-17-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-100.jpg) | 100 | 수정구 산업별·제조업·서비스업 사업체 수 | figure-rendered |
+| [vol-17-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-101.jpg) | 101 | 수정구 산업별 종사자 수 | figure-rendered |
+| [vol-17-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-102.jpg) | 102 | 수정구 제조업·서비스업 종사자 수 | figure-rendered |
+| [vol-17-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-103.jpg) | 103 | 중원구 산업별·제조업 사업체 수 | figure-rendered |
+| [vol-17-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-104.jpg) | 104 | 중원구 서비스업 사업체 수와 종사자 분석 | figure-rendered |
+| [vol-17-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-105.jpg) | 105 | 중원구 산업별·제조업·서비스업 종사자 수 | figure-rendered |
+| [vol-17-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-106.jpg) | 106 | 분당구 산업별 사업체 수 | figure-rendered |
+| [vol-17-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-107.jpg) | 107 | 분당구 제조업·서비스업 사업체 수 | figure-rendered |
+| [vol-17-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-108.jpg) | 108 | 분당구 산업별·제조업 종사자 수 | figure-rendered |
+| [vol-17-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-109.jpg) | 109 | 분당구 서비스업 종사자 수 | figure-rendered |
+| [vol-17-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-110.jpg) | 110 | 아시아 실리콘밸리 성남 프로젝트 구상도 | data-rendered |
+| [vol-17-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-111.jpg) | 111 | 성남시 경제·산업 발전 구상도 | data-rendered |
+| [vol-17-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-112.jpg) | 112 | 5. 인근 도시와의 산업 연계성 강화 | data-rendered |
+| [vol-17-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-113.jpg) | 113 | 경기도와 성남시 분야별 기업부설연구소 현황 | data-rendered |
+| [vol-17-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-114.jpg) | 114 | 경기도와 성남시 업종별 이노비즈 현황 | data-rendered |
+| [vol-17-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-115.jpg) | 115 | 경기도와 성남시 업종별 벤처기업 현황 | data-rendered |
+| [vol-17-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-116.jpg) | 116 | 분야에 특화하여 집중적으로 연구한다. 또한 연구 부문 조직이 있어 의료·보건, 바이오 헬 | page-rendered |
+| [vol-17-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-117.jpg) | 117 | 판교테크노밸리 입주 전 입지 지역 | figure-rendered |
+| [vol-17-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-118.jpg) | 118 | 분당구와 강남권 정보통신산업 매입·매출 거래 표 | data-rendered |
+| [vol-17-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-119.jpg) | 119 | 수도권 정보통신산업 지역 간 연계 구조 | figure-rendered |
+| [vol-17-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-120.jpg) | 120 | 수도권 Grand R&D 벨트 구상도 | data-rendered |
+| [vol-17-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-121.jpg) | 121 | 수도권 Grand R&D 벨트·소프트웨어 삼각 벨트 | figure-rendered |
+| [vol-17-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-122.jpg) | 122 | Part 4 표제: 4차 산업혁명과 성남의 역할 | part-opener |
+| [vol-17-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-123.jpg) | 123 | 최근 대한민국 경제는 인공지능(AI), 빅데이터, 사물인터넷(IoT) 등의 발전과 함께 4차 | page-rendered |
+| [vol-17-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-124.jpg) | 124 | 4차산업 이미지 | figure-rendered |
+| [vol-17-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-125.jpg) | 125 | 둘째, AI와 머신러닝(Machine Learning)36의 도입으로 인간의 노동을 대신하는 자율 | page-rendered |
+| [vol-17-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-126.jpg) | 126 | 2) 4차 산업혁명의 글로벌 트렌드 | page-rendered |
+| [vol-17-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-127.jpg) | 127 | 할 수 있게 한다. 차량에 장착된 다양한 센서와 카메라가 도로 상황을 모니터링하고, AI는 | page-rendered |
+| [vol-17-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-128.jpg) | 128 | 또한 데이터 보안과 프라이버시 문제도 중요한 사회적 이슈로 대두되고 있다. 4차 산업 | page-rendered |
+| [vol-17-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-129.jpg) | 129 | 2. 4차 산업혁명과 대한민국 | page-rendered |
+| [vol-17-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-130.jpg) | 130 | 한국의 스타트업 생태계 또한 빠르게 성장하고 있으며, 2021년에는 약 12조 원이 넘는 | data-rendered |
+| [vol-17-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-131.jpg) | 131 | 2) 4차 산업혁명 시대의 지역발전 전략 | page-rendered |
+| [vol-17-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-132.jpg) | 132 | 혁명 정책 논의를 경제와 일자리에 국한하기보다는 4차 산업혁명의 최종 수요자인 지역 | page-rendered |
+| [vol-17-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-133.jpg) | 133 | 4+3 초광역권 특화 발전 구상도 | data-rendered |
+| [vol-17-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-134.jpg) | 134 | 3. 대한민국 4차 산업혁명의 중심지 성남 | data-rendered |
+| [vol-17-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-135.jpg) | 135 | 성남 GRDP 경기도 2위 그래픽 | figure-rendered |
+| [vol-17-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-136.jpg) | 136 | 한편 성남하이테크밸리와 분당벤처타운 등 기존에 조성된 성남시의 탄탄한 산업단지 | page-rendered |
+| [vol-17-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-137.jpg) | 137 | 성남·경기도·전국 4차 산업혁명 비중 비교 | data-rendered |
+| [vol-17-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-138.jpg) | 138 | 구별 4차 산업혁명 비중 | data-rendered |
+| [vol-17-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-139.jpg) | 139 | 성남 4차산업 테마별 관련 종사자 비중 | data-rendered |
+| [vol-17-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-140.jpg) | 140 | 결합이 향후 모바일 AI 시장의 급격한 성장으로 이어질 것으로 예측50되는 가운데, 성남시 | data-rendered |
+| [vol-17-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-141.jpg) | 141 | 구별 4차산업 테마별 사업체 비중 | data-rendered |
+| [vol-17-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-142.jpg) | 142 | 구별 4차산업 테마별 종사자 비중 | data-rendered |
+| [vol-17-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-143.jpg) | 143 | 경기도 및 성남시 부가가치 창출 주요 산업 | figure-rendered |
+| [vol-17-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-144.jpg) | 144 | 성남 주요 ICT 업종 매출 규모와 경기도 대비 비중 | data-rendered |
+| [vol-17-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-145.jpg) | 145 | 경기도 중소기업 특허등록·출원 상위 지자체 | data-rendered |
+| [vol-17-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-146.jpg) | 146 | 기초지자체별 2023년 특허 출원·등록 현황 | data-rendered |
+| [vol-17-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-147.jpg) | 147 | 인구 10만 명당 특허 출원·등록 수 비교 | data-rendered |
+| [vol-17-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-148.jpg) | 148 | 다. 이는 신기술 혹은 혁신의 결과를 제도적으로 인정받고자 하는 해당 지역의 혁신 활동 | page-rendered |
+| [vol-17-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-149.jpg) | 149 | 스마트도시 인증 현판식 | figure-rendered |
+| [vol-17-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-150.jpg) | 150 | 지능형 교통 체계 개념도 | data-rendered |
+| [vol-17-page-151.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-151.jpg) | 151 | 개방형 데이터 허브 개념도 | data-rendered |
+| [vol-17-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-152.jpg) | 152 | 하고 있다. 최근에는 지하 시설물 관리 부실 등으로 인해 도심 싱크홀 등 안전사고 문제가 | page-rendered |
+| [vol-17-page-153.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-153.jpg) | 153 | 펀드는 2024년 10월에 이미 5,000억 규모를 돌파하여 시스템반도체, 바이오, AI 등 4차 | page-rendered |
+| [vol-17-page-154.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-154.jpg) | 154 | 성남 바이오헬스 산업 육성 컨벤션 | figure-rendered |
+| [vol-17-page-155.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-155.jpg) | 155 | 판교 자율주행모터쇼와 자율주행 지원사업 | figure-rendered |
+| [vol-17-page-156.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-156.jpg) | 156 | 진해 있을 뿐만 아니라 한국콘텐츠진흥원, 경기콘텐츠진흥원, 성남모바일앱센터62 등 탄 | page-rendered |
+| [vol-17-page-157.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-157.jpg) | 157 | 이 외에도 성남시는 산·학·관 협력체계 아래 4차 산업혁명 미래인재 양성을 위해 노력 | page-rendered |
+| [vol-17-page-158.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-158.jpg) | 158 | 합을 통해 지역 내 경제주체들의 혁신을 유도하여 지역 경제성장을 이룰 수 있다는 것이 | page-rendered |
+| [vol-17-page-159.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-159.jpg) | 159 | 용할 것이며, 창업과 취업의 선순환을 통해 성남시가 미래 산업 경쟁력을 유지할 수 있도 | page-rendered |
+| [vol-17-page-160.jpg](../docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-160.jpg) | 160 | 판권과 발행 정보 | figure-rendered |
 
 ## 핵심 표/자료 위치
 

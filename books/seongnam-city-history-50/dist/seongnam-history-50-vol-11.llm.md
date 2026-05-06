@@ -18,7 +18,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 지정·등록 유산 도록 성격이 강하므로, 사진·도판·표 확인을 위해 1-160쪽 전 페이지를 `assets/pages/`에 렌더링했다.
+- 이 권은 지정·등록 유산 도록 성격이 강하므로, 사진·도판·표 확인을 위해 1-160쪽 전 페이지를 `assets/pages/vol-11/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-11-integration.md`에 별도 정리했다.
 - 이 파일은 LLM 장문 입력을 위해 11권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
 
@@ -48,166 +48,166 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-11-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-11-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-002.jpg) | 2 | 권별 목차 | toc |
-| [vol-11-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-003.jpg) | 3 | 권별 목차 | toc |
-| [vol-11-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-004.jpg) | 4 | Part 1 표제: 성남시 국가유산의 특징과 현황 | part-opener |
-| [vol-11-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-005.jpg) | 5 | 1) 국가유산의 개념 우리나라에서는 오랜 기간 문화유산 또는 문화자원을 문화재(文化財)라고 표시하였다. | page-rendered |
-| [vol-11-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-006.jpg) | 6 | 또는 세계적 유산으로서 역사적·예술적·학술적 또는 경관적 가치가 큰 우리나라의 소중한 유산’을 뜻한다. 이처럼 「문화재보호법」 제정 이후 60여 년간 쓰여온 ‘문 | page-rendered |
-| [vol-11-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-007.jpg) | 7 | 든 국가유산은 유산을 소유한 사람뿐만 아니라 시민 모두의 소유물임을 인식해야 한다. 국가유산을 보존 관리하기 위한 법령으로는 1916년 「조선총독부령」 제52호로 | page-rendered |
-| [vol-11-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-008.jpg) | 8 | 「국가유산기본법」 유형 분류 표 | table-rendered |
-| [vol-11-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-009.jpg) | 9 | ② 지정 문화유산 중심의 원형 유지 원칙에서 탈피, 근현대 문화유산이 지역 주민을 포함한 국민 이 참여하여 그 가치를 보존하고 향유하는 주체가 될 수 있도록 지 | page-rendered |
-| [vol-11-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-010.jpg) | 10 | 1) 성남 지역 문화유산의 특징 | page-rendered |
-| [vol-11-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-011.jpg) | 11 | 한양으로 들어오는 마지막 봉수인 천림산 봉수가 있어 서울 남산(목멱산)과 용인을 연결 해 주는 통신의 요지였다. 따라서 이 지역은 바다 건너 일본의 침략에 대비하 | page-rendered |
-| [vol-11-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-012.jpg) | 12 | 성남시 소재 국가 지정 문화유산 일람 | table-rendered |
-| [vol-11-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-013.jpg) | 13 | 성남시 소재 국가 지정 문화유산 일람 | table-rendered |
-| [vol-11-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-014.jpg) | 14 | 경기도 지정 국가유산 26점 일람 | table-rendered |
-| [vol-11-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-015.jpg) | 15 | 성남시 지정 향토유산 16점 일람 | table-rendered |
-| [vol-11-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-016.jpg) | 16 | Part 2 표제: 국가 지정 국가유산 | part-opener |
-| [vol-11-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-017.jpg) | 17 | 1) 제2로 직봉-성남 천림산 봉수 유적 지정일 : 2002. 5. 3. | page-rendered |
-| [vol-11-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-018.jpg) | 18 | 31) 폐지되었다. | page-rendered |
-| [vol-11-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-019.jpg) | 19 | 1) 『통감속편(通鑑續編)』 지정일 : 2012. 3. 10. | page-rendered |
-| [vol-11-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-020.jpg) | 20 | 2) 『동의보감(東醫寶鑑)』 지정일 : 2008. 8. 28. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-021.jpg) | 21 | 3) 『월인천강지곡(月印千江之曲)』 권상 지정일 : 1963. 9. 2. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-022.jpg) | 22 | 4) 『조선왕조실록(朝鮮王朝實錄)』 봉모당본(奉謨堂本) 지정일 : 2019. 6. 26. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-023.jpg) | 23 | 5) 「이십공신회맹축(二十功臣會盟軸)-보사공신녹훈후(保社功臣錄勳後)」 지정일 : 2021. 2. 17. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-024.jpg) | 24 | 1) 「이충원 호성공신교서(李忠元扈聖功臣敎書)」 지정일 : 1986. 10. 15. | page-rendered |
-| [vol-11-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-025.jpg) | 25 | 「이충원 호성공신교서」(출처 : 국가유산포털). 2등에 이충원의 이름이 보인다. part2 국가 지정 국가유산 25 | page-rendered |
-| [vol-11-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-026.jpg) | 26 | 2) 『대방광불화엄경소(大方廣佛華嚴經疏)』 권21, 24 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-027.jpg) | 27 | 3) 『대불정다라니(大佛頂陀羅尼)』 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-028.jpg) | 28 | 4) 『약사유리광여래본원공덕경(藥師瑠璃光如來本願功德經)』 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-029.jpg) | 29 | 5) 『범망경로사나불설보살심지계품(梵網經盧舍那佛說菩薩心地戒品)』 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-030.jpg) | 30 | 6) 『백운화상초록불조직지심체요절(白雲和尙抄錄佛祖直指心體要節)』 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-031.jpg) | 31 | 7) 「정사공신 조온 사여왕지(定社功臣趙溫賜與王旨)」 지정일 : 1992. 7. 28. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-032.jpg) | 32 | 8) 『입학도설(入學圖說)』 지정일 : 1992. 7. 28. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-033.jpg) | 33 | 9) 『기묘제현수필(己卯諸賢手筆)』 지정일 : 1994. 5. 2. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-034.jpg) | 34 | 10) 『기묘제현수첩(己卯諸賢手帖)』 지정일 : 1994. 5. 2. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-035.jpg) | 35 | 11) 「손소 초상(孫昭肖像)」 지정일 : 1995. 3. 10. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-036.jpg) | 36 | 12) 『국조정토록(國朝征討錄)』 지정일 : 2007. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-037.jpg) | 37 | 13) 「이십공신회맹축(二十功臣會盟軸)-영국공신녹훈후(寧國功臣錄勳後)」 지정일 : 2007. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-038.jpg) | 38 | 14) 『대방광원각수다라요의경(大方廣圓覺修多羅了義經)』 권상1의1 지정일 : 2007. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-039.jpg) | 39 | 15) 『대불정여래밀인수증요의제보살만행수능엄경(大佛頂如來密因 修證了義諸菩薩萬行首楞嚴經)』 권2, 10 지정일 : 2007. 4. 20. | page-rendered |
-| [vol-11-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-040.jpg) | 40 | 16) 「숙빈최씨 소령원도(淑嬪崔氏昭寧園圖)」 지정일 : 2007. 12. 31. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-041.jpg) | 41 | 17) 「월중도(越中圖)」 지정일 : 2007. 12. 31. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-042.jpg) | 42 | 18) 「아국여지도(俄國輿地圖)」 지정일 : 2008. 12. 22. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-043.jpg) | 43 | 19) 「영조어필(英祖御筆)-숙빈최씨사우제문원고(淑嬪崔氏祠宇祭 文原稿)」 지정일 : 2010. 1. 4. | page-rendered |
-| [vol-11-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-044.jpg) | 44 | 20) 「영조어필(英祖御筆)-숙빈최씨소령묘갈문원고(淑嬪崔氏昭寧 墓碣文原稿)」 지정일 : 2010. 1. 4. | page-rendered |
-| [vol-11-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-045.jpg) | 45 | 21) 「정조어필(正祖御筆)-시국제입장제생(示菊製入場諸生)」 지정일 : 2010. 1. 4. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-046.jpg) | 46 | 22) 「송준길 행초 동춘당 필적(宋浚吉行草同春堂筆跡)」 지정일 : 2010. 10. 25. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-047.jpg) | 47 | 23) 『박세당 필적 서계유묵(朴世堂筆蹟西溪遺墨)』 지정일 : 2010. 10. 25. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-048.jpg) | 48 | 24) 「박사익 초상(朴師益肖像)」 지정일 : 2011. 11. 1. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-049.jpg) | 49 | part2 국가 지정 국가유산 조선 후기 문신 박사익의 50대 초 모습을 그린 「박사익 초상」(출처 : 국가유산포털) 49 | page-rendered |
-| [vol-11-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-050.jpg) | 50 | 25) 김응남 호성공신교서 및 관련 고문서(金應南 扈聖功臣敎書 및 關聯 古文書) 지정일 : 2012. 2. 22. | page-rendered |
-| [vol-11-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-051.jpg) | 51 | 교서의 형태적 기준이 된다. 또한 김응남의 전기(傳記) 자료로 임진왜란 연구의 자료가 될 뿐만 아니라 교서문을 지은 제진자와 교서문을 쓴 서사자가 적혀 있는 경우 | page-rendered |
-| [vol-11-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-052.jpg) | 52 | 26) 조선왕조 의궤(朝鮮王朝儀軌)(2016-2) 지정일 : 2016. 5. 3. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-053.jpg) | 53 | 27) 협주명현십초시(夾注名賢十抄詩) 지정일 : 2017. 1. 2. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-054.jpg) | 54 | 28) 박동형 초상 및 함(朴東亨 肖像 및 函) 지정일 : 2017. 1. 2. 수 량 : 2건 4점 | page-rendered |
-| [vol-11-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-055.jpg) | 55 | part2 국가 지정 국가유산 박동형 초상 전신상(출처 : 국가유산포털) 55 | page-rendered |
-| [vol-11-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-056.jpg) | 56 | 29) 장용영 본영도형 일괄(壯勇營 本營圖形 一括) 지정일 : 2020. 8. 27. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-057.jpg) | 57 | 30) 지 정조격 권1~2, 23~34(至正條格 卷一~十二, 二十三~ 三十四) | page-rendered |
-| [vol-11-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-058.jpg) | 58 | 2) 두 차례에 걸쳐 법전을 편찬했으며, 지금까지 중국에서조차 원나라 법전은 전혀 발견되 지 않은 상태이다. 이 법전은 명나라 초기에 실전(失傳)되어 서명과 목록 | page-rendered |
-| [vol-11-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-059.jpg) | 59 | 31) 안중근의사 유묵-일통청화공(安重根義士遺墨-日通淸話公) 지정일 : 2022. 6. 23. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-060.jpg) | 60 | 32) 장조 태봉도(莊祖 胎封圖) 지정일 : 2022. 8. 26. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-061.jpg) | 61 | part2 국가 지정 국가유산 장황한 「장조 태봉도」 전체 모습(출처 : 국가유산청) 61 | page-rendered |
-| [vol-11-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-062.jpg) | 62 | 33) 순조 태봉도(純祖 胎封圖) 지정일 : 2022. 8. 26. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-063.jpg) | 63 | part2 국가 지정 국가유산 「순조 태봉도」 전체 모습(출처 : 국가유산청) 63 | page-rendered |
-| [vol-11-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-064.jpg) | 64 | 34) 헌종 태봉도(憲宗 胎封圖) 지정일 : 2022. 8. 26. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-065.jpg) | 65 | part2 국가 지정 국가유산 「헌종 태봉도」 전체 모습(출처 : 국가유산청) 65 | page-rendered |
-| [vol-11-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-066.jpg) | 66 | 35) 손소 적개공신교서(孫昭 敵愾功臣敎書) 지정일 : 2022. 12. 27. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-067.jpg) | 67 | 36) 성남 봉국사 대광명전(城南 奉國寺 大光明殿) 지정일 : 2022. 12. 28. 소재지 : 수정구 태평로 79 | page-rendered |
-| [vol-11-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-068.jpg) | 68 | 성남 봉국사 대광명전은 주존불(主尊 佛)로 목조 아미타불을 봉안하고, 좌우 협 시보살로 관음보살과 지장보살을 모신 불 | page-rendered |
-| [vol-11-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-069.jpg) | 69 | 1) 매듭장 지정일 : 1968. 12. 21. | page-rendered |
-| [vol-11-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-070.jpg) | 70 | 조선시대에는 국가 소속의 매듭장이 있 었다. 재료로는 명주실·모시실·닥나무실·삼 베실· 털실 등이 쓰인다. 끈의 색감, 굵기, 맺 | page-rendered |
-| [vol-11-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-071.jpg) | 71 | 가야금산조 및 병창 이영희(출처 : 국가유산청) 밝고 경쾌하다. 휘모리는 흥분과 급박감이 있다. 다른 악기의 산조에 비해 가야금산조는 가야금의 악기적인 특성으로 | page-rendered |
-| [vol-11-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-072.jpg) | 72 | 3) 태평무(太平舞) 지정일 : 1988. 12. 1. 보유자 : 양성옥(전승자, 인정일 : 2019. 11. 25.) | page-rendered |
-| [vol-11-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-073.jpg) | 73 | 1) 김소월 시집 진달래꽃(2011-3) 지정일 : 2011. 2. 25. | page-rendered |
-| [vol-11-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-074.jpg) | 74 | 2) 국문정리(國文正理)(2012-2) 지정일 : 2012. 12. 24. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-075.jpg) | 75 | 3) 전보장정(電報章程)(2012-2) 지정일 : 2012. 12. 24. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
-| [vol-11-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-076.jpg) | 76 | 4) 백용성 선사 만일선회 방함록(白龍城 禪師 萬日禪會 芳啣錄) 지정일 : 2014. 10. 29. 소재지 : 경기도 성남시 | page-rendered |
-| [vol-11-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-077.jpg) | 77 | Part 3 표제: 경기도 지정 국가유산 | part-opener |
-| [vol-11-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-078.jpg) | 78 | 1) 망경암마애여래좌상(望京菴磨崖如來坐像) 지정일 : 1980. 6. 2. | page-rendered |
-| [vol-11-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-079.jpg) | 79 | 다고 전한다. 망경암마애여래좌상은 결가부좌(結跏趺坐)한 좌상으로 양쪽 어깨를 덮은 통견(通肩) 의 법의(法衣)를 입고 있으며, 왼손은 가슴에 대고 오른손은 항마촉 | page-rendered |
-| [vol-11-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-080.jpg) | 80 | 에 시행한 증광시의 합격자를 수록한 명부인데, 문과 방목의 형식에 따라 등수별로 합격 자의 출신과 성명·생년·자·본관·거주지, 부친의 과환(科宦), 형제의 과환 | page-rendered |
-| [vol-11-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-081.jpg) | 81 | 증손자 박태만이 정서하여 재발급된 「박동량 호성공신교서」(출처 : 국가유산포털) 나 여(女) 조카의 품계를 1계씩 올려주며, 적장자에게 벼슬의 지위를 세습하게 하 | page-rendered |
-| [vol-11-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-082.jpg) | 82 | 4) 영가대사증도가남명천선사게송2책(永嘉大師證道歌南明泉禪師 偈頌) 지정일 : 2011. 10. 4. | page-rendered |
-| [vol-11-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-083.jpg) | 83 | 5) 선종영가집언해권상1책(禪宗永嘉集諺解) 지정일 : 2011. 10. 4. 소재지 : 분당구 | page-rendered |
-| [vol-11-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-084.jpg) | 84 | 6) 경율이상1책권1-6(經律異相) 지정일 : 2011. 10. 4. 소재지 : 분당구 | page-rendered |
-| [vol-11-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-085.jpg) | 85 | 7) 성남 봉국사 목조아미타여래좌상(城南 奉國寺 木造阿彌陀如來 坐像) 지정일 : 2016. 7. 22. | page-rendered |
-| [vol-11-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-086.jpg) | 86 | 성남 봉국사 아미타여래좌상(가운데)과 지장보살(왼쪽), 관음보살(오른쪽) 의 옷자락이 가슴까지 수직으로 늘어져 옆으로 펼쳐져 있다. 또한 나머지 대의 자락은 팔 | page-rendered |
-| [vol-11-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-087.jpg) | 87 | 8) 성남 봉국사 아미타불회도(城南 奉國寺 阿彌陀佛會圖) 지정일 : 2016. 7. 22. 소재지 : 수정구 태평로 79(태평동) | page-rendered |
-| [vol-11-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-088.jpg) | 88 | 한편 주존인 아미타불의 신광(身光)에는 금색이 칠해져 있어 화려하며, 불화의 주된 색 인 붉은색과 녹색이 각 존상의 광배와 의복에 칠해져 있다. 또 19세기 후반 | page-rendered |
-| [vol-11-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-089.jpg) | 89 | 9) 성남 약사사 지장시왕도(城南 藥師寺 地藏十王圖) 지정일 : 2018. 9. 10. 소재지 : 중원구 산성대로625번길 22(은행동) | page-rendered |
-| [vol-11-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-090.jpg) | 90 | 10) 성남 ‘법륜사’ 명 신중도(城南 法輪寺 銘 神衆圖) 및 복장물(腹藏物) 지정일 : 2021. 12. 9. 소재지 : 분당구 하오개로 323(운중동, | page-rendered |
-| [vol-11-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-091.jpg) | 91 | 11) 성남 ‘법륜사’ 명 감로도(城南 法輪寺 銘 甘露圖) 지정일 : 2021. 12. 9. | page-rendered |
-| [vol-11-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-092.jpg) | 92 | 僧)이 극락세계로 천도한다는 내용이 표현되어 있는데, 왕실과 백성, 그리고 조상을 영가 천도하고 나라의 안정을 기원하는 제단을 표현한 것이 특징이다. 하단에는 한 | page-rendered |
-| [vol-11-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-093.jpg) | 93 | 1) 이수선생묘(李睟先生墓) 지정일 : 1980. 6. 2. | page-rendered |
-| [vol-11-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-094.jpg) | 94 | 이수선생묘 전경(출처 : 국가유산포털) 朝服)을 착용한 문인석은 안정적인 신체 비례를 갖추고 있 으나, 홀을 쥐고 있는 양손이 미숙하게 표현되었다. 봉분 사 | page-rendered |
-| [vol-11-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-095.jpg) | 95 | 2) 이경석선생묘(李景奭先生墓) 지정일 : 1985. 9. 20. | page-rendered |
-| [vol-11-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-096.jpg) | 96 | 1) 영의정에 올라 효종의 북벌 정책에 참여하였으며, 1668년(현종 9) 궤장을 하사받았다. 이와 관련한 사궤장과 『사궤장연회도첩』이 경기도박물관에 소장 | page-rendered |
-| [vol-11-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-097.jpg) | 97 | 3) 한산이씨묘역(韓山李氏墓域) 지정일 : 1989. 12. 29. 소재지 : 분당구 성남대로 550(중앙공원 내) | page-rendered |
-| [vol-11-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-098.jpg) | 98 | 감 이확(李穫, 1583~1658)의 사위 홍수원(洪晬元, 1611~1637)의 묘가 있는데, 이를 통 해 처가의 선산에도 매장될 수 있었던 당시의 풍습을 엿볼 | page-rendered |
-| [vol-11-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-099.jpg) | 99 | 던 정자동 불곡산(佛谷山) 자락 의 구릉에 있다. 이팽수 묘는 원 래 분당구 정자동 산11-1에 있 | page-rendered |
-| [vol-11-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-100.jpg) | 100 | 5) 둔촌이집묘역(遁村李集墓域) 지정일 : 2008. 5. 26. | page-rendered |
-| [vol-11-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-101.jpg) | 101 | 이집 묘표 이집 묘 4각 장명등 이집 묘 망주석 와 농경으로 세월을 보냈다. 이때 시편신립(詩篇新粒)에 대한 질문서를 보내 당시의 문사 (文士)들을 경탄케 하였다 | page-rendered |
-| [vol-11-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-102.jpg) | 102 | 6) 성남 갈현동 건물지 유적(城南葛峴洞建物址遺蹟) 지정일 : 2024. 4. 16. 소재지: 중원구 갈현동 469-1 | page-rendered |
-| [vol-11-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-103.jpg) | 103 | 1) 수내동가옥(數內洞家屋) 지정일 : 1989. 12. 29. | page-rendered |
-| [vol-11-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-104.jpg) | 104 | 한산이씨가 살던 수내동가옥 제11권 성남의 문화유산 수내동가옥 내부(출처 : 국가유산포털) | page-rendered |
-| [vol-11-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-105.jpg) | 105 | 2) 청주한씨문정공파묘역신도비(淸州韓氏文靖公派墓域神道碑) 지정일 : 1994. 4. 20. 소재지 : 분당구 율동 산2-11(율동공원 내) | page-rendered |
-| [vol-11-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-106.jpg) | 106 | 분당구 율동에 있는 청주한씨 문정공파 묘역 의 백색 화강편마암으로 되어 있으며, 규모는 화관석 72×23×52㎝이고, 비신은 61×18 ×152㎝, 기대는 115 | page-rendered |
-| [vol-11-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-107.jpg) | 107 | 3) 풍산군이종린묘역(豊山君李宗鱗墓域) 지정일 : 2005. 7. 28. 소재지 : 분당구 하산운동 264-5 | page-rendered |
-| [vol-11-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-108.jpg) | 108 | 1) 나전칠기장(칠장, 螺鈿漆器匠) 지정일(인정일) : 1998. 9. 21. | page-rendered |
-| [vol-11-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-109.jpg) | 109 | 2) 화각장(華角匠) 지정일(인정일) : 1999. 10. 18. 전수 조교 : 한기덕 | page-rendered |
-| [vol-11-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-110.jpg) | 110 | 3) 대목장(도편수, 大木匠) 지정일(인정일) : 2001. 11. 5. 보유자 : 장효순 | page-rendered |
-| [vol-11-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-111.jpg) | 111 | 1) 이해조 구마검(驅魔劒) 지정일 : 2023. 3. 31. | page-rendered |
-| [vol-11-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-112.jpg) | 112 | 져 있다. 책의 크기는 세로 15.0㎝ 가로 21.2㎝, 전체 면수는 135면이다. 표지의 앞과 뒤가 온전 히 남아 있어서 보존 상태는 양호한 편이지만 책의 중간 | page-rendered |
-| [vol-11-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-113.jpg) | 113 | 3) 성남 오산정(城南 梧山亭) 지정일 : 2024. 4. 5. 소유자/관리자 : 이○○ | page-rendered |
-| [vol-11-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-114.jpg) | 114 | Part 4 표제: 성남시 향토유산 | part-opener |
-| [vol-11-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-115.jpg) | 115 | 1) 정일당 강씨 묘(靜一堂姜氏墓) 지정번호 : 성남시 향토유산 제1호 | page-rendered |
-| [vol-11-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-116.jpg) | 116 | 향토유산 제1호로 지정하고, 2000년 2월 파평윤씨 문중의 협조를 받아 사당과 묘지를 다 시 조성하였다. 이때 신도비도 새로 건립하였다. 한편 둔촌이집묘역은 1 | page-rendered |
-| [vol-11-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-117.jpg) | 117 | 송산 조견 선생 묘(松山趙狷先生墓)는 중원구 여수동 일원에 있다. 여말선초의 묘제 양식인 방형분(方形墳)이 며, 3단의 계체석을 두어 공간을 구분하였다. 하단에는 | page-rendered |
-| [vol-11-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-118.jpg) | 118 | 4) 초시에 합격 후 여러 관직을 역임하였으며, 1833년에 영의정으 로 치사하여 봉조하(奉朝賀, 실무를 보지 | page-rendered |
-| [vol-11-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-119.jpg) | 119 | 4) 경헌 조몽정 묘역(敬軒曺夢禎墓域) 지정번호 : 성남시 향토유산 제5호 지정일 : 2002. 12. 16. | page-rendered |
-| [vol-11-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-120.jpg) | 120 | 5) 연성군 이곤 묘비(延城君李坤墓碑) 지정번호 : 성남시 향토유산 제6호 지정일 : 2004. 10. 25. | page-rendered |
-| [vol-11-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-121.jpg) | 121 | 6) 광주이씨 묘역(廣州李氏墓域) 지정번호 : 성남시 향토유산 제7호 지정일 : 2006. 3. 27. | page-rendered |
-| [vol-11-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-122.jpg) | 122 | 7) 신종군 이효백 묘역(新宗君李孝伯墓域) 지정번호 : 성남시 향토유산 제8호 지정일 : 2008. 9. 17. | page-rendered |
-| [vol-11-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-123.jpg) | 123 | 이효백 문인석 방부하엽 형태의 이효백 묘표 방부개석 형태의 이효백 묘표 덮개돌이 있는 방부개석(方趺蓋石)형이며, 입석 연대는 공의 장후(葬後) 452년(1939) | page-rendered |
-| [vol-11-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-124.jpg) | 124 | 청주한씨 청연공파 묘역 대부분 부인과의 원형 쌍분으로, 묘의 형태에 있어서 차이는 있지만 조선시대의 전형적 인 묘제 양식을 보여주고 있다. 특이하게 한명욱의 묘는 | page-rendered |
-| [vol-11-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-125.jpg) | 125 | 9) 덕수이씨 의정공파 묘역(德水李氏議政公派墓域) 지정번호 : 성남시 향토유산 제10호 지정일 : 2012. 11. 19. | page-rendered |
-| [vol-11-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-126.jpg) | 126 | 각 묘에는 17세기 석물 양 식인 망주석·문인석·동자석 과 방부원수형의 묘표 등이 | page-rendered |
-| [vol-11-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-127.jpg) | 127 | 징으로 한성백제의 묘제 양식을 잘 갖추고 있다. 한성백제 1호 돌방무덤은 판교동 구릉의 | page-rendered |
-| [vol-11-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-128.jpg) | 128 | 11) 판교 통일신라~고려 고분군 지정번호 : 성남시 향토유산 제12호 지정일 : 2012. 12. 21. | page-rendered |
-| [vol-11-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-129.jpg) | 129 | 12) 판교 생활 유적군(백제~조선시대) 지정번호 : 성남시 향토유산 제13호 지정일 : 2012. 12. 21. | page-rendered |
-| [vol-11-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-130.jpg) | 130 | 국 후에도 출사하여 호조정랑 과 전농시소윤(典農寺少尹) 을 거쳐 첨지중추원사(僉知中 | page-rendered |
-| [vol-11-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-131.jpg) | 131 | 14) 성남 이무술 집터 다지는 소리 지정번호 : 성남시 향토유산 제15호 지정일 : 2017. 1. 17. | page-rendered |
-| [vol-11-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-132.jpg) | 132 | 15) 성남 오리뜰 농악 지정번호 : 성남시 향토유산 제16호 지정일 : 2017. 1. 17. | page-rendered |
-| [vol-11-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-133.jpg) | 133 | 16) 전주이씨 덕양군파 이순제 묘역(全州李氏德陽君派李舜濟墓域) 지정번호 : 성남시 향토유산 제16호 지정일 : 2020. 4. 29. | page-rendered |
-| [vol-11-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-134.jpg) | 134 | Part 5 표제: 남한산성과 성남 | part-opener |
-| [vol-11-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-135.jpg) | 135 | 남한산성과 성남 생활권 관계 서술 | page-rendered |
-| [vol-11-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-136.jpg) | 136 | 제11권 성남의 문화유산 성남시사(50년사) 136 | page-rendered |
-| [vol-11-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-137.jpg) | 137 | 려가 한강 유역을 넘어 세력권을 충주, 중원까지 장악하면서 남한산성 일대는 약 60년간 고구려의 땅이 되었다. 이어서 신라 진흥왕이 남한산성을 중심으로 이 일대의 | page-rendered |
-| [vol-11-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-138.jpg) | 138 | 「남한산성도」 (18세기, 영남대학교 박물관 소장) 아보는 기관이 있는 곳)를 산성 내로 옮겼다. 이때의 공사에는 벽암(碧巖) 각성대사(覺性 大師)를 팔도 도총섭 | map-rendered |
-| [vol-11-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-139.jpg) | 139 | 정문인 한남루(漢南樓)를 세우고, 1642년에 세웠던 객관(客館) 인화 관(人和館)을 1829년(순조 29)에 | page-rendered |
-| [vol-11-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-140.jpg) | 140 | 17) 7월 13일 산성 내에 가옥이 1,000호나 있었다고 하는 기록으로 보아 한강 남쪽의 제일 규모가 큰 도시로 발전하였을 것이다. 우리나라의 산성 취락 도시 | page-rendered |
-| [vol-11-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-141.jpg) | 141 | 광주읍 치소였던 옛 남한산성 마을(1910년경) 하기 시작하였다. 1907년 8월 1일 조선의 병권을 쥐고 군대를 해산시켰으며, 남한산성 내 200여 곳의 무기고 | page-rendered |
-| [vol-11-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-142.jpg) | 142 | 남한산성 내 문화유산 분포도와 지정 현황 | table-rendered |
-| [vol-11-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-143.jpg) | 143 | part5 남한산성과 성남 143 | page-rendered |
-| [vol-11-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-144.jpg) | 144 | 1) 남한산성(南漢山城) 구 분 : 사적 | page-rendered |
-| [vol-11-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-145.jpg) | 145 | 된 본성이다. 외성으로 동쪽에 봉암성과 한봉성, 남쪽에 신남성이 있으며, 동·서 두 개의 돈대로 구축되어 있다. 원성은 1624년(인조 2)부터 1626년 사이에 | page-rendered |
-| [vol-11-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-146.jpg) | 146 | 3) 남한산성 수어장대(南漢山城 守禦將臺) 구 분 : 보물 | page-rendered |
-| [vol-11-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-147.jpg) | 147 | 28) 남한산성 축성 당시 동·남·북 | page-rendered |
-| [vol-11-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-148.jpg) | 148 | 4) 남한산성 연무관(南漢山城 演武館) 구 분 : 보물 지정일 : 2021. 12. 27. | page-rendered |
-| [vol-11-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-149.jpg) | 149 | 5) 남한산성 숭렬전(南漢山城 崇烈殿) 구 분 : 보물 지정일 : 2022. 11. 25. | page-rendered |
-| [vol-11-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-150.jpg) | 150 | 6) 청량당(淸凉堂) 구 분 : 경기도 유형문화유산 지정일 : 1972. 5. 4. | page-rendered |
-| [vol-11-page-151.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-151.jpg) | 151 | 7) 현절사(顯節祠) 구 분 : 경기도 유형문화유산 지정일 : 1972. 5. 4. | page-rendered |
-| [vol-11-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-152.jpg) | 152 | 8) 침괘정(枕戈亭) 구 분 : 경기도 유형문화유산 지정일 : 1972. 5. 4. | page-rendered |
-| [vol-11-page-153.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-153.jpg) | 153 | 9) 강희 21년명 장경사 동종(康熙二十一年銘 長慶寺 銅鐘) 구 분 : 경기도 유형문화유산 지정일 : 2014. 5. 9. | page-rendered |
-| [vol-11-page-154.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-154.jpg) | 154 | 남한산성소주 빚기 체험 모습 조선 말기에 이종숙(李宗肅)이라는 사람이 산성소주를 빚었으며, 일제강점기에는 일제 로부터 허가를 받아 공식적으로 산성소주를 제조하였다 | page-rendered |
-| [vol-11-page-155.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-155.jpg) | 155 | 11) 망월사지(望月寺址) 구 분 : 경기도 기념물 지정일 : 1988. 12. 2. | page-rendered |
-| [vol-11-page-156.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-156.jpg) | 156 | 아 있는 옛 망월사의 유구는 법당지 등을 마련하기 위해 쌓은 축대와 현 법당으로 올라가 는 계단에 이용한 장대석, 초석(礎石)이 몇 개 있을 뿐이다. 법당 북서쪽 | page-rendered |
-| [vol-11-page-157.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-157.jpg) | 157 | 1) 남한산성을 수축하고 이를 지키기 위해 전국에서 모인 조선 승 | page-rendered |
-| [vol-11-page-158.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-158.jpg) | 158 | 158 지수당과 연못 야경(출처 : 광주시청) | page-rendered |
-| [vol-11-page-159.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-159.jpg) | 159 | 14) 장경사(長慶寺) 구 분 : 경기도 문화유산 자료 지정일 : 1983. 9. 19. | page-rendered |
-| [vol-11-page-160.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11-page-160.jpg) | 160 | 판권과 발행 정보 | colophon |
+| [vol-11-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-11-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-002.jpg) | 2 | 권별 목차 | toc |
+| [vol-11-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-003.jpg) | 3 | 권별 목차 | toc |
+| [vol-11-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-004.jpg) | 4 | Part 1 표제: 성남시 국가유산의 특징과 현황 | part-opener |
+| [vol-11-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-005.jpg) | 5 | 1) 국가유산의 개념 우리나라에서는 오랜 기간 문화유산 또는 문화자원을 문화재(文化財)라고 표시하였다. | page-rendered |
+| [vol-11-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-006.jpg) | 6 | 또는 세계적 유산으로서 역사적·예술적·학술적 또는 경관적 가치가 큰 우리나라의 소중한 유산’을 뜻한다. 이처럼 「문화재보호법」 제정 이후 60여 년간 쓰여온 ‘문 | page-rendered |
+| [vol-11-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-007.jpg) | 7 | 든 국가유산은 유산을 소유한 사람뿐만 아니라 시민 모두의 소유물임을 인식해야 한다. 국가유산을 보존 관리하기 위한 법령으로는 1916년 「조선총독부령」 제52호로 | page-rendered |
+| [vol-11-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-008.jpg) | 8 | 「국가유산기본법」 유형 분류 표 | table-rendered |
+| [vol-11-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-009.jpg) | 9 | ② 지정 문화유산 중심의 원형 유지 원칙에서 탈피, 근현대 문화유산이 지역 주민을 포함한 국민 이 참여하여 그 가치를 보존하고 향유하는 주체가 될 수 있도록 지 | page-rendered |
+| [vol-11-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-010.jpg) | 10 | 1) 성남 지역 문화유산의 특징 | page-rendered |
+| [vol-11-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-011.jpg) | 11 | 한양으로 들어오는 마지막 봉수인 천림산 봉수가 있어 서울 남산(목멱산)과 용인을 연결 해 주는 통신의 요지였다. 따라서 이 지역은 바다 건너 일본의 침략에 대비하 | page-rendered |
+| [vol-11-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-012.jpg) | 12 | 성남시 소재 국가 지정 문화유산 일람 | table-rendered |
+| [vol-11-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-013.jpg) | 13 | 성남시 소재 국가 지정 문화유산 일람 | table-rendered |
+| [vol-11-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-014.jpg) | 14 | 경기도 지정 국가유산 26점 일람 | table-rendered |
+| [vol-11-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-015.jpg) | 15 | 성남시 지정 향토유산 16점 일람 | table-rendered |
+| [vol-11-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-016.jpg) | 16 | Part 2 표제: 국가 지정 국가유산 | part-opener |
+| [vol-11-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-017.jpg) | 17 | 1) 제2로 직봉-성남 천림산 봉수 유적 지정일 : 2002. 5. 3. | page-rendered |
+| [vol-11-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-018.jpg) | 18 | 31) 폐지되었다. | page-rendered |
+| [vol-11-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-019.jpg) | 19 | 1) 『통감속편(通鑑續編)』 지정일 : 2012. 3. 10. | page-rendered |
+| [vol-11-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-020.jpg) | 20 | 2) 『동의보감(東醫寶鑑)』 지정일 : 2008. 8. 28. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-021.jpg) | 21 | 3) 『월인천강지곡(月印千江之曲)』 권상 지정일 : 1963. 9. 2. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-022.jpg) | 22 | 4) 『조선왕조실록(朝鮮王朝實錄)』 봉모당본(奉謨堂本) 지정일 : 2019. 6. 26. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-023.jpg) | 23 | 5) 「이십공신회맹축(二十功臣會盟軸)-보사공신녹훈후(保社功臣錄勳後)」 지정일 : 2021. 2. 17. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-024.jpg) | 24 | 1) 「이충원 호성공신교서(李忠元扈聖功臣敎書)」 지정일 : 1986. 10. 15. | page-rendered |
+| [vol-11-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-025.jpg) | 25 | 「이충원 호성공신교서」(출처 : 국가유산포털). 2등에 이충원의 이름이 보인다. part2 국가 지정 국가유산 25 | page-rendered |
+| [vol-11-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-026.jpg) | 26 | 2) 『대방광불화엄경소(大方廣佛華嚴經疏)』 권21, 24 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-027.jpg) | 27 | 3) 『대불정다라니(大佛頂陀羅尼)』 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-028.jpg) | 28 | 4) 『약사유리광여래본원공덕경(藥師瑠璃光如來本願功德經)』 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-029.jpg) | 29 | 5) 『범망경로사나불설보살심지계품(梵網經盧舍那佛說菩薩心地戒品)』 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-030.jpg) | 30 | 6) 『백운화상초록불조직지심체요절(白雲和尙抄錄佛祖直指心體要節)』 지정일 : 1992. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-031.jpg) | 31 | 7) 「정사공신 조온 사여왕지(定社功臣趙溫賜與王旨)」 지정일 : 1992. 7. 28. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-032.jpg) | 32 | 8) 『입학도설(入學圖說)』 지정일 : 1992. 7. 28. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-033.jpg) | 33 | 9) 『기묘제현수필(己卯諸賢手筆)』 지정일 : 1994. 5. 2. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-034.jpg) | 34 | 10) 『기묘제현수첩(己卯諸賢手帖)』 지정일 : 1994. 5. 2. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-035.jpg) | 35 | 11) 「손소 초상(孫昭肖像)」 지정일 : 1995. 3. 10. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-036.jpg) | 36 | 12) 『국조정토록(國朝征討錄)』 지정일 : 2007. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-037.jpg) | 37 | 13) 「이십공신회맹축(二十功臣會盟軸)-영국공신녹훈후(寧國功臣錄勳後)」 지정일 : 2007. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-038.jpg) | 38 | 14) 『대방광원각수다라요의경(大方廣圓覺修多羅了義經)』 권상1의1 지정일 : 2007. 4. 20. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-039.jpg) | 39 | 15) 『대불정여래밀인수증요의제보살만행수능엄경(大佛頂如來密因 修證了義諸菩薩萬行首楞嚴經)』 권2, 10 지정일 : 2007. 4. 20. | page-rendered |
+| [vol-11-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-040.jpg) | 40 | 16) 「숙빈최씨 소령원도(淑嬪崔氏昭寧園圖)」 지정일 : 2007. 12. 31. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-041.jpg) | 41 | 17) 「월중도(越中圖)」 지정일 : 2007. 12. 31. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-042.jpg) | 42 | 18) 「아국여지도(俄國輿地圖)」 지정일 : 2008. 12. 22. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-043.jpg) | 43 | 19) 「영조어필(英祖御筆)-숙빈최씨사우제문원고(淑嬪崔氏祠宇祭 文原稿)」 지정일 : 2010. 1. 4. | page-rendered |
+| [vol-11-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-044.jpg) | 44 | 20) 「영조어필(英祖御筆)-숙빈최씨소령묘갈문원고(淑嬪崔氏昭寧 墓碣文原稿)」 지정일 : 2010. 1. 4. | page-rendered |
+| [vol-11-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-045.jpg) | 45 | 21) 「정조어필(正祖御筆)-시국제입장제생(示菊製入場諸生)」 지정일 : 2010. 1. 4. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-046.jpg) | 46 | 22) 「송준길 행초 동춘당 필적(宋浚吉行草同春堂筆跡)」 지정일 : 2010. 10. 25. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-047.jpg) | 47 | 23) 『박세당 필적 서계유묵(朴世堂筆蹟西溪遺墨)』 지정일 : 2010. 10. 25. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-048.jpg) | 48 | 24) 「박사익 초상(朴師益肖像)」 지정일 : 2011. 11. 1. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-049.jpg) | 49 | part2 국가 지정 국가유산 조선 후기 문신 박사익의 50대 초 모습을 그린 「박사익 초상」(출처 : 국가유산포털) 49 | page-rendered |
+| [vol-11-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-050.jpg) | 50 | 25) 김응남 호성공신교서 및 관련 고문서(金應南 扈聖功臣敎書 및 關聯 古文書) 지정일 : 2012. 2. 22. | page-rendered |
+| [vol-11-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-051.jpg) | 51 | 교서의 형태적 기준이 된다. 또한 김응남의 전기(傳記) 자료로 임진왜란 연구의 자료가 될 뿐만 아니라 교서문을 지은 제진자와 교서문을 쓴 서사자가 적혀 있는 경우 | page-rendered |
+| [vol-11-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-052.jpg) | 52 | 26) 조선왕조 의궤(朝鮮王朝儀軌)(2016-2) 지정일 : 2016. 5. 3. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-053.jpg) | 53 | 27) 협주명현십초시(夾注名賢十抄詩) 지정일 : 2017. 1. 2. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-054.jpg) | 54 | 28) 박동형 초상 및 함(朴東亨 肖像 및 函) 지정일 : 2017. 1. 2. 수 량 : 2건 4점 | page-rendered |
+| [vol-11-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-055.jpg) | 55 | part2 국가 지정 국가유산 박동형 초상 전신상(출처 : 국가유산포털) 55 | page-rendered |
+| [vol-11-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-056.jpg) | 56 | 29) 장용영 본영도형 일괄(壯勇營 本營圖形 一括) 지정일 : 2020. 8. 27. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-057.jpg) | 57 | 30) 지 정조격 권1~2, 23~34(至正條格 卷一~十二, 二十三~ 三十四) | page-rendered |
+| [vol-11-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-058.jpg) | 58 | 2) 두 차례에 걸쳐 법전을 편찬했으며, 지금까지 중국에서조차 원나라 법전은 전혀 발견되 지 않은 상태이다. 이 법전은 명나라 초기에 실전(失傳)되어 서명과 목록 | page-rendered |
+| [vol-11-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-059.jpg) | 59 | 31) 안중근의사 유묵-일통청화공(安重根義士遺墨-日通淸話公) 지정일 : 2022. 6. 23. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-060.jpg) | 60 | 32) 장조 태봉도(莊祖 胎封圖) 지정일 : 2022. 8. 26. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-061.jpg) | 61 | part2 국가 지정 국가유산 장황한 「장조 태봉도」 전체 모습(출처 : 국가유산청) 61 | page-rendered |
+| [vol-11-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-062.jpg) | 62 | 33) 순조 태봉도(純祖 胎封圖) 지정일 : 2022. 8. 26. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-063.jpg) | 63 | part2 국가 지정 국가유산 「순조 태봉도」 전체 모습(출처 : 국가유산청) 63 | page-rendered |
+| [vol-11-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-064.jpg) | 64 | 34) 헌종 태봉도(憲宗 胎封圖) 지정일 : 2022. 8. 26. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-065.jpg) | 65 | part2 국가 지정 국가유산 「헌종 태봉도」 전체 모습(출처 : 국가유산청) 65 | page-rendered |
+| [vol-11-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-066.jpg) | 66 | 35) 손소 적개공신교서(孫昭 敵愾功臣敎書) 지정일 : 2022. 12. 27. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-067.jpg) | 67 | 36) 성남 봉국사 대광명전(城南 奉國寺 大光明殿) 지정일 : 2022. 12. 28. 소재지 : 수정구 태평로 79 | page-rendered |
+| [vol-11-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-068.jpg) | 68 | 성남 봉국사 대광명전은 주존불(主尊 佛)로 목조 아미타불을 봉안하고, 좌우 협 시보살로 관음보살과 지장보살을 모신 불 | page-rendered |
+| [vol-11-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-069.jpg) | 69 | 1) 매듭장 지정일 : 1968. 12. 21. | page-rendered |
+| [vol-11-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-070.jpg) | 70 | 조선시대에는 국가 소속의 매듭장이 있 었다. 재료로는 명주실·모시실·닥나무실·삼 베실· 털실 등이 쓰인다. 끈의 색감, 굵기, 맺 | page-rendered |
+| [vol-11-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-071.jpg) | 71 | 가야금산조 및 병창 이영희(출처 : 국가유산청) 밝고 경쾌하다. 휘모리는 흥분과 급박감이 있다. 다른 악기의 산조에 비해 가야금산조는 가야금의 악기적인 특성으로 | page-rendered |
+| [vol-11-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-072.jpg) | 72 | 3) 태평무(太平舞) 지정일 : 1988. 12. 1. 보유자 : 양성옥(전승자, 인정일 : 2019. 11. 25.) | page-rendered |
+| [vol-11-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-073.jpg) | 73 | 1) 김소월 시집 진달래꽃(2011-3) 지정일 : 2011. 2. 25. | page-rendered |
+| [vol-11-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-074.jpg) | 74 | 2) 국문정리(國文正理)(2012-2) 지정일 : 2012. 12. 24. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-075.jpg) | 75 | 3) 전보장정(電報章程)(2012-2) 지정일 : 2012. 12. 24. 소재지 : 분당구 하오개로 323(운중동) | page-rendered |
+| [vol-11-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-076.jpg) | 76 | 4) 백용성 선사 만일선회 방함록(白龍城 禪師 萬日禪會 芳啣錄) 지정일 : 2014. 10. 29. 소재지 : 경기도 성남시 | page-rendered |
+| [vol-11-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-077.jpg) | 77 | Part 3 표제: 경기도 지정 국가유산 | part-opener |
+| [vol-11-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-078.jpg) | 78 | 1) 망경암마애여래좌상(望京菴磨崖如來坐像) 지정일 : 1980. 6. 2. | page-rendered |
+| [vol-11-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-079.jpg) | 79 | 다고 전한다. 망경암마애여래좌상은 결가부좌(結跏趺坐)한 좌상으로 양쪽 어깨를 덮은 통견(通肩) 의 법의(法衣)를 입고 있으며, 왼손은 가슴에 대고 오른손은 항마촉 | page-rendered |
+| [vol-11-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-080.jpg) | 80 | 에 시행한 증광시의 합격자를 수록한 명부인데, 문과 방목의 형식에 따라 등수별로 합격 자의 출신과 성명·생년·자·본관·거주지, 부친의 과환(科宦), 형제의 과환 | page-rendered |
+| [vol-11-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-081.jpg) | 81 | 증손자 박태만이 정서하여 재발급된 「박동량 호성공신교서」(출처 : 국가유산포털) 나 여(女) 조카의 품계를 1계씩 올려주며, 적장자에게 벼슬의 지위를 세습하게 하 | page-rendered |
+| [vol-11-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-082.jpg) | 82 | 4) 영가대사증도가남명천선사게송2책(永嘉大師證道歌南明泉禪師 偈頌) 지정일 : 2011. 10. 4. | page-rendered |
+| [vol-11-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-083.jpg) | 83 | 5) 선종영가집언해권상1책(禪宗永嘉集諺解) 지정일 : 2011. 10. 4. 소재지 : 분당구 | page-rendered |
+| [vol-11-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-084.jpg) | 84 | 6) 경율이상1책권1-6(經律異相) 지정일 : 2011. 10. 4. 소재지 : 분당구 | page-rendered |
+| [vol-11-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-085.jpg) | 85 | 7) 성남 봉국사 목조아미타여래좌상(城南 奉國寺 木造阿彌陀如來 坐像) 지정일 : 2016. 7. 22. | page-rendered |
+| [vol-11-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-086.jpg) | 86 | 성남 봉국사 아미타여래좌상(가운데)과 지장보살(왼쪽), 관음보살(오른쪽) 의 옷자락이 가슴까지 수직으로 늘어져 옆으로 펼쳐져 있다. 또한 나머지 대의 자락은 팔 | page-rendered |
+| [vol-11-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-087.jpg) | 87 | 8) 성남 봉국사 아미타불회도(城南 奉國寺 阿彌陀佛會圖) 지정일 : 2016. 7. 22. 소재지 : 수정구 태평로 79(태평동) | page-rendered |
+| [vol-11-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-088.jpg) | 88 | 한편 주존인 아미타불의 신광(身光)에는 금색이 칠해져 있어 화려하며, 불화의 주된 색 인 붉은색과 녹색이 각 존상의 광배와 의복에 칠해져 있다. 또 19세기 후반 | page-rendered |
+| [vol-11-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-089.jpg) | 89 | 9) 성남 약사사 지장시왕도(城南 藥師寺 地藏十王圖) 지정일 : 2018. 9. 10. 소재지 : 중원구 산성대로625번길 22(은행동) | page-rendered |
+| [vol-11-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-090.jpg) | 90 | 10) 성남 ‘법륜사’ 명 신중도(城南 法輪寺 銘 神衆圖) 및 복장물(腹藏物) 지정일 : 2021. 12. 9. 소재지 : 분당구 하오개로 323(운중동, | page-rendered |
+| [vol-11-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-091.jpg) | 91 | 11) 성남 ‘법륜사’ 명 감로도(城南 法輪寺 銘 甘露圖) 지정일 : 2021. 12. 9. | page-rendered |
+| [vol-11-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-092.jpg) | 92 | 僧)이 극락세계로 천도한다는 내용이 표현되어 있는데, 왕실과 백성, 그리고 조상을 영가 천도하고 나라의 안정을 기원하는 제단을 표현한 것이 특징이다. 하단에는 한 | page-rendered |
+| [vol-11-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-093.jpg) | 93 | 1) 이수선생묘(李睟先生墓) 지정일 : 1980. 6. 2. | page-rendered |
+| [vol-11-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-094.jpg) | 94 | 이수선생묘 전경(출처 : 국가유산포털) 朝服)을 착용한 문인석은 안정적인 신체 비례를 갖추고 있 으나, 홀을 쥐고 있는 양손이 미숙하게 표현되었다. 봉분 사 | page-rendered |
+| [vol-11-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-095.jpg) | 95 | 2) 이경석선생묘(李景奭先生墓) 지정일 : 1985. 9. 20. | page-rendered |
+| [vol-11-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-096.jpg) | 96 | 1) 영의정에 올라 효종의 북벌 정책에 참여하였으며, 1668년(현종 9) 궤장을 하사받았다. 이와 관련한 사궤장과 『사궤장연회도첩』이 경기도박물관에 소장 | page-rendered |
+| [vol-11-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-097.jpg) | 97 | 3) 한산이씨묘역(韓山李氏墓域) 지정일 : 1989. 12. 29. 소재지 : 분당구 성남대로 550(중앙공원 내) | page-rendered |
+| [vol-11-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-098.jpg) | 98 | 감 이확(李穫, 1583~1658)의 사위 홍수원(洪晬元, 1611~1637)의 묘가 있는데, 이를 통 해 처가의 선산에도 매장될 수 있었던 당시의 풍습을 엿볼 | page-rendered |
+| [vol-11-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-099.jpg) | 99 | 던 정자동 불곡산(佛谷山) 자락 의 구릉에 있다. 이팽수 묘는 원 래 분당구 정자동 산11-1에 있 | page-rendered |
+| [vol-11-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-100.jpg) | 100 | 5) 둔촌이집묘역(遁村李集墓域) 지정일 : 2008. 5. 26. | page-rendered |
+| [vol-11-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-101.jpg) | 101 | 이집 묘표 이집 묘 4각 장명등 이집 묘 망주석 와 농경으로 세월을 보냈다. 이때 시편신립(詩篇新粒)에 대한 질문서를 보내 당시의 문사 (文士)들을 경탄케 하였다 | page-rendered |
+| [vol-11-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-102.jpg) | 102 | 6) 성남 갈현동 건물지 유적(城南葛峴洞建物址遺蹟) 지정일 : 2024. 4. 16. 소재지: 중원구 갈현동 469-1 | page-rendered |
+| [vol-11-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-103.jpg) | 103 | 1) 수내동가옥(數內洞家屋) 지정일 : 1989. 12. 29. | page-rendered |
+| [vol-11-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-104.jpg) | 104 | 한산이씨가 살던 수내동가옥 제11권 성남의 문화유산 수내동가옥 내부(출처 : 국가유산포털) | page-rendered |
+| [vol-11-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-105.jpg) | 105 | 2) 청주한씨문정공파묘역신도비(淸州韓氏文靖公派墓域神道碑) 지정일 : 1994. 4. 20. 소재지 : 분당구 율동 산2-11(율동공원 내) | page-rendered |
+| [vol-11-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-106.jpg) | 106 | 분당구 율동에 있는 청주한씨 문정공파 묘역 의 백색 화강편마암으로 되어 있으며, 규모는 화관석 72×23×52㎝이고, 비신은 61×18 ×152㎝, 기대는 115 | page-rendered |
+| [vol-11-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-107.jpg) | 107 | 3) 풍산군이종린묘역(豊山君李宗鱗墓域) 지정일 : 2005. 7. 28. 소재지 : 분당구 하산운동 264-5 | page-rendered |
+| [vol-11-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-108.jpg) | 108 | 1) 나전칠기장(칠장, 螺鈿漆器匠) 지정일(인정일) : 1998. 9. 21. | page-rendered |
+| [vol-11-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-109.jpg) | 109 | 2) 화각장(華角匠) 지정일(인정일) : 1999. 10. 18. 전수 조교 : 한기덕 | page-rendered |
+| [vol-11-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-110.jpg) | 110 | 3) 대목장(도편수, 大木匠) 지정일(인정일) : 2001. 11. 5. 보유자 : 장효순 | page-rendered |
+| [vol-11-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-111.jpg) | 111 | 1) 이해조 구마검(驅魔劒) 지정일 : 2023. 3. 31. | page-rendered |
+| [vol-11-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-112.jpg) | 112 | 져 있다. 책의 크기는 세로 15.0㎝ 가로 21.2㎝, 전체 면수는 135면이다. 표지의 앞과 뒤가 온전 히 남아 있어서 보존 상태는 양호한 편이지만 책의 중간 | page-rendered |
+| [vol-11-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-113.jpg) | 113 | 3) 성남 오산정(城南 梧山亭) 지정일 : 2024. 4. 5. 소유자/관리자 : 이○○ | page-rendered |
+| [vol-11-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-114.jpg) | 114 | Part 4 표제: 성남시 향토유산 | part-opener |
+| [vol-11-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-115.jpg) | 115 | 1) 정일당 강씨 묘(靜一堂姜氏墓) 지정번호 : 성남시 향토유산 제1호 | page-rendered |
+| [vol-11-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-116.jpg) | 116 | 향토유산 제1호로 지정하고, 2000년 2월 파평윤씨 문중의 협조를 받아 사당과 묘지를 다 시 조성하였다. 이때 신도비도 새로 건립하였다. 한편 둔촌이집묘역은 1 | page-rendered |
+| [vol-11-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-117.jpg) | 117 | 송산 조견 선생 묘(松山趙狷先生墓)는 중원구 여수동 일원에 있다. 여말선초의 묘제 양식인 방형분(方形墳)이 며, 3단의 계체석을 두어 공간을 구분하였다. 하단에는 | page-rendered |
+| [vol-11-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-118.jpg) | 118 | 4) 초시에 합격 후 여러 관직을 역임하였으며, 1833년에 영의정으 로 치사하여 봉조하(奉朝賀, 실무를 보지 | page-rendered |
+| [vol-11-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-119.jpg) | 119 | 4) 경헌 조몽정 묘역(敬軒曺夢禎墓域) 지정번호 : 성남시 향토유산 제5호 지정일 : 2002. 12. 16. | page-rendered |
+| [vol-11-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-120.jpg) | 120 | 5) 연성군 이곤 묘비(延城君李坤墓碑) 지정번호 : 성남시 향토유산 제6호 지정일 : 2004. 10. 25. | page-rendered |
+| [vol-11-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-121.jpg) | 121 | 6) 광주이씨 묘역(廣州李氏墓域) 지정번호 : 성남시 향토유산 제7호 지정일 : 2006. 3. 27. | page-rendered |
+| [vol-11-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-122.jpg) | 122 | 7) 신종군 이효백 묘역(新宗君李孝伯墓域) 지정번호 : 성남시 향토유산 제8호 지정일 : 2008. 9. 17. | page-rendered |
+| [vol-11-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-123.jpg) | 123 | 이효백 문인석 방부하엽 형태의 이효백 묘표 방부개석 형태의 이효백 묘표 덮개돌이 있는 방부개석(方趺蓋石)형이며, 입석 연대는 공의 장후(葬後) 452년(1939) | page-rendered |
+| [vol-11-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-124.jpg) | 124 | 청주한씨 청연공파 묘역 대부분 부인과의 원형 쌍분으로, 묘의 형태에 있어서 차이는 있지만 조선시대의 전형적 인 묘제 양식을 보여주고 있다. 특이하게 한명욱의 묘는 | page-rendered |
+| [vol-11-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-125.jpg) | 125 | 9) 덕수이씨 의정공파 묘역(德水李氏議政公派墓域) 지정번호 : 성남시 향토유산 제10호 지정일 : 2012. 11. 19. | page-rendered |
+| [vol-11-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-126.jpg) | 126 | 각 묘에는 17세기 석물 양 식인 망주석·문인석·동자석 과 방부원수형의 묘표 등이 | page-rendered |
+| [vol-11-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-127.jpg) | 127 | 징으로 한성백제의 묘제 양식을 잘 갖추고 있다. 한성백제 1호 돌방무덤은 판교동 구릉의 | page-rendered |
+| [vol-11-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-128.jpg) | 128 | 11) 판교 통일신라~고려 고분군 지정번호 : 성남시 향토유산 제12호 지정일 : 2012. 12. 21. | page-rendered |
+| [vol-11-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-129.jpg) | 129 | 12) 판교 생활 유적군(백제~조선시대) 지정번호 : 성남시 향토유산 제13호 지정일 : 2012. 12. 21. | page-rendered |
+| [vol-11-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-130.jpg) | 130 | 국 후에도 출사하여 호조정랑 과 전농시소윤(典農寺少尹) 을 거쳐 첨지중추원사(僉知中 | page-rendered |
+| [vol-11-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-131.jpg) | 131 | 14) 성남 이무술 집터 다지는 소리 지정번호 : 성남시 향토유산 제15호 지정일 : 2017. 1. 17. | page-rendered |
+| [vol-11-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-132.jpg) | 132 | 15) 성남 오리뜰 농악 지정번호 : 성남시 향토유산 제16호 지정일 : 2017. 1. 17. | page-rendered |
+| [vol-11-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-133.jpg) | 133 | 16) 전주이씨 덕양군파 이순제 묘역(全州李氏德陽君派李舜濟墓域) 지정번호 : 성남시 향토유산 제16호 지정일 : 2020. 4. 29. | page-rendered |
+| [vol-11-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-134.jpg) | 134 | Part 5 표제: 남한산성과 성남 | part-opener |
+| [vol-11-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-135.jpg) | 135 | 남한산성과 성남 생활권 관계 서술 | page-rendered |
+| [vol-11-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-136.jpg) | 136 | 제11권 성남의 문화유산 성남시사(50년사) 136 | page-rendered |
+| [vol-11-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-137.jpg) | 137 | 려가 한강 유역을 넘어 세력권을 충주, 중원까지 장악하면서 남한산성 일대는 약 60년간 고구려의 땅이 되었다. 이어서 신라 진흥왕이 남한산성을 중심으로 이 일대의 | page-rendered |
+| [vol-11-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-138.jpg) | 138 | 「남한산성도」 (18세기, 영남대학교 박물관 소장) 아보는 기관이 있는 곳)를 산성 내로 옮겼다. 이때의 공사에는 벽암(碧巖) 각성대사(覺性 大師)를 팔도 도총섭 | map-rendered |
+| [vol-11-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-139.jpg) | 139 | 정문인 한남루(漢南樓)를 세우고, 1642년에 세웠던 객관(客館) 인화 관(人和館)을 1829년(순조 29)에 | page-rendered |
+| [vol-11-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-140.jpg) | 140 | 17) 7월 13일 산성 내에 가옥이 1,000호나 있었다고 하는 기록으로 보아 한강 남쪽의 제일 규모가 큰 도시로 발전하였을 것이다. 우리나라의 산성 취락 도시 | page-rendered |
+| [vol-11-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-141.jpg) | 141 | 광주읍 치소였던 옛 남한산성 마을(1910년경) 하기 시작하였다. 1907년 8월 1일 조선의 병권을 쥐고 군대를 해산시켰으며, 남한산성 내 200여 곳의 무기고 | page-rendered |
+| [vol-11-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-142.jpg) | 142 | 남한산성 내 문화유산 분포도와 지정 현황 | table-rendered |
+| [vol-11-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-143.jpg) | 143 | part5 남한산성과 성남 143 | page-rendered |
+| [vol-11-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-144.jpg) | 144 | 1) 남한산성(南漢山城) 구 분 : 사적 | page-rendered |
+| [vol-11-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-145.jpg) | 145 | 된 본성이다. 외성으로 동쪽에 봉암성과 한봉성, 남쪽에 신남성이 있으며, 동·서 두 개의 돈대로 구축되어 있다. 원성은 1624년(인조 2)부터 1626년 사이에 | page-rendered |
+| [vol-11-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-146.jpg) | 146 | 3) 남한산성 수어장대(南漢山城 守禦將臺) 구 분 : 보물 | page-rendered |
+| [vol-11-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-147.jpg) | 147 | 28) 남한산성 축성 당시 동·남·북 | page-rendered |
+| [vol-11-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-148.jpg) | 148 | 4) 남한산성 연무관(南漢山城 演武館) 구 분 : 보물 지정일 : 2021. 12. 27. | page-rendered |
+| [vol-11-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-149.jpg) | 149 | 5) 남한산성 숭렬전(南漢山城 崇烈殿) 구 분 : 보물 지정일 : 2022. 11. 25. | page-rendered |
+| [vol-11-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-150.jpg) | 150 | 6) 청량당(淸凉堂) 구 분 : 경기도 유형문화유산 지정일 : 1972. 5. 4. | page-rendered |
+| [vol-11-page-151.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-151.jpg) | 151 | 7) 현절사(顯節祠) 구 분 : 경기도 유형문화유산 지정일 : 1972. 5. 4. | page-rendered |
+| [vol-11-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-152.jpg) | 152 | 8) 침괘정(枕戈亭) 구 분 : 경기도 유형문화유산 지정일 : 1972. 5. 4. | page-rendered |
+| [vol-11-page-153.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-153.jpg) | 153 | 9) 강희 21년명 장경사 동종(康熙二十一年銘 長慶寺 銅鐘) 구 분 : 경기도 유형문화유산 지정일 : 2014. 5. 9. | page-rendered |
+| [vol-11-page-154.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-154.jpg) | 154 | 남한산성소주 빚기 체험 모습 조선 말기에 이종숙(李宗肅)이라는 사람이 산성소주를 빚었으며, 일제강점기에는 일제 로부터 허가를 받아 공식적으로 산성소주를 제조하였다 | page-rendered |
+| [vol-11-page-155.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-155.jpg) | 155 | 11) 망월사지(望月寺址) 구 분 : 경기도 기념물 지정일 : 1988. 12. 2. | page-rendered |
+| [vol-11-page-156.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-156.jpg) | 156 | 아 있는 옛 망월사의 유구는 법당지 등을 마련하기 위해 쌓은 축대와 현 법당으로 올라가 는 계단에 이용한 장대석, 초석(礎石)이 몇 개 있을 뿐이다. 법당 북서쪽 | page-rendered |
+| [vol-11-page-157.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-157.jpg) | 157 | 1) 남한산성을 수축하고 이를 지키기 위해 전국에서 모인 조선 승 | page-rendered |
+| [vol-11-page-158.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-158.jpg) | 158 | 158 지수당과 연못 야경(출처 : 광주시청) | page-rendered |
+| [vol-11-page-159.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-159.jpg) | 159 | 14) 장경사(長慶寺) 구 분 : 경기도 문화유산 자료 지정일 : 1983. 9. 19. | page-rendered |
+| [vol-11-page-160.jpg](../docs/seongnam-city-history-50/assets/pages/vol-11/vol-11-page-160.jpg) | 160 | 판권과 발행 정보 | colophon |
 
 ## 핵심 표/자료 위치
 

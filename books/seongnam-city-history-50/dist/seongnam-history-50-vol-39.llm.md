@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 장소·시설·시장·공원·교육·문화 공간을 다루는 사진 중심 자료라서 1-152쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 장소·시설·시장·공원·교육·문화 공간을 다루는 사진 중심 자료라서 1-152쪽 전체를 `assets/pages/vol-39/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-39-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제39권 성남 콘텐츠 50선`으로 일치한다.
 - 이 파일은 LLM 장문 입력을 위해 39권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
@@ -38,56 +38,56 @@ ocr_used: false
 
 | 번호 | Part | 원문 쪽 | 콘텐츠 | 대표 이미지 |
 | --- | --- | --- | --- | --- |
-| 01 | 1 | 008 | 희망대공원, 성남의 아픔과 희망을 간직한 역사적 공간 | [vol-39-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-008.jpg) |
-| 02 | 1 | 011 | 모란민속시장과 모란종합시장, 전통과 현대가 어깨를 나란히 | [vol-39-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-011.jpg) |
-| 03 | 1 | 014 | 성남제1공단의 기억과 변신, 산업화의 심장에서 시민의 공원으로 | [vol-39-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-014.jpg) |
-| 04 | 1 | 018 | 성남하이테크밸리, 산업화의 터전에서 첨단 혁신의 심장으로 | [vol-39-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-018.jpg) |
-| 05 | 1 | 021 | 성남시를 일으킨 뿌리 기업들 | [vol-39-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-021.jpg) |
-| 06 | 1 | 023 | 강제 이주가 불러온 민권의 외침 | [vol-39-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-023.jpg) |
-| 07 | 1 | 026 | 성호시장, 성남의 오래된 심장 | [vol-39-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-026.jpg) |
-| 08 | 1 | 028 | 성남종합운동장, 도시가 뛰는 곳 | [vol-39-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-028.jpg) |
-| 09 | 1 | 031 | 단대동 새마을금고, 성남 공동체 금융의 심장을 세우다 | [vol-39-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-031.jpg) |
-| 10 | 1 | 034 | 성남농협, 도시와 농업을 잇는 생활경제의 중심 | [vol-39-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-034.jpg) |
-| 11 | 1 | 037 | 옛 성남우체국, 성남의 첫 편지가 시작된 곳 | [vol-39-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-037.jpg) |
-| 12 | 1 | 039 | 희망대도서관과 성남시 중앙도서관, 희망과 기억의 터전 | [vol-39-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-039.jpg) |
-| 13 | 1 | 042 | 성남 모란시장 ‘기름집 골목’, 백년의 전통과 공동체의 자부심 | [vol-39-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-042.jpg) |
-| 14 | 1 | 044 | 신흥동 옛 이주민 판잣집 터 | [vol-39-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-044.jpg) |
-| 15 | 1 | 047 | 분당신도시, 대한민국 신도시의 상징 | [vol-39-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-047.jpg) |
-| 16 | 1 | 049 | 남한산성 닭죽, 단대동에서 다시 끓다 | [vol-39-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-049.jpg) |
-| 17 | 1 | 052 | 조선의 신호망을 이은, 천림산 봉수터 | [vol-39-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-052.jpg) |
-| 18 | 1 | 055 | 한양을 향한 왕실의 기도처, 영장산 망경암 | [vol-39-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-055.jpg) |
-| 19 | 2 | 058 | 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 | [vol-39-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-058.jpg) |
-| 20 | 2 | 060 | 단대천 포장마차, 성남의 밤을 밝힌 등불 | [vol-39-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-060.jpg) |
-| 21 | 2 | 063 | 제일실업학교(활민교회 야학), 교육 사각지대 밝힌 시민 야학의 자취 | [vol-39-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-063.jpg) |
-| 22 | 2 | 066 | 옛 성남시청사: 출장소에서 시청으로, 행정의 첫 심장 박동 | [vol-39-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-066.jpg) |
-| 23 | 2 | 070 | 시민의 약속이 세운 병원, 성남시의료원 | [vol-39-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-070.jpg) |
-| 24 | 2 | 073 | 옛 성남시민회관에서 아트리움까지, 문화의 불빛 이어지다 | [vol-39-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-073.jpg) |
-| 25 | 2 | 076 | 초창기 다방들, 성남의 첫 사회 인프라가 되다 | [vol-39-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-076.jpg) |
-| 26 | 2 | 079 | 정자동과 백현동의 카페, 품격과 속도의 두 모습 | [vol-39-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-079.jpg) |
-| 27 | 2 | 082 | 성남의 초창기 골목 약국들이 만든 인간적 관계망 | [vol-39-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-082.jpg) |
-| 28 | 2 | 085 | 성남중앙시장 내 분식집, 세대를 아우르는 맛과 정이 흐르는 공간 | [vol-39-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-085.jpg) |
-| 29 | 2 | 088 | 옛 성남버스터미널과 그 주변의 모습 | [vol-39-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-088.jpg) |
-| 30 | 2 | 090 | 중원구 은행동, 은행나무와 우물이 지켜온 삶의 터전 | [vol-39-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-090.jpg) |
-| 31 | 2 | 093 | 판교 마당바위, 전설이 전하는 새해 해맞이 명소 | [vol-39-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-093.jpg) |
-| 32 | 2 | 096 | 청계산 정토사, 도심 곁에서 피어난 ‘쉼과 정진’의 마당 | [vol-39-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-096.jpg) |
-| 33 | 3 | 100 | 시간을 지배한 도로망, 성남을 허브로 세우다 | [vol-39-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-100.jpg) |
-| 34 | 3 | 102 | 성남의 젖줄 세 개의 탄천, 도시와 생태를 잇는 길 | [vol-39-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-102.jpg) |
-| 35 | 3 | 106 | 율동공원, 분당의 심장에 뿌리내린 자연과 문화 쉼터 | [vol-39-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-106.jpg) |
-| 36 | 3 | 109 | 분당중앙공원, 도심 한가운데 피어난 숲과 무대 | [vol-39-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-109.jpg) |
-| 37 | 3 | 112 | 낙생초등학교, 100년이 넘은 성남초의 뿌리 | [vol-39-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-112.jpg) |
-| 38 | 3 | 114 | 성남초등학교, 남한산의 뿌리에서 성남 교육의 미래로 | [vol-39-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-114.jpg) |
-| 39 | 3 | 117 | 한국잡월드, 꿈을 체험하는 미래 교육의 허브 | [vol-39-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-117.jpg) |
-| 40 | 3 | 120 | 성남아트센터, 50년 도시와 함께 빚은 문화의 집 | [vol-39-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-120.jpg) |
-| 41 | 3 | 123 | 성남 봉국사, 천년의 숨결로 이어온 호국의 사찰 | [vol-39-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-123.jpg) |
-| 42 | 3 | 126 | 탄천종합운동장, 시민의 자부심과 미래를 밝히다 | [vol-39-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-126.jpg) |
-| 43 | 3 | 128 | 판교테크노밸리, 4차 산업혁명의 심장 | [vol-39-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-128.jpg) |
-| 44 | 3 | 131 | 성남물빛정원, 흉물에서 문화의 별빛으로 | [vol-39-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-131.jpg) |
-| 45 | 3 | 133 | 성남페스티벌, 도시와 예술이 만나는 탄천의 대축제 | [vol-39-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-133.jpg) |
-| 46 | 3 | 136 | 성남문화재단의 ‘파크콘서트’, 10년을 시민과 함께 | [vol-39-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-136.jpg) |
-| 47 | 3 | 139 | 위례신도시, 역사의 흔적 위에 피어난 미래 도시 | [vol-39-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-139.jpg) |
-| 48 | 3 | 142 | 성남누비길, 역사를 품고 시민을 품다 | [vol-39-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-142.jpg) |
-| 49 | 3 | 145 | 섬말공원, 연꽃이 피어나는 도촌동의 작은 쉼터 | [vol-39-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-145.jpg) |
-| 50 | 3 | 148 | 신구대학교 식물원, 도심 속에서 만나는 숲의 향기 | [vol-39-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-148.jpg) |
+| 01 | 1 | 008 | 희망대공원, 성남의 아픔과 희망을 간직한 역사적 공간 | [vol-39-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-008.jpg) |
+| 02 | 1 | 011 | 모란민속시장과 모란종합시장, 전통과 현대가 어깨를 나란히 | [vol-39-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-011.jpg) |
+| 03 | 1 | 014 | 성남제1공단의 기억과 변신, 산업화의 심장에서 시민의 공원으로 | [vol-39-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-014.jpg) |
+| 04 | 1 | 018 | 성남하이테크밸리, 산업화의 터전에서 첨단 혁신의 심장으로 | [vol-39-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-018.jpg) |
+| 05 | 1 | 021 | 성남시를 일으킨 뿌리 기업들 | [vol-39-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-021.jpg) |
+| 06 | 1 | 023 | 강제 이주가 불러온 민권의 외침 | [vol-39-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-023.jpg) |
+| 07 | 1 | 026 | 성호시장, 성남의 오래된 심장 | [vol-39-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-026.jpg) |
+| 08 | 1 | 028 | 성남종합운동장, 도시가 뛰는 곳 | [vol-39-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-028.jpg) |
+| 09 | 1 | 031 | 단대동 새마을금고, 성남 공동체 금융의 심장을 세우다 | [vol-39-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-031.jpg) |
+| 10 | 1 | 034 | 성남농협, 도시와 농업을 잇는 생활경제의 중심 | [vol-39-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-034.jpg) |
+| 11 | 1 | 037 | 옛 성남우체국, 성남의 첫 편지가 시작된 곳 | [vol-39-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-037.jpg) |
+| 12 | 1 | 039 | 희망대도서관과 성남시 중앙도서관, 희망과 기억의 터전 | [vol-39-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-039.jpg) |
+| 13 | 1 | 042 | 성남 모란시장 ‘기름집 골목’, 백년의 전통과 공동체의 자부심 | [vol-39-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-042.jpg) |
+| 14 | 1 | 044 | 신흥동 옛 이주민 판잣집 터 | [vol-39-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-044.jpg) |
+| 15 | 1 | 047 | 분당신도시, 대한민국 신도시의 상징 | [vol-39-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-047.jpg) |
+| 16 | 1 | 049 | 남한산성 닭죽, 단대동에서 다시 끓다 | [vol-39-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-049.jpg) |
+| 17 | 1 | 052 | 조선의 신호망을 이은, 천림산 봉수터 | [vol-39-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-052.jpg) |
+| 18 | 1 | 055 | 한양을 향한 왕실의 기도처, 영장산 망경암 | [vol-39-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-055.jpg) |
+| 19 | 2 | 058 | 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 | [vol-39-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-058.jpg) |
+| 20 | 2 | 060 | 단대천 포장마차, 성남의 밤을 밝힌 등불 | [vol-39-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-060.jpg) |
+| 21 | 2 | 063 | 제일실업학교(활민교회 야학), 교육 사각지대 밝힌 시민 야학의 자취 | [vol-39-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-063.jpg) |
+| 22 | 2 | 066 | 옛 성남시청사: 출장소에서 시청으로, 행정의 첫 심장 박동 | [vol-39-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-066.jpg) |
+| 23 | 2 | 070 | 시민의 약속이 세운 병원, 성남시의료원 | [vol-39-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-070.jpg) |
+| 24 | 2 | 073 | 옛 성남시민회관에서 아트리움까지, 문화의 불빛 이어지다 | [vol-39-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-073.jpg) |
+| 25 | 2 | 076 | 초창기 다방들, 성남의 첫 사회 인프라가 되다 | [vol-39-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-076.jpg) |
+| 26 | 2 | 079 | 정자동과 백현동의 카페, 품격과 속도의 두 모습 | [vol-39-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-079.jpg) |
+| 27 | 2 | 082 | 성남의 초창기 골목 약국들이 만든 인간적 관계망 | [vol-39-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-082.jpg) |
+| 28 | 2 | 085 | 성남중앙시장 내 분식집, 세대를 아우르는 맛과 정이 흐르는 공간 | [vol-39-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-085.jpg) |
+| 29 | 2 | 088 | 옛 성남버스터미널과 그 주변의 모습 | [vol-39-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-088.jpg) |
+| 30 | 2 | 090 | 중원구 은행동, 은행나무와 우물이 지켜온 삶의 터전 | [vol-39-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-090.jpg) |
+| 31 | 2 | 093 | 판교 마당바위, 전설이 전하는 새해 해맞이 명소 | [vol-39-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-093.jpg) |
+| 32 | 2 | 096 | 청계산 정토사, 도심 곁에서 피어난 ‘쉼과 정진’의 마당 | [vol-39-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-096.jpg) |
+| 33 | 3 | 100 | 시간을 지배한 도로망, 성남을 허브로 세우다 | [vol-39-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-100.jpg) |
+| 34 | 3 | 102 | 성남의 젖줄 세 개의 탄천, 도시와 생태를 잇는 길 | [vol-39-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-102.jpg) |
+| 35 | 3 | 106 | 율동공원, 분당의 심장에 뿌리내린 자연과 문화 쉼터 | [vol-39-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-106.jpg) |
+| 36 | 3 | 109 | 분당중앙공원, 도심 한가운데 피어난 숲과 무대 | [vol-39-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-109.jpg) |
+| 37 | 3 | 112 | 낙생초등학교, 100년이 넘은 성남초의 뿌리 | [vol-39-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-112.jpg) |
+| 38 | 3 | 114 | 성남초등학교, 남한산의 뿌리에서 성남 교육의 미래로 | [vol-39-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-114.jpg) |
+| 39 | 3 | 117 | 한국잡월드, 꿈을 체험하는 미래 교육의 허브 | [vol-39-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-117.jpg) |
+| 40 | 3 | 120 | 성남아트센터, 50년 도시와 함께 빚은 문화의 집 | [vol-39-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-120.jpg) |
+| 41 | 3 | 123 | 성남 봉국사, 천년의 숨결로 이어온 호국의 사찰 | [vol-39-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-123.jpg) |
+| 42 | 3 | 126 | 탄천종합운동장, 시민의 자부심과 미래를 밝히다 | [vol-39-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-126.jpg) |
+| 43 | 3 | 128 | 판교테크노밸리, 4차 산업혁명의 심장 | [vol-39-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-128.jpg) |
+| 44 | 3 | 131 | 성남물빛정원, 흉물에서 문화의 별빛으로 | [vol-39-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-131.jpg) |
+| 45 | 3 | 133 | 성남페스티벌, 도시와 예술이 만나는 탄천의 대축제 | [vol-39-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-133.jpg) |
+| 46 | 3 | 136 | 성남문화재단의 ‘파크콘서트’, 10년을 시민과 함께 | [vol-39-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-136.jpg) |
+| 47 | 3 | 139 | 위례신도시, 역사의 흔적 위에 피어난 미래 도시 | [vol-39-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-139.jpg) |
+| 48 | 3 | 142 | 성남누비길, 역사를 품고 시민을 품다 | [vol-39-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-142.jpg) |
+| 49 | 3 | 145 | 섬말공원, 연꽃이 피어나는 도촌동의 작은 쉼터 | [vol-39-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-145.jpg) |
+| 50 | 3 | 148 | 신구대학교 식물원, 도심 속에서 만나는 숲의 향기 | [vol-39-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-148.jpg) |
 
 ## 핵심 연구 포인트
 
@@ -168,248 +168,248 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-39-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-39-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-002.jpg) | 2 | 권별 목차: Part 1 콘텐츠 18개 | toc |
-| [vol-39-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-003.jpg) | 3 | 권별 목차: Part 2·3 콘텐츠 32개 | toc |
-| [vol-39-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-006.jpg) | 6 | 콘텐츠 선정 배경과 6개 범례 | method |
-| [vol-39-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-007.jpg) | 7 | Part 1 시작: 도시 형성과 산업화 공간 | part-divider |
-| [vol-39-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-008.jpg) | 8 | 01. 희망대공원, 성남의 아픔과 희망을 간직한 역사적 공간 | content-anchor |
-| [vol-39-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-011.jpg) | 11 | 02. 모란민속시장과 모란종합시장, 전통과 현대가 어깨를 나란히 | content-anchor |
-| [vol-39-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-014.jpg) | 14 | 03. 성남제1공단의 기억과 변신, 산업화의 심장에서 시민의 공원으로 | content-anchor |
-| [vol-39-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-018.jpg) | 18 | 04. 성남하이테크밸리, 산업화의 터전에서 첨단 혁신의 심장으로 | content-anchor |
-| [vol-39-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-021.jpg) | 21 | 05. 성남시를 일으킨 뿌리 기업들 | content-anchor |
-| [vol-39-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-023.jpg) | 23 | 06. 강제 이주가 불러온 민권의 외침 | content-anchor |
-| [vol-39-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-026.jpg) | 26 | 07. 성호시장, 성남의 오래된 심장 | content-anchor |
-| [vol-39-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-028.jpg) | 28 | 08. 성남종합운동장, 도시가 뛰는 곳 | content-anchor |
-| [vol-39-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-031.jpg) | 31 | 09. 단대동 새마을금고, 성남 공동체 금융의 심장을 세우다 | content-anchor |
-| [vol-39-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-034.jpg) | 34 | 10. 성남농협, 도시와 농업을 잇는 생활경제의 중심 | content-anchor |
-| [vol-39-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-037.jpg) | 37 | 11. 옛 성남우체국, 성남의 첫 편지가 시작된 곳 | content-anchor |
-| [vol-39-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-039.jpg) | 39 | 12. 희망대도서관과 성남시 중앙도서관, 희망과 기억의 터전 | content-anchor |
-| [vol-39-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-042.jpg) | 42 | 13. 성남 모란시장 ‘기름집 골목’, 백년의 전통과 공동체의 자부심 | content-anchor |
-| [vol-39-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-044.jpg) | 44 | 14. 신흥동 옛 이주민 판잣집 터 | content-anchor |
-| [vol-39-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-047.jpg) | 47 | 15. 분당신도시, 대한민국 신도시의 상징 | content-anchor |
-| [vol-39-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-049.jpg) | 49 | 16. 남한산성 닭죽, 단대동에서 다시 끓다 | content-anchor |
-| [vol-39-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-052.jpg) | 52 | 17. 조선의 신호망을 이은, 천림산 봉수터 | content-anchor |
-| [vol-39-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-055.jpg) | 55 | 18. 한양을 향한 왕실의 기도처, 영장산 망경암 | content-anchor |
-| [vol-39-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-058.jpg) | 58 | 19. 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 | content-anchor |
-| [vol-39-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-060.jpg) | 60 | 20. 단대천 포장마차, 성남의 밤을 밝힌 등불 | content-anchor |
-| [vol-39-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-063.jpg) | 63 | 21. 제일실업학교(활민교회 야학), 교육 사각지대 밝힌 시민 야학의 자취 | content-anchor |
-| [vol-39-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-066.jpg) | 66 | 22. 옛 성남시청사: 출장소에서 시청으로, 행정의 첫 심장 박동 | content-anchor |
-| [vol-39-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-070.jpg) | 70 | 23. 시민의 약속이 세운 병원, 성남시의료원 | content-anchor |
-| [vol-39-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-073.jpg) | 73 | 24. 옛 성남시민회관에서 아트리움까지, 문화의 불빛 이어지다 | content-anchor |
-| [vol-39-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-076.jpg) | 76 | 25. 초창기 다방들, 성남의 첫 사회 인프라가 되다 | content-anchor |
-| [vol-39-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-079.jpg) | 79 | 26. 정자동과 백현동의 카페, 품격과 속도의 두 모습 | content-anchor |
-| [vol-39-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-082.jpg) | 82 | 27. 성남의 초창기 골목 약국들이 만든 인간적 관계망 | content-anchor |
-| [vol-39-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-085.jpg) | 85 | 28. 성남중앙시장 내 분식집, 세대를 아우르는 맛과 정이 흐르는 공간 | content-anchor |
-| [vol-39-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-088.jpg) | 88 | 29. 옛 성남버스터미널과 그 주변의 모습 | content-anchor |
-| [vol-39-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-090.jpg) | 90 | 30. 중원구 은행동, 은행나무와 우물이 지켜온 삶의 터전 | content-anchor |
-| [vol-39-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-093.jpg) | 93 | 31. 판교 마당바위, 전설이 전하는 새해 해맞이 명소 | content-anchor |
-| [vol-39-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-096.jpg) | 96 | 32. 청계산 정토사, 도심 곁에서 피어난 ‘쉼과 정진’의 마당 | content-anchor |
-| [vol-39-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-100.jpg) | 100 | 33. 시간을 지배한 도로망, 성남을 허브로 세우다 | content-anchor |
-| [vol-39-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-102.jpg) | 102 | 34. 성남의 젖줄 세 개의 탄천, 도시와 생태를 잇는 길 | content-anchor |
-| [vol-39-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-106.jpg) | 106 | 35. 율동공원, 분당의 심장에 뿌리내린 자연과 문화 쉼터 | content-anchor |
-| [vol-39-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-109.jpg) | 109 | 36. 분당중앙공원, 도심 한가운데 피어난 숲과 무대 | content-anchor |
-| [vol-39-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-112.jpg) | 112 | 37. 낙생초등학교, 100년이 넘은 성남초의 뿌리 | content-anchor |
-| [vol-39-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-114.jpg) | 114 | 38. 성남초등학교, 남한산의 뿌리에서 성남 교육의 미래로 | content-anchor |
-| [vol-39-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-117.jpg) | 117 | 39. 한국잡월드, 꿈을 체험하는 미래 교육의 허브 | content-anchor |
-| [vol-39-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-120.jpg) | 120 | 40. 성남아트센터, 50년 도시와 함께 빚은 문화의 집 | content-anchor |
-| [vol-39-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-123.jpg) | 123 | 41. 성남 봉국사, 천년의 숨결로 이어온 호국의 사찰 | content-anchor |
-| [vol-39-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-126.jpg) | 126 | 42. 탄천종합운동장, 시민의 자부심과 미래를 밝히다 | content-anchor |
-| [vol-39-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-128.jpg) | 128 | 43. 판교테크노밸리, 4차 산업혁명의 심장 | content-anchor |
-| [vol-39-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-131.jpg) | 131 | 44. 성남물빛정원, 흉물에서 문화의 별빛으로 | content-anchor |
-| [vol-39-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-133.jpg) | 133 | 45. 성남페스티벌, 도시와 예술이 만나는 탄천의 대축제 | content-anchor |
-| [vol-39-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-136.jpg) | 136 | 46. 성남문화재단의 ‘파크콘서트’, 10년을 시민과 함께 | content-anchor |
-| [vol-39-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-139.jpg) | 139 | 47. 위례신도시, 역사의 흔적 위에 피어난 미래 도시 | content-anchor |
-| [vol-39-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-142.jpg) | 142 | 48. 성남누비길, 역사를 품고 시민을 품다 | content-anchor |
-| [vol-39-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-145.jpg) | 145 | 49. 섬말공원, 연꽃이 피어나는 도촌동의 작은 쉼터 | content-anchor |
-| [vol-39-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-148.jpg) | 148 | 50. 신구대학교 식물원, 도심 속에서 만나는 숲의 향기 | content-anchor |
-| [vol-39-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-009.jpg) | 9 | 광주대단지 주민 집결 사진과 희망대공원 서술 | historic-photo |
-| [vol-39-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-012.jpg) | 12 | 모란민속시장 전경 | market-photo |
-| [vol-39-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-015.jpg) | 15 | 성남제1공단 전경과 산업화 기억 | industry-photo |
-| [vol-39-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-019.jpg) | 19 | 1970년대 성남 제2·3공단 사진 | industry-photo |
-| [vol-39-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-027.jpg) | 27 | 성호시장 2010년대 사진과 임시시장 현황 | market-photo |
-| [vol-39-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-029.jpg) | 29 | 성남종합운동장과 국제대회 유산 | sports-photo |
-| [vol-39-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-040.jpg) | 40 | 희망대도서관·중앙도서관 문화 인프라 | library-photo |
-| [vol-39-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-043.jpg) | 43 | 대한민국 제1호 백년기름특화거리 현판 | market-photo |
-| [vol-39-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-050.jpg) | 50 | 남한산성 닭죽촌과 향토 음식 기억 | food-heritage |
-| [vol-39-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-054.jpg) | 54 | 천림산 봉수 복원 전후와 봉수 운영 | heritage-photo |
-| [vol-39-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-064.jpg) | 64 | 제일실업학교 천막 교실 사진 | education-photo |
-| [vol-39-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-067.jpg) | 67 | 옛 성남시청사 전경 | administration-photo |
-| [vol-39-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-071.jpg) | 71 | 성남시의료원 건립과 시민운동 | public-health-photo |
-| [vol-39-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-074.jpg) | 74 | 성남아트리움 공연장 전환 | culture-photo |
-| [vol-39-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-089.jpg) | 89 | 옛 성남버스터미널과 주변 상권 | transport-photo |
-| [vol-39-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-101.jpg) | 101 | 성남 고속도로 교통망 위성지도 | map |
-| [vol-39-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-104.jpg) | 104 | 복개 전 대원천·둔촌대로·산성대로 비교 | river-history |
-| [vol-39-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-107.jpg) | 107 | 율동공원과 번지점프대 | park-photo |
-| [vol-39-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-110.jpg) | 110 | 분당중앙공원·수내동가옥·야외공연장 | park-heritage |
-| [vol-39-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-118.jpg) | 118 | 한국잡월드 전경과 직업 체험 공간 | education-photo |
-| [vol-39-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-121.jpg) | 121 | 성남아트센터 야외광장 | culture-photo |
-| [vol-39-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-124.jpg) | 124 | 봉국사 대광명전과 불교문화유산 | heritage-photo |
-| [vol-39-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-127.jpg) | 127 | 성남축구센터와 탄천종합운동장 | sports-photo |
-| [vol-39-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-129.jpg) | 129 | 판교창조경제밸리와 판교테크노밸리 야경 | industry-photo |
-| [vol-39-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-134.jpg) | 134 | 성남페스티벌과 드론 쇼 | festival-photo |
-| [vol-39-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-137.jpg) | 137 | 제1회 파크콘서트와 2022년 재개 | concert-photo |
-| [vol-39-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-140.jpg) | 140 | 위례신도시 광역 경계와 개발 현장 | newtown-photo |
-| [vol-39-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-146.jpg) | 146 | 섬말공원 저류지·연꽃·작은 음악회 | park-photo |
-| [vol-39-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-149.jpg) | 149 | 신구대학교 식물원 전경 | botanical-garden |
-| [vol-39-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-152.jpg) | 152 | 판권과 집필자 | colophon |
+| [vol-39-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-39-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-002.jpg) | 2 | 권별 목차: Part 1 콘텐츠 18개 | toc |
+| [vol-39-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-003.jpg) | 3 | 권별 목차: Part 2·3 콘텐츠 32개 | toc |
+| [vol-39-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-006.jpg) | 6 | 콘텐츠 선정 배경과 6개 범례 | method |
+| [vol-39-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-007.jpg) | 7 | Part 1 시작: 도시 형성과 산업화 공간 | part-divider |
+| [vol-39-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-008.jpg) | 8 | 01. 희망대공원, 성남의 아픔과 희망을 간직한 역사적 공간 | content-anchor |
+| [vol-39-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-011.jpg) | 11 | 02. 모란민속시장과 모란종합시장, 전통과 현대가 어깨를 나란히 | content-anchor |
+| [vol-39-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-014.jpg) | 14 | 03. 성남제1공단의 기억과 변신, 산업화의 심장에서 시민의 공원으로 | content-anchor |
+| [vol-39-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-018.jpg) | 18 | 04. 성남하이테크밸리, 산업화의 터전에서 첨단 혁신의 심장으로 | content-anchor |
+| [vol-39-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-021.jpg) | 21 | 05. 성남시를 일으킨 뿌리 기업들 | content-anchor |
+| [vol-39-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-023.jpg) | 23 | 06. 강제 이주가 불러온 민권의 외침 | content-anchor |
+| [vol-39-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-026.jpg) | 26 | 07. 성호시장, 성남의 오래된 심장 | content-anchor |
+| [vol-39-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-028.jpg) | 28 | 08. 성남종합운동장, 도시가 뛰는 곳 | content-anchor |
+| [vol-39-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-031.jpg) | 31 | 09. 단대동 새마을금고, 성남 공동체 금융의 심장을 세우다 | content-anchor |
+| [vol-39-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-034.jpg) | 34 | 10. 성남농협, 도시와 농업을 잇는 생활경제의 중심 | content-anchor |
+| [vol-39-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-037.jpg) | 37 | 11. 옛 성남우체국, 성남의 첫 편지가 시작된 곳 | content-anchor |
+| [vol-39-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-039.jpg) | 39 | 12. 희망대도서관과 성남시 중앙도서관, 희망과 기억의 터전 | content-anchor |
+| [vol-39-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-042.jpg) | 42 | 13. 성남 모란시장 ‘기름집 골목’, 백년의 전통과 공동체의 자부심 | content-anchor |
+| [vol-39-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-044.jpg) | 44 | 14. 신흥동 옛 이주민 판잣집 터 | content-anchor |
+| [vol-39-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-047.jpg) | 47 | 15. 분당신도시, 대한민국 신도시의 상징 | content-anchor |
+| [vol-39-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-049.jpg) | 49 | 16. 남한산성 닭죽, 단대동에서 다시 끓다 | content-anchor |
+| [vol-39-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-052.jpg) | 52 | 17. 조선의 신호망을 이은, 천림산 봉수터 | content-anchor |
+| [vol-39-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-055.jpg) | 55 | 18. 한양을 향한 왕실의 기도처, 영장산 망경암 | content-anchor |
+| [vol-39-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-058.jpg) | 58 | 19. 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 | content-anchor |
+| [vol-39-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-060.jpg) | 60 | 20. 단대천 포장마차, 성남의 밤을 밝힌 등불 | content-anchor |
+| [vol-39-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-063.jpg) | 63 | 21. 제일실업학교(활민교회 야학), 교육 사각지대 밝힌 시민 야학의 자취 | content-anchor |
+| [vol-39-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-066.jpg) | 66 | 22. 옛 성남시청사: 출장소에서 시청으로, 행정의 첫 심장 박동 | content-anchor |
+| [vol-39-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-070.jpg) | 70 | 23. 시민의 약속이 세운 병원, 성남시의료원 | content-anchor |
+| [vol-39-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-073.jpg) | 73 | 24. 옛 성남시민회관에서 아트리움까지, 문화의 불빛 이어지다 | content-anchor |
+| [vol-39-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-076.jpg) | 76 | 25. 초창기 다방들, 성남의 첫 사회 인프라가 되다 | content-anchor |
+| [vol-39-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-079.jpg) | 79 | 26. 정자동과 백현동의 카페, 품격과 속도의 두 모습 | content-anchor |
+| [vol-39-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-082.jpg) | 82 | 27. 성남의 초창기 골목 약국들이 만든 인간적 관계망 | content-anchor |
+| [vol-39-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-085.jpg) | 85 | 28. 성남중앙시장 내 분식집, 세대를 아우르는 맛과 정이 흐르는 공간 | content-anchor |
+| [vol-39-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-088.jpg) | 88 | 29. 옛 성남버스터미널과 그 주변의 모습 | content-anchor |
+| [vol-39-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-090.jpg) | 90 | 30. 중원구 은행동, 은행나무와 우물이 지켜온 삶의 터전 | content-anchor |
+| [vol-39-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-093.jpg) | 93 | 31. 판교 마당바위, 전설이 전하는 새해 해맞이 명소 | content-anchor |
+| [vol-39-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-096.jpg) | 96 | 32. 청계산 정토사, 도심 곁에서 피어난 ‘쉼과 정진’의 마당 | content-anchor |
+| [vol-39-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-100.jpg) | 100 | 33. 시간을 지배한 도로망, 성남을 허브로 세우다 | content-anchor |
+| [vol-39-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-102.jpg) | 102 | 34. 성남의 젖줄 세 개의 탄천, 도시와 생태를 잇는 길 | content-anchor |
+| [vol-39-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-106.jpg) | 106 | 35. 율동공원, 분당의 심장에 뿌리내린 자연과 문화 쉼터 | content-anchor |
+| [vol-39-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-109.jpg) | 109 | 36. 분당중앙공원, 도심 한가운데 피어난 숲과 무대 | content-anchor |
+| [vol-39-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-112.jpg) | 112 | 37. 낙생초등학교, 100년이 넘은 성남초의 뿌리 | content-anchor |
+| [vol-39-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-114.jpg) | 114 | 38. 성남초등학교, 남한산의 뿌리에서 성남 교육의 미래로 | content-anchor |
+| [vol-39-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-117.jpg) | 117 | 39. 한국잡월드, 꿈을 체험하는 미래 교육의 허브 | content-anchor |
+| [vol-39-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-120.jpg) | 120 | 40. 성남아트센터, 50년 도시와 함께 빚은 문화의 집 | content-anchor |
+| [vol-39-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-123.jpg) | 123 | 41. 성남 봉국사, 천년의 숨결로 이어온 호국의 사찰 | content-anchor |
+| [vol-39-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-126.jpg) | 126 | 42. 탄천종합운동장, 시민의 자부심과 미래를 밝히다 | content-anchor |
+| [vol-39-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-128.jpg) | 128 | 43. 판교테크노밸리, 4차 산업혁명의 심장 | content-anchor |
+| [vol-39-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-131.jpg) | 131 | 44. 성남물빛정원, 흉물에서 문화의 별빛으로 | content-anchor |
+| [vol-39-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-133.jpg) | 133 | 45. 성남페스티벌, 도시와 예술이 만나는 탄천의 대축제 | content-anchor |
+| [vol-39-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-136.jpg) | 136 | 46. 성남문화재단의 ‘파크콘서트’, 10년을 시민과 함께 | content-anchor |
+| [vol-39-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-139.jpg) | 139 | 47. 위례신도시, 역사의 흔적 위에 피어난 미래 도시 | content-anchor |
+| [vol-39-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-142.jpg) | 142 | 48. 성남누비길, 역사를 품고 시민을 품다 | content-anchor |
+| [vol-39-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-145.jpg) | 145 | 49. 섬말공원, 연꽃이 피어나는 도촌동의 작은 쉼터 | content-anchor |
+| [vol-39-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-148.jpg) | 148 | 50. 신구대학교 식물원, 도심 속에서 만나는 숲의 향기 | content-anchor |
+| [vol-39-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-009.jpg) | 9 | 광주대단지 주민 집결 사진과 희망대공원 서술 | historic-photo |
+| [vol-39-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-012.jpg) | 12 | 모란민속시장 전경 | market-photo |
+| [vol-39-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-015.jpg) | 15 | 성남제1공단 전경과 산업화 기억 | industry-photo |
+| [vol-39-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-019.jpg) | 19 | 1970년대 성남 제2·3공단 사진 | industry-photo |
+| [vol-39-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-027.jpg) | 27 | 성호시장 2010년대 사진과 임시시장 현황 | market-photo |
+| [vol-39-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-029.jpg) | 29 | 성남종합운동장과 국제대회 유산 | sports-photo |
+| [vol-39-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-040.jpg) | 40 | 희망대도서관·중앙도서관 문화 인프라 | library-photo |
+| [vol-39-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-043.jpg) | 43 | 대한민국 제1호 백년기름특화거리 현판 | market-photo |
+| [vol-39-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-050.jpg) | 50 | 남한산성 닭죽촌과 향토 음식 기억 | food-heritage |
+| [vol-39-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-054.jpg) | 54 | 천림산 봉수 복원 전후와 봉수 운영 | heritage-photo |
+| [vol-39-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-064.jpg) | 64 | 제일실업학교 천막 교실 사진 | education-photo |
+| [vol-39-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-067.jpg) | 67 | 옛 성남시청사 전경 | administration-photo |
+| [vol-39-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-071.jpg) | 71 | 성남시의료원 건립과 시민운동 | public-health-photo |
+| [vol-39-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-074.jpg) | 74 | 성남아트리움 공연장 전환 | culture-photo |
+| [vol-39-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-089.jpg) | 89 | 옛 성남버스터미널과 주변 상권 | transport-photo |
+| [vol-39-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-101.jpg) | 101 | 성남 고속도로 교통망 위성지도 | map |
+| [vol-39-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-104.jpg) | 104 | 복개 전 대원천·둔촌대로·산성대로 비교 | river-history |
+| [vol-39-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-107.jpg) | 107 | 율동공원과 번지점프대 | park-photo |
+| [vol-39-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-110.jpg) | 110 | 분당중앙공원·수내동가옥·야외공연장 | park-heritage |
+| [vol-39-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-118.jpg) | 118 | 한국잡월드 전경과 직업 체험 공간 | education-photo |
+| [vol-39-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-121.jpg) | 121 | 성남아트센터 야외광장 | culture-photo |
+| [vol-39-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-124.jpg) | 124 | 봉국사 대광명전과 불교문화유산 | heritage-photo |
+| [vol-39-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-127.jpg) | 127 | 성남축구센터와 탄천종합운동장 | sports-photo |
+| [vol-39-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-129.jpg) | 129 | 판교창조경제밸리와 판교테크노밸리 야경 | industry-photo |
+| [vol-39-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-134.jpg) | 134 | 성남페스티벌과 드론 쇼 | festival-photo |
+| [vol-39-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-137.jpg) | 137 | 제1회 파크콘서트와 2022년 재개 | concert-photo |
+| [vol-39-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-140.jpg) | 140 | 위례신도시 광역 경계와 개발 현장 | newtown-photo |
+| [vol-39-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-146.jpg) | 146 | 섬말공원 저류지·연꽃·작은 음악회 | park-photo |
+| [vol-39-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-149.jpg) | 149 | 신구대학교 식물원 전경 | botanical-garden |
+| [vol-39-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-152.jpg) | 152 | 판권과 집필자 | colophon |
 
 ## 원문 페이지 이미지 인덱스
 
 | 원문 쪽 | 이미지 | 추출 텍스트 첫머리 |
 | --- | --- | --- |
-| 001 | [vol-39-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-001.jpg) | 발 간 등 록 번 호 71-3780000-100099-14 성남시사 50년사 50 Years of Seongnam City History 성남시 시사편찬위원회 성남 콘텐츠 50선 도시의 역사와 현재는 공간이 남긴 흔 |
-| 002 | [vol-39-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-002.jpg) | 1 PART CONTENTS 성남의 도시 형성과 성장 산업화의 발자취를 보여주는 공간들 01. 희망대공원, 성남의 아픔과 희망을 간직한 역 사적 공간 \| 8 02. 모란민속시장과 모란종합시장, 전통과 현대가 어깨를 |
-| 003 | [vol-39-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-003.jpg) | 2 PART 3 PART 추억의 장소들 사람과 삶의 흔적 성남의 상징과 미래 자연, 교육, 청년, 문화 19. 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 \| 58 33. 시간을 지배한 도로망, |
-| 004 | [vol-39-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-004.jpg) | 성남 |
-| 005 | [vol-39-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-005.jpg) | 콘텐츠 50선 |
-| 006 | [vol-39-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-006.jpg) | 콘텐츠 선정 배경과 범주 도시의 역사와 현재는 공간이 남긴 흔적을 통해서 더 선명히 드러난다. 성남이 걸어온 50년의 궤적에는 사람뿐 아니라 그들이 머물며 삶을 빚은 장소들이 켜켜이 새겨져 있 다. 그러므로 성남시  |
-| 007 | [vol-39-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-007.jpg) | 1 PART 성남의 도시 형성과 성장 산업화의 발자취를 보여주는 공간들 01. 희망대공원, 성남의 아픔과 희망을 간직한 역사적 공간 02. 모란민속시장과 모란종합시장, 전통과 현대가 어깨를 나란히 03. 성남제1공단 |
-| 008 | [vol-39-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-008.jpg) | 성남 콘텐츠 50선 희망대공원, 성남의 아픔과 희망을 간직한 역사적 공간 8·10성남(광주대단지)항쟁에서 민주화의 현장까지, 역사를 안고 살아 숨 쉬는 시민들의 쉼터 도심 속 역사와 휴식의 공간, 성남 희망대공원 성 |
-| 009 | [vol-39-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-009.jpg) | 도시 계획을 넘어 대한민국 현대사의 굴곡진 흐름과도 맞닿아 있다. 특히 8·10 성남(광주대단지)항쟁은 성남시가 독립적인 도시로 성장하는 기폭제가 되었으 며, 희망대공원은 이러한 역사의 한가운데 서 있었다. 또한 1 |
-| 010 | [vol-39-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-010.jpg) | 성남 콘텐츠 50선 현대의 희망대공원, 시민들의 조용한 휴식처 현재 희망대공원은 성남 시민들에게 편안한 쉼터로 자리 잡았다. 공원 내부에 는 경기도립성남도서관이 자리하고 있어 학습과 문화 활동을 위한 공간으로 활용되 |
-| 011 | [vol-39-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-011.jpg) | 은 성남 시민들의 저항과 변화의 역사를 담고 있는 장소로 차별화된다. 1971년 8·10성남(광주대단지)항쟁을 시작으로, 1980년대 민주화운동의 거점으로 기능 하며 시민 공동체 의식을 강화하는 공간이 되었다. 오늘 |
-| 012 | [vol-39-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-012.jpg) | 성남 콘텐츠 50선 우리나라 최대 규모의 전통 민속시장 모란민속시장 형성된 이곳은, 한국전쟁 이후 피란민들이 모여들면서 생활의 터전이 된 자리 에서 비롯됐다. 1974년 본격적으로 개장한 모란민속시장은 현재도 매월  |
-| 013 | [vol-39-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-013.jpg) | 남의 급격한 도시 성장과 함께 등장한 이곳은 건물을 갖춘 상설시장으로, 날씨 에 상관없이 쇼핑을 즐길 수 있다는 장점으로 자리 잡았다. 가전제품, 의류, 잡 화, 생활용품 등 다양한 업종이 한 건물 안에 들어서면서  |
-| 014 | [vol-39-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-014.jpg) | 성남 콘텐츠 50선 내일을 여는 시장 모란민속시장과 모란종합시장은 서로 다른 뿌리와 성격을 지녔지만, 지금도 성 남 시민의 삶과 지역 경제를 지탱하는 두 축으로 기능한다. 과거의 유산을 간직 한 전통시장과 현대적 편 |
-| 015 | [vol-39-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-015.jpg) | 성남역사박물관과 근린공원으로 탈바꿈한 성남제1공단(2023) 공업, 전기·전자, 고무 산업의 맥을 이었다. 그 배경에는 1971년 8월 10일, 이른 바 ‘8·10성남(광주대단지)항쟁’이 있었다. 당시 주민들의 집단 |
-| 016 | [vol-39-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-016.jpg) | 성남 콘텐츠 50선 오가는 큰 마당 같은 공간”이었다고 회상했다. 제1공단의 노동 현장은 땀과 소음, 그리고 사람 냄새로 가득했다. 빠이롯트 공 장에서는 사인펜 성형기와 잉크 주입기가 쉴 새 없이 돌아갔고, 삼영전자 |
-| 017 | [vol-39-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-017.jpg) | 한국빠이롯트 만년필공장 설비 성형 2호기 보존 작업은 그 첫걸음이었다. 그 결과 현재 이곳은 ‘제1공단 근린공원’으로 변 신했다. 잔디와 산책로가 놓였고, 주민들이 산책하고 아이들이 뛰노는 일상의 공간이 되었다. 일 |
-| 018 | [vol-39-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-018.jpg) | 성남 콘텐츠 50선 성남하이테크밸리, 산업화의 터전에서 첨단 혁신의 심장으로 광주 대단위 공업단지에서 시작된 성남의 산업화 성남하이테크밸리의 뿌리는 1968년으로 거슬러 올라간다. 정부가 광주 대단위 공업단지 조성  |
-| 019 | [vol-39-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-019.jpg) | 1970년대 성남 제2·3공단(1975) 흔적은 사라졌다. 비록 제2·3공단에 여전히 수천 개 중소 제조업체가 남아 산업 기반을 지탱했지만, ‘공업 도시’ 성남의 이미지는 점차 퇴색하기 시작했다. 당 시 성남시 관계 |
-| 020 | [vol-39-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-020.jpg) | 성남 콘텐츠 50선 한편, 최근에는 정부와 성남시가 나서 노 후 공단을 리모델링하고, 스마트 제조혁 신 클러스터로 전환하는 사업을 추진 중 이다. 여기에는 스마트 공장 도입, 친환경 설비 확충, 청년 창업 기업 지원 |
-| 021 | [vol-39-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-021.jpg) | 성남시를 일으킨 뿌리 기업들 50년 산업사와 함께 걸어온 전자·제과·시계·스마트홈의 역사 산업단지에서 시작된 성남의 꿈 1973년 시로 승격한 성남은 주거와 산업을 동시에 품은 도시로 태어났다. 이곳 에 둥지를 튼  |
-| 022 | [vol-39-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-022.jpg) | 성남 콘텐츠 50선 장학재단 운영은 기업의 사회적 책임을 보여주는 대목이다. 삼영전자가 뿌린 산업의 씨앗은 성남을 단순한 ‘위성도시’가 아닌 ‘제조업의 중 심’으로 자리 잡게 했다. 수천 명의 고용 창출은 말할 것도 |
-| 023 | [vol-39-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-023.jpg) | 오리엔트시계, 영광과 기억을 함께 새기다 오리엔트시계는 1970년대 성남 공장을 증설하며 본 격적인 성장기를 맞았다. ‘갤럭시’라는 이름의 손목 시계는 한때 국민 시계로 불렸고, 86아시안게임과 88서울올림픽 공식  |
-| 024 | [vol-39-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-024.jpg) | 성남 콘텐츠 50선 정부는 청계천, 노량진, 뚝섬 등지의 판자촌 주민들에게 ‘새로운 삶의 터전’을 약속하며 옛 광주군 중부면으로 강제 이주를 추진했다. 당시 박정희 정부는 산 업화 과정에서 빈민 문제 해결을 명분으로 |
-| 025 | [vol-39-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-025.jpg) | 소와 관공서를 점거했고, 분노는 경찰과의 충돌로 이어졌다. 서울시장 양택식이 약속했던 지원책은 번번이 무산되었고, 그 배신감은 불길 처럼 번졌다. 주민들은 버스를 몰아 서울 진입을 시도하며 절박한 목소리를 냈 다.  |
-| 026 | [vol-39-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-026.jpg) | 성남 콘텐츠 50선 성호시장, 성남의 오래된 심장 지역 기반의 상권 형성, 서민 경제의 중심지 서민 경제의 중심에서 피어난 전통시장 성남시 본시가지의 한복판, 1970년 성남출장소 시절에 이주민들이 모여 만든 작은  |
-| 027 | [vol-39-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-027.jpg) | 장이 곧 일터이자 생활 터전’이라는 말이 나올 정도로 성호시장은 성남 의 생활경제를 움직이는 심장이었 다. 주민들은 시장을 ‘생활의 기반 이자 지역의 얼굴’이라고 불렀다. 현대화를 향한 도전과 기대 세월이 흐르면서  |
-| 028 | [vol-39-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-028.jpg) | 성남 콘텐츠 50선 성호임시시장 개장식(2023.3.17.) 의 상징이 될 것이다. 전통의 온기와 현대의 편리함이 만나는 그날, 성호시장은 다시 한번 성남의 경제와 사람들을 잇는 따뜻한 다리가 될 것이다. 성남종합운 |
-| 029 | [vol-39-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-029.jpg) | 성남종합운동장과 스포츠센터 전경(2023) 지하 1층 지상 2층에 3만 1,149석 규모로 1984년 12월 문을 열었다. 낮엔 유소 년 수업과 동호회가 트랙을 채우고, 저녁이면 조깅과 배드민턴, 주말엔 가족 나 들 |
-| 030 | [vol-39-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-030.jpg) | 는 표지판 같았죠”라고 회상한다. 프로축구의 흔적도 굵다. 성남 일화 천마(현 성남FC)가 한때 이곳을 홈구장으로 사용 했고, 탄천종합운동장으로 주 무대를 옮긴 뒤에도 2009년과 2019년처럼 필요할 때 다시 돌아 |
-| 031 | [vol-39-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-031.jpg) | 이제 야구의 환호가 그 위에 겹칠 예정이다. 중요한 건 방식이다. 기록을 전시 하고, 참여를 늘리고, 골목과 이익을 나누는 경기장. 그때 운동장은 건물이 아 니라 도시의 광장이 된다. “여기선 누가 뛰든, 결국 함께 |
-| 032 | [vol-39-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-032.jpg) | 성남 콘텐츠 50선 단대동 원조합원 이길원(79) 씨의 말이다. 1973년 시 승격, 1974년 공단 가동 과 함께 소액 대출은 생활을 붙잡는 안전망이 됐다. ‘회원의 생활 안정과 지역 사회 개발’이라는 문구가 새마 |
-| 033 | [vol-39-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-033.jpg) | 같다. 돈의 흐름을 사람의 사정에 맞춘다. 물론 과제도 있다. 첫째, 디 지털 취약계층 지원이다. 고령 조합원의 ‘모바일 격 차’를 줄이는 대면·방문 교 육이 필요하다. 둘째, 청년· 초보 자영업의 금융 문해력 성남 |
-| 034 | [vol-39-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-034.jpg) | 성남 콘텐츠 50선 성남농협, 도시와 농업을 잇는 생활경제의 중심 광주대단지 속에 뿌리내린 성남중앙농협 성남농협(구 중앙농협)의 역사는 성남시의 도시 형성과 궤를 같이한다. 모태는 1970년대 초 ‘광주대단지’ 시절 |
-| 035 | [vol-39-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-035.jpg) | 보험 서비스를 제공해 농민의 자금 융통을 지원했고, 이후 도시 서민들의 생활금융 창구로 확대됐다. 또한 하나로마트, 농자재센터, 주유소를 운영하며 주민들 의 생활 편의를 책임졌다. 특히 도농 직거래 장터와 직송 판매 |
-| 036 | [vol-39-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-036.jpg) | 성남 콘텐츠 50선 도시형 농협의 도전과 과제 2000년대 이후 성남의 농지는 급격히 줄었다. 조합원 중 비농업인의 비율은 늘 었고, 성남농협은 농업보다 금융·유통 기능이 강화된 ‘도시형 농협’으로 변모했 다. 하나 |
-| 037 | [vol-39-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-037.jpg) | 옛 성남우체국, 성남의 첫 편지가 시작된 곳 도시의 시작과 함께 열린 창구 개국 초기의 옛 성남우체국(1975) 옛 성남우체국은 성남시가 시로 승격하던 1972년 말 중앙시장 인근에 문을 열 었다. 광주대단지 이주민 |
-| 038 | [vol-39-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-038.jpg) | 성남 콘텐츠 50선 편지와 전보에 담긴 웃음과 눈물 성남우체국 창구에서는 성남 시민들의 애환이 오갔다. 아들의 군대 입영 편지 를 품에 안고 흐뭇해하던 어머니, 병환 소식을 전하는 전보를 받고 눈물을 훔치 던 가족들 |
-| 039 | [vol-39-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-039.jpg) | 을 위로한 편지, 기쁨과 눈물이 함께 담긴 전보는 성남의 공동체적 뿌리를 상기 시킨다. 비록 건물은 사라졌지만, 시민들의 추억 속에서 옛 성남우체국은 여전히 살아 있다. “우체국이 있기에 성남은 외롭지 않았다”라는  |
-| 040 | [vol-39-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-040.jpg) | 성남 콘텐츠 50선 희망대도서관(경기도립도서관) 권이 시민들에게는 세상과 통하는 다리가 되었고, 또래들과 함께 공부하며 미 래를 그려볼 수 있는 ‘희망의 터전’이었다. 당시를 기억하는 박용구(57, 수정구) 씨는 이 |
-| 041 | [vol-39-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-041.jpg) | 성남시 중앙도서관 항공 전경(2022) 로 성장했다는 자부심을 느꼈죠.” 성남시 중앙도서관은 단순히 책을 빌려주는 곳을 넘어 강연과 전시, 모임이 끊 이지 않는 복합 문화공간으로 자리 잡았다. 어린이에서 노년에 이르 |
-| 042 | [vol-39-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-042.jpg) | 성남 콘텐츠 50선 세대를 이어 도서관을 찾은 시민들은 말한다. “도서관은 단지 책을 보관하는 건물이 아닙니다. 그것은 우리 세대의 꿈과 추억이 켜켜이 쌓인 공간이에요.” 그의 말처럼 두 도서관은 성남의 도시 역사를 |
-| 043 | [vol-39-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-043.jpg) | 이름 속에 담긴 고향의 추억과 기름보다 더 고소한 ‘정’ 이 골목의 상호를 자세히 들여다보면 흥미로운 사실을 발견할 수 있다. “파주 기름집”, “화성참기름집”처럼 대부분 가게 이름 앞에는 주인의 고향 지명이 붙 어 |
-| 044 | [vol-39-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-044.jpg) | 성남 콘텐츠 50선 켜내려는 시민적 의지이기도 하다. 모란시장 기름골목은 오늘도 고소한 향기를 뿜어내며 묵묵히 사람들의 삶을 지탱한다. 그 향기 속에는 먹고 사는 일의 치열함과 더불어, 사람과 사람이 이 어주는 정겨 |
-| 045 | [vol-39-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-045.jpg) | 전후 가동된 성남제1공단은 일자리와 인구를 동시에 끌어들였다. 판자촌은 확 장과 정비를 오가며 도시의 몸체를 키웠다. “비가 오면 비탈이 무너졌습니다. 그래도 다음 날엔 다 같이 흙을 메웠죠. 여 기선 서로가 보험이 |
-| 046 | [vol-39-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-046.jpg) | 성남 콘텐츠 50선 대책위가 꾸려졌고, 종교·시민단체가 법률·생계 지원을 이어갔다. 1980년대 후반부터 주거 개량 지구와 재개발이 추진됐다. 다세대와 재건축이 들어서고, 판자 상가와 가건물은 사라졌다. 생활경제는  |
-| 047 | [vol-39-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-047.jpg) | 의 역사로 남았다. 다음 장은 시민과 행정이 함께 쓴다. 삶의 현장에서 시작된 연대가 기록으로 정리될 때, 성남의 어제와 오늘, 그리고 내일이 한 문장으로 이어질 것이다. 분당신도시, 대한민국 신도시의 상징 1989 |
-| 048 | [vol-39-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-048.jpg) | 성남 콘텐츠 50선 며 “자족 기능과 녹지, 교통, 교육이 조화를 이 룬 대표적 신도시”라고 설명했다. 성장과 변화, 그리고 분당의 오늘 분당은 1990년대 중반 입주가 본격화되면서 단순한 주거지가 아닌 ‘교육과 문 |
-| 049 | [vol-39-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-049.jpg) | 심의 자족도시로 자리매김하게 되었다. 성남시 관계자는 “분당은 성남시 50년 역사에서 가장 중요한 사건 중 하나”라며 “도시의 정체성과 미래 비전을 동시 에 담아낸 공간”이라고 강조했다. 미래를 향한 과제와 전망 현 |
-| 050 | [vol-39-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-050.jpg) | 성남 콘텐츠 50선 남한산성 닭죽촌 전경(2023) 이어져, 산성을 찾는 많은 이들이 등산 후 닭죽 한 그릇을 나누어 먹곤 했다. 실 제로 1960~1970년대까지도 남한산성 남문 입구 주변에는 닭죽집들이 줄지어 있 |
-| 051 | [vol-39-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-051.jpg) | 생 주거지로 발걸음을 옮겼다. “성남시가 터를 마련해주겠다고 했을 때, 남한산성을 떠나는 게 서글펐습니다. 하지만 먹고살 길이 필요했으니 따를 수밖에 없었지요.” 한 원로 상인의 회고 는 그 당시의 무거운 공기를 전 |
-| 052 | [vol-39-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-052.jpg) | 성남 콘텐츠 50선 한 먹거리 문화가 아닙니다. 남한산성의 역사와 성남시의 개발사가 교차하는 현장, 바로 생활사 박물관과 같은 공간이지요”라고 평가했다. 오늘도 단대동 닭죽촌 가게마다 닭죽 냄새가 은근히 번진다. 그 |
-| 053 | [vol-39-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-053.jpg) | 었다. 전국에는 다섯 개의 주요 봉수 노 선이 있었는데, 천림산 봉수는 부산 다 대포진에서 출발해 용인 석성산을 거 쳐 서울 남산(목멱산)으로 이어지는 제 2 직봉 노선의 마지막 전달지였다. 신 호 체계는 단순했지만 |
-| 054 | [vol-39-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-054.jpg) | 지만, 옛날엔 생명의 신호였던 셈이죠. 아 이들이 이런 역사를 배우고 자랐으면 좋겠 어요.” 그의 말처럼 봉수터는 단순한 유적지가 아 니다. 이곳에는 전란과 평화, 긴장과 안도 의 순간이 오갔던 나라의 숨결이 배어  |
-| 055 | [vol-39-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-055.jpg) | 한양을 향한 왕실의 기도처, 영장산 망경암 고려 말부터 대한제국까지 이어진 축원과 문화유산을 가치 품은 역사 공간 왕실의 축원이 깃든 자리 망경암(望京菴)의 역사는 깊다. 수정구 복정동 영장산 중턱에 자리한 망경암은 |
-| 056 | [vol-39-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-056.jpg) | 성남 콘텐츠 50선 에는 「망경암 칠성대 중수비」와 작은 비석도 함께 있어, 이곳이 단순한 수행처 가 아니라 국가적 염원을 담은 장소였음을 보여준다. 망경암 자연 암벽에 새겨진 문화유산으로서의 가치 각자(刻字) 중  |
-| 057 | [vol-39-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-057.jpg) | 2 추억의 장소들 PART 사람과 삶의 흔적 19. 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 20. 단대천 포장마차, 성남의 밤을 밝힌 등불 21. 제일실업학교(활민교회 야학), 교육 사각지대 |
-| 058 | [vol-39-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-058.jpg) | 성남 콘텐츠 50선 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 1980년대 청춘의 문화 공간, 극장 문화의 산실 도시가 막 몸을 세우던 1980년대 성남의 청춘은 극장에서 저녁을 배웠다. 성남  |
-| 059 | [vol-39-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-059.jpg) | 화는 최신작이든 재개봉이든 중요치 않았다. 함께 웃고 숨죽이며 보는 경험, 관 람의 공동체성이 핵심이었다. 천일극장은 생활권에 더 가까웠다. 시장 어귀와 골목이 맞닿아 있어 퇴근길이 자연스레 스크린으로 이어졌다. 상 |
-| 060 | [vol-39-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-060.jpg) | 성남 콘텐츠 50선 자리를 내주었다. 재개발로 상권이 재편되자 오래된 간판은 하나둘 내려졌고, 상영표가 붙던 유리문은 프랜차이즈 간판으로 바뀌었다. 그러나 사라진 것은 건물일 뿐, 세 극장이 남긴 사회적 자본-이웃의 |
-| 061 | [vol-39-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-061.jpg) | 의 도시화, 이주민의 삶, 그리고 서민의 애환과 정이 얽힌 역사이자 문화였다. 도시의 뒷골목에서 피어난 생계의 불빛 단대천 포장마차 거리는 성남시의 성장통 속에서 자연 스럽게 생겨났다. 1970년대 서울의 주거난을  |
-| 062 | [vol-39-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-062.jpg) | 성남 콘텐츠 50선 재개발의 바람 속에 흔들리는 추억 2000년대 이후, 성남시는 도시 환경 개선과 재개발을 본격화했다. 하천 정비와 환경 보호라는 명분 아래 단대천 주변 포장마차의 이전과 철거가 진행되었고, 거리는 |
-| 063 | [vol-39-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-063.jpg) | 의 한가운데 서 있었다. 불빛 하나에 웃고, 막걸리 한 잔에 눈물짓던 사람들, 그 리고 그들이 나눈 따뜻한 정. 그것이 바로 이 거리의 진짜 이름이었다. “단대천 포장마차는 도시의 어둠을 밝힌 작은 등불이었습니다.” |
-| 064 | [vol-39-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-064.jpg) | 성남 콘텐츠 50선 를 파 화장실을 해결하던 초라한 환경이었지만, 출석부엔 처음으로 ‘자기 이름’ 을 적는 학생들이 늘어났다. “배움은 동정이 아니라 권리”라는 문제의식이 현 장에서 작동하기 시작한 순간이었다. 연대 |
-| 065 | [vol-39-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-065.jpg) | 한 사람의 합격증이 되었다. 창세학교로 이어진 불빛 속에 비친 과제 재개발로 천막 학교는 자리를 비웠지만, 불빛은 꺼지지 않았다. ‘땅 한 평 사주 기 운동’ 등으로 새 터를 모색한 끝에 야학의 정신은 평생교육시설  |
-| 066 | [vol-39-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-066.jpg) | 성남 콘텐츠 50선 옛 성남시청사 : 출장소에서 시청으로, 행정의 첫 심장 박동 갈등을 제도로, 요구를 정책으로 바꿔 온 성남 행정의 궤적 작은 출장소에서 시작한 성남 경기도 성남시의 행정은 작은 출장소에서 시작됐다 |
-| 067 | [vol-39-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-067.jpg) | 1971 수정구 수진동의 옛 경기도 성남출장소 시기 청사(1971) 1978 수정구 신흥동 이마트 자리에 있던 옛 시청사(1978) 67 |
-| 068 | [vol-39-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-068.jpg) | 성남 콘텐츠 50선 수정구 태평동 옛 성남시청사(2003) 2003 2009 2009년 개청한 중원구 여수동 성남시청사(2023) 68 성남시사(50년사) 제39권 성남 콘텐츠 50선 |
-| 069 | [vol-39-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-069.jpg) | 이 아니라 약속이었다. 시민 돌봄의 상징인 시립의료원 건립이 계획되면서, 투 쟁의 기억이 복지의 기반으로 전환되는 ‘도시적 화해’가 시작됐다. 도시는 멈추지 않았다. 1989년 4월 27일 정부가 분당신도시 건설 계 |
-| 070 | [vol-39-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-070.jpg) | 성남 콘텐츠 50선 날, 성남은 오래된 질문-“도시는 누구를 위해 존재하 는가?”에 대한 답을 조금 더 명확히 얻었다. 그 답은 아직 현재진행형이다. 신청사가 스마트 도시에 맞춰 진화할수록, 시민의 하루는 더 안전하 |
-| 071 | [vol-39-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-071.jpg) | 성남시의료원 전경(2022) 5월 정상 진료 개시 등 숫자 뒤에는 기다림의 시간이 있었다. “그때 원도심엔 응급실이 없었습니다. 아이가 아프면 차로 30분을 달려야 했 죠. 병원은 치료소가 아니라 시민의 안전 울타리 |
-| 072 | [vol-39-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-072.jpg) | 성남 콘텐츠 50선 기관 지정, 발달장애인 거점병원 운영, 완화의료·재활·행동발달센터 개소, 분당 서울대학교병원과의 협진까지 영역을 넓혔다. 2023년에는 지역응급의료센터 승격, 3주기 의료기관 인증, 종합병원 인증 |
-| 073 | [vol-39-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-073.jpg) | 옛 성남시민회관에서 아트리움까지, 문화의 불빛 이어지다 생활예술의 심장을 다시 뛰게 한 성남 원도심의 문화 이야기 철거 전의 옛 성남시민회관 (2003) 성남시민회관은 1981년 태평동 옛 시청사 터에 세워진 성남  |
-| 074 | [vol-39-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-074.jpg) | 성남 콘텐츠 50선 동네가 조금 더 밝아진 기분이었죠(박○○, 수정구 태평동).” 시민회관은 그 시 절, 문화가 생활이 되는 법을 가르쳐 준 동네의 교실이었다. 멈출 수 없었던 재건, 2015 철거의 결단 세월이 흐 |
-| 075 | [vol-39-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-075.jpg) | 이 ‘경합’이 아니라 ‘상호 보완’ 이 되도록 큐레이션 역량을 높여 야 한다. 둘째, 도심 인프라와의 연계다. 바로 옆의 성남시의료원, 도서관·복지관·공원을 잇는 루트 를 설계해 ‘낮에는 배움, 저녁에 는 공연’이  |
-| 076 | [vol-39-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-076.jpg) | 성남 콘텐츠 50선 초창기 다방들, 성남의 첫 사회 인프라가 되다 사라진 간판 속에 남은 도시의 기억과 사람의 이야기 시장–다방–극장, 새 도시의 첫 동선 성남시가 막 몸을 세우던 1970~1980년대, 태평동·중동 |
-| 077 | [vol-39-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-077.jpg) | 옛 정취가 그대로 남아 있는 중앙동 돌다방 내부(2015) 지와 이력서가 테이블을 점령했고, DJ 부스에는 공개방송 포스터가 가득했다. “1978년 겨울, 학다방 구석에서 첫 이력서를 썼죠. 맞은편 모르는 손님이 샤 |
-| 078 | [vol-39-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-078.jpg) | 성남 콘텐츠 50선 트로 카페로 변신한 곳이 있는가 하면, 노년 단골을 품은 ‘동네 다방’으로 남아 최근까지도 커뮤니티 기능을 이어 온 곳도 있다. “프랜차이즈는 편하고 멋지 죠. 그런데 가끔은 다방의 느린 시간,  |
-| 079 | [vol-39-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-079.jpg) | 정자동과 백현동의 카페, 품격과 속도의 두 모습 젊은 문화·디자인·여가가 교차하는 성남의 카페거리 원조는 정자, 속도는 백현 분당 정자동 카페거리는 2000년대 중 반, 초고층 주상복합 저층부를 따라 테 라스형 상점 |
-| 080 | [vol-39-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-080.jpg) | 성남 콘텐츠 50선 분당구 백현동 카페거리(2023) 테라스에서 보이는 동네의 삶 정자동은 성숙기를 지나며 ‘일상형 취향’으로 재정렬됐다. 오래된 카페와 신규 다이닝이 공존하고, 저녁이면 클래식 바와 디저트 숍, 수 |
-| 081 | [vol-39-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-081.jpg) | 보행경제, 문화 프로그래밍, 연계의 삼박자 평가부터 보자. 정자동은 분당 라이프 스타일을 처음 ‘거리’로 구현한 개척자이 다. 테라스형 보행 경험, 카페와 다이닝의 믹스, 주상복합 저층부의 도시경관이 합쳐져 ‘근접  |
-| 082 | [vol-39-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-082.jpg) | 성남 콘텐츠 50선 성남의 초창기 골목 약국들이 만든 인간적 관계망 ‘골목의 작은 병원’, 시민 건강 지켜낸 관계 지도 산성동의 버팀목, 부부약국과 전주약국 성남이 막 정착기를 지나던 시 절, 산성동 골목의 부부약국 |
-| 083 | [vol-39-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-083.jpg) | 로 유명했다. 약국 앞 임시 테이블에서 체온과 혈압을 재고, “물이 약”이라며 ORS(경구수분보충용액) 타는 법을 손수 적어 건넸다. 이름처럼 달았던 ‘감초’, 그리고 단대리의 학생 약국 감초약국(감초한의원)은 서양 |
-| 084 | [vol-39-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-084.jpg) | 제든 약을 구할 수 있는’ 접근성 은 좋아졌다. 대신 빚 장부, 심 야 상담, 집 앞 배달 같은 ‘사람 대 사람’ 서비스는 줄었다. 몇 몇 약국은 ‘복약 상담 특화’, ‘가 정 간호 연계’, ‘만성질환 복약 관리(D |
-| 085 | [vol-39-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-085.jpg) | 성남중앙시장 내 분식집, 세대를 아우르는 맛과 정이 흐르는 공간 세대를 잇는 분식 카운터가 만든 성남의 일상 시설 현대화로 재개장한 성남중앙시장(2021) 성남중앙시장은 1970년대 자연발생 장터에서 출발해 오늘의  |
-| 086 | [vol-39-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-086.jpg) | 성남 콘텐츠 50선 시장 한복판, “먼저 국물부터요” 중앙시장 분식집의 첫인사는 대개 같다. “먼저 국물부터요.” 스테인리스 통에 서 김이 오르고, 어묵 꼬치를 쥔 손이 바빠진다. 떡볶이는 밀떡과 쌀떡을 고를 수 있 |
-| 087 | [vol-39-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-087.jpg) | 빨리, 가볍게, 따뜻하게… 시장 분식의 문법 중앙시장 분식집의 문법은 명확하다. 빨리 나온다, 가볍게 먹는다, 따뜻하게 나 간다. 장보기 전에는 ‘당 충전’이 필요하고, 장 본 뒤에는 잠깐 앉아 숨 고를 자 리가 필 |
-| 088 | [vol-39-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-088.jpg) | 성남 콘텐츠 50선 옛 성남버스터미널과 그 주변의 모습 사라진 자리에서 되살아나는 기억들 구 성남버스터미널을 막 출발한 버스들(1970년대) 산업화와 이주의 길목, 성남의 첫 관문 성남시의 한복판, 지금은 흔적이 희 |
-| 089 | [vol-39-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-089.jpg) | 으로 돌아가는 길’의 출발점이었으며, 동시에 낯선 도시 생활의 첫인상을 남기 는 무대였다. 한 시민은 “그때는 터미널만 가면 전국 어디든 갈 수 있다는 든든 함이 있었어요. 또 그만큼 많은 사람들이 이곳에 모여들었지 |
-| 090 | [vol-39-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-090.jpg) | 성남 콘텐츠 50선 사라진 자리, 그러나 꺼지지 않는 기억 오늘날 구 성남버스터미널은 과거의 기능을 잃었고, 주변 풍경도 달라졌다. 그 러나 오래된 건물 흔적, 남아 있는 상가들, 그리고 사람들의 입에서 전해지는 기 |
-| 091 | [vol-39-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-091.jpg) | 중원구 은행동 이름의 유래가 된 은행나무 은행나무 보호수 안내판 모여 마을 안건을 의논하고 장터를 열었으며, 혼례와 제사 같은 굵직한 행사를 치르기도 했다. 은행나무의 존재는 마을의 정체성을 규정지었다. 그래서 사람 |
-| 092 | [vol-39-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-092.jpg) | 성남 콘텐츠 50선 이고 모여들어 안부를 묻고 소식을 나누던 마을 소통의 장이었으며, 공동체 문화를 지탱하는 공 간이었다. 아이를 낳은 산모가 첫 목욕을 시키거 나 제사에 필요한 정결한 물을 길어다 쓴 것도 이 우물 |
-| 093 | [vol-39-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-093.jpg) | 행정 체계에 속해 있다. 비록 오늘날 은행동은 아파트 단지와 도로, 상가로 채 워진 도시 공간으로 변모했지만, 마을 이름과 우물터는 여전히 과거의 기억을 전한다. 은행나무와 우물은 단순한 인공물이 아니라 성남의 정체 |
-| 094 | [vol-39-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-094.jpg) | 성남 콘텐츠 50선 마당바위 표석 도심과 주변 산줄기가 한눈에 보이는 판교 마당바위 걷기 산행이 이어진다. 시민 취재 기사에는 판교도서관에서 오솔길로 약 40분 이면 마당바위에 도착한다는 안내가 실렸다. 성남문화원  |
-| 095 | [vol-39-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-095.jpg) | 새해 해맞이 명소, 천제(天祭)와 시민 축제의 무대 마당바위는 현재 성남을 대표하는 해맞 이 명소다. 성남시는 매년 1월 1일 마당 바위 해맞이 행사를 공지하고, 성남문화 원 등 지역 단체가 천제봉행(하늘에 드 리는 |
-| 096 | [vol-39-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-096.jpg) | 성남 콘텐츠 50선 청계산 정토사, 도심 곁에서 피어난 ‘쉼과 정진’의 마당 1982년 발원부터 정토 도량이 되기까지 수정구 옛골, 청계산 품에 안긴 정토사는 1982년 창건 이후 ‘정 토(淨土)의 길’을 현대적 언 |
-| 097 | [vol-39-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-097.jpg) | 템플스테이와 지역사회, 마음을 돌보고 공동체를 잇다 정토사는 일찍이 템플스테이를 도입해 ‘쉼과 정진’을 결합한 체험 코스를 운영 해 왔다. 예불 동참, 염불·명상, 108배, 차담, 숲길 걷기 같은 프로그램은 일상의 |
-| 098 | [vol-39-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-098.jpg) | 성남 콘텐츠 50선 자연과 문화의 공존, 연지의 사계가 가르치는 것 정토사의 공간은 수행만을 위한 장치가 아니다. 두 개의 연못은 여름이면 연꽃 으로 가득 차고, 가을엔 물빛이 붉은 단풍을 비춘다. 겨울의 고요와 봄 |
-| 099 | [vol-39-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-099.jpg) | 3 성남의 상징과 미래 자연, 교육, 청년, 문화 PART 자연환경과 새로운 세대, 문화와 도시 재생이 어우러지는 현재와 미래 33. 시간을 지배한 도로망, 성남을 허브로 세우다 34. 성남의 젖줄 세 개의 탄천,  |
-| 100 | [vol-39-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-100.jpg) | 성남 콘텐츠 50선 시간을 지배한 도로망, 성남을 허브로 세우다 경부·용인서울·분당내곡이 엮은 ‘스마트 교통 허브’의 탄생 경부축과 환형망의 결절, 성장의 모태가 되다 성남의 교통·도시 지형을 바꾼 첫 물줄기는 경부 |
-| 101 | [vol-39-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-101.jpg) | 택지를 늘렸다. 고속도로가 단순한 통행로를 넘어 도시 경쟁력의 ‘프레임’으로 작동하기 시작한 지점이 바로 여기다. 용인–서울과 분당–내곡, 강남 30분 생활권을 열다 두 번째 전환점은 용인서울고속도로와 분당내곡도시고 |
-| 102 | [vol-39-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-102.jpg) | 성남 콘텐츠 50선 울-분당내곡을 갈아타는 다중 루트를 누린다. 동시에 과제도 선명하다. 출·퇴근 첨두의 판교 분기점 정체, 터널 병목, 사고나 기상 변수에 따른 급격한 지체는 여전히 반복된다. 해법은 ‘더 많은 도 |
-| 103 | [vol-39-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-103.jpg) | 원·분당구를 북-남으로 관통한 뒤 한강으로 합류하는 성남의 젖줄이다. 개발 이전에는 논밭을 적시던 생활 하천이었지만, 분당·판교신도시 조성과 함께 도 시의 ‘녹색 회랑’으로 역할이 바뀌었다. 둔치에는 자전거길과 산책 |
-| 104 | [vol-39-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-104.jpg) | 복개 전의 대원천(1970년대, 하대원동 일대) 대원천 복개로 조성된 는 지형을 만들었다. 산업화 이후 전면 복개돼 지금은 ‘둔촌대로’라는 차도 축으 둔촌대로(2024) 로 바뀌었고, 지하 수로는 우기 때 물을 신속 |
-| 105 | [vol-39-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-105.jpg) | 하는 새로운 설계를 탄천 축과 연결하는 일이다. 되살아난 물길, 생태 복원과 시민의 휴식처 성남시는 2000년대 초부터 콘크리트 호안을 걷어내고 자연형 여울·어도를 설 치하는 복원을 이어왔다. 일부 보(洑)를 철거해 |
-| 106 | [vol-39-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-106.jpg) | 성남 콘텐츠 50선 율동공원, 분당의 심장에 뿌리내린 자연과 문화 쉼터 분당의 탄생과 함께 열린 공원의 역사 저수지의 원형과 철거 전의 번지점프대를 볼 수 있는 율동공원 전경(2023) 분당구에 자리한 율동공원은 1 |
-| 107 | [vol-39-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-107.jpg) | 었다. 하지만 동시에 번지점프대 와 같은 이색 시설을 도입해 ‘도 전과 여가’가 어우러지는 공원으 로 이름을 알렸다. 45m 높이의 번 지점프대는 당시 수도권 주민들 에게는 색다른 모험을 즐길 수 있 는 명소였고,  |
-| 108 | [vol-39-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-108.jpg) | 성남 콘텐츠 50선 성남시의 역사와 함께한 위상 성남시가 1970년대 8·10성남(광주대단지)항쟁을 거쳐 형성되고, 1990년 대 들어 신도시 건설로 본격적인 도시 면모를 갖추는 과정에서, 율동공원 은 새로운 도시의 |
-| 109 | [vol-39-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-109.jpg) | 분당중앙공원, 도심 한가운데 피어난 숲과 무대 삶과 문화가 어우러지는 시민들의 거대한 마당 도심 속 숲이 울창한 분당중앙공원 전경(2023) 도시가 품은 숲, 공원의 탄생 분당중앙공원은 1994년 6월 개장과 함께  |
-| 110 | [vol-39-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-110.jpg) | 127만㎡에 이르는 방대한 면적을 자랑한다. 계곡과 산세를 그대로 살리며 조성된 숲, 넓은 광장, 그리고 인공폭포와 수변 공간이 어우러 져 도심 속에서도 자연의 결을 느낄 수 있다. 분당중앙공원에는 문화유산으로 지정 |
-| 111 | [vol-39-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-111.jpg) | 분당중앙공원에서 자전거를 즐 기는 아이들(2014) 공원은 단순한 휴식 공간을 넘어 시민들의 삶을 연결하는 끈과도 같다. 누군가 에게는 매일 아침 건강을 다지는 운동장이, 또 다른 이에게는 가족과 추억을 만 드는 피 |
-| 112 | [vol-39-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-112.jpg) | 성남 콘텐츠 50선 낙생초등학교, 100년이 넘은 성남초의 뿌리 성남 교육의 시원을 이루는 공간 낙생공립심상소학교 시절 성남 교육의 시작, 낙생에서 열리다 낙생초등학교(1939, 출처 : 낙생초등학교 제14회 졸업앨 |
-| 113 | [vol-39-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-113.jpg) | 로운 교사(校舍)와 함께 재개교하며 다시 지역 교육의 중심에 섰다. 2022년에는 개교 100주년을 맞아 ‘백년 의 터, 천년의 꿈’이라는 기념 슬로건 아래 성남 교육 의 뿌리를 확인했다. 지역 향토문화 연구자 故  |
-| 114 | [vol-39-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-114.jpg) | 성남 콘텐츠 50선 의 꽃 개나리다. 모두가 학교의 뿌리와 미래를 동시에 보여주는 상징이다. 판교 주민 박○○ 씨는 “낙생초는 지역의 살아 있는 역사 교과서”라며 “아이들 이 옛날 사진 속 교실과 오늘의 스마트 교실 |
-| 115 | [vol-39-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-115.jpg) | 성남초등학교 전경 이 작은 분교는 성남 도심이 형성되기 수십 년 전, 아이들에게 글을 가르치고 기초학력을 키우는 교육의 싹을 틔웠다. 1948년에는 ‘성남국민학교’로 승격하며 독립 학교로 자리 잡았고, 1950년 제 |
-| 116 | [vol-39-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-116.jpg) | 성남 콘텐츠 50선 1970년대 성남초등학교 시절의 성남초등학교 성남초등학교의 자랑 농구부 농구부 성과는 동네의 자랑이었다”라고 회상했다. (2019, 출처 : 『점프볼』) 2000년대 들어 성남초등학교는 새로운 도 |
-| 117 | [vol-39-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-117.jpg) | 뿌리와 미래를 잇는 살아 있는 교육사 성남초등학교는 남한산에서 출발한 작은 간이학교가 오늘날 도시 중심 초등학 교로 발전한 드문 사례다. 성남이 도시로 성장하기 전부터 교육의 불씨를 지폈 고, 도시화와 함께 성장하며 |
-| 118 | [vol-39-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-118.jpg) | 성남 콘텐츠 50선 한국잡월드 전경(2021) 중심지로 자리매김했다. 설립 목적은 분명했다. 청소년에게는 적성과 흥미를 조기에 찾도록 돕고, 성인에게는 재취업과 전직 지원, 사회 전체에는 직업 존중 문화를 확산하는  |
-| 119 | [vol-39-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-119.jpg) | 격차 해소에 기여했고, 성인 대상 재취업 프로그램은 중장년층과 여성 경력 단절자에게 새로운 기회를 열어 주었다. 성남 시민 박OO 씨는 “아이들이 꿈을 찾는 공 간이면서도, 지역사회에는 관광과 소비를 이끌어내는 경제 |
-| 120 | [vol-39-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-120.jpg) | 성남 콘텐츠 50선 성남아트센터, 50년 도시와 함께 빚은 문화의 집 개관 20년, 시민의 삶 속에 스며든 예술의 공간 문화 도시를 향한 결단 성남아트센터는 성남시가 문화 도시로 도약하기 위해 내린 역사적 결단의 산 |
-| 121 | [vol-39-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-121.jpg) | 를 향유하는 도시”라는 목표를 내걸고, 세계 수준의 공연장과 전시 공간을 품은 복합 문 화 시설을 건립하기로 했다. 센터의 운영은 성남시에서 출연한 성남문화 재단이 맡고 있다. 2004년 출범한 재단은 단 순 관리  |
-| 122 | [vol-39-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-122.jpg) | 성남 콘텐츠 50선 시민의 삶 속에 스며든 예술 성남아트센터는 현재 단순한 공연장을 넘어 시민의 일상 속 쉼터로 기능하고 있다. 야외광장과 분수대는 가족들이 모여드는 휴식처가 되었고, 전시실과 북 테마파크는 아이들에 |
-| 123 | [vol-39-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-123.jpg) | 봉국사 전경(2023) 성남 봉국사, 천년의 숨결로 이어온 호국의 사찰 영장산 품에 안긴 고요한 문화유산, 시민에게 전하는 쉼과 위로 고려의 창건, 조선의 원당으로 수정구 영장산 기슭에 자리한 봉국사는 1028년(고 |
-| 124 | [vol-39-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-124.jpg) | 6·25전쟁으로 한때 폐허가 되었으나, 1958년 법 운 스님에 의해 다시 중건됐고, 1974년에는 대 광명전이 해체 복원되면서 사찰의 위상을 되찾 았다. 이러한 부흥은 봉국사가 단순한 유적이 아 니라 살아있는 신앙 |
-| 125 | [vol-39-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-125.jpg) | 싸고, 겨울에는 고요한 설경이 대광명전을 포근히 덮는다. “사찰 마당에 앉아 있으면 새소리, 바람소리, 그리고 숲 향기가 한데 어우러져 마치 자연이 법문을 전하는 듯하다”라는 불자의 말은 봉국사가 지닌 생태적 가치와 |
-| 126 | [vol-39-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-126.jpg) | 성남 콘텐츠 50선 탄천종합운동장, 시민의 자부심과 미래를 밝히다 스포츠와 교육, 시민 참여가 어우러진 도시 문화의 심장 도시 품격을 세운 건축, 그리고 교육적 자산 탄천종합운동장은 1997년 착공해 2002년 개장 |
-| 127 | [vol-39-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-127.jpg) | 니라 지역 교육 기반 시설로까지 확장된 사례로 평가 된다. ‘탄천 요새’의 함성, 시민이 만드는 축제 성남FC의 성취는 탄천종합운동장의 위상을 더욱 빛나 게 했다. 프로축구 K리그 7회 우승, FA컵(현 코리아컵)  |
-| 128 | [vol-39-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-128.jpg) | 성남 콘텐츠 50선 로 응답한 것은, 이 공간이 지역사회 정체성과 교육·여가 자산으로 인정받고 있 음을 방증한다. 한편, 2021년 완공된 성남축구센터는 이러한 흐름을 더욱 강화했다. 선수들의 훈련 효과를 높이는 동 |
-| 129 | [vol-39-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-129.jpg) | 는 실험실이었다. 정부와 경기도, 성남시, 그리고 여러 기관이 손을 맞잡고 ‘한 국의 실리콘밸리’를 만들어 보자는 열망으로 조성한 곳, 그것이 바로 판교테크 노밸리였다. 2005년 첫 삽을 뜬 이후 이곳은 빠른 속도 |
-| 130 | [vol-39-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-130.jpg) | 성남 콘텐츠 50선 미래를 향한 끝없는 도전 오늘날 판교테크노밸리에는 1,700여 개 기업과 7만여 명의 종사자가 모여 있다. 그 숫자는 단순한 통계가 아니라, 한국 경제가 새롭게 숨 쉬고 있음을 보여주는 증거다.  |
-| 131 | [vol-39-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-131.jpg) | 성남물빛정원, 흉물에서 문화의 별빛으로 버려진 하수처리장이 시민의 정원으로 다시 피어나다 흉물에서 피어난 희망의 정원 한때 30년 넘게 ‘도시의 흉물’이라 불리던 분당구 구미동 옛 하수종말 처리장이 마침내 새 옷을  |
-| 132 | [vol-39-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-132.jpg) | 성남 콘텐츠 50선 산업의 흔적을 예술로 살리다 잔디마당과 ‘성남 두물길’이라 이름 붙은 산책로는 시민들이 물빛과 바람을 가 까이 느끼며 쉴 수 있도록 설계됐다. 저녁이면 야경과 음악이 어우러져 과거에 는 상상도 할 |
-| 133 | [vol-39-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-133.jpg) | 미래를 향한 약속 시민들의 아이디어로 이름이 지어진 이곳은 이제 ‘시민의 공간’이라는 정체성 을 더욱 굳건히 하며 성남의 새로운 문화적 얼굴로 자리 잡고 있다. 흔히 버려 진 시설은 기억에서조차 지워지기 마련이다.  |
-| 134 | [vol-39-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-134.jpg) | 2024 성남페스티벌 성남페스티벌 드론 쇼(2024) 탄천 수상 무대에서 펼쳐진 2024 성남페스티벌 134 성남시사(50년사) 제39권 성남 콘텐츠 50선 |
-| 135 | [vol-39-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-135.jpg) | 로 탈바꿈했다. 2023년 개막작 ‘대환영’은 물 위에 설치된 무대와 조명, 영상 장 치를 결합한 초대형 퍼포먼스로 약 1만 명의 관객을 끌어모았다. 성남문화재 단 관계자는 “도시의 일상 공간을 축제의 무대로 만든  |
-| 136 | [vol-39-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-136.jpg) | 성남 콘텐츠 50선 인한 탄천 생태계 훼손과 안전성 문제도 지적되었다. 이에 대해 성남시 관계자 는 “앞으로는 시민 참여를 더욱 확대하고, 환경과 안전 문제를 세심히 고려해 축제의 지속 가능성을 높이겠다”라고 밝혔다 |
-| 137 | [vol-39-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-137.jpg) | 제1회 파크콘서트(2012) 로 즐길 수 있는 음악 축제가 열리기 시작한 것이다. 당시 시민들은 가족 단위 로 돗자리를 펴고 앉아 클래식, 재즈, 국악, 대중가요를 함께 들었다. 이는 ‘공 원에서 열리는 작은 음악회 |
-| 138 | [vol-39-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-138.jpg) | 성남 콘텐츠 50선 코로나19로 중단되었다가 재개된 2022년 파크콘서트 과 함께 와서 자연 속에서 음악을 듣다 보면 어느새 하루의 피로가 다 풀린다”라 며 “이곳은 단순한 공연장이 아니라 우리 가족의 여름 추억 장 |
-| 139 | [vol-39-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-139.jpg) | 성남 하면 공단 도시라는 인상이 강했는데, 이제는 가족과 함께 음악을 즐길 수 있는 도시로 변했다”라며 “파크콘서트가 그 변화를 잘 보여주는 상징”이라고 전했다. 2012년 작은 시도로 시작된 파크콘서트는 지금까지  |
-| 140 | [vol-39-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-140.jpg) | 성남 콘텐츠 50선 담당하던 특수 시설은, 한동안 주민들에게 ‘가까이 다가가기 힘든 공간’으로 인식되었 다. 어두운 기억이 남아 있던 그 자리는 이 제 어린이들의 웃음소리가 울려 퍼지는 아 파트 단지와 공원으로 바뀌 |
-| 141 | [vol-39-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-141.jpg) | 위례역사수변공원(2022) 은 교통의 요지로 발전했고, 오늘날에는 위례신도시와 맞닿아 새로운 생활권 을 이루고 있다. 복정공은 단순한 근린공원이 아니라 마을의 옛 기억을 품은 역 사적 쉼터다. 이처럼 위례신도시는 단 |
-| 142 | [vol-39-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-142.jpg) | 성남 콘텐츠 50선 정의 우물, 군 교도소의 흔적은 우리에게 도시의 정체성이 단순한 건물에 서 비롯되지 않음을 알려준다. 오늘의 위례가 ‘살기 좋은 도시’로 불리려면, 화려한 아파트 숲속에 묻힌 역사 를 되살리고,  |
-| 143 | [vol-39-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-143.jpg) | 성남누비길 스탬프투어 지도 143 |
-| 144 | [vol-39-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-144.jpg) | 성남 콘텐츠 50선 역사와 발자취가 살아 숨 쉬는 길 성남누비길의 첫 구간은 남한산성길이다. 영장산에서 시작해 남문으로 이어지 는 길목은 병자호란 당시 인조가 머물렀던 역사의 현장이자, 성곽과 문화유산 이 고스란히  |
-| 145 | [vol-39-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-145.jpg) | 과거와 현재를 잇는 성남의 길 문화 성남은 원래 이주민 도시였다. 8·10성남(광주대단지)항쟁 이후 형성된 성남의 역사는 길과 함께 시작되었다. 판잣집을 오가던 흙길, 장터와 마을을 잇던 산길 은 오늘의 성남누비길로 |
-| 146 | [vol-39-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-146.jpg) | 성남 콘텐츠 50선 양쪽으로 흘러 작은 섬처럼 보이던 지형에서 비롯된 ‘섬말(도 촌)’이라는 이름을 그대로 간직했다. 과거에는 물을 저장하는 저류지로 활용되던 공간이었지만, 성남시는 이곳을 자연과 사 람이 공존하는  |
-| 147 | [vol-39-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-147.jpg) | 섬말공원 바닥 분수 물놀이장에서 뛰노는 아이들(2023) 자연과 사람이 어우러지는 쉼터 섬말공원은 단순히 꽃을 보는 곳에 그치지 않는다. 탄천과 인접한 수변 환경 덕 분에 왜가리 등 야생 조류가 찾아와 생태 탐방지로 |
-| 148 | [vol-39-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-148.jpg) | 성남 콘텐츠 50선 공원을 단순한 녹지 공간을 넘어 살아 있는 문화 플랫폼으로 발전시키고 있다. 그러나 무엇보다 중요한 것은 이곳이 시민들의 자발적 참여로 완성되는 공간이 라는 점이다. 연꽃을 보러 오는 발걸음, 음 |
-| 149 | [vol-39-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-149.jpg) | 신구대학교 식물원 전경(2025) 리매김했다. 정식 개원은 2003년, 그리고 2004년 산림청에 학교 수목원으로 등 록되면서 학문적 기반을 갖추었다. 이후 환경부로부터 멸종위기식물 서식지외 보전기관으로 지정되며,  |
-| 150 | [vol-39-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-150.jpg) | 성남 콘텐츠 50선 있는 교과서입니다. 자연을 배우고 느끼며, 지켜야 할 가치를 몸으로 익히 게 하는 곳이지요”라고 설명했다. 계절 따라 달라지는 20개의 정원 식물원 안에는 주제별로 꾸며진 20여 개의 정원이 있다 |
-| 151 | [vol-39-page-151.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-151.jpg) | 성을 바탕으로, 시민에게는 힐링의 공간을 제공한다. 계절 따라 변화하는 정원은 삶의 리듬을 닮아 있고, 멸종위기종을 보존하는 노력은 미래 세대에 대한 약속이 된다. 도심의 바쁜 일상에서, 신구대학교 식물원은 오늘도  |
-| 152 | [vol-39-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39-page-152.jpg) | 성남시사 39 성남 콘텐츠 50선 발행일 2025년 12월 29일 발행처 성남시 시사편찬위원회 경기도 성남시 수정구 산성대로215번길 7(신흥동) 031-756-1082 / snsisa50th@naver.com 집필 |
+| 001 | [vol-39-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-001.jpg) | 발 간 등 록 번 호 71-3780000-100099-14 성남시사 50년사 50 Years of Seongnam City History 성남시 시사편찬위원회 성남 콘텐츠 50선 도시의 역사와 현재는 공간이 남긴 흔 |
+| 002 | [vol-39-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-002.jpg) | 1 PART CONTENTS 성남의 도시 형성과 성장 산업화의 발자취를 보여주는 공간들 01. 희망대공원, 성남의 아픔과 희망을 간직한 역 사적 공간 \| 8 02. 모란민속시장과 모란종합시장, 전통과 현대가 어깨를 |
+| 003 | [vol-39-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-003.jpg) | 2 PART 3 PART 추억의 장소들 사람과 삶의 흔적 성남의 상징과 미래 자연, 교육, 청년, 문화 19. 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 \| 58 33. 시간을 지배한 도로망, |
+| 004 | [vol-39-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-004.jpg) | 성남 |
+| 005 | [vol-39-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-005.jpg) | 콘텐츠 50선 |
+| 006 | [vol-39-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-006.jpg) | 콘텐츠 선정 배경과 범주 도시의 역사와 현재는 공간이 남긴 흔적을 통해서 더 선명히 드러난다. 성남이 걸어온 50년의 궤적에는 사람뿐 아니라 그들이 머물며 삶을 빚은 장소들이 켜켜이 새겨져 있 다. 그러므로 성남시  |
+| 007 | [vol-39-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-007.jpg) | 1 PART 성남의 도시 형성과 성장 산업화의 발자취를 보여주는 공간들 01. 희망대공원, 성남의 아픔과 희망을 간직한 역사적 공간 02. 모란민속시장과 모란종합시장, 전통과 현대가 어깨를 나란히 03. 성남제1공단 |
+| 008 | [vol-39-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-008.jpg) | 성남 콘텐츠 50선 희망대공원, 성남의 아픔과 희망을 간직한 역사적 공간 8·10성남(광주대단지)항쟁에서 민주화의 현장까지, 역사를 안고 살아 숨 쉬는 시민들의 쉼터 도심 속 역사와 휴식의 공간, 성남 희망대공원 성 |
+| 009 | [vol-39-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-009.jpg) | 도시 계획을 넘어 대한민국 현대사의 굴곡진 흐름과도 맞닿아 있다. 특히 8·10 성남(광주대단지)항쟁은 성남시가 독립적인 도시로 성장하는 기폭제가 되었으 며, 희망대공원은 이러한 역사의 한가운데 서 있었다. 또한 1 |
+| 010 | [vol-39-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-010.jpg) | 성남 콘텐츠 50선 현대의 희망대공원, 시민들의 조용한 휴식처 현재 희망대공원은 성남 시민들에게 편안한 쉼터로 자리 잡았다. 공원 내부에 는 경기도립성남도서관이 자리하고 있어 학습과 문화 활동을 위한 공간으로 활용되 |
+| 011 | [vol-39-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-011.jpg) | 은 성남 시민들의 저항과 변화의 역사를 담고 있는 장소로 차별화된다. 1971년 8·10성남(광주대단지)항쟁을 시작으로, 1980년대 민주화운동의 거점으로 기능 하며 시민 공동체 의식을 강화하는 공간이 되었다. 오늘 |
+| 012 | [vol-39-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-012.jpg) | 성남 콘텐츠 50선 우리나라 최대 규모의 전통 민속시장 모란민속시장 형성된 이곳은, 한국전쟁 이후 피란민들이 모여들면서 생활의 터전이 된 자리 에서 비롯됐다. 1974년 본격적으로 개장한 모란민속시장은 현재도 매월  |
+| 013 | [vol-39-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-013.jpg) | 남의 급격한 도시 성장과 함께 등장한 이곳은 건물을 갖춘 상설시장으로, 날씨 에 상관없이 쇼핑을 즐길 수 있다는 장점으로 자리 잡았다. 가전제품, 의류, 잡 화, 생활용품 등 다양한 업종이 한 건물 안에 들어서면서  |
+| 014 | [vol-39-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-014.jpg) | 성남 콘텐츠 50선 내일을 여는 시장 모란민속시장과 모란종합시장은 서로 다른 뿌리와 성격을 지녔지만, 지금도 성 남 시민의 삶과 지역 경제를 지탱하는 두 축으로 기능한다. 과거의 유산을 간직 한 전통시장과 현대적 편 |
+| 015 | [vol-39-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-015.jpg) | 성남역사박물관과 근린공원으로 탈바꿈한 성남제1공단(2023) 공업, 전기·전자, 고무 산업의 맥을 이었다. 그 배경에는 1971년 8월 10일, 이른 바 ‘8·10성남(광주대단지)항쟁’이 있었다. 당시 주민들의 집단 |
+| 016 | [vol-39-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-016.jpg) | 성남 콘텐츠 50선 오가는 큰 마당 같은 공간”이었다고 회상했다. 제1공단의 노동 현장은 땀과 소음, 그리고 사람 냄새로 가득했다. 빠이롯트 공 장에서는 사인펜 성형기와 잉크 주입기가 쉴 새 없이 돌아갔고, 삼영전자 |
+| 017 | [vol-39-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-017.jpg) | 한국빠이롯트 만년필공장 설비 성형 2호기 보존 작업은 그 첫걸음이었다. 그 결과 현재 이곳은 ‘제1공단 근린공원’으로 변 신했다. 잔디와 산책로가 놓였고, 주민들이 산책하고 아이들이 뛰노는 일상의 공간이 되었다. 일 |
+| 018 | [vol-39-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-018.jpg) | 성남 콘텐츠 50선 성남하이테크밸리, 산업화의 터전에서 첨단 혁신의 심장으로 광주 대단위 공업단지에서 시작된 성남의 산업화 성남하이테크밸리의 뿌리는 1968년으로 거슬러 올라간다. 정부가 광주 대단위 공업단지 조성  |
+| 019 | [vol-39-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-019.jpg) | 1970년대 성남 제2·3공단(1975) 흔적은 사라졌다. 비록 제2·3공단에 여전히 수천 개 중소 제조업체가 남아 산업 기반을 지탱했지만, ‘공업 도시’ 성남의 이미지는 점차 퇴색하기 시작했다. 당 시 성남시 관계 |
+| 020 | [vol-39-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-020.jpg) | 성남 콘텐츠 50선 한편, 최근에는 정부와 성남시가 나서 노 후 공단을 리모델링하고, 스마트 제조혁 신 클러스터로 전환하는 사업을 추진 중 이다. 여기에는 스마트 공장 도입, 친환경 설비 확충, 청년 창업 기업 지원 |
+| 021 | [vol-39-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-021.jpg) | 성남시를 일으킨 뿌리 기업들 50년 산업사와 함께 걸어온 전자·제과·시계·스마트홈의 역사 산업단지에서 시작된 성남의 꿈 1973년 시로 승격한 성남은 주거와 산업을 동시에 품은 도시로 태어났다. 이곳 에 둥지를 튼  |
+| 022 | [vol-39-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-022.jpg) | 성남 콘텐츠 50선 장학재단 운영은 기업의 사회적 책임을 보여주는 대목이다. 삼영전자가 뿌린 산업의 씨앗은 성남을 단순한 ‘위성도시’가 아닌 ‘제조업의 중 심’으로 자리 잡게 했다. 수천 명의 고용 창출은 말할 것도 |
+| 023 | [vol-39-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-023.jpg) | 오리엔트시계, 영광과 기억을 함께 새기다 오리엔트시계는 1970년대 성남 공장을 증설하며 본 격적인 성장기를 맞았다. ‘갤럭시’라는 이름의 손목 시계는 한때 국민 시계로 불렸고, 86아시안게임과 88서울올림픽 공식  |
+| 024 | [vol-39-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-024.jpg) | 성남 콘텐츠 50선 정부는 청계천, 노량진, 뚝섬 등지의 판자촌 주민들에게 ‘새로운 삶의 터전’을 약속하며 옛 광주군 중부면으로 강제 이주를 추진했다. 당시 박정희 정부는 산 업화 과정에서 빈민 문제 해결을 명분으로 |
+| 025 | [vol-39-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-025.jpg) | 소와 관공서를 점거했고, 분노는 경찰과의 충돌로 이어졌다. 서울시장 양택식이 약속했던 지원책은 번번이 무산되었고, 그 배신감은 불길 처럼 번졌다. 주민들은 버스를 몰아 서울 진입을 시도하며 절박한 목소리를 냈 다.  |
+| 026 | [vol-39-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-026.jpg) | 성남 콘텐츠 50선 성호시장, 성남의 오래된 심장 지역 기반의 상권 형성, 서민 경제의 중심지 서민 경제의 중심에서 피어난 전통시장 성남시 본시가지의 한복판, 1970년 성남출장소 시절에 이주민들이 모여 만든 작은  |
+| 027 | [vol-39-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-027.jpg) | 장이 곧 일터이자 생활 터전’이라는 말이 나올 정도로 성호시장은 성남 의 생활경제를 움직이는 심장이었 다. 주민들은 시장을 ‘생활의 기반 이자 지역의 얼굴’이라고 불렀다. 현대화를 향한 도전과 기대 세월이 흐르면서  |
+| 028 | [vol-39-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-028.jpg) | 성남 콘텐츠 50선 성호임시시장 개장식(2023.3.17.) 의 상징이 될 것이다. 전통의 온기와 현대의 편리함이 만나는 그날, 성호시장은 다시 한번 성남의 경제와 사람들을 잇는 따뜻한 다리가 될 것이다. 성남종합운 |
+| 029 | [vol-39-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-029.jpg) | 성남종합운동장과 스포츠센터 전경(2023) 지하 1층 지상 2층에 3만 1,149석 규모로 1984년 12월 문을 열었다. 낮엔 유소 년 수업과 동호회가 트랙을 채우고, 저녁이면 조깅과 배드민턴, 주말엔 가족 나 들 |
+| 030 | [vol-39-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-030.jpg) | 는 표지판 같았죠”라고 회상한다. 프로축구의 흔적도 굵다. 성남 일화 천마(현 성남FC)가 한때 이곳을 홈구장으로 사용 했고, 탄천종합운동장으로 주 무대를 옮긴 뒤에도 2009년과 2019년처럼 필요할 때 다시 돌아 |
+| 031 | [vol-39-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-031.jpg) | 이제 야구의 환호가 그 위에 겹칠 예정이다. 중요한 건 방식이다. 기록을 전시 하고, 참여를 늘리고, 골목과 이익을 나누는 경기장. 그때 운동장은 건물이 아 니라 도시의 광장이 된다. “여기선 누가 뛰든, 결국 함께 |
+| 032 | [vol-39-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-032.jpg) | 성남 콘텐츠 50선 단대동 원조합원 이길원(79) 씨의 말이다. 1973년 시 승격, 1974년 공단 가동 과 함께 소액 대출은 생활을 붙잡는 안전망이 됐다. ‘회원의 생활 안정과 지역 사회 개발’이라는 문구가 새마 |
+| 033 | [vol-39-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-033.jpg) | 같다. 돈의 흐름을 사람의 사정에 맞춘다. 물론 과제도 있다. 첫째, 디 지털 취약계층 지원이다. 고령 조합원의 ‘모바일 격 차’를 줄이는 대면·방문 교 육이 필요하다. 둘째, 청년· 초보 자영업의 금융 문해력 성남 |
+| 034 | [vol-39-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-034.jpg) | 성남 콘텐츠 50선 성남농협, 도시와 농업을 잇는 생활경제의 중심 광주대단지 속에 뿌리내린 성남중앙농협 성남농협(구 중앙농협)의 역사는 성남시의 도시 형성과 궤를 같이한다. 모태는 1970년대 초 ‘광주대단지’ 시절 |
+| 035 | [vol-39-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-035.jpg) | 보험 서비스를 제공해 농민의 자금 융통을 지원했고, 이후 도시 서민들의 생활금융 창구로 확대됐다. 또한 하나로마트, 농자재센터, 주유소를 운영하며 주민들 의 생활 편의를 책임졌다. 특히 도농 직거래 장터와 직송 판매 |
+| 036 | [vol-39-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-036.jpg) | 성남 콘텐츠 50선 도시형 농협의 도전과 과제 2000년대 이후 성남의 농지는 급격히 줄었다. 조합원 중 비농업인의 비율은 늘 었고, 성남농협은 농업보다 금융·유통 기능이 강화된 ‘도시형 농협’으로 변모했 다. 하나 |
+| 037 | [vol-39-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-037.jpg) | 옛 성남우체국, 성남의 첫 편지가 시작된 곳 도시의 시작과 함께 열린 창구 개국 초기의 옛 성남우체국(1975) 옛 성남우체국은 성남시가 시로 승격하던 1972년 말 중앙시장 인근에 문을 열 었다. 광주대단지 이주민 |
+| 038 | [vol-39-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-038.jpg) | 성남 콘텐츠 50선 편지와 전보에 담긴 웃음과 눈물 성남우체국 창구에서는 성남 시민들의 애환이 오갔다. 아들의 군대 입영 편지 를 품에 안고 흐뭇해하던 어머니, 병환 소식을 전하는 전보를 받고 눈물을 훔치 던 가족들 |
+| 039 | [vol-39-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-039.jpg) | 을 위로한 편지, 기쁨과 눈물이 함께 담긴 전보는 성남의 공동체적 뿌리를 상기 시킨다. 비록 건물은 사라졌지만, 시민들의 추억 속에서 옛 성남우체국은 여전히 살아 있다. “우체국이 있기에 성남은 외롭지 않았다”라는  |
+| 040 | [vol-39-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-040.jpg) | 성남 콘텐츠 50선 희망대도서관(경기도립도서관) 권이 시민들에게는 세상과 통하는 다리가 되었고, 또래들과 함께 공부하며 미 래를 그려볼 수 있는 ‘희망의 터전’이었다. 당시를 기억하는 박용구(57, 수정구) 씨는 이 |
+| 041 | [vol-39-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-041.jpg) | 성남시 중앙도서관 항공 전경(2022) 로 성장했다는 자부심을 느꼈죠.” 성남시 중앙도서관은 단순히 책을 빌려주는 곳을 넘어 강연과 전시, 모임이 끊 이지 않는 복합 문화공간으로 자리 잡았다. 어린이에서 노년에 이르 |
+| 042 | [vol-39-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-042.jpg) | 성남 콘텐츠 50선 세대를 이어 도서관을 찾은 시민들은 말한다. “도서관은 단지 책을 보관하는 건물이 아닙니다. 그것은 우리 세대의 꿈과 추억이 켜켜이 쌓인 공간이에요.” 그의 말처럼 두 도서관은 성남의 도시 역사를 |
+| 043 | [vol-39-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-043.jpg) | 이름 속에 담긴 고향의 추억과 기름보다 더 고소한 ‘정’ 이 골목의 상호를 자세히 들여다보면 흥미로운 사실을 발견할 수 있다. “파주 기름집”, “화성참기름집”처럼 대부분 가게 이름 앞에는 주인의 고향 지명이 붙 어 |
+| 044 | [vol-39-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-044.jpg) | 성남 콘텐츠 50선 켜내려는 시민적 의지이기도 하다. 모란시장 기름골목은 오늘도 고소한 향기를 뿜어내며 묵묵히 사람들의 삶을 지탱한다. 그 향기 속에는 먹고 사는 일의 치열함과 더불어, 사람과 사람이 이 어주는 정겨 |
+| 045 | [vol-39-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-045.jpg) | 전후 가동된 성남제1공단은 일자리와 인구를 동시에 끌어들였다. 판자촌은 확 장과 정비를 오가며 도시의 몸체를 키웠다. “비가 오면 비탈이 무너졌습니다. 그래도 다음 날엔 다 같이 흙을 메웠죠. 여 기선 서로가 보험이 |
+| 046 | [vol-39-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-046.jpg) | 성남 콘텐츠 50선 대책위가 꾸려졌고, 종교·시민단체가 법률·생계 지원을 이어갔다. 1980년대 후반부터 주거 개량 지구와 재개발이 추진됐다. 다세대와 재건축이 들어서고, 판자 상가와 가건물은 사라졌다. 생활경제는  |
+| 047 | [vol-39-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-047.jpg) | 의 역사로 남았다. 다음 장은 시민과 행정이 함께 쓴다. 삶의 현장에서 시작된 연대가 기록으로 정리될 때, 성남의 어제와 오늘, 그리고 내일이 한 문장으로 이어질 것이다. 분당신도시, 대한민국 신도시의 상징 1989 |
+| 048 | [vol-39-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-048.jpg) | 성남 콘텐츠 50선 며 “자족 기능과 녹지, 교통, 교육이 조화를 이 룬 대표적 신도시”라고 설명했다. 성장과 변화, 그리고 분당의 오늘 분당은 1990년대 중반 입주가 본격화되면서 단순한 주거지가 아닌 ‘교육과 문 |
+| 049 | [vol-39-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-049.jpg) | 심의 자족도시로 자리매김하게 되었다. 성남시 관계자는 “분당은 성남시 50년 역사에서 가장 중요한 사건 중 하나”라며 “도시의 정체성과 미래 비전을 동시 에 담아낸 공간”이라고 강조했다. 미래를 향한 과제와 전망 현 |
+| 050 | [vol-39-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-050.jpg) | 성남 콘텐츠 50선 남한산성 닭죽촌 전경(2023) 이어져, 산성을 찾는 많은 이들이 등산 후 닭죽 한 그릇을 나누어 먹곤 했다. 실 제로 1960~1970년대까지도 남한산성 남문 입구 주변에는 닭죽집들이 줄지어 있 |
+| 051 | [vol-39-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-051.jpg) | 생 주거지로 발걸음을 옮겼다. “성남시가 터를 마련해주겠다고 했을 때, 남한산성을 떠나는 게 서글펐습니다. 하지만 먹고살 길이 필요했으니 따를 수밖에 없었지요.” 한 원로 상인의 회고 는 그 당시의 무거운 공기를 전 |
+| 052 | [vol-39-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-052.jpg) | 성남 콘텐츠 50선 한 먹거리 문화가 아닙니다. 남한산성의 역사와 성남시의 개발사가 교차하는 현장, 바로 생활사 박물관과 같은 공간이지요”라고 평가했다. 오늘도 단대동 닭죽촌 가게마다 닭죽 냄새가 은근히 번진다. 그 |
+| 053 | [vol-39-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-053.jpg) | 었다. 전국에는 다섯 개의 주요 봉수 노 선이 있었는데, 천림산 봉수는 부산 다 대포진에서 출발해 용인 석성산을 거 쳐 서울 남산(목멱산)으로 이어지는 제 2 직봉 노선의 마지막 전달지였다. 신 호 체계는 단순했지만 |
+| 054 | [vol-39-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-054.jpg) | 지만, 옛날엔 생명의 신호였던 셈이죠. 아 이들이 이런 역사를 배우고 자랐으면 좋겠 어요.” 그의 말처럼 봉수터는 단순한 유적지가 아 니다. 이곳에는 전란과 평화, 긴장과 안도 의 순간이 오갔던 나라의 숨결이 배어  |
+| 055 | [vol-39-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-055.jpg) | 한양을 향한 왕실의 기도처, 영장산 망경암 고려 말부터 대한제국까지 이어진 축원과 문화유산을 가치 품은 역사 공간 왕실의 축원이 깃든 자리 망경암(望京菴)의 역사는 깊다. 수정구 복정동 영장산 중턱에 자리한 망경암은 |
+| 056 | [vol-39-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-056.jpg) | 성남 콘텐츠 50선 에는 「망경암 칠성대 중수비」와 작은 비석도 함께 있어, 이곳이 단순한 수행처 가 아니라 국가적 염원을 담은 장소였음을 보여준다. 망경암 자연 암벽에 새겨진 문화유산으로서의 가치 각자(刻字) 중  |
+| 057 | [vol-39-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-057.jpg) | 2 추억의 장소들 PART 사람과 삶의 흔적 19. 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 20. 단대천 포장마차, 성남의 밤을 밝힌 등불 21. 제일실업학교(활민교회 야학), 교육 사각지대 |
+| 058 | [vol-39-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-058.jpg) | 성남 콘텐츠 50선 성남극장·천일극장·명보극장이 남긴 청춘의 동선과 도시 기억의 힘 1980년대 청춘의 문화 공간, 극장 문화의 산실 도시가 막 몸을 세우던 1980년대 성남의 청춘은 극장에서 저녁을 배웠다. 성남  |
+| 059 | [vol-39-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-059.jpg) | 화는 최신작이든 재개봉이든 중요치 않았다. 함께 웃고 숨죽이며 보는 경험, 관 람의 공동체성이 핵심이었다. 천일극장은 생활권에 더 가까웠다. 시장 어귀와 골목이 맞닿아 있어 퇴근길이 자연스레 스크린으로 이어졌다. 상 |
+| 060 | [vol-39-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-060.jpg) | 성남 콘텐츠 50선 자리를 내주었다. 재개발로 상권이 재편되자 오래된 간판은 하나둘 내려졌고, 상영표가 붙던 유리문은 프랜차이즈 간판으로 바뀌었다. 그러나 사라진 것은 건물일 뿐, 세 극장이 남긴 사회적 자본-이웃의 |
+| 061 | [vol-39-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-061.jpg) | 의 도시화, 이주민의 삶, 그리고 서민의 애환과 정이 얽힌 역사이자 문화였다. 도시의 뒷골목에서 피어난 생계의 불빛 단대천 포장마차 거리는 성남시의 성장통 속에서 자연 스럽게 생겨났다. 1970년대 서울의 주거난을  |
+| 062 | [vol-39-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-062.jpg) | 성남 콘텐츠 50선 재개발의 바람 속에 흔들리는 추억 2000년대 이후, 성남시는 도시 환경 개선과 재개발을 본격화했다. 하천 정비와 환경 보호라는 명분 아래 단대천 주변 포장마차의 이전과 철거가 진행되었고, 거리는 |
+| 063 | [vol-39-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-063.jpg) | 의 한가운데 서 있었다. 불빛 하나에 웃고, 막걸리 한 잔에 눈물짓던 사람들, 그 리고 그들이 나눈 따뜻한 정. 그것이 바로 이 거리의 진짜 이름이었다. “단대천 포장마차는 도시의 어둠을 밝힌 작은 등불이었습니다.” |
+| 064 | [vol-39-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-064.jpg) | 성남 콘텐츠 50선 를 파 화장실을 해결하던 초라한 환경이었지만, 출석부엔 처음으로 ‘자기 이름’ 을 적는 학생들이 늘어났다. “배움은 동정이 아니라 권리”라는 문제의식이 현 장에서 작동하기 시작한 순간이었다. 연대 |
+| 065 | [vol-39-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-065.jpg) | 한 사람의 합격증이 되었다. 창세학교로 이어진 불빛 속에 비친 과제 재개발로 천막 학교는 자리를 비웠지만, 불빛은 꺼지지 않았다. ‘땅 한 평 사주 기 운동’ 등으로 새 터를 모색한 끝에 야학의 정신은 평생교육시설  |
+| 066 | [vol-39-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-066.jpg) | 성남 콘텐츠 50선 옛 성남시청사 : 출장소에서 시청으로, 행정의 첫 심장 박동 갈등을 제도로, 요구를 정책으로 바꿔 온 성남 행정의 궤적 작은 출장소에서 시작한 성남 경기도 성남시의 행정은 작은 출장소에서 시작됐다 |
+| 067 | [vol-39-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-067.jpg) | 1971 수정구 수진동의 옛 경기도 성남출장소 시기 청사(1971) 1978 수정구 신흥동 이마트 자리에 있던 옛 시청사(1978) 67 |
+| 068 | [vol-39-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-068.jpg) | 성남 콘텐츠 50선 수정구 태평동 옛 성남시청사(2003) 2003 2009 2009년 개청한 중원구 여수동 성남시청사(2023) 68 성남시사(50년사) 제39권 성남 콘텐츠 50선 |
+| 069 | [vol-39-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-069.jpg) | 이 아니라 약속이었다. 시민 돌봄의 상징인 시립의료원 건립이 계획되면서, 투 쟁의 기억이 복지의 기반으로 전환되는 ‘도시적 화해’가 시작됐다. 도시는 멈추지 않았다. 1989년 4월 27일 정부가 분당신도시 건설 계 |
+| 070 | [vol-39-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-070.jpg) | 성남 콘텐츠 50선 날, 성남은 오래된 질문-“도시는 누구를 위해 존재하 는가?”에 대한 답을 조금 더 명확히 얻었다. 그 답은 아직 현재진행형이다. 신청사가 스마트 도시에 맞춰 진화할수록, 시민의 하루는 더 안전하 |
+| 071 | [vol-39-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-071.jpg) | 성남시의료원 전경(2022) 5월 정상 진료 개시 등 숫자 뒤에는 기다림의 시간이 있었다. “그때 원도심엔 응급실이 없었습니다. 아이가 아프면 차로 30분을 달려야 했 죠. 병원은 치료소가 아니라 시민의 안전 울타리 |
+| 072 | [vol-39-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-072.jpg) | 성남 콘텐츠 50선 기관 지정, 발달장애인 거점병원 운영, 완화의료·재활·행동발달센터 개소, 분당 서울대학교병원과의 협진까지 영역을 넓혔다. 2023년에는 지역응급의료센터 승격, 3주기 의료기관 인증, 종합병원 인증 |
+| 073 | [vol-39-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-073.jpg) | 옛 성남시민회관에서 아트리움까지, 문화의 불빛 이어지다 생활예술의 심장을 다시 뛰게 한 성남 원도심의 문화 이야기 철거 전의 옛 성남시민회관 (2003) 성남시민회관은 1981년 태평동 옛 시청사 터에 세워진 성남  |
+| 074 | [vol-39-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-074.jpg) | 성남 콘텐츠 50선 동네가 조금 더 밝아진 기분이었죠(박○○, 수정구 태평동).” 시민회관은 그 시 절, 문화가 생활이 되는 법을 가르쳐 준 동네의 교실이었다. 멈출 수 없었던 재건, 2015 철거의 결단 세월이 흐 |
+| 075 | [vol-39-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-075.jpg) | 이 ‘경합’이 아니라 ‘상호 보완’ 이 되도록 큐레이션 역량을 높여 야 한다. 둘째, 도심 인프라와의 연계다. 바로 옆의 성남시의료원, 도서관·복지관·공원을 잇는 루트 를 설계해 ‘낮에는 배움, 저녁에 는 공연’이  |
+| 076 | [vol-39-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-076.jpg) | 성남 콘텐츠 50선 초창기 다방들, 성남의 첫 사회 인프라가 되다 사라진 간판 속에 남은 도시의 기억과 사람의 이야기 시장–다방–극장, 새 도시의 첫 동선 성남시가 막 몸을 세우던 1970~1980년대, 태평동·중동 |
+| 077 | [vol-39-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-077.jpg) | 옛 정취가 그대로 남아 있는 중앙동 돌다방 내부(2015) 지와 이력서가 테이블을 점령했고, DJ 부스에는 공개방송 포스터가 가득했다. “1978년 겨울, 학다방 구석에서 첫 이력서를 썼죠. 맞은편 모르는 손님이 샤 |
+| 078 | [vol-39-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-078.jpg) | 성남 콘텐츠 50선 트로 카페로 변신한 곳이 있는가 하면, 노년 단골을 품은 ‘동네 다방’으로 남아 최근까지도 커뮤니티 기능을 이어 온 곳도 있다. “프랜차이즈는 편하고 멋지 죠. 그런데 가끔은 다방의 느린 시간,  |
+| 079 | [vol-39-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-079.jpg) | 정자동과 백현동의 카페, 품격과 속도의 두 모습 젊은 문화·디자인·여가가 교차하는 성남의 카페거리 원조는 정자, 속도는 백현 분당 정자동 카페거리는 2000년대 중 반, 초고층 주상복합 저층부를 따라 테 라스형 상점 |
+| 080 | [vol-39-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-080.jpg) | 성남 콘텐츠 50선 분당구 백현동 카페거리(2023) 테라스에서 보이는 동네의 삶 정자동은 성숙기를 지나며 ‘일상형 취향’으로 재정렬됐다. 오래된 카페와 신규 다이닝이 공존하고, 저녁이면 클래식 바와 디저트 숍, 수 |
+| 081 | [vol-39-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-081.jpg) | 보행경제, 문화 프로그래밍, 연계의 삼박자 평가부터 보자. 정자동은 분당 라이프 스타일을 처음 ‘거리’로 구현한 개척자이 다. 테라스형 보행 경험, 카페와 다이닝의 믹스, 주상복합 저층부의 도시경관이 합쳐져 ‘근접  |
+| 082 | [vol-39-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-082.jpg) | 성남 콘텐츠 50선 성남의 초창기 골목 약국들이 만든 인간적 관계망 ‘골목의 작은 병원’, 시민 건강 지켜낸 관계 지도 산성동의 버팀목, 부부약국과 전주약국 성남이 막 정착기를 지나던 시 절, 산성동 골목의 부부약국 |
+| 083 | [vol-39-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-083.jpg) | 로 유명했다. 약국 앞 임시 테이블에서 체온과 혈압을 재고, “물이 약”이라며 ORS(경구수분보충용액) 타는 법을 손수 적어 건넸다. 이름처럼 달았던 ‘감초’, 그리고 단대리의 학생 약국 감초약국(감초한의원)은 서양 |
+| 084 | [vol-39-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-084.jpg) | 제든 약을 구할 수 있는’ 접근성 은 좋아졌다. 대신 빚 장부, 심 야 상담, 집 앞 배달 같은 ‘사람 대 사람’ 서비스는 줄었다. 몇 몇 약국은 ‘복약 상담 특화’, ‘가 정 간호 연계’, ‘만성질환 복약 관리(D |
+| 085 | [vol-39-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-085.jpg) | 성남중앙시장 내 분식집, 세대를 아우르는 맛과 정이 흐르는 공간 세대를 잇는 분식 카운터가 만든 성남의 일상 시설 현대화로 재개장한 성남중앙시장(2021) 성남중앙시장은 1970년대 자연발생 장터에서 출발해 오늘의  |
+| 086 | [vol-39-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-086.jpg) | 성남 콘텐츠 50선 시장 한복판, “먼저 국물부터요” 중앙시장 분식집의 첫인사는 대개 같다. “먼저 국물부터요.” 스테인리스 통에 서 김이 오르고, 어묵 꼬치를 쥔 손이 바빠진다. 떡볶이는 밀떡과 쌀떡을 고를 수 있 |
+| 087 | [vol-39-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-087.jpg) | 빨리, 가볍게, 따뜻하게… 시장 분식의 문법 중앙시장 분식집의 문법은 명확하다. 빨리 나온다, 가볍게 먹는다, 따뜻하게 나 간다. 장보기 전에는 ‘당 충전’이 필요하고, 장 본 뒤에는 잠깐 앉아 숨 고를 자 리가 필 |
+| 088 | [vol-39-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-088.jpg) | 성남 콘텐츠 50선 옛 성남버스터미널과 그 주변의 모습 사라진 자리에서 되살아나는 기억들 구 성남버스터미널을 막 출발한 버스들(1970년대) 산업화와 이주의 길목, 성남의 첫 관문 성남시의 한복판, 지금은 흔적이 희 |
+| 089 | [vol-39-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-089.jpg) | 으로 돌아가는 길’의 출발점이었으며, 동시에 낯선 도시 생활의 첫인상을 남기 는 무대였다. 한 시민은 “그때는 터미널만 가면 전국 어디든 갈 수 있다는 든든 함이 있었어요. 또 그만큼 많은 사람들이 이곳에 모여들었지 |
+| 090 | [vol-39-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-090.jpg) | 성남 콘텐츠 50선 사라진 자리, 그러나 꺼지지 않는 기억 오늘날 구 성남버스터미널은 과거의 기능을 잃었고, 주변 풍경도 달라졌다. 그 러나 오래된 건물 흔적, 남아 있는 상가들, 그리고 사람들의 입에서 전해지는 기 |
+| 091 | [vol-39-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-091.jpg) | 중원구 은행동 이름의 유래가 된 은행나무 은행나무 보호수 안내판 모여 마을 안건을 의논하고 장터를 열었으며, 혼례와 제사 같은 굵직한 행사를 치르기도 했다. 은행나무의 존재는 마을의 정체성을 규정지었다. 그래서 사람 |
+| 092 | [vol-39-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-092.jpg) | 성남 콘텐츠 50선 이고 모여들어 안부를 묻고 소식을 나누던 마을 소통의 장이었으며, 공동체 문화를 지탱하는 공 간이었다. 아이를 낳은 산모가 첫 목욕을 시키거 나 제사에 필요한 정결한 물을 길어다 쓴 것도 이 우물 |
+| 093 | [vol-39-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-093.jpg) | 행정 체계에 속해 있다. 비록 오늘날 은행동은 아파트 단지와 도로, 상가로 채 워진 도시 공간으로 변모했지만, 마을 이름과 우물터는 여전히 과거의 기억을 전한다. 은행나무와 우물은 단순한 인공물이 아니라 성남의 정체 |
+| 094 | [vol-39-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-094.jpg) | 성남 콘텐츠 50선 마당바위 표석 도심과 주변 산줄기가 한눈에 보이는 판교 마당바위 걷기 산행이 이어진다. 시민 취재 기사에는 판교도서관에서 오솔길로 약 40분 이면 마당바위에 도착한다는 안내가 실렸다. 성남문화원  |
+| 095 | [vol-39-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-095.jpg) | 새해 해맞이 명소, 천제(天祭)와 시민 축제의 무대 마당바위는 현재 성남을 대표하는 해맞 이 명소다. 성남시는 매년 1월 1일 마당 바위 해맞이 행사를 공지하고, 성남문화 원 등 지역 단체가 천제봉행(하늘에 드 리는 |
+| 096 | [vol-39-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-096.jpg) | 성남 콘텐츠 50선 청계산 정토사, 도심 곁에서 피어난 ‘쉼과 정진’의 마당 1982년 발원부터 정토 도량이 되기까지 수정구 옛골, 청계산 품에 안긴 정토사는 1982년 창건 이후 ‘정 토(淨土)의 길’을 현대적 언 |
+| 097 | [vol-39-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-097.jpg) | 템플스테이와 지역사회, 마음을 돌보고 공동체를 잇다 정토사는 일찍이 템플스테이를 도입해 ‘쉼과 정진’을 결합한 체험 코스를 운영 해 왔다. 예불 동참, 염불·명상, 108배, 차담, 숲길 걷기 같은 프로그램은 일상의 |
+| 098 | [vol-39-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-098.jpg) | 성남 콘텐츠 50선 자연과 문화의 공존, 연지의 사계가 가르치는 것 정토사의 공간은 수행만을 위한 장치가 아니다. 두 개의 연못은 여름이면 연꽃 으로 가득 차고, 가을엔 물빛이 붉은 단풍을 비춘다. 겨울의 고요와 봄 |
+| 099 | [vol-39-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-099.jpg) | 3 성남의 상징과 미래 자연, 교육, 청년, 문화 PART 자연환경과 새로운 세대, 문화와 도시 재생이 어우러지는 현재와 미래 33. 시간을 지배한 도로망, 성남을 허브로 세우다 34. 성남의 젖줄 세 개의 탄천,  |
+| 100 | [vol-39-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-100.jpg) | 성남 콘텐츠 50선 시간을 지배한 도로망, 성남을 허브로 세우다 경부·용인서울·분당내곡이 엮은 ‘스마트 교통 허브’의 탄생 경부축과 환형망의 결절, 성장의 모태가 되다 성남의 교통·도시 지형을 바꾼 첫 물줄기는 경부 |
+| 101 | [vol-39-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-101.jpg) | 택지를 늘렸다. 고속도로가 단순한 통행로를 넘어 도시 경쟁력의 ‘프레임’으로 작동하기 시작한 지점이 바로 여기다. 용인–서울과 분당–내곡, 강남 30분 생활권을 열다 두 번째 전환점은 용인서울고속도로와 분당내곡도시고 |
+| 102 | [vol-39-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-102.jpg) | 성남 콘텐츠 50선 울-분당내곡을 갈아타는 다중 루트를 누린다. 동시에 과제도 선명하다. 출·퇴근 첨두의 판교 분기점 정체, 터널 병목, 사고나 기상 변수에 따른 급격한 지체는 여전히 반복된다. 해법은 ‘더 많은 도 |
+| 103 | [vol-39-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-103.jpg) | 원·분당구를 북-남으로 관통한 뒤 한강으로 합류하는 성남의 젖줄이다. 개발 이전에는 논밭을 적시던 생활 하천이었지만, 분당·판교신도시 조성과 함께 도 시의 ‘녹색 회랑’으로 역할이 바뀌었다. 둔치에는 자전거길과 산책 |
+| 104 | [vol-39-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-104.jpg) | 복개 전의 대원천(1970년대, 하대원동 일대) 대원천 복개로 조성된 는 지형을 만들었다. 산업화 이후 전면 복개돼 지금은 ‘둔촌대로’라는 차도 축으 둔촌대로(2024) 로 바뀌었고, 지하 수로는 우기 때 물을 신속 |
+| 105 | [vol-39-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-105.jpg) | 하는 새로운 설계를 탄천 축과 연결하는 일이다. 되살아난 물길, 생태 복원과 시민의 휴식처 성남시는 2000년대 초부터 콘크리트 호안을 걷어내고 자연형 여울·어도를 설 치하는 복원을 이어왔다. 일부 보(洑)를 철거해 |
+| 106 | [vol-39-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-106.jpg) | 성남 콘텐츠 50선 율동공원, 분당의 심장에 뿌리내린 자연과 문화 쉼터 분당의 탄생과 함께 열린 공원의 역사 저수지의 원형과 철거 전의 번지점프대를 볼 수 있는 율동공원 전경(2023) 분당구에 자리한 율동공원은 1 |
+| 107 | [vol-39-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-107.jpg) | 었다. 하지만 동시에 번지점프대 와 같은 이색 시설을 도입해 ‘도 전과 여가’가 어우러지는 공원으 로 이름을 알렸다. 45m 높이의 번 지점프대는 당시 수도권 주민들 에게는 색다른 모험을 즐길 수 있 는 명소였고,  |
+| 108 | [vol-39-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-108.jpg) | 성남 콘텐츠 50선 성남시의 역사와 함께한 위상 성남시가 1970년대 8·10성남(광주대단지)항쟁을 거쳐 형성되고, 1990년 대 들어 신도시 건설로 본격적인 도시 면모를 갖추는 과정에서, 율동공원 은 새로운 도시의 |
+| 109 | [vol-39-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-109.jpg) | 분당중앙공원, 도심 한가운데 피어난 숲과 무대 삶과 문화가 어우러지는 시민들의 거대한 마당 도심 속 숲이 울창한 분당중앙공원 전경(2023) 도시가 품은 숲, 공원의 탄생 분당중앙공원은 1994년 6월 개장과 함께  |
+| 110 | [vol-39-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-110.jpg) | 127만㎡에 이르는 방대한 면적을 자랑한다. 계곡과 산세를 그대로 살리며 조성된 숲, 넓은 광장, 그리고 인공폭포와 수변 공간이 어우러 져 도심 속에서도 자연의 결을 느낄 수 있다. 분당중앙공원에는 문화유산으로 지정 |
+| 111 | [vol-39-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-111.jpg) | 분당중앙공원에서 자전거를 즐 기는 아이들(2014) 공원은 단순한 휴식 공간을 넘어 시민들의 삶을 연결하는 끈과도 같다. 누군가 에게는 매일 아침 건강을 다지는 운동장이, 또 다른 이에게는 가족과 추억을 만 드는 피 |
+| 112 | [vol-39-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-112.jpg) | 성남 콘텐츠 50선 낙생초등학교, 100년이 넘은 성남초의 뿌리 성남 교육의 시원을 이루는 공간 낙생공립심상소학교 시절 성남 교육의 시작, 낙생에서 열리다 낙생초등학교(1939, 출처 : 낙생초등학교 제14회 졸업앨 |
+| 113 | [vol-39-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-113.jpg) | 로운 교사(校舍)와 함께 재개교하며 다시 지역 교육의 중심에 섰다. 2022년에는 개교 100주년을 맞아 ‘백년 의 터, 천년의 꿈’이라는 기념 슬로건 아래 성남 교육 의 뿌리를 확인했다. 지역 향토문화 연구자 故  |
+| 114 | [vol-39-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-114.jpg) | 성남 콘텐츠 50선 의 꽃 개나리다. 모두가 학교의 뿌리와 미래를 동시에 보여주는 상징이다. 판교 주민 박○○ 씨는 “낙생초는 지역의 살아 있는 역사 교과서”라며 “아이들 이 옛날 사진 속 교실과 오늘의 스마트 교실 |
+| 115 | [vol-39-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-115.jpg) | 성남초등학교 전경 이 작은 분교는 성남 도심이 형성되기 수십 년 전, 아이들에게 글을 가르치고 기초학력을 키우는 교육의 싹을 틔웠다. 1948년에는 ‘성남국민학교’로 승격하며 독립 학교로 자리 잡았고, 1950년 제 |
+| 116 | [vol-39-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-116.jpg) | 성남 콘텐츠 50선 1970년대 성남초등학교 시절의 성남초등학교 성남초등학교의 자랑 농구부 농구부 성과는 동네의 자랑이었다”라고 회상했다. (2019, 출처 : 『점프볼』) 2000년대 들어 성남초등학교는 새로운 도 |
+| 117 | [vol-39-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-117.jpg) | 뿌리와 미래를 잇는 살아 있는 교육사 성남초등학교는 남한산에서 출발한 작은 간이학교가 오늘날 도시 중심 초등학 교로 발전한 드문 사례다. 성남이 도시로 성장하기 전부터 교육의 불씨를 지폈 고, 도시화와 함께 성장하며 |
+| 118 | [vol-39-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-118.jpg) | 성남 콘텐츠 50선 한국잡월드 전경(2021) 중심지로 자리매김했다. 설립 목적은 분명했다. 청소년에게는 적성과 흥미를 조기에 찾도록 돕고, 성인에게는 재취업과 전직 지원, 사회 전체에는 직업 존중 문화를 확산하는  |
+| 119 | [vol-39-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-119.jpg) | 격차 해소에 기여했고, 성인 대상 재취업 프로그램은 중장년층과 여성 경력 단절자에게 새로운 기회를 열어 주었다. 성남 시민 박OO 씨는 “아이들이 꿈을 찾는 공 간이면서도, 지역사회에는 관광과 소비를 이끌어내는 경제 |
+| 120 | [vol-39-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-120.jpg) | 성남 콘텐츠 50선 성남아트센터, 50년 도시와 함께 빚은 문화의 집 개관 20년, 시민의 삶 속에 스며든 예술의 공간 문화 도시를 향한 결단 성남아트센터는 성남시가 문화 도시로 도약하기 위해 내린 역사적 결단의 산 |
+| 121 | [vol-39-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-121.jpg) | 를 향유하는 도시”라는 목표를 내걸고, 세계 수준의 공연장과 전시 공간을 품은 복합 문 화 시설을 건립하기로 했다. 센터의 운영은 성남시에서 출연한 성남문화 재단이 맡고 있다. 2004년 출범한 재단은 단 순 관리  |
+| 122 | [vol-39-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-122.jpg) | 성남 콘텐츠 50선 시민의 삶 속에 스며든 예술 성남아트센터는 현재 단순한 공연장을 넘어 시민의 일상 속 쉼터로 기능하고 있다. 야외광장과 분수대는 가족들이 모여드는 휴식처가 되었고, 전시실과 북 테마파크는 아이들에 |
+| 123 | [vol-39-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-123.jpg) | 봉국사 전경(2023) 성남 봉국사, 천년의 숨결로 이어온 호국의 사찰 영장산 품에 안긴 고요한 문화유산, 시민에게 전하는 쉼과 위로 고려의 창건, 조선의 원당으로 수정구 영장산 기슭에 자리한 봉국사는 1028년(고 |
+| 124 | [vol-39-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-124.jpg) | 6·25전쟁으로 한때 폐허가 되었으나, 1958년 법 운 스님에 의해 다시 중건됐고, 1974년에는 대 광명전이 해체 복원되면서 사찰의 위상을 되찾 았다. 이러한 부흥은 봉국사가 단순한 유적이 아 니라 살아있는 신앙 |
+| 125 | [vol-39-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-125.jpg) | 싸고, 겨울에는 고요한 설경이 대광명전을 포근히 덮는다. “사찰 마당에 앉아 있으면 새소리, 바람소리, 그리고 숲 향기가 한데 어우러져 마치 자연이 법문을 전하는 듯하다”라는 불자의 말은 봉국사가 지닌 생태적 가치와 |
+| 126 | [vol-39-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-126.jpg) | 성남 콘텐츠 50선 탄천종합운동장, 시민의 자부심과 미래를 밝히다 스포츠와 교육, 시민 참여가 어우러진 도시 문화의 심장 도시 품격을 세운 건축, 그리고 교육적 자산 탄천종합운동장은 1997년 착공해 2002년 개장 |
+| 127 | [vol-39-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-127.jpg) | 니라 지역 교육 기반 시설로까지 확장된 사례로 평가 된다. ‘탄천 요새’의 함성, 시민이 만드는 축제 성남FC의 성취는 탄천종합운동장의 위상을 더욱 빛나 게 했다. 프로축구 K리그 7회 우승, FA컵(현 코리아컵)  |
+| 128 | [vol-39-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-128.jpg) | 성남 콘텐츠 50선 로 응답한 것은, 이 공간이 지역사회 정체성과 교육·여가 자산으로 인정받고 있 음을 방증한다. 한편, 2021년 완공된 성남축구센터는 이러한 흐름을 더욱 강화했다. 선수들의 훈련 효과를 높이는 동 |
+| 129 | [vol-39-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-129.jpg) | 는 실험실이었다. 정부와 경기도, 성남시, 그리고 여러 기관이 손을 맞잡고 ‘한 국의 실리콘밸리’를 만들어 보자는 열망으로 조성한 곳, 그것이 바로 판교테크 노밸리였다. 2005년 첫 삽을 뜬 이후 이곳은 빠른 속도 |
+| 130 | [vol-39-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-130.jpg) | 성남 콘텐츠 50선 미래를 향한 끝없는 도전 오늘날 판교테크노밸리에는 1,700여 개 기업과 7만여 명의 종사자가 모여 있다. 그 숫자는 단순한 통계가 아니라, 한국 경제가 새롭게 숨 쉬고 있음을 보여주는 증거다.  |
+| 131 | [vol-39-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-131.jpg) | 성남물빛정원, 흉물에서 문화의 별빛으로 버려진 하수처리장이 시민의 정원으로 다시 피어나다 흉물에서 피어난 희망의 정원 한때 30년 넘게 ‘도시의 흉물’이라 불리던 분당구 구미동 옛 하수종말 처리장이 마침내 새 옷을  |
+| 132 | [vol-39-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-132.jpg) | 성남 콘텐츠 50선 산업의 흔적을 예술로 살리다 잔디마당과 ‘성남 두물길’이라 이름 붙은 산책로는 시민들이 물빛과 바람을 가 까이 느끼며 쉴 수 있도록 설계됐다. 저녁이면 야경과 음악이 어우러져 과거에 는 상상도 할 |
+| 133 | [vol-39-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-133.jpg) | 미래를 향한 약속 시민들의 아이디어로 이름이 지어진 이곳은 이제 ‘시민의 공간’이라는 정체성 을 더욱 굳건히 하며 성남의 새로운 문화적 얼굴로 자리 잡고 있다. 흔히 버려 진 시설은 기억에서조차 지워지기 마련이다.  |
+| 134 | [vol-39-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-134.jpg) | 2024 성남페스티벌 성남페스티벌 드론 쇼(2024) 탄천 수상 무대에서 펼쳐진 2024 성남페스티벌 134 성남시사(50년사) 제39권 성남 콘텐츠 50선 |
+| 135 | [vol-39-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-135.jpg) | 로 탈바꿈했다. 2023년 개막작 ‘대환영’은 물 위에 설치된 무대와 조명, 영상 장 치를 결합한 초대형 퍼포먼스로 약 1만 명의 관객을 끌어모았다. 성남문화재 단 관계자는 “도시의 일상 공간을 축제의 무대로 만든  |
+| 136 | [vol-39-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-136.jpg) | 성남 콘텐츠 50선 인한 탄천 생태계 훼손과 안전성 문제도 지적되었다. 이에 대해 성남시 관계자 는 “앞으로는 시민 참여를 더욱 확대하고, 환경과 안전 문제를 세심히 고려해 축제의 지속 가능성을 높이겠다”라고 밝혔다 |
+| 137 | [vol-39-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-137.jpg) | 제1회 파크콘서트(2012) 로 즐길 수 있는 음악 축제가 열리기 시작한 것이다. 당시 시민들은 가족 단위 로 돗자리를 펴고 앉아 클래식, 재즈, 국악, 대중가요를 함께 들었다. 이는 ‘공 원에서 열리는 작은 음악회 |
+| 138 | [vol-39-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-138.jpg) | 성남 콘텐츠 50선 코로나19로 중단되었다가 재개된 2022년 파크콘서트 과 함께 와서 자연 속에서 음악을 듣다 보면 어느새 하루의 피로가 다 풀린다”라 며 “이곳은 단순한 공연장이 아니라 우리 가족의 여름 추억 장 |
+| 139 | [vol-39-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-139.jpg) | 성남 하면 공단 도시라는 인상이 강했는데, 이제는 가족과 함께 음악을 즐길 수 있는 도시로 변했다”라며 “파크콘서트가 그 변화를 잘 보여주는 상징”이라고 전했다. 2012년 작은 시도로 시작된 파크콘서트는 지금까지  |
+| 140 | [vol-39-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-140.jpg) | 성남 콘텐츠 50선 담당하던 특수 시설은, 한동안 주민들에게 ‘가까이 다가가기 힘든 공간’으로 인식되었 다. 어두운 기억이 남아 있던 그 자리는 이 제 어린이들의 웃음소리가 울려 퍼지는 아 파트 단지와 공원으로 바뀌 |
+| 141 | [vol-39-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-141.jpg) | 위례역사수변공원(2022) 은 교통의 요지로 발전했고, 오늘날에는 위례신도시와 맞닿아 새로운 생활권 을 이루고 있다. 복정공은 단순한 근린공원이 아니라 마을의 옛 기억을 품은 역 사적 쉼터다. 이처럼 위례신도시는 단 |
+| 142 | [vol-39-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-142.jpg) | 성남 콘텐츠 50선 정의 우물, 군 교도소의 흔적은 우리에게 도시의 정체성이 단순한 건물에 서 비롯되지 않음을 알려준다. 오늘의 위례가 ‘살기 좋은 도시’로 불리려면, 화려한 아파트 숲속에 묻힌 역사 를 되살리고,  |
+| 143 | [vol-39-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-143.jpg) | 성남누비길 스탬프투어 지도 143 |
+| 144 | [vol-39-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-144.jpg) | 성남 콘텐츠 50선 역사와 발자취가 살아 숨 쉬는 길 성남누비길의 첫 구간은 남한산성길이다. 영장산에서 시작해 남문으로 이어지 는 길목은 병자호란 당시 인조가 머물렀던 역사의 현장이자, 성곽과 문화유산 이 고스란히  |
+| 145 | [vol-39-page-145.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-145.jpg) | 과거와 현재를 잇는 성남의 길 문화 성남은 원래 이주민 도시였다. 8·10성남(광주대단지)항쟁 이후 형성된 성남의 역사는 길과 함께 시작되었다. 판잣집을 오가던 흙길, 장터와 마을을 잇던 산길 은 오늘의 성남누비길로 |
+| 146 | [vol-39-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-146.jpg) | 성남 콘텐츠 50선 양쪽으로 흘러 작은 섬처럼 보이던 지형에서 비롯된 ‘섬말(도 촌)’이라는 이름을 그대로 간직했다. 과거에는 물을 저장하는 저류지로 활용되던 공간이었지만, 성남시는 이곳을 자연과 사 람이 공존하는  |
+| 147 | [vol-39-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-147.jpg) | 섬말공원 바닥 분수 물놀이장에서 뛰노는 아이들(2023) 자연과 사람이 어우러지는 쉼터 섬말공원은 단순히 꽃을 보는 곳에 그치지 않는다. 탄천과 인접한 수변 환경 덕 분에 왜가리 등 야생 조류가 찾아와 생태 탐방지로 |
+| 148 | [vol-39-page-148.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-148.jpg) | 성남 콘텐츠 50선 공원을 단순한 녹지 공간을 넘어 살아 있는 문화 플랫폼으로 발전시키고 있다. 그러나 무엇보다 중요한 것은 이곳이 시민들의 자발적 참여로 완성되는 공간이 라는 점이다. 연꽃을 보러 오는 발걸음, 음 |
+| 149 | [vol-39-page-149.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-149.jpg) | 신구대학교 식물원 전경(2025) 리매김했다. 정식 개원은 2003년, 그리고 2004년 산림청에 학교 수목원으로 등 록되면서 학문적 기반을 갖추었다. 이후 환경부로부터 멸종위기식물 서식지외 보전기관으로 지정되며,  |
+| 150 | [vol-39-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-150.jpg) | 성남 콘텐츠 50선 있는 교과서입니다. 자연을 배우고 느끼며, 지켜야 할 가치를 몸으로 익히 게 하는 곳이지요”라고 설명했다. 계절 따라 달라지는 20개의 정원 식물원 안에는 주제별로 꾸며진 20여 개의 정원이 있다 |
+| 151 | [vol-39-page-151.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-151.jpg) | 성을 바탕으로, 시민에게는 힐링의 공간을 제공한다. 계절 따라 변화하는 정원은 삶의 리듬을 닮아 있고, 멸종위기종을 보존하는 노력은 미래 세대에 대한 약속이 된다. 도심의 바쁜 일상에서, 신구대학교 식물원은 오늘도  |
+| 152 | [vol-39-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-152.jpg) | 성남시사 39 성남 콘텐츠 50선 발행일 2025년 12월 29일 발행처 성남시 시사편찬위원회 경기도 성남시 수정구 산성대로215번길 7(신흥동) 031-756-1082 / snsisa50th@naver.com 집필 |
 
 ## 원문 텍스트
 

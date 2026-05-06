@@ -4,7 +4,7 @@
 
 - 본문 Markdown: `docs/seongnam-city-history-50/vol-22-culture-and-arts.md`
 - LLM 번들: `dist/seongnam-history-50-vol-22.llm.md`
-- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-22-page-*.jpg` 116개
+- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-*.jpg` 116개
 - 원천 PDF: `sources/seongnam-history-50-vol-22.pdf`
 
 ## 처리 상태

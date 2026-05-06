@@ -26,7 +26,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 인구 그래프, 행정동 지도, 촌락·집성촌 사진, 토지이용 도판, 개발제한구역 표가 있는 주요 쪽은 `assets/pages/`에 렌더링했다.
+- 인구 그래프, 행정동 지도, 촌락·집성촌 사진, 토지이용 도판, 개발제한구역 표가 있는 주요 쪽은 `assets/pages/vol-02/`에 렌더링했다.
 
 ## 권별 목차
 
@@ -49,47 +49,47 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-02-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-006.jpg) | 6 | 조선 후기 광주군 각 면의 인구밀도 지도 | rendered-page |
-| [vol-02-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-010.jpg) | 10 | 성남출장소 시기의 성남, 1972 | rendered-page |
-| [vol-02-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-011.jpg) | 11 | 1980년대 성남 본시가지 | rendered-page |
-| [vol-02-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-013.jpg) | 13 | 분당신도시 개발 이전 인구 변화·증가율 그래프 | rendered-page |
-| [vol-02-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-015.jpg) | 15 | 1973-1991 세대당 인구·인구밀도 그래프 | rendered-page |
-| [vol-02-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-018.jpg) | 18 | 분당구 서현동 시범단지와 1990년대 분당신도시 아파트 | rendered-page |
-| [vol-02-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-020.jpg) | 20 | 1992-2009 인구 변화·증가율 그래프 | rendered-page |
-| [vol-02-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-021.jpg) | 21 | 1992-2009 세대당 인구·인구밀도 그래프 | rendered-page |
-| [vol-02-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-023.jpg) | 23 | 성남시 행정동별 인구 규모, 2009 | rendered-page |
-| [vol-02-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-025.jpg) | 25 | 판교신도시 야경 | rendered-page |
-| [vol-02-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-027.jpg) | 27 | 판교·여수·도촌·위례 입주 이후 인구 추이 표 | rendered-page |
-| [vol-02-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-028.jpg) | 28 | 2022년 구별 세대 및 인구 표 | rendered-page |
-| [vol-02-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-037.jpg) | 37 | 암사동 움집터와 복원 움집 비교 사진 | rendered-page |
-| [vol-02-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-038.jpg) | 38 | 분당 중앙공원 고인돌 | rendered-page |
-| [vol-02-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-042.jpg) | 42 | 1960년대 분당구 율동 농촌 경관 | rendered-page |
-| [vol-02-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-043.jpg) | 43 | 1970년대 분당 지역 농경 경관 | rendered-page |
-| [vol-02-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-046.jpg) | 46 | 수진동의 의령남씨 집성촌 | rendered-page |
-| [vol-02-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-054.jpg) | 54 | 재개발 이전 본시가지 전경 | rendered-page |
-| [vol-02-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-056.jpg) | 56 | 분당 정자동·탄천과 판교역 알파돔시티 | rendered-page |
-| [vol-02-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-057.jpg) | 57 | 판교테크노밸리와 분당서울대학교병원 | rendered-page |
-| [vol-02-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-062.jpg) | 62 | 2010년 이전 금광동 광산김씨 고택 | rendered-page |
-| [vol-02-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-064.jpg) | 64 | 수내동 한산이씨 가옥 | rendered-page |
-| [vol-02-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-067.jpg) | 67 | 청주한씨 유적과 전주이씨 관련 유적 | rendered-page |
-| [vol-02-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-078.jpg) | 78 | 법정동별 집성촌 분포 관련 도판 | rendered-page |
-| [vol-02-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-083.jpg) | 83 | 성남 지역 세거 문중 관련 도판 | rendered-page |
-| [vol-02-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-087.jpg) | 87 | 성남 지역 묘역·가옥 도판 | rendered-page |
-| [vol-02-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-088.jpg) | 88 | 문중·가옥 관련 도판 | rendered-page |
-| [vol-02-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-090.jpg) | 90 | 세거 문중 관련 도판 | rendered-page |
-| [vol-02-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-092.jpg) | 92 | 세거 문중 관련 도판 | rendered-page |
-| [vol-02-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-121.jpg) | 121 | 광무양안·광주부읍지 관련 도판 | rendered-page |
-| [vol-02-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-124.jpg) | 124 | 구한말 둔전촌과 1970년대 둔전동 비교 지도 | rendered-page |
-| [vol-02-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-127.jpg) | 127 | 광주대단지 시기 신흥동 택지 조성 | rendered-page |
-| [vol-02-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-128.jpg) | 128 | 서울특별시 로고가 보이는 광주대단지 천막 | rendered-page |
-| [vol-02-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-130.jpg) | 130 | 성남시 개청 행사, 1973 | rendered-page |
-| [vol-02-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-132.jpg) | 132 | 옛 대영타이어·삼영전자 공장과 상대원 제2공단 기공식 | rendered-page |
-| [vol-02-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-140.jpg) | 140 | 1990년대 분당테크노파크 성남 아파트형 공장 | rendered-page |
-| [vol-02-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-142.jpg) | 142 | 분당선 수서-오리 개통, 1994 | rendered-page |
-| [vol-02-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-146.jpg) | 146 | 판교테크노밸리와 위례신도시 중앙광장 | rendered-page |
-| [vol-02-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-147.jpg) | 147 | 성남시청·시의회와 여수동 주거단지 전경 | rendered-page |
-| [vol-02-page-153.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-153.jpg) | 153 | 개발제한구역 절 시작 페이지 | rendered-page |
-| [vol-02-page-155.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02-page-155.jpg) | 155 | 성남시 개발제한구역 변화 표 1 | rendered-page |
+| [vol-02-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-006.jpg) | 6 | 조선 후기 광주군 각 면의 인구밀도 지도 | rendered-page |
+| [vol-02-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-010.jpg) | 10 | 성남출장소 시기의 성남, 1972 | rendered-page |
+| [vol-02-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-011.jpg) | 11 | 1980년대 성남 본시가지 | rendered-page |
+| [vol-02-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-013.jpg) | 13 | 분당신도시 개발 이전 인구 변화·증가율 그래프 | rendered-page |
+| [vol-02-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-015.jpg) | 15 | 1973-1991 세대당 인구·인구밀도 그래프 | rendered-page |
+| [vol-02-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-018.jpg) | 18 | 분당구 서현동 시범단지와 1990년대 분당신도시 아파트 | rendered-page |
+| [vol-02-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-020.jpg) | 20 | 1992-2009 인구 변화·증가율 그래프 | rendered-page |
+| [vol-02-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-021.jpg) | 21 | 1992-2009 세대당 인구·인구밀도 그래프 | rendered-page |
+| [vol-02-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-023.jpg) | 23 | 성남시 행정동별 인구 규모, 2009 | rendered-page |
+| [vol-02-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-025.jpg) | 25 | 판교신도시 야경 | rendered-page |
+| [vol-02-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-027.jpg) | 27 | 판교·여수·도촌·위례 입주 이후 인구 추이 표 | rendered-page |
+| [vol-02-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-028.jpg) | 28 | 2022년 구별 세대 및 인구 표 | rendered-page |
+| [vol-02-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-037.jpg) | 37 | 암사동 움집터와 복원 움집 비교 사진 | rendered-page |
+| [vol-02-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-038.jpg) | 38 | 분당 중앙공원 고인돌 | rendered-page |
+| [vol-02-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-042.jpg) | 42 | 1960년대 분당구 율동 농촌 경관 | rendered-page |
+| [vol-02-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-043.jpg) | 43 | 1970년대 분당 지역 농경 경관 | rendered-page |
+| [vol-02-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-046.jpg) | 46 | 수진동의 의령남씨 집성촌 | rendered-page |
+| [vol-02-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-054.jpg) | 54 | 재개발 이전 본시가지 전경 | rendered-page |
+| [vol-02-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-056.jpg) | 56 | 분당 정자동·탄천과 판교역 알파돔시티 | rendered-page |
+| [vol-02-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-057.jpg) | 57 | 판교테크노밸리와 분당서울대학교병원 | rendered-page |
+| [vol-02-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-062.jpg) | 62 | 2010년 이전 금광동 광산김씨 고택 | rendered-page |
+| [vol-02-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-064.jpg) | 64 | 수내동 한산이씨 가옥 | rendered-page |
+| [vol-02-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-067.jpg) | 67 | 청주한씨 유적과 전주이씨 관련 유적 | rendered-page |
+| [vol-02-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-078.jpg) | 78 | 법정동별 집성촌 분포 관련 도판 | rendered-page |
+| [vol-02-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-083.jpg) | 83 | 성남 지역 세거 문중 관련 도판 | rendered-page |
+| [vol-02-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-087.jpg) | 87 | 성남 지역 묘역·가옥 도판 | rendered-page |
+| [vol-02-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-088.jpg) | 88 | 문중·가옥 관련 도판 | rendered-page |
+| [vol-02-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-090.jpg) | 90 | 세거 문중 관련 도판 | rendered-page |
+| [vol-02-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-092.jpg) | 92 | 세거 문중 관련 도판 | rendered-page |
+| [vol-02-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-121.jpg) | 121 | 광무양안·광주부읍지 관련 도판 | rendered-page |
+| [vol-02-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-124.jpg) | 124 | 구한말 둔전촌과 1970년대 둔전동 비교 지도 | rendered-page |
+| [vol-02-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-127.jpg) | 127 | 광주대단지 시기 신흥동 택지 조성 | rendered-page |
+| [vol-02-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-128.jpg) | 128 | 서울특별시 로고가 보이는 광주대단지 천막 | rendered-page |
+| [vol-02-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-130.jpg) | 130 | 성남시 개청 행사, 1973 | rendered-page |
+| [vol-02-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-132.jpg) | 132 | 옛 대영타이어·삼영전자 공장과 상대원 제2공단 기공식 | rendered-page |
+| [vol-02-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-140.jpg) | 140 | 1990년대 분당테크노파크 성남 아파트형 공장 | rendered-page |
+| [vol-02-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-142.jpg) | 142 | 분당선 수서-오리 개통, 1994 | rendered-page |
+| [vol-02-page-146.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-146.jpg) | 146 | 판교테크노밸리와 위례신도시 중앙광장 | rendered-page |
+| [vol-02-page-147.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-147.jpg) | 147 | 성남시청·시의회와 여수동 주거단지 전경 | rendered-page |
+| [vol-02-page-153.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-153.jpg) | 153 | 개발제한구역 절 시작 페이지 | rendered-page |
+| [vol-02-page-155.jpg](../docs/seongnam-city-history-50/assets/pages/vol-02/vol-02-page-155.jpg) | 155 | 성남시 개발제한구역 변화 표 1 | rendered-page |
 
 ## 핵심 표/통계 위치
 

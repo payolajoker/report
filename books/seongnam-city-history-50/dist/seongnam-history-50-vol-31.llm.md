@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 상대원동 현황, 광주대단지 항쟁, 제2·3공단 조성, 성남하이테크밸리 재생사업, 입주기업·지식산업센터 표가 함께 수록되어 1-112쪽 전체를 `assets/pages/`에 렌더링했다.
+- 상대원동 현황, 광주대단지 항쟁, 제2·3공단 조성, 성남하이테크밸리 재생사업, 입주기업·지식산업센터 표가 함께 수록되어 1-112쪽 전체를 `assets/pages/vol-31/`에 렌더링했다.
 - 이 파일은 LLM 장문 입력을 위해 31권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
 - 공식 다운로드 목록에는 `성남하이테크벨리` 표기가 보이지만, PDF 표지와 본문 권명은 `성남하이테크밸리`로 표기되어 이 파일의 제목은 원문 표지를 따랐다.
 
@@ -147,44 +147,44 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-31-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-001.jpg) | 001 | 표지와 권명 | title-page |
-| [vol-31-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-002.jpg) | 002 | 권별 목차 Part 1 | toc |
-| [vol-31-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-003.jpg) | 003 | 권별 목차 Part 2-4 | toc |
-| [vol-31-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-006.jpg) | 006 | 공사 중·완공 후 이배재 터널 사진 | photo |
-| [vol-31-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-007.jpg) | 007 | 복개 전 대원천 사진 | photo |
-| [vol-31-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-008.jpg) | 008 | 이배재 표지석 | photo |
-| [vol-31-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-009.jpg) | 009 | 상대원동 상수리나무 | photo |
-| [vol-31-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-010.jpg) | 010 | 하대원동 회화나무 | photo |
-| [vol-31-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-019.jpg) | 019 | 8·10성남 항쟁 명칭과 사건 개요 | event-text |
-| [vol-31-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-023.jpg) | 023 | 토지불하 가격과 주민 요구 수치 | event-data |
-| [vol-31-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-024.jpg) | 024 | 1971년 8월 10일 시위 전개 | event-data |
-| [vol-31-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-026.jpg) | 026 | 부상·구속·명예회복 운동 | event-data |
-| [vol-31-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-053.jpg) | 053 | 상대원1동 시설·주택·기업체 현황 | locality-data |
-| [vol-31-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-054.jpg) | 054 | 상대원2·3동 현황과 신규 소각장 기사 | locality-data |
-| [vol-31-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-055.jpg) | 055 | 상대원1동 행정복지센터 사진 | photo |
-| [vol-31-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-056.jpg) | 056 | 상대원2·3동 행정복지센터 사진 | photo |
-| [vol-31-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-057.jpg) | 057 | 중원초등학교 현황 | school-data |
-| [vol-31-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-061.jpg) | 061 | 상대원 시장 개요와 입구 사진 | market |
-| [vol-31-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-062.jpg) | 062 | 상대원 시장 사진 | market |
-| [vol-31-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-064.jpg) | 064 | 사기막골 근린공원 표지석·체험관 | photo |
-| [vol-31-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-065.jpg) | 065 | 사기막골 근린공원 가마와 신남성 동돈대 | heritage |
-| [vol-31-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-067.jpg) | 067 | 양연 묘 신도비 | heritage |
-| [vol-31-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-070.jpg) | 070 | 대원초등학교에서 바라본 상대원동 1972년 사진 | historical-photo |
-| [vol-31-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-073.jpg) | 073 | 중원구 상대원 제2공단 기공식 1971년 사진 | industrial-history |
-| [vol-31-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-084.jpg) | 084 | 성남하이테크밸리 사진과 기본 현황 | industrial-data |
-| [vol-31-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-085.jpg) | 085 | 성남산업단지 용지 계획·용도지역 표 | table |
-| [vol-31-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-086.jpg) | 086 | 관리 업무 분담표와 재생사업비 표 | table |
-| [vol-31-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-087.jpg) | 087 | 재생사업 추진상황과 청년 친화형 거리 계획 | project-data |
-| [vol-31-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-088.jpg) | 088 | LH 활성화구역 사업 내용과 복합지식산업센터 세부 수치 | table |
-| [vol-31-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-089.jpg) | 089 | 성남산업단지관리공단 사진·조직 현황 | organization |
-| [vol-31-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-090.jpg) | 090 | 소공인집적지구·혁신지원센터 입주기관 표 | table |
-| [vol-31-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-091.jpg) | 091-101 | 일반공장 입주기업 목록 시작 | company-list |
-| [vol-31-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-102.jpg) | 102-103 | 성남 지식산업센터 현황표 | facility-table |
-| [vol-31-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-104.jpg) | 104 | 성남하이테크밸리 주요 일지 | chronology |
-| [vol-31-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-105.jpg) | 105 | 재생사업·향후 비전 | policy-vision |
-| [vol-31-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-106.jpg) | 106 | 산업단지 미래 청사진 | policy-vision |
-| [vol-31-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-110.jpg) | 110 | 참고문헌 | bibliography |
-| [vol-31-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-111.jpg) | 111 | 판권과 집필자 | colophon |
+| [vol-31-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-001.jpg) | 001 | 표지와 권명 | title-page |
+| [vol-31-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-002.jpg) | 002 | 권별 목차 Part 1 | toc |
+| [vol-31-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-003.jpg) | 003 | 권별 목차 Part 2-4 | toc |
+| [vol-31-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-006.jpg) | 006 | 공사 중·완공 후 이배재 터널 사진 | photo |
+| [vol-31-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-007.jpg) | 007 | 복개 전 대원천 사진 | photo |
+| [vol-31-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-008.jpg) | 008 | 이배재 표지석 | photo |
+| [vol-31-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-009.jpg) | 009 | 상대원동 상수리나무 | photo |
+| [vol-31-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-010.jpg) | 010 | 하대원동 회화나무 | photo |
+| [vol-31-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-019.jpg) | 019 | 8·10성남 항쟁 명칭과 사건 개요 | event-text |
+| [vol-31-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-023.jpg) | 023 | 토지불하 가격과 주민 요구 수치 | event-data |
+| [vol-31-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-024.jpg) | 024 | 1971년 8월 10일 시위 전개 | event-data |
+| [vol-31-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-026.jpg) | 026 | 부상·구속·명예회복 운동 | event-data |
+| [vol-31-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-053.jpg) | 053 | 상대원1동 시설·주택·기업체 현황 | locality-data |
+| [vol-31-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-054.jpg) | 054 | 상대원2·3동 현황과 신규 소각장 기사 | locality-data |
+| [vol-31-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-055.jpg) | 055 | 상대원1동 행정복지센터 사진 | photo |
+| [vol-31-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-056.jpg) | 056 | 상대원2·3동 행정복지센터 사진 | photo |
+| [vol-31-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-057.jpg) | 057 | 중원초등학교 현황 | school-data |
+| [vol-31-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-061.jpg) | 061 | 상대원 시장 개요와 입구 사진 | market |
+| [vol-31-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-062.jpg) | 062 | 상대원 시장 사진 | market |
+| [vol-31-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-064.jpg) | 064 | 사기막골 근린공원 표지석·체험관 | photo |
+| [vol-31-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-065.jpg) | 065 | 사기막골 근린공원 가마와 신남성 동돈대 | heritage |
+| [vol-31-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-067.jpg) | 067 | 양연 묘 신도비 | heritage |
+| [vol-31-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-070.jpg) | 070 | 대원초등학교에서 바라본 상대원동 1972년 사진 | historical-photo |
+| [vol-31-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-073.jpg) | 073 | 중원구 상대원 제2공단 기공식 1971년 사진 | industrial-history |
+| [vol-31-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-084.jpg) | 084 | 성남하이테크밸리 사진과 기본 현황 | industrial-data |
+| [vol-31-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-085.jpg) | 085 | 성남산업단지 용지 계획·용도지역 표 | table |
+| [vol-31-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-086.jpg) | 086 | 관리 업무 분담표와 재생사업비 표 | table |
+| [vol-31-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-087.jpg) | 087 | 재생사업 추진상황과 청년 친화형 거리 계획 | project-data |
+| [vol-31-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-088.jpg) | 088 | LH 활성화구역 사업 내용과 복합지식산업센터 세부 수치 | table |
+| [vol-31-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-089.jpg) | 089 | 성남산업단지관리공단 사진·조직 현황 | organization |
+| [vol-31-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-090.jpg) | 090 | 소공인집적지구·혁신지원센터 입주기관 표 | table |
+| [vol-31-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-091.jpg) | 091-101 | 일반공장 입주기업 목록 시작 | company-list |
+| [vol-31-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-102.jpg) | 102-103 | 성남 지식산업센터 현황표 | facility-table |
+| [vol-31-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-104.jpg) | 104 | 성남하이테크밸리 주요 일지 | chronology |
+| [vol-31-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-105.jpg) | 105 | 재생사업·향후 비전 | policy-vision |
+| [vol-31-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-106.jpg) | 106 | 산업단지 미래 청사진 | policy-vision |
+| [vol-31-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-110.jpg) | 110 | 참고문헌 | bibliography |
+| [vol-31-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-111.jpg) | 111 | 판권과 집필자 | colophon |
 
 ## LLM 가공 후보
 
@@ -200,7 +200,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.001 -->
 ### p.001
 
-[페이지 이미지: vol-31-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-001.jpg)
+[페이지 이미지: vol-31-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-001.jpg)
 
 ```text
                발 간 등 록 번 호
@@ -230,7 +230,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.002 -->
 ### p.002
 
-[페이지 이미지: vol-31-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-002.jpg)
+[페이지 이미지: vol-31-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-002.jpg)
 
 ```text
  CONTENTS
@@ -255,7 +255,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.003 -->
 ### p.003
 
-[페이지 이미지: vol-31-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-003.jpg)
+[페이지 이미지: vol-31-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-003.jpg)
 
 ```text
                                       4
@@ -313,7 +313,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.004 -->
 ### p.004
 
-[페이지 이미지: vol-31-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-004.jpg)
+[페이지 이미지: vol-31-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-004.jpg)
 
 ```text
                             머리말
@@ -357,7 +357,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.005 -->
 ### p.005
 
-[페이지 이미지: vol-31-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-005.jpg)
+[페이지 이미지: vol-31-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-005.jpg)
 
 ```text
  1. 상대원의 기본 개요
@@ -396,7 +396,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.006 -->
 ### p.006
 
-[페이지 이미지: vol-31-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-006.jpg)
+[페이지 이미지: vol-31-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-006.jpg)
 
 ```text
                             공사 중인 이배재 터널                  완공된 이배재 터널
@@ -437,7 +437,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.007 -->
 ### p.007
 
-[페이지 이미지: vol-31-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-007.jpg)
+[페이지 이미지: vol-31-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-007.jpg)
 
 ```text
    2. 상대원 자연환경의 상징들
@@ -476,7 +476,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.008 -->
 ### p.008
 
-[페이지 이미지: vol-31-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-008.jpg)
+[페이지 이미지: vol-31-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-008.jpg)
 
 ```text
                             이배재 표지석
@@ -515,7 +515,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.009 -->
 ### p.009
 
-[페이지 이미지: vol-31-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-009.jpg)
+[페이지 이미지: vol-31-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-009.jpg)
 
 ```text
 상대원동 상수리나무
@@ -546,7 +546,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.010 -->
 ### p.010
 
-[페이지 이미지: vol-31-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-010.jpg)
+[페이지 이미지: vol-31-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-010.jpg)
 
 ```text
                              4) 하대원동 회화나무
@@ -584,7 +584,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.011 -->
 ### p.011
 
-[페이지 이미지: vol-31-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-011.jpg)
+[페이지 이미지: vol-31-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-011.jpg)
 
 ```text
 상대원의
@@ -609,7 +609,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.012 -->
 ### p.012
 
-[페이지 이미지: vol-31-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-012.jpg)
+[페이지 이미지: vol-31-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-012.jpg)
 
 ```text
                              1 전근대 역사
@@ -649,7 +649,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.013 -->
 ### p.013
 
-[페이지 이미지: vol-31-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-013.jpg)
+[페이지 이미지: vol-31-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-013.jpg)
 
 ```text
 동으로 농사 도구와 무기를 만들어 사용하면서부터 사는 모습이 크게 달라졌다. 성남의
@@ -698,7 +698,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.014 -->
 ### p.014
 
-[페이지 이미지: vol-31-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-014.jpg)
+[페이지 이미지: vol-31-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-014.jpg)
 
 ```text
                                   475년(장수왕 63) 고구려 장수왕의 남하 정책으로 백제의 한성(漢城)이 함
@@ -747,7 +747,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.015 -->
 ### p.015
 
-[페이지 이미지: vol-31-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-015.jpg)
+[페이지 이미지: vol-31-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-015.jpg)
 
 ```text
 개의 현(縣)이 예속되어 있었다. 한편 1012년 전국을 5도 양계(五道兩界)로 편성할 때 광
@@ -795,7 +795,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.016 -->
 ### p.016
 
-[페이지 이미지: vol-31-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-016.jpg)
+[페이지 이미지: vol-31-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-016.jpg)
 
 ```text
                             『팔도군현지도』 「광주부지도」(1960, 서울대학교규장각 한국학연구원)
@@ -832,7 +832,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.017 -->
 ### p.017
 
-[페이지 이미지: vol-31-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-017.jpg)
+[페이지 이미지: vol-31-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-017.jpg)
 
 ```text
 2 근현대 역사
@@ -871,7 +871,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.018 -->
 ### p.018
 
-[페이지 이미지: vol-31-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-018.jpg)
+[페이지 이미지: vol-31-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-018.jpg)
 
 ```text
                             광주대단지 전경(1971, 경기도청 언론담당관실)
@@ -908,7 +908,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.019 -->
 ### p.019
 
-[페이지 이미지: vol-31-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-019.jpg)
+[페이지 이미지: vol-31-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-019.jpg)
 
 ```text
 었다. 결국 이에 대한 대책의 하나로 9월 13일 기존 광주군 성남출장소 관할의 6개 리와
@@ -955,7 +955,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.020 -->
 ### p.020
 
-[페이지 이미지: vol-31-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-020.jpg)
+[페이지 이미지: vol-31-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-020.jpg)
 
 ```text
                             칭으로 쓰기로 합의하였다.
@@ -1002,7 +1002,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.021 -->
 ### p.021
 
-[페이지 이미지: vol-31-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-021.jpg)
+[페이지 이미지: vol-31-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-021.jpg)
 
 ```text
 고 토지를 측량하는 작업을 시작하였다. 이후 갈 곳이 없어진 철거민들을 이곳으로 이주
@@ -1048,7 +1048,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.022 -->
 ### p.022
 
-[페이지 이미지: vol-31-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-022.jpg)
+[페이지 이미지: vol-31-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-022.jpg)
 
 ```text
                             훈병원-길동사거리-광진교-광나루로를 거쳐야 하였다. 이 코스는 현재의 송파대로-잠
@@ -1095,7 +1095,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.023 -->
 ### p.023
 
-[페이지 이미지: vol-31-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-023.jpg)
+[페이지 이미지: vol-31-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-023.jpg)
 
 ```text
 유입된 사람들이었다. 정작 입주권 불법 전매를 강하게 단속해야 할 서울시와 정부는 단
@@ -1141,7 +1141,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.024 -->
 ### p.024
 
-[페이지 이미지: vol-31-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-024.jpg)
+[페이지 이미지: vol-31-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-024.jpg)
 
 ```text
                             기 시작하였다. 사람들은 제각기 몽둥이, 삽, 피켓 등을 들었으며 가슴에는 ‘허울 좋은 선
@@ -1188,7 +1188,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.025 -->
 ### p.025
 
-[페이지 이미지: vol-31-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-025.jpg)
+[페이지 이미지: vol-31-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-025.jpg)
 
 ```text
 8·10성남(광주대단지)항쟁 때 주민들의 항의로 불타고 있는 관용차(1971)
@@ -1224,7 +1224,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.026 -->
 ### p.026
 
-[페이지 이미지: vol-31-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-026.jpg)
+[페이지 이미지: vol-31-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-026.jpg)
 
 ```text
                              사실상 정부와 서울특별시의 백기 투항으로 사건은 마무리되었으나 관공서와 차량 등
@@ -1271,7 +1271,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.027 -->
 ### p.027
 
-[페이지 이미지: vol-31-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-027.jpg)
+[페이지 이미지: vol-31-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-027.jpg)
 
 ```text
 있을 거란 기대에 입주권을 산 일반인들은 그나마 저렴한 토지 가격에 광주대단지로 들어
@@ -1317,7 +1317,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.028 -->
 ### p.028
 
-[페이지 이미지: vol-31-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-028.jpg)
+[페이지 이미지: vol-31-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-028.jpg)
 
 ```text
                              정부는 공식적으로 이 사건을 폭동으로 매도했지만, 주민들과의 약속은 지켜서 광주대
@@ -1364,7 +1364,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.029 -->
 ### p.029
 
-[페이지 이미지: vol-31-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-029.jpg)
+[페이지 이미지: vol-31-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-029.jpg)
 
 ```text
     이 사건은 박정희 정부의 이후 행보에도 적지 않은 영향을 미쳤다. 이 사건 직후 실미도
@@ -1414,7 +1414,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.030 -->
 ### p.030
 
-[페이지 이미지: vol-31-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-030.jpg)
+[페이지 이미지: vol-31-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-030.jpg)
 
 ```text
                             할 수 없었고, 결국 그 불만이 누적되어 광주대단지사건과 같은 주민폭동으로 터져나왔던
@@ -1463,7 +1463,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.031 -->
 ### p.031
 
-[페이지 이미지: vol-31-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-031.jpg)
+[페이지 이미지: vol-31-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-031.jpg)
 
 ```text
 상대원동 성남하이테크밸리 전경(2022)
@@ -1500,7 +1500,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.032 -->
 ### p.032
 
-[페이지 이미지: vol-31-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-032.jpg)
+[페이지 이미지: vol-31-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-032.jpg)
 
 ```text
                             행정동은 태평동·신흥동·단대동·은행동·상대원동·중동·성남동·수진동·복정동·신촌동·고등
@@ -1549,7 +1549,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.033 -->
 ### p.033
 
-[페이지 이미지: vol-31-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-033.jpg)
+[페이지 이미지: vol-31-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-033.jpg)
 
 ```text
 등이 군사훈련을 마치고 머무르기도 하였다. 또한 이배재와도 수월하게 연결된다.
@@ -1594,7 +1594,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.034 -->
 ### p.034
 
-[페이지 이미지: vol-31-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-034.jpg)
+[페이지 이미지: vol-31-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-034.jpg)
 
 ```text
                             었다고 한다. 주막은 대개 퇴기들이 주모로 전업하여 운영하던 곳이 많았으므로 관청과의
@@ -1643,7 +1643,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.035 -->
 ### p.035
 
-[페이지 이미지: vol-31-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-035.jpg)
+[페이지 이미지: vol-31-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-035.jpg)
 
 ```text
 설명은 『성남인물지』7를 기준으로 하였다.
@@ -1689,7 +1689,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.036 -->
 ### p.036
 
-[페이지 이미지: vol-31-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-036.jpg)
+[페이지 이미지: vol-31-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-036.jpg)
 
 ```text
                             경기도 기념물 둔촌 이집 묘역
@@ -1727,7 +1727,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.037 -->
 ### p.037
 
-[페이지 이미지: vol-31-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-037.jpg)
+[페이지 이미지: vol-31-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-037.jpg)
 
 ```text
 은(三隱)의 기(記)」·「서(序)」·「서(書)」는 그와 삼은과의 관계를 잘 알려준다. 『동국여지승
@@ -1772,7 +1772,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.038 -->
 ### p.038
 
-[페이지 이미지: vol-31-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-038.jpg)
+[페이지 이미지: vol-31-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-038.jpg)
 
 ```text
                             낀 이는 광주의 이군(李君, 이집)이었다.”라고 하였다. 또 말하기를 “이모(李某, 이집)는
@@ -1823,7 +1823,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.039 -->
 ### p.039
 
-[페이지 이미지: vol-31-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-039.jpg)
+[페이지 이미지: vol-31-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-039.jpg)
 
 ```text
 정도로 밀착하여 강습과 토론에 열중하였다. 이숭인의 문집인 『도은집(陶隱集)』에 이집에
@@ -1869,7 +1869,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.040 -->
 ### p.040
 
-[페이지 이미지: vol-31-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-040.jpg)
+[페이지 이미지: vol-31-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-040.jpg)
 
 ```text
                             에는 내서사인, 1404년에는 사헌부집의가 되었다. 이어 형조참의가 되었다. 특히 직제학
@@ -1916,7 +1916,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.041 -->
 ### p.041
 
-[페이지 이미지: vol-31-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-041.jpg)
+[페이지 이미지: vol-31-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-041.jpg)
 
 ```text
 열에 발탁되었다. 이후 사헌부감찰을 거쳐 1429년 천추사의 서장관으로 명나라에 다녀왔
@@ -1964,7 +1964,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.042 -->
 ### p.042
 
-[페이지 이미지: vol-31-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-042.jpg)
+[페이지 이미지: vol-31-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-042.jpg)
 
 ```text
                              1427년(세조 9) 생원으로 춘당시 문과에 병과로 급제하여, 전라도, 황해도의 도사를 역
@@ -2012,7 +2012,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.043 -->
 ### p.043
 
-[페이지 이미지: vol-31-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-043.jpg)
+[페이지 이미지: vol-31-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-043.jpg)
 
 ```text
 다방면으로 고심하였고, 이러한 구황을 제대로 하지 못하여 지방민을 곤경에 빠뜨린 수령
@@ -2058,7 +2058,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.044 -->
 ### p.044
 
-[페이지 이미지: vol-31-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-044.jpg)
+[페이지 이미지: vol-31-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-044.jpg)
 
 ```text
                             우동(於乙宇同)의 간통 문제를 다룰 때에는 “지금 어을우동은 종실의 처로서 음욕을 자행
@@ -2107,7 +2107,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.045 -->
 ### p.045
 
-[페이지 이미지: vol-31-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-045.jpg)
+[페이지 이미지: vol-31-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-045.jpg)
 
 ```text
 손의 2남이자, 최덕로(崔德露)의 사위이다.
@@ -2154,7 +2154,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.046 -->
 ### p.046
 
-[페이지 이미지: vol-31-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-046.jpg)
+[페이지 이미지: vol-31-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-046.jpg)
 
 ```text
                             거쳐, 사인을 역임하였다. 1467년 정략장군 부호군에 임명되고, 얼마 뒤 승정원 동부승지
@@ -2206,7 +2206,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.047 -->
 ### p.047
 
-[페이지 이미지: vol-31-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-047.jpg)
+[페이지 이미지: vol-31-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-047.jpg)
 
 ```text
 다. 1492년(성종 23)에는 경상도관찰사로 외직에 있으면서 『유양잡조(酉陽雜俎)』, 『당송
@@ -2253,7 +2253,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.048 -->
 ### p.048
 
-[페이지 이미지: vol-31-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-048.jpg)
+[페이지 이미지: vol-31-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-048.jpg)
 
 ```text
                             었다. 이듬해에는 성준과 함께 『서북제번기(西北諸蕃記)』와 『서북지도』를 최초로 편찬하
@@ -2300,7 +2300,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.049 -->
 ### p.049
 
-[페이지 이미지: vol-31-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-049.jpg)
+[페이지 이미지: vol-31-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-049.jpg)
 
 ```text
 었는데 죽음을 앞둔 자리에서 이극균은 무죄를 선언하고 목을 매어 자결하였다. 이 소식
@@ -2347,7 +2347,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.050 -->
 ### p.050
 
-[페이지 이미지: vol-31-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-050.jpg)
+[페이지 이미지: vol-31-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-050.jpg)
 
 ```text
                               ■ 송언신
@@ -2398,7 +2398,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.051 -->
 ### p.051
 
-[페이지 이미지: vol-31-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-051.jpg)
+[페이지 이미지: vol-31-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-051.jpg)
 
 ```text
 한 바가 있다. 광해군 초년에 이르러서는 관직에서 축출되었다.
@@ -2435,7 +2435,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.052 -->
 ### p.052
 
-[페이지 이미지: vol-31-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-052.jpg)
+[페이지 이미지: vol-31-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-052.jpg)
 
 ```text
 상대원 지역의
@@ -2462,7 +2462,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.053 -->
 ### p.053
 
-[페이지 이미지: vol-31-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-053.jpg)
+[페이지 이미지: vol-31-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-053.jpg)
 
 ```text
 1 상대원동 개관
@@ -2501,7 +2501,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.054 -->
 ### p.054
 
-[페이지 이미지: vol-31-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-054.jpg)
+[페이지 이미지: vol-31-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-054.jpg)
 
 ```text
                               1989년 5월 1일 구제(區制)가 실시되면서 중원구 상대원2동이 되었으며, 1994년 10
@@ -2560,7 +2560,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.055 -->
 ### p.055
 
-[페이지 이미지: vol-31-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-055.jpg)
+[페이지 이미지: vol-31-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-055.jpg)
 
 ```text
        1,617억 5,100만 원이며, 민간 투자 방식(BTO-a)12으로 진행된다.
@@ -2614,7 +2614,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.056 -->
 ### p.056
 
-[페이지 이미지: vol-31-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-056.jpg)
+[페이지 이미지: vol-31-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-056.jpg)
 
 ```text
 상대원2동 행정복지센터                          상대원3동 행정복지센터
@@ -2625,7 +2625,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.057 -->
 ### p.057
 
-[페이지 이미지: vol-31-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-057.jpg)
+[페이지 이미지: vol-31-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-057.jpg)
 
 ```text
 2 관내 학교 현황
@@ -2663,7 +2663,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.058 -->
 ### p.058
 
-[페이지 이미지: vol-31-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-058.jpg)
+[페이지 이미지: vol-31-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-058.jpg)
 
 ```text
                                    58
@@ -2673,7 +2673,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.059 -->
 ### p.059
 
-[페이지 이미지: vol-31-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-059.jpg)
+[페이지 이미지: vol-31-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-059.jpg)
 
 ```text
  2) 상대원초등학교
@@ -2704,7 +2704,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.060 -->
 ### p.060
 
-[페이지 이미지: vol-31-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-060.jpg)
+[페이지 이미지: vol-31-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-060.jpg)
 
 ```text
                              3) 대원초등학교
@@ -2739,7 +2739,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.061 -->
 ### p.061
 
-[페이지 이미지: vol-31-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-061.jpg)
+[페이지 이미지: vol-31-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-061.jpg)
 
 ```text
 3 상대원 시장
@@ -2769,7 +2769,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.062 -->
 ### p.062
 
-[페이지 이미지: vol-31-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-062.jpg)
+[페이지 이미지: vol-31-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-062.jpg)
 
 ```text
          62
@@ -2780,7 +2780,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.063 -->
 ### p.063
 
-[페이지 이미지: vol-31-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-063.jpg)
+[페이지 이미지: vol-31-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-063.jpg)
 
 ```text
 4 상대원의 문화유산
@@ -2818,7 +2818,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.064 -->
 ### p.064
 
-[페이지 이미지: vol-31-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-064.jpg)
+[페이지 이미지: vol-31-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-064.jpg)
 
 ```text
                             사기막골 근린공원 표지석          사기막골 근린공원 체험관
@@ -2858,7 +2858,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.065 -->
 ### p.065
 
-[페이지 이미지: vol-31-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-065.jpg)
+[페이지 이미지: vol-31-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-065.jpg)
 
 ```text
                          3) 신남성 동돈대
@@ -2896,7 +2896,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.066 -->
 ### p.066
 
-[페이지 이미지: vol-31-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-066.jpg)
+[페이지 이미지: vol-31-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-066.jpg)
 
 ```text
                             않는다. 성돌은 본래 두께 40~60㎝, 너비 60~100㎝의 대형 석재를 사용하였는데, 복원
@@ -2949,7 +2949,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.067 -->
 ### p.067
 
-[페이지 이미지: vol-31-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-067.jpg)
+[페이지 이미지: vol-31-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-067.jpg)
 
 ```text
 무지개 모양으로 만든 홍예문이며, 너비와 높이는 각각 152㎝이다. 측벽은 무사석으로 틈
@@ -2998,7 +2998,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.068 -->
 ### p.068
 
-[페이지 이미지: vol-31-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-068.jpg)
+[페이지 이미지: vol-31-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-068.jpg)
 
 ```text
 산업단지의 조성
@@ -3020,7 +3020,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.069 -->
 ### p.069
 
-[페이지 이미지: vol-31-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-069.jpg)
+[페이지 이미지: vol-31-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-069.jpg)
 
 ```text
 1
@@ -3058,7 +3058,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.070 -->
 ### p.070
 
-[페이지 이미지: vol-31-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-070.jpg)
+[페이지 이미지: vol-31-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-070.jpg)
 
 ```text
                             대원초등학교에서 바라본 중원구 상대원동(1972)
@@ -3083,7 +3083,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.071 -->
 ### p.071
 
-[페이지 이미지: vol-31-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-071.jpg)
+[페이지 이미지: vol-31-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-071.jpg)
 
 ```text
 때 신흥3동의 인구수는 3,506세대 1만 4,752명, 태평3동의 인구는 3,423세대 1만 5,027
@@ -3114,7 +3114,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.072 -->
 ### p.072
 
-[페이지 이미지: vol-31-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-072.jpg)
+[페이지 이미지: vol-31-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-072.jpg)
 
 ```text
                              2 제2·제3산업단지의 조성
@@ -3154,7 +3154,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.073 -->
 ### p.073
 
-[페이지 이미지: vol-31-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-073.jpg)
+[페이지 이미지: vol-31-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-073.jpg)
 
 ```text
 중원구 상대원 제2공단 기공식(1971.3.20)
@@ -3190,7 +3190,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.074 -->
 ### p.074
 
-[페이지 이미지: vol-31-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-074.jpg)
+[페이지 이미지: vol-31-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-074.jpg)
 
 ```text
                             중시키는 것은 일반적으로 몇 가지 장점을 가진다. 첫째, 특정 지역에 산업 친화적인 시설
@@ -3230,7 +3230,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.075 -->
 ### p.075
 
-[페이지 이미지: vol-31-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-075.jpg)
+[페이지 이미지: vol-31-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-075.jpg)
 
 ```text
 3 주요 산업과 기업
@@ -3268,7 +3268,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.076 -->
 ### p.076
 
-[페이지 이미지: vol-31-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-076.jpg)
+[페이지 이미지: vol-31-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-076.jpg)
 
 ```text
                              성남시가 아파트형 공장 설립을 추진하게 된 것은 분당신도시 건설에 따라 사업지구 내
@@ -3317,7 +3317,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.077 -->
 ### p.077
 
-[페이지 이미지: vol-31-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-077.jpg)
+[페이지 이미지: vol-31-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-077.jpg)
 
 ```text
 도 원래 천성이 차분하고 과묵했던 이계남은 새로운 용기를 냈다.
@@ -3362,7 +3362,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.078 -->
 ### p.078
 
-[페이지 이미지: vol-31-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-078.jpg)
+[페이지 이미지: vol-31-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-078.jpg)
 
 ```text
                              그동안 협동과 단결의 의지가 보여준 영광의 1억 탑 수상을 기반으로 이제는 전 주민
@@ -3410,7 +3410,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.079 -->
 ### p.079
 
-[페이지 이미지: vol-31-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-079.jpg)
+[페이지 이미지: vol-31-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-079.jpg)
 
 ```text
  그러나 당시 성남 지역은 서울시 철거민들이 집단적으로 이주하여 형성되었던 신개발
@@ -3455,7 +3455,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.080 -->
 ### p.080
 
-[페이지 이미지: vol-31-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-080.jpg)
+[페이지 이미지: vol-31-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-080.jpg)
 
 ```text
                             을 사원이라는 호칭으로 일원화함으로 학력 제한을 폐기하고 능력만 있으면 누구나 시험
@@ -3502,7 +3502,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.081 -->
 ### p.081
 
-[페이지 이미지: vol-31-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-081.jpg)
+[페이지 이미지: vol-31-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-081.jpg)
 
 ```text
 와 약속대로 급여를 매년 30% 이상 대폭 인상하는 한편, 상여금도 연간 최저 400%에서
@@ -3542,7 +3542,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.082 -->
 ### p.082
 
-[페이지 이미지: vol-31-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-082.jpg)
+[페이지 이미지: vol-31-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-082.jpg)
 
 ```text
 하이테크밸리로의
@@ -3568,7 +3568,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.083 -->
 ### p.083
 
-[페이지 이미지: vol-31-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-083.jpg)
+[페이지 이미지: vol-31-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-083.jpg)
 
 ```text
 1 하이테크밸리 성립 과정
@@ -3609,7 +3609,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.084 -->
 ### p.084
 
-[페이지 이미지: vol-31-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-084.jpg)
+[페이지 이미지: vol-31-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-084.jpg)
 
 ```text
                             성남하이테크밸리
@@ -3649,7 +3649,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.085 -->
 ### p.085
 
-[페이지 이미지: vol-31-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-085.jpg)
+[페이지 이미지: vol-31-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-085.jpg)
 
 ```text
  성남산업단지(성남하이테크밸리)의 주요 연혁은 다음과 같다.
@@ -3710,7 +3710,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.086 -->
 ### p.086
 
-[페이지 이미지: vol-31-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-086.jpg)
+[페이지 이미지: vol-31-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-086.jpg)
 
 ```text
                             성남산업단지(성남하이테크밸리)에 대한 업무 분담
@@ -3787,7 +3787,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.087 -->
 ### p.087
 
-[페이지 이미지: vol-31-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-087.jpg)
+[페이지 이미지: vol-31-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-087.jpg)
 
 ```text
  2024년 현재까지의 재생사업 추진 상황은 다음과 같다.
@@ -3846,7 +3846,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.088 -->
 ### p.088
 
-[페이지 이미지: vol-31-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-088.jpg)
+[페이지 이미지: vol-31-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-088.jpg)
 
 ```text
                              하이테크밸리 LH 활성화구역 사업 내용은 다음의 표로 정리할 수 있다.
@@ -3918,7 +3918,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.089 -->
 ### p.089
 
-[페이지 이미지: vol-31-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-089.jpg)
+[페이지 이미지: vol-31-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-089.jpg)
 
 ```text
  2) 성남산업단지관리공단
@@ -3968,7 +3968,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.090 -->
 ### p.090
 
-[페이지 이미지: vol-31-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-090.jpg)
+[페이지 이미지: vol-31-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-090.jpg)
 
 ```text
                              3) 소공인집적지구 공동이용시설 구축·운영
@@ -4037,7 +4037,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.091 -->
 ### p.091
 
-[페이지 이미지: vol-31-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-091.jpg)
+[페이지 이미지: vol-31-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-091.jpg)
 
 ```text
 2 주요 입주 기업 현황
@@ -4092,7 +4092,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.092 -->
 ### p.092
 
-[페이지 이미지: vol-31-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-092.jpg)
+[페이지 이미지: vol-31-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-092.jpg)
 
 ```text
                             연번         회사명                      주소                 생산품
@@ -4174,7 +4174,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.093 -->
 ### p.093
 
-[페이지 이미지: vol-31-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-093.jpg)
+[페이지 이미지: vol-31-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-093.jpg)
 
 ```text
 연번       회사명                     주소                   생산품
@@ -4254,7 +4254,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.094 -->
 ### p.094
 
-[페이지 이미지: vol-31-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-094.jpg)
+[페이지 이미지: vol-31-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-094.jpg)
 
 ```text
                             연번       회사명                    주소                      생산품
@@ -4342,7 +4342,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.095 -->
 ### p.095
 
-[페이지 이미지: vol-31-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-095.jpg)
+[페이지 이미지: vol-31-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-095.jpg)
 
 ```text
 연번         회사명                     주소                   생산품
@@ -4426,7 +4426,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.096 -->
 ### p.096
 
-[페이지 이미지: vol-31-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-096.jpg)
+[페이지 이미지: vol-31-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-096.jpg)
 
 ```text
                             연번        회사명                    주소                     생산품
@@ -4512,7 +4512,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.097 -->
 ### p.097
 
-[페이지 이미지: vol-31-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-097.jpg)
+[페이지 이미지: vol-31-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-097.jpg)
 
 ```text
 연번         회사명                     주소                   생산품
@@ -4593,7 +4593,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.098 -->
 ### p.098
 
-[페이지 이미지: vol-31-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-098.jpg)
+[페이지 이미지: vol-31-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-098.jpg)
 
 ```text
                             연번        회사명                    주소                     생산품
@@ -4681,7 +4681,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.099 -->
 ### p.099
 
-[페이지 이미지: vol-31-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-099.jpg)
+[페이지 이미지: vol-31-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-099.jpg)
 
 ```text
 연번      회사명                    주소                       생산품
@@ -4767,7 +4767,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.100 -->
 ### p.100
 
-[페이지 이미지: vol-31-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-100.jpg)
+[페이지 이미지: vol-31-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-100.jpg)
 
 ```text
                             연번         회사명                     주소                     생산품
@@ -4855,7 +4855,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.101 -->
 ### p.101
 
-[페이지 이미지: vol-31-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-101.jpg)
+[페이지 이미지: vol-31-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-101.jpg)
 
 ```text
 연번       회사명                    주소                     생산품
@@ -4923,7 +4923,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.102 -->
 ### p.102
 
-[페이지 이미지: vol-31-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-102.jpg)
+[페이지 이미지: vol-31-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-102.jpg)
 
 ```text
                             성남 지식산업센터
@@ -5005,7 +5005,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.103 -->
 ### p.103
 
-[페이지 이미지: vol-31-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-103.jpg)
+[페이지 이미지: vol-31-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-103.jpg)
 
 ```text
                                       건축 연면적    사용승인    입주
@@ -5054,7 +5054,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.104 -->
 ### p.104
 
-[페이지 이미지: vol-31-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-104.jpg)
+[페이지 이미지: vol-31-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-104.jpg)
 
 ```text
                              3 주요 일지와 향후 비전
@@ -5105,7 +5105,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.105 -->
 ### p.105
 
-[페이지 이미지: vol-31-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-105.jpg)
+[페이지 이미지: vol-31-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-105.jpg)
 
 ```text
     - 1975년 9월 4일   (사)성남공업단지협회 인가
@@ -5163,7 +5163,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.106 -->
 ### p.106
 
-[페이지 이미지: vol-31-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-106.jpg)
+[페이지 이미지: vol-31-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-106.jpg)
 
 ```text
                             모해야 한다. 또한 미래 비전에 대한 관리공단의 다음 청사진에 대해서도 관심을 갖고 격
@@ -5230,7 +5230,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.107 -->
 ### p.107
 
-[페이지 이미지: vol-31-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-107.jpg)
+[페이지 이미지: vol-31-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-107.jpg)
 
 ```text
 맺음말
@@ -5268,7 +5268,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.108 -->
 ### p.108
 
-[페이지 이미지: vol-31-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-108.jpg)
+[페이지 이미지: vol-31-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-108.jpg)
 
 ```text
 10일 이른바 ‘광주대단지 사건’(8·10성남민주화 항쟁)으로 폭발하게 되었다. 이 사태는 약
@@ -5305,7 +5305,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.109 -->
 ### p.109
 
-[페이지 이미지: vol-31-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-109.jpg)
+[페이지 이미지: vol-31-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-109.jpg)
 
 ```text
 교)의 건립, 모란시장 개설이 이루어졌고, 1970년대에 들어와서 모란단지 사건과 광주대
@@ -5332,7 +5332,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.110 -->
 ### p.110
 
-[페이지 이미지: vol-31-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-110.jpg)
+[페이지 이미지: vol-31-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-110.jpg)
 
 ```text
 참
@@ -5360,7 +5360,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.111 -->
 ### p.111
 
-[페이지 이미지: vol-31-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-111.jpg)
+[페이지 이미지: vol-31-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-111.jpg)
 
 ```text
 성남시사 31
@@ -5388,7 +5388,7 @@ ocr_used: false
 <!-- source: ../sources/seongnam-history-50-vol-31.pdf p.112 -->
 ### p.112
 
-[페이지 이미지: vol-31-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31-page-112.jpg)
+[페이지 이미지: vol-31-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-112.jpg)
 
 ```text
 

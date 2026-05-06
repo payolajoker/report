@@ -15,7 +15,7 @@
 
 - `docs/seongnam-city-history-50/vol-29-spatial-structure-living-areas.md`
 - `dist/seongnam-history-50-vol-29.llm.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-29-page-*.jpg` 144개
+- `docs/seongnam-city-history-50/assets/pages/vol-29/vol-29-page-*.jpg` 144개
 - `docs/seongnam-city-history-50/_work/vol-29-integration.md`
 
 ## 공용 index/manifest 병합 후보
@@ -151,66 +151,66 @@
 
 | 원문 쪽 | 파일 | 유형 | 설명 |
 |---:|---|---|---|
-| 1 | assets/pages/vol-29-page-001.jpg | title-page | 권 표지와 제목: 성남의 공간구조와 생활권 |
-| 2 | assets/pages/vol-29-page-002.jpg | toc | 권별 목차: Part 1-3과 Part 2 |
-| 3 | assets/pages/vol-29-page-003.jpg | toc | 권별 목차: Part 4-6과 통행권 항목 |
-| 6 | assets/pages/vol-29-page-006.jpg | table | 도시공간의 분류 및 구성 요소 표 |
-| 7 | assets/pages/vol-29-page-007.jpg | map | 산지로 둘러싸인 성남시의 시가지와 44개 법정동 지도 |
-| 14 | assets/pages/vol-29-page-014.jpg | map | 성남시가지 주변 개발제한구역 및 남단 녹지 지도 |
-| 19 | assets/pages/vol-29-page-019.jpg | photo | 1960년대 말 광주대단지 조성 사진 |
-| 21 | assets/pages/vol-29-page-021.jpg | map | 광주대단지 조성 이후 성남 시가지 1973 지도 |
-| 22 | assets/pages/vol-29-page-022.jpg | photo | 경기도 성남출장소 시기 광주대단지 진입로 사진 |
-| 24 | assets/pages/vol-29-page-024.jpg | map | 시 승격 이후 본시가지 일대와 성남대로 1973 지도 |
-| 27 | assets/pages/vol-29-page-027.jpg | photo | 분당신도시 개발 전 농촌 경관 사진 |
-| 28 | assets/pages/vol-29-page-028.jpg | photo | 분당신도시 건설 모습 1991 |
-| 29 | assets/pages/vol-29-page-029.jpg | photo | 본시가지와 분당신도시의 차별적 도시경관 2001 |
-| 30 | assets/pages/vol-29-page-030.jpg | photo | 신도시 개발 전 판교동 2001 |
-| 31 | assets/pages/vol-29-page-031.jpg | photo | 판교테크노밸리와 판교신도시 2022 |
-| 33 | assets/pages/vol-29-page-033.jpg | photo | 수정구 창곡동 옛 모습 1973 |
-| 34 | assets/pages/vol-29-page-034.jpg | photo | 위례신도시 전경 2022 |
-| 35 | assets/pages/vol-29-page-035.jpg | table | 성남시 법정동과 행정동 구성 2024 표 1 |
-| 36 | assets/pages/vol-29-page-036.jpg | table | 성남시 법정동과 행정동 구성 2024 표 2 |
-| 42 | assets/pages/vol-29-page-042.jpg | plan | 성남비전 2040 장기종합발전계획 표지와 생활권 구상 서술 |
-| 45 | assets/pages/vol-29-page-045.jpg | map | 2010년대 도시기본계획 3개 권역 지도 |
-| 52 | assets/pages/vol-29-page-052.jpg | map-or-text | 성남의 산줄기와 하천 생활권 지표 서술 |
-| 54 | assets/pages/vol-29-page-054.jpg | photo | 탄천 교량과 분당신도시 사진 |
-| 61 | assets/pages/vol-29-page-061.jpg | data-page | 2021년 지목 구성과 농경지 비중 서술 |
-| 62 | assets/pages/vol-29-page-062.jpg | photo | 농촌적 토지이용이 지배적인 성남 주변부 사진 |
-| 63 | assets/pages/vol-29-page-063.jpg | map | 도시적 토지이용 비율 분포 지도 |
-| 64 | assets/pages/vol-29-page-064.jpg | map | 아파트 비율 분포 지도 |
-| 65 | assets/pages/vol-29-page-065.jpg | photo | 저층 주택이 밀집한 본시가지 사진 |
-| 66 | assets/pages/vol-29-page-066.jpg | table | 본시가지 도시정비 사업 표 |
-| 67 | assets/pages/vol-29-page-067.jpg | map | 행정동별 사업체 수 분포 지도 |
-| 68 | assets/pages/vol-29-page-068.jpg | map-data | 사업체 총종사자 수 분포 지도와 업종별 통계 |
-| 71 | assets/pages/vol-29-page-071.jpg | map | 2023년 인구분포 지도 |
-| 72 | assets/pages/vol-29-page-072.jpg | photo | 재개발로 공동주택 지역이 된 신흥2동 사진 |
-| 75 | assets/pages/vol-29-page-075.jpg | chart | 수진1동·금광1동 연령층별 인구구성 비교 그래프 |
-| 80 | assets/pages/vol-29-page-080.jpg | chart | 등질 지역 분류를 위한 그룹화 과정 덴드로그램 |
-| 81 | assets/pages/vol-29-page-081.jpg | map | 성남시 등질 지역적 공간구조 지도 |
-| 87 | assets/pages/vol-29-page-087.jpg | map | 출퇴근 통행 발생·흡수통행량 분포 지도 |
-| 89 | assets/pages/vol-29-page-089.jpg | map | 쇼핑 통행 발생·흡수통행량 분포 지도 |
-| 90 | assets/pages/vol-29-page-090.jpg | photo | 모란민속5일장과 모란종합시장 사진 |
-| 91 | assets/pages/vol-29-page-091.jpg | map | 업무 통행 발생·흡수통행량 분포 지도 |
-| 94 | assets/pages/vol-29-page-094.jpg | map | 총 목적 통행 발생·흡수통행량 분포 지도 |
-| 97 | assets/pages/vol-29-page-097.jpg | map | 성남시 3대 통행권 지도 |
-| 106 | assets/pages/vol-29-page-106.jpg | table | 성남시의 도시공간과 지역 구성 표 |
-| 107 | assets/pages/vol-29-page-107.jpg | map | 성남시 생활권 구분 소지역 지도 |
-| 109 | assets/pages/vol-29-page-109.jpg | photo | 서울공항에 착륙 중인 비행기 사진 |
-| 110 | assets/pages/vol-29-page-110.jpg | photo | 주거지역으로 신규 개발된 수정구 고등동 사진 |
-| 113 | assets/pages/vol-29-page-113.jpg | photo | 주변 도시와 연담해 개발된 위례신도시 사진 |
-| 116 | assets/pages/vol-29-page-116.jpg | photo | 원도심권을 구성하는 본시가지 도판 |
-| 118 | assets/pages/vol-29-page-118.jpg | photo | 성남제1공단 근린공원과 주변 아파트 단지 사진 |
-| 121 | assets/pages/vol-29-page-121.jpg | photo | 주변 산지가 많은 도촌동 사진 |
-| 122 | assets/pages/vol-29-page-122.jpg | photo | 중원구 여수동 성남시청과 시의회 사진 |
-| 126 | assets/pages/vol-29-page-126.jpg | photo | 단독주택이 많은 서판교 사진 |
-| 127 | assets/pages/vol-29-page-127.jpg | photo-data | 삼평동 판교테크노밸리 사진과 경제활동 서술 |
-| 129 | assets/pages/vol-29-page-129.jpg | photo | 전원적 시가지로 개발된 대장동 사진 |
-| 132 | assets/pages/vol-29-page-132.jpg | photo | 시가화·비시가화 구역을 아우르는 분당중앙권 사진 |
-| 134 | assets/pages/vol-29-page-134.jpg | photo | 도시철도역 일대 상업업무 지역과 주거지역 사진 |
-| 136 | assets/pages/vol-29-page-136.jpg | photo | 용인 시가지와 연담 현상이 나타나는 구미동 사진 |
-| 138 | assets/pages/vol-29-page-138.jpg | photo | 비도시적 토지이용이 드러나는 금곡동 사진 |
-| 140 | assets/pages/vol-29-page-140.jpg | references | 참고문헌 시작 |
-| 143 | assets/pages/vol-29-page-143.jpg | colophon | 판권과 집필 정보 |
+| 1 | assets/pages/vol-29/vol-29-page-001.jpg | title-page | 권 표지와 제목: 성남의 공간구조와 생활권 |
+| 2 | assets/pages/vol-29/vol-29-page-002.jpg | toc | 권별 목차: Part 1-3과 Part 2 |
+| 3 | assets/pages/vol-29/vol-29-page-003.jpg | toc | 권별 목차: Part 4-6과 통행권 항목 |
+| 6 | assets/pages/vol-29/vol-29-page-006.jpg | table | 도시공간의 분류 및 구성 요소 표 |
+| 7 | assets/pages/vol-29/vol-29-page-007.jpg | map | 산지로 둘러싸인 성남시의 시가지와 44개 법정동 지도 |
+| 14 | assets/pages/vol-29/vol-29-page-014.jpg | map | 성남시가지 주변 개발제한구역 및 남단 녹지 지도 |
+| 19 | assets/pages/vol-29/vol-29-page-019.jpg | photo | 1960년대 말 광주대단지 조성 사진 |
+| 21 | assets/pages/vol-29/vol-29-page-021.jpg | map | 광주대단지 조성 이후 성남 시가지 1973 지도 |
+| 22 | assets/pages/vol-29/vol-29-page-022.jpg | photo | 경기도 성남출장소 시기 광주대단지 진입로 사진 |
+| 24 | assets/pages/vol-29/vol-29-page-024.jpg | map | 시 승격 이후 본시가지 일대와 성남대로 1973 지도 |
+| 27 | assets/pages/vol-29/vol-29-page-027.jpg | photo | 분당신도시 개발 전 농촌 경관 사진 |
+| 28 | assets/pages/vol-29/vol-29-page-028.jpg | photo | 분당신도시 건설 모습 1991 |
+| 29 | assets/pages/vol-29/vol-29-page-029.jpg | photo | 본시가지와 분당신도시의 차별적 도시경관 2001 |
+| 30 | assets/pages/vol-29/vol-29-page-030.jpg | photo | 신도시 개발 전 판교동 2001 |
+| 31 | assets/pages/vol-29/vol-29-page-031.jpg | photo | 판교테크노밸리와 판교신도시 2022 |
+| 33 | assets/pages/vol-29/vol-29-page-033.jpg | photo | 수정구 창곡동 옛 모습 1973 |
+| 34 | assets/pages/vol-29/vol-29-page-034.jpg | photo | 위례신도시 전경 2022 |
+| 35 | assets/pages/vol-29/vol-29-page-035.jpg | table | 성남시 법정동과 행정동 구성 2024 표 1 |
+| 36 | assets/pages/vol-29/vol-29-page-036.jpg | table | 성남시 법정동과 행정동 구성 2024 표 2 |
+| 42 | assets/pages/vol-29/vol-29-page-042.jpg | plan | 성남비전 2040 장기종합발전계획 표지와 생활권 구상 서술 |
+| 45 | assets/pages/vol-29/vol-29-page-045.jpg | map | 2010년대 도시기본계획 3개 권역 지도 |
+| 52 | assets/pages/vol-29/vol-29-page-052.jpg | map-or-text | 성남의 산줄기와 하천 생활권 지표 서술 |
+| 54 | assets/pages/vol-29/vol-29-page-054.jpg | photo | 탄천 교량과 분당신도시 사진 |
+| 61 | assets/pages/vol-29/vol-29-page-061.jpg | data-page | 2021년 지목 구성과 농경지 비중 서술 |
+| 62 | assets/pages/vol-29/vol-29-page-062.jpg | photo | 농촌적 토지이용이 지배적인 성남 주변부 사진 |
+| 63 | assets/pages/vol-29/vol-29-page-063.jpg | map | 도시적 토지이용 비율 분포 지도 |
+| 64 | assets/pages/vol-29/vol-29-page-064.jpg | map | 아파트 비율 분포 지도 |
+| 65 | assets/pages/vol-29/vol-29-page-065.jpg | photo | 저층 주택이 밀집한 본시가지 사진 |
+| 66 | assets/pages/vol-29/vol-29-page-066.jpg | table | 본시가지 도시정비 사업 표 |
+| 67 | assets/pages/vol-29/vol-29-page-067.jpg | map | 행정동별 사업체 수 분포 지도 |
+| 68 | assets/pages/vol-29/vol-29-page-068.jpg | map-data | 사업체 총종사자 수 분포 지도와 업종별 통계 |
+| 71 | assets/pages/vol-29/vol-29-page-071.jpg | map | 2023년 인구분포 지도 |
+| 72 | assets/pages/vol-29/vol-29-page-072.jpg | photo | 재개발로 공동주택 지역이 된 신흥2동 사진 |
+| 75 | assets/pages/vol-29/vol-29-page-075.jpg | chart | 수진1동·금광1동 연령층별 인구구성 비교 그래프 |
+| 80 | assets/pages/vol-29/vol-29-page-080.jpg | chart | 등질 지역 분류를 위한 그룹화 과정 덴드로그램 |
+| 81 | assets/pages/vol-29/vol-29-page-081.jpg | map | 성남시 등질 지역적 공간구조 지도 |
+| 87 | assets/pages/vol-29/vol-29-page-087.jpg | map | 출퇴근 통행 발생·흡수통행량 분포 지도 |
+| 89 | assets/pages/vol-29/vol-29-page-089.jpg | map | 쇼핑 통행 발생·흡수통행량 분포 지도 |
+| 90 | assets/pages/vol-29/vol-29-page-090.jpg | photo | 모란민속5일장과 모란종합시장 사진 |
+| 91 | assets/pages/vol-29/vol-29-page-091.jpg | map | 업무 통행 발생·흡수통행량 분포 지도 |
+| 94 | assets/pages/vol-29/vol-29-page-094.jpg | map | 총 목적 통행 발생·흡수통행량 분포 지도 |
+| 97 | assets/pages/vol-29/vol-29-page-097.jpg | map | 성남시 3대 통행권 지도 |
+| 106 | assets/pages/vol-29/vol-29-page-106.jpg | table | 성남시의 도시공간과 지역 구성 표 |
+| 107 | assets/pages/vol-29/vol-29-page-107.jpg | map | 성남시 생활권 구분 소지역 지도 |
+| 109 | assets/pages/vol-29/vol-29-page-109.jpg | photo | 서울공항에 착륙 중인 비행기 사진 |
+| 110 | assets/pages/vol-29/vol-29-page-110.jpg | photo | 주거지역으로 신규 개발된 수정구 고등동 사진 |
+| 113 | assets/pages/vol-29/vol-29-page-113.jpg | photo | 주변 도시와 연담해 개발된 위례신도시 사진 |
+| 116 | assets/pages/vol-29/vol-29-page-116.jpg | photo | 원도심권을 구성하는 본시가지 도판 |
+| 118 | assets/pages/vol-29/vol-29-page-118.jpg | photo | 성남제1공단 근린공원과 주변 아파트 단지 사진 |
+| 121 | assets/pages/vol-29/vol-29-page-121.jpg | photo | 주변 산지가 많은 도촌동 사진 |
+| 122 | assets/pages/vol-29/vol-29-page-122.jpg | photo | 중원구 여수동 성남시청과 시의회 사진 |
+| 126 | assets/pages/vol-29/vol-29-page-126.jpg | photo | 단독주택이 많은 서판교 사진 |
+| 127 | assets/pages/vol-29/vol-29-page-127.jpg | photo-data | 삼평동 판교테크노밸리 사진과 경제활동 서술 |
+| 129 | assets/pages/vol-29/vol-29-page-129.jpg | photo | 전원적 시가지로 개발된 대장동 사진 |
+| 132 | assets/pages/vol-29/vol-29-page-132.jpg | photo | 시가화·비시가화 구역을 아우르는 분당중앙권 사진 |
+| 134 | assets/pages/vol-29/vol-29-page-134.jpg | photo | 도시철도역 일대 상업업무 지역과 주거지역 사진 |
+| 136 | assets/pages/vol-29/vol-29-page-136.jpg | photo | 용인 시가지와 연담 현상이 나타나는 구미동 사진 |
+| 138 | assets/pages/vol-29/vol-29-page-138.jpg | photo | 비도시적 토지이용이 드러나는 금곡동 사진 |
+| 140 | assets/pages/vol-29/vol-29-page-140.jpg | references | 참고문헌 시작 |
+| 143 | assets/pages/vol-29/vol-29-page-143.jpg | colophon | 판권과 집필 정보 |
 
 ## LLM 가공 제안
 

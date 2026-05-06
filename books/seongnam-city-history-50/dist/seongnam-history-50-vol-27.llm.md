@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 의료자원·건강행태 그래프, 시립의료원 연혁, 코로나19 연표 등 표와 도표가 많은 권차라서 1-104쪽 전체를 `assets/pages/`에 렌더링했다.
+- 의료자원·건강행태 그래프, 시립의료원 연혁, 코로나19 연표 등 표와 도표가 많은 권차라서 1-104쪽 전체를 `assets/pages/vol-27/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-27-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제27권 성남의 보건 의료와 정책`으로 일치한다.
 - 이 파일은 LLM 장문 입력을 위해 27권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
@@ -104,170 +104,170 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-27-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-27-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-002.jpg) | 2 | 권별 목차 1 | toc |
-| [vol-27-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-003.jpg) | 3 | 권별 목차 2 | toc |
-| [vol-27-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-004.jpg) | 4 | 성남시 50년 의료자원 변화 시작, 보건소 수 추이 그래프 | chart |
-| [vol-27-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-005.jpg) | 5 | 전국·성남 보건소 및 종합병원 관련 추이 그래프 | chart |
-| [vol-27-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-006.jpg) | 6 | 병원 수와 의원 수 변동 추이 그래프 | chart |
-| [vol-27-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-007.jpg) | 7 | 요양병원 수 변동 추이 그래프 | chart |
-| [vol-27-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-008.jpg) | 8 | 일반병원·종합병원 병상 수 변동 추이 비교 | chart |
-| [vol-27-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-009.jpg) | 9 | 치과병원·요양병원 병상 수 변동 추이 | chart |
-| [vol-27-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-010.jpg) | 10 | 의사 수와 한방병원 병상 수 변동 추이 | chart |
-| [vol-27-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-011.jpg) | 11 | 한의사와 치과의사 수 변동 추이 | chart |
-| [vol-27-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-012.jpg) | 12 | 약사와 조산사·간호사 수 변동 추이 | chart |
-| [vol-27-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-013.jpg) | 13 | 구별 기대수명과 현재 흡연율 그래프 | chart |
-| [vol-27-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-014.jpg) | 14 | 고위험 음주율과 건강생활 실천율 그래프 | chart |
-| [vol-27-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-015.jpg) | 15 | 비만율과 체중조절률 그래프 | chart |
-| [vol-27-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-016.jpg) | 16 | 스트레스 인지율과 우울감 인지율 그래프 | chart |
-| [vol-27-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-017.jpg) | 17 | 고혈압과 당뇨병 진단율 그래프 | chart |
-| [vol-27-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-020.jpg) | 20 | 광주대단지 지하수 펌프와 공동상수도 사진 | historic-photo |
-| [vol-27-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-021.jpg) | 21 | 성남시 보건소 연혁 표 | table |
-| [vol-27-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-022.jpg) | 22 | 광주대단지 치과 진료 대기와 무의촌 치과 진료 버스 | historic-photo |
-| [vol-27-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-025.jpg) | 25 | 성남중앙병원 전경 | hospital-photo |
-| [vol-27-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-027.jpg) | 27 | 분당서울대학교병원 전경 | hospital-photo |
-| [vol-27-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-034.jpg) | 34 | 성남시와 보바스기념병원 협약식 | policy-photo |
-| [vol-27-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-035.jpg) | 35 | 전국 최초 무상 공공산후조리원 설치 홍보 현수막 | policy-photo |
-| [vol-27-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-037.jpg) | 37 | 의료관광 지원체계 구축 협약 참여 기관 표 | table |
-| [vol-27-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-039.jpg) | 39 | 암 환자 힐링센터 늘해랑 개소식 | health-program-photo |
-| [vol-27-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-043.jpg) | 43 | 뇌건강 체험박물관 개관 | facility-photo |
-| [vol-27-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-044.jpg) | 44 | 치매 예방 로봇 프로그램 | health-program-photo |
-| [vol-27-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-050.jpg) | 50 | 통합응급의료지원센터 협약식 | policy-photo |
-| [vol-27-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-052.jpg) | 52 | 메르스 감염 확산 방지 대책회의 | infection-response-photo |
-| [vol-27-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-053.jpg) | 53 | 분당구 보건소 메르스 전용 시설 | infection-response-photo |
-| [vol-27-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-055.jpg) | 55 | 메르스 공공시설 방역 사진 | infection-response-photo |
-| [vol-27-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-056.jpg) | 56 | 전 세계 코로나19 추이 그래프 | chart |
-| [vol-27-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-057.jpg) | 57 | 국내 코로나19 발생·사망 보고 현황 | chart |
-| [vol-27-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-059.jpg) | 59 | 코로나19 심각 격상 총력 점검회의 | infection-response-photo |
-| [vol-27-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-060.jpg) | 60 | 성남시청 체력단련실 임시 휴관 | infection-response-photo |
-| [vol-27-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-061.jpg) | 61 | 코로나19 자가격리자 즉석 음식 지원 | support-photo |
-| [vol-27-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-065.jpg) | 65 | 시민 주도 상생 캠페인 참여 기관과 단체 | community-response |
-| [vol-27-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-066.jpg) | 66 | 성남시의회 코로나19 극복 기자회견 | council-photo |
-| [vol-27-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-068.jpg) | 68 | 코로나19 예방 백신 접종 사진 | vaccination-photo |
-| [vol-27-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-069.jpg) | 69 | 포스트 코로나19 대비 감염병 심포지엄 | symposium-photo |
-| [vol-27-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-070.jpg) | 70 | 성남시 코로나19 연표 1 | timeline-table |
-| [vol-27-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-071.jpg) | 71 | 성남시 코로나19 연표 2 | timeline-table |
-| [vol-27-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-072.jpg) | 72 | 성남시 코로나19 연표 3 | timeline-table |
-| [vol-27-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-074.jpg) | 74 | 보건소 직원 감염병 역량 강화 워크숍 | training-photo |
-| [vol-27-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-078.jpg) | 78 | 성남시의료원 주요 연혁 표 | table |
-| [vol-27-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-080.jpg) | 80 | 성남 바이오헬스산업 육성 컨벤션 개막식 | conference-photo |
-| [vol-27-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-088.jpg) | 88 | 성남 국제의료관광 컨벤션 개막식 | conference-photo |
-| [vol-27-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-090.jpg) | 90 | 수정구·중원구·분당구 보건소 전경 | facility-photo |
-| [vol-27-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-095.jpg) | 95 | 건강의 사회생태학 모형 | diagram |
-| [vol-27-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-096.jpg) | 96 | 성남시 WHO 고령친화도시 인증 선포식 | policy-photo |
-| [vol-27-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-098.jpg) | 98 | 성남시의료원 운영 방식 개선 정책토론회 | policy-photo |
-| [vol-27-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-101.jpg) | 101 | 원도심 재개발 공사 모습 | urban-health-context |
-| [vol-27-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-103.jpg) | 103 | 참고문헌 | bibliography |
-| [vol-27-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-104.jpg) | 104 | 판권과 집필자 | colophon |
+| [vol-27-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-27-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-002.jpg) | 2 | 권별 목차 1 | toc |
+| [vol-27-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-003.jpg) | 3 | 권별 목차 2 | toc |
+| [vol-27-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-004.jpg) | 4 | 성남시 50년 의료자원 변화 시작, 보건소 수 추이 그래프 | chart |
+| [vol-27-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-005.jpg) | 5 | 전국·성남 보건소 및 종합병원 관련 추이 그래프 | chart |
+| [vol-27-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-006.jpg) | 6 | 병원 수와 의원 수 변동 추이 그래프 | chart |
+| [vol-27-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-007.jpg) | 7 | 요양병원 수 변동 추이 그래프 | chart |
+| [vol-27-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-008.jpg) | 8 | 일반병원·종합병원 병상 수 변동 추이 비교 | chart |
+| [vol-27-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-009.jpg) | 9 | 치과병원·요양병원 병상 수 변동 추이 | chart |
+| [vol-27-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-010.jpg) | 10 | 의사 수와 한방병원 병상 수 변동 추이 | chart |
+| [vol-27-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-011.jpg) | 11 | 한의사와 치과의사 수 변동 추이 | chart |
+| [vol-27-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-012.jpg) | 12 | 약사와 조산사·간호사 수 변동 추이 | chart |
+| [vol-27-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-013.jpg) | 13 | 구별 기대수명과 현재 흡연율 그래프 | chart |
+| [vol-27-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-014.jpg) | 14 | 고위험 음주율과 건강생활 실천율 그래프 | chart |
+| [vol-27-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-015.jpg) | 15 | 비만율과 체중조절률 그래프 | chart |
+| [vol-27-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-016.jpg) | 16 | 스트레스 인지율과 우울감 인지율 그래프 | chart |
+| [vol-27-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-017.jpg) | 17 | 고혈압과 당뇨병 진단율 그래프 | chart |
+| [vol-27-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-020.jpg) | 20 | 광주대단지 지하수 펌프와 공동상수도 사진 | historic-photo |
+| [vol-27-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-021.jpg) | 21 | 성남시 보건소 연혁 표 | table |
+| [vol-27-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-022.jpg) | 22 | 광주대단지 치과 진료 대기와 무의촌 치과 진료 버스 | historic-photo |
+| [vol-27-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-025.jpg) | 25 | 성남중앙병원 전경 | hospital-photo |
+| [vol-27-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-027.jpg) | 27 | 분당서울대학교병원 전경 | hospital-photo |
+| [vol-27-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-034.jpg) | 34 | 성남시와 보바스기념병원 협약식 | policy-photo |
+| [vol-27-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-035.jpg) | 35 | 전국 최초 무상 공공산후조리원 설치 홍보 현수막 | policy-photo |
+| [vol-27-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-037.jpg) | 37 | 의료관광 지원체계 구축 협약 참여 기관 표 | table |
+| [vol-27-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-039.jpg) | 39 | 암 환자 힐링센터 늘해랑 개소식 | health-program-photo |
+| [vol-27-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-043.jpg) | 43 | 뇌건강 체험박물관 개관 | facility-photo |
+| [vol-27-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-044.jpg) | 44 | 치매 예방 로봇 프로그램 | health-program-photo |
+| [vol-27-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-050.jpg) | 50 | 통합응급의료지원센터 협약식 | policy-photo |
+| [vol-27-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-052.jpg) | 52 | 메르스 감염 확산 방지 대책회의 | infection-response-photo |
+| [vol-27-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-053.jpg) | 53 | 분당구 보건소 메르스 전용 시설 | infection-response-photo |
+| [vol-27-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-055.jpg) | 55 | 메르스 공공시설 방역 사진 | infection-response-photo |
+| [vol-27-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-056.jpg) | 56 | 전 세계 코로나19 추이 그래프 | chart |
+| [vol-27-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-057.jpg) | 57 | 국내 코로나19 발생·사망 보고 현황 | chart |
+| [vol-27-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-059.jpg) | 59 | 코로나19 심각 격상 총력 점검회의 | infection-response-photo |
+| [vol-27-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-060.jpg) | 60 | 성남시청 체력단련실 임시 휴관 | infection-response-photo |
+| [vol-27-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-061.jpg) | 61 | 코로나19 자가격리자 즉석 음식 지원 | support-photo |
+| [vol-27-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-065.jpg) | 65 | 시민 주도 상생 캠페인 참여 기관과 단체 | community-response |
+| [vol-27-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-066.jpg) | 66 | 성남시의회 코로나19 극복 기자회견 | council-photo |
+| [vol-27-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-068.jpg) | 68 | 코로나19 예방 백신 접종 사진 | vaccination-photo |
+| [vol-27-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-069.jpg) | 69 | 포스트 코로나19 대비 감염병 심포지엄 | symposium-photo |
+| [vol-27-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-070.jpg) | 70 | 성남시 코로나19 연표 1 | timeline-table |
+| [vol-27-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-071.jpg) | 71 | 성남시 코로나19 연표 2 | timeline-table |
+| [vol-27-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-072.jpg) | 72 | 성남시 코로나19 연표 3 | timeline-table |
+| [vol-27-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-074.jpg) | 74 | 보건소 직원 감염병 역량 강화 워크숍 | training-photo |
+| [vol-27-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-078.jpg) | 78 | 성남시의료원 주요 연혁 표 | table |
+| [vol-27-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-080.jpg) | 80 | 성남 바이오헬스산업 육성 컨벤션 개막식 | conference-photo |
+| [vol-27-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-088.jpg) | 88 | 성남 국제의료관광 컨벤션 개막식 | conference-photo |
+| [vol-27-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-090.jpg) | 90 | 수정구·중원구·분당구 보건소 전경 | facility-photo |
+| [vol-27-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-095.jpg) | 95 | 건강의 사회생태학 모형 | diagram |
+| [vol-27-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-096.jpg) | 96 | 성남시 WHO 고령친화도시 인증 선포식 | policy-photo |
+| [vol-27-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-098.jpg) | 98 | 성남시의료원 운영 방식 개선 정책토론회 | policy-photo |
+| [vol-27-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-101.jpg) | 101 | 원도심 재개발 공사 모습 | urban-health-context |
+| [vol-27-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-103.jpg) | 103 | 참고문헌 | bibliography |
+| [vol-27-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-104.jpg) | 104 | 판권과 집필자 | colophon |
 
 ## 전체 렌더링 페이지 목록
 
 | 파일 | 원문 쪽 | 첫 식별 텍스트 |
 | --- | --- | --- |
-| [vol-27-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-001.jpg) | 1 | 발 간 등 록 번 호 |
-| [vol-27-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-002.jpg) | 2 | 한눈에 보는 성남시 보건·의료 |
-| [vol-27-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-003.jpg) | 3 | 4 |
-| [vol-27-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-004.jpg) | 4 | 한눈에 보는 성남시 보건·의료 |
-| [vol-27-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-005.jpg) | 5 | (개소) (개소) |
-| [vol-27-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-006.jpg) | 6 | 제27권 성남의 보건 의료와 정책 성남시사 (50년사) |
-| [vol-27-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-007.jpg) | 7 | 전국과 성남시의 요양병원 수 변동 추이 비교 |
-| [vol-27-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-008.jpg) | 8 | 제27권 성남의 보건 의료와 정책 성남시사 (50년사) |
-| [vol-27-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-009.jpg) | 9 | 인구 1,000명당 성남시 치과병(의)원 병상 수 변동 추이 |
-| [vol-27-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-010.jpg) | 10 | 제27권 성남의 보건 의료와 정책 성남시사 (50년사) |
-| [vol-27-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-011.jpg) | 11 | 0.1 0.2 0.3 0.4 0.5 (명) 0.1 0.2 0.3 0.4 0.5 0.6 0.7 (명) |
-| [vol-27-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-012.jpg) | 12 | 제27권 성남의 보건 의료와 정책 성남시사 (50년사) |
-| [vol-27-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-013.jpg) | 13 | 2. 한눈에 보는 성남 시민의 건강행태 |
-| [vol-27-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-014.jpg) | 14 | 고위험 음주율 |
-| [vol-27-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-015.jpg) | 15 | 비만율 |
-| [vol-27-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-016.jpg) | 16 | 스트레스 인지율 |
-| [vol-27-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-017.jpg) | 17 | 고혈압 진단율 |
-| [vol-27-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-018.jpg) | 18 | 1 |
-| [vol-27-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-019.jpg) | 19 | 1. 성남시의 초기 의료 인프라 구축 |
-| [vol-27-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-020.jpg) | 20 | 광주대단지 지하수 펌프(1969) 광주대단지의 공동상수도(1970년 추정) |
-| [vol-27-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-021.jpg) | 21 | 성남시 보건소 연혁(광주대단지~분당신도시 입주 초기) |
-| [vol-27-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-022.jpg) | 22 | 치과 진료를 위해 줄을 선 광주대단지 주민들 광주대단지 무의촌 치과 진료 버스에서의 진료 |
-| [vol-27-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-023.jpg) | 23 | 자도 발생하였다. 이런 열악한 의 |
-| [vol-27-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-024.jpg) | 24 | 2. 성남시 초기 의료기관과 의료 서비스 |
-| [vol-27-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-025.jpg) | 25 | 성남중앙병원 전경 |
-| [vol-27-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-026.jpg) | 26 | 원하였다. 한미병원은 1985년 8월 17일 한진그룹에 매각되었고, 인하대학교 인하병원으 |
-| [vol-27-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-027.jpg) | 27 | 3. 분당신도시 조성과 의료기관의 변화 |
-| [vol-27-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-028.jpg) | 28 | 다. 재단은 2003년 2월 말 기준으로 병원의 누적적자가 552억 원에 달하고 당해 연도에도 |
-| [vol-27-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-029.jpg) | 29 | 2 |
-| [vol-27-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-030.jpg) | 30 | 1. 성남시의료원 설립 운동 |
-| [vol-27-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-031.jpg) | 31 | 시립병원 설립을 촉구하고 있는 시립병원설립운동본부 시립병원 설립 관련 토론회 |
-| [vol-27-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-032.jpg) | 32 | 태평동 옛 시청사 해체 발파 모습(2011.11.1.) |
-| [vol-27-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-033.jpg) | 33 | 는 진통을 겪었다. 또 그해 10월 2일에는 한나라당 시의원들이 「성남시의료원 설립 및 운 |
-| [vol-27-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-034.jpg) | 34 | 2. 성남시 보건·의료사업의 발전 |
-| [vol-27-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-035.jpg) | 35 | 맺었다. 이 협약에 따라 성남시와 보바스기 |
-| [vol-27-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-036.jpg) | 36 | 3. 의료관광 사업의 개시 |
-| [vol-27-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-037.jpg) | 37 | 2015년 7월 21일에는 의료관광 활성화를 위해 관내 병원·기관·업체와 손잡고 지역 의 |
-| [vol-27-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-038.jpg) | 38 | 성남시는 2016년 하반기 시청사 내에 ‘의료관광지원센터’를 설치해 의료관광 산업을 |
-| [vol-27-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-039.jpg) | 39 | 4. 중요 질환에 대한 대처 |
-| [vol-27-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-040.jpg) | 40 | 적을 바탕으로 이루어졌다. 성남시의료원은 말기 암 환자와 가족들을 위한 종합적인 호 |
-| [vol-27-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-041.jpg) | 41 | (3) 고혈압·당뇨 교육 |
-| [vol-27-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-042.jpg) | 42 | ‘성남시 초등학생 치과주치의’ 협약식(2016.7.26.) |
-| [vol-27-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-043.jpg) | 43 | 5) 뇌 건강 |
-| [vol-27-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-044.jpg) | 44 | 치매 예방 로봇 프로그램(출처 : 치매안심센터) |
-| [vol-27-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-045.jpg) | 45 | 6) 기타 질환 |
-| [vol-27-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-046.jpg) | 46 | 5. 공공의료협의체와 건강도시 사업 |
-| [vol-27-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-047.jpg) | 47 | 2022 공공의료 포럼(2022.11.22.) |
-| [vol-27-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-048.jpg) | 48 | 평등, 행복, 건강한 성남 |
-| [vol-27-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-049.jpg) | 49 | 성남시는 2018년 말까지 2,000여 명 정도가 시민건강닥터제를 이용할 것으로 예상하 |
-| [vol-27-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-050.jpg) | 50 | (2) 통합응급의료지원센터 협약 |
-| [vol-27-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-051.jpg) | 51 | 3 |
-| [vol-27-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-052.jpg) | 52 | 1. 메르스와 성남시의 대응 |
-| [vol-27-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-053.jpg) | 53 | 한편, 확진자 186명 중 182명이 병원 |
-| [vol-27-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-054.jpg) | 54 | 해 현장대응팀을 구성하여 지원했다. |
-| [vol-27-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-055.jpg) | 55 | 메르스 확산을 예방하기 위해 공공시설 방역 중인 공무원들 |
-| [vol-27-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-056.jpg) | 56 | 2. 코로나19와 성남시의 대응 |
-| [vol-27-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-057.jpg) | 57 | 국내 코로나19 발생·사망보고현황(2020.1.20.~2023.8.31.)(출처 : 감염병포털) |
-| [vol-27-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-058.jpg) | 58 | (1) ‘심각’ 단계 격상과 대응 |
-| [vol-27-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-059.jpg) | 59 | 이 외에 성남종합버스터미널에 드론 열화상 카메라를 설치하여 매일 오전 10시부터 오 |
-| [vol-27-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-060.jpg) | 60 | 모 행사 자제를 적극적으로 요청했다. |
-| [vol-27-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-061.jpg) | 61 | 에서 운영하던 141개의 문화 교실과 독서회 프로그램도 잠정 중단하였다. 방역 물품도 대 |
-| [vol-27-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-062.jpg) | 62 | (4) 코로나19 관련 가짜뉴스 대응 강화 |
-| [vol-27-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-063.jpg) | 63 | (2) 코로나19 전담 요원 독감 예방접종 지원 |
-| [vol-27-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-064.jpg) | 64 | (4) 확산 방지를 위한 예방 수칙 발표와 집회 금지 |
-| [vol-27-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-065.jpg) | 65 | 시민 주도 상생 캠페인 참여 기관과 단체(출처 : 『비전성남』, 2020.3.2.) |
-| [vol-27-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-066.jpg) | 66 | 코로나19 극복을 위한 성남시의회 기자회견(2020.3.30., 출처 : 성남시의회) |
-| [vol-27-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-067.jpg) | 67 | (5) 성남시의료원 응급의료센터의 시범운영 |
-| [vol-27-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-068.jpg) | 68 | 코로나19 예방 백신을 접종 중인 은수미 시장(2021.4.2.) |
-| [vol-27-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-069.jpg) | 69 | 포스트 코로나19 대비 감염병 심포지엄(2023.3.30.) |
-| [vol-27-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-070.jpg) | 70 | STOP 프로젝트’, 위드 코로나를 위한 ‘안심식당’ 지정, 겨울철 재유행을 대비한 동절기 |
-| [vol-27-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-071.jpg) | 71 | 연도 날짜 내용 |
-| [vol-27-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-072.jpg) | 72 | 연도 날짜 내용 |
-| [vol-27-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-073.jpg) | 73 | 3. 기타 감염병과 대응 |
-| [vol-27-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-074.jpg) | 74 | 3) 호흡기질환 : 폐렴과 독감 |
-| [vol-27-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-075.jpg) | 75 | 4 |
-| [vol-27-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-076.jpg) | 76 | 1. 성남시의 의료 관련 주요 정책 |
-| [vol-27-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-077.jpg) | 77 | 성남아트리움 개관식(2022.3.3.) |
-| [vol-27-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-078.jpg) | 78 | 4년여의 준비 과정을 거쳐 2020년 7월 28일 성남시의료원을 개원했다. 시립의료원 개원 |
-| [vol-27-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-079.jpg) | 79 | 했으며, 센터 내에서 보호 대상자를 수시 점검하여 이상 유무를 확인하고, 대상자의 난동 |
-| [vol-27-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-080.jpg) | 80 | 2023 성남 바이오헬스산업 육선 컨벤션 개막식(2023.11.29.) |
-| [vol-27-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-081.jpg) | 81 | 사회참여를 증진하기 위한 사업을 수행하였다. 2000년에 사업을 시작하여 2005년에 방문 |
-| [vol-27-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-082.jpg) | 82 | 초등학생 치과주치의 업무협약(2016.7.26.) |
-| [vol-27-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-083.jpg) | 83 | 2009년 사업이 시작되어 아토피·천식 질환에 대한 체계적인 관리 기반을 마련하였고, |
-| [vol-27-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-084.jpg) | 84 | 되었다. 이러한 지속적인 발전을 통해 희귀난치성 질환자 의료비 지원 사업은 대상자들의 |
-| [vol-27-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-085.jpg) | 85 | □ 성 매개 감염병 및 에이즈 관리 |
-| [vol-27-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-086.jpg) | 86 | □ 해외 유입 감염병 관리 |
-| [vol-27-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-087.jpg) | 87 | 2. 초고령화 시대 성남 의료의 미래 |
-| [vol-27-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-088.jpg) | 88 | 강보험을 통한 지불보상체계를 제외하면 시장 기능을 통해 공급되는 성향이 크다. 따라 |
-| [vol-27-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-089.jpg) | 89 | 의료관광 코디네이터 양성(7개 언어권 36명), 의료관광 홍보 설명회 개최 및 참가(러시 |
-| [vol-27-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-090.jpg) | 90 | 획 수립 등의 업무를 담당하고 있다. |
-| [vol-27-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-091.jpg) | 91 | 높이가 많이 높아졌다. 시민들이 보건소 서비스를 질 높은 서비스로 이해하게 할 수 있는 |
-| [vol-27-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-092.jpg) | 92 | (3) 건강 거버넌스 구축의 필요성 |
-| [vol-27-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-093.jpg) | 93 | 성남시의사회와 함께하는 제18회 성남 시민 걷기대회(2018.10.14.) |
-| [vol-27-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-094.jpg) | 94 | 세계보건기구의 One Health 개념 |
-| [vol-27-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-095.jpg) | 95 | 건강의 사회생태학 모형 |
-| [vol-27-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-096.jpg) | 96 | 영유아기는 면역력이 약하며 |
-| [vol-27-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-097.jpg) | 97 | 하여 시민의 건강을 모니터링하고 조기 진단하여 치료를 지원하는 체계를 도입하여 시민 |
-| [vol-27-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-098.jpg) | 98 | 성남시의료원 운영 방식 개선 방안 도출을 위한 정책토론회(2023.2.17.) |
-| [vol-27-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-099.jpg) | 99 | 99 |
-| [vol-27-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-100.jpg) | 100 | 단, 치료하는 의료기관을 확보하기 위해 민간의료기관 중에서 ‘호흡기 진료 지정 의료기 |
-| [vol-27-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-101.jpg) | 101 | 원도심(수정구 산성, 신흥2구역) 재개발 공사 모습(2023) |
-| [vol-27-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-102.jpg) | 102 | 의 충격이 벽을 타고 전달되어 층간소음의 영향이 많이 발생하는 단점이 있다. 따라서 아 |
-| [vol-27-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-103.jpg) | 103 | 참 |
-| [vol-27-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27-page-104.jpg) | 104 | 성남시사 27 |
+| [vol-27-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-001.jpg) | 1 | 발 간 등 록 번 호 |
+| [vol-27-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-002.jpg) | 2 | 한눈에 보는 성남시 보건·의료 |
+| [vol-27-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-003.jpg) | 3 | 4 |
+| [vol-27-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-004.jpg) | 4 | 한눈에 보는 성남시 보건·의료 |
+| [vol-27-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-005.jpg) | 5 | (개소) (개소) |
+| [vol-27-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-006.jpg) | 6 | 제27권 성남의 보건 의료와 정책 성남시사 (50년사) |
+| [vol-27-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-007.jpg) | 7 | 전국과 성남시의 요양병원 수 변동 추이 비교 |
+| [vol-27-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-008.jpg) | 8 | 제27권 성남의 보건 의료와 정책 성남시사 (50년사) |
+| [vol-27-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-009.jpg) | 9 | 인구 1,000명당 성남시 치과병(의)원 병상 수 변동 추이 |
+| [vol-27-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-010.jpg) | 10 | 제27권 성남의 보건 의료와 정책 성남시사 (50년사) |
+| [vol-27-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-011.jpg) | 11 | 0.1 0.2 0.3 0.4 0.5 (명) 0.1 0.2 0.3 0.4 0.5 0.6 0.7 (명) |
+| [vol-27-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-012.jpg) | 12 | 제27권 성남의 보건 의료와 정책 성남시사 (50년사) |
+| [vol-27-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-013.jpg) | 13 | 2. 한눈에 보는 성남 시민의 건강행태 |
+| [vol-27-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-014.jpg) | 14 | 고위험 음주율 |
+| [vol-27-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-015.jpg) | 15 | 비만율 |
+| [vol-27-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-016.jpg) | 16 | 스트레스 인지율 |
+| [vol-27-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-017.jpg) | 17 | 고혈압 진단율 |
+| [vol-27-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-018.jpg) | 18 | 1 |
+| [vol-27-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-019.jpg) | 19 | 1. 성남시의 초기 의료 인프라 구축 |
+| [vol-27-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-020.jpg) | 20 | 광주대단지 지하수 펌프(1969) 광주대단지의 공동상수도(1970년 추정) |
+| [vol-27-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-021.jpg) | 21 | 성남시 보건소 연혁(광주대단지~분당신도시 입주 초기) |
+| [vol-27-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-022.jpg) | 22 | 치과 진료를 위해 줄을 선 광주대단지 주민들 광주대단지 무의촌 치과 진료 버스에서의 진료 |
+| [vol-27-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-023.jpg) | 23 | 자도 발생하였다. 이런 열악한 의 |
+| [vol-27-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-024.jpg) | 24 | 2. 성남시 초기 의료기관과 의료 서비스 |
+| [vol-27-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-025.jpg) | 25 | 성남중앙병원 전경 |
+| [vol-27-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-026.jpg) | 26 | 원하였다. 한미병원은 1985년 8월 17일 한진그룹에 매각되었고, 인하대학교 인하병원으 |
+| [vol-27-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-027.jpg) | 27 | 3. 분당신도시 조성과 의료기관의 변화 |
+| [vol-27-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-028.jpg) | 28 | 다. 재단은 2003년 2월 말 기준으로 병원의 누적적자가 552억 원에 달하고 당해 연도에도 |
+| [vol-27-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-029.jpg) | 29 | 2 |
+| [vol-27-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-030.jpg) | 30 | 1. 성남시의료원 설립 운동 |
+| [vol-27-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-031.jpg) | 31 | 시립병원 설립을 촉구하고 있는 시립병원설립운동본부 시립병원 설립 관련 토론회 |
+| [vol-27-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-032.jpg) | 32 | 태평동 옛 시청사 해체 발파 모습(2011.11.1.) |
+| [vol-27-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-033.jpg) | 33 | 는 진통을 겪었다. 또 그해 10월 2일에는 한나라당 시의원들이 「성남시의료원 설립 및 운 |
+| [vol-27-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-034.jpg) | 34 | 2. 성남시 보건·의료사업의 발전 |
+| [vol-27-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-035.jpg) | 35 | 맺었다. 이 협약에 따라 성남시와 보바스기 |
+| [vol-27-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-036.jpg) | 36 | 3. 의료관광 사업의 개시 |
+| [vol-27-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-037.jpg) | 37 | 2015년 7월 21일에는 의료관광 활성화를 위해 관내 병원·기관·업체와 손잡고 지역 의 |
+| [vol-27-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-038.jpg) | 38 | 성남시는 2016년 하반기 시청사 내에 ‘의료관광지원센터’를 설치해 의료관광 산업을 |
+| [vol-27-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-039.jpg) | 39 | 4. 중요 질환에 대한 대처 |
+| [vol-27-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-040.jpg) | 40 | 적을 바탕으로 이루어졌다. 성남시의료원은 말기 암 환자와 가족들을 위한 종합적인 호 |
+| [vol-27-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-041.jpg) | 41 | (3) 고혈압·당뇨 교육 |
+| [vol-27-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-042.jpg) | 42 | ‘성남시 초등학생 치과주치의’ 협약식(2016.7.26.) |
+| [vol-27-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-043.jpg) | 43 | 5) 뇌 건강 |
+| [vol-27-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-044.jpg) | 44 | 치매 예방 로봇 프로그램(출처 : 치매안심센터) |
+| [vol-27-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-045.jpg) | 45 | 6) 기타 질환 |
+| [vol-27-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-046.jpg) | 46 | 5. 공공의료협의체와 건강도시 사업 |
+| [vol-27-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-047.jpg) | 47 | 2022 공공의료 포럼(2022.11.22.) |
+| [vol-27-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-048.jpg) | 48 | 평등, 행복, 건강한 성남 |
+| [vol-27-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-049.jpg) | 49 | 성남시는 2018년 말까지 2,000여 명 정도가 시민건강닥터제를 이용할 것으로 예상하 |
+| [vol-27-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-050.jpg) | 50 | (2) 통합응급의료지원센터 협약 |
+| [vol-27-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-051.jpg) | 51 | 3 |
+| [vol-27-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-052.jpg) | 52 | 1. 메르스와 성남시의 대응 |
+| [vol-27-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-053.jpg) | 53 | 한편, 확진자 186명 중 182명이 병원 |
+| [vol-27-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-054.jpg) | 54 | 해 현장대응팀을 구성하여 지원했다. |
+| [vol-27-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-055.jpg) | 55 | 메르스 확산을 예방하기 위해 공공시설 방역 중인 공무원들 |
+| [vol-27-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-056.jpg) | 56 | 2. 코로나19와 성남시의 대응 |
+| [vol-27-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-057.jpg) | 57 | 국내 코로나19 발생·사망보고현황(2020.1.20.~2023.8.31.)(출처 : 감염병포털) |
+| [vol-27-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-058.jpg) | 58 | (1) ‘심각’ 단계 격상과 대응 |
+| [vol-27-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-059.jpg) | 59 | 이 외에 성남종합버스터미널에 드론 열화상 카메라를 설치하여 매일 오전 10시부터 오 |
+| [vol-27-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-060.jpg) | 60 | 모 행사 자제를 적극적으로 요청했다. |
+| [vol-27-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-061.jpg) | 61 | 에서 운영하던 141개의 문화 교실과 독서회 프로그램도 잠정 중단하였다. 방역 물품도 대 |
+| [vol-27-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-062.jpg) | 62 | (4) 코로나19 관련 가짜뉴스 대응 강화 |
+| [vol-27-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-063.jpg) | 63 | (2) 코로나19 전담 요원 독감 예방접종 지원 |
+| [vol-27-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-064.jpg) | 64 | (4) 확산 방지를 위한 예방 수칙 발표와 집회 금지 |
+| [vol-27-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-065.jpg) | 65 | 시민 주도 상생 캠페인 참여 기관과 단체(출처 : 『비전성남』, 2020.3.2.) |
+| [vol-27-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-066.jpg) | 66 | 코로나19 극복을 위한 성남시의회 기자회견(2020.3.30., 출처 : 성남시의회) |
+| [vol-27-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-067.jpg) | 67 | (5) 성남시의료원 응급의료센터의 시범운영 |
+| [vol-27-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-068.jpg) | 68 | 코로나19 예방 백신을 접종 중인 은수미 시장(2021.4.2.) |
+| [vol-27-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-069.jpg) | 69 | 포스트 코로나19 대비 감염병 심포지엄(2023.3.30.) |
+| [vol-27-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-070.jpg) | 70 | STOP 프로젝트’, 위드 코로나를 위한 ‘안심식당’ 지정, 겨울철 재유행을 대비한 동절기 |
+| [vol-27-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-071.jpg) | 71 | 연도 날짜 내용 |
+| [vol-27-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-072.jpg) | 72 | 연도 날짜 내용 |
+| [vol-27-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-073.jpg) | 73 | 3. 기타 감염병과 대응 |
+| [vol-27-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-074.jpg) | 74 | 3) 호흡기질환 : 폐렴과 독감 |
+| [vol-27-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-075.jpg) | 75 | 4 |
+| [vol-27-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-076.jpg) | 76 | 1. 성남시의 의료 관련 주요 정책 |
+| [vol-27-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-077.jpg) | 77 | 성남아트리움 개관식(2022.3.3.) |
+| [vol-27-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-078.jpg) | 78 | 4년여의 준비 과정을 거쳐 2020년 7월 28일 성남시의료원을 개원했다. 시립의료원 개원 |
+| [vol-27-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-079.jpg) | 79 | 했으며, 센터 내에서 보호 대상자를 수시 점검하여 이상 유무를 확인하고, 대상자의 난동 |
+| [vol-27-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-080.jpg) | 80 | 2023 성남 바이오헬스산업 육선 컨벤션 개막식(2023.11.29.) |
+| [vol-27-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-081.jpg) | 81 | 사회참여를 증진하기 위한 사업을 수행하였다. 2000년에 사업을 시작하여 2005년에 방문 |
+| [vol-27-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-082.jpg) | 82 | 초등학생 치과주치의 업무협약(2016.7.26.) |
+| [vol-27-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-083.jpg) | 83 | 2009년 사업이 시작되어 아토피·천식 질환에 대한 체계적인 관리 기반을 마련하였고, |
+| [vol-27-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-084.jpg) | 84 | 되었다. 이러한 지속적인 발전을 통해 희귀난치성 질환자 의료비 지원 사업은 대상자들의 |
+| [vol-27-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-085.jpg) | 85 | □ 성 매개 감염병 및 에이즈 관리 |
+| [vol-27-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-086.jpg) | 86 | □ 해외 유입 감염병 관리 |
+| [vol-27-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-087.jpg) | 87 | 2. 초고령화 시대 성남 의료의 미래 |
+| [vol-27-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-088.jpg) | 88 | 강보험을 통한 지불보상체계를 제외하면 시장 기능을 통해 공급되는 성향이 크다. 따라 |
+| [vol-27-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-089.jpg) | 89 | 의료관광 코디네이터 양성(7개 언어권 36명), 의료관광 홍보 설명회 개최 및 참가(러시 |
+| [vol-27-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-090.jpg) | 90 | 획 수립 등의 업무를 담당하고 있다. |
+| [vol-27-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-091.jpg) | 91 | 높이가 많이 높아졌다. 시민들이 보건소 서비스를 질 높은 서비스로 이해하게 할 수 있는 |
+| [vol-27-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-092.jpg) | 92 | (3) 건강 거버넌스 구축의 필요성 |
+| [vol-27-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-093.jpg) | 93 | 성남시의사회와 함께하는 제18회 성남 시민 걷기대회(2018.10.14.) |
+| [vol-27-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-094.jpg) | 94 | 세계보건기구의 One Health 개념 |
+| [vol-27-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-095.jpg) | 95 | 건강의 사회생태학 모형 |
+| [vol-27-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-096.jpg) | 96 | 영유아기는 면역력이 약하며 |
+| [vol-27-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-097.jpg) | 97 | 하여 시민의 건강을 모니터링하고 조기 진단하여 치료를 지원하는 체계를 도입하여 시민 |
+| [vol-27-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-098.jpg) | 98 | 성남시의료원 운영 방식 개선 방안 도출을 위한 정책토론회(2023.2.17.) |
+| [vol-27-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-099.jpg) | 99 | 99 |
+| [vol-27-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-100.jpg) | 100 | 단, 치료하는 의료기관을 확보하기 위해 민간의료기관 중에서 ‘호흡기 진료 지정 의료기 |
+| [vol-27-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-101.jpg) | 101 | 원도심(수정구 산성, 신흥2구역) 재개발 공사 모습(2023) |
+| [vol-27-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-102.jpg) | 102 | 의 충격이 벽을 타고 전달되어 층간소음의 영향이 많이 발생하는 단점이 있다. 따라서 아 |
+| [vol-27-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-103.jpg) | 103 | 참 |
+| [vol-27-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-27/vol-27-page-104.jpg) | 104 | 성남시사 27 |
 
 ## 원문 텍스트
 

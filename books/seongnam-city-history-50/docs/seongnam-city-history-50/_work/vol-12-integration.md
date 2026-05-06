@@ -14,7 +14,7 @@
 
 - `docs/seongnam-city-history-50/vol-12-folklore.md`
 - `dist/seongnam-history-50-vol-12.llm.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-12-page-*.jpg` 57개
+- `docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-*.jpg` 57개
 - `docs/seongnam-city-history-50/_work/vol-12-integration.md`
 
 ## 공용 인덱스 병합 후보: 목차
@@ -31,63 +31,63 @@
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 | --- | --- | --- | --- |
-| [vol-12-page-007.jpg](../assets/pages/vol-12-page-007.jpg) | 7 | 성남 오리뜰 농악 공연 | rendered-page |
-| [vol-12-page-009.jpg](../assets/pages/vol-12-page-009.jpg) | 9 | 전통 살림집 배치도 | rendered-page |
-| [vol-12-page-011.jpg](../assets/pages/vol-12-page-011.jpg) | 11 | 판교동 연안이씨 이곤 불천위 사당 | rendered-page |
-| [vol-12-page-012.jpg](../assets/pages/vol-12-page-012.jpg) | 12 | 수내동가옥 | rendered-page |
-| [vol-12-page-013.jpg](../assets/pages/vol-12-page-013.jpg) | 13 | 1970년대 분당구 수내동 전경 | rendered-page |
-| [vol-12-page-017.jpg](../assets/pages/vol-12-page-017.jpg) | 17 | 판교동 개나리마을 | rendered-page |
-| [vol-12-page-019.jpg](../assets/pages/vol-12-page-019.jpg) | 19 | 취락구조개선사업과 농촌표준주택 수치 | rendered-page |
-| [vol-12-page-020.jpg](../assets/pages/vol-12-page-020.jpg) | 20 | 1978년 농촌표준주택 25평형 평면도 | rendered-page |
-| [vol-12-page-021.jpg](../assets/pages/vol-12-page-021.jpg) | 21 | 도시형 다세대주택 | rendered-page |
-| [vol-12-page-024.jpg](../assets/pages/vol-12-page-024.jpg) | 24 | 정자동 초고층 아파트단지와 단독주택 | rendered-page |
-| [vol-12-page-025.jpg](../assets/pages/vol-12-page-025.jpg) | 25 | 아파트 주생활 변화 | rendered-page |
-| [vol-12-page-029.jpg](../assets/pages/vol-12-page-029.jpg) | 29 | 단대동 닭죽촌 | rendered-page |
-| [vol-12-page-031.jpg](../assets/pages/vol-12-page-031.jpg) | 31 | 여수동 갈매기살촌 | rendered-page |
-| [vol-12-page-033.jpg](../assets/pages/vol-12-page-033.jpg) | 33 | 백현동 카페거리 | rendered-page |
-| [vol-12-page-037.jpg](../assets/pages/vol-12-page-037.jpg) | 37 | 전통 돌복과 개량 한복 돌복 | rendered-page |
-| [vol-12-page-038.jpg](../assets/pages/vol-12-page-038.jpg) | 38 | 전통 혼례복과 과도기 혼례복 | rendered-page |
-| [vol-12-page-039.jpg](../assets/pages/vol-12-page-039.jpg) | 39 | 현대 서양식 혼례복 | rendered-page |
-| [vol-12-page-040.jpg](../assets/pages/vol-12-page-040.jpg) | 40 | 상복 변화 | rendered-page |
-| [vol-12-page-041.jpg](../assets/pages/vol-12-page-041.jpg) | 41 | 제례복과 참사자 복장 | rendered-page |
-| [vol-12-page-045.jpg](../assets/pages/vol-12-page-045.jpg) | 45 | 결혼제도 인식 통계청 조사 | rendered-page |
-| [vol-12-page-047.jpg](../assets/pages/vol-12-page-047.jpg) | 47 | 혼인 건수 변동 추이 | rendered-page |
-| [vol-12-page-048.jpg](../assets/pages/vol-12-page-048.jpg) | 48 | 결혼식 형태 통계청 조사 | rendered-page |
-| [vol-12-page-049.jpg](../assets/pages/vol-12-page-049.jpg) | 49 | 성남시 예식장 현황 | rendered-page |
-| [vol-12-page-051.jpg](../assets/pages/vol-12-page-051.jpg) | 51 | 1990년대 결혼 준비 대행업체 기사 목록 | rendered-page |
-| [vol-12-page-052.jpg](../assets/pages/vol-12-page-052.jpg) | 52 | 결혼 비용과 웨딩 서비스 성장 | rendered-page |
-| [vol-12-page-053.jpg](../assets/pages/vol-12-page-053.jpg) | 53 | 인터넷 결혼 준비 기사 | rendered-page |
-| [vol-12-page-054.jpg](../assets/pages/vol-12-page-054.jpg) | 54 | 결혼정보회사 기사 | rendered-page |
-| [vol-12-page-055.jpg](../assets/pages/vol-12-page-055.jpg) | 55 | 중매 시장 급팽창 기사 | rendered-page |
-| [vol-12-page-057.jpg](../assets/pages/vol-12-page-057.jpg) | 57 | 작은 결혼식 설문 그래프 | rendered-page |
-| [vol-12-page-059.jpg](../assets/pages/vol-12-page-059.jpg) | 59 | 청계서당 전통 혼례 | rendered-page |
-| [vol-12-page-061.jpg](../assets/pages/vol-12-page-061.jpg) | 61 | 결혼 유형과 예상 비용 조사 | rendered-page |
-| [vol-12-page-062.jpg](../assets/pages/vol-12-page-062.jpg) | 62 | 결혼 비용·결혼식 문화 인식·비혼 이유 통계 | rendered-page |
-| [vol-12-page-063.jpg](../assets/pages/vol-12-page-063.jpg) | 63 | 혼전 동거 인식 변화 | rendered-page |
-| [vol-12-page-064.jpg](../assets/pages/vol-12-page-064.jpg) | 64 | 향후 결혼계획과 결혼생활 조사 | rendered-page |
-| [vol-12-page-068.jpg](../assets/pages/vol-12-page-068.jpg) | 68 | 성남시화장장과 화장로 수골 시설 | rendered-page |
-| [vol-12-page-069.jpg](../assets/pages/vol-12-page-069.jpg) | 69 | 성남시장례식장 원스톱 구호 | rendered-page |
-| [vol-12-page-070.jpg](../assets/pages/vol-12-page-070.jpg) | 70 | 장례식장 시설·용품 안내 | rendered-page |
-| [vol-12-page-071.jpg](../assets/pages/vol-12-page-071.jpg) | 71 | 장례 정보와 제례 안내 | rendered-page |
-| [vol-12-page-072.jpg](../assets/pages/vol-12-page-072.jpg) | 72 | 하늘추모원 실내와 위패 표기 | rendered-page |
-| [vol-12-page-077.jpg](../assets/pages/vol-12-page-077.jpg) | 77 | 개별 장례 사례 사진 | rendered-page |
-| [vol-12-page-078.jpg](../assets/pages/vol-12-page-078.jpg) | 78 | 개별 장례 절차 | rendered-page |
-| [vol-12-page-079.jpg](../assets/pages/vol-12-page-079.jpg) | 79 | 하관·회다지·평토제 | rendered-page |
-| [vol-12-page-081.jpg](../assets/pages/vol-12-page-081.jpg) | 81 | 덕양군 비위 영가군부인 기신제 개관 | rendered-page |
-| [vol-12-page-082.jpg](../assets/pages/vol-12-page-082.jpg) | 82 | 덕양군 비위 기신제 진설 | rendered-page |
-| [vol-12-page-083.jpg](../assets/pages/vol-12-page-083.jpg) | 83 | 기신제 출주·분향강신·홀기 | rendered-page |
-| [vol-12-page-085.jpg](../assets/pages/vol-12-page-085.jpg) | 85 | 기신제 독축·축문·첨작 | rendered-page |
-| [vol-12-page-086.jpg](../assets/pages/vol-12-page-086.jpg) | 86 | 기신제 사신례·합문·분축례·음복 | rendered-page |
-| [vol-12-page-087.jpg](../assets/pages/vol-12-page-087.jpg) | 87 | 새벽 기신제의 기원 | rendered-page |
-| [vol-12-page-092.jpg](../assets/pages/vol-12-page-092.jpg) | 92 | 전주이씨 덕양군파 세일제 절차 1 | rendered-page |
-| [vol-12-page-094.jpg](../assets/pages/vol-12-page-094.jpg) | 94 | 전주이씨 덕양군파 세일제 절차 2 | rendered-page |
-| [vol-12-page-095.jpg](../assets/pages/vol-12-page-095.jpg) | 95 | 전주이씨 덕양군파 세일제 운영 | rendered-page |
-| [vol-12-page-096.jpg](../assets/pages/vol-12-page-096.jpg) | 96 | 세일제 제관 분방기와 종중 기반 | rendered-page |
-| [vol-12-page-121.jpg](../assets/pages/vol-12-page-121.jpg) | 121 | 고등동 산제사 상차림과 주민 잔치 | rendered-page |
-| [vol-12-page-122.jpg](../assets/pages/vol-12-page-122.jpg) | 122 | 판교 회나무 고사 | rendered-page |
-| [vol-12-page-123.jpg](../assets/pages/vol-12-page-123.jpg) | 123 | 회나무 고사 절차 | rendered-page |
-| [vol-12-page-124.jpg](../assets/pages/vol-12-page-124.jpg) | 124 | 8·10 성남항쟁 신문 기사 | rendered-page |
-| [vol-12-page-125.jpg](../assets/pages/vol-12-page-125.jpg) | 125 | 수정구·중원구 점집 분포 | rendered-page |
+| [vol-12-page-007.jpg](../assets/pages/vol-12/vol-12-page-007.jpg) | 7 | 성남 오리뜰 농악 공연 | rendered-page |
+| [vol-12-page-009.jpg](../assets/pages/vol-12/vol-12-page-009.jpg) | 9 | 전통 살림집 배치도 | rendered-page |
+| [vol-12-page-011.jpg](../assets/pages/vol-12/vol-12-page-011.jpg) | 11 | 판교동 연안이씨 이곤 불천위 사당 | rendered-page |
+| [vol-12-page-012.jpg](../assets/pages/vol-12/vol-12-page-012.jpg) | 12 | 수내동가옥 | rendered-page |
+| [vol-12-page-013.jpg](../assets/pages/vol-12/vol-12-page-013.jpg) | 13 | 1970년대 분당구 수내동 전경 | rendered-page |
+| [vol-12-page-017.jpg](../assets/pages/vol-12/vol-12-page-017.jpg) | 17 | 판교동 개나리마을 | rendered-page |
+| [vol-12-page-019.jpg](../assets/pages/vol-12/vol-12-page-019.jpg) | 19 | 취락구조개선사업과 농촌표준주택 수치 | rendered-page |
+| [vol-12-page-020.jpg](../assets/pages/vol-12/vol-12-page-020.jpg) | 20 | 1978년 농촌표준주택 25평형 평면도 | rendered-page |
+| [vol-12-page-021.jpg](../assets/pages/vol-12/vol-12-page-021.jpg) | 21 | 도시형 다세대주택 | rendered-page |
+| [vol-12-page-024.jpg](../assets/pages/vol-12/vol-12-page-024.jpg) | 24 | 정자동 초고층 아파트단지와 단독주택 | rendered-page |
+| [vol-12-page-025.jpg](../assets/pages/vol-12/vol-12-page-025.jpg) | 25 | 아파트 주생활 변화 | rendered-page |
+| [vol-12-page-029.jpg](../assets/pages/vol-12/vol-12-page-029.jpg) | 29 | 단대동 닭죽촌 | rendered-page |
+| [vol-12-page-031.jpg](../assets/pages/vol-12/vol-12-page-031.jpg) | 31 | 여수동 갈매기살촌 | rendered-page |
+| [vol-12-page-033.jpg](../assets/pages/vol-12/vol-12-page-033.jpg) | 33 | 백현동 카페거리 | rendered-page |
+| [vol-12-page-037.jpg](../assets/pages/vol-12/vol-12-page-037.jpg) | 37 | 전통 돌복과 개량 한복 돌복 | rendered-page |
+| [vol-12-page-038.jpg](../assets/pages/vol-12/vol-12-page-038.jpg) | 38 | 전통 혼례복과 과도기 혼례복 | rendered-page |
+| [vol-12-page-039.jpg](../assets/pages/vol-12/vol-12-page-039.jpg) | 39 | 현대 서양식 혼례복 | rendered-page |
+| [vol-12-page-040.jpg](../assets/pages/vol-12/vol-12-page-040.jpg) | 40 | 상복 변화 | rendered-page |
+| [vol-12-page-041.jpg](../assets/pages/vol-12/vol-12-page-041.jpg) | 41 | 제례복과 참사자 복장 | rendered-page |
+| [vol-12-page-045.jpg](../assets/pages/vol-12/vol-12-page-045.jpg) | 45 | 결혼제도 인식 통계청 조사 | rendered-page |
+| [vol-12-page-047.jpg](../assets/pages/vol-12/vol-12-page-047.jpg) | 47 | 혼인 건수 변동 추이 | rendered-page |
+| [vol-12-page-048.jpg](../assets/pages/vol-12/vol-12-page-048.jpg) | 48 | 결혼식 형태 통계청 조사 | rendered-page |
+| [vol-12-page-049.jpg](../assets/pages/vol-12/vol-12-page-049.jpg) | 49 | 성남시 예식장 현황 | rendered-page |
+| [vol-12-page-051.jpg](../assets/pages/vol-12/vol-12-page-051.jpg) | 51 | 1990년대 결혼 준비 대행업체 기사 목록 | rendered-page |
+| [vol-12-page-052.jpg](../assets/pages/vol-12/vol-12-page-052.jpg) | 52 | 결혼 비용과 웨딩 서비스 성장 | rendered-page |
+| [vol-12-page-053.jpg](../assets/pages/vol-12/vol-12-page-053.jpg) | 53 | 인터넷 결혼 준비 기사 | rendered-page |
+| [vol-12-page-054.jpg](../assets/pages/vol-12/vol-12-page-054.jpg) | 54 | 결혼정보회사 기사 | rendered-page |
+| [vol-12-page-055.jpg](../assets/pages/vol-12/vol-12-page-055.jpg) | 55 | 중매 시장 급팽창 기사 | rendered-page |
+| [vol-12-page-057.jpg](../assets/pages/vol-12/vol-12-page-057.jpg) | 57 | 작은 결혼식 설문 그래프 | rendered-page |
+| [vol-12-page-059.jpg](../assets/pages/vol-12/vol-12-page-059.jpg) | 59 | 청계서당 전통 혼례 | rendered-page |
+| [vol-12-page-061.jpg](../assets/pages/vol-12/vol-12-page-061.jpg) | 61 | 결혼 유형과 예상 비용 조사 | rendered-page |
+| [vol-12-page-062.jpg](../assets/pages/vol-12/vol-12-page-062.jpg) | 62 | 결혼 비용·결혼식 문화 인식·비혼 이유 통계 | rendered-page |
+| [vol-12-page-063.jpg](../assets/pages/vol-12/vol-12-page-063.jpg) | 63 | 혼전 동거 인식 변화 | rendered-page |
+| [vol-12-page-064.jpg](../assets/pages/vol-12/vol-12-page-064.jpg) | 64 | 향후 결혼계획과 결혼생활 조사 | rendered-page |
+| [vol-12-page-068.jpg](../assets/pages/vol-12/vol-12-page-068.jpg) | 68 | 성남시화장장과 화장로 수골 시설 | rendered-page |
+| [vol-12-page-069.jpg](../assets/pages/vol-12/vol-12-page-069.jpg) | 69 | 성남시장례식장 원스톱 구호 | rendered-page |
+| [vol-12-page-070.jpg](../assets/pages/vol-12/vol-12-page-070.jpg) | 70 | 장례식장 시설·용품 안내 | rendered-page |
+| [vol-12-page-071.jpg](../assets/pages/vol-12/vol-12-page-071.jpg) | 71 | 장례 정보와 제례 안내 | rendered-page |
+| [vol-12-page-072.jpg](../assets/pages/vol-12/vol-12-page-072.jpg) | 72 | 하늘추모원 실내와 위패 표기 | rendered-page |
+| [vol-12-page-077.jpg](../assets/pages/vol-12/vol-12-page-077.jpg) | 77 | 개별 장례 사례 사진 | rendered-page |
+| [vol-12-page-078.jpg](../assets/pages/vol-12/vol-12-page-078.jpg) | 78 | 개별 장례 절차 | rendered-page |
+| [vol-12-page-079.jpg](../assets/pages/vol-12/vol-12-page-079.jpg) | 79 | 하관·회다지·평토제 | rendered-page |
+| [vol-12-page-081.jpg](../assets/pages/vol-12/vol-12-page-081.jpg) | 81 | 덕양군 비위 영가군부인 기신제 개관 | rendered-page |
+| [vol-12-page-082.jpg](../assets/pages/vol-12/vol-12-page-082.jpg) | 82 | 덕양군 비위 기신제 진설 | rendered-page |
+| [vol-12-page-083.jpg](../assets/pages/vol-12/vol-12-page-083.jpg) | 83 | 기신제 출주·분향강신·홀기 | rendered-page |
+| [vol-12-page-085.jpg](../assets/pages/vol-12/vol-12-page-085.jpg) | 85 | 기신제 독축·축문·첨작 | rendered-page |
+| [vol-12-page-086.jpg](../assets/pages/vol-12/vol-12-page-086.jpg) | 86 | 기신제 사신례·합문·분축례·음복 | rendered-page |
+| [vol-12-page-087.jpg](../assets/pages/vol-12/vol-12-page-087.jpg) | 87 | 새벽 기신제의 기원 | rendered-page |
+| [vol-12-page-092.jpg](../assets/pages/vol-12/vol-12-page-092.jpg) | 92 | 전주이씨 덕양군파 세일제 절차 1 | rendered-page |
+| [vol-12-page-094.jpg](../assets/pages/vol-12/vol-12-page-094.jpg) | 94 | 전주이씨 덕양군파 세일제 절차 2 | rendered-page |
+| [vol-12-page-095.jpg](../assets/pages/vol-12/vol-12-page-095.jpg) | 95 | 전주이씨 덕양군파 세일제 운영 | rendered-page |
+| [vol-12-page-096.jpg](../assets/pages/vol-12/vol-12-page-096.jpg) | 96 | 세일제 제관 분방기와 종중 기반 | rendered-page |
+| [vol-12-page-121.jpg](../assets/pages/vol-12/vol-12-page-121.jpg) | 121 | 고등동 산제사 상차림과 주민 잔치 | rendered-page |
+| [vol-12-page-122.jpg](../assets/pages/vol-12/vol-12-page-122.jpg) | 122 | 판교 회나무 고사 | rendered-page |
+| [vol-12-page-123.jpg](../assets/pages/vol-12/vol-12-page-123.jpg) | 123 | 회나무 고사 절차 | rendered-page |
+| [vol-12-page-124.jpg](../assets/pages/vol-12/vol-12-page-124.jpg) | 124 | 8·10 성남항쟁 신문 기사 | rendered-page |
+| [vol-12-page-125.jpg](../assets/pages/vol-12/vol-12-page-125.jpg) | 125 | 수정구·중원구 점집 분포 | rendered-page |
 
 ## 공용 stats.md 병합 후보
 

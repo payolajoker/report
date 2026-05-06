@@ -19,7 +19,7 @@
 - `docs/seongnam-city-history-50/vol-17-industrial-structure.md`
 - `dist/seongnam-history-50-vol-17.llm.md`
 - `docs/seongnam-city-history-50/_work/vol-17-integration.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-17-page-001.jpg` ... `vol-17-page-160.jpg`
+- `docs/seongnam-city-history-50/assets/pages/vol-17/vol-17-page-001.jpg` ... `vol-17-page-160.jpg`
 
 ## Suggested Index Row
 
@@ -33,93 +33,93 @@
 
 | 권 | 원문 쪽 | 파일 | 내용 | 처리 상태 |
 |---:|---:|---|---|---|
-| 17 | 1 | [vol-17-page-001.jpg](../assets/pages/vol-17-page-001.jpg) | 표지와 권명: 성남의 산업구조 | title-page |
-| 17 | 2 | [vol-17-page-002.jpg](../assets/pages/vol-17-page-002.jpg) | 권별 목차 1: Part 1-2 | toc |
-| 17 | 3 | [vol-17-page-003.jpg](../assets/pages/vol-17-page-003.jpg) | 권별 목차 2: Part 3-4 | toc |
-| 17 | 6 | [vol-17-page-006.jpg](../assets/pages/vol-17-page-006.jpg) | 한국의 경제성장률 그래프 | data-rendered |
-| 17 | 7 | [vol-17-page-007.jpg](../assets/pages/vol-17-page-007.jpg) | 한국 산업별 GDP 비중 변화 추이와 표 | data-rendered |
-| 17 | 8 | [vol-17-page-008.jpg](../assets/pages/vol-17-page-008.jpg) | 한국 산업별 고용 비중 변화 | data-rendered |
-| 17 | 9 | [vol-17-page-009.jpg](../assets/pages/vol-17-page-009.jpg) | 1977년 100억 달러 수출의 날 기념 아치 | figure-rendered |
-| 17 | 12 | [vol-17-page-012.jpg](../assets/pages/vol-17-page-012.jpg) | 제조업 세부 산업별 GDP 대비 비중 | data-rendered |
-| 17 | 13 | [vol-17-page-013.jpg](../assets/pages/vol-17-page-013.jpg) | 제조업 세부 산업별 부가가치 생산 증가율 | figure-rendered |
-| 17 | 14 | [vol-17-page-014.jpg](../assets/pages/vol-17-page-014.jpg) | 서비스업 세부 산업별 GDP·부가가치 생산 증가율 | figure-rendered |
-| 17 | 15 | [vol-17-page-015.jpg](../assets/pages/vol-17-page-015.jpg) | 10대 수출 품목으로 본 제조업 구조 고도화 | figure-rendered |
-| 17 | 16 | [vol-17-page-016.jpg](../assets/pages/vol-17-page-016.jpg) | 시도별 지역내총생산 표 | data-rendered |
-| 17 | 17 | [vol-17-page-017.jpg](../assets/pages/vol-17-page-017.jpg) | 수도권 내 공업 분포와 경기도 성장률 | figure-rendered |
-| 17 | 18 | [vol-17-page-018.jpg](../assets/pages/vol-17-page-018.jpg) | 경기도 GDP·제조업·서비스업 비중 표 | data-rendered |
-| 17 | 23 | [vol-17-page-023.jpg](../assets/pages/vol-17-page-023.jpg) | 성남 제2공업단지 오리엔트시계 생산 현장 | figure-rendered |
-| 17 | 24 | [vol-17-page-024.jpg](../assets/pages/vol-17-page-024.jpg) | 1980년대 성남 제2·3공업단지 전경 | figure-rendered |
-| 17 | 25 | [vol-17-page-025.jpg](../assets/pages/vol-17-page-025.jpg) | 1990년대 분당신도시 전경 | figure-rendered |
-| 17 | 26 | [vol-17-page-026.jpg](../assets/pages/vol-17-page-026.jpg) | 판교테크노밸리 전경 | figure-rendered |
-| 17 | 27 | [vol-17-page-027.jpg](../assets/pages/vol-17-page-027.jpg) | 성남시 4차산업 특별도시 조성 구상도 | data-rendered |
-| 17 | 28 | [vol-17-page-028.jpg](../assets/pages/vol-17-page-028.jpg) | 경기도와 31개 시군 명목 GRDP 표 | data-rendered |
-| 17 | 29 | [vol-17-page-029.jpg](../assets/pages/vol-17-page-029.jpg) | 경기도 31개 시군 실질 GRDP 성장률 표 | data-rendered |
-| 17 | 30 | [vol-17-page-030.jpg](../assets/pages/vol-17-page-030.jpg) | 경기도 주요 시군 1인당 명목 GRDP 표 | data-rendered |
-| 17 | 35 | [vol-17-page-035.jpg](../assets/pages/vol-17-page-035.jpg) | 성남 4차산업 특화 수준과 사업체·종사자 수 | figure-rendered |
-| 17 | 36 | [vol-17-page-036.jpg](../assets/pages/vol-17-page-036.jpg) | 성남 벤처기업·기업부설연구소와 콘텐츠 수출 현황 | data-rendered |
-| 17 | 37 | [vol-17-page-037.jpg](../assets/pages/vol-17-page-037.jpg) | 성남 AI·자율주행 특허와 콘텐츠 수출 서술 | data-rendered |
-| 17 | 40 | [vol-17-page-040.jpg](../assets/pages/vol-17-page-040.jpg) | 시 승격 이전 농가·취업자 수 표 | data-rendered |
-| 17 | 43 | [vol-17-page-043.jpg](../assets/pages/vol-17-page-043.jpg) | 성남 경지 면적·업태별 농가 표 | data-rendered |
-| 17 | 44 | [vol-17-page-044.jpg](../assets/pages/vol-17-page-044.jpg) | 경작 규모별 농가와 농기구 보유 표 | data-rendered |
-| 17 | 48 | [vol-17-page-048.jpg](../assets/pages/vol-17-page-048.jpg) | 1971년 성남 지역 용도별 토지 이용 계획 | figure-rendered |
-| 17 | 49 | [vol-17-page-049.jpg](../assets/pages/vol-17-page-049.jpg) | 성남시 농업 현황 표 | data-rendered |
-| 17 | 51 | [vol-17-page-051.jpg](../assets/pages/vol-17-page-051.jpg) | 성남시 제조업체 현황과 제1공단 사진 | data-rendered |
-| 17 | 52 | [vol-17-page-052.jpg](../assets/pages/vol-17-page-052.jpg) | 1973년 공단·금융기관·시장 현황 표 | data-rendered |
-| 17 | 54 | [vol-17-page-054.jpg](../assets/pages/vol-17-page-054.jpg) | 성남산업단지 생산 및 수출 추이 | data-rendered |
-| 17 | 57 | [vol-17-page-057.jpg](../assets/pages/vol-17-page-057.jpg) | 분당신도시 개발 당시 모습과 개발 규모 | figure-rendered |
-| 17 | 58 | [vol-17-page-058.jpg](../assets/pages/vol-17-page-058.jpg) | 분당신도시 개발 개요와 토지이용 계획 | figure-rendered |
-| 17 | 64 | [vol-17-page-064.jpg](../assets/pages/vol-17-page-064.jpg) | 판교테크노밸리 위치도 | figure-rendered |
-| 17 | 65 | [vol-17-page-065.jpg](../assets/pages/vol-17-page-065.jpg) | 제1판교테크노밸리 비전 및 전략 | figure-rendered |
-| 17 | 66 | [vol-17-page-066.jpg](../assets/pages/vol-17-page-066.jpg) | 제1판교테크노밸리 전경과 입주기업 | figure-rendered |
-| 17 | 68 | [vol-17-page-068.jpg](../assets/pages/vol-17-page-068.jpg) | 제2판교테크노밸리 조감도 | figure-rendered |
-| 17 | 69 | [vol-17-page-069.jpg](../assets/pages/vol-17-page-069.jpg) | 제3판교테크노밸리 조성 계획 | figure-rendered |
-| 17 | 71 | [vol-17-page-071.jpg](../assets/pages/vol-17-page-071.jpg) | 판교테크노밸리와 경기도 인근 지역 연계 구상 | figure-rendered |
-| 17 | 72 | [vol-17-page-072.jpg](../assets/pages/vol-17-page-072.jpg) | 성남시 인구 변화 추이 | data-rendered |
-| 17 | 73 | [vol-17-page-073.jpg](../assets/pages/vol-17-page-073.jpg) | 1990년대 이후 구별 인구 변화 표 | data-rendered |
-| 17 | 75 | [vol-17-page-075.jpg](../assets/pages/vol-17-page-075.jpg) | 분당신도시 편입 공장 현황과 사업체 수 변화 | data-rendered |
-| 17 | 77 | [vol-17-page-077.jpg](../assets/pages/vol-17-page-077.jpg) | 제조업·서비스업 사업체 수와 규모별 사업체 표 | data-rendered |
-| 17 | 78 | [vol-17-page-078.jpg](../assets/pages/vol-17-page-078.jpg) | 성남시 종사자 수 변화 추이 | data-rendered |
-| 17 | 79 | [vol-17-page-079.jpg](../assets/pages/vol-17-page-079.jpg) | 제조업·서비스업 종사자 수 변화 추이 | data-rendered |
-| 17 | 80 | [vol-17-page-080.jpg](../assets/pages/vol-17-page-080.jpg) | 사업체 규모별 종사자 수 표 | data-rendered |
-| 17 | 83 | [vol-17-page-083.jpg](../assets/pages/vol-17-page-083.jpg) | 서비스산업 사업체 수와 종사자 수 표 | data-rendered |
-| 17 | 87 | [vol-17-page-087.jpg](../assets/pages/vol-17-page-087.jpg) | 성남 의료기관과 의료기관 종사 인력 표 | data-rendered |
-| 17 | 88 | [vol-17-page-088.jpg](../assets/pages/vol-17-page-088.jpg) | 경기도 주요 시군 지식기반산업 종사자 수 | figure-rendered |
-| 17 | 89 | [vol-17-page-089.jpg](../assets/pages/vol-17-page-089.jpg) | 지식기반제조업·서비스업 종사자 수 | figure-rendered |
-| 17 | 90 | [vol-17-page-090.jpg](../assets/pages/vol-17-page-090.jpg) | 성남 지식기반산업 종사자 수와 서비스업 기술군별 비중 | data-rendered |
-| 17 | 91 | [vol-17-page-091.jpg](../assets/pages/vol-17-page-091.jpg) | 정보통신산업·전문과학기술서비스 고용 변화 | figure-rendered |
-| 17 | 92 | [vol-17-page-092.jpg](../assets/pages/vol-17-page-092.jpg) | 구별 사업체 수 변동 추이 | data-rendered |
-| 17 | 93 | [vol-17-page-093.jpg](../assets/pages/vol-17-page-093.jpg) | 구별 사업체 수 증가율과 비중 | data-rendered |
-| 17 | 94 | [vol-17-page-094.jpg](../assets/pages/vol-17-page-094.jpg) | 구별 종사자 수 변동 추이와 증가율 | data-rendered |
-| 17 | 95 | [vol-17-page-095.jpg](../assets/pages/vol-17-page-095.jpg) | 구별 종사자 수 비중 | data-rendered |
-| 17 | 100 | [vol-17-page-100.jpg](../assets/pages/vol-17-page-100.jpg) | 수정구 산업별·제조업·서비스업 사업체 수 | figure-rendered |
-| 17 | 103 | [vol-17-page-103.jpg](../assets/pages/vol-17-page-103.jpg) | 중원구 산업별·제조업 사업체 수 | figure-rendered |
-| 17 | 106 | [vol-17-page-106.jpg](../assets/pages/vol-17-page-106.jpg) | 분당구 산업별 사업체 수 | figure-rendered |
-| 17 | 110 | [vol-17-page-110.jpg](../assets/pages/vol-17-page-110.jpg) | 아시아 실리콘밸리 성남 프로젝트 구상도 | data-rendered |
-| 17 | 111 | [vol-17-page-111.jpg](../assets/pages/vol-17-page-111.jpg) | 성남시 경제·산업 발전 구상도 | data-rendered |
-| 17 | 113 | [vol-17-page-113.jpg](../assets/pages/vol-17-page-113.jpg) | 경기도와 성남시 분야별 기업부설연구소 현황 | data-rendered |
-| 17 | 114 | [vol-17-page-114.jpg](../assets/pages/vol-17-page-114.jpg) | 경기도와 성남시 업종별 이노비즈 현황 | data-rendered |
-| 17 | 115 | [vol-17-page-115.jpg](../assets/pages/vol-17-page-115.jpg) | 경기도와 성남시 업종별 벤처기업 현황 | data-rendered |
-| 17 | 118 | [vol-17-page-118.jpg](../assets/pages/vol-17-page-118.jpg) | 분당구와 강남권 정보통신산업 매입·매출 거래 표 | data-rendered |
-| 17 | 119 | [vol-17-page-119.jpg](../assets/pages/vol-17-page-119.jpg) | 수도권 정보통신산업 지역 간 연계 구조 | figure-rendered |
-| 17 | 120 | [vol-17-page-120.jpg](../assets/pages/vol-17-page-120.jpg) | 수도권 Grand R&D 벨트 구상도 | data-rendered |
-| 17 | 121 | [vol-17-page-121.jpg](../assets/pages/vol-17-page-121.jpg) | 수도권 Grand R&D 벨트·소프트웨어 삼각 벨트 | figure-rendered |
-| 17 | 133 | [vol-17-page-133.jpg](../assets/pages/vol-17-page-133.jpg) | 4+3 초광역권 특화 발전 구상도 | data-rendered |
-| 17 | 135 | [vol-17-page-135.jpg](../assets/pages/vol-17-page-135.jpg) | 성남 GRDP 경기도 2위 그래픽 | figure-rendered |
-| 17 | 137 | [vol-17-page-137.jpg](../assets/pages/vol-17-page-137.jpg) | 성남·경기도·전국 4차 산업혁명 비중 비교 | data-rendered |
-| 17 | 138 | [vol-17-page-138.jpg](../assets/pages/vol-17-page-138.jpg) | 구별 4차 산업혁명 비중 | data-rendered |
-| 17 | 139 | [vol-17-page-139.jpg](../assets/pages/vol-17-page-139.jpg) | 성남 4차산업 테마별 관련 종사자 비중 | data-rendered |
-| 17 | 141 | [vol-17-page-141.jpg](../assets/pages/vol-17-page-141.jpg) | 구별 4차산업 테마별 사업체 비중 | data-rendered |
-| 17 | 142 | [vol-17-page-142.jpg](../assets/pages/vol-17-page-142.jpg) | 구별 4차산업 테마별 종사자 비중 | data-rendered |
-| 17 | 143 | [vol-17-page-143.jpg](../assets/pages/vol-17-page-143.jpg) | 경기도 및 성남시 부가가치 창출 주요 산업 | figure-rendered |
-| 17 | 144 | [vol-17-page-144.jpg](../assets/pages/vol-17-page-144.jpg) | 성남 주요 ICT 업종 매출 규모와 경기도 대비 비중 | data-rendered |
-| 17 | 145 | [vol-17-page-145.jpg](../assets/pages/vol-17-page-145.jpg) | 경기도 중소기업 특허등록·출원 상위 지자체 | data-rendered |
-| 17 | 146 | [vol-17-page-146.jpg](../assets/pages/vol-17-page-146.jpg) | 기초지자체별 2023년 특허 출원·등록 현황 | data-rendered |
-| 17 | 147 | [vol-17-page-147.jpg](../assets/pages/vol-17-page-147.jpg) | 인구 10만 명당 특허 출원·등록 수 비교 | data-rendered |
-| 17 | 149 | [vol-17-page-149.jpg](../assets/pages/vol-17-page-149.jpg) | 스마트도시 인증 현판식 | figure-rendered |
-| 17 | 150 | [vol-17-page-150.jpg](../assets/pages/vol-17-page-150.jpg) | 지능형 교통 체계 개념도 | data-rendered |
-| 17 | 151 | [vol-17-page-151.jpg](../assets/pages/vol-17-page-151.jpg) | 개방형 데이터 허브 개념도 | data-rendered |
-| 17 | 154 | [vol-17-page-154.jpg](../assets/pages/vol-17-page-154.jpg) | 성남 바이오헬스 산업 육성 컨벤션 | figure-rendered |
-| 17 | 155 | [vol-17-page-155.jpg](../assets/pages/vol-17-page-155.jpg) | 판교 자율주행모터쇼와 자율주행 지원사업 | figure-rendered |
+| 17 | 1 | [vol-17-page-001.jpg](../assets/pages/vol-17/vol-17-page-001.jpg) | 표지와 권명: 성남의 산업구조 | title-page |
+| 17 | 2 | [vol-17-page-002.jpg](../assets/pages/vol-17/vol-17-page-002.jpg) | 권별 목차 1: Part 1-2 | toc |
+| 17 | 3 | [vol-17-page-003.jpg](../assets/pages/vol-17/vol-17-page-003.jpg) | 권별 목차 2: Part 3-4 | toc |
+| 17 | 6 | [vol-17-page-006.jpg](../assets/pages/vol-17/vol-17-page-006.jpg) | 한국의 경제성장률 그래프 | data-rendered |
+| 17 | 7 | [vol-17-page-007.jpg](../assets/pages/vol-17/vol-17-page-007.jpg) | 한국 산업별 GDP 비중 변화 추이와 표 | data-rendered |
+| 17 | 8 | [vol-17-page-008.jpg](../assets/pages/vol-17/vol-17-page-008.jpg) | 한국 산업별 고용 비중 변화 | data-rendered |
+| 17 | 9 | [vol-17-page-009.jpg](../assets/pages/vol-17/vol-17-page-009.jpg) | 1977년 100억 달러 수출의 날 기념 아치 | figure-rendered |
+| 17 | 12 | [vol-17-page-012.jpg](../assets/pages/vol-17/vol-17-page-012.jpg) | 제조업 세부 산업별 GDP 대비 비중 | data-rendered |
+| 17 | 13 | [vol-17-page-013.jpg](../assets/pages/vol-17/vol-17-page-013.jpg) | 제조업 세부 산업별 부가가치 생산 증가율 | figure-rendered |
+| 17 | 14 | [vol-17-page-014.jpg](../assets/pages/vol-17/vol-17-page-014.jpg) | 서비스업 세부 산업별 GDP·부가가치 생산 증가율 | figure-rendered |
+| 17 | 15 | [vol-17-page-015.jpg](../assets/pages/vol-17/vol-17-page-015.jpg) | 10대 수출 품목으로 본 제조업 구조 고도화 | figure-rendered |
+| 17 | 16 | [vol-17-page-016.jpg](../assets/pages/vol-17/vol-17-page-016.jpg) | 시도별 지역내총생산 표 | data-rendered |
+| 17 | 17 | [vol-17-page-017.jpg](../assets/pages/vol-17/vol-17-page-017.jpg) | 수도권 내 공업 분포와 경기도 성장률 | figure-rendered |
+| 17 | 18 | [vol-17-page-018.jpg](../assets/pages/vol-17/vol-17-page-018.jpg) | 경기도 GDP·제조업·서비스업 비중 표 | data-rendered |
+| 17 | 23 | [vol-17-page-023.jpg](../assets/pages/vol-17/vol-17-page-023.jpg) | 성남 제2공업단지 오리엔트시계 생산 현장 | figure-rendered |
+| 17 | 24 | [vol-17-page-024.jpg](../assets/pages/vol-17/vol-17-page-024.jpg) | 1980년대 성남 제2·3공업단지 전경 | figure-rendered |
+| 17 | 25 | [vol-17-page-025.jpg](../assets/pages/vol-17/vol-17-page-025.jpg) | 1990년대 분당신도시 전경 | figure-rendered |
+| 17 | 26 | [vol-17-page-026.jpg](../assets/pages/vol-17/vol-17-page-026.jpg) | 판교테크노밸리 전경 | figure-rendered |
+| 17 | 27 | [vol-17-page-027.jpg](../assets/pages/vol-17/vol-17-page-027.jpg) | 성남시 4차산업 특별도시 조성 구상도 | data-rendered |
+| 17 | 28 | [vol-17-page-028.jpg](../assets/pages/vol-17/vol-17-page-028.jpg) | 경기도와 31개 시군 명목 GRDP 표 | data-rendered |
+| 17 | 29 | [vol-17-page-029.jpg](../assets/pages/vol-17/vol-17-page-029.jpg) | 경기도 31개 시군 실질 GRDP 성장률 표 | data-rendered |
+| 17 | 30 | [vol-17-page-030.jpg](../assets/pages/vol-17/vol-17-page-030.jpg) | 경기도 주요 시군 1인당 명목 GRDP 표 | data-rendered |
+| 17 | 35 | [vol-17-page-035.jpg](../assets/pages/vol-17/vol-17-page-035.jpg) | 성남 4차산업 특화 수준과 사업체·종사자 수 | figure-rendered |
+| 17 | 36 | [vol-17-page-036.jpg](../assets/pages/vol-17/vol-17-page-036.jpg) | 성남 벤처기업·기업부설연구소와 콘텐츠 수출 현황 | data-rendered |
+| 17 | 37 | [vol-17-page-037.jpg](../assets/pages/vol-17/vol-17-page-037.jpg) | 성남 AI·자율주행 특허와 콘텐츠 수출 서술 | data-rendered |
+| 17 | 40 | [vol-17-page-040.jpg](../assets/pages/vol-17/vol-17-page-040.jpg) | 시 승격 이전 농가·취업자 수 표 | data-rendered |
+| 17 | 43 | [vol-17-page-043.jpg](../assets/pages/vol-17/vol-17-page-043.jpg) | 성남 경지 면적·업태별 농가 표 | data-rendered |
+| 17 | 44 | [vol-17-page-044.jpg](../assets/pages/vol-17/vol-17-page-044.jpg) | 경작 규모별 농가와 농기구 보유 표 | data-rendered |
+| 17 | 48 | [vol-17-page-048.jpg](../assets/pages/vol-17/vol-17-page-048.jpg) | 1971년 성남 지역 용도별 토지 이용 계획 | figure-rendered |
+| 17 | 49 | [vol-17-page-049.jpg](../assets/pages/vol-17/vol-17-page-049.jpg) | 성남시 농업 현황 표 | data-rendered |
+| 17 | 51 | [vol-17-page-051.jpg](../assets/pages/vol-17/vol-17-page-051.jpg) | 성남시 제조업체 현황과 제1공단 사진 | data-rendered |
+| 17 | 52 | [vol-17-page-052.jpg](../assets/pages/vol-17/vol-17-page-052.jpg) | 1973년 공단·금융기관·시장 현황 표 | data-rendered |
+| 17 | 54 | [vol-17-page-054.jpg](../assets/pages/vol-17/vol-17-page-054.jpg) | 성남산업단지 생산 및 수출 추이 | data-rendered |
+| 17 | 57 | [vol-17-page-057.jpg](../assets/pages/vol-17/vol-17-page-057.jpg) | 분당신도시 개발 당시 모습과 개발 규모 | figure-rendered |
+| 17 | 58 | [vol-17-page-058.jpg](../assets/pages/vol-17/vol-17-page-058.jpg) | 분당신도시 개발 개요와 토지이용 계획 | figure-rendered |
+| 17 | 64 | [vol-17-page-064.jpg](../assets/pages/vol-17/vol-17-page-064.jpg) | 판교테크노밸리 위치도 | figure-rendered |
+| 17 | 65 | [vol-17-page-065.jpg](../assets/pages/vol-17/vol-17-page-065.jpg) | 제1판교테크노밸리 비전 및 전략 | figure-rendered |
+| 17 | 66 | [vol-17-page-066.jpg](../assets/pages/vol-17/vol-17-page-066.jpg) | 제1판교테크노밸리 전경과 입주기업 | figure-rendered |
+| 17 | 68 | [vol-17-page-068.jpg](../assets/pages/vol-17/vol-17-page-068.jpg) | 제2판교테크노밸리 조감도 | figure-rendered |
+| 17 | 69 | [vol-17-page-069.jpg](../assets/pages/vol-17/vol-17-page-069.jpg) | 제3판교테크노밸리 조성 계획 | figure-rendered |
+| 17 | 71 | [vol-17-page-071.jpg](../assets/pages/vol-17/vol-17-page-071.jpg) | 판교테크노밸리와 경기도 인근 지역 연계 구상 | figure-rendered |
+| 17 | 72 | [vol-17-page-072.jpg](../assets/pages/vol-17/vol-17-page-072.jpg) | 성남시 인구 변화 추이 | data-rendered |
+| 17 | 73 | [vol-17-page-073.jpg](../assets/pages/vol-17/vol-17-page-073.jpg) | 1990년대 이후 구별 인구 변화 표 | data-rendered |
+| 17 | 75 | [vol-17-page-075.jpg](../assets/pages/vol-17/vol-17-page-075.jpg) | 분당신도시 편입 공장 현황과 사업체 수 변화 | data-rendered |
+| 17 | 77 | [vol-17-page-077.jpg](../assets/pages/vol-17/vol-17-page-077.jpg) | 제조업·서비스업 사업체 수와 규모별 사업체 표 | data-rendered |
+| 17 | 78 | [vol-17-page-078.jpg](../assets/pages/vol-17/vol-17-page-078.jpg) | 성남시 종사자 수 변화 추이 | data-rendered |
+| 17 | 79 | [vol-17-page-079.jpg](../assets/pages/vol-17/vol-17-page-079.jpg) | 제조업·서비스업 종사자 수 변화 추이 | data-rendered |
+| 17 | 80 | [vol-17-page-080.jpg](../assets/pages/vol-17/vol-17-page-080.jpg) | 사업체 규모별 종사자 수 표 | data-rendered |
+| 17 | 83 | [vol-17-page-083.jpg](../assets/pages/vol-17/vol-17-page-083.jpg) | 서비스산업 사업체 수와 종사자 수 표 | data-rendered |
+| 17 | 87 | [vol-17-page-087.jpg](../assets/pages/vol-17/vol-17-page-087.jpg) | 성남 의료기관과 의료기관 종사 인력 표 | data-rendered |
+| 17 | 88 | [vol-17-page-088.jpg](../assets/pages/vol-17/vol-17-page-088.jpg) | 경기도 주요 시군 지식기반산업 종사자 수 | figure-rendered |
+| 17 | 89 | [vol-17-page-089.jpg](../assets/pages/vol-17/vol-17-page-089.jpg) | 지식기반제조업·서비스업 종사자 수 | figure-rendered |
+| 17 | 90 | [vol-17-page-090.jpg](../assets/pages/vol-17/vol-17-page-090.jpg) | 성남 지식기반산업 종사자 수와 서비스업 기술군별 비중 | data-rendered |
+| 17 | 91 | [vol-17-page-091.jpg](../assets/pages/vol-17/vol-17-page-091.jpg) | 정보통신산업·전문과학기술서비스 고용 변화 | figure-rendered |
+| 17 | 92 | [vol-17-page-092.jpg](../assets/pages/vol-17/vol-17-page-092.jpg) | 구별 사업체 수 변동 추이 | data-rendered |
+| 17 | 93 | [vol-17-page-093.jpg](../assets/pages/vol-17/vol-17-page-093.jpg) | 구별 사업체 수 증가율과 비중 | data-rendered |
+| 17 | 94 | [vol-17-page-094.jpg](../assets/pages/vol-17/vol-17-page-094.jpg) | 구별 종사자 수 변동 추이와 증가율 | data-rendered |
+| 17 | 95 | [vol-17-page-095.jpg](../assets/pages/vol-17/vol-17-page-095.jpg) | 구별 종사자 수 비중 | data-rendered |
+| 17 | 100 | [vol-17-page-100.jpg](../assets/pages/vol-17/vol-17-page-100.jpg) | 수정구 산업별·제조업·서비스업 사업체 수 | figure-rendered |
+| 17 | 103 | [vol-17-page-103.jpg](../assets/pages/vol-17/vol-17-page-103.jpg) | 중원구 산업별·제조업 사업체 수 | figure-rendered |
+| 17 | 106 | [vol-17-page-106.jpg](../assets/pages/vol-17/vol-17-page-106.jpg) | 분당구 산업별 사업체 수 | figure-rendered |
+| 17 | 110 | [vol-17-page-110.jpg](../assets/pages/vol-17/vol-17-page-110.jpg) | 아시아 실리콘밸리 성남 프로젝트 구상도 | data-rendered |
+| 17 | 111 | [vol-17-page-111.jpg](../assets/pages/vol-17/vol-17-page-111.jpg) | 성남시 경제·산업 발전 구상도 | data-rendered |
+| 17 | 113 | [vol-17-page-113.jpg](../assets/pages/vol-17/vol-17-page-113.jpg) | 경기도와 성남시 분야별 기업부설연구소 현황 | data-rendered |
+| 17 | 114 | [vol-17-page-114.jpg](../assets/pages/vol-17/vol-17-page-114.jpg) | 경기도와 성남시 업종별 이노비즈 현황 | data-rendered |
+| 17 | 115 | [vol-17-page-115.jpg](../assets/pages/vol-17/vol-17-page-115.jpg) | 경기도와 성남시 업종별 벤처기업 현황 | data-rendered |
+| 17 | 118 | [vol-17-page-118.jpg](../assets/pages/vol-17/vol-17-page-118.jpg) | 분당구와 강남권 정보통신산업 매입·매출 거래 표 | data-rendered |
+| 17 | 119 | [vol-17-page-119.jpg](../assets/pages/vol-17/vol-17-page-119.jpg) | 수도권 정보통신산업 지역 간 연계 구조 | figure-rendered |
+| 17 | 120 | [vol-17-page-120.jpg](../assets/pages/vol-17/vol-17-page-120.jpg) | 수도권 Grand R&D 벨트 구상도 | data-rendered |
+| 17 | 121 | [vol-17-page-121.jpg](../assets/pages/vol-17/vol-17-page-121.jpg) | 수도권 Grand R&D 벨트·소프트웨어 삼각 벨트 | figure-rendered |
+| 17 | 133 | [vol-17-page-133.jpg](../assets/pages/vol-17/vol-17-page-133.jpg) | 4+3 초광역권 특화 발전 구상도 | data-rendered |
+| 17 | 135 | [vol-17-page-135.jpg](../assets/pages/vol-17/vol-17-page-135.jpg) | 성남 GRDP 경기도 2위 그래픽 | figure-rendered |
+| 17 | 137 | [vol-17-page-137.jpg](../assets/pages/vol-17/vol-17-page-137.jpg) | 성남·경기도·전국 4차 산업혁명 비중 비교 | data-rendered |
+| 17 | 138 | [vol-17-page-138.jpg](../assets/pages/vol-17/vol-17-page-138.jpg) | 구별 4차 산업혁명 비중 | data-rendered |
+| 17 | 139 | [vol-17-page-139.jpg](../assets/pages/vol-17/vol-17-page-139.jpg) | 성남 4차산업 테마별 관련 종사자 비중 | data-rendered |
+| 17 | 141 | [vol-17-page-141.jpg](../assets/pages/vol-17/vol-17-page-141.jpg) | 구별 4차산업 테마별 사업체 비중 | data-rendered |
+| 17 | 142 | [vol-17-page-142.jpg](../assets/pages/vol-17/vol-17-page-142.jpg) | 구별 4차산업 테마별 종사자 비중 | data-rendered |
+| 17 | 143 | [vol-17-page-143.jpg](../assets/pages/vol-17/vol-17-page-143.jpg) | 경기도 및 성남시 부가가치 창출 주요 산업 | figure-rendered |
+| 17 | 144 | [vol-17-page-144.jpg](../assets/pages/vol-17/vol-17-page-144.jpg) | 성남 주요 ICT 업종 매출 규모와 경기도 대비 비중 | data-rendered |
+| 17 | 145 | [vol-17-page-145.jpg](../assets/pages/vol-17/vol-17-page-145.jpg) | 경기도 중소기업 특허등록·출원 상위 지자체 | data-rendered |
+| 17 | 146 | [vol-17-page-146.jpg](../assets/pages/vol-17/vol-17-page-146.jpg) | 기초지자체별 2023년 특허 출원·등록 현황 | data-rendered |
+| 17 | 147 | [vol-17-page-147.jpg](../assets/pages/vol-17/vol-17-page-147.jpg) | 인구 10만 명당 특허 출원·등록 수 비교 | data-rendered |
+| 17 | 149 | [vol-17-page-149.jpg](../assets/pages/vol-17/vol-17-page-149.jpg) | 스마트도시 인증 현판식 | figure-rendered |
+| 17 | 150 | [vol-17-page-150.jpg](../assets/pages/vol-17/vol-17-page-150.jpg) | 지능형 교통 체계 개념도 | data-rendered |
+| 17 | 151 | [vol-17-page-151.jpg](../assets/pages/vol-17/vol-17-page-151.jpg) | 개방형 데이터 허브 개념도 | data-rendered |
+| 17 | 154 | [vol-17-page-154.jpg](../assets/pages/vol-17/vol-17-page-154.jpg) | 성남 바이오헬스 산업 육성 컨벤션 | figure-rendered |
+| 17 | 155 | [vol-17-page-155.jpg](../assets/pages/vol-17/vol-17-page-155.jpg) | 판교 자율주행모터쇼와 자율주행 지원사업 | figure-rendered |
 
 ## Statistics Rows To Merge
 

@@ -7,7 +7,7 @@
 - OCR used: false
 - Extraction: embedded PDF text layer via `pdftotext -layout`
 - Page coverage: 1-136, every page has a source marker before the page header
-- Local images from this bundle: `../docs/seongnam-city-history-50/assets/pages/vol-46-page-*.jpg`
+- Local images from this bundle: `../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-*.jpg`
 
 이 번들은 GitHub/RAG/장문 컨텍스트 입력을 위해 46권 Markdown을 단권으로 묶은 것이다. 쪽별 감사는 source 주석과 `### p.xxx` 헤더를 기준으로 수행한다.
 
@@ -34,7 +34,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 어린이용 활동 교재라 지도, 백지도, 사진, 활동지, 아이콘, 문화유산 도판 자체가 정보다. 따라서 1-136쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 어린이용 활동 교재라 지도, 백지도, 사진, 활동지, 아이콘, 문화유산 도판 자체가 정보다. 따라서 1-136쪽 전체를 `assets/pages/vol-46/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-46-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제46권 한 권으로 읽는 어린이 성남시사`로 일치한다.
 
@@ -113,142 +113,142 @@ ocr_used: false
 
 | 원문 쪽 | 파일 | 내용 |
 | --- | --- | --- |
-| 001 | [vol-46-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-001.jpg) | 표지: 한 권으로 읽는 어린이 성남시사 |
-| 002 | [vol-46-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-002.jpg) | 우 / 리 |
-| 003 | [vol-46-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-003.jpg) | 성남 으로의 / 여행 |
-| 004 | [vol-46-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-004.jpg) | 성남의 상징: 시 마크, 도시 브랜드, 캐릭터 새남이·새롱이 |
-| 005 | [vol-46-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-005.jpg) | 권별 목차 전체 |
-| 006 | [vol-46-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-006.jpg) | 우리 고장 성남에는 많은 사람이 모여 삽니다. / 옛날 구석기 시대부터 사람이 살기 시작하여 |
-| 007 | [vol-46-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-007.jpg) | 우리 고장 / 성남으로의 여행 |
-| 008 | [vol-46-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-008.jpg) | 01 / 우리 고장 성남의 |
-| 009 | [vol-46-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-009.jpg) | 성남의 주요 장소 활동지: 남한산성, 한국잡월드, 율동공원, 성남시청 등 |
-| 010 | [vol-46-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-010.jpg) | 성남 방문 장소 체크 활동지 |
-| 011 | [vol-46-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-011.jpg) | 정리하기 / 지금까지 우리 고장 성남의 여러 장소에 대해 알아봤어요. 여기에 대한 여러분의 생각과 느낌을 정 |
-| 012 | [vol-46-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-012.jpg) | 성남 관광 안내 지도와 성남마실 QR/안내 |
-| 013 | [vol-46-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-013.jpg) | 일반 지도·인공위성 지도·지형 지도 비교 |
-| 014 | [vol-46-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-014.jpg) | 디지털 영상지도와 성남 생활지리포털 |
-| 015 | [vol-46-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-015.jpg) | 성남 지하철 지도와 탄천 그림지도 |
-| 016 | [vol-46-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-016.jpg) | 성남 백지도 활동지 |
-| 017 | [vol-46-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-017.jpg) | 성남의 자연환경을 / 살펴봅니다. |
-| 018 | [vol-46-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-018.jpg) | 성남의 위치와 주변 시군 지도 |
-| 019 | [vol-46-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-019.jpg) | 성남의 지형은 어떠할까요? / 성남시는 동쪽으로는 청량산, 검단산, 매지봉, 불곡산으로 이어지고, 서쪽으로는 대모산, 인릉 |
-| 020 | [vol-46-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-020.jpg) | 성남 주요 산과 하천 지도 |
-| 021 | [vol-46-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-021.jpg) | 성남 면적·행정구역·고개·습지 설명 |
-| 022 | [vol-46-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-022.jpg) | 정리하기 / 우리 고장 성남의 자연환경을 바르게 |
-| 023 | [vol-46-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-023.jpg) | 인구·판교테크노밸리 산업 설명 |
-| 024 | [vol-46-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-024.jpg) | 활동2 / 활동1 우리 고장에서는 자연환경을 어떻게 이용하고 있는지 살펴봅시다. |
-| 025 | [vol-46-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-025.jpg) | 활동3 / 활동1 우리 고장 사람들이 환경을 이용하여 하는 일을 살펴봅시다. |
-| 026 | [vol-46-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-026.jpg) | 성남의 교통에 대해 / 살펴봅니다. |
-| 027 | [vol-46-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-027.jpg) | 성남 교통망과 고속도로 발달 |
-| 028 | [vol-46-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-028.jpg) | 수인분당선 역별 장소 탐색 |
-| 029 | [vol-46-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-029.jpg) | 8호선 역별 장소 탐색 |
-| 030 | [vol-46-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-030.jpg) | 신분당선·경강선 역별 장소 탐색 |
-| 031 | [vol-46-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-031.jpg) | 성남 자전거 도로 지도 |
-| 032 | [vol-46-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-032.jpg) | 정리하기 / 우리 고장 성남은 도로망과 이 발달되어 교통이 편리하다. |
-| 033 | [vol-46-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-033.jpg) | 성남 생태 환경 개념도 |
-| 034 | [vol-46-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-034.jpg) | 가로수·식생 활동지 |
-| 035 | [vol-46-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-035.jpg) | 무가 군데군데 작은 군락을 이루며 자라고 있습니다. / 이수봉에서 천림산 봉수대로 가는 길에는 성남시의 시화인 철쭉이 많이 핍 |
-| 036 | [vol-46-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-036.jpg) | 습지 생태와 생물 다양성 설명 |
-| 037 | [vol-46-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-037.jpg) | 킬을 막기 위해 갈마치 등에 생태 이동 통로를 만들어 / 서식지 보전에 노력한 결과 고라니의 흔적이 가장 많 |
-| 038 | [vol-46-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-038.jpg) | 파충류·어류·곤충류 종수 설명 |
-| 039 | [vol-46-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-039.jpg) | 친구에게 성남 지리환경 소개하기 활동 |
-| 040 | [vol-46-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-040.jpg) | 사람들은 서로 다른 환경에서 적응하고 이용하며 살아가고 있습니다. / 또 서로 연결되어 도와 가며 살고 있습니다. |
-| 041 | [vol-46-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-041.jpg) | 우리 고장 / 성남으로의 |
-| 042 | [vol-46-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-042.jpg) | 02 / 우리 고장 성남의 |
-| 043 | [vol-46-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-043.jpg) | 성남시청 기능과 행정기구 설명 |
-| 044 | [vol-46-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-044.jpg) | 수정구 지도와 설명 |
-| 045 | [vol-46-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-045.jpg) | 중원구 지도와 설명 |
-| 046 | [vol-46-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-046.jpg) | 분당구 지도와 설명 |
-| 047 | [vol-46-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-047.jpg) | 학교명·개교연도·주소 표 |
-| 048 | [vol-46-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-048.jpg) | 신흥동 등 동 이야기 시작 |
-| 049 | [vol-46-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-049.jpg) | 태평 4동에서는 2006년부터 2008년까지 ‘예술 태평동에서 노닐다’, ‘골목 미술관’ 등 다양한 문화 / 예술 프로젝트가  |
-| 050 | [vol-46-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-050.jpg) | 복정동이란 지명은 ‘복우물’에서 유래하였습니다. 일설에는 지금의 복정동 정수장 뒤편 안골 / 복정동 로 가는 길(또는 길과 밭 |
-| 051 | [vol-46-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-051.jpg) | 리라 불렀다고 합니다. 시흥동에는 세종 연구소 및 국가 기록원 나라 기록관과 한국 국제 협력단 / (KOICA)이 위치하고 있 |
-| 052 | [vol-46-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-052.jpg) | 은행 1동은 성남시 식물원이 있고, 은행 근린공원과 수목 관찰원, 공영 주차장 등이 조성되어 있 / 어 주거 환경이 비교적 쾌 |
-| 053 | [vol-46-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-053.jpg) | 여수동은 처음 정착하였다고 알려진 김윤탁(金允濯)이 마을 앞의 개울이 유난히 맑고 깨끗 / 하다 하여 천자문에 나오는 글귀를  |
-| 054 | [vol-46-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-054.jpg) | 수내 2동은 분당 신도시의 중앙에 있으며, 중앙 공원이 자리 잡고 있어 시민의 휴식 공간으로 많 / 은 사랑을 받고 있습니다. |
-| 055 | [vol-46-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-055.jpg) | 로 ‘매화낙지’로 불렸습니다. ‘이무술’과 ‘매화낙지’에서 한 글자씩을 따서 이매동이라 하였다고 / 전해집니다. 두 번째 이야 |
-| 056 | [vol-46-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-056.jpg) | 금곡은 토박이말 ‘쇠골(금곡)’이라는 이름에서 비롯되었습니다. 자연 마을인 ‘셋골·쇠골’이거 / 금곡동 나, 골짜기 사이에 있 |
-| 057 | [vol-46-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-057.jpg) | 지로 개발되어 대형 유통 시설과 환승 주차장 등이 조성되면서 인근에 있는 삼평동이 중심으로 떠 / 오르고 있습니다. 판교 테크 |
-| 058 | [vol-46-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-058.jpg) | 판교테크노밸리와 산업 설명 |
-| 059 | [vol-46-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-059.jpg) | 문화 산업 진흥 지구(서현동 - 정자동 일대) / 성남시는 문화 산업 관련 기업과 대학, 연구소 등의 밀집도가 높은 편입니다. |
-| 060 | [vol-46-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-060.jpg) | 1960년대~2000년대 이후 도시개발 연표 |
-| 061 | [vol-46-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-061.jpg) | 정리하기 / 우리 고장 성남의 판교 테크노밸리를 소개하여 봅시다. |
-| 062 | [vol-46-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-062.jpg) | 성남아트센터 시설 사진 |
-| 063 | [vol-46-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-063.jpg) | 성남 아트 센터의 시설 둘러보기 / 큐브 플라자 미술관 본관 전시실 미디어 홀 내부 |
-| 064 | [vol-46-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-064.jpg) | 성남아트리움·야외공연장·책테마파크·판교박물관 |
-| 065 | [vol-46-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-065.jpg) | 신구 대학교 우촌 박물관 / 신구 대학교 우촌 박물관은 학교 설립자 우촌 이종익 박사가 전국을 누비면서 수집한 민속 |
-| 066 | [vol-46-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-066.jpg) | 청소년수련시설 현황 |
-| 067 | [vol-46-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-067.jpg) | 수정 청소년 수련관(수정 유스센터) / 청소년이 24시간 행복한 곳을 지향하는 수정 청소년 수련관은 1994년 개관하였고 20 |
-| 068 | [vol-46-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-068.jpg) | 성남 축제 목록 |
-| 069 | [vol-46-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-069.jpg) | 이무술 집터 다지는 소리 / 분당구 이매동의 옛 이름인 이무술에서 전래된 놀이입니 |
-| 070 | [vol-46-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-070.jpg) | 성남 9경 시작 |
-| 071 | [vol-46-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-071.jpg) | 전국적으로 가장 큰 규모의 5일장, 모란 민속 5일장 / 모란은 1960년대 성남 일대의 황무지를 개간하면서 붙인 지명입니 |
-| 072 | [vol-46-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-072.jpg) | 생태 학습에서 레저까지! 웰빙 명소, 탄천 변 / 용인에서 발원해 성남을 두루 흘러 한강으로 흘러가는 탄천은 도시 생활에 |
-| 073 | [vol-46-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-073.jpg) | 추가 관광지와 걷기 코스 안내 |
-| 074 | [vol-46-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-074.jpg) | 청계산·성남누비길 코스 |
-| 075 | [vol-46-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-075.jpg) | 탄천·율동공원 물길 코스 |
-| 076 | [vol-46-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-076.jpg) | 중앙 공원 / 중앙 공원은 기존 지형과 수림을 |
-| 077 | [vol-46-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-077.jpg) | 모란민속5일장·신해철거리 |
-| 078 | [vol-46-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-078.jpg) | 관광 명소 체크리스트 |
-| 079 | [vol-46-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-079.jpg) | 성남 관련 낱말 찾기 활동 |
-| 080 | [vol-46-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-080.jpg) | 우 / 성남 |
-| 081 | [vol-46-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-081.jpg) | 이제 / 우리 고장 |
-| 082 | [vol-46-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-082.jpg) | 03 / 우리 고장 |
-| 083 | [vol-46-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-083.jpg) | 성남 유적·유물 활동지 |
-| 084 | [vol-46-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-084.jpg) | 선사시대 성남과 유물 사진 |
-| 085 | [vol-46-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-085.jpg) | 사용했을 가능성이 큽니다. / 신석기 시대는 농사를 짓기 시작한 시대입니다. 농사를 짓기 시작 |
-| 086 | [vol-46-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-086.jpg) | 활동1 구석기 또는 신석기 시대에 살았던 우리 조상들의 모습을 / 상상하여 그려 보세요. |
-| 087 | [vol-46-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-087.jpg) | 한성 백제 시대의 성남 / 성남시는 남한산, 소위 남한산성의 남쪽 산자락과 탄 |
-| 088 | [vol-46-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-088.jpg) | 백제·고구려 한강 유역 지도 |
-| 089 | [vol-46-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-089.jpg) | 백제 시대 지명 유래 시작 |
-| 090 | [vol-46-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-090.jpg) | 금탄 명막암 / 백제 시대부터 불렸다는 탄천 중류의 또 다른 이 분당구 분당동 산11번지에서 경기도 광주시 신 |
-| 091 | [vol-46-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-091.jpg) | 성덕산 숯을 시냇물에 버리고 가서 시냇물이 모두 숯으 / 로 뒤덮여 숯이 내를 이루었다고 하여 숯내라고 |
-| 092 | [vol-46-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-092.jpg) | 는 산말이 전해 옵니다. 예로부터 천하 명당 길지 정자 터 / 로 소문난 산입니다. |
-| 093 | [vol-46-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-093.jpg) | 탑골 화랑보 / 분당구 야탑동 일대는 백제 시대부터 불탑이 많 신라 진흥왕이 553년에 한수 유역을 차지하고 화 |
-| 094 | [vol-46-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-094.jpg) | 고려 광주 명칭·광주목 설명 |
-| 095 | [vol-46-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-095.jpg) | 고려 시대부터 전해 내려오는 땅 이름을 알아보겠습니다. / 고려 시대의 땅 이름 중 여러분이 들어본 것이 있는지 찾아보세요. |
-| 096 | [vol-46-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-096.jpg) | 목 정승(睦政丞) 모이께 봉수 터 / 수정구 상적동 산74-1번지 일대 500m 지점에 3 수정구 금토동 산35번지와 수정구  |
-| 097 | [vol-46-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-097.jpg) | 활동1 고려 시대의 땅 이름 중 가장 마음에 드는 것을 골라 보세요. / 마음에 드는 땅 이름 : |
-| 098 | [vol-46-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-098.jpg) | 6. 조선 시대의 우리 고장 이야기를 살펴봅시다. / 태조 이성계는 조선을 건국하여 수도를 한양으로 옮긴 후 1395년(태조  |
-| 099 | [vol-46-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-099.jpg) | 조선 시대 면 이름 활동 |
-| 100 | [vol-46-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-100.jpg) | 조선 시대 성남 지역에 전해 내려오는 / 주요 지명의 유래를 알아봅시다. |
-| 101 | [vol-46-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-101.jpg) | 문중 서당(門中書堂) 터 사제단(賜祭壇) / 분당구 율동 산2-1번지 동쪽에 서평군 한계희의 셋 1637년(인조 15) 8월  |
-| 102 | [vol-46-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-102.jpg) | 하는 바람에 성의 남쪽에 있던 삼평동 일대를 성남 있습니다. 조선 시대 이전부터 있었다고 전해 오는 / 이라고 불러서 생긴 지 |
-| 103 | [vol-46-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-103.jpg) | 대한제국·일제강점기 행정구역 변화 |
-| 104 | [vol-46-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-104.jpg) | 1914년 행정구역 통폐합 표 |
-| 105 | [vol-46-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-105.jpg) | 일제 강점기에 바뀐 행정 구역과 내가 / 살고 있는 동네의 이름을 비교해 봅시다. |
-| 106 | [vol-46-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-106.jpg) | 해방 이후 성남출장소·광주대단지·시 승격 설명 |
-| 107 | [vol-46-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-107.jpg) | 성남시 역사 한눈에 보기 도식 |
-| 108 | [vol-46-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-108.jpg) | 8·10성남(광주대단지)항쟁 장표지 |
-| 109 | [vol-46-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-109.jpg) | 1. 광주대단지 개발 이전 성남의 모습을 / 알아볼까요? |
-| 110 | [vol-46-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-110.jpg) | 1970년대 모란시장과 복개 전 대원천 |
-| 111 | [vol-46-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-111.jpg) | 1970년대 광주대단지 사진 |
-| 112 | [vol-46-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-112.jpg) | 광주대단지 개발 목표와 현실 |
-| 113 | [vol-46-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-113.jpg) | 광주대단지 주민 구술 활동지 |
-| 114 | [vol-46-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-114.jpg) | 1971년 8월 10일 사건 당일 광주대단지 모습 |
-| 115 | [vol-46-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-115.jpg) | 기도 성남 출장소의 탄생 / 광주 대단지 시기 성남 출장소가 가장 먼저 해결해야 할 문제는 서울시에서 살다가 쫓겨나 이사 |
-| 116 | [vol-46-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-116.jpg) | 초기 도시 기반 정비와 성남종합운동장 |
-| 117 | [vol-46-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-117.jpg) | 성남 실내체육관·버스·8호선 교통 자료 |
-| 118 | [vol-46-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-118.jpg) | 05 / 성남의 성장 |
-| 119 | [vol-46-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-119.jpg) | 위성도시 성남 성장과 인구 추이 |
-| 120 | [vol-46-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-120.jpg) | 1960년대 성남시는 광주 대단지 조성 사업에 의 익 목적의 연구 시설 건축 허용, 시가화 구역의 건 / 하여 농업 위주의 지 |
-| 121 | [vol-46-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-121.jpg) | 주거 지역과 준주거 지역으로 바꾸었으며, 시가지 이후 5·4조치는 1980년대에 들어서면서 성남시가 정 / 내 공단을 택지화하 |
-| 122 | [vol-46-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-122.jpg) | 활동1 여러분이 살고 싶은 집은 무엇인가요? 성남시의 주거 환경 / 의 변화를 살펴보고 여러분이 살고 싶은 집을 그려 보세요. |
-| 123 | [vol-46-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-123.jpg) | 주택 200만 호 계획과 분당신도시 배경 |
-| 124 | [vol-46-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-124.jpg) | 개발 이전 분당·오늘날 분당·스카이라인 계획 |
-| 125 | [vol-46-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-125.jpg) | 판교신도시 개발 배경과 2024년 사진 |
-| 126 | [vol-46-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-126.jpg) | 도촌·여수지구 개발 규모 |
-| 127 | [vol-46-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-127.jpg) | 위례신도시 사업 개요와 개발 방향 |
-| 128 | [vol-46-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-128.jpg) | 위례신도시 개발 방안과 위례동 사진 |
-| 129 | [vol-46-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-129.jpg) | 미래 성남 상상 활동지 |
-| 130 | [vol-46-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-130.jpg) | 06 / 우리 고장 성남의 |
-| 131 | [vol-46-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-131.jpg) | 성남 문화유산 개념과 남한산성 |
-| 132 | [vol-46-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-132.jpg) | 봉국사 대광명전·수내동가옥·천림산봉수·판교 고분군 |
-| 133 | [vol-46-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-133.jpg) | 이무술 집터 다지는 소리·오리뜰 농악·쌍용 거 줄다리기·불교유산 |
-| 134 | [vol-46-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-134.jpg) | 문화유산 분류·포스터·답사 계획 활동지 |
-| 135 | [vol-46-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-135.jpg) | 자료 출처·참고문헌 |
-| 136 | [vol-46-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46-page-136.jpg) | 판권과 발행 정보 |
+| 001 | [vol-46-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-001.jpg) | 표지: 한 권으로 읽는 어린이 성남시사 |
+| 002 | [vol-46-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-002.jpg) | 우 / 리 |
+| 003 | [vol-46-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-003.jpg) | 성남 으로의 / 여행 |
+| 004 | [vol-46-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-004.jpg) | 성남의 상징: 시 마크, 도시 브랜드, 캐릭터 새남이·새롱이 |
+| 005 | [vol-46-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-005.jpg) | 권별 목차 전체 |
+| 006 | [vol-46-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-006.jpg) | 우리 고장 성남에는 많은 사람이 모여 삽니다. / 옛날 구석기 시대부터 사람이 살기 시작하여 |
+| 007 | [vol-46-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-007.jpg) | 우리 고장 / 성남으로의 여행 |
+| 008 | [vol-46-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-008.jpg) | 01 / 우리 고장 성남의 |
+| 009 | [vol-46-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-009.jpg) | 성남의 주요 장소 활동지: 남한산성, 한국잡월드, 율동공원, 성남시청 등 |
+| 010 | [vol-46-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-010.jpg) | 성남 방문 장소 체크 활동지 |
+| 011 | [vol-46-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-011.jpg) | 정리하기 / 지금까지 우리 고장 성남의 여러 장소에 대해 알아봤어요. 여기에 대한 여러분의 생각과 느낌을 정 |
+| 012 | [vol-46-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-012.jpg) | 성남 관광 안내 지도와 성남마실 QR/안내 |
+| 013 | [vol-46-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-013.jpg) | 일반 지도·인공위성 지도·지형 지도 비교 |
+| 014 | [vol-46-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-014.jpg) | 디지털 영상지도와 성남 생활지리포털 |
+| 015 | [vol-46-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-015.jpg) | 성남 지하철 지도와 탄천 그림지도 |
+| 016 | [vol-46-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-016.jpg) | 성남 백지도 활동지 |
+| 017 | [vol-46-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-017.jpg) | 성남의 자연환경을 / 살펴봅니다. |
+| 018 | [vol-46-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-018.jpg) | 성남의 위치와 주변 시군 지도 |
+| 019 | [vol-46-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-019.jpg) | 성남의 지형은 어떠할까요? / 성남시는 동쪽으로는 청량산, 검단산, 매지봉, 불곡산으로 이어지고, 서쪽으로는 대모산, 인릉 |
+| 020 | [vol-46-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-020.jpg) | 성남 주요 산과 하천 지도 |
+| 021 | [vol-46-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-021.jpg) | 성남 면적·행정구역·고개·습지 설명 |
+| 022 | [vol-46-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-022.jpg) | 정리하기 / 우리 고장 성남의 자연환경을 바르게 |
+| 023 | [vol-46-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-023.jpg) | 인구·판교테크노밸리 산업 설명 |
+| 024 | [vol-46-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-024.jpg) | 활동2 / 활동1 우리 고장에서는 자연환경을 어떻게 이용하고 있는지 살펴봅시다. |
+| 025 | [vol-46-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-025.jpg) | 활동3 / 활동1 우리 고장 사람들이 환경을 이용하여 하는 일을 살펴봅시다. |
+| 026 | [vol-46-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-026.jpg) | 성남의 교통에 대해 / 살펴봅니다. |
+| 027 | [vol-46-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-027.jpg) | 성남 교통망과 고속도로 발달 |
+| 028 | [vol-46-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-028.jpg) | 수인분당선 역별 장소 탐색 |
+| 029 | [vol-46-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-029.jpg) | 8호선 역별 장소 탐색 |
+| 030 | [vol-46-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-030.jpg) | 신분당선·경강선 역별 장소 탐색 |
+| 031 | [vol-46-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-031.jpg) | 성남 자전거 도로 지도 |
+| 032 | [vol-46-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-032.jpg) | 정리하기 / 우리 고장 성남은 도로망과 이 발달되어 교통이 편리하다. |
+| 033 | [vol-46-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-033.jpg) | 성남 생태 환경 개념도 |
+| 034 | [vol-46-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-034.jpg) | 가로수·식생 활동지 |
+| 035 | [vol-46-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-035.jpg) | 무가 군데군데 작은 군락을 이루며 자라고 있습니다. / 이수봉에서 천림산 봉수대로 가는 길에는 성남시의 시화인 철쭉이 많이 핍 |
+| 036 | [vol-46-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-036.jpg) | 습지 생태와 생물 다양성 설명 |
+| 037 | [vol-46-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-037.jpg) | 킬을 막기 위해 갈마치 등에 생태 이동 통로를 만들어 / 서식지 보전에 노력한 결과 고라니의 흔적이 가장 많 |
+| 038 | [vol-46-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-038.jpg) | 파충류·어류·곤충류 종수 설명 |
+| 039 | [vol-46-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-039.jpg) | 친구에게 성남 지리환경 소개하기 활동 |
+| 040 | [vol-46-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-040.jpg) | 사람들은 서로 다른 환경에서 적응하고 이용하며 살아가고 있습니다. / 또 서로 연결되어 도와 가며 살고 있습니다. |
+| 041 | [vol-46-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-041.jpg) | 우리 고장 / 성남으로의 |
+| 042 | [vol-46-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-042.jpg) | 02 / 우리 고장 성남의 |
+| 043 | [vol-46-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-043.jpg) | 성남시청 기능과 행정기구 설명 |
+| 044 | [vol-46-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-044.jpg) | 수정구 지도와 설명 |
+| 045 | [vol-46-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-045.jpg) | 중원구 지도와 설명 |
+| 046 | [vol-46-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-046.jpg) | 분당구 지도와 설명 |
+| 047 | [vol-46-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-047.jpg) | 학교명·개교연도·주소 표 |
+| 048 | [vol-46-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-048.jpg) | 신흥동 등 동 이야기 시작 |
+| 049 | [vol-46-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-049.jpg) | 태평 4동에서는 2006년부터 2008년까지 ‘예술 태평동에서 노닐다’, ‘골목 미술관’ 등 다양한 문화 / 예술 프로젝트가  |
+| 050 | [vol-46-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-050.jpg) | 복정동이란 지명은 ‘복우물’에서 유래하였습니다. 일설에는 지금의 복정동 정수장 뒤편 안골 / 복정동 로 가는 길(또는 길과 밭 |
+| 051 | [vol-46-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-051.jpg) | 리라 불렀다고 합니다. 시흥동에는 세종 연구소 및 국가 기록원 나라 기록관과 한국 국제 협력단 / (KOICA)이 위치하고 있 |
+| 052 | [vol-46-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-052.jpg) | 은행 1동은 성남시 식물원이 있고, 은행 근린공원과 수목 관찰원, 공영 주차장 등이 조성되어 있 / 어 주거 환경이 비교적 쾌 |
+| 053 | [vol-46-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-053.jpg) | 여수동은 처음 정착하였다고 알려진 김윤탁(金允濯)이 마을 앞의 개울이 유난히 맑고 깨끗 / 하다 하여 천자문에 나오는 글귀를  |
+| 054 | [vol-46-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-054.jpg) | 수내 2동은 분당 신도시의 중앙에 있으며, 중앙 공원이 자리 잡고 있어 시민의 휴식 공간으로 많 / 은 사랑을 받고 있습니다. |
+| 055 | [vol-46-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-055.jpg) | 로 ‘매화낙지’로 불렸습니다. ‘이무술’과 ‘매화낙지’에서 한 글자씩을 따서 이매동이라 하였다고 / 전해집니다. 두 번째 이야 |
+| 056 | [vol-46-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-056.jpg) | 금곡은 토박이말 ‘쇠골(금곡)’이라는 이름에서 비롯되었습니다. 자연 마을인 ‘셋골·쇠골’이거 / 금곡동 나, 골짜기 사이에 있 |
+| 057 | [vol-46-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-057.jpg) | 지로 개발되어 대형 유통 시설과 환승 주차장 등이 조성되면서 인근에 있는 삼평동이 중심으로 떠 / 오르고 있습니다. 판교 테크 |
+| 058 | [vol-46-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-058.jpg) | 판교테크노밸리와 산업 설명 |
+| 059 | [vol-46-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-059.jpg) | 문화 산업 진흥 지구(서현동 - 정자동 일대) / 성남시는 문화 산업 관련 기업과 대학, 연구소 등의 밀집도가 높은 편입니다. |
+| 060 | [vol-46-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-060.jpg) | 1960년대~2000년대 이후 도시개발 연표 |
+| 061 | [vol-46-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-061.jpg) | 정리하기 / 우리 고장 성남의 판교 테크노밸리를 소개하여 봅시다. |
+| 062 | [vol-46-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-062.jpg) | 성남아트센터 시설 사진 |
+| 063 | [vol-46-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-063.jpg) | 성남 아트 센터의 시설 둘러보기 / 큐브 플라자 미술관 본관 전시실 미디어 홀 내부 |
+| 064 | [vol-46-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-064.jpg) | 성남아트리움·야외공연장·책테마파크·판교박물관 |
+| 065 | [vol-46-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-065.jpg) | 신구 대학교 우촌 박물관 / 신구 대학교 우촌 박물관은 학교 설립자 우촌 이종익 박사가 전국을 누비면서 수집한 민속 |
+| 066 | [vol-46-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-066.jpg) | 청소년수련시설 현황 |
+| 067 | [vol-46-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-067.jpg) | 수정 청소년 수련관(수정 유스센터) / 청소년이 24시간 행복한 곳을 지향하는 수정 청소년 수련관은 1994년 개관하였고 20 |
+| 068 | [vol-46-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-068.jpg) | 성남 축제 목록 |
+| 069 | [vol-46-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-069.jpg) | 이무술 집터 다지는 소리 / 분당구 이매동의 옛 이름인 이무술에서 전래된 놀이입니 |
+| 070 | [vol-46-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-070.jpg) | 성남 9경 시작 |
+| 071 | [vol-46-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-071.jpg) | 전국적으로 가장 큰 규모의 5일장, 모란 민속 5일장 / 모란은 1960년대 성남 일대의 황무지를 개간하면서 붙인 지명입니 |
+| 072 | [vol-46-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-072.jpg) | 생태 학습에서 레저까지! 웰빙 명소, 탄천 변 / 용인에서 발원해 성남을 두루 흘러 한강으로 흘러가는 탄천은 도시 생활에 |
+| 073 | [vol-46-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-073.jpg) | 추가 관광지와 걷기 코스 안내 |
+| 074 | [vol-46-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-074.jpg) | 청계산·성남누비길 코스 |
+| 075 | [vol-46-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-075.jpg) | 탄천·율동공원 물길 코스 |
+| 076 | [vol-46-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-076.jpg) | 중앙 공원 / 중앙 공원은 기존 지형과 수림을 |
+| 077 | [vol-46-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-077.jpg) | 모란민속5일장·신해철거리 |
+| 078 | [vol-46-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-078.jpg) | 관광 명소 체크리스트 |
+| 079 | [vol-46-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-079.jpg) | 성남 관련 낱말 찾기 활동 |
+| 080 | [vol-46-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-080.jpg) | 우 / 성남 |
+| 081 | [vol-46-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-081.jpg) | 이제 / 우리 고장 |
+| 082 | [vol-46-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-082.jpg) | 03 / 우리 고장 |
+| 083 | [vol-46-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-083.jpg) | 성남 유적·유물 활동지 |
+| 084 | [vol-46-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-084.jpg) | 선사시대 성남과 유물 사진 |
+| 085 | [vol-46-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-085.jpg) | 사용했을 가능성이 큽니다. / 신석기 시대는 농사를 짓기 시작한 시대입니다. 농사를 짓기 시작 |
+| 086 | [vol-46-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-086.jpg) | 활동1 구석기 또는 신석기 시대에 살았던 우리 조상들의 모습을 / 상상하여 그려 보세요. |
+| 087 | [vol-46-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-087.jpg) | 한성 백제 시대의 성남 / 성남시는 남한산, 소위 남한산성의 남쪽 산자락과 탄 |
+| 088 | [vol-46-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-088.jpg) | 백제·고구려 한강 유역 지도 |
+| 089 | [vol-46-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-089.jpg) | 백제 시대 지명 유래 시작 |
+| 090 | [vol-46-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-090.jpg) | 금탄 명막암 / 백제 시대부터 불렸다는 탄천 중류의 또 다른 이 분당구 분당동 산11번지에서 경기도 광주시 신 |
+| 091 | [vol-46-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-091.jpg) | 성덕산 숯을 시냇물에 버리고 가서 시냇물이 모두 숯으 / 로 뒤덮여 숯이 내를 이루었다고 하여 숯내라고 |
+| 092 | [vol-46-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-092.jpg) | 는 산말이 전해 옵니다. 예로부터 천하 명당 길지 정자 터 / 로 소문난 산입니다. |
+| 093 | [vol-46-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-093.jpg) | 탑골 화랑보 / 분당구 야탑동 일대는 백제 시대부터 불탑이 많 신라 진흥왕이 553년에 한수 유역을 차지하고 화 |
+| 094 | [vol-46-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-094.jpg) | 고려 광주 명칭·광주목 설명 |
+| 095 | [vol-46-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-095.jpg) | 고려 시대부터 전해 내려오는 땅 이름을 알아보겠습니다. / 고려 시대의 땅 이름 중 여러분이 들어본 것이 있는지 찾아보세요. |
+| 096 | [vol-46-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-096.jpg) | 목 정승(睦政丞) 모이께 봉수 터 / 수정구 상적동 산74-1번지 일대 500m 지점에 3 수정구 금토동 산35번지와 수정구  |
+| 097 | [vol-46-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-097.jpg) | 활동1 고려 시대의 땅 이름 중 가장 마음에 드는 것을 골라 보세요. / 마음에 드는 땅 이름 : |
+| 098 | [vol-46-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-098.jpg) | 6. 조선 시대의 우리 고장 이야기를 살펴봅시다. / 태조 이성계는 조선을 건국하여 수도를 한양으로 옮긴 후 1395년(태조  |
+| 099 | [vol-46-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-099.jpg) | 조선 시대 면 이름 활동 |
+| 100 | [vol-46-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-100.jpg) | 조선 시대 성남 지역에 전해 내려오는 / 주요 지명의 유래를 알아봅시다. |
+| 101 | [vol-46-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-101.jpg) | 문중 서당(門中書堂) 터 사제단(賜祭壇) / 분당구 율동 산2-1번지 동쪽에 서평군 한계희의 셋 1637년(인조 15) 8월  |
+| 102 | [vol-46-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-102.jpg) | 하는 바람에 성의 남쪽에 있던 삼평동 일대를 성남 있습니다. 조선 시대 이전부터 있었다고 전해 오는 / 이라고 불러서 생긴 지 |
+| 103 | [vol-46-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-103.jpg) | 대한제국·일제강점기 행정구역 변화 |
+| 104 | [vol-46-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-104.jpg) | 1914년 행정구역 통폐합 표 |
+| 105 | [vol-46-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-105.jpg) | 일제 강점기에 바뀐 행정 구역과 내가 / 살고 있는 동네의 이름을 비교해 봅시다. |
+| 106 | [vol-46-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-106.jpg) | 해방 이후 성남출장소·광주대단지·시 승격 설명 |
+| 107 | [vol-46-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-107.jpg) | 성남시 역사 한눈에 보기 도식 |
+| 108 | [vol-46-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-108.jpg) | 8·10성남(광주대단지)항쟁 장표지 |
+| 109 | [vol-46-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-109.jpg) | 1. 광주대단지 개발 이전 성남의 모습을 / 알아볼까요? |
+| 110 | [vol-46-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-110.jpg) | 1970년대 모란시장과 복개 전 대원천 |
+| 111 | [vol-46-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-111.jpg) | 1970년대 광주대단지 사진 |
+| 112 | [vol-46-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-112.jpg) | 광주대단지 개발 목표와 현실 |
+| 113 | [vol-46-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-113.jpg) | 광주대단지 주민 구술 활동지 |
+| 114 | [vol-46-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-114.jpg) | 1971년 8월 10일 사건 당일 광주대단지 모습 |
+| 115 | [vol-46-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-115.jpg) | 기도 성남 출장소의 탄생 / 광주 대단지 시기 성남 출장소가 가장 먼저 해결해야 할 문제는 서울시에서 살다가 쫓겨나 이사 |
+| 116 | [vol-46-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-116.jpg) | 초기 도시 기반 정비와 성남종합운동장 |
+| 117 | [vol-46-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-117.jpg) | 성남 실내체육관·버스·8호선 교통 자료 |
+| 118 | [vol-46-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-118.jpg) | 05 / 성남의 성장 |
+| 119 | [vol-46-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-119.jpg) | 위성도시 성남 성장과 인구 추이 |
+| 120 | [vol-46-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-120.jpg) | 1960년대 성남시는 광주 대단지 조성 사업에 의 익 목적의 연구 시설 건축 허용, 시가화 구역의 건 / 하여 농업 위주의 지 |
+| 121 | [vol-46-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-121.jpg) | 주거 지역과 준주거 지역으로 바꾸었으며, 시가지 이후 5·4조치는 1980년대에 들어서면서 성남시가 정 / 내 공단을 택지화하 |
+| 122 | [vol-46-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-122.jpg) | 활동1 여러분이 살고 싶은 집은 무엇인가요? 성남시의 주거 환경 / 의 변화를 살펴보고 여러분이 살고 싶은 집을 그려 보세요. |
+| 123 | [vol-46-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-123.jpg) | 주택 200만 호 계획과 분당신도시 배경 |
+| 124 | [vol-46-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-124.jpg) | 개발 이전 분당·오늘날 분당·스카이라인 계획 |
+| 125 | [vol-46-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-125.jpg) | 판교신도시 개발 배경과 2024년 사진 |
+| 126 | [vol-46-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-126.jpg) | 도촌·여수지구 개발 규모 |
+| 127 | [vol-46-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-127.jpg) | 위례신도시 사업 개요와 개발 방향 |
+| 128 | [vol-46-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-128.jpg) | 위례신도시 개발 방안과 위례동 사진 |
+| 129 | [vol-46-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-129.jpg) | 미래 성남 상상 활동지 |
+| 130 | [vol-46-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-130.jpg) | 06 / 우리 고장 성남의 |
+| 131 | [vol-46-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-131.jpg) | 성남 문화유산 개념과 남한산성 |
+| 132 | [vol-46-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-132.jpg) | 봉국사 대광명전·수내동가옥·천림산봉수·판교 고분군 |
+| 133 | [vol-46-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-133.jpg) | 이무술 집터 다지는 소리·오리뜰 농악·쌍용 거 줄다리기·불교유산 |
+| 134 | [vol-46-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-134.jpg) | 문화유산 분류·포스터·답사 계획 활동지 |
+| 135 | [vol-46-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-135.jpg) | 자료 출처·참고문헌 |
+| 136 | [vol-46-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-46/vol-46-page-136.jpg) | 판권과 발행 정보 |
 
 ## 교육 활동·재가공 색인
 

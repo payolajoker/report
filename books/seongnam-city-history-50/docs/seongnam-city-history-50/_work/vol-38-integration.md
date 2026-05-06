@@ -15,7 +15,7 @@ status: "draft-ready-for-common-index-merge"
 
 - [vol-38-godeung-sinchon-district-transformation.md](../vol-38-godeung-sinchon-district-transformation.md)
 - [seongnam-history-50-vol-38.llm.md](../../../dist/seongnam-history-50-vol-38.llm.md)
-- `assets/pages/vol-38-page-001.jpg` ... `assets/pages/vol-38-page-136.jpg`
+- `assets/pages/vol-38/vol-38-page-001.jpg` ... `assets/pages/vol-38/vol-38-page-136.jpg`
 
 ## Processing Notes
 

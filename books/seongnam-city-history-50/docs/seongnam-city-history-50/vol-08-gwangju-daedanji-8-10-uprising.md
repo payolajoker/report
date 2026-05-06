@@ -18,7 +18,7 @@ official_source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?i
 - 성남시 공식 `성남시사(50년사)` 게시판의 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 사진, 신문 기사, 표, 약도, 사건 전개에 필요한 주요 쪽은 `assets/pages/`에 렌더링했다.
+- 사진, 신문 기사, 표, 약도, 사건 전개에 필요한 주요 쪽은 `assets/pages/vol-08/`에 렌더링했다.
 - 공통 `README.md`, `index.md`, `manifest.yml`, `stats.md`, `figures.md`, `source-page-index.md`는 병행 작업 충돌을 피하기 위해 수정하지 않았다.
 
 ## 권별 목차
@@ -87,92 +87,92 @@ official_source_url: "https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?i
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-08-page-001.jpg](assets/pages/vol-08-page-001.jpg) | 1 | 표지와 권 제목 | rendered-page |
-| [vol-08-page-002.jpg](assets/pages/vol-08-page-002.jpg) | 2 | 권별 목차 1-2부 | rendered-page |
-| [vol-08-page-003.jpg](assets/pages/vol-08-page-003.jpg) | 3 | 권별 목차 3-5부 | rendered-page |
-| [vol-08-page-009.jpg](assets/pages/vol-08-page-009.jpg) | 9 | Part 1 표제면 | rendered-page |
-| [vol-08-page-013.jpg](assets/pages/vol-08-page-013.jpg) | 13 | 1960-1970년 서울시 인구 현황 표 | rendered-page |
-| [vol-08-page-016.jpg](assets/pages/vol-08-page-016.jpg) | 16 | 청계천 무허가 건물 철거 1 | rendered-page |
-| [vol-08-page-017.jpg](assets/pages/vol-08-page-017.jpg) | 17 | 청계천 무허가 건물 철거 2 | rendered-page |
-| [vol-08-page-018.jpg](assets/pages/vol-08-page-018.jpg) | 18 | 청계천 무허가 건물 철거 3 | rendered-page |
-| [vol-08-page-020.jpg](assets/pages/vol-08-page-020.jpg) | 20 | 울산·포항 신도시 개발 비교 서술 | rendered-page |
-| [vol-08-page-022.jpg](assets/pages/vol-08-page-022.jpg) | 22 | 1971년 3월 광주대단지 1 | rendered-page |
-| [vol-08-page-023.jpg](assets/pages/vol-08-page-023.jpg) | 23 | 1971년 3월 광주대단지 2 | rendered-page |
-| [vol-08-page-025.jpg](assets/pages/vol-08-page-025.jpg) | 25 | 모란단지와 모란개척단 형성 | rendered-page |
-| [vol-08-page-027.jpg](assets/pages/vol-08-page-027.jpg) | 27 | 모란개척단 제방·모란학원 관련 서술 | rendered-page |
-| [vol-08-page-029.jpg](assets/pages/vol-08-page-029.jpg) | 29 | 모란장과 모란개척단 사기 사건 | rendered-page |
-| [vol-08-page-030.jpg](assets/pages/vol-08-page-030.jpg) | 30 | 모란단지 기공식·지주 계약·투기 | rendered-page |
-| [vol-08-page-032.jpg](assets/pages/vol-08-page-032.jpg) | 32 | 모란개척단 국유지 불법 개간과 고발 | rendered-page |
-| [vol-08-page-033.jpg](assets/pages/vol-08-page-033.jpg) | 33 | Part 2 표제면 | rendered-page |
-| [vol-08-page-035.jpg](assets/pages/vol-08-page-035.jpg) | 35 | 1966년 대홍수 이후 주택단지·신도시 계획 | rendered-page |
-| [vol-08-page-036.jpg](assets/pages/vol-08-page-036.jpg) | 36 | 광주군 중부면 선정과 후보지 비교 | rendered-page |
-| [vol-08-page-038.jpg](assets/pages/vol-08-page-038.jpg) | 38 | 1968년 광주대단지 이주계획 발표 | rendered-page |
-| [vol-08-page-039.jpg](assets/pages/vol-08-page-039.jpg) | 39 | 광주대단지 수용 계획·신작로·전철 구상 | rendered-page |
-| [vol-08-page-040.jpg](assets/pages/vol-08-page-040.jpg) | 40 | 한남동 판잣집 철거 | rendered-page |
-| [vol-08-page-041.jpg](assets/pages/vol-08-page-041.jpg) | 41 | 인현동·남대문 양동 판잣집 철거 | rendered-page |
-| [vol-08-page-042.jpg](assets/pages/vol-08-page-042.jpg) | 42 | 하천부지 판잣집 지역별 수 표 | rendered-page |
-| [vol-08-page-043.jpg](assets/pages/vol-08-page-043.jpg) | 43 | 예산 부족·도로 한계·위성도시 가능성 지적 | rendered-page |
-| [vol-08-page-045.jpg](assets/pages/vol-08-page-045.jpg) | 45 | 개발 이전 촌락 약도와 광주대단지 건설 약도 | rendered-page |
-| [vol-08-page-046.jpg](assets/pages/vol-08-page-046.jpg) | 46 | 첫 이주민과 천막생활, 서울 연결 유일도로 | rendered-page |
-| [vol-08-page-047.jpg](assets/pages/vol-08-page-047.jpg) | 47 | 천막촌 소독과 광주대단지 초기 생활상 | rendered-page |
-| [vol-08-page-048.jpg](assets/pages/vol-08-page-048.jpg) | 48 | 광주대단지 시기 버스 정류장 | rendered-page |
-| [vol-08-page-049.jpg](assets/pages/vol-08-page-049.jpg) | 49 | 1969년 첫 겨울과 천막 거주 | rendered-page |
-| [vol-08-page-050.jpg](assets/pages/vol-08-page-050.jpg) | 50 | 1970년 광주대단지 가구·입주 현황 | rendered-page |
-| [vol-08-page-051.jpg](assets/pages/vol-08-page-051.jpg) | 51 | 조선일보 기사 「산산이 깨진 낙원의 꿈」 인용 | rendered-page |
-| [vol-08-page-052.jpg](assets/pages/vol-08-page-052.jpg) | 52 | 식수·공동수도·화장실 부족 | rendered-page |
-| [vol-08-page-053.jpg](assets/pages/vol-08-page-053.jpg) | 53 | 경향신문 기사 속 건강·위생 문제 | rendered-page |
-| [vol-08-page-055.jpg](assets/pages/vol-08-page-055.jpg) | 55 | 1971년 4월 광주대단지 사진 | rendered-page |
-| [vol-08-page-057.jpg](assets/pages/vol-08-page-057.jpg) | 57 | 입주증·전매·투기 갈등 | rendered-page |
-| [vol-08-page-059.jpg](assets/pages/vol-08-page-059.jpg) | 59 | Part 3 표제면 | rendered-page |
-| [vol-08-page-060.jpg](assets/pages/vol-08-page-060.jpg) | 60 | 1971년 광주대단지 편의시설 현황 | rendered-page |
-| [vol-08-page-061.jpg](assets/pages/vol-08-page-061.jpg) | 61 | 1971년 3월 생활시설 확충 계획 | rendered-page |
-| [vol-08-page-063.jpg](assets/pages/vol-08-page-063.jpg) | 63 | 광주대단지 분양 계약 신문 기사 | rendered-page |
-| [vol-08-page-064.jpg](assets/pages/vol-08-page-064.jpg) | 64 | 분양대금 통지와 사업비 증액 | rendered-page |
-| [vol-08-page-065.jpg](assets/pages/vol-08-page-065.jpg) | 65 | 주민 4대 요구 조건 | rendered-page |
-| [vol-08-page-066.jpg](assets/pages/vol-08-page-066.jpg) | 66 | 8월 9일 협상 결렬 | rendered-page |
-| [vol-08-page-067.jpg](assets/pages/vol-08-page-067.jpg) | 67 | 8월 10일 오전 집결과 구호 | rendered-page |
-| [vol-08-page-068.jpg](assets/pages/vol-08-page-068.jpg) | 68 | 오전 11시 45분 이후 행동과 출장소 방화 | rendered-page |
-| [vol-08-page-069.jpg](assets/pages/vol-08-page-069.jpg) | 69 | 오후 충돌·요구 수용·피해 규모 | rendered-page |
-| [vol-08-page-070.jpg](assets/pages/vol-08-page-070.jpg) | 70 | 성남경찰서 개서식 1과 사후 수습 | rendered-page |
-| [vol-08-page-071.jpg](assets/pages/vol-08-page-071.jpg) | 71 | 성남경찰서 개서식 2와 성남출장소 설치 | rendered-page |
-| [vol-08-page-072.jpg](assets/pages/vol-08-page-072.jpg) | 72 | 언론 기사 조사 방법과 기사 수 | rendered-page |
-| [vol-08-page-073.jpg](assets/pages/vol-08-page-073.jpg) | 73 | 1971년 8월 언론 기사 목록 1-33 | rendered-page |
-| [vol-08-page-074.jpg](assets/pages/vol-08-page-074.jpg) | 74 | 1971년 8월 언론 기사 목록 34-65 | rendered-page |
-| [vol-08-page-075.jpg](assets/pages/vol-08-page-075.jpg) | 75 | 기사 흐름과 명칭 프레임 분석 | rendered-page |
-| [vol-08-page-076.jpg](assets/pages/vol-08-page-076.jpg) | 76 | 8·10광주대단지 사건 보도 기사 | rendered-page |
-| [vol-08-page-077.jpg](assets/pages/vol-08-page-077.jpg) | 77 | 광주대단지를 다룬 신동아 기사 | rendered-page |
-| [vol-08-page-079.jpg](assets/pages/vol-08-page-079.jpg) | 79 | 8월 이후 난동·폭동 프레임 분석 | rendered-page |
-| [vol-08-page-080.jpg](assets/pages/vol-08-page-080.jpg) | 80 | Part 4 표제면 | rendered-page |
-| [vol-08-page-081.jpg](assets/pages/vol-08-page-081.jpg) | 81 | 대곡로 개통과 교통의 상징성 | rendered-page |
-| [vol-08-page-082.jpg](assets/pages/vol-08-page-082.jpg) | 82 | 대곡로 이후 버스·통행시간·전기 공급 변화 | rendered-page |
-| [vol-08-page-083.jpg](assets/pages/vol-08-page-083.jpg) | 83 | 서울시 광주대단지 조성사업 계획과 실적 표 | rendered-page |
-| [vol-08-page-084.jpg](assets/pages/vol-08-page-084.jpg) | 84 | 투기 소멸과 1972년 재판 결과 | rendered-page |
-| [vol-08-page-085.jpg](assets/pages/vol-08-page-085.jpg) | 85 | 1971년 12월 광주대단지 1 | rendered-page |
-| [vol-08-page-086.jpg](assets/pages/vol-08-page-086.jpg) | 86 | 광주대단지 치과 진료차와 1971년 12월 광주대단지 2 | rendered-page |
-| [vol-08-page-087.jpg](assets/pages/vol-08-page-087.jpg) | 87 | 경제활동 인구·일용노동·실업 통계 | rendered-page |
-| [vol-08-page-088.jpg](assets/pages/vol-08-page-088.jpg) | 88 | 경기도 성남출장소 개소식 1 | rendered-page |
-| [vol-08-page-089.jpg](assets/pages/vol-08-page-089.jpg) | 89 | 경기도 성남출장소 개소식 2 | rendered-page |
-| [vol-08-page-090.jpg](assets/pages/vol-08-page-090.jpg) | 90 | 성남시청 개청 1 | rendered-page |
-| [vol-08-page-091.jpg](assets/pages/vol-08-page-091.jpg) | 91 | 성남시청 개청 2와 산업단지 변화 | rendered-page |
-| [vol-08-page-092.jpg](assets/pages/vol-08-page-092.jpg) | 92 | 광주대단지 1공단·2공단 기공식 | rendered-page |
-| [vol-08-page-093.jpg](assets/pages/vol-08-page-093.jpg) | 93 | 1975년 도시 기반·경제활동 지표 | rendered-page |
-| [vol-08-page-094.jpg](assets/pages/vol-08-page-094.jpg) | 94 | Part 5 표제면 | rendered-page |
-| [vol-08-page-095.jpg](assets/pages/vol-08-page-095.jpg) | 95 | 명칭 분석: 난동·폭동에서 항쟁으로 | rendered-page |
-| [vol-08-page-096.jpg](assets/pages/vol-08-page-096.jpg) | 96 | 광주대단지 사건과 8·10 명칭 논의 | rendered-page |
-| [vol-08-page-097.jpg](assets/pages/vol-08-page-097.jpg) | 97 | 2021·2024년 공식 명칭 변화 | rendered-page |
-| [vol-08-page-098.jpg](assets/pages/vol-08-page-098.jpg) | 98 | 희망대공원에서 바라본 시가지, 1973.2 | rendered-page |
-| [vol-08-page-099.jpg](assets/pages/vol-08-page-099.jpg) | 99 | 상대원동에서 바라본 시가지, 1975 | rendered-page |
-| [vol-08-page-100.jpg](assets/pages/vol-08-page-100.jpg) | 100 | 고르디우스의 매듭과 광주대단지 문제 해결의 은유 | rendered-page |
-| [vol-08-page-101.jpg](assets/pages/vol-08-page-101.jpg) | 101 | 주요 단행본·학술자료 목록 1 | rendered-page |
-| [vol-08-page-102.jpg](assets/pages/vol-08-page-102.jpg) | 102 | 주요 학술·학위논문 목록 2 | rendered-page |
-| [vol-08-page-103.jpg](assets/pages/vol-08-page-103.jpg) | 103 | 윤흥길 「아홉 켤레 구두로 남은 사내」 | rendered-page |
-| [vol-08-page-104.jpg](assets/pages/vol-08-page-104.jpg) | 104 | 소설 속 철거·입주권·분노 | rendered-page |
-| [vol-08-page-105.jpg](assets/pages/vol-08-page-105.jpg) | 105 | 참외 트럭 장면과 권기용의 낙인 | rendered-page |
-| [vol-08-page-106.jpg](assets/pages/vol-08-page-106.jpg) | 106 | 「난장이가 쏘아올린 작은 공」 등 문학 재현 | rendered-page |
-| [vol-08-page-108.jpg](assets/pages/vol-08-page-108.jpg) | 108 | 『변경』·「무너진 산」과 현장 재현 | rendered-page |
-| [vol-08-page-109.jpg](assets/pages/vol-08-page-109.jpg) | 109 | 뮤지컬 「황무지와 달의 도시」·「천막촌 질경이」 | rendered-page |
-| [vol-08-page-110.jpg](assets/pages/vol-08-page-110.jpg) | 110 | 결론과 서술 원칙 | rendered-page |
-| [vol-08-page-112.jpg](assets/pages/vol-08-page-112.jpg) | 112 | 판권과 발행 정보 | rendered-page |
+| [vol-08-page-001.jpg](assets/pages/vol-08/vol-08-page-001.jpg) | 1 | 표지와 권 제목 | rendered-page |
+| [vol-08-page-002.jpg](assets/pages/vol-08/vol-08-page-002.jpg) | 2 | 권별 목차 1-2부 | rendered-page |
+| [vol-08-page-003.jpg](assets/pages/vol-08/vol-08-page-003.jpg) | 3 | 권별 목차 3-5부 | rendered-page |
+| [vol-08-page-009.jpg](assets/pages/vol-08/vol-08-page-009.jpg) | 9 | Part 1 표제면 | rendered-page |
+| [vol-08-page-013.jpg](assets/pages/vol-08/vol-08-page-013.jpg) | 13 | 1960-1970년 서울시 인구 현황 표 | rendered-page |
+| [vol-08-page-016.jpg](assets/pages/vol-08/vol-08-page-016.jpg) | 16 | 청계천 무허가 건물 철거 1 | rendered-page |
+| [vol-08-page-017.jpg](assets/pages/vol-08/vol-08-page-017.jpg) | 17 | 청계천 무허가 건물 철거 2 | rendered-page |
+| [vol-08-page-018.jpg](assets/pages/vol-08/vol-08-page-018.jpg) | 18 | 청계천 무허가 건물 철거 3 | rendered-page |
+| [vol-08-page-020.jpg](assets/pages/vol-08/vol-08-page-020.jpg) | 20 | 울산·포항 신도시 개발 비교 서술 | rendered-page |
+| [vol-08-page-022.jpg](assets/pages/vol-08/vol-08-page-022.jpg) | 22 | 1971년 3월 광주대단지 1 | rendered-page |
+| [vol-08-page-023.jpg](assets/pages/vol-08/vol-08-page-023.jpg) | 23 | 1971년 3월 광주대단지 2 | rendered-page |
+| [vol-08-page-025.jpg](assets/pages/vol-08/vol-08-page-025.jpg) | 25 | 모란단지와 모란개척단 형성 | rendered-page |
+| [vol-08-page-027.jpg](assets/pages/vol-08/vol-08-page-027.jpg) | 27 | 모란개척단 제방·모란학원 관련 서술 | rendered-page |
+| [vol-08-page-029.jpg](assets/pages/vol-08/vol-08-page-029.jpg) | 29 | 모란장과 모란개척단 사기 사건 | rendered-page |
+| [vol-08-page-030.jpg](assets/pages/vol-08/vol-08-page-030.jpg) | 30 | 모란단지 기공식·지주 계약·투기 | rendered-page |
+| [vol-08-page-032.jpg](assets/pages/vol-08/vol-08-page-032.jpg) | 32 | 모란개척단 국유지 불법 개간과 고발 | rendered-page |
+| [vol-08-page-033.jpg](assets/pages/vol-08/vol-08-page-033.jpg) | 33 | Part 2 표제면 | rendered-page |
+| [vol-08-page-035.jpg](assets/pages/vol-08/vol-08-page-035.jpg) | 35 | 1966년 대홍수 이후 주택단지·신도시 계획 | rendered-page |
+| [vol-08-page-036.jpg](assets/pages/vol-08/vol-08-page-036.jpg) | 36 | 광주군 중부면 선정과 후보지 비교 | rendered-page |
+| [vol-08-page-038.jpg](assets/pages/vol-08/vol-08-page-038.jpg) | 38 | 1968년 광주대단지 이주계획 발표 | rendered-page |
+| [vol-08-page-039.jpg](assets/pages/vol-08/vol-08-page-039.jpg) | 39 | 광주대단지 수용 계획·신작로·전철 구상 | rendered-page |
+| [vol-08-page-040.jpg](assets/pages/vol-08/vol-08-page-040.jpg) | 40 | 한남동 판잣집 철거 | rendered-page |
+| [vol-08-page-041.jpg](assets/pages/vol-08/vol-08-page-041.jpg) | 41 | 인현동·남대문 양동 판잣집 철거 | rendered-page |
+| [vol-08-page-042.jpg](assets/pages/vol-08/vol-08-page-042.jpg) | 42 | 하천부지 판잣집 지역별 수 표 | rendered-page |
+| [vol-08-page-043.jpg](assets/pages/vol-08/vol-08-page-043.jpg) | 43 | 예산 부족·도로 한계·위성도시 가능성 지적 | rendered-page |
+| [vol-08-page-045.jpg](assets/pages/vol-08/vol-08-page-045.jpg) | 45 | 개발 이전 촌락 약도와 광주대단지 건설 약도 | rendered-page |
+| [vol-08-page-046.jpg](assets/pages/vol-08/vol-08-page-046.jpg) | 46 | 첫 이주민과 천막생활, 서울 연결 유일도로 | rendered-page |
+| [vol-08-page-047.jpg](assets/pages/vol-08/vol-08-page-047.jpg) | 47 | 천막촌 소독과 광주대단지 초기 생활상 | rendered-page |
+| [vol-08-page-048.jpg](assets/pages/vol-08/vol-08-page-048.jpg) | 48 | 광주대단지 시기 버스 정류장 | rendered-page |
+| [vol-08-page-049.jpg](assets/pages/vol-08/vol-08-page-049.jpg) | 49 | 1969년 첫 겨울과 천막 거주 | rendered-page |
+| [vol-08-page-050.jpg](assets/pages/vol-08/vol-08-page-050.jpg) | 50 | 1970년 광주대단지 가구·입주 현황 | rendered-page |
+| [vol-08-page-051.jpg](assets/pages/vol-08/vol-08-page-051.jpg) | 51 | 조선일보 기사 「산산이 깨진 낙원의 꿈」 인용 | rendered-page |
+| [vol-08-page-052.jpg](assets/pages/vol-08/vol-08-page-052.jpg) | 52 | 식수·공동수도·화장실 부족 | rendered-page |
+| [vol-08-page-053.jpg](assets/pages/vol-08/vol-08-page-053.jpg) | 53 | 경향신문 기사 속 건강·위생 문제 | rendered-page |
+| [vol-08-page-055.jpg](assets/pages/vol-08/vol-08-page-055.jpg) | 55 | 1971년 4월 광주대단지 사진 | rendered-page |
+| [vol-08-page-057.jpg](assets/pages/vol-08/vol-08-page-057.jpg) | 57 | 입주증·전매·투기 갈등 | rendered-page |
+| [vol-08-page-059.jpg](assets/pages/vol-08/vol-08-page-059.jpg) | 59 | Part 3 표제면 | rendered-page |
+| [vol-08-page-060.jpg](assets/pages/vol-08/vol-08-page-060.jpg) | 60 | 1971년 광주대단지 편의시설 현황 | rendered-page |
+| [vol-08-page-061.jpg](assets/pages/vol-08/vol-08-page-061.jpg) | 61 | 1971년 3월 생활시설 확충 계획 | rendered-page |
+| [vol-08-page-063.jpg](assets/pages/vol-08/vol-08-page-063.jpg) | 63 | 광주대단지 분양 계약 신문 기사 | rendered-page |
+| [vol-08-page-064.jpg](assets/pages/vol-08/vol-08-page-064.jpg) | 64 | 분양대금 통지와 사업비 증액 | rendered-page |
+| [vol-08-page-065.jpg](assets/pages/vol-08/vol-08-page-065.jpg) | 65 | 주민 4대 요구 조건 | rendered-page |
+| [vol-08-page-066.jpg](assets/pages/vol-08/vol-08-page-066.jpg) | 66 | 8월 9일 협상 결렬 | rendered-page |
+| [vol-08-page-067.jpg](assets/pages/vol-08/vol-08-page-067.jpg) | 67 | 8월 10일 오전 집결과 구호 | rendered-page |
+| [vol-08-page-068.jpg](assets/pages/vol-08/vol-08-page-068.jpg) | 68 | 오전 11시 45분 이후 행동과 출장소 방화 | rendered-page |
+| [vol-08-page-069.jpg](assets/pages/vol-08/vol-08-page-069.jpg) | 69 | 오후 충돌·요구 수용·피해 규모 | rendered-page |
+| [vol-08-page-070.jpg](assets/pages/vol-08/vol-08-page-070.jpg) | 70 | 성남경찰서 개서식 1과 사후 수습 | rendered-page |
+| [vol-08-page-071.jpg](assets/pages/vol-08/vol-08-page-071.jpg) | 71 | 성남경찰서 개서식 2와 성남출장소 설치 | rendered-page |
+| [vol-08-page-072.jpg](assets/pages/vol-08/vol-08-page-072.jpg) | 72 | 언론 기사 조사 방법과 기사 수 | rendered-page |
+| [vol-08-page-073.jpg](assets/pages/vol-08/vol-08-page-073.jpg) | 73 | 1971년 8월 언론 기사 목록 1-33 | rendered-page |
+| [vol-08-page-074.jpg](assets/pages/vol-08/vol-08-page-074.jpg) | 74 | 1971년 8월 언론 기사 목록 34-65 | rendered-page |
+| [vol-08-page-075.jpg](assets/pages/vol-08/vol-08-page-075.jpg) | 75 | 기사 흐름과 명칭 프레임 분석 | rendered-page |
+| [vol-08-page-076.jpg](assets/pages/vol-08/vol-08-page-076.jpg) | 76 | 8·10광주대단지 사건 보도 기사 | rendered-page |
+| [vol-08-page-077.jpg](assets/pages/vol-08/vol-08-page-077.jpg) | 77 | 광주대단지를 다룬 신동아 기사 | rendered-page |
+| [vol-08-page-079.jpg](assets/pages/vol-08/vol-08-page-079.jpg) | 79 | 8월 이후 난동·폭동 프레임 분석 | rendered-page |
+| [vol-08-page-080.jpg](assets/pages/vol-08/vol-08-page-080.jpg) | 80 | Part 4 표제면 | rendered-page |
+| [vol-08-page-081.jpg](assets/pages/vol-08/vol-08-page-081.jpg) | 81 | 대곡로 개통과 교통의 상징성 | rendered-page |
+| [vol-08-page-082.jpg](assets/pages/vol-08/vol-08-page-082.jpg) | 82 | 대곡로 이후 버스·통행시간·전기 공급 변화 | rendered-page |
+| [vol-08-page-083.jpg](assets/pages/vol-08/vol-08-page-083.jpg) | 83 | 서울시 광주대단지 조성사업 계획과 실적 표 | rendered-page |
+| [vol-08-page-084.jpg](assets/pages/vol-08/vol-08-page-084.jpg) | 84 | 투기 소멸과 1972년 재판 결과 | rendered-page |
+| [vol-08-page-085.jpg](assets/pages/vol-08/vol-08-page-085.jpg) | 85 | 1971년 12월 광주대단지 1 | rendered-page |
+| [vol-08-page-086.jpg](assets/pages/vol-08/vol-08-page-086.jpg) | 86 | 광주대단지 치과 진료차와 1971년 12월 광주대단지 2 | rendered-page |
+| [vol-08-page-087.jpg](assets/pages/vol-08/vol-08-page-087.jpg) | 87 | 경제활동 인구·일용노동·실업 통계 | rendered-page |
+| [vol-08-page-088.jpg](assets/pages/vol-08/vol-08-page-088.jpg) | 88 | 경기도 성남출장소 개소식 1 | rendered-page |
+| [vol-08-page-089.jpg](assets/pages/vol-08/vol-08-page-089.jpg) | 89 | 경기도 성남출장소 개소식 2 | rendered-page |
+| [vol-08-page-090.jpg](assets/pages/vol-08/vol-08-page-090.jpg) | 90 | 성남시청 개청 1 | rendered-page |
+| [vol-08-page-091.jpg](assets/pages/vol-08/vol-08-page-091.jpg) | 91 | 성남시청 개청 2와 산업단지 변화 | rendered-page |
+| [vol-08-page-092.jpg](assets/pages/vol-08/vol-08-page-092.jpg) | 92 | 광주대단지 1공단·2공단 기공식 | rendered-page |
+| [vol-08-page-093.jpg](assets/pages/vol-08/vol-08-page-093.jpg) | 93 | 1975년 도시 기반·경제활동 지표 | rendered-page |
+| [vol-08-page-094.jpg](assets/pages/vol-08/vol-08-page-094.jpg) | 94 | Part 5 표제면 | rendered-page |
+| [vol-08-page-095.jpg](assets/pages/vol-08/vol-08-page-095.jpg) | 95 | 명칭 분석: 난동·폭동에서 항쟁으로 | rendered-page |
+| [vol-08-page-096.jpg](assets/pages/vol-08/vol-08-page-096.jpg) | 96 | 광주대단지 사건과 8·10 명칭 논의 | rendered-page |
+| [vol-08-page-097.jpg](assets/pages/vol-08/vol-08-page-097.jpg) | 97 | 2021·2024년 공식 명칭 변화 | rendered-page |
+| [vol-08-page-098.jpg](assets/pages/vol-08/vol-08-page-098.jpg) | 98 | 희망대공원에서 바라본 시가지, 1973.2 | rendered-page |
+| [vol-08-page-099.jpg](assets/pages/vol-08/vol-08-page-099.jpg) | 99 | 상대원동에서 바라본 시가지, 1975 | rendered-page |
+| [vol-08-page-100.jpg](assets/pages/vol-08/vol-08-page-100.jpg) | 100 | 고르디우스의 매듭과 광주대단지 문제 해결의 은유 | rendered-page |
+| [vol-08-page-101.jpg](assets/pages/vol-08/vol-08-page-101.jpg) | 101 | 주요 단행본·학술자료 목록 1 | rendered-page |
+| [vol-08-page-102.jpg](assets/pages/vol-08/vol-08-page-102.jpg) | 102 | 주요 학술·학위논문 목록 2 | rendered-page |
+| [vol-08-page-103.jpg](assets/pages/vol-08/vol-08-page-103.jpg) | 103 | 윤흥길 「아홉 켤레 구두로 남은 사내」 | rendered-page |
+| [vol-08-page-104.jpg](assets/pages/vol-08/vol-08-page-104.jpg) | 104 | 소설 속 철거·입주권·분노 | rendered-page |
+| [vol-08-page-105.jpg](assets/pages/vol-08/vol-08-page-105.jpg) | 105 | 참외 트럭 장면과 권기용의 낙인 | rendered-page |
+| [vol-08-page-106.jpg](assets/pages/vol-08/vol-08-page-106.jpg) | 106 | 「난장이가 쏘아올린 작은 공」 등 문학 재현 | rendered-page |
+| [vol-08-page-108.jpg](assets/pages/vol-08/vol-08-page-108.jpg) | 108 | 『변경』·「무너진 산」과 현장 재현 | rendered-page |
+| [vol-08-page-109.jpg](assets/pages/vol-08/vol-08-page-109.jpg) | 109 | 뮤지컬 「황무지와 달의 도시」·「천막촌 질경이」 | rendered-page |
+| [vol-08-page-110.jpg](assets/pages/vol-08/vol-08-page-110.jpg) | 110 | 결론과 서술 원칙 | rendered-page |
+| [vol-08-page-112.jpg](assets/pages/vol-08/vol-08-page-112.jpg) | 112 | 판권과 발행 정보 | rendered-page |
 
 ## 핵심 표/자료 위치
 

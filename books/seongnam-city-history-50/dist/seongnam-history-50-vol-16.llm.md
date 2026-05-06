@@ -17,7 +17,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 경제·산업 통계, 상권 그래프, 정책 표가 많은 권차라서 1-144쪽 전체를 `assets/pages/`에 렌더링했다.
+- 경제·산업 통계, 상권 그래프, 정책 표가 많은 권차라서 1-144쪽 전체를 `assets/pages/vol-16/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-16-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록의 제목은 `제16권 성남시 경제와 산업`이지만, PDF 표지와 본문 권명은 `성남의 경제와 산업`으로 확인된다.
 - 이 파일은 LLM 장문 입력을 위해 16권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
@@ -100,245 +100,245 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-16-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-16-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-002.jpg) | 2 | 권별 목차 1 | toc |
-| [vol-16-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-003.jpg) | 3 | 권별 목차 2 | toc |
-| [vol-16-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-005.jpg) | 5 | 통일신라시대 한주 지역 간선 교통로 | map |
-| [vol-16-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-006.jpg) | 6 | 고려시대 지방제도 5도 양계와 12목 | map |
-| [vol-16-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-008.jpg) | 8 | 조선 후기 육로망 | map |
-| [vol-16-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-009.jpg) | 9 | 상대원동 백자 요지와 유물 산포지 | photo-map |
-| [vol-16-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-017.jpg) | 17 | 공원과 박물관으로 바뀐 성남산업단지 제1공단 | photo |
-| [vol-16-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-018.jpg) | 18 | 성남하이테크밸리로 변모한 제2·3공단 | photo |
-| [vol-16-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-019.jpg) | 19 | 분당테크노파크 전경 | photo |
-| [vol-16-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-020.jpg) | 20 | 분당신도시 개발지구 내 편입 공장 현황 | table |
-| [vol-16-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-022.jpg) | 22 | 2010~2021 성남시 GRDP 변화 추이 | chart |
-| [vol-16-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-023.jpg) | 23 | 성남시의 경기도 내 GRDP 비중 | chart |
-| [vol-16-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-024.jpg) | 24 | 경기도 31개 시군의 연평균 성장률 비교 | chart |
-| [vol-16-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-026.jpg) | 26 | 성남시 사업체 수 및 인구 천 명당 사업체 수 변화 | chart |
-| [vol-16-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-027.jpg) | 27 | 성남시 사업체 종사자 수 및 인구 천 명당 종사자 수 변화 | chart |
-| [vol-16-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-028.jpg) | 28 | 사업체당 종사자 수 및 경기도 내 비중 변화 | chart |
-| [vol-16-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-030.jpg) | 30 | 성남시 산업별 종사자·사업체 비중 | pie-chart |
-| [vol-16-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-031.jpg) | 31 | 산업별 경기도 내 사업체·종사자 비중 변화 | chart |
-| [vol-16-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-033.jpg) | 33 | 제조업 사업체 수 및 종사자 수 변화 | chart |
-| [vol-16-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-037.jpg) | 37 | 정보통신기술 산업의 범위 | table |
-| [vol-16-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-040.jpg) | 40 | ICT 산업별 업체 수 및 증감률 | table |
-| [vol-16-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-041.jpg) | 41 | ICT 산업별 종사자 수 변화 | chart |
-| [vol-16-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-042.jpg) | 42 | ICT 산업별 종사자 수 및 증감률 | table |
-| [vol-16-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-043.jpg) | 43 | ICT 산업 경기도 대비 비중 | chart |
-| [vol-16-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-045.jpg) | 45 | 도소매업 사업체 수 현황 및 경기도 내 비중 변화 | chart |
-| [vol-16-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-047.jpg) | 47 | 숙박 및 음식점업 사업체 수 현황 및 경기도 내 비중 변화 | chart |
-| [vol-16-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-049.jpg) | 49 | 전문·과학 및 기술 서비스업 사업체 수와 비중 | chart |
-| [vol-16-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-050.jpg) | 50 | 전문·과학 및 기술 서비스업 종사자 수와 비중 | chart |
-| [vol-16-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-051.jpg) | 51 | 성남시 농가 현황 변화 추이 | chart |
-| [vol-16-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-061.jpg) | 61 | 판교지구 조성 관련 주요 고시 | table |
-| [vol-16-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-062.jpg) | 62 | 원도심과 분당 사업체 수 현황 | chart |
-| [vol-16-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-063.jpg) | 63 | 원도심과 분당 종사자 수 현황 | chart |
-| [vol-16-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-065.jpg) | 65 | 원도심 지역의 산업변화 2002~2022 | table |
-| [vol-16-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-066.jpg) | 66 | 2002년 원도심 산업별 사업체 수 비중 | pie-chart |
-| [vol-16-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-067.jpg) | 67 | 2022년 원도심 산업별 사업체 수 비중 | pie-chart |
-| [vol-16-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-069.jpg) | 69 | 분당 지역의 산업변화 2002~2022 | table |
-| [vol-16-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-070.jpg) | 70 | 2002년 분당 지역 사업체 수 비중 | pie-chart |
-| [vol-16-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-071.jpg) | 71 | 2022년 분당 지역 사업체 수 비중 | pie-chart |
-| [vol-16-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-073.jpg) | 73 | 성남시 151개 세부 상권 현황과 점포 수 구성 변화 | map-chart |
-| [vol-16-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-074.jpg) | 74 | 성남 전체 상권 매출액 및 매출 건수 변화 | chart |
-| [vol-16-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-075.jpg) | 75 | 성남시 상권 분류 | table |
-| [vol-16-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-076.jpg) | 76 | 성남시 상권 분류 및 수정구 상권 장 시작 | table |
-| [vol-16-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-077.jpg) | 77 | 수진역-신흥역 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-078.jpg) | 78 | 수진역-신흥역 상권 소비 현황 | chart |
-| [vol-16-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-079.jpg) | 79 | 태평동 전통 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-080.jpg) | 80 | 태평동 전통 상권 소비 현황 | chart |
-| [vol-16-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-081.jpg) | 81 | 수진동 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-082.jpg) | 82 | 수진동 상권 소비 현황 | chart |
-| [vol-16-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-083.jpg) | 83 | 중원구 상권별 매출액 및 주요 업종 | table |
-| [vol-16-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-084.jpg) | 84 | 모란 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-085.jpg) | 85 | 모란 상권 소비 현황 | chart |
-| [vol-16-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-086.jpg) | 86 | 은행동 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-087.jpg) | 87 | 은행동 상권 소비 현황 | chart |
-| [vol-16-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-088.jpg) | 88 | 단대시장 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-089.jpg) | 89 | 단대시장 상권 소비 현황 | chart |
-| [vol-16-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-090.jpg) | 90 | 분당구 주요 상권별 매출액 및 주요 업종 | table |
-| [vol-16-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-091.jpg) | 91 | 판교테크노밸리 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-092.jpg) | 92 | 판교테크노밸리 상권 소비 현황 | chart |
-| [vol-16-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-093.jpg) | 93 | 정자1동 카페거리 상존 인구·업종 현황 | chart |
-| [vol-16-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-094.jpg) | 94 | 정자1동 카페거리 소비 현황 | chart |
-| [vol-16-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-095.jpg) | 95 | 서현역 로데오 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-096.jpg) | 96 | 서현역 로데오 상권 소비 현황 | chart |
-| [vol-16-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-099.jpg) | 99 | K-클러스터 정책 | table |
-| [vol-16-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-100.jpg) | 100 | 경기도 권역별 비전 및 목표 | table |
-| [vol-16-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-101.jpg) | 101 | 성남-용인 시스템반도체 집적단지 조성 | map |
-| [vol-16-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-103.jpg) | 103 | 성남시 지식산업센터 현황 1 | table |
-| [vol-16-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-104.jpg) | 104 | 성남시 지식산업센터 현황 2 | table |
-| [vol-16-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-106.jpg) | 106 | 성남시 중소기업 육성 자금 지원 조건 | table |
-| [vol-16-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-107.jpg) | 107 | 성남시 GRDP 변동 추이 | chart |
-| [vol-16-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-108.jpg) | 108 | 성남시 1인당 GRDP 변동 추이 | chart |
-| [vol-16-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-110.jpg) | 110 | 제1판교테크노밸리 유스페이스 광장 전경 | photo |
-| [vol-16-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-112.jpg) | 112 | 성남시 주요 IT대기업 현황 | table |
-| [vol-16-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-116.jpg) | 116 | 전국 지역화폐 발행액 현황 | chart |
-| [vol-16-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-117.jpg) | 117 | 카드형·지류형 성남사랑상품권 | photo |
-| [vol-16-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-118.jpg) | 118 | 성남 지역화폐의 역사와 일반 발행 규모 | table-chart |
-| [vol-16-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-119.jpg) | 119 | 성남사랑상품권 가맹점 마크와 전통시장 현황 | table-photo |
-| [vol-16-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-120.jpg) | 120 | 성남사랑상품권 사용 가능 전통시장 현황 | table |
-| [vol-16-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-121.jpg) | 121 | 성남사랑상품권 가맹점 현황 | chart |
-| [vol-16-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-123.jpg) | 123 | 성남사랑상품권으로 인한 매출 증가율 | chart |
-| [vol-16-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-128.jpg) | 128 | 사회적경제 기업, 비영리기관, 영리기업 비교 | table |
-| [vol-16-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-131.jpg) | 131 | 국가별·권역별 사회적경제의 정의 | table |
-| [vol-16-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-132.jpg) | 132 | 사회적 기업의 정의와 조직 형태 | definition-table |
-| [vol-16-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-133.jpg) | 133 | 사회적경제 기업의 종류와 관련 법령 | table |
-| [vol-16-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-134.jpg) | 134 | 성남시 사회적경제 유형별·지역별·분야별 현황 | charts |
-| [vol-16-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-135.jpg) | 135 | 성남시 사회적경제 관련 기업 현황 시작 | table |
-| [vol-16-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-141.jpg) | 141 | 사회적경제 기업 현황 비고와 지원센터 개소 설명 | table |
-| [vol-16-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-142.jpg) | 142 | 성남시사회적경제지원센터 주체 발굴 사업 | table |
-| [vol-16-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-143.jpg) | 143 | 대외협력·공유경제 활성화 사업 | table |
-| [vol-16-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-144.jpg) | 144 | 판권 | colophon |
+| [vol-16-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-16-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-002.jpg) | 2 | 권별 목차 1 | toc |
+| [vol-16-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-003.jpg) | 3 | 권별 목차 2 | toc |
+| [vol-16-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-005.jpg) | 5 | 통일신라시대 한주 지역 간선 교통로 | map |
+| [vol-16-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-006.jpg) | 6 | 고려시대 지방제도 5도 양계와 12목 | map |
+| [vol-16-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-008.jpg) | 8 | 조선 후기 육로망 | map |
+| [vol-16-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-009.jpg) | 9 | 상대원동 백자 요지와 유물 산포지 | photo-map |
+| [vol-16-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-017.jpg) | 17 | 공원과 박물관으로 바뀐 성남산업단지 제1공단 | photo |
+| [vol-16-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-018.jpg) | 18 | 성남하이테크밸리로 변모한 제2·3공단 | photo |
+| [vol-16-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-019.jpg) | 19 | 분당테크노파크 전경 | photo |
+| [vol-16-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-020.jpg) | 20 | 분당신도시 개발지구 내 편입 공장 현황 | table |
+| [vol-16-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-022.jpg) | 22 | 2010~2021 성남시 GRDP 변화 추이 | chart |
+| [vol-16-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-023.jpg) | 23 | 성남시의 경기도 내 GRDP 비중 | chart |
+| [vol-16-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-024.jpg) | 24 | 경기도 31개 시군의 연평균 성장률 비교 | chart |
+| [vol-16-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-026.jpg) | 26 | 성남시 사업체 수 및 인구 천 명당 사업체 수 변화 | chart |
+| [vol-16-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-027.jpg) | 27 | 성남시 사업체 종사자 수 및 인구 천 명당 종사자 수 변화 | chart |
+| [vol-16-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-028.jpg) | 28 | 사업체당 종사자 수 및 경기도 내 비중 변화 | chart |
+| [vol-16-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-030.jpg) | 30 | 성남시 산업별 종사자·사업체 비중 | pie-chart |
+| [vol-16-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-031.jpg) | 31 | 산업별 경기도 내 사업체·종사자 비중 변화 | chart |
+| [vol-16-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-033.jpg) | 33 | 제조업 사업체 수 및 종사자 수 변화 | chart |
+| [vol-16-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-037.jpg) | 37 | 정보통신기술 산업의 범위 | table |
+| [vol-16-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-040.jpg) | 40 | ICT 산업별 업체 수 및 증감률 | table |
+| [vol-16-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-041.jpg) | 41 | ICT 산업별 종사자 수 변화 | chart |
+| [vol-16-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-042.jpg) | 42 | ICT 산업별 종사자 수 및 증감률 | table |
+| [vol-16-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-043.jpg) | 43 | ICT 산업 경기도 대비 비중 | chart |
+| [vol-16-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-045.jpg) | 45 | 도소매업 사업체 수 현황 및 경기도 내 비중 변화 | chart |
+| [vol-16-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-047.jpg) | 47 | 숙박 및 음식점업 사업체 수 현황 및 경기도 내 비중 변화 | chart |
+| [vol-16-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-049.jpg) | 49 | 전문·과학 및 기술 서비스업 사업체 수와 비중 | chart |
+| [vol-16-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-050.jpg) | 50 | 전문·과학 및 기술 서비스업 종사자 수와 비중 | chart |
+| [vol-16-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-051.jpg) | 51 | 성남시 농가 현황 변화 추이 | chart |
+| [vol-16-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-061.jpg) | 61 | 판교지구 조성 관련 주요 고시 | table |
+| [vol-16-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-062.jpg) | 62 | 원도심과 분당 사업체 수 현황 | chart |
+| [vol-16-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-063.jpg) | 63 | 원도심과 분당 종사자 수 현황 | chart |
+| [vol-16-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-065.jpg) | 65 | 원도심 지역의 산업변화 2002~2022 | table |
+| [vol-16-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-066.jpg) | 66 | 2002년 원도심 산업별 사업체 수 비중 | pie-chart |
+| [vol-16-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-067.jpg) | 67 | 2022년 원도심 산업별 사업체 수 비중 | pie-chart |
+| [vol-16-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-069.jpg) | 69 | 분당 지역의 산업변화 2002~2022 | table |
+| [vol-16-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-070.jpg) | 70 | 2002년 분당 지역 사업체 수 비중 | pie-chart |
+| [vol-16-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-071.jpg) | 71 | 2022년 분당 지역 사업체 수 비중 | pie-chart |
+| [vol-16-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-073.jpg) | 73 | 성남시 151개 세부 상권 현황과 점포 수 구성 변화 | map-chart |
+| [vol-16-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-074.jpg) | 74 | 성남 전체 상권 매출액 및 매출 건수 변화 | chart |
+| [vol-16-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-075.jpg) | 75 | 성남시 상권 분류 | table |
+| [vol-16-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-076.jpg) | 76 | 성남시 상권 분류 및 수정구 상권 장 시작 | table |
+| [vol-16-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-077.jpg) | 77 | 수진역-신흥역 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-078.jpg) | 78 | 수진역-신흥역 상권 소비 현황 | chart |
+| [vol-16-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-079.jpg) | 79 | 태평동 전통 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-080.jpg) | 80 | 태평동 전통 상권 소비 현황 | chart |
+| [vol-16-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-081.jpg) | 81 | 수진동 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-082.jpg) | 82 | 수진동 상권 소비 현황 | chart |
+| [vol-16-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-083.jpg) | 83 | 중원구 상권별 매출액 및 주요 업종 | table |
+| [vol-16-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-084.jpg) | 84 | 모란 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-085.jpg) | 85 | 모란 상권 소비 현황 | chart |
+| [vol-16-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-086.jpg) | 86 | 은행동 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-087.jpg) | 87 | 은행동 상권 소비 현황 | chart |
+| [vol-16-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-088.jpg) | 88 | 단대시장 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-089.jpg) | 89 | 단대시장 상권 소비 현황 | chart |
+| [vol-16-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-090.jpg) | 90 | 분당구 주요 상권별 매출액 및 주요 업종 | table |
+| [vol-16-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-091.jpg) | 91 | 판교테크노밸리 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-092.jpg) | 92 | 판교테크노밸리 상권 소비 현황 | chart |
+| [vol-16-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-093.jpg) | 93 | 정자1동 카페거리 상존 인구·업종 현황 | chart |
+| [vol-16-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-094.jpg) | 94 | 정자1동 카페거리 소비 현황 | chart |
+| [vol-16-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-095.jpg) | 95 | 서현역 로데오 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-096.jpg) | 96 | 서현역 로데오 상권 소비 현황 | chart |
+| [vol-16-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-099.jpg) | 99 | K-클러스터 정책 | table |
+| [vol-16-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-100.jpg) | 100 | 경기도 권역별 비전 및 목표 | table |
+| [vol-16-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-101.jpg) | 101 | 성남-용인 시스템반도체 집적단지 조성 | map |
+| [vol-16-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-103.jpg) | 103 | 성남시 지식산업센터 현황 1 | table |
+| [vol-16-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-104.jpg) | 104 | 성남시 지식산업센터 현황 2 | table |
+| [vol-16-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-106.jpg) | 106 | 성남시 중소기업 육성 자금 지원 조건 | table |
+| [vol-16-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-107.jpg) | 107 | 성남시 GRDP 변동 추이 | chart |
+| [vol-16-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-108.jpg) | 108 | 성남시 1인당 GRDP 변동 추이 | chart |
+| [vol-16-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-110.jpg) | 110 | 제1판교테크노밸리 유스페이스 광장 전경 | photo |
+| [vol-16-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-112.jpg) | 112 | 성남시 주요 IT대기업 현황 | table |
+| [vol-16-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-116.jpg) | 116 | 전국 지역화폐 발행액 현황 | chart |
+| [vol-16-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-117.jpg) | 117 | 카드형·지류형 성남사랑상품권 | photo |
+| [vol-16-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-118.jpg) | 118 | 성남 지역화폐의 역사와 일반 발행 규모 | table-chart |
+| [vol-16-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-119.jpg) | 119 | 성남사랑상품권 가맹점 마크와 전통시장 현황 | table-photo |
+| [vol-16-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-120.jpg) | 120 | 성남사랑상품권 사용 가능 전통시장 현황 | table |
+| [vol-16-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-121.jpg) | 121 | 성남사랑상품권 가맹점 현황 | chart |
+| [vol-16-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-123.jpg) | 123 | 성남사랑상품권으로 인한 매출 증가율 | chart |
+| [vol-16-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-128.jpg) | 128 | 사회적경제 기업, 비영리기관, 영리기업 비교 | table |
+| [vol-16-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-131.jpg) | 131 | 국가별·권역별 사회적경제의 정의 | table |
+| [vol-16-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-132.jpg) | 132 | 사회적 기업의 정의와 조직 형태 | definition-table |
+| [vol-16-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-133.jpg) | 133 | 사회적경제 기업의 종류와 관련 법령 | table |
+| [vol-16-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-134.jpg) | 134 | 성남시 사회적경제 유형별·지역별·분야별 현황 | charts |
+| [vol-16-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-135.jpg) | 135 | 성남시 사회적경제 관련 기업 현황 시작 | table |
+| [vol-16-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-141.jpg) | 141 | 사회적경제 기업 현황 비고와 지원센터 개소 설명 | table |
+| [vol-16-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-142.jpg) | 142 | 성남시사회적경제지원센터 주체 발굴 사업 | table |
+| [vol-16-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-143.jpg) | 143 | 대외협력·공유경제 활성화 사업 | table |
+| [vol-16-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-144.jpg) | 144 | 판권 | colophon |
 
 ## 전체 페이지 이미지
 
 | 파일 | 원문 쪽 | 요약 | 처리 상태 |
 |---|---:|---|---|
-| [vol-16-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-16-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-002.jpg) | 2 | 권별 목차 1 | toc |
-| [vol-16-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-003.jpg) | 3 | 권별 목차 2 | toc |
-| [vol-16-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-004.jpg) | 4 | PART | page-rendered |
-| [vol-16-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-005.jpg) | 5 | 통일신라시대 한주 지역 간선 교통로 | map |
-| [vol-16-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-006.jpg) | 6 | 고려시대 지방제도 5도 양계와 12목 | map |
-| [vol-16-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-007.jpg) | 7 | 추정된다. | page-rendered |
-| [vol-16-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-008.jpg) | 8 | 조선 후기 육로망 | map |
-| [vol-16-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-009.jpg) | 9 | 상대원동 백자 요지와 유물 산포지 | photo-map |
-| [vol-16-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-010.jpg) | 10 | (4) 일제강점기 성남 지역의 경제 | page-rendered |
-| [vol-16-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-011.jpg) | 11 | 잡곡으로 대신하였다. 일반적으로는 미곡 및 농업 생산량의 40~60% 이상을 공출당하였 | page-rendered |
-| [vol-16-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-012.jpg) | 12 | 2) 시 승격과 성남 지역 경제 | page-rendered |
-| [vol-16-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-013.jpg) | 13 | 상등답을 제외한 전답에서는 원예 작물을 재배하였고, 가을에는 김장용 채소를 서울로 | page-rendered |
-| [vol-16-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-014.jpg) | 14 | 1973년 시 승격 때 농경지는 32.80㎢(논 17.47㎢, 밭 15.33㎢)로 전체 면적 145.65㎢의 | page-rendered |
-| [vol-16-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-015.jpg) | 15 | 관상수류 6만 9,000본, 화목류 20만 6,000본, 종자 종묘류 9만 9,000본을 매년 재배하고 | page-rendered |
-| [vol-16-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-016.jpg) | 16 | 2. 시 승격 이후 성남시 지역 경제 50년의 | page-rendered |
-| [vol-16-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-017.jpg) | 17 | 공원과 박물관으로 바뀐 성남산업단지 제1공단 | photo |
-| [vol-16-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-018.jpg) | 18 | 성남하이테크밸리로 변모한 제2·3공단 | photo |
-| [vol-16-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-019.jpg) | 19 | 분당테크노파크 전경 | photo |
-| [vol-16-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-020.jpg) | 20 | 분당신도시 개발지구 내 편입 공장 현황 | table |
-| [vol-16-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-021.jpg) | 21 | PART | page-rendered |
-| [vol-16-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-022.jpg) | 22 | 2010~2021 성남시 GRDP 변화 추이 | chart |
-| [vol-16-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-023.jpg) | 23 | 성남시의 경기도 내 GRDP 비중 | chart |
-| [vol-16-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-024.jpg) | 24 | 경기도 31개 시군의 연평균 성장률 비교 | chart |
-| [vol-16-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-025.jpg) | 25 | 2. 성남시 산업의 변화 | page-rendered |
-| [vol-16-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-026.jpg) | 26 | 성남시 사업체 수 및 인구 천 명당 사업체 수 변화 | chart |
-| [vol-16-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-027.jpg) | 27 | 성남시 사업체 종사자 수 및 인구 천 명당 종사자 수 변화 | chart |
-| [vol-16-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-028.jpg) | 28 | 사업체당 종사자 수 및 경기도 내 비중 변화 | chart |
-| [vol-16-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-029.jpg) | 29 | 2) 성남시 내 산업별 위상의 변화 | page-rendered |
-| [vol-16-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-030.jpg) | 30 | 성남시 산업별 종사자·사업체 비중 | pie-chart |
-| [vol-16-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-031.jpg) | 31 | 산업별 경기도 내 사업체·종사자 비중 변화 | chart |
-| [vol-16-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-032.jpg) | 32 | 3. 성남시 제조업의 특징과 변화 | page-rendered |
-| [vol-16-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-033.jpg) | 33 | 제조업 사업체 수 및 종사자 수 변화 | chart |
-| [vol-16-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-034.jpg) | 34 | 2) 제조업의 분야별 위상 변화 | page-rendered |
-| [vol-16-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-035.jpg) | 35 | 체 제조업체 수의 약 9% 수준을 유지하였으며, 전체 제조업 중 다섯 번째로 높은 비중을 | page-rendered |
-| [vol-16-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-036.jpg) | 36 | 며 이전보다 그 비중이 상당히 감소하였다. | page-rendered |
-| [vol-16-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-037.jpg) | 37 | 정보통신기술 산업의 범위 | table |
-| [vol-16-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-038.jpg) | 38 | 전자부품 기타 전자부품 | page-rendered |
-| [vol-16-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-039.jpg) | 39 | (2) 성남시 ICT 산업 사업체 수와 종사자 수의 변화 | page-rendered |
-| [vol-16-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-040.jpg) | 40 | ICT 산업별 업체 수 및 증감률 | table |
-| [vol-16-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-041.jpg) | 41 | ICT 산업별 종사자 수 변화 | chart |
-| [vol-16-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-042.jpg) | 42 | ICT 산업별 종사자 수 및 증감률 | table |
-| [vol-16-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-043.jpg) | 43 | ICT 산업 경기도 대비 비중 | chart |
-| [vol-16-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-044.jpg) | 44 | 5. 성남시 주요 서비스업의 변화 | page-rendered |
-| [vol-16-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-045.jpg) | 45 | 도소매업 사업체 수 현황 및 경기도 내 비중 변화 | chart |
-| [vol-16-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-046.jpg) | 46 | 모습으로, 성남시의 인구가 꾸준히 감소하고 있기 때문에 발생하는 문제로 볼 수 있다. | page-rendered |
-| [vol-16-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-047.jpg) | 47 | 숙박 및 음식점업 사업체 수 현황 및 경기도 내 비중 변화 | chart |
-| [vol-16-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-048.jpg) | 48 | 들이 다시 대형화하는 추세로 돌아선 것으로 볼 수 있다. | page-rendered |
-| [vol-16-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-049.jpg) | 49 | 전문·과학 및 기술 서비스업 사업체 수와 비중 | chart |
-| [vol-16-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-050.jpg) | 50 | 전문·과학 및 기술 서비스업 종사자 수와 비중 | chart |
-| [vol-16-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-051.jpg) | 51 | 성남시 농가 현황 변화 추이 | chart |
-| [vol-16-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-052.jpg) | 52 | 다만 해당 농가들이 전업농가인지 겸업농가인지는 지속적으로 변화하고 있다. 성남시 | page-rendered |
-| [vol-16-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-053.jpg) | 53 | 7. 성남 시민 경제활동의 변화 | page-rendered |
-| [vol-16-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-054.jpg) | 54 | 는 것으로, 학생과 주부 등의 비중이 빠진 것이다. 경제활동 참가율은 2020년 상반기에 | page-rendered |
-| [vol-16-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-055.jpg) | 55 | 여주고 있다. | page-rendered |
-| [vol-16-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-056.jpg) | 56 | PART | page-rendered |
-| [vol-16-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-057.jpg) | 57 | 1. 원도심 및 분당 지역의 경제 현황 | page-rendered |
-| [vol-16-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-058.jpg) | 58 | 확장 사업의 일환으로 조성되었다. 성남시와 인접한 서울 및 수도권 지역의 경제 발전과 | page-rendered |
-| [vol-16-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-059.jpg) | 59 | 날짜 내용 | page-rendered |
-| [vol-16-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-060.jpg) | 60 | 도 하였으나, 기본적으로는 택지지구로 개발된 지역으로, 지역을 대표할 만한 산업 구역 | page-rendered |
-| [vol-16-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-061.jpg) | 61 | 판교지구 조성 관련 주요 고시 | table |
-| [vol-16-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-062.jpg) | 62 | 원도심과 분당 사업체 수 현황 | chart |
-| [vol-16-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-063.jpg) | 63 | 원도심과 분당 종사자 수 현황 | chart |
-| [vol-16-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-064.jpg) | 64 | 였으며, 2022년 기준으로도 15.4%를 유지하고 있다. 일반적으로 도매 및 소매업은 지역 내 | page-rendered |
-| [vol-16-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-065.jpg) | 65 | 원도심 지역의 산업변화 2002~2022 | table |
-| [vol-16-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-066.jpg) | 66 | 2002년 원도심 산업별 사업체 수 비중 | pie-chart |
-| [vol-16-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-067.jpg) | 67 | 2022년 원도심 산업별 사업체 수 비중 | pie-chart |
-| [vol-16-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-068.jpg) | 68 | (2) 분당 지역의 경제·산업적 특성 | page-rendered |
-| [vol-16-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-069.jpg) | 69 | 분당 지역의 산업변화 2002~2022 | table |
-| [vol-16-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-070.jpg) | 70 | 2002년 분당 지역 사업체 수 비중 | pie-chart |
-| [vol-16-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-071.jpg) | 71 | 2022년 분당 지역 사업체 수 비중 | pie-chart |
-| [vol-16-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-072.jpg) | 72 | 2. 성남의 주요 상권 및 변화 | page-rendered |
-| [vol-16-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-073.jpg) | 73 | 성남시 151개 세부 상권 현황과 점포 수 구성 변화 | map-chart |
-| [vol-16-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-074.jpg) | 74 | 성남 전체 상권 매출액 및 매출 건수 변화 | chart |
-| [vol-16-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-075.jpg) | 75 | 성남시 상권 분류 | table |
-| [vol-16-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-076.jpg) | 76 | 성남시 상권 분류 및 수정구 상권 장 시작 | table |
-| [vol-16-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-077.jpg) | 77 | 수진역-신흥역 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-078.jpg) | 78 | 수진역-신흥역 상권 소비 현황 | chart |
-| [vol-16-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-079.jpg) | 79 | 태평동 전통 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-080.jpg) | 80 | 태평동 전통 상권 소비 현황 | chart |
-| [vol-16-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-081.jpg) | 81 | 수진동 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-082.jpg) | 82 | 수진동 상권 소비 현황 | chart |
-| [vol-16-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-083.jpg) | 83 | 중원구 상권별 매출액 및 주요 업종 | table |
-| [vol-16-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-084.jpg) | 84 | 모란 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-085.jpg) | 85 | 모란 상권 소비 현황 | chart |
-| [vol-16-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-086.jpg) | 86 | 은행동 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-087.jpg) | 87 | 은행동 상권 소비 현황 | chart |
-| [vol-16-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-088.jpg) | 88 | 단대시장 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-089.jpg) | 89 | 단대시장 상권 소비 현황 | chart |
-| [vol-16-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-090.jpg) | 90 | 분당구 주요 상권별 매출액 및 주요 업종 | table |
-| [vol-16-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-091.jpg) | 91 | 판교테크노밸리 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-092.jpg) | 92 | 판교테크노밸리 상권 소비 현황 | chart |
-| [vol-16-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-093.jpg) | 93 | 정자1동 카페거리 상존 인구·업종 현황 | chart |
-| [vol-16-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-094.jpg) | 94 | 정자1동 카페거리 소비 현황 | chart |
-| [vol-16-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-095.jpg) | 95 | 서현역 로데오 상권 상존 인구·업종 현황 | chart |
-| [vol-16-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-096.jpg) | 96 | 서현역 로데오 상권 소비 현황 | chart |
-| [vol-16-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-097.jpg) | 97 | PART | page-rendered |
-| [vol-16-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-098.jpg) | 98 | 1. 중앙정부 및 경기도 정책과 성남시 경제 | page-rendered |
-| [vol-16-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-099.jpg) | 99 | K-클러스터 정책 | table |
-| [vol-16-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-100.jpg) | 100 | 경기도 권역별 비전 및 목표 | table |
-| [vol-16-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-101.jpg) | 101 | 성남-용인 시스템반도체 집적단지 조성 | map |
-| [vol-16-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-102.jpg) | 102 | 이상에서 볼 수 있듯이 중앙정부와 경기도가 성남시에 기대하는 역할은, 1990년대 말 | page-rendered |
-| [vol-16-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-103.jpg) | 103 | 성남시 지식산업센터 현황 1 | table |
-| [vol-16-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-104.jpg) | 104 | 성남시 지식산업센터 현황 2 | table |
-| [vol-16-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-105.jpg) | 105 | (2) 중소기업 육성 및 지원을 위한 펀드 운영 | page-rendered |
-| [vol-16-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-106.jpg) | 106 | 성남시 중소기업 육성 자금 지원 조건 | table |
-| [vol-16-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-107.jpg) | 107 | 성남시 GRDP 변동 추이 | chart |
-| [vol-16-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-108.jpg) | 108 | 성남시 1인당 GRDP 변동 추이 | chart |
-| [vol-16-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-109.jpg) | 109 | 2 정부의 정보통신 정책이 성남 지역 경제에 | page-rendered |
-| [vol-16-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-110.jpg) | 110 | 제1판교테크노밸리 유스페이스 광장 전경 | photo |
-| [vol-16-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-111.jpg) | 111 | 으로 축소 발표하는 일도 있었다. | page-rendered |
-| [vol-16-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-112.jpg) | 112 | 성남시 주요 IT대기업 현황 | table |
-| [vol-16-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-113.jpg) | 113 | 이들 기업 중 특히 지역 산업의 특색을 결정하는 기업들이 눈에 띈다. 대표적으로 네 | page-rendered |
-| [vol-16-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-114.jpg) | 114 | 3. 지역화폐가 성남경제에 미친 영향 | page-rendered |
-| [vol-16-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-115.jpg) | 115 | 대 등으로 발생한다. 지역 내 소비자는 다른 지역에서 구매할 비용을 지역 내에서 소비하 | page-rendered |
-| [vol-16-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-116.jpg) | 116 | 전국 지역화폐 발행액 현황 | chart |
-| [vol-16-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-117.jpg) | 117 | 카드형·지류형 성남사랑상품권 | photo |
-| [vol-16-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-118.jpg) | 118 | 성남 지역화폐의 역사와 일반 발행 규모 | table-chart |
-| [vol-16-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-119.jpg) | 119 | 성남사랑상품권 가맹점 마크와 전통시장 현황 | table-photo |
-| [vol-16-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-120.jpg) | 120 | 성남사랑상품권 사용 가능 전통시장 현황 | table |
-| [vol-16-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-121.jpg) | 121 | 성남사랑상품권 가맹점 현황 | chart |
-| [vol-16-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-122.jpg) | 122 | 3) 지역화폐가 성남시에 미친 영향 | page-rendered |
-| [vol-16-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-123.jpg) | 123 | 성남사랑상품권으로 인한 매출 증가율 | chart |
-| [vol-16-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-124.jpg) | 124 | 성남사랑상품권의 지역 경제 활성화 효과 성남사랑상품권의 지역 내 소상공인 지원 효과 | page-rendered |
-| [vol-16-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-125.jpg) | 125 | PART | page-rendered |
-| [vol-16-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-126.jpg) | 126 | 1. 사회적경제의 역사 | page-rendered |
-| [vol-16-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-127.jpg) | 127 | 위기를 통해 정부는 민간 부문에 국가의 외환 기능을 보완해 줄 걸 요청(금 모으기 운동) | page-rendered |
-| [vol-16-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-128.jpg) | 128 | 사회적경제 기업, 비영리기관, 영리기업 비교 | table |
-| [vol-16-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-129.jpg) | 129 | 및 복지국가의 위기가 발생함에 따라 사회적경제는 이에 대응할 수 있는 대안으로서 급부 | page-rendered |
-| [vol-16-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-130.jpg) | 130 | 관련 사업들이 출범하였다. 이후 외환위기의 실업대책사업, 1999년의 「소비자생활협동조 | page-rendered |
-| [vol-16-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-131.jpg) | 131 | 국가별·권역별 사회적경제의 정의 | table |
-| [vol-16-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-132.jpg) | 132 | 사회적 기업의 정의와 조직 형태 | definition-table |
-| [vol-16-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-133.jpg) | 133 | 사회적경제 기업의 종류와 관련 법령 | table |
-| [vol-16-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-134.jpg) | 134 | 성남시 사회적경제 유형별·지역별·분야별 현황 | charts |
-| [vol-16-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-135.jpg) | 135 | 성남시 사회적경제 관련 기업 현황 시작 | table |
-| [vol-16-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-136.jpg) | 136 | 기업명 기업 유형 주요 사업 | page-rendered |
-| [vol-16-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-137.jpg) | 137 | 기업명 기업 유형 주요 사업 | page-rendered |
-| [vol-16-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-138.jpg) | 138 | 기업명 기업 유형 주요 사업 | page-rendered |
-| [vol-16-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-139.jpg) | 139 | 기업명 기업 유형 주요 사업 | page-rendered |
-| [vol-16-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-140.jpg) | 140 | 기업명 기업 유형 주요 사업 | page-rendered |
-| [vol-16-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-141.jpg) | 141 | 사회적경제 기업 현황 비고와 지원센터 개소 설명 | table |
-| [vol-16-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-142.jpg) | 142 | 성남시사회적경제지원센터 주체 발굴 사업 | table |
-| [vol-16-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-143.jpg) | 143 | 대외협력·공유경제 활성화 사업 | table |
-| [vol-16-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16-page-144.jpg) | 144 | 판권 | colophon |
+| [vol-16-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-16-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-002.jpg) | 2 | 권별 목차 1 | toc |
+| [vol-16-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-003.jpg) | 3 | 권별 목차 2 | toc |
+| [vol-16-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-004.jpg) | 4 | PART | page-rendered |
+| [vol-16-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-005.jpg) | 5 | 통일신라시대 한주 지역 간선 교통로 | map |
+| [vol-16-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-006.jpg) | 6 | 고려시대 지방제도 5도 양계와 12목 | map |
+| [vol-16-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-007.jpg) | 7 | 추정된다. | page-rendered |
+| [vol-16-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-008.jpg) | 8 | 조선 후기 육로망 | map |
+| [vol-16-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-009.jpg) | 9 | 상대원동 백자 요지와 유물 산포지 | photo-map |
+| [vol-16-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-010.jpg) | 10 | (4) 일제강점기 성남 지역의 경제 | page-rendered |
+| [vol-16-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-011.jpg) | 11 | 잡곡으로 대신하였다. 일반적으로는 미곡 및 농업 생산량의 40~60% 이상을 공출당하였 | page-rendered |
+| [vol-16-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-012.jpg) | 12 | 2) 시 승격과 성남 지역 경제 | page-rendered |
+| [vol-16-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-013.jpg) | 13 | 상등답을 제외한 전답에서는 원예 작물을 재배하였고, 가을에는 김장용 채소를 서울로 | page-rendered |
+| [vol-16-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-014.jpg) | 14 | 1973년 시 승격 때 농경지는 32.80㎢(논 17.47㎢, 밭 15.33㎢)로 전체 면적 145.65㎢의 | page-rendered |
+| [vol-16-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-015.jpg) | 15 | 관상수류 6만 9,000본, 화목류 20만 6,000본, 종자 종묘류 9만 9,000본을 매년 재배하고 | page-rendered |
+| [vol-16-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-016.jpg) | 16 | 2. 시 승격 이후 성남시 지역 경제 50년의 | page-rendered |
+| [vol-16-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-017.jpg) | 17 | 공원과 박물관으로 바뀐 성남산업단지 제1공단 | photo |
+| [vol-16-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-018.jpg) | 18 | 성남하이테크밸리로 변모한 제2·3공단 | photo |
+| [vol-16-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-019.jpg) | 19 | 분당테크노파크 전경 | photo |
+| [vol-16-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-020.jpg) | 20 | 분당신도시 개발지구 내 편입 공장 현황 | table |
+| [vol-16-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-021.jpg) | 21 | PART | page-rendered |
+| [vol-16-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-022.jpg) | 22 | 2010~2021 성남시 GRDP 변화 추이 | chart |
+| [vol-16-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-023.jpg) | 23 | 성남시의 경기도 내 GRDP 비중 | chart |
+| [vol-16-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-024.jpg) | 24 | 경기도 31개 시군의 연평균 성장률 비교 | chart |
+| [vol-16-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-025.jpg) | 25 | 2. 성남시 산업의 변화 | page-rendered |
+| [vol-16-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-026.jpg) | 26 | 성남시 사업체 수 및 인구 천 명당 사업체 수 변화 | chart |
+| [vol-16-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-027.jpg) | 27 | 성남시 사업체 종사자 수 및 인구 천 명당 종사자 수 변화 | chart |
+| [vol-16-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-028.jpg) | 28 | 사업체당 종사자 수 및 경기도 내 비중 변화 | chart |
+| [vol-16-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-029.jpg) | 29 | 2) 성남시 내 산업별 위상의 변화 | page-rendered |
+| [vol-16-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-030.jpg) | 30 | 성남시 산업별 종사자·사업체 비중 | pie-chart |
+| [vol-16-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-031.jpg) | 31 | 산업별 경기도 내 사업체·종사자 비중 변화 | chart |
+| [vol-16-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-032.jpg) | 32 | 3. 성남시 제조업의 특징과 변화 | page-rendered |
+| [vol-16-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-033.jpg) | 33 | 제조업 사업체 수 및 종사자 수 변화 | chart |
+| [vol-16-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-034.jpg) | 34 | 2) 제조업의 분야별 위상 변화 | page-rendered |
+| [vol-16-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-035.jpg) | 35 | 체 제조업체 수의 약 9% 수준을 유지하였으며, 전체 제조업 중 다섯 번째로 높은 비중을 | page-rendered |
+| [vol-16-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-036.jpg) | 36 | 며 이전보다 그 비중이 상당히 감소하였다. | page-rendered |
+| [vol-16-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-037.jpg) | 37 | 정보통신기술 산업의 범위 | table |
+| [vol-16-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-038.jpg) | 38 | 전자부품 기타 전자부품 | page-rendered |
+| [vol-16-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-039.jpg) | 39 | (2) 성남시 ICT 산업 사업체 수와 종사자 수의 변화 | page-rendered |
+| [vol-16-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-040.jpg) | 40 | ICT 산업별 업체 수 및 증감률 | table |
+| [vol-16-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-041.jpg) | 41 | ICT 산업별 종사자 수 변화 | chart |
+| [vol-16-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-042.jpg) | 42 | ICT 산업별 종사자 수 및 증감률 | table |
+| [vol-16-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-043.jpg) | 43 | ICT 산업 경기도 대비 비중 | chart |
+| [vol-16-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-044.jpg) | 44 | 5. 성남시 주요 서비스업의 변화 | page-rendered |
+| [vol-16-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-045.jpg) | 45 | 도소매업 사업체 수 현황 및 경기도 내 비중 변화 | chart |
+| [vol-16-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-046.jpg) | 46 | 모습으로, 성남시의 인구가 꾸준히 감소하고 있기 때문에 발생하는 문제로 볼 수 있다. | page-rendered |
+| [vol-16-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-047.jpg) | 47 | 숙박 및 음식점업 사업체 수 현황 및 경기도 내 비중 변화 | chart |
+| [vol-16-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-048.jpg) | 48 | 들이 다시 대형화하는 추세로 돌아선 것으로 볼 수 있다. | page-rendered |
+| [vol-16-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-049.jpg) | 49 | 전문·과학 및 기술 서비스업 사업체 수와 비중 | chart |
+| [vol-16-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-050.jpg) | 50 | 전문·과학 및 기술 서비스업 종사자 수와 비중 | chart |
+| [vol-16-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-051.jpg) | 51 | 성남시 농가 현황 변화 추이 | chart |
+| [vol-16-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-052.jpg) | 52 | 다만 해당 농가들이 전업농가인지 겸업농가인지는 지속적으로 변화하고 있다. 성남시 | page-rendered |
+| [vol-16-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-053.jpg) | 53 | 7. 성남 시민 경제활동의 변화 | page-rendered |
+| [vol-16-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-054.jpg) | 54 | 는 것으로, 학생과 주부 등의 비중이 빠진 것이다. 경제활동 참가율은 2020년 상반기에 | page-rendered |
+| [vol-16-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-055.jpg) | 55 | 여주고 있다. | page-rendered |
+| [vol-16-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-056.jpg) | 56 | PART | page-rendered |
+| [vol-16-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-057.jpg) | 57 | 1. 원도심 및 분당 지역의 경제 현황 | page-rendered |
+| [vol-16-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-058.jpg) | 58 | 확장 사업의 일환으로 조성되었다. 성남시와 인접한 서울 및 수도권 지역의 경제 발전과 | page-rendered |
+| [vol-16-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-059.jpg) | 59 | 날짜 내용 | page-rendered |
+| [vol-16-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-060.jpg) | 60 | 도 하였으나, 기본적으로는 택지지구로 개발된 지역으로, 지역을 대표할 만한 산업 구역 | page-rendered |
+| [vol-16-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-061.jpg) | 61 | 판교지구 조성 관련 주요 고시 | table |
+| [vol-16-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-062.jpg) | 62 | 원도심과 분당 사업체 수 현황 | chart |
+| [vol-16-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-063.jpg) | 63 | 원도심과 분당 종사자 수 현황 | chart |
+| [vol-16-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-064.jpg) | 64 | 였으며, 2022년 기준으로도 15.4%를 유지하고 있다. 일반적으로 도매 및 소매업은 지역 내 | page-rendered |
+| [vol-16-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-065.jpg) | 65 | 원도심 지역의 산업변화 2002~2022 | table |
+| [vol-16-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-066.jpg) | 66 | 2002년 원도심 산업별 사업체 수 비중 | pie-chart |
+| [vol-16-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-067.jpg) | 67 | 2022년 원도심 산업별 사업체 수 비중 | pie-chart |
+| [vol-16-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-068.jpg) | 68 | (2) 분당 지역의 경제·산업적 특성 | page-rendered |
+| [vol-16-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-069.jpg) | 69 | 분당 지역의 산업변화 2002~2022 | table |
+| [vol-16-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-070.jpg) | 70 | 2002년 분당 지역 사업체 수 비중 | pie-chart |
+| [vol-16-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-071.jpg) | 71 | 2022년 분당 지역 사업체 수 비중 | pie-chart |
+| [vol-16-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-072.jpg) | 72 | 2. 성남의 주요 상권 및 변화 | page-rendered |
+| [vol-16-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-073.jpg) | 73 | 성남시 151개 세부 상권 현황과 점포 수 구성 변화 | map-chart |
+| [vol-16-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-074.jpg) | 74 | 성남 전체 상권 매출액 및 매출 건수 변화 | chart |
+| [vol-16-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-075.jpg) | 75 | 성남시 상권 분류 | table |
+| [vol-16-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-076.jpg) | 76 | 성남시 상권 분류 및 수정구 상권 장 시작 | table |
+| [vol-16-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-077.jpg) | 77 | 수진역-신흥역 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-078.jpg) | 78 | 수진역-신흥역 상권 소비 현황 | chart |
+| [vol-16-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-079.jpg) | 79 | 태평동 전통 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-080.jpg) | 80 | 태평동 전통 상권 소비 현황 | chart |
+| [vol-16-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-081.jpg) | 81 | 수진동 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-082.jpg) | 82 | 수진동 상권 소비 현황 | chart |
+| [vol-16-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-083.jpg) | 83 | 중원구 상권별 매출액 및 주요 업종 | table |
+| [vol-16-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-084.jpg) | 84 | 모란 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-085.jpg) | 85 | 모란 상권 소비 현황 | chart |
+| [vol-16-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-086.jpg) | 86 | 은행동 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-087.jpg) | 87 | 은행동 상권 소비 현황 | chart |
+| [vol-16-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-088.jpg) | 88 | 단대시장 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-089.jpg) | 89 | 단대시장 상권 소비 현황 | chart |
+| [vol-16-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-090.jpg) | 90 | 분당구 주요 상권별 매출액 및 주요 업종 | table |
+| [vol-16-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-091.jpg) | 91 | 판교테크노밸리 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-092.jpg) | 92 | 판교테크노밸리 상권 소비 현황 | chart |
+| [vol-16-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-093.jpg) | 93 | 정자1동 카페거리 상존 인구·업종 현황 | chart |
+| [vol-16-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-094.jpg) | 94 | 정자1동 카페거리 소비 현황 | chart |
+| [vol-16-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-095.jpg) | 95 | 서현역 로데오 상권 상존 인구·업종 현황 | chart |
+| [vol-16-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-096.jpg) | 96 | 서현역 로데오 상권 소비 현황 | chart |
+| [vol-16-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-097.jpg) | 97 | PART | page-rendered |
+| [vol-16-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-098.jpg) | 98 | 1. 중앙정부 및 경기도 정책과 성남시 경제 | page-rendered |
+| [vol-16-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-099.jpg) | 99 | K-클러스터 정책 | table |
+| [vol-16-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-100.jpg) | 100 | 경기도 권역별 비전 및 목표 | table |
+| [vol-16-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-101.jpg) | 101 | 성남-용인 시스템반도체 집적단지 조성 | map |
+| [vol-16-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-102.jpg) | 102 | 이상에서 볼 수 있듯이 중앙정부와 경기도가 성남시에 기대하는 역할은, 1990년대 말 | page-rendered |
+| [vol-16-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-103.jpg) | 103 | 성남시 지식산업센터 현황 1 | table |
+| [vol-16-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-104.jpg) | 104 | 성남시 지식산업센터 현황 2 | table |
+| [vol-16-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-105.jpg) | 105 | (2) 중소기업 육성 및 지원을 위한 펀드 운영 | page-rendered |
+| [vol-16-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-106.jpg) | 106 | 성남시 중소기업 육성 자금 지원 조건 | table |
+| [vol-16-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-107.jpg) | 107 | 성남시 GRDP 변동 추이 | chart |
+| [vol-16-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-108.jpg) | 108 | 성남시 1인당 GRDP 변동 추이 | chart |
+| [vol-16-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-109.jpg) | 109 | 2 정부의 정보통신 정책이 성남 지역 경제에 | page-rendered |
+| [vol-16-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-110.jpg) | 110 | 제1판교테크노밸리 유스페이스 광장 전경 | photo |
+| [vol-16-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-111.jpg) | 111 | 으로 축소 발표하는 일도 있었다. | page-rendered |
+| [vol-16-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-112.jpg) | 112 | 성남시 주요 IT대기업 현황 | table |
+| [vol-16-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-113.jpg) | 113 | 이들 기업 중 특히 지역 산업의 특색을 결정하는 기업들이 눈에 띈다. 대표적으로 네 | page-rendered |
+| [vol-16-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-114.jpg) | 114 | 3. 지역화폐가 성남경제에 미친 영향 | page-rendered |
+| [vol-16-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-115.jpg) | 115 | 대 등으로 발생한다. 지역 내 소비자는 다른 지역에서 구매할 비용을 지역 내에서 소비하 | page-rendered |
+| [vol-16-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-116.jpg) | 116 | 전국 지역화폐 발행액 현황 | chart |
+| [vol-16-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-117.jpg) | 117 | 카드형·지류형 성남사랑상품권 | photo |
+| [vol-16-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-118.jpg) | 118 | 성남 지역화폐의 역사와 일반 발행 규모 | table-chart |
+| [vol-16-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-119.jpg) | 119 | 성남사랑상품권 가맹점 마크와 전통시장 현황 | table-photo |
+| [vol-16-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-120.jpg) | 120 | 성남사랑상품권 사용 가능 전통시장 현황 | table |
+| [vol-16-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-121.jpg) | 121 | 성남사랑상품권 가맹점 현황 | chart |
+| [vol-16-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-122.jpg) | 122 | 3) 지역화폐가 성남시에 미친 영향 | page-rendered |
+| [vol-16-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-123.jpg) | 123 | 성남사랑상품권으로 인한 매출 증가율 | chart |
+| [vol-16-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-124.jpg) | 124 | 성남사랑상품권의 지역 경제 활성화 효과 성남사랑상품권의 지역 내 소상공인 지원 효과 | page-rendered |
+| [vol-16-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-125.jpg) | 125 | PART | page-rendered |
+| [vol-16-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-126.jpg) | 126 | 1. 사회적경제의 역사 | page-rendered |
+| [vol-16-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-127.jpg) | 127 | 위기를 통해 정부는 민간 부문에 국가의 외환 기능을 보완해 줄 걸 요청(금 모으기 운동) | page-rendered |
+| [vol-16-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-128.jpg) | 128 | 사회적경제 기업, 비영리기관, 영리기업 비교 | table |
+| [vol-16-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-129.jpg) | 129 | 및 복지국가의 위기가 발생함에 따라 사회적경제는 이에 대응할 수 있는 대안으로서 급부 | page-rendered |
+| [vol-16-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-130.jpg) | 130 | 관련 사업들이 출범하였다. 이후 외환위기의 실업대책사업, 1999년의 「소비자생활협동조 | page-rendered |
+| [vol-16-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-131.jpg) | 131 | 국가별·권역별 사회적경제의 정의 | table |
+| [vol-16-page-132.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-132.jpg) | 132 | 사회적 기업의 정의와 조직 형태 | definition-table |
+| [vol-16-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-133.jpg) | 133 | 사회적경제 기업의 종류와 관련 법령 | table |
+| [vol-16-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-134.jpg) | 134 | 성남시 사회적경제 유형별·지역별·분야별 현황 | charts |
+| [vol-16-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-135.jpg) | 135 | 성남시 사회적경제 관련 기업 현황 시작 | table |
+| [vol-16-page-136.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-136.jpg) | 136 | 기업명 기업 유형 주요 사업 | page-rendered |
+| [vol-16-page-137.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-137.jpg) | 137 | 기업명 기업 유형 주요 사업 | page-rendered |
+| [vol-16-page-138.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-138.jpg) | 138 | 기업명 기업 유형 주요 사업 | page-rendered |
+| [vol-16-page-139.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-139.jpg) | 139 | 기업명 기업 유형 주요 사업 | page-rendered |
+| [vol-16-page-140.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-140.jpg) | 140 | 기업명 기업 유형 주요 사업 | page-rendered |
+| [vol-16-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-141.jpg) | 141 | 사회적경제 기업 현황 비고와 지원센터 개소 설명 | table |
+| [vol-16-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-142.jpg) | 142 | 성남시사회적경제지원센터 주체 발굴 사업 | table |
+| [vol-16-page-143.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-143.jpg) | 143 | 대외협력·공유경제 활성화 사업 | table |
+| [vol-16-page-144.jpg](../docs/seongnam-city-history-50/assets/pages/vol-16/vol-16-page-144.jpg) | 144 | 판권 | colophon |
 
 ## 원문 텍스트
 

@@ -15,7 +15,7 @@
 
 - `docs/seongnam-city-history-50/vol-14-local-administration-finance.md`
 - `dist/seongnam-history-50-vol-14.llm.md`
-- `docs/seongnam-city-history-50/assets/pages/vol-14-page-*.jpg` 184개
+- `docs/seongnam-city-history-50/assets/pages/vol-14/vol-14-page-*.jpg` 184개
 - `docs/seongnam-city-history-50/_work/vol-14-integration.md`
 
 ## 공용 index/manifest 병합 후보
@@ -99,80 +99,80 @@
 
 | 원문 쪽 | 내용 | 파일 |
 | --- | --- | --- |
-| 1 | 권 표지와 제목: 성남시 자치행정과 지방재정 | assets/pages/vol-14-page-001.jpg |
-| 2 | 권별 목차: Part 1-2 | assets/pages/vol-14-page-002.jpg |
-| 3 | 권별 목차: Part 3-5 | assets/pages/vol-14-page-003.jpg |
-| 4 | Part 1 표지: 성남시 행정 기구 및 주요 시책 | assets/pages/vol-14-page-004.jpg |
-| 6 | 시 승격 이전 행정구역 변천표와 광주대단지 맥락 | assets/pages/vol-14-page-006.jpg |
-| 8 | 1973년 이후 행정구역 변천표 1 | assets/pages/vol-14-page-008.jpg |
-| 9 | 1973년 이후 행정구역 변천표 2와 판교·위례 분동 | assets/pages/vol-14-page-009.jpg |
-| 10 | 성남시 법정동 행정구역 지도 | assets/pages/vol-14-page-010.jpg |
-| 11 | 성남시 인구 현황과 예산·상하수도·공무원 수치 | assets/pages/vol-14-page-011.jpg |
-| 12 | 역대 시장 및 시정방침 표 시작 | assets/pages/vol-14-page-012.jpg |
-| 14 | 민선 6기 이재명 시장 퇴임식 도판과 주요 시책 | assets/pages/vol-14-page-014.jpg |
-| 21 | 민선 8기 신상진 시장 신년기자회견 도판 | assets/pages/vol-14-page-021.jpg |
-| 22 | 성남시정연구원 개원과 오리역세권 제4테크노밸리 도판 | assets/pages/vol-14-page-022.jpg |
-| 24 | GTX-A 성남역 개통식과 광역철도·철도기금 서술 | assets/pages/vol-14-page-024.jpg |
-| 26 | 행정기구 총괄 수치와 경기도 성남출장소 현판식 | assets/pages/vol-14-page-026.jpg |
-| 27 | 성남출장소·옛 시청사·현 시청사 사진 | assets/pages/vol-14-page-027.jpg |
-| 28 | 성남시 조직도 2024 | assets/pages/vol-14-page-028.jpg |
-| 39 | 수정구보건소 신축 이전 사진과 조직 현황 | assets/pages/vol-14-page-039.jpg |
-| 49 | 장례문화사업소 시설 규모 | assets/pages/vol-14-page-049.jpg |
-| 50 | Part 2 표지: 구 행정과 동 행정 | assets/pages/vol-14-page-050.jpg |
-| 52 | 수정구청 사진과 수정구 일반 현황 | assets/pages/vol-14-page-052.jpg |
-| 53 | 수정구 동별 현황 표 | assets/pages/vol-14-page-053.jpg |
-| 55 | 수정구 행정 기구 표 | assets/pages/vol-14-page-055.jpg |
-| 66 | 중원구 개관 | assets/pages/vol-14-page-066.jpg |
-| 67 | 중원구청 사진과 중원구 일반 현황 | assets/pages/vol-14-page-067.jpg |
-| 68 | 중원구 동별 현황 및 구청 연혁 표 | assets/pages/vol-14-page-068.jpg |
-| 78 | 분당구 개관 | assets/pages/vol-14-page-078.jpg |
-| 80 | 분당구청 사진과 분당구 동별 현황 표 1 | assets/pages/vol-14-page-080.jpg |
-| 81 | 분당구 동별 현황 표 2와 분당구청 연혁 | assets/pages/vol-14-page-081.jpg |
-| 82 | 분당구 행정 기구와 역대 분당구청장 표 | assets/pages/vol-14-page-082.jpg |
-| 98 | Part 3 표지: 사법·치안·소방·세무·체신 행정 | assets/pages/vol-14-page-098.jpg |
-| 100 | 수원지방법원 성남지원 사진과 연혁 | assets/pages/vol-14-page-100.jpg |
-| 103 | 수원지방검찰청 성남지청 사진과 연혁 | assets/pages/vol-14-page-103.jpg |
-| 108 | 성남수정경찰서 1970년대 사진과 2025년 사진 | assets/pages/vol-14-page-108.jpg |
-| 112 | 성남중원경찰서 전신 개서식과 청사 사진 | assets/pages/vol-14-page-112.jpg |
-| 115 | 분당경찰서 개서식과 청사 전경 | assets/pages/vol-14-page-115.jpg |
-| 117 | 성남소방서 연혁 시작 | assets/pages/vol-14-page-117.jpg |
-| 118 | 성남소방서 사진 | assets/pages/vol-14-page-118.jpg |
-| 121 | 성남소방서 화재 발생 및 119 구조 활동 현황 표 | assets/pages/vol-14-page-121.jpg |
-| 125 | 의용소방대 역사와 2023년 대원 수 | assets/pages/vol-14-page-125.jpg |
-| 129 | 성남세무서 옛 전경과 현 전경 | assets/pages/vol-14-page-129.jpg |
-| 132 | 서울본부세관 성남세관 현장 점검 도판 | assets/pages/vol-14-page-132.jpg |
-| 135 | 옛 성남우체국과 성남우체국 2025 사진 | assets/pages/vol-14-page-135.jpg |
-| 136 | 성남우체국 관할 우체국·우편취급국 표 | assets/pages/vol-14-page-136.jpg |
-| 138 | 성남우편집중국 사진과 연혁 | assets/pages/vol-14-page-138.jpg |
-| 140 | Part 4 표지: 지방재정 규모와 운영 | assets/pages/vol-14-page-140.jpg |
-| 142 | 성남시 연도별 재정자립도 표 | assets/pages/vol-14-page-142.jpg |
-| 143 | 성남시와 유사 지방자치단체 재정자립도 비교 그래프 | assets/pages/vol-14-page-143.jpg |
-| 144 | 2022년 결산 기준 재정자주도 표 | assets/pages/vol-14-page-144.jpg |
-| 146 | 세입 재원별·연도별 현황 일반회계 기준 표 | assets/pages/vol-14-page-146.jpg |
-| 148 | 특별회계 예산 내역과 구성 원그래프 | assets/pages/vol-14-page-148.jpg |
-| 149 | 연도별 특별회계 표와 그래프 | assets/pages/vol-14-page-149.jpg |
-| 150 | 2022년도 성남시 기금 종류 표 1 | assets/pages/vol-14-page-150.jpg |
-| 151 | 2022년도 성남시 기금 종류 표 2와 연도별 기금액 | assets/pages/vol-14-page-151.jpg |
-| 152 | 기금 운용 현황 비교와 연도별 세입 총계 | assets/pages/vol-14-page-152.jpg |
-| 153 | 2022년도 일반회계 기준 세출 현황 | assets/pages/vol-14-page-153.jpg |
-| 154 | 연도별 세출 합계 및 세출 구성 그래프 | assets/pages/vol-14-page-154.jpg |
-| 155 | 분야별·연도별 세출 그래프 | assets/pages/vol-14-page-155.jpg |
-| 156 | 주민 1인당 세출 규모 표와 비교 그래프 | assets/pages/vol-14-page-156.jpg |
-| 157 | 2022년도 기본 경비 집행 현황 표 | assets/pages/vol-14-page-157.jpg |
-| 158 | 연도별 기본 경비 현황 표와 그래프 | assets/pages/vol-14-page-158.jpg |
-| 159 | 2022년도 인건비 집행 현황과 연도별 인건비 표 | assets/pages/vol-14-page-159.jpg |
-| 161 | 성남시의회 경비 집행 현황 표 | assets/pages/vol-14-page-161.jpg |
-| 164 | 연도별 지방세 징수 실적 표 | assets/pages/vol-14-page-164.jpg |
-| 166 | 사회복지 분야 세출 및 복지 지출 설명 | assets/pages/vol-14-page-166.jpg |
-| 168 | 2022년도 지방보조금 교부 현황과 연도별 보조금 표 | assets/pages/vol-14-page-168.jpg |
-| 170 | 공유재산 현재액 및 연도별 공유재산 표 | assets/pages/vol-14-page-170.jpg |
-| 172 | 출자·출연기관 운영 현황 표 | assets/pages/vol-14-page-172.jpg |
-| 174 | Part 5 표지: 자치행정 30년의 성과와 과제 | assets/pages/vol-14-page-174.jpg |
-| 180 | 성남시 주요 도로 현황 도판 | assets/pages/vol-14-page-180.jpg |
-| 181 | 교통 중심지 서술과 도로·철도 변화 | assets/pages/vol-14-page-181.jpg |
-| 182 | 100만 특례시 과제와 성남시 인구 추이 그래프 | assets/pages/vol-14-page-182.jpg |
-| 183 | 성남시 주간인구·주간인구지수 그래프 | assets/pages/vol-14-page-183.jpg |
-| 184 | 발행일·발행처·집필자·디자인/인쇄 정보 | assets/pages/vol-14-page-184.jpg |
+| 1 | 권 표지와 제목: 성남시 자치행정과 지방재정 | assets/pages/vol-14/vol-14-page-001.jpg |
+| 2 | 권별 목차: Part 1-2 | assets/pages/vol-14/vol-14-page-002.jpg |
+| 3 | 권별 목차: Part 3-5 | assets/pages/vol-14/vol-14-page-003.jpg |
+| 4 | Part 1 표지: 성남시 행정 기구 및 주요 시책 | assets/pages/vol-14/vol-14-page-004.jpg |
+| 6 | 시 승격 이전 행정구역 변천표와 광주대단지 맥락 | assets/pages/vol-14/vol-14-page-006.jpg |
+| 8 | 1973년 이후 행정구역 변천표 1 | assets/pages/vol-14/vol-14-page-008.jpg |
+| 9 | 1973년 이후 행정구역 변천표 2와 판교·위례 분동 | assets/pages/vol-14/vol-14-page-009.jpg |
+| 10 | 성남시 법정동 행정구역 지도 | assets/pages/vol-14/vol-14-page-010.jpg |
+| 11 | 성남시 인구 현황과 예산·상하수도·공무원 수치 | assets/pages/vol-14/vol-14-page-011.jpg |
+| 12 | 역대 시장 및 시정방침 표 시작 | assets/pages/vol-14/vol-14-page-012.jpg |
+| 14 | 민선 6기 이재명 시장 퇴임식 도판과 주요 시책 | assets/pages/vol-14/vol-14-page-014.jpg |
+| 21 | 민선 8기 신상진 시장 신년기자회견 도판 | assets/pages/vol-14/vol-14-page-021.jpg |
+| 22 | 성남시정연구원 개원과 오리역세권 제4테크노밸리 도판 | assets/pages/vol-14/vol-14-page-022.jpg |
+| 24 | GTX-A 성남역 개통식과 광역철도·철도기금 서술 | assets/pages/vol-14/vol-14-page-024.jpg |
+| 26 | 행정기구 총괄 수치와 경기도 성남출장소 현판식 | assets/pages/vol-14/vol-14-page-026.jpg |
+| 27 | 성남출장소·옛 시청사·현 시청사 사진 | assets/pages/vol-14/vol-14-page-027.jpg |
+| 28 | 성남시 조직도 2024 | assets/pages/vol-14/vol-14-page-028.jpg |
+| 39 | 수정구보건소 신축 이전 사진과 조직 현황 | assets/pages/vol-14/vol-14-page-039.jpg |
+| 49 | 장례문화사업소 시설 규모 | assets/pages/vol-14/vol-14-page-049.jpg |
+| 50 | Part 2 표지: 구 행정과 동 행정 | assets/pages/vol-14/vol-14-page-050.jpg |
+| 52 | 수정구청 사진과 수정구 일반 현황 | assets/pages/vol-14/vol-14-page-052.jpg |
+| 53 | 수정구 동별 현황 표 | assets/pages/vol-14/vol-14-page-053.jpg |
+| 55 | 수정구 행정 기구 표 | assets/pages/vol-14/vol-14-page-055.jpg |
+| 66 | 중원구 개관 | assets/pages/vol-14/vol-14-page-066.jpg |
+| 67 | 중원구청 사진과 중원구 일반 현황 | assets/pages/vol-14/vol-14-page-067.jpg |
+| 68 | 중원구 동별 현황 및 구청 연혁 표 | assets/pages/vol-14/vol-14-page-068.jpg |
+| 78 | 분당구 개관 | assets/pages/vol-14/vol-14-page-078.jpg |
+| 80 | 분당구청 사진과 분당구 동별 현황 표 1 | assets/pages/vol-14/vol-14-page-080.jpg |
+| 81 | 분당구 동별 현황 표 2와 분당구청 연혁 | assets/pages/vol-14/vol-14-page-081.jpg |
+| 82 | 분당구 행정 기구와 역대 분당구청장 표 | assets/pages/vol-14/vol-14-page-082.jpg |
+| 98 | Part 3 표지: 사법·치안·소방·세무·체신 행정 | assets/pages/vol-14/vol-14-page-098.jpg |
+| 100 | 수원지방법원 성남지원 사진과 연혁 | assets/pages/vol-14/vol-14-page-100.jpg |
+| 103 | 수원지방검찰청 성남지청 사진과 연혁 | assets/pages/vol-14/vol-14-page-103.jpg |
+| 108 | 성남수정경찰서 1970년대 사진과 2025년 사진 | assets/pages/vol-14/vol-14-page-108.jpg |
+| 112 | 성남중원경찰서 전신 개서식과 청사 사진 | assets/pages/vol-14/vol-14-page-112.jpg |
+| 115 | 분당경찰서 개서식과 청사 전경 | assets/pages/vol-14/vol-14-page-115.jpg |
+| 117 | 성남소방서 연혁 시작 | assets/pages/vol-14/vol-14-page-117.jpg |
+| 118 | 성남소방서 사진 | assets/pages/vol-14/vol-14-page-118.jpg |
+| 121 | 성남소방서 화재 발생 및 119 구조 활동 현황 표 | assets/pages/vol-14/vol-14-page-121.jpg |
+| 125 | 의용소방대 역사와 2023년 대원 수 | assets/pages/vol-14/vol-14-page-125.jpg |
+| 129 | 성남세무서 옛 전경과 현 전경 | assets/pages/vol-14/vol-14-page-129.jpg |
+| 132 | 서울본부세관 성남세관 현장 점검 도판 | assets/pages/vol-14/vol-14-page-132.jpg |
+| 135 | 옛 성남우체국과 성남우체국 2025 사진 | assets/pages/vol-14/vol-14-page-135.jpg |
+| 136 | 성남우체국 관할 우체국·우편취급국 표 | assets/pages/vol-14/vol-14-page-136.jpg |
+| 138 | 성남우편집중국 사진과 연혁 | assets/pages/vol-14/vol-14-page-138.jpg |
+| 140 | Part 4 표지: 지방재정 규모와 운영 | assets/pages/vol-14/vol-14-page-140.jpg |
+| 142 | 성남시 연도별 재정자립도 표 | assets/pages/vol-14/vol-14-page-142.jpg |
+| 143 | 성남시와 유사 지방자치단체 재정자립도 비교 그래프 | assets/pages/vol-14/vol-14-page-143.jpg |
+| 144 | 2022년 결산 기준 재정자주도 표 | assets/pages/vol-14/vol-14-page-144.jpg |
+| 146 | 세입 재원별·연도별 현황 일반회계 기준 표 | assets/pages/vol-14/vol-14-page-146.jpg |
+| 148 | 특별회계 예산 내역과 구성 원그래프 | assets/pages/vol-14/vol-14-page-148.jpg |
+| 149 | 연도별 특별회계 표와 그래프 | assets/pages/vol-14/vol-14-page-149.jpg |
+| 150 | 2022년도 성남시 기금 종류 표 1 | assets/pages/vol-14/vol-14-page-150.jpg |
+| 151 | 2022년도 성남시 기금 종류 표 2와 연도별 기금액 | assets/pages/vol-14/vol-14-page-151.jpg |
+| 152 | 기금 운용 현황 비교와 연도별 세입 총계 | assets/pages/vol-14/vol-14-page-152.jpg |
+| 153 | 2022년도 일반회계 기준 세출 현황 | assets/pages/vol-14/vol-14-page-153.jpg |
+| 154 | 연도별 세출 합계 및 세출 구성 그래프 | assets/pages/vol-14/vol-14-page-154.jpg |
+| 155 | 분야별·연도별 세출 그래프 | assets/pages/vol-14/vol-14-page-155.jpg |
+| 156 | 주민 1인당 세출 규모 표와 비교 그래프 | assets/pages/vol-14/vol-14-page-156.jpg |
+| 157 | 2022년도 기본 경비 집행 현황 표 | assets/pages/vol-14/vol-14-page-157.jpg |
+| 158 | 연도별 기본 경비 현황 표와 그래프 | assets/pages/vol-14/vol-14-page-158.jpg |
+| 159 | 2022년도 인건비 집행 현황과 연도별 인건비 표 | assets/pages/vol-14/vol-14-page-159.jpg |
+| 161 | 성남시의회 경비 집행 현황 표 | assets/pages/vol-14/vol-14-page-161.jpg |
+| 164 | 연도별 지방세 징수 실적 표 | assets/pages/vol-14/vol-14-page-164.jpg |
+| 166 | 사회복지 분야 세출 및 복지 지출 설명 | assets/pages/vol-14/vol-14-page-166.jpg |
+| 168 | 2022년도 지방보조금 교부 현황과 연도별 보조금 표 | assets/pages/vol-14/vol-14-page-168.jpg |
+| 170 | 공유재산 현재액 및 연도별 공유재산 표 | assets/pages/vol-14/vol-14-page-170.jpg |
+| 172 | 출자·출연기관 운영 현황 표 | assets/pages/vol-14/vol-14-page-172.jpg |
+| 174 | Part 5 표지: 자치행정 30년의 성과와 과제 | assets/pages/vol-14/vol-14-page-174.jpg |
+| 180 | 성남시 주요 도로 현황 도판 | assets/pages/vol-14/vol-14-page-180.jpg |
+| 181 | 교통 중심지 서술과 도로·철도 변화 | assets/pages/vol-14/vol-14-page-181.jpg |
+| 182 | 100만 특례시 과제와 성남시 인구 추이 그래프 | assets/pages/vol-14/vol-14-page-182.jpg |
+| 183 | 성남시 주간인구·주간인구지수 그래프 | assets/pages/vol-14/vol-14-page-183.jpg |
+| 184 | 발행일·발행처·집필자·디자인/인쇄 정보 | assets/pages/vol-14/vol-14-page-184.jpg |
 
 ## 렌더링 쪽
 

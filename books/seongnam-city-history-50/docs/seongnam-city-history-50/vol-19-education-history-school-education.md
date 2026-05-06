@@ -15,7 +15,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 유치원·초등학교·중학교·고등학교·대학교 현황표가 밀집해 있어 1-104쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 유치원·초등학교·중학교·고등학교·대학교 현황표가 밀집해 있어 1-104쪽 전체를 `assets/pages/vol-19/`에 렌더링했다.
 - 표는 본문 텍스트층과 페이지 이미지 양쪽으로 보존했고, 공용 색인 병합용 통계·도판 후보는 `_work/vol-19-integration.md`에 분리했다.
 - 일부 수치가 본문 내부에서 서로 다르게 제시되는 대목은 병합 노트의 `확인 필요` 항목으로 따로 표시했다.
 
@@ -62,60 +62,60 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 | --- | --- | --- | --- |
-| [vol-19-page-001.jpg](assets/pages/vol-19-page-001.jpg) | 1 | 권 표지와 제목, 낙생초등학교 100년 설명 | rendered-page |
-| [vol-19-page-002.jpg](assets/pages/vol-19-page-002.jpg) | 2 | 권별 목차 Part 1 | rendered-page |
-| [vol-19-page-003.jpg](assets/pages/vol-19-page-003.jpg) | 3 | 권별 목차 Part 2-4 | rendered-page |
-| [vol-19-page-004.jpg](assets/pages/vol-19-page-004.jpg) | 4 | Part 1 표지: 성남시 교육의 역사 | rendered-page |
-| [vol-19-page-009.jpg](assets/pages/vol-19-page-009.jpg) | 9 | 소수서원 강학당 도판과 조선시대 교육제도 | rendered-page |
-| [vol-19-page-011.jpg](assets/pages/vol-19-page-011.jpg) | 11 | 광주향교 대성전·명륜당 도판 | rendered-page |
-| [vol-19-page-012.jpg](assets/pages/vol-19-page-012.jpg) | 12 | 현절사 도판과 광주 지역 사우 서술 | rendered-page |
-| [vol-19-page-015.jpg](assets/pages/vol-19-page-015.jpg) | 15 | 일제강점기 보통학교 수업 장면 | rendered-page |
-| [vol-19-page-018.jpg](assets/pages/vol-19-page-018.jpg) | 18 | 수진리 간이학교 졸업 사진과 판교·돌마·수진리 학교 약사 | rendered-page |
-| [vol-19-page-021.jpg](assets/pages/vol-19-page-021.jpg) | 21 | 대유공업전문학교 기공식과 성남시교육청 분리 개청 맥락 | rendered-page |
-| [vol-19-page-022.jpg](assets/pages/vol-19-page-022.jpg) | 22 | 연도별 성남시 인구 추이 표 | rendered-page |
-| [vol-19-page-024.jpg](assets/pages/vol-19-page-024.jpg) | 24 | 2023년 성남시 각급 학교 현황 표 | rendered-page |
-| [vol-19-page-025.jpg](assets/pages/vol-19-page-025.jpg) | 25 | Part 2 표지: 유치원과 초등교육 | rendered-page |
-| [vol-19-page-028.jpg](assets/pages/vol-19-page-028.jpg) | 28 | 2023년 공립유치원 현황 표 시작 | rendered-page |
-| [vol-19-page-030.jpg](assets/pages/vol-19-page-030.jpg) | 30 | 공립유치원 표 종료와 사립유치원 현황 표 시작 | rendered-page |
-| [vol-19-page-032.jpg](assets/pages/vol-19-page-032.jpg) | 32 | 사립유치원 현황 표 종료 | rendered-page |
-| [vol-19-page-036.jpg](assets/pages/vol-19-page-036.jpg) | 36 | 1968년 성남 지역 초등학교 현황 표 | rendered-page |
-| [vol-19-page-038.jpg](assets/pages/vol-19-page-038.jpg) | 38 | 1970-1980년대 및 1990년대 신설 초등학교 표 | rendered-page |
-| [vol-19-page-039.jpg](assets/pages/vol-19-page-039.jpg) | 39 | 1990년대 및 2000-2023년 신설 초등학교 표 | rendered-page |
-| [vol-19-page-040.jpg](assets/pages/vol-19-page-040.jpg) | 40 | 2000-2023년 신설 초등학교 표와 1970년대 초등교육 서술 | rendered-page |
-| [vol-19-page-041.jpg](assets/pages/vol-19-page-041.jpg) | 41 | 1980년 성남시 초등학교 현황 표 | rendered-page |
-| [vol-19-page-043.jpg](assets/pages/vol-19-page-043.jpg) | 43 | 1990년 성남시 초등학교 현황 표 | rendered-page |
-| [vol-19-page-045.jpg](assets/pages/vol-19-page-045.jpg) | 45 | 1999년 성남시 초등학교 현황 표 | rendered-page |
-| [vol-19-page-046.jpg](assets/pages/vol-19-page-046.jpg) | 46 | 2010년 성남시 초등학교 현황 표 | rendered-page |
-| [vol-19-page-048.jpg](assets/pages/vol-19-page-048.jpg) | 48 | 창의·지성 교육 도판 | rendered-page |
-| [vol-19-page-050.jpg](assets/pages/vol-19-page-050.jpg) | 50 | 청소년 지방행정 체험 도판과 2020년 초등학교 현황 표 | rendered-page |
-| [vol-19-page-051.jpg](assets/pages/vol-19-page-051.jpg) | 51 | 2023년 성남시 초등학교 현황 표 | rendered-page |
-| [vol-19-page-052.jpg](assets/pages/vol-19-page-052.jpg) | 52 | 대원초 임시 휴교와 2023년 초등교육 과제 | rendered-page |
-| [vol-19-page-053.jpg](assets/pages/vol-19-page-053.jpg) | 53 | 2023년 초등학교별 현황 표 | rendered-page |
-| [vol-19-page-054.jpg](assets/pages/vol-19-page-054.jpg) | 54 | 2023년 초등학교별 현황 표 종료 | rendered-page |
-| [vol-19-page-055.jpg](assets/pages/vol-19-page-055.jpg) | 55 | 낙생초등학교 100년 서술 시작 | rendered-page |
-| [vol-19-page-056.jpg](assets/pages/vol-19-page-056.jpg) | 56 | 낙생보통학교 1939년 졸업 사진과 1952년 가교사 사진 | rendered-page |
-| [vol-19-page-058.jpg](assets/pages/vol-19-page-058.jpg) | 58 | 낙생공립국민학교 운동회 사진 | rendered-page |
-| [vol-19-page-059.jpg](assets/pages/vol-19-page-059.jpg) | 59 | 1939년 낙생공립심상소학교 교사 사진 | rendered-page |
-| [vol-19-page-061.jpg](assets/pages/vol-19-page-061.jpg) | 61 | Part 3 표지: 중등교육 | rendered-page |
-| [vol-19-page-062.jpg](assets/pages/vol-19-page-062.jpg) | 62 | 2024년 중등학교 규모와 성남교육지원청 서술 | rendered-page |
-| [vol-19-page-064.jpg](assets/pages/vol-19-page-064.jpg) | 64 | 성남 최초 고등학교 관련 효성고등학교 졸업 기념 사진 | rendered-page |
-| [vol-19-page-073.jpg](assets/pages/vol-19-page-073.jpg) | 73 | 분당신도시 건설과 중등학교 증가 맥락 | rendered-page |
-| [vol-19-page-079.jpg](assets/pages/vol-19-page-079.jpg) | 79 | 판교신도시 입주와 중등교육 인프라 확충 맥락 | rendered-page |
-| [vol-19-page-085.jpg](assets/pages/vol-19-page-085.jpg) | 85 | 2022 개정교육과정과 고교학점제 서술 | rendered-page |
-| [vol-19-page-087.jpg](assets/pages/vol-19-page-087.jpg) | 87 | 2023년 중학교 분포 및 학교별 현황 표 시작 | rendered-page |
-| [vol-19-page-088.jpg](assets/pages/vol-19-page-088.jpg) | 88 | 중학교 현황 표 계속 | rendered-page |
-| [vol-19-page-089.jpg](assets/pages/vol-19-page-089.jpg) | 89 | 2023년 고등학교 분포 현황 표 | rendered-page |
-| [vol-19-page-090.jpg](assets/pages/vol-19-page-090.jpg) | 90 | 고등학교 현황 표 | rendered-page |
-| [vol-19-page-091.jpg](assets/pages/vol-19-page-091.jpg) | 91 | Part 4 표지: 대학교와 기타 교육 | rendered-page |
-| [vol-19-page-092.jpg](assets/pages/vol-19-page-092.jpg) | 92 | 고등교육기관 개관 | rendered-page |
-| [vol-19-page-093.jpg](assets/pages/vol-19-page-093.jpg) | 93 | 전문대학·대학교·대학원 현황 표 | rendered-page |
-| [vol-19-page-094.jpg](assets/pages/vol-19-page-094.jpg) | 94 | 동서울대학교 도판과 약사 | rendered-page |
-| [vol-19-page-096.jpg](assets/pages/vol-19-page-096.jpg) | 96 | 가천대학교 도판과 약사 | rendered-page |
-| [vol-19-page-097.jpg](assets/pages/vol-19-page-097.jpg) | 97 | 을지대학교 성남캠퍼스 도판과 약사 | rendered-page |
-| [vol-19-page-098.jpg](assets/pages/vol-19-page-098.jpg) | 98 | 한국학중앙연구원 한국학대학원 도판과 약사 | rendered-page |
-| [vol-19-page-099.jpg](assets/pages/vol-19-page-099.jpg) | 99 | 특수·각종학교 및 기타 학교 현황 표 | rendered-page |
-| [vol-19-page-103.jpg](assets/pages/vol-19-page-103.jpg) | 103 | 글을 마치며: 인구 절벽과 성남 교육 기본계획 | rendered-page |
-| [vol-19-page-104.jpg](assets/pages/vol-19-page-104.jpg) | 104 | 판권: 발행일, 발행처, 집필자 | rendered-page |
+| [vol-19-page-001.jpg](assets/pages/vol-19/vol-19-page-001.jpg) | 1 | 권 표지와 제목, 낙생초등학교 100년 설명 | rendered-page |
+| [vol-19-page-002.jpg](assets/pages/vol-19/vol-19-page-002.jpg) | 2 | 권별 목차 Part 1 | rendered-page |
+| [vol-19-page-003.jpg](assets/pages/vol-19/vol-19-page-003.jpg) | 3 | 권별 목차 Part 2-4 | rendered-page |
+| [vol-19-page-004.jpg](assets/pages/vol-19/vol-19-page-004.jpg) | 4 | Part 1 표지: 성남시 교육의 역사 | rendered-page |
+| [vol-19-page-009.jpg](assets/pages/vol-19/vol-19-page-009.jpg) | 9 | 소수서원 강학당 도판과 조선시대 교육제도 | rendered-page |
+| [vol-19-page-011.jpg](assets/pages/vol-19/vol-19-page-011.jpg) | 11 | 광주향교 대성전·명륜당 도판 | rendered-page |
+| [vol-19-page-012.jpg](assets/pages/vol-19/vol-19-page-012.jpg) | 12 | 현절사 도판과 광주 지역 사우 서술 | rendered-page |
+| [vol-19-page-015.jpg](assets/pages/vol-19/vol-19-page-015.jpg) | 15 | 일제강점기 보통학교 수업 장면 | rendered-page |
+| [vol-19-page-018.jpg](assets/pages/vol-19/vol-19-page-018.jpg) | 18 | 수진리 간이학교 졸업 사진과 판교·돌마·수진리 학교 약사 | rendered-page |
+| [vol-19-page-021.jpg](assets/pages/vol-19/vol-19-page-021.jpg) | 21 | 대유공업전문학교 기공식과 성남시교육청 분리 개청 맥락 | rendered-page |
+| [vol-19-page-022.jpg](assets/pages/vol-19/vol-19-page-022.jpg) | 22 | 연도별 성남시 인구 추이 표 | rendered-page |
+| [vol-19-page-024.jpg](assets/pages/vol-19/vol-19-page-024.jpg) | 24 | 2023년 성남시 각급 학교 현황 표 | rendered-page |
+| [vol-19-page-025.jpg](assets/pages/vol-19/vol-19-page-025.jpg) | 25 | Part 2 표지: 유치원과 초등교육 | rendered-page |
+| [vol-19-page-028.jpg](assets/pages/vol-19/vol-19-page-028.jpg) | 28 | 2023년 공립유치원 현황 표 시작 | rendered-page |
+| [vol-19-page-030.jpg](assets/pages/vol-19/vol-19-page-030.jpg) | 30 | 공립유치원 표 종료와 사립유치원 현황 표 시작 | rendered-page |
+| [vol-19-page-032.jpg](assets/pages/vol-19/vol-19-page-032.jpg) | 32 | 사립유치원 현황 표 종료 | rendered-page |
+| [vol-19-page-036.jpg](assets/pages/vol-19/vol-19-page-036.jpg) | 36 | 1968년 성남 지역 초등학교 현황 표 | rendered-page |
+| [vol-19-page-038.jpg](assets/pages/vol-19/vol-19-page-038.jpg) | 38 | 1970-1980년대 및 1990년대 신설 초등학교 표 | rendered-page |
+| [vol-19-page-039.jpg](assets/pages/vol-19/vol-19-page-039.jpg) | 39 | 1990년대 및 2000-2023년 신설 초등학교 표 | rendered-page |
+| [vol-19-page-040.jpg](assets/pages/vol-19/vol-19-page-040.jpg) | 40 | 2000-2023년 신설 초등학교 표와 1970년대 초등교육 서술 | rendered-page |
+| [vol-19-page-041.jpg](assets/pages/vol-19/vol-19-page-041.jpg) | 41 | 1980년 성남시 초등학교 현황 표 | rendered-page |
+| [vol-19-page-043.jpg](assets/pages/vol-19/vol-19-page-043.jpg) | 43 | 1990년 성남시 초등학교 현황 표 | rendered-page |
+| [vol-19-page-045.jpg](assets/pages/vol-19/vol-19-page-045.jpg) | 45 | 1999년 성남시 초등학교 현황 표 | rendered-page |
+| [vol-19-page-046.jpg](assets/pages/vol-19/vol-19-page-046.jpg) | 46 | 2010년 성남시 초등학교 현황 표 | rendered-page |
+| [vol-19-page-048.jpg](assets/pages/vol-19/vol-19-page-048.jpg) | 48 | 창의·지성 교육 도판 | rendered-page |
+| [vol-19-page-050.jpg](assets/pages/vol-19/vol-19-page-050.jpg) | 50 | 청소년 지방행정 체험 도판과 2020년 초등학교 현황 표 | rendered-page |
+| [vol-19-page-051.jpg](assets/pages/vol-19/vol-19-page-051.jpg) | 51 | 2023년 성남시 초등학교 현황 표 | rendered-page |
+| [vol-19-page-052.jpg](assets/pages/vol-19/vol-19-page-052.jpg) | 52 | 대원초 임시 휴교와 2023년 초등교육 과제 | rendered-page |
+| [vol-19-page-053.jpg](assets/pages/vol-19/vol-19-page-053.jpg) | 53 | 2023년 초등학교별 현황 표 | rendered-page |
+| [vol-19-page-054.jpg](assets/pages/vol-19/vol-19-page-054.jpg) | 54 | 2023년 초등학교별 현황 표 종료 | rendered-page |
+| [vol-19-page-055.jpg](assets/pages/vol-19/vol-19-page-055.jpg) | 55 | 낙생초등학교 100년 서술 시작 | rendered-page |
+| [vol-19-page-056.jpg](assets/pages/vol-19/vol-19-page-056.jpg) | 56 | 낙생보통학교 1939년 졸업 사진과 1952년 가교사 사진 | rendered-page |
+| [vol-19-page-058.jpg](assets/pages/vol-19/vol-19-page-058.jpg) | 58 | 낙생공립국민학교 운동회 사진 | rendered-page |
+| [vol-19-page-059.jpg](assets/pages/vol-19/vol-19-page-059.jpg) | 59 | 1939년 낙생공립심상소학교 교사 사진 | rendered-page |
+| [vol-19-page-061.jpg](assets/pages/vol-19/vol-19-page-061.jpg) | 61 | Part 3 표지: 중등교육 | rendered-page |
+| [vol-19-page-062.jpg](assets/pages/vol-19/vol-19-page-062.jpg) | 62 | 2024년 중등학교 규모와 성남교육지원청 서술 | rendered-page |
+| [vol-19-page-064.jpg](assets/pages/vol-19/vol-19-page-064.jpg) | 64 | 성남 최초 고등학교 관련 효성고등학교 졸업 기념 사진 | rendered-page |
+| [vol-19-page-073.jpg](assets/pages/vol-19/vol-19-page-073.jpg) | 73 | 분당신도시 건설과 중등학교 증가 맥락 | rendered-page |
+| [vol-19-page-079.jpg](assets/pages/vol-19/vol-19-page-079.jpg) | 79 | 판교신도시 입주와 중등교육 인프라 확충 맥락 | rendered-page |
+| [vol-19-page-085.jpg](assets/pages/vol-19/vol-19-page-085.jpg) | 85 | 2022 개정교육과정과 고교학점제 서술 | rendered-page |
+| [vol-19-page-087.jpg](assets/pages/vol-19/vol-19-page-087.jpg) | 87 | 2023년 중학교 분포 및 학교별 현황 표 시작 | rendered-page |
+| [vol-19-page-088.jpg](assets/pages/vol-19/vol-19-page-088.jpg) | 88 | 중학교 현황 표 계속 | rendered-page |
+| [vol-19-page-089.jpg](assets/pages/vol-19/vol-19-page-089.jpg) | 89 | 2023년 고등학교 분포 현황 표 | rendered-page |
+| [vol-19-page-090.jpg](assets/pages/vol-19/vol-19-page-090.jpg) | 90 | 고등학교 현황 표 | rendered-page |
+| [vol-19-page-091.jpg](assets/pages/vol-19/vol-19-page-091.jpg) | 91 | Part 4 표지: 대학교와 기타 교육 | rendered-page |
+| [vol-19-page-092.jpg](assets/pages/vol-19/vol-19-page-092.jpg) | 92 | 고등교육기관 개관 | rendered-page |
+| [vol-19-page-093.jpg](assets/pages/vol-19/vol-19-page-093.jpg) | 93 | 전문대학·대학교·대학원 현황 표 | rendered-page |
+| [vol-19-page-094.jpg](assets/pages/vol-19/vol-19-page-094.jpg) | 94 | 동서울대학교 도판과 약사 | rendered-page |
+| [vol-19-page-096.jpg](assets/pages/vol-19/vol-19-page-096.jpg) | 96 | 가천대학교 도판과 약사 | rendered-page |
+| [vol-19-page-097.jpg](assets/pages/vol-19/vol-19-page-097.jpg) | 97 | 을지대학교 성남캠퍼스 도판과 약사 | rendered-page |
+| [vol-19-page-098.jpg](assets/pages/vol-19/vol-19-page-098.jpg) | 98 | 한국학중앙연구원 한국학대학원 도판과 약사 | rendered-page |
+| [vol-19-page-099.jpg](assets/pages/vol-19/vol-19-page-099.jpg) | 99 | 특수·각종학교 및 기타 학교 현황 표 | rendered-page |
+| [vol-19-page-103.jpg](assets/pages/vol-19/vol-19-page-103.jpg) | 103 | 글을 마치며: 인구 절벽과 성남 교육 기본계획 | rendered-page |
+| [vol-19-page-104.jpg](assets/pages/vol-19/vol-19-page-104.jpg) | 104 | 판권: 발행일, 발행처, 집필자 | rendered-page |
 
 ## 핵심 표/자료 위치
 

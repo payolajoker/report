@@ -4,6 +4,14 @@
 
 > **이 repo의 성격**: LLM 보조로 작성하되, 모든 주장은 공식 1차 자료로 검증하는 것을 원칙으로 한다. 각 문서는 "확인된 사실"과 "해석"을 구분해 서술한다.
 
+## 운영 파일
+
+이 저장소를 LLM과 함께 계속 관리하기 위한 운영층이다.
+
+- [AGENTS.md](./AGENTS.md) - 저장소의 작업 규칙, 진입 순서, ingest/query/update/lint 원칙
+- [index.md](./index.md) - LLM 작업용 색인. 보고서, 원문 재구성 도서, 보조 자료, 주제별 앵커를 빠르게 찾기 위한 지도
+- [log.md](./log.md) - 중요한 자료 반영, 보고서 수정, 구조 정리 작업을 시간순으로 남기는 작업 로그
+
 ## 문서 간 관계
 
 ```mermaid
@@ -194,7 +202,7 @@ PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 
 성남시 공식 `성남시사(50년사)` 게시판의 Index 및 제1-50권 PDF를 내려받아 권별 Markdown, 도판 이미지, 수치·지명 색인, LLM 단일 번들로 재구성한 원문 아카이브다. 성남·분당·판교·위례, 광주대단지, 서울 동남권 연담화, 신도시 전후 지명층을 분석할 때 1차 근거로 쓴다.
 
 - 처리 완료: 제1-50권 Markdown 50개 / LLM 번들 50개
-- 렌더링 페이지 이미지: 5,864개
+- 렌더링 페이지 이미지: 5,864개 (`assets/pages/vol-01/`-`vol-50/` 권별 하위 디렉터리)
 - OCR 사용: 없음. PDF 내장 텍스트층과 페이지 이미지 대조 기반
 - 병렬 처리: 권별 보조 에이전트 초안과 통합 메모를 사용하고, 공통 색인은 coordinator가 병합
 
@@ -204,6 +212,7 @@ PDF 원문을 LLM이 읽고 인용하기 쉬운 Markdown 구조로 재작성한 
 - [지도·지명 색인](./books/seongnam-city-history-50/docs/seongnam-city-history-50/toponyms.md) - 고지도 계통, 행정 지리, 핵심 지명
 - [교통로·장시 색인](./books/seongnam-city-history-50/docs/seongnam-city-history-50/transport-markets.md) - 역로, 고속도로, 철도, 터미널, 시장권
 - [source-page-index](./books/seongnam-city-history-50/docs/seongnam-city-history-50/source-page-index.md) - 권별 원문 쪽 범위와 감사 링크
+- [전체 페이지 이미지](./books/seongnam-city-history-50/docs/seongnam-city-history-50/assets/pages/) - 권별 하위 디렉터리로 나눈 JPEG 보존본
 - [기계처리용 manifest](./books/seongnam-city-history-50/docs/seongnam-city-history-50/manifest.yml) - PDF 목록, 권별 상태, 주제 태그
 - [컬렉션 manifest](./books/seongnam-city-history-50/dist/seongnam-city-history-50.manifest.json) - RAG/배치 처리용 통합 메타데이터
 - [원본 PDF 묶음](./books/seongnam-city-history-50/sources/) - Index 및 제1-50권, Git LFS 관리

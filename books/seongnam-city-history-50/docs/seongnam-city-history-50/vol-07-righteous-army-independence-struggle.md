@@ -18,7 +18,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 의병·독립운동 인물 사진, 토지조사사업 표, 신간회·강제동원 자료, 광주경찰서 습격, 한국전쟁 전투지도·피해통계가 있는 주요 쪽은 `assets/pages/`에 렌더링했다.
+- 의병·독립운동 인물 사진, 토지조사사업 표, 신간회·강제동원 자료, 광주경찰서 습격, 한국전쟁 전투지도·피해통계가 있는 주요 쪽은 `assets/pages/vol-07/`에 렌더링했다.
 
 ## 권별 목차
 
@@ -45,46 +45,46 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-07-page-001.jpg](assets/pages/vol-07-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-07-page-002.jpg](assets/pages/vol-07-page-002.jpg) | 2 | 목차 1: 의병 전쟁·문화능력 배양기 독립운동 | toc |
-| [vol-07-page-003.jpg](assets/pages/vol-07-page-003.jpg) | 3 | 목차 2: 해방 공간·반군국주의·한국전쟁 | toc |
-| [vol-07-page-008.jpg](assets/pages/vol-07-page-008.jpg) | 8 | 명성황후 시해 관련 도판과 김하락 의병진 서술 | rendered-page |
-| [vol-07-page-011.jpg](assets/pages/vol-07-page-011.jpg) | 11 | 일제에 의해 체포된 의병들과 광주군 의병 교전 기록 | rendered-page |
-| [vol-07-page-013.jpg](assets/pages/vol-07-page-013.jpg) | 13 | 동천 남상목 의병장 성장과 사상 서술 | rendered-page |
-| [vol-07-page-016.jpg](assets/pages/vol-07-page-016.jpg) | 16 | 남상목 의병장 순국 116주기 추모제 사진 | rendered-page |
-| [vol-07-page-019.jpg](assets/pages/vol-07-page-019.jpg) | 19 | 청계산 호랑이 윤치장 의병장과 판결문 도판 | rendered-page |
-| [vol-07-page-020.jpg](assets/pages/vol-07-page-020.jpg) | 20 | 95세 윤치장 의병장 사진과 사상 평가 | rendered-page |
-| [vol-07-page-024.jpg](assets/pages/vol-07-page-024.jpg) | 24 | 복정동 출신 개화사상가 강위 도판 | rendered-page |
-| [vol-07-page-029.jpg](assets/pages/vol-07-page-029.jpg) | 29 | 대왕면 토지조사사업 실적표와 토지조사부 표지 | table-rendered |
-| [vol-07-page-030.jpg](assets/pages/vol-07-page-030.jpg) | 30 | 대왕면 고등리 토지조사부 내지와 돌마면 총괄 서술 | table-rendered |
-| [vol-07-page-031.jpg](assets/pages/vol-07-page-031.jpg) | 31 | 돌마면 및 서현리 토지조사사업 실적표 | table-rendered |
-| [vol-07-page-032.jpg](assets/pages/vol-07-page-032.jpg) | 32 | 서현리 연명 후 출명부, 낙생면 토지조사사업 실적표 | table-rendered |
-| [vol-07-page-034.jpg](assets/pages/vol-07-page-034.jpg) | 34 | 토지 수탈 목적으로 실시된 토지조사사업 도판 | rendered-page |
-| [vol-07-page-036.jpg](assets/pages/vol-07-page-036.jpg) | 36 | 프레더릭 매켄지가 촬영한 의병들 | rendered-page |
-| [vol-07-page-038.jpg](assets/pages/vol-07-page-038.jpg) | 38 | 성남 3·1운동 기념공원 조형물 | rendered-page |
-| [vol-07-page-039.jpg](assets/pages/vol-07-page-039.jpg) | 39 | 돌마면·대왕면 만세운동과 면사무소 사진 | rendered-page |
-| [vol-07-page-047.jpg](assets/pages/vol-07-page-047.jpg) | 47 | 신간회 광주지회와 민족협동전선 관련 도판 | rendered-page |
-| [vol-07-page-048.jpg](assets/pages/vol-07-page-048.jpg) | 48 | 신간회 광주지회 창립 기사와 조직 명단 자료 | rendered-page |
-| [vol-07-page-055.jpg](assets/pages/vol-07-page-055.jpg) | 55 | 아키타현 삼릉미 거택 탄광 출발 전 광주군 근로복지단원 사진 | rendered-page |
-| [vol-07-page-058.jpg](assets/pages/vol-07-page-058.jpg) | 58 | 최용자·이찬 등 강제징용·반군국주의 사례 | rendered-page |
-| [vol-07-page-059.jpg](assets/pages/vol-07-page-059.jpg) | 59 | 이찬 관련 기록과 반군국주의 투쟁기 농촌 실태 | rendered-page |
-| [vol-07-page-065.jpg](assets/pages/vol-07-page-065.jpg) | 65 | 백현동 황에스더의 계몽운동 관련 도판 | rendered-page |
-| [vol-07-page-070.jpg](assets/pages/vol-07-page-070.jpg) | 70 | 몽양 여운형 도판과 해방 정국 흐름 | rendered-page |
-| [vol-07-page-071.jpg](assets/pages/vol-07-page-071.jpg) | 71 | 신익희와 해방 공간 정치세력 서술 | rendered-page |
-| [vol-07-page-075.jpg](assets/pages/vol-07-page-075.jpg) | 75 | 광주경찰서 습격 사건과 좌우 대립 자료 | rendered-page |
-| [vol-07-page-080.jpg](assets/pages/vol-07-page-080.jpg) | 80 | 농지개혁법 조문 인용과 분배·상환 방식 | table-rendered |
-| [vol-07-page-081.jpg](assets/pages/vol-07-page-081.jpg) | 81 | 농지소표와 농지개혁의 성남 지역 의미 | rendered-page |
-| [vol-07-page-086.jpg](assets/pages/vol-07-page-086.jpg) | 86 | 남한을 기습 침공하는 북한군 전차부대 | rendered-page |
-| [vol-07-page-096.jpg](assets/pages/vol-07-page-096.jpg) | 96 | 이매동 순명의사창의비 사진과 비문 | rendered-page |
-| [vol-07-page-098.jpg](assets/pages/vol-07-page-098.jpg) | 98 | 한국전쟁 희생자를 기리는 성남의사단 추모제 | rendered-page |
-| [vol-07-page-102.jpg](assets/pages/vol-07-page-102.jpg) | 102 | 인천상륙작전과 유엔군 반격 도판 | rendered-page |
-| [vol-07-page-105.jpg](assets/pages/vol-07-page-105.jpg) | 105 | 1951년 광주 지역 위력수색 관련 전투상보 | rendered-page |
-| [vol-07-page-106.jpg](assets/pages/vol-07-page-106.jpg) | 106 | 유엔군 썬더볼트 작전 요도 | map-rendered |
-| [vol-07-page-108.jpg](assets/pages/vol-07-page-108.jpg) | 108 | 지도로 보는 한국전쟁의 전개 양상 | map-rendered |
-| [vol-07-page-111.jpg](assets/pages/vol-07-page-111.jpg) | 111 | 광주군 한국전쟁 인명·재산 피해 통계 | stats-rendered |
-| [vol-07-page-112.jpg](assets/pages/vol-07-page-112.jpg) | 112 | 한청원 소속 성남 주민 희생자 명단 | table-rendered |
-| [vol-07-page-114.jpg](assets/pages/vol-07-page-114.jpg) | 114 | 광주 지역 피란민 세대·인구 증가 통계 | stats-rendered |
-| [vol-07-page-115.jpg](assets/pages/vol-07-page-115.jpg) | 115 | 구천면·대왕면 피란민 구호와 구호양곡 횡령 기사 인용 | stats-rendered |
+| [vol-07-page-001.jpg](assets/pages/vol-07/vol-07-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-07-page-002.jpg](assets/pages/vol-07/vol-07-page-002.jpg) | 2 | 목차 1: 의병 전쟁·문화능력 배양기 독립운동 | toc |
+| [vol-07-page-003.jpg](assets/pages/vol-07/vol-07-page-003.jpg) | 3 | 목차 2: 해방 공간·반군국주의·한국전쟁 | toc |
+| [vol-07-page-008.jpg](assets/pages/vol-07/vol-07-page-008.jpg) | 8 | 명성황후 시해 관련 도판과 김하락 의병진 서술 | rendered-page |
+| [vol-07-page-011.jpg](assets/pages/vol-07/vol-07-page-011.jpg) | 11 | 일제에 의해 체포된 의병들과 광주군 의병 교전 기록 | rendered-page |
+| [vol-07-page-013.jpg](assets/pages/vol-07/vol-07-page-013.jpg) | 13 | 동천 남상목 의병장 성장과 사상 서술 | rendered-page |
+| [vol-07-page-016.jpg](assets/pages/vol-07/vol-07-page-016.jpg) | 16 | 남상목 의병장 순국 116주기 추모제 사진 | rendered-page |
+| [vol-07-page-019.jpg](assets/pages/vol-07/vol-07-page-019.jpg) | 19 | 청계산 호랑이 윤치장 의병장과 판결문 도판 | rendered-page |
+| [vol-07-page-020.jpg](assets/pages/vol-07/vol-07-page-020.jpg) | 20 | 95세 윤치장 의병장 사진과 사상 평가 | rendered-page |
+| [vol-07-page-024.jpg](assets/pages/vol-07/vol-07-page-024.jpg) | 24 | 복정동 출신 개화사상가 강위 도판 | rendered-page |
+| [vol-07-page-029.jpg](assets/pages/vol-07/vol-07-page-029.jpg) | 29 | 대왕면 토지조사사업 실적표와 토지조사부 표지 | table-rendered |
+| [vol-07-page-030.jpg](assets/pages/vol-07/vol-07-page-030.jpg) | 30 | 대왕면 고등리 토지조사부 내지와 돌마면 총괄 서술 | table-rendered |
+| [vol-07-page-031.jpg](assets/pages/vol-07/vol-07-page-031.jpg) | 31 | 돌마면 및 서현리 토지조사사업 실적표 | table-rendered |
+| [vol-07-page-032.jpg](assets/pages/vol-07/vol-07-page-032.jpg) | 32 | 서현리 연명 후 출명부, 낙생면 토지조사사업 실적표 | table-rendered |
+| [vol-07-page-034.jpg](assets/pages/vol-07/vol-07-page-034.jpg) | 34 | 토지 수탈 목적으로 실시된 토지조사사업 도판 | rendered-page |
+| [vol-07-page-036.jpg](assets/pages/vol-07/vol-07-page-036.jpg) | 36 | 프레더릭 매켄지가 촬영한 의병들 | rendered-page |
+| [vol-07-page-038.jpg](assets/pages/vol-07/vol-07-page-038.jpg) | 38 | 성남 3·1운동 기념공원 조형물 | rendered-page |
+| [vol-07-page-039.jpg](assets/pages/vol-07/vol-07-page-039.jpg) | 39 | 돌마면·대왕면 만세운동과 면사무소 사진 | rendered-page |
+| [vol-07-page-047.jpg](assets/pages/vol-07/vol-07-page-047.jpg) | 47 | 신간회 광주지회와 민족협동전선 관련 도판 | rendered-page |
+| [vol-07-page-048.jpg](assets/pages/vol-07/vol-07-page-048.jpg) | 48 | 신간회 광주지회 창립 기사와 조직 명단 자료 | rendered-page |
+| [vol-07-page-055.jpg](assets/pages/vol-07/vol-07-page-055.jpg) | 55 | 아키타현 삼릉미 거택 탄광 출발 전 광주군 근로복지단원 사진 | rendered-page |
+| [vol-07-page-058.jpg](assets/pages/vol-07/vol-07-page-058.jpg) | 58 | 최용자·이찬 등 강제징용·반군국주의 사례 | rendered-page |
+| [vol-07-page-059.jpg](assets/pages/vol-07/vol-07-page-059.jpg) | 59 | 이찬 관련 기록과 반군국주의 투쟁기 농촌 실태 | rendered-page |
+| [vol-07-page-065.jpg](assets/pages/vol-07/vol-07-page-065.jpg) | 65 | 백현동 황에스더의 계몽운동 관련 도판 | rendered-page |
+| [vol-07-page-070.jpg](assets/pages/vol-07/vol-07-page-070.jpg) | 70 | 몽양 여운형 도판과 해방 정국 흐름 | rendered-page |
+| [vol-07-page-071.jpg](assets/pages/vol-07/vol-07-page-071.jpg) | 71 | 신익희와 해방 공간 정치세력 서술 | rendered-page |
+| [vol-07-page-075.jpg](assets/pages/vol-07/vol-07-page-075.jpg) | 75 | 광주경찰서 습격 사건과 좌우 대립 자료 | rendered-page |
+| [vol-07-page-080.jpg](assets/pages/vol-07/vol-07-page-080.jpg) | 80 | 농지개혁법 조문 인용과 분배·상환 방식 | table-rendered |
+| [vol-07-page-081.jpg](assets/pages/vol-07/vol-07-page-081.jpg) | 81 | 농지소표와 농지개혁의 성남 지역 의미 | rendered-page |
+| [vol-07-page-086.jpg](assets/pages/vol-07/vol-07-page-086.jpg) | 86 | 남한을 기습 침공하는 북한군 전차부대 | rendered-page |
+| [vol-07-page-096.jpg](assets/pages/vol-07/vol-07-page-096.jpg) | 96 | 이매동 순명의사창의비 사진과 비문 | rendered-page |
+| [vol-07-page-098.jpg](assets/pages/vol-07/vol-07-page-098.jpg) | 98 | 한국전쟁 희생자를 기리는 성남의사단 추모제 | rendered-page |
+| [vol-07-page-102.jpg](assets/pages/vol-07/vol-07-page-102.jpg) | 102 | 인천상륙작전과 유엔군 반격 도판 | rendered-page |
+| [vol-07-page-105.jpg](assets/pages/vol-07/vol-07-page-105.jpg) | 105 | 1951년 광주 지역 위력수색 관련 전투상보 | rendered-page |
+| [vol-07-page-106.jpg](assets/pages/vol-07/vol-07-page-106.jpg) | 106 | 유엔군 썬더볼트 작전 요도 | map-rendered |
+| [vol-07-page-108.jpg](assets/pages/vol-07/vol-07-page-108.jpg) | 108 | 지도로 보는 한국전쟁의 전개 양상 | map-rendered |
+| [vol-07-page-111.jpg](assets/pages/vol-07/vol-07-page-111.jpg) | 111 | 광주군 한국전쟁 인명·재산 피해 통계 | stats-rendered |
+| [vol-07-page-112.jpg](assets/pages/vol-07/vol-07-page-112.jpg) | 112 | 한청원 소속 성남 주민 희생자 명단 | table-rendered |
+| [vol-07-page-114.jpg](assets/pages/vol-07/vol-07-page-114.jpg) | 114 | 광주 지역 피란민 세대·인구 증가 통계 | stats-rendered |
+| [vol-07-page-115.jpg](assets/pages/vol-07/vol-07-page-115.jpg) | 115 | 구천면·대왕면 피란민 구호와 구호양곡 횡령 기사 인용 | stats-rendered |
 
 ## 핵심 표/자료 위치
 

@@ -9,7 +9,7 @@
 - OCR: not used. Embedded text layer extracted with `pdftotext -layout`.
 - Markdown: `docs/seongnam-city-history-50/vol-41-moran-permanent-market-folk-five-day-market.md`
 - LLM bundle: `dist/seongnam-history-50-vol-41.llm.md`
-- Rendered pages: `docs/seongnam-city-history-50/assets/pages/vol-41-page-001.jpg` ... `vol-41-page-120.jpg`
+- Rendered pages: `docs/seongnam-city-history-50/assets/pages/vol-41/vol-41-page-001.jpg` ... `vol-41-page-120.jpg`
 - Shared files edited: none.
 
 ## Merge Candidates

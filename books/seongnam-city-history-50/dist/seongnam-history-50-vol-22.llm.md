@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 문화시설, 전시·공연 사진, 영화·드라마 로케이션, 신해철 거리 등 시각 자료가 많은 권차라서 1-116쪽 전체를 `assets/pages/`에 렌더링했다.
+- 문화시설, 전시·공연 사진, 영화·드라마 로케이션, 신해철 거리 등 시각 자료가 많은 권차라서 1-116쪽 전체를 `assets/pages/vol-22/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-22-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제22권 성남의 문화와 예술`로 일치한다.
 - 이 파일은 LLM 장문 입력을 위해 22권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
@@ -99,186 +99,186 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-22-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-22-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-002.jpg) | 2 | 권별 목차 1 | toc |
-| [vol-22-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-003.jpg) | 3 | 권별 목차 2 | toc |
-| [vol-22-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-007.jpg) | 7 | 성남아트센터 전경(2025) | photo |
-| [vol-22-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-010.jpg) | 10 | 성남아트리움 개관식 기념 공연(2022) | photo |
-| [vol-22-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-014.jpg) | 14 | 영화 「감기」 분당 폐쇄 장면 | film-still |
-| [vol-22-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-019.jpg) | 19 | 제21회 모란현대미술대전 시상식과 성남아트센터 전시 인프라 | photo |
-| [vol-22-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-020.jpg) | 20 | 사랑방문화클럽 공연(2025) | photo |
-| [vol-22-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-022.jpg) | 22 | 성남아트센터 오페라하우스와 갤러리 808 | facility-photo |
-| [vol-22-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-023.jpg) | 23 | 갤러리 808 내부와 큐브미술관·반달갤러리 설명 | facility-photo |
-| [vol-22-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-026.jpg) | 26 | 성남문화원·성남예총 관련 연혁과 기관 사진 | organization |
-| [vol-22-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-028.jpg) | 28 | 제36회 성남문화예술제 미술협회전 | photo |
-| [vol-22-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-029.jpg) | 29 | 역대 성남미술협회 회장 표 | table |
-| [vol-22-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-030.jpg) | 30 | 역대 성남사진작가협회 회장 표와 성남민예총 바람개비 콘서트 | table-photo |
-| [vol-22-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-032.jpg) | 32 | 성남조각협회·서예협회 활동과 공공조각 | organization |
-| [vol-22-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-036.jpg) | 36 | 성남미술협회전과 모란현대미술대전 | photo |
-| [vol-22-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-037.jpg) | 37 | 성남아트페어와 성남전통미술대전 | photo |
-| [vol-22-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-038.jpg) | 38 | 경기향토작가초대전과 문인화협회 정기전 | photo |
-| [vol-22-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-039.jpg) | 39 | 성남조각회 정기 회원전과 성남서예협회 회원전 | photo |
-| [vol-22-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-041.jpg) | 41 | 제31회 성남 전국사진공모전 시상식 및 전시 | photo |
-| [vol-22-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-043.jpg) | 43 | 성남큐브미술관 해외 기획전과 Two Seasons | exhibition |
-| [vol-22-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-047.jpg) | 47 | 성남의 얼굴전 전시 사례 | exhibition |
-| [vol-22-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-048.jpg) | 48 | 신진 작가 공모전과 성남의 발견전 | exhibition |
-| [vol-22-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-052.jpg) | 52 | 성남아트센터 전경(2023) | facility-photo |
-| [vol-22-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-053.jpg) | 53 | 오페라하우스·콘서트홀 내부 | facility-photo |
-| [vol-22-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-054.jpg) | 54 | 앙상블시어터와 성남아트리움 시설 설명 | facility-photo |
-| [vol-22-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-055.jpg) | 55 | 옛 성남시민회관, 성남아트리움, 분당중앙공원 야외공연장 | facility-photo |
-| [vol-22-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-056.jpg) | 56 | TLi 아트센터 공연장 | facility-photo |
-| [vol-22-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-058.jpg) | 58 | 성남시립소년소녀합창단·성남시립교향악단 공연 | performance-photo |
-| [vol-22-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-059.jpg) | 59 | 성남시립국악단 송년음악회 | performance-photo |
-| [vol-22-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-060.jpg) | 60 | 성남문화예술제 국악제와 역대 성남국악협회 회장 표 | performance-table |
-| [vol-22-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-061.jpg) | 61 | 성남문화예술제 무용제와 역대 성남무용협회 지부장 표 | performance-table |
-| [vol-22-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-062.jpg) | 62 | 전국 연극제 경기도 예선과 역대 성남연극협회 회장 표 | performance-table |
-| [vol-22-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-063.jpg) | 63 | 성남시 신춘음악회와 역대 성남음악협회 회장 표 | performance-table |
-| [vol-22-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-064.jpg) | 64 | 성남국악제 | performance-photo |
-| [vol-22-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-068.jpg) | 68 | 성남문화예술제 무용제 | performance-photo |
-| [vol-22-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-071.jpg) | 71 | 연극단체 활동 사진과 성남연극협회 연혁 | performance-photo |
-| [vol-22-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-074.jpg) | 74 | 제38회 성남문화예술제 음악제 | performance-photo |
-| [vol-22-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-076.jpg) | 76 | 코리아주니어빅밴드 공연 | performance-photo |
-| [vol-22-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-078.jpg) | 78 | 청년 예술인 창작지원 사업 포스터와 성과 공유 포럼 | poster |
-| [vol-22-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-080.jpg) | 80 | 사랑방문화클럽축제 공연 | performance-photo |
-| [vol-22-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-083.jpg) | 83 | 소설 『남한산성』과 남한산성 문학 재현 | literature |
-| [vol-22-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-084.jpg) | 84 | 『아홉 켤레의 구두로 남은 사내』와 광주대단지 문학 재현 | literature |
-| [vol-22-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-088.jpg) | 88 | 성남문화예술제 시민백일장과 문인협회 활동 | literature-photo |
-| [vol-22-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-089.jpg) | 89 | 역대 성남문인협회 회장 표 | table |
-| [vol-22-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-091.jpg) | 91 | 성남 남한산성전국가요제와 시민가요제 | performance-photo |
-| [vol-22-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-093.jpg) | 93 | 성남문화예술제 영화음악 OST 콘서트 | performance-photo |
-| [vol-22-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-095.jpg) | 95 | 성남극장·중앙극장 옛 사진 | historic-photo |
-| [vol-22-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-097.jpg) | 97 | 영화 「완득이」 촬영지 신흥2동 옥상 | film-location |
-| [vol-22-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-099.jpg) | 99 | 영화 「감기」와 「무뢰한」 속 성남 장면 | film-still |
-| [vol-22-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-101.jpg) | 101 | 영화 「베테랑2」 신흥역 일대 촬영 장면 | film-still |
-| [vol-22-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-103.jpg) | 103 | 성남미디어센터와 독립영화 지원 성과 | media-center |
-| [vol-22-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-104.jpg) | 104 | 신해철 거리 | place-photo |
-| [vol-22-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-105.jpg) | 105 | 신해철과 대학가요제 자료 | music-history |
-| [vol-22-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-107.jpg) | 107 | 신해철 어록 석판과 동상 | place-photo |
-| [vol-22-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-108.jpg) | 108 | 분당 지하공간과 록 음악 작업실 문화 | music-history |
-| [vol-22-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-111.jpg) | 111 | 분당시가지 전경(2024) | cityscape |
-| [vol-22-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-115.jpg) | 115 | 참고문헌 | bibliography |
-| [vol-22-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-116.jpg) | 116 | 판권과 집필자 | colophon |
+| [vol-22-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-22-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-002.jpg) | 2 | 권별 목차 1 | toc |
+| [vol-22-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-003.jpg) | 3 | 권별 목차 2 | toc |
+| [vol-22-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-007.jpg) | 7 | 성남아트센터 전경(2025) | photo |
+| [vol-22-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-010.jpg) | 10 | 성남아트리움 개관식 기념 공연(2022) | photo |
+| [vol-22-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-014.jpg) | 14 | 영화 「감기」 분당 폐쇄 장면 | film-still |
+| [vol-22-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-019.jpg) | 19 | 제21회 모란현대미술대전 시상식과 성남아트센터 전시 인프라 | photo |
+| [vol-22-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-020.jpg) | 20 | 사랑방문화클럽 공연(2025) | photo |
+| [vol-22-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-022.jpg) | 22 | 성남아트센터 오페라하우스와 갤러리 808 | facility-photo |
+| [vol-22-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-023.jpg) | 23 | 갤러리 808 내부와 큐브미술관·반달갤러리 설명 | facility-photo |
+| [vol-22-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-026.jpg) | 26 | 성남문화원·성남예총 관련 연혁과 기관 사진 | organization |
+| [vol-22-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-028.jpg) | 28 | 제36회 성남문화예술제 미술협회전 | photo |
+| [vol-22-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-029.jpg) | 29 | 역대 성남미술협회 회장 표 | table |
+| [vol-22-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-030.jpg) | 30 | 역대 성남사진작가협회 회장 표와 성남민예총 바람개비 콘서트 | table-photo |
+| [vol-22-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-032.jpg) | 32 | 성남조각협회·서예협회 활동과 공공조각 | organization |
+| [vol-22-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-036.jpg) | 36 | 성남미술협회전과 모란현대미술대전 | photo |
+| [vol-22-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-037.jpg) | 37 | 성남아트페어와 성남전통미술대전 | photo |
+| [vol-22-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-038.jpg) | 38 | 경기향토작가초대전과 문인화협회 정기전 | photo |
+| [vol-22-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-039.jpg) | 39 | 성남조각회 정기 회원전과 성남서예협회 회원전 | photo |
+| [vol-22-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-041.jpg) | 41 | 제31회 성남 전국사진공모전 시상식 및 전시 | photo |
+| [vol-22-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-043.jpg) | 43 | 성남큐브미술관 해외 기획전과 Two Seasons | exhibition |
+| [vol-22-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-047.jpg) | 47 | 성남의 얼굴전 전시 사례 | exhibition |
+| [vol-22-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-048.jpg) | 48 | 신진 작가 공모전과 성남의 발견전 | exhibition |
+| [vol-22-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-052.jpg) | 52 | 성남아트센터 전경(2023) | facility-photo |
+| [vol-22-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-053.jpg) | 53 | 오페라하우스·콘서트홀 내부 | facility-photo |
+| [vol-22-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-054.jpg) | 54 | 앙상블시어터와 성남아트리움 시설 설명 | facility-photo |
+| [vol-22-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-055.jpg) | 55 | 옛 성남시민회관, 성남아트리움, 분당중앙공원 야외공연장 | facility-photo |
+| [vol-22-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-056.jpg) | 56 | TLi 아트센터 공연장 | facility-photo |
+| [vol-22-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-058.jpg) | 58 | 성남시립소년소녀합창단·성남시립교향악단 공연 | performance-photo |
+| [vol-22-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-059.jpg) | 59 | 성남시립국악단 송년음악회 | performance-photo |
+| [vol-22-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-060.jpg) | 60 | 성남문화예술제 국악제와 역대 성남국악협회 회장 표 | performance-table |
+| [vol-22-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-061.jpg) | 61 | 성남문화예술제 무용제와 역대 성남무용협회 지부장 표 | performance-table |
+| [vol-22-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-062.jpg) | 62 | 전국 연극제 경기도 예선과 역대 성남연극협회 회장 표 | performance-table |
+| [vol-22-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-063.jpg) | 63 | 성남시 신춘음악회와 역대 성남음악협회 회장 표 | performance-table |
+| [vol-22-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-064.jpg) | 64 | 성남국악제 | performance-photo |
+| [vol-22-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-068.jpg) | 68 | 성남문화예술제 무용제 | performance-photo |
+| [vol-22-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-071.jpg) | 71 | 연극단체 활동 사진과 성남연극협회 연혁 | performance-photo |
+| [vol-22-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-074.jpg) | 74 | 제38회 성남문화예술제 음악제 | performance-photo |
+| [vol-22-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-076.jpg) | 76 | 코리아주니어빅밴드 공연 | performance-photo |
+| [vol-22-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-078.jpg) | 78 | 청년 예술인 창작지원 사업 포스터와 성과 공유 포럼 | poster |
+| [vol-22-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-080.jpg) | 80 | 사랑방문화클럽축제 공연 | performance-photo |
+| [vol-22-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-083.jpg) | 83 | 소설 『남한산성』과 남한산성 문학 재현 | literature |
+| [vol-22-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-084.jpg) | 84 | 『아홉 켤레의 구두로 남은 사내』와 광주대단지 문학 재현 | literature |
+| [vol-22-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-088.jpg) | 88 | 성남문화예술제 시민백일장과 문인협회 활동 | literature-photo |
+| [vol-22-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-089.jpg) | 89 | 역대 성남문인협회 회장 표 | table |
+| [vol-22-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-091.jpg) | 91 | 성남 남한산성전국가요제와 시민가요제 | performance-photo |
+| [vol-22-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-093.jpg) | 93 | 성남문화예술제 영화음악 OST 콘서트 | performance-photo |
+| [vol-22-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-095.jpg) | 95 | 성남극장·중앙극장 옛 사진 | historic-photo |
+| [vol-22-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-097.jpg) | 97 | 영화 「완득이」 촬영지 신흥2동 옥상 | film-location |
+| [vol-22-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-099.jpg) | 99 | 영화 「감기」와 「무뢰한」 속 성남 장면 | film-still |
+| [vol-22-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-101.jpg) | 101 | 영화 「베테랑2」 신흥역 일대 촬영 장면 | film-still |
+| [vol-22-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-103.jpg) | 103 | 성남미디어센터와 독립영화 지원 성과 | media-center |
+| [vol-22-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-104.jpg) | 104 | 신해철 거리 | place-photo |
+| [vol-22-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-105.jpg) | 105 | 신해철과 대학가요제 자료 | music-history |
+| [vol-22-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-107.jpg) | 107 | 신해철 어록 석판과 동상 | place-photo |
+| [vol-22-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-108.jpg) | 108 | 분당 지하공간과 록 음악 작업실 문화 | music-history |
+| [vol-22-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-111.jpg) | 111 | 분당시가지 전경(2024) | cityscape |
+| [vol-22-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-115.jpg) | 115 | 참고문헌 | bibliography |
+| [vol-22-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-116.jpg) | 116 | 판권과 집필자 | colophon |
 
 ## 전체 렌더링 페이지 목록
 
 | 파일 | 원문 쪽 | 첫 식별 텍스트 |
 | --- | --- | --- |
-| [vol-22-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-001.jpg) | 1 | 발 간 등 록 번 호 |
-| [vol-22-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-002.jpg) | 2 | CONTENTS |
-| [vol-22-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-003.jpg) | 3 | PART |
-| [vol-22-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-004.jpg) | 4 | PART |
-| [vol-22-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-005.jpg) | 5 | 성남은 도시가 형성되던 1970년대 초반까지만 해도 문화·예술 기반이 부족했던 게 사 |
-| [vol-22-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-006.jpg) | 6 | 1. 성남 전시예술의 발전과 변화 |
-| [vol-22-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-007.jpg) | 7 | 성남아트센터 전경(2025) |
-| [vol-22-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-008.jpg) | 8 | 부(성남사진작가협회), 성남조각협회 등이 있다. 이 단체들은 매년 다양한 전시회를 개최 |
-| [vol-22-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-009.jpg) | 9 | 2. 성남 공연예술의 발전과 변화 |
-| [vol-22-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-010.jpg) | 10 | 화적 기회를 제공하는 역할을 하고 있다. |
-| [vol-22-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-011.jpg) | 11 | 밀성을 키워가는 분야로 확산, 변신하는 중이라고 평가할 수 있겠다. |
-| [vol-22-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-012.jpg) | 12 | 3. 문학과 대중문화, 미디어 속 성남 |
-| [vol-22-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-013.jpg) | 13 | 정을 문학적으로 조명하였다. |
-| [vol-22-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-014.jpg) | 14 | 영화 「감기」에서 바이러스 발생지인 분당을 전면 폐쇄하는 장면(출처 CJ엔터테인먼트) |
-| [vol-22-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-015.jpg) | 15 | 다. 이를테면 성남뮤직페스티벌은 지역 출신 음악가들과 신진 아티스트가 함께 무대에 서 |
-| [vol-22-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-016.jpg) | 16 | PART |
-| [vol-22-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-017.jpg) | 17 | 1. 성남시의 전시예술 기관과 단체 |
-| [vol-22-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-018.jpg) | 18 | 성남지부(성남연극협회), 한국연예협회 성남지부 등 5개 단체가 모여 한국예술문화단체 |
-| [vol-22-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-019.jpg) | 19 | 남미술대전)을 비롯하여 |
-| [vol-22-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-020.jpg) | 20 | 사랑방문화클럽 공연(2025) |
-| [vol-22-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-021.jpg) | 21 | 2) 공립 전시예술 기관 |
-| [vol-22-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-022.jpg) | 22 | (2) 성남아트센터 |
-| [vol-22-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-023.jpg) | 23 | 시 대관도 가능하다. 갤러리 808의 전시실 |
-| [vol-22-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-024.jpg) | 24 | 전과 같은 시민 친화적 전시를 진행하고 있다. |
-| [vol-22-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-025.jpg) | 25 | 집실, 제5·6강의실 있으며, 3층은 전시실과 다목적실이 있다. 서현문화의집은 지하에 서양 |
-| [vol-22-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-026.jpg) | 26 | 3·1만세운동 기념식, 경기도민속예술제 성남시 대표로 출전, 둔촌문화제 개최 등이 있다. |
-| [vol-22-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-027.jpg) | 27 | 예술인총연합회(성남예총)라는 이름으로 창립하여 활동하였다. 이후 친목 단체의 상태로 |
-| [vol-22-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-028.jpg) | 28 | 제36회 성남문화예술제 미술협회전(2023, 출처 성남예총) |
-| [vol-22-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-029.jpg) | 29 | 역대 성남미술협회 회장(지부장) |
-| [vol-22-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-030.jpg) | 30 | 역대 성남사진작가협회 회장(지부장) |
-| [vol-22-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-031.jpg) | 31 | 한국민족예술단체총연합 성남지부의 조직으로는 시각매체위원회, 민족굿위원회, 민족 |
-| [vol-22-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-032.jpg) | 32 | 시, 광주시, 이천시)에서 활동하는 조각가들로 구성되어 있다. 2003년 성남시 여성문화회 |
-| [vol-22-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-033.jpg) | 33 | ⑤ 한국문인화협회 성남지부 |
-| [vol-22-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-034.jpg) | 34 | 2. 전시 분야별 주요 문화·예술활동 |
-| [vol-22-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-035.jpg) | 35 | 해 기획되었다. 초창기에는 매년 10월에 개최되었으나 2009년부터 5월 또는 10월로 일정 |
-| [vol-22-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-036.jpg) | 36 | (2) 성남미술협회전 |
-| [vol-22-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-037.jpg) | 37 | (4) 성남아트페어(SNAF) |
-| [vol-22-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-038.jpg) | 38 | 2024 경기향토작가초대전(출처 성남예총)        제21회 성남문인화협회 정기 회원전(2024, 출처 성남문인화협회 밴드) |
-| [vol-22-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-039.jpg) | 39 | (8) 성남조각회 정기 회원전 |
-| [vol-22-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-040.jpg) | 40 | 3) 사진전 |
-| [vol-22-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-041.jpg) | 41 | (2) 성남 전국사진공모전 |
-| [vol-22-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-042.jpg) | 42 | 3. 성남아트센터를 중심으로 본 |
-| [vol-22-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-043.jpg) | 43 | 전 ‘호안 미로, 최후의 열정’은 미로의 주요 작품을 아시아에 처음 선보였다는 의미가 있 |
-| [vol-22-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-044.jpg) | 44 | 이러한 전시들은 서양미술 위주의 관성적 시각에서 벗어나 그동안 주목받지 못했던 비 |
-| [vol-22-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-045.jpg) | 45 | 2022년 미디어아트 전시 ‘디지로그전 : 해방’은 팬데믹 시대에 일상의 해방과 소소한 |
-| [vol-22-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-046.jpg) | 46 | 작으로, 2018년 ‘박철 : 그리지 않은 그림’, 2020년 ‘명랑미술관’, ‘2022년 ‘식물키우기’, |
-| [vol-22-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-047.jpg) | 47 | 성남의 얼굴전 ‘도시樂, Rock’(2022, 출처 성남아트센터 아트뷰) 성남의 얼굴전 ‘리게더 : REGATHER’(2024, 출처 성남아트센터) |
-| [vol-22-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-048.jpg) | 48 | 한편, 2015년부터는 ‘성남의 얼굴전’을 격년제로 바꾸어 실시했다. 2017년 전시의 경우 |
-| [vol-22-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-049.jpg) | 49 | PART |
-| [vol-22-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-050.jpg) | 50 | 1. 성남시 공연예술 변천사 |
-| [vol-22-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-051.jpg) | 51 | 성남예총 현판식(1986.3.) |
-| [vol-22-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-052.jpg) | 52 | 2. 성남시의 공연예술 시설과 단체 |
-| [vol-22-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-053.jpg) | 53 | 하는 한편, 자체적으로 프로그램을 제작 |
-| [vol-22-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-054.jpg) | 54 | 에서는 리사이틀, 실내악, 고음악, 오케스트 |
-| [vol-22-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-055.jpg) | 55 | 철거 전의 옛 성남시민회관 전경            2022년 옛 성남시민회관에 신축 개관한 성남아트리움(출처 성남문화재단) |
-| [vol-22-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-056.jpg) | 56 | (4) TLi 아트센터 |
-| [vol-22-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-057.jpg) | 57 | 실용음악 등 다양한 장르의 공연이 가능한 복합 문화 연주공간으로 성남 시민과 지역 주 |
-| [vol-22-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-058.jpg) | 58 | 성남시립소년소녀합창단(출처 성남시 시립예술단)          한국잡월드 로비에서 진행한 성남시립교향악단 뮤직페스티벌(2024) |
-| [vol-22-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-059.jpg) | 59 | 니스트 강동석을 초청하여 벽강예술관에서 창단 연주회를 개최했다. 이후 2005년 10월 |
-| [vol-22-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-060.jpg) | 60 | (2) 분야별 공연예술 단체 |
-| [vol-22-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-061.jpg) | 61 | 제38회 성남문화예술제 무용제(2024) |
-| [vol-22-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-062.jpg) | 62 | 제40회 전국 연극제 경기도 예선(2022) |
-| [vol-22-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-063.jpg) | 63 | 성남음악협회가 주관하는 성남시 신춘음악회(2024) |
-| [vol-22-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-064.jpg) | 64 | 3. 분야별 공연예술활동 |
-| [vol-22-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-065.jpg) | 65 | 무형문화재 제5호(판소리 춘향가, 정정렬 류, 김여란 계보) 김여란 문하 이수자이기도 했 |
-| [vol-22-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-066.jpg) | 66 | 성남오리뜰농악 시연회(2022) |
-| [vol-22-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-067.jpg) | 67 | (4) 이무술 집터 다지는 소리 |
-| [vol-22-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-068.jpg) | 68 | 1992년에는 제1회 전국무용제 경기도 |
-| [vol-22-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-069.jpg) | 69 | (3) 성남아트센터와 무용 |
-| [vol-22-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-070.jpg) | 70 | 후」가 공연되었다. 「대이동 그 후」는 김은집 극작, 한세훈 연출로 박승규가 주인공을 맡았 |
-| [vol-22-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-071.jpg) | 71 | 1990년에는 소극장 운동을 모토로 한 극단 ‘푸 |
-| [vol-22-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-072.jpg) | 72 | 서 활동하는 동선과 남한산성 |
-| [vol-22-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-073.jpg) | 73 | 성남 연극에 대한 관심을 확대하기 위해 극단 동선은 시민과 함께하는 연극활동도 진행해 |
-| [vol-22-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-074.jpg) | 74 | 제38회 성남문화예술제 음악제(2024, 출처 성남예총) |
-| [vol-22-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-075.jpg) | 75 | 되고 있다. 한편, 1999년부터 성남 박태현음악제가 개최되었으나 성남시 지원이 중단되면 |
-| [vol-22-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-076.jpg) | 76 | 코리아주니어빅밴드 공연 모습(출처 코리아주니어빅밴드&쇼콰이어) |
-| [vol-22-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-077.jpg) | 77 | 4. 예술 지원 사업으로 본 성남시 공연예술의 |
-| [vol-22-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-078.jpg) | 78 | 의 문제점과 대안을 논의하는 자리를 갖고 있 |
-| [vol-22-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-079.jpg) | 79 | 셋째, 지원 사업별 대상과 목적 특화 추진으로 지원 사업의 다양성을 확대하는 것이다. |
-| [vol-22-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-080.jpg) | 80 | 사랑방문화클럽축제 공연(2025) |
-| [vol-22-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-081.jpg) | 81 | PART |
-| [vol-22-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-082.jpg) | 82 | 1. 성남의 문학 |
-| [vol-22-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-083.jpg) | 83 | (1) 성남의 역사적 맥락을 담은 작품 : 장편소설 『남한산성』 |
-| [vol-22-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-084.jpg) | 84 | 단적으로 대립한다. 시간이 지나 식량마저 바닥나고 남한산성을 지키던 모두의 피로가 한 |
-| [vol-22-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-085.jpg) | 85 | 『아홉 켤레의 구두로 남은 사내』는 1970년대 한국의 도시화 과정에서 발생한 철거민 |
-| [vol-22-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-086.jpg) | 86 | 짓밟는 과정을 상징하는 장치이기도 하다. |
-| [vol-22-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-087.jpg) | 87 | 를 가질 수 없는 도시라는 사실을 점심 식사를 위한 노력을 그리는 장면에서 암시하고 있 |
-| [vol-22-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-088.jpg) | 88 | 하게 연결된다. 1970년대 서울에서 강제로 이주한 철거민이 살기 시작하면서 형성된 성 |
-| [vol-22-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-089.jpg) | 89 | 역대 성남문인협회 회장(지부장) |
-| [vol-22-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-090.jpg) | 90 | 2. 연예예술 및 영화 단체와 활동 |
-| [vol-22-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-091.jpg) | 91 | 제14회 성남 남한산성전국가요제(2024. 출처 성남예총) |
-| [vol-22-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-092.jpg) | 92 | 요제는 폐지되어 시민가요제로 흡수되었다. 또 1986년부터 시작된 성남청소년대중연예 |
-| [vol-22-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-093.jpg) | 93 | 제38회 성남문화예술제 ‘영화음악 OST 콘서트’(2024, 출처 성남예총) |
-| [vol-22-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-094.jpg) | 94 | 3. 영상미디어와 성남 |
-| [vol-22-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-095.jpg) | 95 | 성남 최초의 영화관 성남극장(1970년대)              지금의 신흥역 롯데시네마 자리에 있던 옛 중앙극장(1980년대) |
-| [vol-22-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-096.jpg) | 96 | 의 크리스마스」(1998)의 심은하, 드라마 「선덕여왕」(2009)의 이요원, 영화 「나의 사랑 나 |
-| [vol-22-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-097.jpg) | 97 | 2) 영상미디어에 재현된 성남 |
-| [vol-22-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-098.jpg) | 98 | 추격전에서 빼곡한 건물로 들어찬 복고풍의 거리라는 점에서 수정구 공간이 적절했다. |
-| [vol-22-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-099.jpg) | 99 | 코로나19로 인해 사회적 거리두기가 실 |
-| [vol-22-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-100.jpg) | 100 | 원에서 촬영됐다. 애틋한 멜로 드라마와 가상 결혼 예능이 가지는 로맨스 감성이라는 면 |
-| [vol-22-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-101.jpg) | 101 | (KBS2, 2016)가 분당구 정자동에서, 50% |
-| [vol-22-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-102.jpg) | 102 | 3) 영상미디어 창작 지원과 시민활동 |
-| [vol-22-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-103.jpg) | 103 | 그러나 2023년을 마지막으로 10년간 |
-| [vol-22-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-104.jpg) | 104 | 4. 대중음악과 성남 |
-| [vol-22-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-105.jpg) | 105 | 그러면서 ‘전통’을 만드는 과정이나 만들어진 후, 그 지역 혹은 공간에 살고 있던 사람들 |
-| [vol-22-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-106.jpg) | 106 | 한국 대중음악의 새로운 가능성을 제시했다. 이후 솔로 아티스트로 변신한 신해철은 음반 |
-| [vol-22-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-107.jpg) | 107 | 신해철의 어록을 표석처럼 새긴 석판들                                            선글라스를 쓴 신해철 동상 |
-| [vol-22-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-108.jpg) | 108 | 에게 작업실을 마련하기 적격이었다. 더군다나 |
-| [vol-22-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-109.jpg) | 109 | 3) 대중음악가를 기리는 공간을 통해 전통 만들기 |
-| [vol-22-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-110.jpg) | 110 | 계에서 가장 자유로운 태도를 가진 음악 축제 ‘사우스 바이 사우스웨스트(SXSW)’를 가 |
-| [vol-22-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-111.jpg) | 111 | 5. 대중문화와 성남의 미래 |
-| [vol-22-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-112.jpg) | 112 | 이·청소년을 위한 미디어 캠프와 미디어 교육이 활기차게 이루어지고 있다. |
-| [vol-22-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-113.jpg) | 113 | 차지하고 있다. 대중문화 수용에서 생산과 유통까지 전방위적으로 대중문화와 엔터테인 |
-| [vol-22-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-114.jpg) | 114 | 민이 많은 지역으로서 스트리트 문화에 잘 어울리는 환경을 가지고 있다. 독립 레이블이 |
-| [vol-22-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-115.jpg) | 115 | ○ 단행본 |
-| [vol-22-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22-page-116.jpg) | 116 | 성남시사 22 |
+| [vol-22-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-001.jpg) | 1 | 발 간 등 록 번 호 |
+| [vol-22-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-002.jpg) | 2 | CONTENTS |
+| [vol-22-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-003.jpg) | 3 | PART |
+| [vol-22-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-004.jpg) | 4 | PART |
+| [vol-22-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-005.jpg) | 5 | 성남은 도시가 형성되던 1970년대 초반까지만 해도 문화·예술 기반이 부족했던 게 사 |
+| [vol-22-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-006.jpg) | 6 | 1. 성남 전시예술의 발전과 변화 |
+| [vol-22-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-007.jpg) | 7 | 성남아트센터 전경(2025) |
+| [vol-22-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-008.jpg) | 8 | 부(성남사진작가협회), 성남조각협회 등이 있다. 이 단체들은 매년 다양한 전시회를 개최 |
+| [vol-22-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-009.jpg) | 9 | 2. 성남 공연예술의 발전과 변화 |
+| [vol-22-page-010.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-010.jpg) | 10 | 화적 기회를 제공하는 역할을 하고 있다. |
+| [vol-22-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-011.jpg) | 11 | 밀성을 키워가는 분야로 확산, 변신하는 중이라고 평가할 수 있겠다. |
+| [vol-22-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-012.jpg) | 12 | 3. 문학과 대중문화, 미디어 속 성남 |
+| [vol-22-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-013.jpg) | 13 | 정을 문학적으로 조명하였다. |
+| [vol-22-page-014.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-014.jpg) | 14 | 영화 「감기」에서 바이러스 발생지인 분당을 전면 폐쇄하는 장면(출처 CJ엔터테인먼트) |
+| [vol-22-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-015.jpg) | 15 | 다. 이를테면 성남뮤직페스티벌은 지역 출신 음악가들과 신진 아티스트가 함께 무대에 서 |
+| [vol-22-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-016.jpg) | 16 | PART |
+| [vol-22-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-017.jpg) | 17 | 1. 성남시의 전시예술 기관과 단체 |
+| [vol-22-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-018.jpg) | 18 | 성남지부(성남연극협회), 한국연예협회 성남지부 등 5개 단체가 모여 한국예술문화단체 |
+| [vol-22-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-019.jpg) | 19 | 남미술대전)을 비롯하여 |
+| [vol-22-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-020.jpg) | 20 | 사랑방문화클럽 공연(2025) |
+| [vol-22-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-021.jpg) | 21 | 2) 공립 전시예술 기관 |
+| [vol-22-page-022.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-022.jpg) | 22 | (2) 성남아트센터 |
+| [vol-22-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-023.jpg) | 23 | 시 대관도 가능하다. 갤러리 808의 전시실 |
+| [vol-22-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-024.jpg) | 24 | 전과 같은 시민 친화적 전시를 진행하고 있다. |
+| [vol-22-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-025.jpg) | 25 | 집실, 제5·6강의실 있으며, 3층은 전시실과 다목적실이 있다. 서현문화의집은 지하에 서양 |
+| [vol-22-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-026.jpg) | 26 | 3·1만세운동 기념식, 경기도민속예술제 성남시 대표로 출전, 둔촌문화제 개최 등이 있다. |
+| [vol-22-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-027.jpg) | 27 | 예술인총연합회(성남예총)라는 이름으로 창립하여 활동하였다. 이후 친목 단체의 상태로 |
+| [vol-22-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-028.jpg) | 28 | 제36회 성남문화예술제 미술협회전(2023, 출처 성남예총) |
+| [vol-22-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-029.jpg) | 29 | 역대 성남미술협회 회장(지부장) |
+| [vol-22-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-030.jpg) | 30 | 역대 성남사진작가협회 회장(지부장) |
+| [vol-22-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-031.jpg) | 31 | 한국민족예술단체총연합 성남지부의 조직으로는 시각매체위원회, 민족굿위원회, 민족 |
+| [vol-22-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-032.jpg) | 32 | 시, 광주시, 이천시)에서 활동하는 조각가들로 구성되어 있다. 2003년 성남시 여성문화회 |
+| [vol-22-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-033.jpg) | 33 | ⑤ 한국문인화협회 성남지부 |
+| [vol-22-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-034.jpg) | 34 | 2. 전시 분야별 주요 문화·예술활동 |
+| [vol-22-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-035.jpg) | 35 | 해 기획되었다. 초창기에는 매년 10월에 개최되었으나 2009년부터 5월 또는 10월로 일정 |
+| [vol-22-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-036.jpg) | 36 | (2) 성남미술협회전 |
+| [vol-22-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-037.jpg) | 37 | (4) 성남아트페어(SNAF) |
+| [vol-22-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-038.jpg) | 38 | 2024 경기향토작가초대전(출처 성남예총)        제21회 성남문인화협회 정기 회원전(2024, 출처 성남문인화협회 밴드) |
+| [vol-22-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-039.jpg) | 39 | (8) 성남조각회 정기 회원전 |
+| [vol-22-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-040.jpg) | 40 | 3) 사진전 |
+| [vol-22-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-041.jpg) | 41 | (2) 성남 전국사진공모전 |
+| [vol-22-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-042.jpg) | 42 | 3. 성남아트센터를 중심으로 본 |
+| [vol-22-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-043.jpg) | 43 | 전 ‘호안 미로, 최후의 열정’은 미로의 주요 작품을 아시아에 처음 선보였다는 의미가 있 |
+| [vol-22-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-044.jpg) | 44 | 이러한 전시들은 서양미술 위주의 관성적 시각에서 벗어나 그동안 주목받지 못했던 비 |
+| [vol-22-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-045.jpg) | 45 | 2022년 미디어아트 전시 ‘디지로그전 : 해방’은 팬데믹 시대에 일상의 해방과 소소한 |
+| [vol-22-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-046.jpg) | 46 | 작으로, 2018년 ‘박철 : 그리지 않은 그림’, 2020년 ‘명랑미술관’, ‘2022년 ‘식물키우기’, |
+| [vol-22-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-047.jpg) | 47 | 성남의 얼굴전 ‘도시樂, Rock’(2022, 출처 성남아트센터 아트뷰) 성남의 얼굴전 ‘리게더 : REGATHER’(2024, 출처 성남아트센터) |
+| [vol-22-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-048.jpg) | 48 | 한편, 2015년부터는 ‘성남의 얼굴전’을 격년제로 바꾸어 실시했다. 2017년 전시의 경우 |
+| [vol-22-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-049.jpg) | 49 | PART |
+| [vol-22-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-050.jpg) | 50 | 1. 성남시 공연예술 변천사 |
+| [vol-22-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-051.jpg) | 51 | 성남예총 현판식(1986.3.) |
+| [vol-22-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-052.jpg) | 52 | 2. 성남시의 공연예술 시설과 단체 |
+| [vol-22-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-053.jpg) | 53 | 하는 한편, 자체적으로 프로그램을 제작 |
+| [vol-22-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-054.jpg) | 54 | 에서는 리사이틀, 실내악, 고음악, 오케스트 |
+| [vol-22-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-055.jpg) | 55 | 철거 전의 옛 성남시민회관 전경            2022년 옛 성남시민회관에 신축 개관한 성남아트리움(출처 성남문화재단) |
+| [vol-22-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-056.jpg) | 56 | (4) TLi 아트센터 |
+| [vol-22-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-057.jpg) | 57 | 실용음악 등 다양한 장르의 공연이 가능한 복합 문화 연주공간으로 성남 시민과 지역 주 |
+| [vol-22-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-058.jpg) | 58 | 성남시립소년소녀합창단(출처 성남시 시립예술단)          한국잡월드 로비에서 진행한 성남시립교향악단 뮤직페스티벌(2024) |
+| [vol-22-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-059.jpg) | 59 | 니스트 강동석을 초청하여 벽강예술관에서 창단 연주회를 개최했다. 이후 2005년 10월 |
+| [vol-22-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-060.jpg) | 60 | (2) 분야별 공연예술 단체 |
+| [vol-22-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-061.jpg) | 61 | 제38회 성남문화예술제 무용제(2024) |
+| [vol-22-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-062.jpg) | 62 | 제40회 전국 연극제 경기도 예선(2022) |
+| [vol-22-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-063.jpg) | 63 | 성남음악협회가 주관하는 성남시 신춘음악회(2024) |
+| [vol-22-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-064.jpg) | 64 | 3. 분야별 공연예술활동 |
+| [vol-22-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-065.jpg) | 65 | 무형문화재 제5호(판소리 춘향가, 정정렬 류, 김여란 계보) 김여란 문하 이수자이기도 했 |
+| [vol-22-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-066.jpg) | 66 | 성남오리뜰농악 시연회(2022) |
+| [vol-22-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-067.jpg) | 67 | (4) 이무술 집터 다지는 소리 |
+| [vol-22-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-068.jpg) | 68 | 1992년에는 제1회 전국무용제 경기도 |
+| [vol-22-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-069.jpg) | 69 | (3) 성남아트센터와 무용 |
+| [vol-22-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-070.jpg) | 70 | 후」가 공연되었다. 「대이동 그 후」는 김은집 극작, 한세훈 연출로 박승규가 주인공을 맡았 |
+| [vol-22-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-071.jpg) | 71 | 1990년에는 소극장 운동을 모토로 한 극단 ‘푸 |
+| [vol-22-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-072.jpg) | 72 | 서 활동하는 동선과 남한산성 |
+| [vol-22-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-073.jpg) | 73 | 성남 연극에 대한 관심을 확대하기 위해 극단 동선은 시민과 함께하는 연극활동도 진행해 |
+| [vol-22-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-074.jpg) | 74 | 제38회 성남문화예술제 음악제(2024, 출처 성남예총) |
+| [vol-22-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-075.jpg) | 75 | 되고 있다. 한편, 1999년부터 성남 박태현음악제가 개최되었으나 성남시 지원이 중단되면 |
+| [vol-22-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-076.jpg) | 76 | 코리아주니어빅밴드 공연 모습(출처 코리아주니어빅밴드&쇼콰이어) |
+| [vol-22-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-077.jpg) | 77 | 4. 예술 지원 사업으로 본 성남시 공연예술의 |
+| [vol-22-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-078.jpg) | 78 | 의 문제점과 대안을 논의하는 자리를 갖고 있 |
+| [vol-22-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-079.jpg) | 79 | 셋째, 지원 사업별 대상과 목적 특화 추진으로 지원 사업의 다양성을 확대하는 것이다. |
+| [vol-22-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-080.jpg) | 80 | 사랑방문화클럽축제 공연(2025) |
+| [vol-22-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-081.jpg) | 81 | PART |
+| [vol-22-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-082.jpg) | 82 | 1. 성남의 문학 |
+| [vol-22-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-083.jpg) | 83 | (1) 성남의 역사적 맥락을 담은 작품 : 장편소설 『남한산성』 |
+| [vol-22-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-084.jpg) | 84 | 단적으로 대립한다. 시간이 지나 식량마저 바닥나고 남한산성을 지키던 모두의 피로가 한 |
+| [vol-22-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-085.jpg) | 85 | 『아홉 켤레의 구두로 남은 사내』는 1970년대 한국의 도시화 과정에서 발생한 철거민 |
+| [vol-22-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-086.jpg) | 86 | 짓밟는 과정을 상징하는 장치이기도 하다. |
+| [vol-22-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-087.jpg) | 87 | 를 가질 수 없는 도시라는 사실을 점심 식사를 위한 노력을 그리는 장면에서 암시하고 있 |
+| [vol-22-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-088.jpg) | 88 | 하게 연결된다. 1970년대 서울에서 강제로 이주한 철거민이 살기 시작하면서 형성된 성 |
+| [vol-22-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-089.jpg) | 89 | 역대 성남문인협회 회장(지부장) |
+| [vol-22-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-090.jpg) | 90 | 2. 연예예술 및 영화 단체와 활동 |
+| [vol-22-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-091.jpg) | 91 | 제14회 성남 남한산성전국가요제(2024. 출처 성남예총) |
+| [vol-22-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-092.jpg) | 92 | 요제는 폐지되어 시민가요제로 흡수되었다. 또 1986년부터 시작된 성남청소년대중연예 |
+| [vol-22-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-093.jpg) | 93 | 제38회 성남문화예술제 ‘영화음악 OST 콘서트’(2024, 출처 성남예총) |
+| [vol-22-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-094.jpg) | 94 | 3. 영상미디어와 성남 |
+| [vol-22-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-095.jpg) | 95 | 성남 최초의 영화관 성남극장(1970년대)              지금의 신흥역 롯데시네마 자리에 있던 옛 중앙극장(1980년대) |
+| [vol-22-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-096.jpg) | 96 | 의 크리스마스」(1998)의 심은하, 드라마 「선덕여왕」(2009)의 이요원, 영화 「나의 사랑 나 |
+| [vol-22-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-097.jpg) | 97 | 2) 영상미디어에 재현된 성남 |
+| [vol-22-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-098.jpg) | 98 | 추격전에서 빼곡한 건물로 들어찬 복고풍의 거리라는 점에서 수정구 공간이 적절했다. |
+| [vol-22-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-099.jpg) | 99 | 코로나19로 인해 사회적 거리두기가 실 |
+| [vol-22-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-100.jpg) | 100 | 원에서 촬영됐다. 애틋한 멜로 드라마와 가상 결혼 예능이 가지는 로맨스 감성이라는 면 |
+| [vol-22-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-101.jpg) | 101 | (KBS2, 2016)가 분당구 정자동에서, 50% |
+| [vol-22-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-102.jpg) | 102 | 3) 영상미디어 창작 지원과 시민활동 |
+| [vol-22-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-103.jpg) | 103 | 그러나 2023년을 마지막으로 10년간 |
+| [vol-22-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-104.jpg) | 104 | 4. 대중음악과 성남 |
+| [vol-22-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-105.jpg) | 105 | 그러면서 ‘전통’을 만드는 과정이나 만들어진 후, 그 지역 혹은 공간에 살고 있던 사람들 |
+| [vol-22-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-106.jpg) | 106 | 한국 대중음악의 새로운 가능성을 제시했다. 이후 솔로 아티스트로 변신한 신해철은 음반 |
+| [vol-22-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-107.jpg) | 107 | 신해철의 어록을 표석처럼 새긴 석판들                                            선글라스를 쓴 신해철 동상 |
+| [vol-22-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-108.jpg) | 108 | 에게 작업실을 마련하기 적격이었다. 더군다나 |
+| [vol-22-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-109.jpg) | 109 | 3) 대중음악가를 기리는 공간을 통해 전통 만들기 |
+| [vol-22-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-110.jpg) | 110 | 계에서 가장 자유로운 태도를 가진 음악 축제 ‘사우스 바이 사우스웨스트(SXSW)’를 가 |
+| [vol-22-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-111.jpg) | 111 | 5. 대중문화와 성남의 미래 |
+| [vol-22-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-112.jpg) | 112 | 이·청소년을 위한 미디어 캠프와 미디어 교육이 활기차게 이루어지고 있다. |
+| [vol-22-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-113.jpg) | 113 | 차지하고 있다. 대중문화 수용에서 생산과 유통까지 전방위적으로 대중문화와 엔터테인 |
+| [vol-22-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-114.jpg) | 114 | 민이 많은 지역으로서 스트리트 문화에 잘 어울리는 환경을 가지고 있다. 독립 레이블이 |
+| [vol-22-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-115.jpg) | 115 | ○ 단행본 |
+| [vol-22-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-22/vol-22-page-116.jpg) | 116 | 성남시사 22 |
 
 ## 원문 텍스트
 

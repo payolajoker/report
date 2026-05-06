@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 이 권은 모란 상설시장과 민속5일장을 역사·현장 인터뷰·답사기·문학작품 분석으로 다루므로, 장터 풍경과 인물·상점·시설 사진이 중요하다. 감사와 재가공을 위해 1-120쪽 전체를 `assets/pages/`에 렌더링했다.
+- 이 권은 모란 상설시장과 민속5일장을 역사·현장 인터뷰·답사기·문학작품 분석으로 다루므로, 장터 풍경과 인물·상점·시설 사진이 중요하다. 감사와 재가공을 위해 1-120쪽 전체를 `assets/pages/vol-41/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-41-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제41권 모란 상설시장과 민속5일장`으로 일치한다.
 
@@ -80,38 +80,38 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 태그 |
 | --- | --- | --- | --- |
-| [vol-41-page-001.jpg](assets/pages/vol-41-page-001.jpg) | 1 | 표지: 모란 상설시장과 민속5일장 권명과 시장 설명 | cover |
-| [vol-41-page-002.jpg](assets/pages/vol-41-page-002.jpg) | 2 | Part 1 목차: 모란시장의 어제 | toc |
-| [vol-41-page-003.jpg](assets/pages/vol-41-page-003.jpg) | 3 | Part 2-4 목차: 오늘, 이웃들, 문학작품 | toc |
-| [vol-41-page-011.jpg](assets/pages/vol-41-page-011.jpg) | 11 | Part 1 장 표지: 모란시장의 어제 | part-title |
-| [vol-41-page-017.jpg](assets/pages/vol-41-page-017.jpg) | 17 | 민속5일장 풍경 | market-photo |
-| [vol-41-page-018.jpg](assets/pages/vol-41-page-018.jpg) | 18 | 장날 상설시장 골목 풍경 | street-market-photo |
-| [vol-41-page-020.jpg](assets/pages/vol-41-page-020.jpg) | 20 | 평일 민속5일장터 모습 | market-space-photo |
-| [vol-41-page-021.jpg](assets/pages/vol-41-page-021.jpg) | 21 | Part 2 장 표지: 모란시장의 오늘 | part-title |
-| [vol-41-page-022.jpg](assets/pages/vol-41-page-022.jpg) | 22 | 민속5일장 장면과 유래 설명 시작 | five-day-market |
-| [vol-41-page-023.jpg](assets/pages/vol-41-page-023.jpg) | 23 | 현대식으로 바뀐 민속5일장 모습 | market-modernization |
-| [vol-41-page-025.jpg](assets/pages/vol-41-page-025.jpg) | 25 | 모란흑염소특화거리 | specialized-street |
-| [vol-41-page-026.jpg](assets/pages/vol-41-page-026.jpg) | 26 | 진열된 약재 | goods-photo |
-| [vol-41-page-028.jpg](assets/pages/vol-41-page-028.jpg) | 28 | 유점수 모란민속5일장 상인회 회장 | interview-person |
-| [vol-41-page-032.jpg](assets/pages/vol-41-page-032.jpg) | 32 | 모두모여모란 축제 | festival-photo |
-| [vol-41-page-033.jpg](assets/pages/vol-41-page-033.jpg) | 33 | Part 3 장 표지: 모란시장에서 만난 우리의 이웃들 | part-title |
-| [vol-41-page-034.jpg](assets/pages/vol-41-page-034.jpg) | 34 | 상설시장 상인 인터뷰 시작, 기름 골목 | merchant-interview |
-| [vol-41-page-040.jpg](assets/pages/vol-41-page-040.jpg) | 40 | 민속5일장 상인 인터뷰 시작, 뻥튀기 장면 | merchant-interview |
-| [vol-41-page-047.jpg](assets/pages/vol-41-page-047.jpg) | 47 | 이용객 인터뷰 시작 | visitor-interview |
-| [vol-41-page-048.jpg](assets/pages/vol-41-page-048.jpg) | 48 | 입맛 도는 봄나물 | food-goods-photo |
-| [vol-41-page-056.jpg](assets/pages/vol-41-page-056.jpg) | 56 | 민속5일장으로 들어가는 인파 | crowd-photo |
-| [vol-41-page-068.jpg](assets/pages/vol-41-page-068.jpg) | 68 | 나의 모란시장 답사기와 봄날 스케치 시작 | fieldnote |
-| [vol-41-page-073.jpg](assets/pages/vol-41-page-073.jpg) | 73 | 여름날 스케치 시작 | fieldnote |
-| [vol-41-page-076.jpg](assets/pages/vol-41-page-076.jpg) | 76 | 가을날 스케치와 평일 장터 주차장 묘사 | fieldnote |
-| [vol-41-page-084.jpg](assets/pages/vol-41-page-084.jpg) | 84 | 겨울날 스케치, 2024년 폭설 뒤 장터 | fieldnote |
-| [vol-41-page-090.jpg](assets/pages/vol-41-page-090.jpg) | 90 | 모란시장 발전 방안 제언 인터뷰 시작 | policy-interview |
-| [vol-41-page-095.jpg](assets/pages/vol-41-page-095.jpg) | 95 | 상인 인터뷰, 백년기름특화거리 동판과 화성기름집 | merchant-interview |
-| [vol-41-page-106.jpg](assets/pages/vol-41-page-106.jpg) | 106 | Part 4 장 표지: 문학작품에 나타난 모란시장 | part-title |
-| [vol-41-page-109.jpg](assets/pages/vol-41-page-109.jpg) | 109 | 정도상 「개 잡는 여자」 분석 시작 | literature |
-| [vol-41-page-111.jpg](assets/pages/vol-41-page-111.jpg) | 111 | 이경희 『모란시장』 분석 시작 | literature |
-| [vol-41-page-114.jpg](assets/pages/vol-41-page-114.jpg) | 114 | 이웅재 「모란시장」 수필 분석 시작 | literature |
-| [vol-41-page-117.jpg](assets/pages/vol-41-page-117.jpg) | 117 | 에필로그: 시장 문화와 관광자원 가능성 | epilogue |
-| [vol-41-page-119.jpg](assets/pages/vol-41-page-119.jpg) | 119 | 판권과 발행 정보 | colophon |
+| [vol-41-page-001.jpg](assets/pages/vol-41/vol-41-page-001.jpg) | 1 | 표지: 모란 상설시장과 민속5일장 권명과 시장 설명 | cover |
+| [vol-41-page-002.jpg](assets/pages/vol-41/vol-41-page-002.jpg) | 2 | Part 1 목차: 모란시장의 어제 | toc |
+| [vol-41-page-003.jpg](assets/pages/vol-41/vol-41-page-003.jpg) | 3 | Part 2-4 목차: 오늘, 이웃들, 문학작품 | toc |
+| [vol-41-page-011.jpg](assets/pages/vol-41/vol-41-page-011.jpg) | 11 | Part 1 장 표지: 모란시장의 어제 | part-title |
+| [vol-41-page-017.jpg](assets/pages/vol-41/vol-41-page-017.jpg) | 17 | 민속5일장 풍경 | market-photo |
+| [vol-41-page-018.jpg](assets/pages/vol-41/vol-41-page-018.jpg) | 18 | 장날 상설시장 골목 풍경 | street-market-photo |
+| [vol-41-page-020.jpg](assets/pages/vol-41/vol-41-page-020.jpg) | 20 | 평일 민속5일장터 모습 | market-space-photo |
+| [vol-41-page-021.jpg](assets/pages/vol-41/vol-41-page-021.jpg) | 21 | Part 2 장 표지: 모란시장의 오늘 | part-title |
+| [vol-41-page-022.jpg](assets/pages/vol-41/vol-41-page-022.jpg) | 22 | 민속5일장 장면과 유래 설명 시작 | five-day-market |
+| [vol-41-page-023.jpg](assets/pages/vol-41/vol-41-page-023.jpg) | 23 | 현대식으로 바뀐 민속5일장 모습 | market-modernization |
+| [vol-41-page-025.jpg](assets/pages/vol-41/vol-41-page-025.jpg) | 25 | 모란흑염소특화거리 | specialized-street |
+| [vol-41-page-026.jpg](assets/pages/vol-41/vol-41-page-026.jpg) | 26 | 진열된 약재 | goods-photo |
+| [vol-41-page-028.jpg](assets/pages/vol-41/vol-41-page-028.jpg) | 28 | 유점수 모란민속5일장 상인회 회장 | interview-person |
+| [vol-41-page-032.jpg](assets/pages/vol-41/vol-41-page-032.jpg) | 32 | 모두모여모란 축제 | festival-photo |
+| [vol-41-page-033.jpg](assets/pages/vol-41/vol-41-page-033.jpg) | 33 | Part 3 장 표지: 모란시장에서 만난 우리의 이웃들 | part-title |
+| [vol-41-page-034.jpg](assets/pages/vol-41/vol-41-page-034.jpg) | 34 | 상설시장 상인 인터뷰 시작, 기름 골목 | merchant-interview |
+| [vol-41-page-040.jpg](assets/pages/vol-41/vol-41-page-040.jpg) | 40 | 민속5일장 상인 인터뷰 시작, 뻥튀기 장면 | merchant-interview |
+| [vol-41-page-047.jpg](assets/pages/vol-41/vol-41-page-047.jpg) | 47 | 이용객 인터뷰 시작 | visitor-interview |
+| [vol-41-page-048.jpg](assets/pages/vol-41/vol-41-page-048.jpg) | 48 | 입맛 도는 봄나물 | food-goods-photo |
+| [vol-41-page-056.jpg](assets/pages/vol-41/vol-41-page-056.jpg) | 56 | 민속5일장으로 들어가는 인파 | crowd-photo |
+| [vol-41-page-068.jpg](assets/pages/vol-41/vol-41-page-068.jpg) | 68 | 나의 모란시장 답사기와 봄날 스케치 시작 | fieldnote |
+| [vol-41-page-073.jpg](assets/pages/vol-41/vol-41-page-073.jpg) | 73 | 여름날 스케치 시작 | fieldnote |
+| [vol-41-page-076.jpg](assets/pages/vol-41/vol-41-page-076.jpg) | 76 | 가을날 스케치와 평일 장터 주차장 묘사 | fieldnote |
+| [vol-41-page-084.jpg](assets/pages/vol-41/vol-41-page-084.jpg) | 84 | 겨울날 스케치, 2024년 폭설 뒤 장터 | fieldnote |
+| [vol-41-page-090.jpg](assets/pages/vol-41/vol-41-page-090.jpg) | 90 | 모란시장 발전 방안 제언 인터뷰 시작 | policy-interview |
+| [vol-41-page-095.jpg](assets/pages/vol-41/vol-41-page-095.jpg) | 95 | 상인 인터뷰, 백년기름특화거리 동판과 화성기름집 | merchant-interview |
+| [vol-41-page-106.jpg](assets/pages/vol-41/vol-41-page-106.jpg) | 106 | Part 4 장 표지: 문학작품에 나타난 모란시장 | part-title |
+| [vol-41-page-109.jpg](assets/pages/vol-41/vol-41-page-109.jpg) | 109 | 정도상 「개 잡는 여자」 분석 시작 | literature |
+| [vol-41-page-111.jpg](assets/pages/vol-41/vol-41-page-111.jpg) | 111 | 이경희 『모란시장』 분석 시작 | literature |
+| [vol-41-page-114.jpg](assets/pages/vol-41/vol-41-page-114.jpg) | 114 | 이웅재 「모란시장」 수필 분석 시작 | literature |
+| [vol-41-page-117.jpg](assets/pages/vol-41/vol-41-page-117.jpg) | 117 | 에필로그: 시장 문화와 관광자원 가능성 | epilogue |
+| [vol-41-page-119.jpg](assets/pages/vol-41/vol-41-page-119.jpg) | 119 | 판권과 발행 정보 | colophon |
 
 ## 인터뷰·답사·문학 인덱스
 

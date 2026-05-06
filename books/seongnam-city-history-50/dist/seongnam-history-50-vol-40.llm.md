@@ -16,7 +16,7 @@ status: "text-layer-reviewed"
 - 이 파일은 `vol-40-natives-migrants-seongnam-life.md`의 단일 파일 LLM ingestion용 번들이다.
 - OCR은 사용하지 않았고 PDF embedded text layer만 사용했다.
 - 모든 원문 쪽은 `source page marker` 마커와 `### p.xxx` 헤더로 보존했다.
-- 로컬 이미지 링크는 `../docs/seongnam-city-history-50/assets/pages/vol-40-page-xxx.jpg` 형식으로 연결한다.
+- 로컬 이미지 링크는 `../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-xxx.jpg` 형식으로 연결한다.
 
 ## 권별 목차
 
@@ -99,49 +99,49 @@ status: "text-layer-reviewed"
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-40-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-001.jpg) | 1 | 표지와 권명, 성남시사 50년사 등록번호 | title-page |
-| [vol-40-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-003.jpg) | 3 | 권별 목차: Part 1과 Part 2의 13개 구술 항목 | toc |
-| [vol-40-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-006.jpg) | 6 | Part 1 장 표지: 신도시 변화와 성남 사람들 | part-title |
-| [vol-40-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-020.jpg) | 20 | Part 2 장 표지: 성남살이 사람들 이야기 | part-title |
-| [vol-40-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-021.jpg) | 21 | 김성숙 인물 사진과 광주대단지 이주 서사 시작 | oral-history |
-| [vol-40-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-026.jpg) | 26 | 김성숙 씨 집 이웃 점심 사진 | community-photo |
-| [vol-40-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-029.jpg) | 29 | 이준호 인물 사진과 성남 양복점 거리 서사 시작 | oral-history |
-| [vol-40-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-030.jpg) | 30 | 세창양복점 전경 | shop-photo |
-| [vol-40-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-032.jpg) | 32 | 이준호 씨 재단 재연 사진 | craft-photo |
-| [vol-40-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-034.jpg) | 34 | 이준호 씨 인터뷰 기사와 맞춤양복 가격 회고 | newspaper-or-note |
-| [vol-40-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-038.jpg) | 38 | 이석우 목사 인물 사진과 성도교회 서사 시작 | oral-history |
-| [vol-40-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-040.jpg) | 40 | 성도교회 사진 | religion-photo |
-| [vol-40-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-042.jpg) | 42 | 이석우 목사 사진과 성도교회 출석 인원 서술 | person-photo |
-| [vol-40-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-044.jpg) | 44 | 은빛대학과 경로식당 등 노인 돌봄 활동 | welfare-photo |
-| [vol-40-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-046.jpg) | 46 | 전지원 인물 사진과 신흥1동 복지 서사 시작 | oral-history |
-| [vol-40-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-048.jpg) | 48 | 1991년 금광국민학교 졸업식 사진 | education-photo |
-| [vol-40-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-052.jpg) | 52 | 2023년 신흥1동 복지회관 한글교실 | welfare-photo |
-| [vol-40-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-054.jpg) | 54 | 김광렬 인물 사진과 청기와집 서사 시작 | oral-history |
-| [vol-40-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-058.jpg) | 58 | 청기와집 입구 사진 | restaurant-photo |
-| [vol-40-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-060.jpg) | 60 | 청기와집 대표 메뉴 갈비찜 사진 | food-photo |
-| [vol-40-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-063.jpg) | 63 | 윤가연 인물 사진과 젊은 무용수 서사 시작 | oral-history |
-| [vol-40-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-067.jpg) | 67 | 허튼춤 사진 | arts-photo |
-| [vol-40-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-068.jpg) | 68 | 춤추는 아이들 사진 | community-arts-photo |
-| [vol-40-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-072.jpg) | 72 | 태평체조 사진과 골목 기반 무용 활동 | community-arts-photo |
-| [vol-40-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-073.jpg) | 73 | 노크(안산거리극축제)와 화분이 놓인 옥상 | performance-photo |
-| [vol-40-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-074.jpg) | 74 | 정정수 인물 사진과 고려이용원 서사 시작 | oral-history |
-| [vol-40-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-084.jpg) | 84 | 송은화 인물 사진과 푸른마을 작은도서관 서사 시작 | oral-history |
-| [vol-40-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-096.jpg) | 96 | 임순국 인물 사진과 소리국악기 서사 시작 | oral-history |
-| [vol-40-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-100.jpg) | 100 | 가야금 종류·제작 설명이 담긴 국악기 제작 장면 | craft-photo |
-| [vol-40-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-106.jpg) | 106 | 2024년 임순국 악기장 개인전 사진 | exhibition-photo |
-| [vol-40-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-108.jpg) | 108 | 문현미 인물 사진과 서판교 가족생활 서사 시작 | oral-history |
-| [vol-40-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-110.jpg) | 110 | 판교도서관·판교청소년수련관 활용 등 가족생활 도판 | life-history-photo |
-| [vol-40-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-118.jpg) | 118 | 가족 여행 앨범 사진 | family-photo |
-| [vol-40-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-119.jpg) | 119 | 홍석희 인물 사진과 마망베이커리 서사 시작 | oral-history |
-| [vol-40-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-124.jpg) | 124 | 마망 베이커리 1-5호점 제과·제빵 생산 장면 | work-photo |
-| [vol-40-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-126.jpg) | 126 | 홍석희 고등학교 졸업식 사진 | education-photo |
-| [vol-40-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-130.jpg) | 130 | 이수현 인물·하늘꿈학교 서사 시작 | oral-history |
-| [vol-40-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-133.jpg) | 133 | 이수현 씨 생일 서프라이즈 생일파티 사진 | school-community-photo |
-| [vol-40-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-134.jpg) | 134 | 그룹홈 학생과 석촌호수 나들이 사진 | care-photo |
-| [vol-40-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-141.jpg) | 141 | 곽성근 인물 사진과 시민단체 활동 서사 시작 | oral-history |
-| [vol-40-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-142.jpg) | 142 | 세월호 참사 1주기 팽목항 방문 사진 | social-movement-photo |
-| [vol-40-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-150.jpg) | 150 | 성남환경운동연합 기후변화 반대 집회 사진 | environmental-movement-photo |
-| [vol-40-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40-page-152.jpg) | 152 | 판권과 발행 정보 | colophon |
+| [vol-40-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-001.jpg) | 1 | 표지와 권명, 성남시사 50년사 등록번호 | title-page |
+| [vol-40-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-003.jpg) | 3 | 권별 목차: Part 1과 Part 2의 13개 구술 항목 | toc |
+| [vol-40-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-006.jpg) | 6 | Part 1 장 표지: 신도시 변화와 성남 사람들 | part-title |
+| [vol-40-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-020.jpg) | 20 | Part 2 장 표지: 성남살이 사람들 이야기 | part-title |
+| [vol-40-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-021.jpg) | 21 | 김성숙 인물 사진과 광주대단지 이주 서사 시작 | oral-history |
+| [vol-40-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-026.jpg) | 26 | 김성숙 씨 집 이웃 점심 사진 | community-photo |
+| [vol-40-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-029.jpg) | 29 | 이준호 인물 사진과 성남 양복점 거리 서사 시작 | oral-history |
+| [vol-40-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-030.jpg) | 30 | 세창양복점 전경 | shop-photo |
+| [vol-40-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-032.jpg) | 32 | 이준호 씨 재단 재연 사진 | craft-photo |
+| [vol-40-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-034.jpg) | 34 | 이준호 씨 인터뷰 기사와 맞춤양복 가격 회고 | newspaper-or-note |
+| [vol-40-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-038.jpg) | 38 | 이석우 목사 인물 사진과 성도교회 서사 시작 | oral-history |
+| [vol-40-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-040.jpg) | 40 | 성도교회 사진 | religion-photo |
+| [vol-40-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-042.jpg) | 42 | 이석우 목사 사진과 성도교회 출석 인원 서술 | person-photo |
+| [vol-40-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-044.jpg) | 44 | 은빛대학과 경로식당 등 노인 돌봄 활동 | welfare-photo |
+| [vol-40-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-046.jpg) | 46 | 전지원 인물 사진과 신흥1동 복지 서사 시작 | oral-history |
+| [vol-40-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-048.jpg) | 48 | 1991년 금광국민학교 졸업식 사진 | education-photo |
+| [vol-40-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-052.jpg) | 52 | 2023년 신흥1동 복지회관 한글교실 | welfare-photo |
+| [vol-40-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-054.jpg) | 54 | 김광렬 인물 사진과 청기와집 서사 시작 | oral-history |
+| [vol-40-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-058.jpg) | 58 | 청기와집 입구 사진 | restaurant-photo |
+| [vol-40-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-060.jpg) | 60 | 청기와집 대표 메뉴 갈비찜 사진 | food-photo |
+| [vol-40-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-063.jpg) | 63 | 윤가연 인물 사진과 젊은 무용수 서사 시작 | oral-history |
+| [vol-40-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-067.jpg) | 67 | 허튼춤 사진 | arts-photo |
+| [vol-40-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-068.jpg) | 68 | 춤추는 아이들 사진 | community-arts-photo |
+| [vol-40-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-072.jpg) | 72 | 태평체조 사진과 골목 기반 무용 활동 | community-arts-photo |
+| [vol-40-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-073.jpg) | 73 | 노크(안산거리극축제)와 화분이 놓인 옥상 | performance-photo |
+| [vol-40-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-074.jpg) | 74 | 정정수 인물 사진과 고려이용원 서사 시작 | oral-history |
+| [vol-40-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-084.jpg) | 84 | 송은화 인물 사진과 푸른마을 작은도서관 서사 시작 | oral-history |
+| [vol-40-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-096.jpg) | 96 | 임순국 인물 사진과 소리국악기 서사 시작 | oral-history |
+| [vol-40-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-100.jpg) | 100 | 가야금 종류·제작 설명이 담긴 국악기 제작 장면 | craft-photo |
+| [vol-40-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-106.jpg) | 106 | 2024년 임순국 악기장 개인전 사진 | exhibition-photo |
+| [vol-40-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-108.jpg) | 108 | 문현미 인물 사진과 서판교 가족생활 서사 시작 | oral-history |
+| [vol-40-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-110.jpg) | 110 | 판교도서관·판교청소년수련관 활용 등 가족생활 도판 | life-history-photo |
+| [vol-40-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-118.jpg) | 118 | 가족 여행 앨범 사진 | family-photo |
+| [vol-40-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-119.jpg) | 119 | 홍석희 인물 사진과 마망베이커리 서사 시작 | oral-history |
+| [vol-40-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-124.jpg) | 124 | 마망 베이커리 1-5호점 제과·제빵 생산 장면 | work-photo |
+| [vol-40-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-126.jpg) | 126 | 홍석희 고등학교 졸업식 사진 | education-photo |
+| [vol-40-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-130.jpg) | 130 | 이수현 인물·하늘꿈학교 서사 시작 | oral-history |
+| [vol-40-page-133.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-133.jpg) | 133 | 이수현 씨 생일 서프라이즈 생일파티 사진 | school-community-photo |
+| [vol-40-page-134.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-134.jpg) | 134 | 그룹홈 학생과 석촌호수 나들이 사진 | care-photo |
+| [vol-40-page-141.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-141.jpg) | 141 | 곽성근 인물 사진과 시민단체 활동 서사 시작 | oral-history |
+| [vol-40-page-142.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-142.jpg) | 142 | 세월호 참사 1주기 팽목항 방문 사진 | social-movement-photo |
+| [vol-40-page-150.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-150.jpg) | 150 | 성남환경운동연합 기후변화 반대 집회 사진 | environmental-movement-photo |
+| [vol-40-page-152.jpg](../docs/seongnam-city-history-50/assets/pages/vol-40/vol-40-page-152.jpg) | 152 | 판권과 발행 정보 | colophon |
 
 ---
 

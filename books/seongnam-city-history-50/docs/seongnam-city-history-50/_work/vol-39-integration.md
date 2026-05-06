@@ -9,7 +9,7 @@
 - OCR: 사용하지 않음. `pdftotext -layout`로 PDF embedded text layer만 추출.
 - 본문 산출물: `docs/seongnam-city-history-50/vol-39-seongnam-content-50.md`
 - LLM 번들: `dist/seongnam-history-50-vol-39.llm.md`
-- 렌더링 이미지: `docs/seongnam-city-history-50/assets/pages/vol-39-page-001.jpg` ... `vol-39-page-152.jpg`
+- 렌더링 이미지: `docs/seongnam-city-history-50/assets/pages/vol-39/vol-39-page-001.jpg` ... `vol-39-page-152.jpg`
 - 미처리 범위: 없음. 1-152쪽 전체 source marker 보존.
 
 ## 병합 후보: 핵심 주제

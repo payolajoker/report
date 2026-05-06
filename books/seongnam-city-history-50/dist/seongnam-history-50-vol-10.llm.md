@@ -5,7 +5,7 @@
 - source_url: https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378684
 - ocr_used: false
 - extraction: embedded PDF text via pdftotext -layout
-- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/` 경로로 연결되어 있다.
+- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/vol-10/` 경로로 연결되어 있다.
 
 ---
 collection_title: "성남시사 50년사"
@@ -26,7 +26,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 초상·묘역·기념물·학교·성남 개발 관련 사진이 있는 쪽과 권두 목록·범례 쪽은 `assets/pages/`에 렌더링했다.
+- 초상·묘역·기념물·학교·성남 개발 관련 사진이 있는 쪽과 권두 목록·범례 쪽은 `assets/pages/vol-10/`에 렌더링했다.
 - 이 권은 인물사 성격이 강하므로 전근대/근현대 항목 색인, 생몰년, 성남 관련성, 참고문헌 위치를 함께 보존했다.
 
 ## 권별 목차
@@ -106,113 +106,113 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 |---|---:|---|---|
-| [vol-10-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-001.jpg) | 1 | 권 표지와 제목: 성남 역사 인물 50선 | rendered-page |
-| [vol-10-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-002.jpg) | 2 | 권별 목차: 전근대 인물 | rendered-page |
-| [vol-10-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-003.jpg) | 3 | 권별 목차: 근현대 인물 | rendered-page |
-| [vol-10-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-004.jpg) | 4 | 인물 선정 배경과 범례 | rendered-page |
-| [vol-10-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-005.jpg) | 5 | 성남 역사 인물 50인 목록: 전근대 인물 | rendered-page |
-| [vol-10-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-006.jpg) | 6 | 성남 역사 인물 50인 목록: 근현대 인물 | rendered-page |
-| [vol-10-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-007.jpg) | 7 | Part 1 전근대 인물 도입 | rendered-page |
-| [vol-10-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-008.jpg) | 8 | 강정일당의 필체 | rendered-page |
-| [vol-10-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-009.jpg) | 9 | 강정일당 사당 | rendered-page |
-| [vol-10-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-013.jpg) | 13 | 금릉 남공철 묘역과 남공철 묘갈 | rendered-page |
-| [vol-10-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-016.jpg) | 16 | 병자호란 삼학사의 한 사람, 충렬공 오달제 | rendered-page |
-| [vol-10-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-017.jpg) | 17 | 오달제 등 삼학사를 제향하는 남한산성 현절사 | rendered-page |
-| [vol-10-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-018.jpg) | 18 | 충정공 윤집 초상화 | rendered-page |
-| [vol-10-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-019.jpg) | 19 | 윤집 등 삼학사를 모신 현절사 제향 | rendered-page |
-| [vol-10-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-020.jpg) | 20 | 임진왜란 삼종사관의 한 사람, 이경류 | rendered-page |
-| [vol-10-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-021.jpg) | 21 | 분당구 수내동 한산이씨 묘역과 신도비각 | rendered-page |
-| [vol-10-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-024.jpg) | 24 | 이경민 묘표 앞면·뒷면·귀부 | rendered-page |
-| [vol-10-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-025.jpg) | 25 | 덕수이씨 의정공파 묘역 전경 | rendered-page |
-| [vol-10-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-026.jpg) | 26 | 국난을 슬기롭게 극복한 구국의 충신, 이경석 | rendered-page |
-| [vol-10-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-027.jpg) | 27 | 국난을 슬기롭게 극복한 구국의 충신, 이경석 | rendered-page |
-| [vol-10-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-028.jpg) | 28 | 이경석 묘 전경 | rendered-page |
-| [vol-10-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-029.jpg) | 29 | 국난을 슬기롭게 극복한 구국의 충신, 이경석 | rendered-page |
-| [vol-10-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-031.jpg) | 31 | 이곤 묘비와 묘비 머리 부분의 삼족오 문양 | rendered-page |
-| [vol-10-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-032.jpg) | 32 | 이달충의 「탄동신거」와 숯골 관련 설명 | rendered-page |
-| [vol-10-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-034.jpg) | 34 | 이달충의 문집 『제정집』과 탄동 묘소 관련 설명 | rendered-page |
-| [vol-10-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-036.jpg) | 36 | 이상안 묘 신도비 2기와 이상안 충신정려문 | rendered-page |
-| [vol-10-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-037.jpg) | 37 | 종실에서 가장 빼어난 사람, 충숙공 이수 | rendered-page |
-| [vol-10-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-038.jpg) | 38 | 경기도 기념물로 지정된 이수 선생 묘 | rendered-page |
-| [vol-10-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-039.jpg) | 39 | 이순제 묘표와 묘역 비문 | rendered-page |
-| [vol-10-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-042.jpg) | 42 | 경기도 문화유산자료로 지정된 풍산군 이종린 묘역 | rendered-page |
-| [vol-10-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-043.jpg) | 43 | 탄천 지명의 역사를 전해주는 ‘탄천 선생’ 이지직 | rendered-page |
-| [vol-10-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-045.jpg) | 45 | 이지직 문인석과 이지직 장명등 | rendered-page |
-| [vol-10-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-046.jpg) | 46 | 둔촌 이집 초상화 | rendered-page |
-| [vol-10-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-048.jpg) | 48 | 둔촌 이집 묘역과 사당 추모재 | rendered-page |
-| [vol-10-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-049.jpg) | 49 | 궁술의 명인, 신종군 이효백 | rendered-page |
-| [vol-10-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-050.jpg) | 50 | 성남시 향토유산 신종군 이효백 묘역 | rendered-page |
-| [vol-10-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-051.jpg) | 51 | 충절의 표상, 송산 조견 | rendered-page |
-| [vol-10-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-052.jpg) | 52 | 성남시 향토유산 송산 조견 선생 묘 | rendered-page |
-| [vol-10-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-053.jpg) | 53 | 조견 묘역의 「영남루」 시비 | rendered-page |
-| [vol-10-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-054.jpg) | 54 | 경헌 조몽정에게 효의 길을 묻다 | rendered-page |
-| [vol-10-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-055.jpg) | 55 | 성남시 향토유산 경헌 조몽정 묘역 | rendered-page |
-| [vol-10-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-057.jpg) | 57 | 도로교통의 개척자 조운흘 | rendered-page |
-| [vol-10-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-058.jpg) | 58 | 나라와 백성을 구하는 길은 오로지 ‘和’라고 가르친, 만곡 최기남 | rendered-page |
-| [vol-10-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-059.jpg) | 59 | 최기남 묘역과 최기남 신도비 | rendered-page |
-| [vol-10-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-060.jpg) | 60 | 초인적 문신 관료, 문정공 한계희 | rendered-page |
-| [vol-10-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-061.jpg) | 61 | 청주한씨 문정공파 재실과 한계희 신도비 | rendered-page |
-| [vol-10-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-062.jpg) | 62 | 조선의 국방 안보 전문가, 장헌공 한효순 | rendered-page |
-| [vol-10-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-063.jpg) | 63 | 조선의 국방 안보 전문가, 장헌공 한효순 | rendered-page |
-| [vol-10-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-064.jpg) | 64 | 한효순 묘 | rendered-page |
-| [vol-10-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-065.jpg) | 65 | 충정공 홍익한 초상화 | rendered-page |
-| [vol-10-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-066.jpg) | 66 | 병자호란 삼학사의 한 사람, 충정공 홍익한 | rendered-page |
-| [vol-10-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-067.jpg) | 67 | Part 2 근현대 인물 도입 | rendered-page |
-| [vol-10-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-068.jpg) | 68 | 한말 개화사상가 강위의 초상화 | rendered-page |
-| [vol-10-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-069.jpg) | 69 | 한말 개화사상의 선구자, 강위 | rendered-page |
-| [vol-10-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-071.jpg) | 71 | “한국 문구 산업의 신화”, 한국빠이롯드 창업자 고홍명 | rendered-page |
-| [vol-10-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-072.jpg) | 72 | “한국 문구 산업의 신화”, 한국빠이롯드 창업자 고홍명 | rendered-page |
-| [vol-10-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-073.jpg) | 73 | “한국 문구 산업의 신화”, 한국빠이롯드 창업자 고홍명 | rendered-page |
-| [vol-10-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-074.jpg) | 74 | 성남예총 설립을 이끈, 소설가 권기흥 | rendered-page |
-| [vol-10-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-075.jpg) | 75 | 성남예총 설립을 이끈, 소설가 권기흥 | rendered-page |
-| [vol-10-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-076.jpg) | 76 | 한시의 맛을 더하는 판교기로회, 문사 권오선 | rendered-page |
-| [vol-10-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-077.jpg) | 77 | 한시의 맛을 더하는 판교기로회, 문사 권오선 | rendered-page |
-| [vol-10-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-078.jpg) | 78 | 숭신학원 설립자, 재암 권재찬 | rendered-page |
-| [vol-10-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-081.jpg) | 81 | 성남 사회복지의 대부 김경모 | rendered-page |
-| [vol-10-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-082.jpg) | 82 | 사람을 돕는 일이 가장 숭고하다는 사회복지의 대부, 김경모 | rendered-page |
-| [vol-10-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-083.jpg) | 83 | 성남시 사립학교 개척자, 경원대 설립자 김동석 | rendered-page |
-| [vol-10-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-084.jpg) | 84 | 성남시 사립학교 개척자, 경원대 설립자 김동석 | rendered-page |
-| [vol-10-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-085.jpg) | 85 | 한글 암호표를 만든, 광복군 김우전 | rendered-page |
-| [vol-10-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-086.jpg) | 86 | 한글 암호표를 만든, 광복군 김우전 | rendered-page |
-| [vol-10-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-087.jpg) | 87 | 모란개척단장 김창숙 | rendered-page |
-| [vol-10-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-089.jpg) | 89 | 의로움을 실천한 의병대장, 남상목 | rendered-page |
-| [vol-10-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-090.jpg) | 90 | 남상목 의병장 통고문과 건국훈장 애국장 | rendered-page |
-| [vol-10-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-092.jpg) | 92 | 진정한 행복은 남을 돕는 것, 남선우 | rendered-page |
-| [vol-10-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-093.jpg) | 93 | 진정한 행복은 남을 돕는 것, 남선우 | rendered-page |
-| [vol-10-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-094.jpg) | 94 | 3·1운동을 이끈 낙생면 초대 면장, 남태희 | rendered-page |
-| [vol-10-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-095.jpg) | 95 | 율동공원 성남 3·1만세운동기념탑 | rendered-page |
-| [vol-10-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-097.jpg) | 97 | 3·1절 노래를 작곡한 멋쟁이 예술가, 박태현 | rendered-page |
-| [vol-10-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-098.jpg) | 98 | 박태현 노래비와 동상 | rendered-page |
-| [vol-10-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-099.jpg) | 99 | 3·1절 노래를 작곡한 멋쟁이 예술가, 박태현 | rendered-page |
-| [vol-10-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-100.jpg) | 100 | 삼송 변호성 회장 | rendered-page |
-| [vol-10-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-101.jpg) | 101 | 삼영전자 사회복지사업 관련 도판 | rendered-page |
-| [vol-10-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-103.jpg) | 103 | 능수능란하게 왜병을 공격한, 의병장 윤치장 | rendered-page |
-| [vol-10-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-104.jpg) | 104 | 능수능란하게 왜병을 공격한, 의병장 윤치장 | rendered-page |
-| [vol-10-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-105.jpg) | 105 | 면민들이 비를 세워 덕을 기린, 돌마면장 이근학 | rendered-page |
-| [vol-10-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-106.jpg) | 106 | 면민들이 비를 세워 덕을 기린, 돌마면장 이근학 | rendered-page |
-| [vol-10-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-107.jpg) | 107 | 백성은 먹는 것으로 하늘을 삼는다. 이병철 | rendered-page |
-| [vol-10-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-108.jpg) | 108 | 백성은 먹는 것으로 하늘을 삼는다. 이병철 | rendered-page |
-| [vol-10-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-109.jpg) | 109 | 대왕면 만세 시위 주도, 애국지사 이시종 | rendered-page |
-| [vol-10-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-111.jpg) | 111 | 조국을 사랑하고 성남을 사랑했던, 애국지사 이용상 | rendered-page |
-| [vol-10-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-112.jpg) | 112 | 조국을 사랑하고 성남을 사랑했던, 애국지사 이용상 | rendered-page |
-| [vol-10-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-113.jpg) | 113 | 희망대공원 광주대단지 조성계획 현장 설명회 브리핑 | rendered-page |
-| [vol-10-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-114.jpg) | 114 | 태평동 옛 성남시청사 성남시민헌장비 | rendered-page |
-| [vol-10-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-115.jpg) | 115 | 신구대학교 설립자 우촌 이종익 | rendered-page |
-| [vol-10-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-116.jpg) | 116 | 우촌박물관 이종익 흉상 | rendered-page |
-| [vol-10-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-117.jpg) | 117 | 신구전문대학 시기 전문학사 수료증 수여 장면 | rendered-page |
-| [vol-10-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-118.jpg) | 118 | 성남시장을 역임한 이해재 | rendered-page |
-| [vol-10-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-119.jpg) | 119 | 성남 사랑을 실천한 마지막 관선 도지사, 이해재 | rendered-page |
-| [vol-10-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-120.jpg) | 120 | 성남시 문화예술의 초석을 놓은 무용가, 향곡 정금란 | rendered-page |
-| [vol-10-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-121.jpg) | 121 | 한국무용협회 성남시지부 창립 공연 후 기념사진 | rendered-page |
-| [vol-10-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-122.jpg) | 122 | 돌마면 3·1운동을 이끈 애국지사, 제암 한순회 | rendered-page |
-| [vol-10-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-124.jpg) | 124 | 더 큰 걸 위해 개인의 힘을 쓰라, 부통령 함태영 | rendered-page |
-| [vol-10-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-125.jpg) | 125 | 부통령이 되어 둔전교회에 방문한 함태영 | rendered-page |
-| [vol-10-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-126.jpg) | 126 | 더 큰 걸 위해 개인의 힘을 쓰라, 부통령 함태영 | rendered-page |
-| [vol-10-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-127.jpg) | 127 | 둔전교회 헌당식 및 창립 40주년 기념 예배 | rendered-page |
-| [vol-10-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-128.jpg) | 128 | 둔전교회의 순교자, 현석진 목사와 김태수 장로 | rendered-page |
-| [vol-10-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-129.jpg) | 129 | 풍생학원 설립자 홍사풍 | rendered-page |
-| [vol-10-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-130.jpg) | 130 | 풍생중·고등학교 강당 자리의 모란개척단 벽돌 작업 | rendered-page |
-| [vol-10-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10-page-131.jpg) | 131 | 홍사풍이 설립한 풍생중·고등학교 전경 | rendered-page |
+| [vol-10-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-001.jpg) | 1 | 권 표지와 제목: 성남 역사 인물 50선 | rendered-page |
+| [vol-10-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-002.jpg) | 2 | 권별 목차: 전근대 인물 | rendered-page |
+| [vol-10-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-003.jpg) | 3 | 권별 목차: 근현대 인물 | rendered-page |
+| [vol-10-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-004.jpg) | 4 | 인물 선정 배경과 범례 | rendered-page |
+| [vol-10-page-005.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-005.jpg) | 5 | 성남 역사 인물 50인 목록: 전근대 인물 | rendered-page |
+| [vol-10-page-006.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-006.jpg) | 6 | 성남 역사 인물 50인 목록: 근현대 인물 | rendered-page |
+| [vol-10-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-007.jpg) | 7 | Part 1 전근대 인물 도입 | rendered-page |
+| [vol-10-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-008.jpg) | 8 | 강정일당의 필체 | rendered-page |
+| [vol-10-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-009.jpg) | 9 | 강정일당 사당 | rendered-page |
+| [vol-10-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-013.jpg) | 13 | 금릉 남공철 묘역과 남공철 묘갈 | rendered-page |
+| [vol-10-page-016.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-016.jpg) | 16 | 병자호란 삼학사의 한 사람, 충렬공 오달제 | rendered-page |
+| [vol-10-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-017.jpg) | 17 | 오달제 등 삼학사를 제향하는 남한산성 현절사 | rendered-page |
+| [vol-10-page-018.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-018.jpg) | 18 | 충정공 윤집 초상화 | rendered-page |
+| [vol-10-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-019.jpg) | 19 | 윤집 등 삼학사를 모신 현절사 제향 | rendered-page |
+| [vol-10-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-020.jpg) | 20 | 임진왜란 삼종사관의 한 사람, 이경류 | rendered-page |
+| [vol-10-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-021.jpg) | 21 | 분당구 수내동 한산이씨 묘역과 신도비각 | rendered-page |
+| [vol-10-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-024.jpg) | 24 | 이경민 묘표 앞면·뒷면·귀부 | rendered-page |
+| [vol-10-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-025.jpg) | 25 | 덕수이씨 의정공파 묘역 전경 | rendered-page |
+| [vol-10-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-026.jpg) | 26 | 국난을 슬기롭게 극복한 구국의 충신, 이경석 | rendered-page |
+| [vol-10-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-027.jpg) | 27 | 국난을 슬기롭게 극복한 구국의 충신, 이경석 | rendered-page |
+| [vol-10-page-028.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-028.jpg) | 28 | 이경석 묘 전경 | rendered-page |
+| [vol-10-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-029.jpg) | 29 | 국난을 슬기롭게 극복한 구국의 충신, 이경석 | rendered-page |
+| [vol-10-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-031.jpg) | 31 | 이곤 묘비와 묘비 머리 부분의 삼족오 문양 | rendered-page |
+| [vol-10-page-032.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-032.jpg) | 32 | 이달충의 「탄동신거」와 숯골 관련 설명 | rendered-page |
+| [vol-10-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-034.jpg) | 34 | 이달충의 문집 『제정집』과 탄동 묘소 관련 설명 | rendered-page |
+| [vol-10-page-036.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-036.jpg) | 36 | 이상안 묘 신도비 2기와 이상안 충신정려문 | rendered-page |
+| [vol-10-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-037.jpg) | 37 | 종실에서 가장 빼어난 사람, 충숙공 이수 | rendered-page |
+| [vol-10-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-038.jpg) | 38 | 경기도 기념물로 지정된 이수 선생 묘 | rendered-page |
+| [vol-10-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-039.jpg) | 39 | 이순제 묘표와 묘역 비문 | rendered-page |
+| [vol-10-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-042.jpg) | 42 | 경기도 문화유산자료로 지정된 풍산군 이종린 묘역 | rendered-page |
+| [vol-10-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-043.jpg) | 43 | 탄천 지명의 역사를 전해주는 ‘탄천 선생’ 이지직 | rendered-page |
+| [vol-10-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-045.jpg) | 45 | 이지직 문인석과 이지직 장명등 | rendered-page |
+| [vol-10-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-046.jpg) | 46 | 둔촌 이집 초상화 | rendered-page |
+| [vol-10-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-048.jpg) | 48 | 둔촌 이집 묘역과 사당 추모재 | rendered-page |
+| [vol-10-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-049.jpg) | 49 | 궁술의 명인, 신종군 이효백 | rendered-page |
+| [vol-10-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-050.jpg) | 50 | 성남시 향토유산 신종군 이효백 묘역 | rendered-page |
+| [vol-10-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-051.jpg) | 51 | 충절의 표상, 송산 조견 | rendered-page |
+| [vol-10-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-052.jpg) | 52 | 성남시 향토유산 송산 조견 선생 묘 | rendered-page |
+| [vol-10-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-053.jpg) | 53 | 조견 묘역의 「영남루」 시비 | rendered-page |
+| [vol-10-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-054.jpg) | 54 | 경헌 조몽정에게 효의 길을 묻다 | rendered-page |
+| [vol-10-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-055.jpg) | 55 | 성남시 향토유산 경헌 조몽정 묘역 | rendered-page |
+| [vol-10-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-057.jpg) | 57 | 도로교통의 개척자 조운흘 | rendered-page |
+| [vol-10-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-058.jpg) | 58 | 나라와 백성을 구하는 길은 오로지 ‘和’라고 가르친, 만곡 최기남 | rendered-page |
+| [vol-10-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-059.jpg) | 59 | 최기남 묘역과 최기남 신도비 | rendered-page |
+| [vol-10-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-060.jpg) | 60 | 초인적 문신 관료, 문정공 한계희 | rendered-page |
+| [vol-10-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-061.jpg) | 61 | 청주한씨 문정공파 재실과 한계희 신도비 | rendered-page |
+| [vol-10-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-062.jpg) | 62 | 조선의 국방 안보 전문가, 장헌공 한효순 | rendered-page |
+| [vol-10-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-063.jpg) | 63 | 조선의 국방 안보 전문가, 장헌공 한효순 | rendered-page |
+| [vol-10-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-064.jpg) | 64 | 한효순 묘 | rendered-page |
+| [vol-10-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-065.jpg) | 65 | 충정공 홍익한 초상화 | rendered-page |
+| [vol-10-page-066.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-066.jpg) | 66 | 병자호란 삼학사의 한 사람, 충정공 홍익한 | rendered-page |
+| [vol-10-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-067.jpg) | 67 | Part 2 근현대 인물 도입 | rendered-page |
+| [vol-10-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-068.jpg) | 68 | 한말 개화사상가 강위의 초상화 | rendered-page |
+| [vol-10-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-069.jpg) | 69 | 한말 개화사상의 선구자, 강위 | rendered-page |
+| [vol-10-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-071.jpg) | 71 | “한국 문구 산업의 신화”, 한국빠이롯드 창업자 고홍명 | rendered-page |
+| [vol-10-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-072.jpg) | 72 | “한국 문구 산업의 신화”, 한국빠이롯드 창업자 고홍명 | rendered-page |
+| [vol-10-page-073.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-073.jpg) | 73 | “한국 문구 산업의 신화”, 한국빠이롯드 창업자 고홍명 | rendered-page |
+| [vol-10-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-074.jpg) | 74 | 성남예총 설립을 이끈, 소설가 권기흥 | rendered-page |
+| [vol-10-page-075.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-075.jpg) | 75 | 성남예총 설립을 이끈, 소설가 권기흥 | rendered-page |
+| [vol-10-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-076.jpg) | 76 | 한시의 맛을 더하는 판교기로회, 문사 권오선 | rendered-page |
+| [vol-10-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-077.jpg) | 77 | 한시의 맛을 더하는 판교기로회, 문사 권오선 | rendered-page |
+| [vol-10-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-078.jpg) | 78 | 숭신학원 설립자, 재암 권재찬 | rendered-page |
+| [vol-10-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-081.jpg) | 81 | 성남 사회복지의 대부 김경모 | rendered-page |
+| [vol-10-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-082.jpg) | 82 | 사람을 돕는 일이 가장 숭고하다는 사회복지의 대부, 김경모 | rendered-page |
+| [vol-10-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-083.jpg) | 83 | 성남시 사립학교 개척자, 경원대 설립자 김동석 | rendered-page |
+| [vol-10-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-084.jpg) | 84 | 성남시 사립학교 개척자, 경원대 설립자 김동석 | rendered-page |
+| [vol-10-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-085.jpg) | 85 | 한글 암호표를 만든, 광복군 김우전 | rendered-page |
+| [vol-10-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-086.jpg) | 86 | 한글 암호표를 만든, 광복군 김우전 | rendered-page |
+| [vol-10-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-087.jpg) | 87 | 모란개척단장 김창숙 | rendered-page |
+| [vol-10-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-089.jpg) | 89 | 의로움을 실천한 의병대장, 남상목 | rendered-page |
+| [vol-10-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-090.jpg) | 90 | 남상목 의병장 통고문과 건국훈장 애국장 | rendered-page |
+| [vol-10-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-092.jpg) | 92 | 진정한 행복은 남을 돕는 것, 남선우 | rendered-page |
+| [vol-10-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-093.jpg) | 93 | 진정한 행복은 남을 돕는 것, 남선우 | rendered-page |
+| [vol-10-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-094.jpg) | 94 | 3·1운동을 이끈 낙생면 초대 면장, 남태희 | rendered-page |
+| [vol-10-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-095.jpg) | 95 | 율동공원 성남 3·1만세운동기념탑 | rendered-page |
+| [vol-10-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-097.jpg) | 97 | 3·1절 노래를 작곡한 멋쟁이 예술가, 박태현 | rendered-page |
+| [vol-10-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-098.jpg) | 98 | 박태현 노래비와 동상 | rendered-page |
+| [vol-10-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-099.jpg) | 99 | 3·1절 노래를 작곡한 멋쟁이 예술가, 박태현 | rendered-page |
+| [vol-10-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-100.jpg) | 100 | 삼송 변호성 회장 | rendered-page |
+| [vol-10-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-101.jpg) | 101 | 삼영전자 사회복지사업 관련 도판 | rendered-page |
+| [vol-10-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-103.jpg) | 103 | 능수능란하게 왜병을 공격한, 의병장 윤치장 | rendered-page |
+| [vol-10-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-104.jpg) | 104 | 능수능란하게 왜병을 공격한, 의병장 윤치장 | rendered-page |
+| [vol-10-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-105.jpg) | 105 | 면민들이 비를 세워 덕을 기린, 돌마면장 이근학 | rendered-page |
+| [vol-10-page-106.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-106.jpg) | 106 | 면민들이 비를 세워 덕을 기린, 돌마면장 이근학 | rendered-page |
+| [vol-10-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-107.jpg) | 107 | 백성은 먹는 것으로 하늘을 삼는다. 이병철 | rendered-page |
+| [vol-10-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-108.jpg) | 108 | 백성은 먹는 것으로 하늘을 삼는다. 이병철 | rendered-page |
+| [vol-10-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-109.jpg) | 109 | 대왕면 만세 시위 주도, 애국지사 이시종 | rendered-page |
+| [vol-10-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-111.jpg) | 111 | 조국을 사랑하고 성남을 사랑했던, 애국지사 이용상 | rendered-page |
+| [vol-10-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-112.jpg) | 112 | 조국을 사랑하고 성남을 사랑했던, 애국지사 이용상 | rendered-page |
+| [vol-10-page-113.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-113.jpg) | 113 | 희망대공원 광주대단지 조성계획 현장 설명회 브리핑 | rendered-page |
+| [vol-10-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-114.jpg) | 114 | 태평동 옛 성남시청사 성남시민헌장비 | rendered-page |
+| [vol-10-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-115.jpg) | 115 | 신구대학교 설립자 우촌 이종익 | rendered-page |
+| [vol-10-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-116.jpg) | 116 | 우촌박물관 이종익 흉상 | rendered-page |
+| [vol-10-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-117.jpg) | 117 | 신구전문대학 시기 전문학사 수료증 수여 장면 | rendered-page |
+| [vol-10-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-118.jpg) | 118 | 성남시장을 역임한 이해재 | rendered-page |
+| [vol-10-page-119.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-119.jpg) | 119 | 성남 사랑을 실천한 마지막 관선 도지사, 이해재 | rendered-page |
+| [vol-10-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-120.jpg) | 120 | 성남시 문화예술의 초석을 놓은 무용가, 향곡 정금란 | rendered-page |
+| [vol-10-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-121.jpg) | 121 | 한국무용협회 성남시지부 창립 공연 후 기념사진 | rendered-page |
+| [vol-10-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-122.jpg) | 122 | 돌마면 3·1운동을 이끈 애국지사, 제암 한순회 | rendered-page |
+| [vol-10-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-124.jpg) | 124 | 더 큰 걸 위해 개인의 힘을 쓰라, 부통령 함태영 | rendered-page |
+| [vol-10-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-125.jpg) | 125 | 부통령이 되어 둔전교회에 방문한 함태영 | rendered-page |
+| [vol-10-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-126.jpg) | 126 | 더 큰 걸 위해 개인의 힘을 쓰라, 부통령 함태영 | rendered-page |
+| [vol-10-page-127.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-127.jpg) | 127 | 둔전교회 헌당식 및 창립 40주년 기념 예배 | rendered-page |
+| [vol-10-page-128.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-128.jpg) | 128 | 둔전교회의 순교자, 현석진 목사와 김태수 장로 | rendered-page |
+| [vol-10-page-129.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-129.jpg) | 129 | 풍생학원 설립자 홍사풍 | rendered-page |
+| [vol-10-page-130.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-130.jpg) | 130 | 풍생중·고등학교 강당 자리의 모란개척단 벽돌 작업 | rendered-page |
+| [vol-10-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-10/vol-10-page-131.jpg) | 131 | 홍사풍이 설립한 풍생중·고등학교 전경 | rendered-page |
 
 ## 핵심 표/자료 위치
 

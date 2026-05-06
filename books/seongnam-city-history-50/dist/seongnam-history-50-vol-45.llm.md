@@ -16,14 +16,14 @@ status: "text-layer-reviewed"
 - 이 파일은 `vol-45-housing-change-distinctive-architecture.md`의 단일 파일 LLM ingestion용 번들이다.
 - OCR은 사용하지 않았고 PDF embedded text layer만 사용했다.
 - 모든 원문 쪽은 `source page marker`와 `### p.xxx` 헤더로 보존했다.
-- 로컬 이미지 링크는 `../docs/seongnam-city-history-50/assets/pages/vol-45-page-xxx.jpg` 형식으로 연결한다.
+- 로컬 이미지 링크는 `../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-xxx.jpg` 형식으로 연결한다.
 
 ## 변환 노트
 
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 건축물 사진, 위치·면적 표기, 도면성 페이지가 많은 권차라서 1-136쪽 전체를 `assets/pages/`에 JPG로 렌더링했다.
+- 건축물 사진, 위치·면적 표기, 도면성 페이지가 많은 권차라서 1-136쪽 전체를 `assets/pages/vol-45/`에 JPG로 렌더링했다.
 - PDF 텍스트층에는 136쪽 중 권말 공백에 가까운 쪽의 추출 텍스트가 없으므로, 해당 쪽도 별도 `source page marker`로 보존했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-45-integration.md`에 별도 정리했다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제45권 성남 주택의 변화상과 특색 건축물`으로 일치한다.
@@ -93,86 +93,86 @@ status: "text-layer-reviewed"
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-45-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-001.jpg) | 1 | 표지와 권명, 성남시사 50년사 등록번호 | title-page |
-| [vol-45-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-002.jpg) | 2 | 권별 목차: Part 1 구성과 성남시 역사·지리·경제 항목 | toc |
-| [vol-45-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-003.jpg) | 3 | 권별 목차: 전통 건축, 현대 건축, 지속 가능성 목차 | toc |
-| [vol-45-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-008.jpg) | 8 | Part 1 장 표지: 성남시 역사와 건축에 미친 영향 | part-title |
-| [vol-45-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-017.jpg) | 17 | Part 2 장 표지: 성남시의 전통 건축 | part-title |
-| [vol-45-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-021.jpg) | 21 | 남한산성 항목 시작과 위치 정보 | heritage |
-| [vol-45-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-023.jpg) | 23 | 봉국사 대광명전 항목 시작 | heritage |
-| [vol-45-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-024.jpg) | 24 | 봉국사 전경과 위치 정보 | photo |
-| [vol-45-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-025.jpg) | 25 | 봉국사 삼층석탑과 수내동가옥 항목 시작 | photo |
-| [vol-45-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-026.jpg) | 26 | 수내동가옥 전경과 위치 정보 | photo |
-| [vol-45-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-027.jpg) | 27 | 수내동가옥 내부 | photo |
-| [vol-45-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-030.jpg) | 30 | 새소리 물소리 입구와 규모 정보 | photo |
-| [vol-45-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-031.jpg) | 31 | 새소리 물소리 전경 | photo |
-| [vol-45-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-034.jpg) | 34 | Part 3 장 표지: 성남시의 현대 건축 | part-title |
-| [vol-45-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-035.jpg) | 35 | 현대 건축 발전 과정 시작 | structure |
-| [vol-45-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-042.jpg) | 42 | 주요 현대 건축물 사례 장 시작 | section-title |
-| [vol-45-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-043.jpg) | 43 | 수원지방검찰청 성남지청 | public-building |
-| [vol-45-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-044.jpg) | 44 | 수원지방법원 성남지원 | public-building |
-| [vol-45-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-046.jpg) | 46 | 새마을운동중앙연수원 규모 정보 | institution |
-| [vol-45-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-047.jpg) | 47 | 새마을운동중앙연수원 전경 | photo |
-| [vol-45-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-048.jpg) | 48 | 성남종합운동장 외관과 시설 규모 | sports-facility |
-| [vol-45-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-049.jpg) | 49 | 성남종합운동장 내부 | photo |
-| [vol-45-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-050.jpg) | 50 | 삼성플라자 분당점 위치·규모 | commercial |
-| [vol-45-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-052.jpg) | 52 | 할렐루야교회 위치·규모 | religion |
-| [vol-45-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-053.jpg) | 53 | 분당제생병원 정면과 병원 규모 | medical |
-| [vol-45-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-054.jpg) | 54 | 2000년대 특색 건축물 장 시작과 가나안교회 | section-title |
-| [vol-45-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-056.jpg) | 56 | 코리아디자인센터 전경과 규모 | public-design |
-| [vol-45-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-057.jpg) | 57 | 코리아디자인센터 내부 | photo |
-| [vol-45-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-058.jpg) | 58 | 신구대학교 식물원 입구와 면적 | ecology |
-| [vol-45-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-059.jpg) | 59 | 신구대학교 식물원 전경 | photo |
-| [vol-45-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-060.jpg) | 60 | 이우학교 위치·규모 | education |
-| [vol-45-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-062.jpg) | 62 | 르 씨뜨 빌모트 전경과 규모 | housing |
-| [vol-45-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-063.jpg) | 63 | 르 씨뜨 빌모트 외부공간 | housing-photo |
-| [vol-45-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-065.jpg) | 65 | 성남아트센터 항목 시작 | culture |
-| [vol-45-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-067.jpg) | 67 | 한국파스퇴르연구소 전경과 규모 | research |
-| [vol-45-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-068.jpg) | 68 | 성남 판교크린타워 항목 시작 | environmental-facility |
-| [vol-45-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-069.jpg) | 69 | 성남 판교크린타워 전경과 높이 | photo |
-| [vol-45-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-070.jpg) | 70 | 성남시청 항목 시작 | city-hall |
-| [vol-45-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-072.jpg) | 72 | 여천재 항목 시작 | housing |
-| [vol-45-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-074.jpg) | 74 | 제테마 글로벌연구소 항목 시작 | research |
-| [vol-45-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-076.jpg) | 76 | 한화에어로스페이스 판교 R&D 센터 전경 | research |
-| [vol-45-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-077.jpg) | 77 | 네이버 그린팩토리 항목 시작 | it-office |
-| [vol-45-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-079.jpg) | 79 | 2010년대 특색 건축물 장 시작과 한컴타워 | section-title |
-| [vol-45-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-080.jpg) | 80 | 한컴타워 전경과 규모 | it-office |
-| [vol-45-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-081.jpg) | 81 | 한컴타워 내부 | photo |
-| [vol-45-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-082.jpg) | 82 | 안철수연구소 안랩 판교 사옥 항목 시작 | it-office |
-| [vol-45-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-084.jpg) | 84 | 지노하우스 항목 시작 | housing |
-| [vol-45-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-086.jpg) | 86 | 판교생태학습원 항목 시작 | ecology |
-| [vol-45-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-088.jpg) | 88 | 한국잡월드 전경과 규모 | education |
-| [vol-45-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-089.jpg) | 89 | 한국잡월드 내부와 방문객 자료 | photo |
-| [vol-45-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-090.jpg) | 90 | 판교박물관 항목 시작 | museum |
-| [vol-45-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-091.jpg) | 91 | 판교역사공원 조성 계획과 유적 이전 설명 | map-plan |
-| [vol-45-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-092.jpg) | 92 | 플레이뮤지엄 항목 시작 | game-office |
-| [vol-45-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-095.jpg) | 95 | 넥슨 판교 사옥 전경과 규모 | game-office |
-| [vol-45-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-097.jpg) | 97 | 엔씨소프트 판교 R&D 센터 항목 시작 | game-office |
-| [vol-45-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-098.jpg) | 98 | 엔씨소프트 판교 R&D 센터 내부 | photo |
-| [vol-45-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-099.jpg) | 99 | 네오위즈 판교타워 항목 시작 | game-office |
-| [vol-45-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-100.jpg) | 100 | 네오위즈 판교타워 전경과 규모 | photo |
-| [vol-45-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-101.jpg) | 101 | 경기창조경제혁신센터 항목 시작 | startup-support |
-| [vol-45-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-102.jpg) | 102 | 분당서울대학교병원 신관 항목 시작 | medical |
-| [vol-45-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-103.jpg) | 103 | 차바이오 컴플렉스 전경과 규모 | bio-research |
-| [vol-45-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-104.jpg) | 104 | 스타트업 캠퍼스 항목 시작 | startup-support |
-| [vol-45-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-107.jpg) | 107 | 현대백화점 판교점 규모와 판교역 상업시설 | commercial |
-| [vol-45-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-108.jpg) | 108 | 글로벌 R&D 센터 항목 시작 | research |
-| [vol-45-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-110.jpg) | 110 | 복정도서관 전경과 규모 | library |
-| [vol-45-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-111.jpg) | 111 | 성남시의료원 항목 시작 | medical |
-| [vol-45-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-112.jpg) | 112 | 분당 두산타워 항목 시작 | office |
-| [vol-45-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-114.jpg) | 114 | 알파돔시티 항목 시작과 야경 사진 | mixed-use |
-| [vol-45-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-115.jpg) | 115 | 알파돔시티 야경과 사업 규모 | mixed-use-photo |
-| [vol-45-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-116.jpg) | 116 | 카카오 판교아지트 전경 | it-office |
-| [vol-45-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-117.jpg) | 117 | 카카오 판교아지트 개방형 사무실 | office-interior |
-| [vol-45-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-118.jpg) | 118 | 텔레칩스 판교 사옥 항목 시작 | it-office |
-| [vol-45-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-120.jpg) | 120 | 성남글로벌융합센터 항목 시작 | public-rd |
-| [vol-45-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-121.jpg) | 121 | 성남글로벌융합센터 전경·내부와 사업비 | public-rd |
-| [vol-45-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-122.jpg) | 122 | 성남시 박물관 항목 시작 | museum |
-| [vol-45-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-124.jpg) | 124 | HD현대 글로벌 R&D 센터 항목 시작 | rd-office |
-| [vol-45-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-125.jpg) | 125 | HD현대 글로벌 R&D 센터 전경과 규모 | rd-office-photo |
-| [vol-45-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-126.jpg) | 126 | Part 4 장 표지: 지속 가능성과 미래 방향 | part-title |
-| [vol-45-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-131.jpg) | 131 | 참고문헌 시작 | bibliography |
-| [vol-45-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45-page-135.jpg) | 135 | 판권과 발행 정보 | colophon |
+| [vol-45-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-001.jpg) | 1 | 표지와 권명, 성남시사 50년사 등록번호 | title-page |
+| [vol-45-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-002.jpg) | 2 | 권별 목차: Part 1 구성과 성남시 역사·지리·경제 항목 | toc |
+| [vol-45-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-003.jpg) | 3 | 권별 목차: 전통 건축, 현대 건축, 지속 가능성 목차 | toc |
+| [vol-45-page-008.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-008.jpg) | 8 | Part 1 장 표지: 성남시 역사와 건축에 미친 영향 | part-title |
+| [vol-45-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-017.jpg) | 17 | Part 2 장 표지: 성남시의 전통 건축 | part-title |
+| [vol-45-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-021.jpg) | 21 | 남한산성 항목 시작과 위치 정보 | heritage |
+| [vol-45-page-023.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-023.jpg) | 23 | 봉국사 대광명전 항목 시작 | heritage |
+| [vol-45-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-024.jpg) | 24 | 봉국사 전경과 위치 정보 | photo |
+| [vol-45-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-025.jpg) | 25 | 봉국사 삼층석탑과 수내동가옥 항목 시작 | photo |
+| [vol-45-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-026.jpg) | 26 | 수내동가옥 전경과 위치 정보 | photo |
+| [vol-45-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-027.jpg) | 27 | 수내동가옥 내부 | photo |
+| [vol-45-page-030.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-030.jpg) | 30 | 새소리 물소리 입구와 규모 정보 | photo |
+| [vol-45-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-031.jpg) | 31 | 새소리 물소리 전경 | photo |
+| [vol-45-page-034.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-034.jpg) | 34 | Part 3 장 표지: 성남시의 현대 건축 | part-title |
+| [vol-45-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-035.jpg) | 35 | 현대 건축 발전 과정 시작 | structure |
+| [vol-45-page-042.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-042.jpg) | 42 | 주요 현대 건축물 사례 장 시작 | section-title |
+| [vol-45-page-043.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-043.jpg) | 43 | 수원지방검찰청 성남지청 | public-building |
+| [vol-45-page-044.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-044.jpg) | 44 | 수원지방법원 성남지원 | public-building |
+| [vol-45-page-046.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-046.jpg) | 46 | 새마을운동중앙연수원 규모 정보 | institution |
+| [vol-45-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-047.jpg) | 47 | 새마을운동중앙연수원 전경 | photo |
+| [vol-45-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-048.jpg) | 48 | 성남종합운동장 외관과 시설 규모 | sports-facility |
+| [vol-45-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-049.jpg) | 49 | 성남종합운동장 내부 | photo |
+| [vol-45-page-050.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-050.jpg) | 50 | 삼성플라자 분당점 위치·규모 | commercial |
+| [vol-45-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-052.jpg) | 52 | 할렐루야교회 위치·규모 | religion |
+| [vol-45-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-053.jpg) | 53 | 분당제생병원 정면과 병원 규모 | medical |
+| [vol-45-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-054.jpg) | 54 | 2000년대 특색 건축물 장 시작과 가나안교회 | section-title |
+| [vol-45-page-056.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-056.jpg) | 56 | 코리아디자인센터 전경과 규모 | public-design |
+| [vol-45-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-057.jpg) | 57 | 코리아디자인센터 내부 | photo |
+| [vol-45-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-058.jpg) | 58 | 신구대학교 식물원 입구와 면적 | ecology |
+| [vol-45-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-059.jpg) | 59 | 신구대학교 식물원 전경 | photo |
+| [vol-45-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-060.jpg) | 60 | 이우학교 위치·규모 | education |
+| [vol-45-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-062.jpg) | 62 | 르 씨뜨 빌모트 전경과 규모 | housing |
+| [vol-45-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-063.jpg) | 63 | 르 씨뜨 빌모트 외부공간 | housing-photo |
+| [vol-45-page-065.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-065.jpg) | 65 | 성남아트센터 항목 시작 | culture |
+| [vol-45-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-067.jpg) | 67 | 한국파스퇴르연구소 전경과 규모 | research |
+| [vol-45-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-068.jpg) | 68 | 성남 판교크린타워 항목 시작 | environmental-facility |
+| [vol-45-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-069.jpg) | 69 | 성남 판교크린타워 전경과 높이 | photo |
+| [vol-45-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-070.jpg) | 70 | 성남시청 항목 시작 | city-hall |
+| [vol-45-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-072.jpg) | 72 | 여천재 항목 시작 | housing |
+| [vol-45-page-074.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-074.jpg) | 74 | 제테마 글로벌연구소 항목 시작 | research |
+| [vol-45-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-076.jpg) | 76 | 한화에어로스페이스 판교 R&D 센터 전경 | research |
+| [vol-45-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-077.jpg) | 77 | 네이버 그린팩토리 항목 시작 | it-office |
+| [vol-45-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-079.jpg) | 79 | 2010년대 특색 건축물 장 시작과 한컴타워 | section-title |
+| [vol-45-page-080.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-080.jpg) | 80 | 한컴타워 전경과 규모 | it-office |
+| [vol-45-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-081.jpg) | 81 | 한컴타워 내부 | photo |
+| [vol-45-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-082.jpg) | 82 | 안철수연구소 안랩 판교 사옥 항목 시작 | it-office |
+| [vol-45-page-084.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-084.jpg) | 84 | 지노하우스 항목 시작 | housing |
+| [vol-45-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-086.jpg) | 86 | 판교생태학습원 항목 시작 | ecology |
+| [vol-45-page-088.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-088.jpg) | 88 | 한국잡월드 전경과 규모 | education |
+| [vol-45-page-089.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-089.jpg) | 89 | 한국잡월드 내부와 방문객 자료 | photo |
+| [vol-45-page-090.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-090.jpg) | 90 | 판교박물관 항목 시작 | museum |
+| [vol-45-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-091.jpg) | 91 | 판교역사공원 조성 계획과 유적 이전 설명 | map-plan |
+| [vol-45-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-092.jpg) | 92 | 플레이뮤지엄 항목 시작 | game-office |
+| [vol-45-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-095.jpg) | 95 | 넥슨 판교 사옥 전경과 규모 | game-office |
+| [vol-45-page-097.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-097.jpg) | 97 | 엔씨소프트 판교 R&D 센터 항목 시작 | game-office |
+| [vol-45-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-098.jpg) | 98 | 엔씨소프트 판교 R&D 센터 내부 | photo |
+| [vol-45-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-099.jpg) | 99 | 네오위즈 판교타워 항목 시작 | game-office |
+| [vol-45-page-100.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-100.jpg) | 100 | 네오위즈 판교타워 전경과 규모 | photo |
+| [vol-45-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-101.jpg) | 101 | 경기창조경제혁신센터 항목 시작 | startup-support |
+| [vol-45-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-102.jpg) | 102 | 분당서울대학교병원 신관 항목 시작 | medical |
+| [vol-45-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-103.jpg) | 103 | 차바이오 컴플렉스 전경과 규모 | bio-research |
+| [vol-45-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-104.jpg) | 104 | 스타트업 캠퍼스 항목 시작 | startup-support |
+| [vol-45-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-107.jpg) | 107 | 현대백화점 판교점 규모와 판교역 상업시설 | commercial |
+| [vol-45-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-108.jpg) | 108 | 글로벌 R&D 센터 항목 시작 | research |
+| [vol-45-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-110.jpg) | 110 | 복정도서관 전경과 규모 | library |
+| [vol-45-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-111.jpg) | 111 | 성남시의료원 항목 시작 | medical |
+| [vol-45-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-112.jpg) | 112 | 분당 두산타워 항목 시작 | office |
+| [vol-45-page-114.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-114.jpg) | 114 | 알파돔시티 항목 시작과 야경 사진 | mixed-use |
+| [vol-45-page-115.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-115.jpg) | 115 | 알파돔시티 야경과 사업 규모 | mixed-use-photo |
+| [vol-45-page-116.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-116.jpg) | 116 | 카카오 판교아지트 전경 | it-office |
+| [vol-45-page-117.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-117.jpg) | 117 | 카카오 판교아지트 개방형 사무실 | office-interior |
+| [vol-45-page-118.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-118.jpg) | 118 | 텔레칩스 판교 사옥 항목 시작 | it-office |
+| [vol-45-page-120.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-120.jpg) | 120 | 성남글로벌융합센터 항목 시작 | public-rd |
+| [vol-45-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-121.jpg) | 121 | 성남글로벌융합센터 전경·내부와 사업비 | public-rd |
+| [vol-45-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-122.jpg) | 122 | 성남시 박물관 항목 시작 | museum |
+| [vol-45-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-124.jpg) | 124 | HD현대 글로벌 R&D 센터 항목 시작 | rd-office |
+| [vol-45-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-125.jpg) | 125 | HD현대 글로벌 R&D 센터 전경과 규모 | rd-office-photo |
+| [vol-45-page-126.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-126.jpg) | 126 | Part 4 장 표지: 지속 가능성과 미래 방향 | part-title |
+| [vol-45-page-131.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-131.jpg) | 131 | 참고문헌 시작 | bibliography |
+| [vol-45-page-135.jpg](../docs/seongnam-city-history-50/assets/pages/vol-45/vol-45-page-135.jpg) | 135 | 판권과 발행 정보 | colophon |
 
 ## 교차 연결 후보
 

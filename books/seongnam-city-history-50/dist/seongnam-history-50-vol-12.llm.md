@@ -5,7 +5,7 @@
 - source_url: https://www.seongnam.go.kr/city/1001112/30566/bbsView.do?idx=378682
 - ocr_used: false
 - extraction: embedded PDF text via pdftotext -layout
-- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/` 경로로 연결되어 있으며, 공용 색인 병합 메모는 `docs/seongnam-city-history-50/_work/vol-12-integration.md`에 분리했다.
+- note: 원문 쪽수 표지를 유지한 권별 LLM 섭취용 번들이다. 도판은 `../docs/seongnam-city-history-50/assets/pages/vol-12/` 경로로 연결되어 있으며, 공용 색인 병합 메모는 `docs/seongnam-city-history-50/_work/vol-12-integration.md`에 분리했다.
 
 ---
 collection_title: "성남시사 50년사"
@@ -26,7 +26,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 주거 배치도, 농촌표준주택 평면도, 외식 거리 사진, 의례복 사진, 혼례 통계 그래프와 표, 장례시설, 기신제·세일제·산제사·회나무 고사·점집 분포 쪽은 `assets/pages/`에 렌더링했다.
+- 주거 배치도, 농촌표준주택 평면도, 외식 거리 사진, 의례복 사진, 혼례 통계 그래프와 표, 장례시설, 기신제·세일제·산제사·회나무 고사·점집 분포 쪽은 `assets/pages/vol-12/`에 렌더링했다.
 - 도판 내부의 작은 라벨 일부는 PDF 텍스트층에서 글자가 깨져 보일 수 있으므로, 해당 쪽은 렌더링 이미지와 함께 보아야 한다.
 - 공용 색인 병합용 통계·도판 후보는 `_work/vol-12-integration.md`에 분리했다.
 
@@ -55,63 +55,63 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 처리 상태 |
 | --- | --- | --- | --- |
-| [vol-12-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-007.jpg) | 7 | 성남 오리뜰 농악 공연 | rendered-page |
-| [vol-12-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-009.jpg) | 9 | 전통 살림집 배치도 | rendered-page |
-| [vol-12-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-011.jpg) | 11 | 판교동 연안이씨 이곤 불천위 사당 | rendered-page |
-| [vol-12-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-012.jpg) | 12 | 수내동가옥 | rendered-page |
-| [vol-12-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-013.jpg) | 13 | 1970년대 분당구 수내동 전경 | rendered-page |
-| [vol-12-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-017.jpg) | 17 | 판교동 개나리마을 | rendered-page |
-| [vol-12-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-019.jpg) | 19 | 취락구조개선사업과 농촌표준주택 수치 | rendered-page |
-| [vol-12-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-020.jpg) | 20 | 1978년 농촌표준주택 25평형 평면도 | rendered-page |
-| [vol-12-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-021.jpg) | 21 | 도시형 다세대주택 | rendered-page |
-| [vol-12-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-024.jpg) | 24 | 정자동 초고층 아파트단지와 단독주택 | rendered-page |
-| [vol-12-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-025.jpg) | 25 | 아파트 주생활 변화 | rendered-page |
-| [vol-12-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-029.jpg) | 29 | 단대동 닭죽촌 | rendered-page |
-| [vol-12-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-031.jpg) | 31 | 여수동 갈매기살촌 | rendered-page |
-| [vol-12-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-033.jpg) | 33 | 백현동 카페거리 | rendered-page |
-| [vol-12-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-037.jpg) | 37 | 전통 돌복과 개량 한복 돌복 | rendered-page |
-| [vol-12-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-038.jpg) | 38 | 전통 혼례복과 과도기 혼례복 | rendered-page |
-| [vol-12-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-039.jpg) | 39 | 현대 서양식 혼례복 | rendered-page |
-| [vol-12-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-040.jpg) | 40 | 상복 변화 | rendered-page |
-| [vol-12-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-041.jpg) | 41 | 제례복과 참사자 복장 | rendered-page |
-| [vol-12-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-045.jpg) | 45 | 결혼제도 인식 통계청 조사 | rendered-page |
-| [vol-12-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-047.jpg) | 47 | 혼인 건수 변동 추이 | rendered-page |
-| [vol-12-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-048.jpg) | 48 | 결혼식 형태 통계청 조사 | rendered-page |
-| [vol-12-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-049.jpg) | 49 | 성남시 예식장 현황 | rendered-page |
-| [vol-12-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-051.jpg) | 51 | 1990년대 결혼 준비 대행업체 기사 목록 | rendered-page |
-| [vol-12-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-052.jpg) | 52 | 결혼 비용과 웨딩 서비스 성장 | rendered-page |
-| [vol-12-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-053.jpg) | 53 | 인터넷 결혼 준비 기사 | rendered-page |
-| [vol-12-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-054.jpg) | 54 | 결혼정보회사 기사 | rendered-page |
-| [vol-12-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-055.jpg) | 55 | 중매 시장 급팽창 기사 | rendered-page |
-| [vol-12-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-057.jpg) | 57 | 작은 결혼식 설문 그래프 | rendered-page |
-| [vol-12-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-059.jpg) | 59 | 청계서당 전통 혼례 | rendered-page |
-| [vol-12-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-061.jpg) | 61 | 결혼 유형과 예상 비용 조사 | rendered-page |
-| [vol-12-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-062.jpg) | 62 | 결혼 비용·결혼식 문화 인식·비혼 이유 통계 | rendered-page |
-| [vol-12-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-063.jpg) | 63 | 혼전 동거 인식 변화 | rendered-page |
-| [vol-12-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-064.jpg) | 64 | 향후 결혼계획과 결혼생활 조사 | rendered-page |
-| [vol-12-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-068.jpg) | 68 | 성남시화장장과 화장로 수골 시설 | rendered-page |
-| [vol-12-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-069.jpg) | 69 | 성남시장례식장 원스톱 구호 | rendered-page |
-| [vol-12-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-070.jpg) | 70 | 장례식장 시설·용품 안내 | rendered-page |
-| [vol-12-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-071.jpg) | 71 | 장례 정보와 제례 안내 | rendered-page |
-| [vol-12-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-072.jpg) | 72 | 하늘추모원 실내와 위패 표기 | rendered-page |
-| [vol-12-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-077.jpg) | 77 | 개별 장례 사례 사진 | rendered-page |
-| [vol-12-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-078.jpg) | 78 | 개별 장례 절차 | rendered-page |
-| [vol-12-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-079.jpg) | 79 | 하관·회다지·평토제 | rendered-page |
-| [vol-12-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-081.jpg) | 81 | 덕양군 비위 영가군부인 기신제 개관 | rendered-page |
-| [vol-12-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-082.jpg) | 82 | 덕양군 비위 기신제 진설 | rendered-page |
-| [vol-12-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-083.jpg) | 83 | 기신제 출주·분향강신·홀기 | rendered-page |
-| [vol-12-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-085.jpg) | 85 | 기신제 독축·축문·첨작 | rendered-page |
-| [vol-12-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-086.jpg) | 86 | 기신제 사신례·합문·분축례·음복 | rendered-page |
-| [vol-12-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-087.jpg) | 87 | 새벽 기신제의 기원 | rendered-page |
-| [vol-12-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-092.jpg) | 92 | 전주이씨 덕양군파 세일제 절차 1 | rendered-page |
-| [vol-12-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-094.jpg) | 94 | 전주이씨 덕양군파 세일제 절차 2 | rendered-page |
-| [vol-12-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-095.jpg) | 95 | 전주이씨 덕양군파 세일제 운영 | rendered-page |
-| [vol-12-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-096.jpg) | 96 | 세일제 제관 분방기와 종중 기반 | rendered-page |
-| [vol-12-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-121.jpg) | 121 | 고등동 산제사 상차림과 주민 잔치 | rendered-page |
-| [vol-12-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-122.jpg) | 122 | 판교 회나무 고사 | rendered-page |
-| [vol-12-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-123.jpg) | 123 | 회나무 고사 절차 | rendered-page |
-| [vol-12-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-124.jpg) | 124 | 8·10 성남항쟁 신문 기사 | rendered-page |
-| [vol-12-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12-page-125.jpg) | 125 | 수정구·중원구 점집 분포 | rendered-page |
+| [vol-12-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-007.jpg) | 7 | 성남 오리뜰 농악 공연 | rendered-page |
+| [vol-12-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-009.jpg) | 9 | 전통 살림집 배치도 | rendered-page |
+| [vol-12-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-011.jpg) | 11 | 판교동 연안이씨 이곤 불천위 사당 | rendered-page |
+| [vol-12-page-012.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-012.jpg) | 12 | 수내동가옥 | rendered-page |
+| [vol-12-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-013.jpg) | 13 | 1970년대 분당구 수내동 전경 | rendered-page |
+| [vol-12-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-017.jpg) | 17 | 판교동 개나리마을 | rendered-page |
+| [vol-12-page-019.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-019.jpg) | 19 | 취락구조개선사업과 농촌표준주택 수치 | rendered-page |
+| [vol-12-page-020.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-020.jpg) | 20 | 1978년 농촌표준주택 25평형 평면도 | rendered-page |
+| [vol-12-page-021.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-021.jpg) | 21 | 도시형 다세대주택 | rendered-page |
+| [vol-12-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-024.jpg) | 24 | 정자동 초고층 아파트단지와 단독주택 | rendered-page |
+| [vol-12-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-025.jpg) | 25 | 아파트 주생활 변화 | rendered-page |
+| [vol-12-page-029.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-029.jpg) | 29 | 단대동 닭죽촌 | rendered-page |
+| [vol-12-page-031.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-031.jpg) | 31 | 여수동 갈매기살촌 | rendered-page |
+| [vol-12-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-033.jpg) | 33 | 백현동 카페거리 | rendered-page |
+| [vol-12-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-037.jpg) | 37 | 전통 돌복과 개량 한복 돌복 | rendered-page |
+| [vol-12-page-038.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-038.jpg) | 38 | 전통 혼례복과 과도기 혼례복 | rendered-page |
+| [vol-12-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-039.jpg) | 39 | 현대 서양식 혼례복 | rendered-page |
+| [vol-12-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-040.jpg) | 40 | 상복 변화 | rendered-page |
+| [vol-12-page-041.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-041.jpg) | 41 | 제례복과 참사자 복장 | rendered-page |
+| [vol-12-page-045.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-045.jpg) | 45 | 결혼제도 인식 통계청 조사 | rendered-page |
+| [vol-12-page-047.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-047.jpg) | 47 | 혼인 건수 변동 추이 | rendered-page |
+| [vol-12-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-048.jpg) | 48 | 결혼식 형태 통계청 조사 | rendered-page |
+| [vol-12-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-049.jpg) | 49 | 성남시 예식장 현황 | rendered-page |
+| [vol-12-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-051.jpg) | 51 | 1990년대 결혼 준비 대행업체 기사 목록 | rendered-page |
+| [vol-12-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-052.jpg) | 52 | 결혼 비용과 웨딩 서비스 성장 | rendered-page |
+| [vol-12-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-053.jpg) | 53 | 인터넷 결혼 준비 기사 | rendered-page |
+| [vol-12-page-054.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-054.jpg) | 54 | 결혼정보회사 기사 | rendered-page |
+| [vol-12-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-055.jpg) | 55 | 중매 시장 급팽창 기사 | rendered-page |
+| [vol-12-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-057.jpg) | 57 | 작은 결혼식 설문 그래프 | rendered-page |
+| [vol-12-page-059.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-059.jpg) | 59 | 청계서당 전통 혼례 | rendered-page |
+| [vol-12-page-061.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-061.jpg) | 61 | 결혼 유형과 예상 비용 조사 | rendered-page |
+| [vol-12-page-062.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-062.jpg) | 62 | 결혼 비용·결혼식 문화 인식·비혼 이유 통계 | rendered-page |
+| [vol-12-page-063.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-063.jpg) | 63 | 혼전 동거 인식 변화 | rendered-page |
+| [vol-12-page-064.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-064.jpg) | 64 | 향후 결혼계획과 결혼생활 조사 | rendered-page |
+| [vol-12-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-068.jpg) | 68 | 성남시화장장과 화장로 수골 시설 | rendered-page |
+| [vol-12-page-069.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-069.jpg) | 69 | 성남시장례식장 원스톱 구호 | rendered-page |
+| [vol-12-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-070.jpg) | 70 | 장례식장 시설·용품 안내 | rendered-page |
+| [vol-12-page-071.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-071.jpg) | 71 | 장례 정보와 제례 안내 | rendered-page |
+| [vol-12-page-072.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-072.jpg) | 72 | 하늘추모원 실내와 위패 표기 | rendered-page |
+| [vol-12-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-077.jpg) | 77 | 개별 장례 사례 사진 | rendered-page |
+| [vol-12-page-078.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-078.jpg) | 78 | 개별 장례 절차 | rendered-page |
+| [vol-12-page-079.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-079.jpg) | 79 | 하관·회다지·평토제 | rendered-page |
+| [vol-12-page-081.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-081.jpg) | 81 | 덕양군 비위 영가군부인 기신제 개관 | rendered-page |
+| [vol-12-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-082.jpg) | 82 | 덕양군 비위 기신제 진설 | rendered-page |
+| [vol-12-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-083.jpg) | 83 | 기신제 출주·분향강신·홀기 | rendered-page |
+| [vol-12-page-085.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-085.jpg) | 85 | 기신제 독축·축문·첨작 | rendered-page |
+| [vol-12-page-086.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-086.jpg) | 86 | 기신제 사신례·합문·분축례·음복 | rendered-page |
+| [vol-12-page-087.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-087.jpg) | 87 | 새벽 기신제의 기원 | rendered-page |
+| [vol-12-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-092.jpg) | 92 | 전주이씨 덕양군파 세일제 절차 1 | rendered-page |
+| [vol-12-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-094.jpg) | 94 | 전주이씨 덕양군파 세일제 절차 2 | rendered-page |
+| [vol-12-page-095.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-095.jpg) | 95 | 전주이씨 덕양군파 세일제 운영 | rendered-page |
+| [vol-12-page-096.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-096.jpg) | 96 | 세일제 제관 분방기와 종중 기반 | rendered-page |
+| [vol-12-page-121.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-121.jpg) | 121 | 고등동 산제사 상차림과 주민 잔치 | rendered-page |
+| [vol-12-page-122.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-122.jpg) | 122 | 판교 회나무 고사 | rendered-page |
+| [vol-12-page-123.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-123.jpg) | 123 | 회나무 고사 절차 | rendered-page |
+| [vol-12-page-124.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-124.jpg) | 124 | 8·10 성남항쟁 신문 기사 | rendered-page |
+| [vol-12-page-125.jpg](../docs/seongnam-city-history-50/assets/pages/vol-12/vol-12-page-125.jpg) | 125 | 수정구·중원구 점집 분포 | rendered-page |
 
 ## 핵심 표/자료 위치
 

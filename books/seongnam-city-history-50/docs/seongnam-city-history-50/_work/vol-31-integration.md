@@ -4,7 +4,7 @@
 
 - 본문 Markdown: `docs/seongnam-city-history-50/vol-31-sangdaewon-seongnam-high-tech-valley.md`
 - LLM 번들: `dist/seongnam-history-50-vol-31.llm.md`
-- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-31-page-*.jpg` 112개
+- 페이지 이미지: `docs/seongnam-city-history-50/assets/pages/vol-31/vol-31-page-*.jpg` 112개
 - 원천 PDF: `sources/seongnam-history-50-vol-31.pdf`
 
 ## 처리 상태

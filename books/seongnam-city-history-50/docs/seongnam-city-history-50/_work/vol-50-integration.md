@@ -7,7 +7,7 @@
 - Page count: 264
 - OCR used: false
 - Embedded text extraction: `pdftotext -layout`
-- Rendered images: 264 local JPG pages, `docs/seongnam-city-history-50/assets/pages/vol-50-page-001.jpg` through `vol-50-page-264.jpg`
+- Rendered images: 264 local JPG pages, `docs/seongnam-city-history-50/assets/pages/vol-50/vol-50-page-001.jpg` through `vol-50-page-264.jpg`
 - Markdown draft: `docs/seongnam-city-history-50/vol-50-guidebook-seongnam-dictionary.md`
 - LLM bundle: `dist/seongnam-history-50-vol-50.llm.md`
 - Deferred ranges: none
@@ -77,28 +77,28 @@
 
 ## Figure Pages To Merge
 
-- p.001: `title-page` — 표지와 권명, 발간등록번호, 시리즈명; image `assets/pages/vol-50-page-001.jpg`
-- p.002: `toc` — Part 1-4 권별 목차; image `assets/pages/vol-50-page-002.jpg`
-- p.003: `toc` — Part 5-7 권별 목차; image `assets/pages/vol-50-page-003.jpg`
-- p.004: `dictionary-section` — Part 1 자연지리와 산 항목 시작; image `assets/pages/vol-50-page-004.jpg`
-- p.008: `dictionary-section` — 하천·저수지·습지 항목 시작; image `assets/pages/vol-50-page-008.jpg`
-- p.013: `dictionary-section` — 공원과 위락 시설 항목 시작; image `assets/pages/vol-50-page-013.jpg`
-- p.025: `dictionary-section` — Part 2 인문환경과 행정구역·역사 지명 시작; image `assets/pages/vol-50-page-025.jpg`
-- p.057: `dictionary-section` — 도로와 교통 항목 시작; image `assets/pages/vol-50-page-057.jpg`
-- p.079: `dictionary-section` — Part 3 역사와 문화유산, 역사적 사건과 단체 시작; image `assets/pages/vol-50-page-079.jpg`
-- p.087: `dictionary-section` — 문화유산 항목 시작; image `assets/pages/vol-50-page-087.jpg`
-- p.108: `dictionary-section` — Part 4 인물, 전통시대 인물 시작; image `assets/pages/vol-50-page-108.jpg`
-- p.149: `dictionary-section` — 근현대인물 항목 시작; image `assets/pages/vol-50-page-149.jpg`
-- p.160: `dictionary-section` — Part 5 정치·행정·경제·사회, 공공기관과 시설 시작; image `assets/pages/vol-50-page-160.jpg`
-- p.171: `dictionary-section` — 경제와 산업 항목 시작; image `assets/pages/vol-50-page-171.jpg`
-- p.179: `dictionary-section` — 시민사회 기관과 단체 항목 시작; image `assets/pages/vol-50-page-179.jpg`
-- p.188: `dictionary-section` — 보건 의료 및 복지시설과 단체 항목 시작; image `assets/pages/vol-50-page-188.jpg`
-- p.197: `dictionary-section` — Part 6 종교와 문화예술, 종교 기관과 시설 시작; image `assets/pages/vol-50-page-197.jpg`
-- p.206: `dictionary-section` — 문학, 문화예술, 축제 항목 시작; image `assets/pages/vol-50-page-206.jpg`
-- p.225: `dictionary-section` — Part 7 교육·체육·민속, 교육기관과 시설 및 단체 시작; image `assets/pages/vol-50-page-225.jpg`
-- p.255: `dictionary-section` — 체육 시설과 단체 항목 시작; image `assets/pages/vol-50-page-255.jpg`
-- p.260: `dictionary-section` — 생활과 민속 항목 시작; image `assets/pages/vol-50-page-260.jpg`
-- p.264: `colophon` — 판권: 발행일·발행처·집필·디자인·인쇄; image `assets/pages/vol-50-page-264.jpg`
+- p.001: `title-page` — 표지와 권명, 발간등록번호, 시리즈명; image `assets/pages/vol-50/vol-50-page-001.jpg`
+- p.002: `toc` — Part 1-4 권별 목차; image `assets/pages/vol-50/vol-50-page-002.jpg`
+- p.003: `toc` — Part 5-7 권별 목차; image `assets/pages/vol-50/vol-50-page-003.jpg`
+- p.004: `dictionary-section` — Part 1 자연지리와 산 항목 시작; image `assets/pages/vol-50/vol-50-page-004.jpg`
+- p.008: `dictionary-section` — 하천·저수지·습지 항목 시작; image `assets/pages/vol-50/vol-50-page-008.jpg`
+- p.013: `dictionary-section` — 공원과 위락 시설 항목 시작; image `assets/pages/vol-50/vol-50-page-013.jpg`
+- p.025: `dictionary-section` — Part 2 인문환경과 행정구역·역사 지명 시작; image `assets/pages/vol-50/vol-50-page-025.jpg`
+- p.057: `dictionary-section` — 도로와 교통 항목 시작; image `assets/pages/vol-50/vol-50-page-057.jpg`
+- p.079: `dictionary-section` — Part 3 역사와 문화유산, 역사적 사건과 단체 시작; image `assets/pages/vol-50/vol-50-page-079.jpg`
+- p.087: `dictionary-section` — 문화유산 항목 시작; image `assets/pages/vol-50/vol-50-page-087.jpg`
+- p.108: `dictionary-section` — Part 4 인물, 전통시대 인물 시작; image `assets/pages/vol-50/vol-50-page-108.jpg`
+- p.149: `dictionary-section` — 근현대인물 항목 시작; image `assets/pages/vol-50/vol-50-page-149.jpg`
+- p.160: `dictionary-section` — Part 5 정치·행정·경제·사회, 공공기관과 시설 시작; image `assets/pages/vol-50/vol-50-page-160.jpg`
+- p.171: `dictionary-section` — 경제와 산업 항목 시작; image `assets/pages/vol-50/vol-50-page-171.jpg`
+- p.179: `dictionary-section` — 시민사회 기관과 단체 항목 시작; image `assets/pages/vol-50/vol-50-page-179.jpg`
+- p.188: `dictionary-section` — 보건 의료 및 복지시설과 단체 항목 시작; image `assets/pages/vol-50/vol-50-page-188.jpg`
+- p.197: `dictionary-section` — Part 6 종교와 문화예술, 종교 기관과 시설 시작; image `assets/pages/vol-50/vol-50-page-197.jpg`
+- p.206: `dictionary-section` — 문학, 문화예술, 축제 항목 시작; image `assets/pages/vol-50/vol-50-page-206.jpg`
+- p.225: `dictionary-section` — Part 7 교육·체육·민속, 교육기관과 시설 및 단체 시작; image `assets/pages/vol-50/vol-50-page-225.jpg`
+- p.255: `dictionary-section` — 체육 시설과 단체 항목 시작; image `assets/pages/vol-50/vol-50-page-255.jpg`
+- p.260: `dictionary-section` — 생활과 민속 항목 시작; image `assets/pages/vol-50/vol-50-page-260.jpg`
+- p.264: `colophon` — 판권: 발행일·발행처·집필·디자인·인쇄; image `assets/pages/vol-50/vol-50-page-264.jpg`
 
 ## Keyword Page Map
 

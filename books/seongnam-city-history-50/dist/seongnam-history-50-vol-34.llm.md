@@ -19,7 +19,7 @@ ocr_used: false
 - 성남시 공식 `성남시사(50년사)` 게시판에서 내려받은 PDF를 원천으로 삼았다.
 - OCR은 사용하지 않았고, PDF에 포함된 텍스트 레이어를 `pdftotext -layout`으로 추출했다.
 - 원문 감사가 가능하도록 각 쪽 앞에 `source` 주석과 `p.xxx` 표지를 붙였다.
-- 동별 사진, 학교·기관 현황, 하천·저수지 자료가 권 전체에 분산되어 있어 1-112쪽 전체를 `assets/pages/`에 렌더링했다.
+- 동별 사진, 학교·기관 현황, 하천·저수지 자료가 권 전체에 분산되어 있어 1-112쪽 전체를 `assets/pages/vol-34/`에 렌더링했다.
 - 공용 `README`, `index`, `manifest`, `stats`, `figures`, `source-page-index`는 수정하지 않았고, 병합 후보는 `_work/vol-34-integration.md`에 별도 정리한다.
 - 공식 다운로드 목록과 PDF 표지의 권명은 `제34권 1기 신도시 분당의 변천②`로 일치한다.
 - 이 파일은 LLM 장문 입력을 위해 34권 단일 Markdown 초안과 원문 페이지 마커를 합친 번들이다.
@@ -98,58 +98,58 @@ ocr_used: false
 
 | 파일 | 원문 쪽 | 내용 | 유형 |
 | --- | --- | --- | --- |
-| [vol-34-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-001.jpg) | 1 | 표지와 권명 | title-page |
-| [vol-34-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-002.jpg) | 2 | 권명 및 CONTENTS 도입 | toc |
-| [vol-34-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-003.jpg) | 3 | Part 6 동별 목차 전체 | toc |
-| [vol-34-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-004.jpg) | 4 | 편집자 주: 법정동 기준과 판교·대장 제외 범위 | scope-note |
-| [vol-34-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-007.jpg) | 7 | 야탑동 전경과 야탑3동 일반 현황 | photo |
-| [vol-34-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-009.jpg) | 9 | 분당테크노파크 전경과 법원기록보존소·성남세관 도입 | photo |
-| [vol-34-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-011.jpg) | 11 | 성남시평생학습관 사진과 성남도시개발공사 규모 | photo-stats |
-| [vol-34-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-013.jpg) | 13 | 분당차병원 전경과 진료과 자료 | photo-stats |
-| [vol-34-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-015.jpg) | 15 | 성남아트센터 전경과 문화재단·공연장 서술 | photo |
-| [vol-34-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-017.jpg) | 17 | 성남시 중앙도서관 전경과 장서·좌석 현황 | photo-stats |
-| [vol-34-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-024.jpg) | 24 | 이매동 절 시작과 지명·세거 성씨 | section-start |
-| [vol-34-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-025.jpg) | 25 | 이매역 순명의사창의비와 이근학송덕비 | heritage-photo |
-| [vol-34-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-026.jpg) | 26 | 이매동 전경과 일반 현황 | photo-stats |
-| [vol-34-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-027.jpg) | 27 | 성남상공회의소 전경과 조직 현황 | photo-stats |
-| [vol-34-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-033.jpg) | 33 | 서현동 절 시작과 지명·세거 성씨 | section-start |
-| [vol-34-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-035.jpg) | 35 | 서현동 탄천변 전경과 서현1·2동 시설 현황 | photo-stats |
-| [vol-34-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-037.jpg) | 37 | 분당소방서 전경과 인력 현황 | photo-stats |
-| [vol-34-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-039.jpg) | 39 | 서현문화의집 사진과 건강보험공단·문화시설 현황 | photo-stats |
-| [vol-34-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-040.jpg) | 40 | 분당서현청소년수련관과 분당제생병원 규모 | facility-stats |
-| [vol-34-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-048.jpg) | 48 | 율동 절 시작 | section-start |
-| [vol-34-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-049.jpg) | 49 | 율동 전경과 율동저수지·공원 지명 | photo |
-| [vol-34-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-051.jpg) | 51 | 새마을운동 중앙연수원 전경과 교육시설 규모 | photo-stats |
-| [vol-34-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-052.jpg) | 52 | 책테마파크 도서관과 장서 현황 | photo-stats |
-| [vol-34-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-053.jpg) | 53 | 정자동 절 시작과 역사 인물 | section-start |
-| [vol-34-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-055.jpg) | 55 | 정자동 전경과 일반 현황 | photo-stats |
-| [vol-34-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-057.jpg) | 57 | 벽강예술관 설립자 흉상과 공연장 규모 | photo-stats |
-| [vol-34-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-058.jpg) | 58 | 한국잡월드 전경 | photo |
-| [vol-34-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-060.jpg) | 60 | 분당벤처타운과 분당도서관 장서·좌석 현황 | photo-stats |
-| [vol-34-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-067.jpg) | 67 | 수내동 절 시작 | section-start |
-| [vol-34-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-068.jpg) | 68 | 수내동 전경과 지명 자료 | photo |
-| [vol-34-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-070.jpg) | 70 | 중앙공원 야외공연장 파크콘서트와 수용 규모 | photo-stats |
-| [vol-34-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-076.jpg) | 76 | 분당동 절 시작 | section-start |
-| [vol-34-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-077.jpg) | 77 | 분당동 전경 | photo |
-| [vol-34-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-082.jpg) | 82 | 구미동 절 시작 | section-start |
-| [vol-34-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-083.jpg) | 83 | 구미동 전경 | photo |
-| [vol-34-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-091.jpg) | 91 | 동원동 절 시작 | section-start |
-| [vol-34-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-092.jpg) | 92 | 동원동 낙생저수지 전경 | landscape |
-| [vol-34-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-093.jpg) | 93 | 낙생저수지 일몰과 동원동 지명 | landscape-toponym |
-| [vol-34-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-094.jpg) | 94 | 동막천 설명과 낙생저수지 일몰 | stream-stats |
-| [vol-34-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-098.jpg) | 98 | 금곡동 절 시작 | section-start |
-| [vol-34-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-099.jpg) | 99 | 금곡동 전경과 세거 성씨 | photo |
-| [vol-34-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-101.jpg) | 101 | 금곡천 길이·하폭·복개 서술 | stream-stats |
-| [vol-34-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-102.jpg) | 102 | 청솔초등학교 사진 | school-photo |
-| [vol-34-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-103.jpg) | 103 | 분당경영고등학교 사진과 학교 현황 | school-photo |
-| [vol-34-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-104.jpg) | 104 | 궁내동 절 시작과 덕양군 이기 유래 | section-start |
-| [vol-34-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-105.jpg) | 105 | 궁내동 전경과 전주이씨 묘역 설명 | photo |
-| [vol-34-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-107.jpg) | 107 | 궁내천 및 궁내동 전주이씨 설명 | stream-heritage |
-| [vol-34-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-108.jpg) | 108 | 궁내동 전주이씨 묘역과 정희사 | heritage-photo |
-| [vol-34-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-109.jpg) | 109 | 글을 마치며: 분당 변천 연구 결론 | closing |
-| [vol-34-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-110.jpg) | 110 | 참고문헌 | bibliography |
-| [vol-34-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-111.jpg) | 111 | 판권과 집필자 정보 | colophon |
-| [vol-34-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34-page-112.jpg) | 112 | 여백 | blank |
+| [vol-34-page-001.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-001.jpg) | 1 | 표지와 권명 | title-page |
+| [vol-34-page-002.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-002.jpg) | 2 | 권명 및 CONTENTS 도입 | toc |
+| [vol-34-page-003.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-003.jpg) | 3 | Part 6 동별 목차 전체 | toc |
+| [vol-34-page-004.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-004.jpg) | 4 | 편집자 주: 법정동 기준과 판교·대장 제외 범위 | scope-note |
+| [vol-34-page-007.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-007.jpg) | 7 | 야탑동 전경과 야탑3동 일반 현황 | photo |
+| [vol-34-page-009.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-009.jpg) | 9 | 분당테크노파크 전경과 법원기록보존소·성남세관 도입 | photo |
+| [vol-34-page-011.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-011.jpg) | 11 | 성남시평생학습관 사진과 성남도시개발공사 규모 | photo-stats |
+| [vol-34-page-013.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-013.jpg) | 13 | 분당차병원 전경과 진료과 자료 | photo-stats |
+| [vol-34-page-015.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-015.jpg) | 15 | 성남아트센터 전경과 문화재단·공연장 서술 | photo |
+| [vol-34-page-017.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-017.jpg) | 17 | 성남시 중앙도서관 전경과 장서·좌석 현황 | photo-stats |
+| [vol-34-page-024.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-024.jpg) | 24 | 이매동 절 시작과 지명·세거 성씨 | section-start |
+| [vol-34-page-025.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-025.jpg) | 25 | 이매역 순명의사창의비와 이근학송덕비 | heritage-photo |
+| [vol-34-page-026.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-026.jpg) | 26 | 이매동 전경과 일반 현황 | photo-stats |
+| [vol-34-page-027.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-027.jpg) | 27 | 성남상공회의소 전경과 조직 현황 | photo-stats |
+| [vol-34-page-033.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-033.jpg) | 33 | 서현동 절 시작과 지명·세거 성씨 | section-start |
+| [vol-34-page-035.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-035.jpg) | 35 | 서현동 탄천변 전경과 서현1·2동 시설 현황 | photo-stats |
+| [vol-34-page-037.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-037.jpg) | 37 | 분당소방서 전경과 인력 현황 | photo-stats |
+| [vol-34-page-039.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-039.jpg) | 39 | 서현문화의집 사진과 건강보험공단·문화시설 현황 | photo-stats |
+| [vol-34-page-040.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-040.jpg) | 40 | 분당서현청소년수련관과 분당제생병원 규모 | facility-stats |
+| [vol-34-page-048.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-048.jpg) | 48 | 율동 절 시작 | section-start |
+| [vol-34-page-049.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-049.jpg) | 49 | 율동 전경과 율동저수지·공원 지명 | photo |
+| [vol-34-page-051.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-051.jpg) | 51 | 새마을운동 중앙연수원 전경과 교육시설 규모 | photo-stats |
+| [vol-34-page-052.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-052.jpg) | 52 | 책테마파크 도서관과 장서 현황 | photo-stats |
+| [vol-34-page-053.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-053.jpg) | 53 | 정자동 절 시작과 역사 인물 | section-start |
+| [vol-34-page-055.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-055.jpg) | 55 | 정자동 전경과 일반 현황 | photo-stats |
+| [vol-34-page-057.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-057.jpg) | 57 | 벽강예술관 설립자 흉상과 공연장 규모 | photo-stats |
+| [vol-34-page-058.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-058.jpg) | 58 | 한국잡월드 전경 | photo |
+| [vol-34-page-060.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-060.jpg) | 60 | 분당벤처타운과 분당도서관 장서·좌석 현황 | photo-stats |
+| [vol-34-page-067.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-067.jpg) | 67 | 수내동 절 시작 | section-start |
+| [vol-34-page-068.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-068.jpg) | 68 | 수내동 전경과 지명 자료 | photo |
+| [vol-34-page-070.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-070.jpg) | 70 | 중앙공원 야외공연장 파크콘서트와 수용 규모 | photo-stats |
+| [vol-34-page-076.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-076.jpg) | 76 | 분당동 절 시작 | section-start |
+| [vol-34-page-077.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-077.jpg) | 77 | 분당동 전경 | photo |
+| [vol-34-page-082.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-082.jpg) | 82 | 구미동 절 시작 | section-start |
+| [vol-34-page-083.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-083.jpg) | 83 | 구미동 전경 | photo |
+| [vol-34-page-091.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-091.jpg) | 91 | 동원동 절 시작 | section-start |
+| [vol-34-page-092.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-092.jpg) | 92 | 동원동 낙생저수지 전경 | landscape |
+| [vol-34-page-093.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-093.jpg) | 93 | 낙생저수지 일몰과 동원동 지명 | landscape-toponym |
+| [vol-34-page-094.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-094.jpg) | 94 | 동막천 설명과 낙생저수지 일몰 | stream-stats |
+| [vol-34-page-098.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-098.jpg) | 98 | 금곡동 절 시작 | section-start |
+| [vol-34-page-099.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-099.jpg) | 99 | 금곡동 전경과 세거 성씨 | photo |
+| [vol-34-page-101.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-101.jpg) | 101 | 금곡천 길이·하폭·복개 서술 | stream-stats |
+| [vol-34-page-102.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-102.jpg) | 102 | 청솔초등학교 사진 | school-photo |
+| [vol-34-page-103.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-103.jpg) | 103 | 분당경영고등학교 사진과 학교 현황 | school-photo |
+| [vol-34-page-104.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-104.jpg) | 104 | 궁내동 절 시작과 덕양군 이기 유래 | section-start |
+| [vol-34-page-105.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-105.jpg) | 105 | 궁내동 전경과 전주이씨 묘역 설명 | photo |
+| [vol-34-page-107.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-107.jpg) | 107 | 궁내천 및 궁내동 전주이씨 설명 | stream-heritage |
+| [vol-34-page-108.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-108.jpg) | 108 | 궁내동 전주이씨 묘역과 정희사 | heritage-photo |
+| [vol-34-page-109.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-109.jpg) | 109 | 글을 마치며: 분당 변천 연구 결론 | closing |
+| [vol-34-page-110.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-110.jpg) | 110 | 참고문헌 | bibliography |
+| [vol-34-page-111.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-111.jpg) | 111 | 판권과 집필자 정보 | colophon |
+| [vol-34-page-112.jpg](../docs/seongnam-city-history-50/assets/pages/vol-34/vol-34-page-112.jpg) | 112 | 여백 | blank |
 
 ## 학교 현황 데이터 위치
 
