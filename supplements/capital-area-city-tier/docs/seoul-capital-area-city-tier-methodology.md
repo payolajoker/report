@@ -730,13 +730,13 @@ run-1에서는 **옵션 A를 기본값**으로 한다.
 
 2026-04-13 기준으로 아래 run-1 통합 baseline 파일이 생성되었다.
 
-- `/Users/jaeyoolpark/Project/seoul-capital-area-run1-merged-baseline.csv`
+- `../data/seoul-capital-area-run1-merged-baseline.csv`
 
 이 파일은 아래 3개 실데이터 파일을 `(region, unit_name)` 기준으로 결합한 것이다.
 
-- population: `/Users/jaeyoolpark/Project/seoul-capital-area-population-baseline-2026-03.csv`
-- migration: `/Users/jaeyoolpark/Project/seoul-capital-area-migration-baseline-2026-02.csv`
-- employment: `/Users/jaeyoolpark/Project/seoul-capital-area-employment-baseline-2025-H2.csv`
+- population: `../data/seoul-capital-area-population-baseline-2026-03.csv`
+- migration: `../data/seoul-capital-area-migration-baseline-2026-02.csv`
+- employment: `../data/seoul-capital-area-employment-baseline-2025-H2.csv`
 
 현재 이 통합 파일에서 보장되는 것은 다음과 같다.
 
@@ -762,7 +762,7 @@ run-1에서는 **옵션 A를 기본값**으로 한다.
 
 2025년, `clsfLevel=2` 기준으로 서울 25구, 인천 10구군, 경기 31시군의 66개 단위 값을 직접 반환하는 것이 확인되었고, run-1 fiscal baseline 파일로 저장되었다.
 
-- `/Users/jaeyoolpark/Project/seoul-capital-area-fiscal-baseline-2025.csv`
+- `../data/seoul-capital-area-fiscal-baseline-2025.csv`
 
 ### 13.3 통근 축 run-1 확정 경로
 
@@ -774,7 +774,7 @@ run-1에서는 **옵션 A를 기본값**으로 한다.
 
 실제 구현에서는 KOSIS `statHtml`의 center frame tree에서 하위 시군구 66개를 선택한 뒤, `defaultClassArr` 를 최하위 코드로 고정하고 재조회하여 값을 확보했다. baseline 파일은 아래에 저장되었다.
 
-- `/Users/jaeyoolpark/Project/seoul-capital-area-commuting-baseline-2020.csv`
+- `../data/seoul-capital-area-commuting-baseline-2020.csv`
 
 run-1에서는 통근 축의 primary indicator로 `T40` 만 우선 채택한다. `T11`/`T21`은 추후 보조지표로 확장 가능하다.
 
@@ -797,7 +797,7 @@ run-1 적용 원칙은 아래와 같다.
 
 run-1에서는 2025년 `평균지가변동률` 중 **최신 비영(非零) 월 값**을 선택해 66개 단위 보강 baseline으로 저장했다.
 
-- `/Users/jaeyoolpark/Project/seoul-capital-area-land-price-baseline-2025-latest.csv`
+- `../data/seoul-capital-area-land-price-baseline-2025-latest.csv`
 
 ---
 

@@ -36,11 +36,12 @@
 - 수행 내용:
   - `예비타당성조사: 철도` 항목 전수 추출 후 다운로드
   - 파일명 형식: `YYYY.MM 사업명.pdf`
-- 저장 위치:
-  - `/Users/jaeyoolpark/pimac_rail_reports`
+- 저장물:
+  - 원본 PDF 묶음은 저장소에 포함하지 않음
+  - 이 저장소에는 조사 메모와 공식 링크 인덱스만 보존
 - 결과:
   - 총 142건 다운로드
-  - `manifest.json` 생성
+  - 작업 당시 `manifest.json` 생성(저장소 미포함)
   - PDF 시그니처 142건 정상 확인
 
 ## 4. F1 중 수도권 철도 목록 정리
@@ -72,7 +73,7 @@
 
 ## 5. `2011.11 인덕원~수원 복선전철 건설사업` 예비타당성조사 핵심
 
-- 문서: `/Users/jaeyoolpark/pimac_rail_reports/2011.11 인덕원~수원 복선전철 건설사업.pdf`
+- 문서: `2011.11 인덕원~수원 복선전철 건설사업.pdf`(PIMAC F1 예비타당성조사 보고서)
 - 당시 사업 개요:
   - 구간: 인덕원~의왕~광교(신분당선)~영통~동탄(KTX)~서동탄
   - 연장: 약 35.3~35.6km
@@ -138,16 +139,17 @@
 - 수행 내용:
   - `타당성재조사: 철도` 항목 전수 추출 후 다운로드
   - 파일명 형식: `YYYY.MM 사업명.pdf`
-- 저장 위치:
-  - `/Users/jaeyoolpark/pimac_rail_reports_f2`
+- 저장물:
+  - 원본 PDF 묶음은 저장소에 포함하지 않음
+  - 이 저장소에는 조사 메모와 공식 링크 인덱스만 보존
 - 결과:
   - 총 15건 다운로드
-  - `manifest.json` 생성
+  - 작업 당시 `manifest.json` 생성(저장소 미포함)
   - PDF 시그니처 15건 정상 확인
 
 ## 9. `2014.12 인덕원~수원 복선전철 건설사업` 타당성재조사 핵심
 
-- 문서: `/Users/jaeyoolpark/pimac_rail_reports_f2/2014.12 인덕원~수원 복선전철 건설사업.pdf`
+- 문서: `2014.12 인덕원~수원 복선전철 건설사업.pdf`(PIMAC F2 타당성재조사 보고서)
 - 재조사 핵심:
   - GTX 및 동탄신교통수단 반영에 따라 재검토 수행
   - 주무부처가 2014.09~10에 노선 변경 요청
@@ -193,8 +195,8 @@
 - 수원 구간 역 이름은 공개자료에서 `정거장 번호/가칭/위치 설명`이 혼재하므로,
   설명 시에는 `확정 역명`과 `계획상 위치`를 구분해서 답변할 것.
 
-## 12. 관련 로컬 파일/폴더
+## 12. 재현·확인 경로
 
-- F1 철도 보고서: `/Users/jaeyoolpark/pimac_rail_reports`
-- F2 철도 보고서: `/Users/jaeyoolpark/pimac_rail_reports_f2`
-- 이 메모 파일: `/Users/jaeyoolpark/urban_rail_notes.md`
+- F1 철도 보고서 목록: `https://pimac.kdi.re.kr/study/study_list.jsp?showListSize=100&classcd=F1`
+- F2 철도 보고서 목록: `https://pimac.kdi.re.kr/study/study_list.jsp?classcd=F2`
+- 이 메모 파일: `supplements/rail-research/notes/urban_rail_notes.md`

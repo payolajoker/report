@@ -136,6 +136,6 @@
 
 ## 4. 저장 파일
 
-- 점수 상세: `/Users/jaeyoolpark/Project/seoul-capital-area-run1-scored-yicai-proxy.csv`
-- 순위/최종등급: `/Users/jaeyoolpark/Project/seoul-capital-area-run1-ranking-yicai-proxy-regraded.csv`
-- 본 보고서: `/Users/jaeyoolpark/Project/seoul-capital-area-run1-final-report.md`
+- 점수 상세: `../data/seoul-capital-area-run1-scored-yicai-proxy.csv`
+- 순위/최종등급: `../data/seoul-capital-area-run1-ranking-yicai-proxy-regraded.csv`
+- 본 보고서: `./seoul-capital-area-run1-final-report.md`
