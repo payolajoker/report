@@ -166,7 +166,9 @@
 - 행정구역 현황
   - source: KOSIS / LX
   - table_id: `TX_315_2009_H1009`
-  - unit_level: 시군구 또는 상위단위 확인 필요
+  - unit_level: 시군구 조회 가능. 도시지역·비도시지역 구분은 행정구역상 동·읍·면 기준
+  - source_note: KOSIS 민원답변이 `국토이용 > 도시계획현황 > 도시일반현황 > 행정구역 현황` 표를 안내하고, 도시지역은 행정구역상 동·읍의 면적, 비도시지역은 면의 면적이라고 설명함
+  - source_url: https://kosis.kr/civilComplaint/qnaDetail.do?boardIdx=22848
 
 - 지가변동률
   - source: KOSIS / 한국부동산원
