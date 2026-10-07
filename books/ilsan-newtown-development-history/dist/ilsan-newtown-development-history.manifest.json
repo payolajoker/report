@@ -1,0 +1,1048 @@
+{
+  "book": {
+    "title": "일산신도시 개발사",
+    "slug": "ilsan-newtown-development-history",
+    "language": "ko",
+    "source_pdf": "sources/OTKLEC010118.pdf",
+    "total_pdf_pages": 927,
+    "transcription_batches": 93,
+    "processing_notes": {
+      "ocr_used": false,
+      "visual_review": true,
+      "method": "manual visual transcription from rendered page images; no OCR",
+      "default_batch_size_pages": 10
+    }
+  },
+  "artifacts": {
+    "index": "docs/ilsan-newtown-development-history/index.md",
+    "source_page_index": "docs/ilsan-newtown-development-history/source-page-index.md",
+    "stats": "docs/ilsan-newtown-development-history/stats.md",
+    "llm_bundle": "dist/ilsan-newtown-development-history.llm.md",
+    "manifest_json": "dist/ilsan-newtown-development-history.manifest.json"
+  },
+  "sections": [
+    {
+      "id": "batch-001",
+      "title": "PDF pages 001-010 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-001-pages-001-010.md",
+      "source_pages": "001-010",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-002",
+      "title": "PDF pages 011-020 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-002-pages-011-020.md",
+      "source_pages": "011-020",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-003",
+      "title": "PDF pages 021-030 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-003-pages-021-030.md",
+      "source_pages": "021-030",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-004",
+      "title": "PDF pages 031-040 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-004-pages-031-040.md",
+      "source_pages": "031-040",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-005",
+      "title": "PDF pages 041-050 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-005-pages-041-050.md",
+      "source_pages": "041-050",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-006",
+      "title": "PDF pages 051-060 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-006-pages-051-060.md",
+      "source_pages": "051-060",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-007",
+      "title": "PDF pages 061-070 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-007-pages-061-070.md",
+      "source_pages": "061-070",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-008",
+      "title": "PDF pages 071-080 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-008-pages-071-080.md",
+      "source_pages": "071-080",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-009",
+      "title": "PDF pages 081-090 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-009-pages-081-090.md",
+      "source_pages": "081-090",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-010",
+      "title": "PDF pages 091-100 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-010-pages-091-100.md",
+      "source_pages": "091-100",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-011",
+      "title": "PDF pages 101-110 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-011-pages-101-110.md",
+      "source_pages": "101-110",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-012",
+      "title": "PDF pages 111-120 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-012-pages-111-120.md",
+      "source_pages": "111-120",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-013",
+      "title": "PDF pages 121-130 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-013-pages-121-130.md",
+      "source_pages": "121-130",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-014",
+      "title": "PDF pages 131-140 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-014-pages-131-140.md",
+      "source_pages": "131-140",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-015",
+      "title": "PDF pages 141-150 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-015-pages-141-150.md",
+      "source_pages": "141-150",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-016",
+      "title": "PDF pages 151-160 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-016-pages-151-160.md",
+      "source_pages": "151-160",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-017",
+      "title": "PDF pages 161-170 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-017-pages-161-170.md",
+      "source_pages": "161-170",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-018",
+      "title": "PDF pages 171-180 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-018-pages-171-180.md",
+      "source_pages": "171-180",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-019",
+      "title": "PDF pages 181-190 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-019-pages-181-190.md",
+      "source_pages": "181-190",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-020",
+      "title": "PDF pages 191-200 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-020-pages-191-200.md",
+      "source_pages": "191-200",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-021",
+      "title": "PDF pages 201-210 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-021-pages-201-210.md",
+      "source_pages": "201-210",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-022",
+      "title": "PDF pages 211-220 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-022-pages-211-220.md",
+      "source_pages": "211-220",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-023",
+      "title": "PDF pages 221-230 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-023-pages-221-230.md",
+      "source_pages": "221-230",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-024",
+      "title": "PDF pages 231-240 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-024-pages-231-240.md",
+      "source_pages": "231-240",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-025",
+      "title": "PDF pages 241-250 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-025-pages-241-250.md",
+      "source_pages": "241-250",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-026",
+      "title": "PDF pages 251-260 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-026-pages-251-260.md",
+      "source_pages": "251-260",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-027",
+      "title": "PDF pages 261-270 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-027-pages-261-270.md",
+      "source_pages": "261-270",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-028",
+      "title": "PDF pages 271-280 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-028-pages-271-280.md",
+      "source_pages": "271-280",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-029",
+      "title": "PDF pages 281-290 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-029-pages-281-290.md",
+      "source_pages": "281-290",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-030",
+      "title": "PDF pages 291-300 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-030-pages-291-300.md",
+      "source_pages": "291-300",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-031",
+      "title": "PDF pages 301-310 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-031-pages-301-310.md",
+      "source_pages": "301-310",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-032",
+      "title": "PDF pages 311-320 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-032-pages-311-320.md",
+      "source_pages": "311-320",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-033",
+      "title": "PDF pages 321-330 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-033-pages-321-330.md",
+      "source_pages": "321-330",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-034",
+      "title": "PDF pages 331-340 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-034-pages-331-340.md",
+      "source_pages": "331-340",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-035",
+      "title": "PDF pages 341-350 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-035-pages-341-350.md",
+      "source_pages": "341-350",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-036",
+      "title": "PDF pages 351-360 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-036-pages-351-360.md",
+      "source_pages": "351-360",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-037",
+      "title": "PDF pages 361-370 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-037-pages-361-370.md",
+      "source_pages": "361-370",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-038",
+      "title": "PDF pages 371-380 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-038-pages-371-380.md",
+      "source_pages": "371-380",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-039",
+      "title": "PDF pages 381-390 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-039-pages-381-390.md",
+      "source_pages": "381-390",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-040",
+      "title": "PDF pages 391-400 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-040-pages-391-400.md",
+      "source_pages": "391-400",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-041",
+      "title": "PDF pages 401-410 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-041-pages-401-410.md",
+      "source_pages": "401-410",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-042",
+      "title": "PDF pages 411-420 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-042-pages-411-420.md",
+      "source_pages": "411-420",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-043",
+      "title": "PDF pages 421-430 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-043-pages-421-430.md",
+      "source_pages": "421-430",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-044",
+      "title": "PDF pages 431-440 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-044-pages-431-440.md",
+      "source_pages": "431-440",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-045",
+      "title": "PDF pages 441-450 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-045-pages-441-450.md",
+      "source_pages": "441-450",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-046",
+      "title": "PDF pages 451-460 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-046-pages-451-460.md",
+      "source_pages": "451-460",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-047",
+      "title": "PDF pages 461-470 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-047-pages-461-470.md",
+      "source_pages": "461-470",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-048",
+      "title": "PDF pages 471-480 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-048-pages-471-480.md",
+      "source_pages": "471-480",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-049",
+      "title": "PDF pages 481-490 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-049-pages-481-490.md",
+      "source_pages": "481-490",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-050",
+      "title": "PDF pages 491-500 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-050-pages-491-500.md",
+      "source_pages": "491-500",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-051",
+      "title": "PDF pages 501-510 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-051-pages-501-510.md",
+      "source_pages": "501-510",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-052",
+      "title": "PDF pages 511-520 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-052-pages-511-520.md",
+      "source_pages": "511-520",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-053",
+      "title": "PDF pages 521-530 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-053-pages-521-530.md",
+      "source_pages": "521-530",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-054",
+      "title": "PDF pages 531-540 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-054-pages-531-540.md",
+      "source_pages": "531-540",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-055",
+      "title": "PDF pages 541-550 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-055-pages-541-550.md",
+      "source_pages": "541-550",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-056",
+      "title": "PDF pages 551-560 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-056-pages-551-560.md",
+      "source_pages": "551-560",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-057",
+      "title": "PDF pages 561-570 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-057-pages-561-570.md",
+      "source_pages": "561-570",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-058",
+      "title": "PDF pages 571-580 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-058-pages-571-580.md",
+      "source_pages": "571-580",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-059",
+      "title": "PDF pages 581-590 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-059-pages-581-590.md",
+      "source_pages": "581-590",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-060",
+      "title": "PDF pages 591-600 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-060-pages-591-600.md",
+      "source_pages": "591-600",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-061",
+      "title": "PDF pages 601-610 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-061-pages-601-610.md",
+      "source_pages": "601-610",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-062",
+      "title": "PDF pages 611-620 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-062-pages-611-620.md",
+      "source_pages": "611-620",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-063",
+      "title": "PDF pages 621-630 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-063-pages-621-630.md",
+      "source_pages": "621-630",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-064",
+      "title": "PDF pages 631-640 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-064-pages-631-640.md",
+      "source_pages": "631-640",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-065",
+      "title": "PDF pages 641-650 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-065-pages-641-650.md",
+      "source_pages": "641-650",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-066",
+      "title": "PDF pages 651-660 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-066-pages-651-660.md",
+      "source_pages": "651-660",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-067",
+      "title": "PDF pages 661-670 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-067-pages-661-670.md",
+      "source_pages": "661-670",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-068",
+      "title": "PDF pages 671-680 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-068-pages-671-680.md",
+      "source_pages": "671-680",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-069",
+      "title": "PDF pages 681-690 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-069-pages-681-690.md",
+      "source_pages": "681-690",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-070",
+      "title": "PDF pages 691-700 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-070-pages-691-700.md",
+      "source_pages": "691-700",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-071",
+      "title": "PDF pages 701-710 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-071-pages-701-710.md",
+      "source_pages": "701-710",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-072",
+      "title": "PDF pages 711-720 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-072-pages-711-720.md",
+      "source_pages": "711-720",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-073",
+      "title": "PDF pages 721-730 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-073-pages-721-730.md",
+      "source_pages": "721-730",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-074",
+      "title": "PDF pages 731-740 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-074-pages-731-740.md",
+      "source_pages": "731-740",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-075",
+      "title": "PDF pages 741-750 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-075-pages-741-750.md",
+      "source_pages": "741-750",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-076",
+      "title": "PDF pages 751-760 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-076-pages-751-760.md",
+      "source_pages": "751-760",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-077",
+      "title": "PDF pages 761-770 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-077-pages-761-770.md",
+      "source_pages": "761-770",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-078",
+      "title": "PDF pages 771-780 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-078-pages-771-780.md",
+      "source_pages": "771-780",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-079",
+      "title": "PDF pages 781-790 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-079-pages-781-790.md",
+      "source_pages": "781-790",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-080",
+      "title": "PDF pages 791-800 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-080-pages-791-800.md",
+      "source_pages": "791-800",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-081",
+      "title": "PDF pages 801-810 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-081-pages-801-810.md",
+      "source_pages": "801-810",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-082",
+      "title": "PDF pages 811-820 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-082-pages-811-820.md",
+      "source_pages": "811-820",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-083",
+      "title": "PDF pages 821-830 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-083-pages-821-830.md",
+      "source_pages": "821-830",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-084",
+      "title": "PDF pages 831-840 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-084-pages-831-840.md",
+      "source_pages": "831-840",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-085",
+      "title": "PDF pages 841-850 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-085-pages-841-850.md",
+      "source_pages": "841-850",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-086",
+      "title": "PDF pages 851-860 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-086-pages-851-860.md",
+      "source_pages": "851-860",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-087",
+      "title": "PDF pages 861-870 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-087-pages-861-870.md",
+      "source_pages": "861-870",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-088",
+      "title": "PDF pages 871-880 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-088-pages-871-880.md",
+      "source_pages": "871-880",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-089",
+      "title": "PDF pages 881-890 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-089-pages-881-890.md",
+      "source_pages": "881-890",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-090",
+      "title": "PDF pages 891-900 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-090-pages-891-900.md",
+      "source_pages": "891-900",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-091",
+      "title": "PDF pages 901-910 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-091-pages-901-910.md",
+      "source_pages": "901-910",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-092",
+      "title": "PDF pages 911-920 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-092-pages-911-920.md",
+      "source_pages": "911-920",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    },
+    {
+      "id": "batch-093",
+      "title": "PDF pages 921-927 manual transcription",
+      "file": "docs/ilsan-newtown-development-history/transcription/batch-093-pages-921-927.md",
+      "source_pages": "921-927",
+      "status": "manual_transcription_done",
+      "tags": [
+        "manual-transcription",
+        "visual-review"
+      ]
+    }
+  ]
+}
